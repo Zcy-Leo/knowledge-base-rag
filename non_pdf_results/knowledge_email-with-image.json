@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-with-image.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "411d0728-9963-46a1-b653-89f3d1b1e789",
+      "type": "general",
+      "title": "Email: {subject}",
+      "content": "From: {from_addr}\nTo: {to_addr}\nDate: {date}\nSubject: {subject}\n\n{body}",
+      "source_file": "email-with-image.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject"
+      ],
+      "created_at": "2026-06-22T11:56:15.028386",
+      "metadata": {
+        "element_type": "email",
+        "parser": "email"
+      }
+    }
+  ]
+}

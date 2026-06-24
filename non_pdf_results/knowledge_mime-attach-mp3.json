@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-attach-mp3.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "036384fb-6e81-4bb1-b1d1-0cf70aefe508",
+      "type": "general",
+      "title": "Email: {subject}",
+      "content": "From: {from_addr}\nTo: {to_addr}\nDate: {date}\nSubject: {subject}\n\n{body}",
+      "source_file": "mime-attach-mp3.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject"
+      ],
+      "created_at": "2026-06-22T11:56:15.807781",
+      "metadata": {
+        "element_type": "email",
+        "parser": "email"
+      }
+    }
+  ]
+}

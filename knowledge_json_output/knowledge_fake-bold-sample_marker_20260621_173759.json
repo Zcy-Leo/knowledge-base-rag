@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-bold-sample.pdf",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "4ae1e6c5-bad5-42fb-a576-e12ce18e6cfa",
+      "type": "general",
+      "title": "## Fake Bold PDF Test Document",
+      "content": "## Fake Bold PDF Test Document\n\nNormal text: Hello World\n\nFake bold text below (each character drawn twice):\n\nBOLD TEXT SAMPLE\n\nTest i ng Dedupl i cat i on\n\nMore normal text: The quick brown fox jumps over the lazy dog.",
+      "source_file": "fake-bold-sample.pdf",
+      "source_page": 1,
+      "keywords": [
+        "BOLD",
+        "TEXT",
+        "PDF",
+        "SAMPLE"
+      ],
+      "created_at": "2026-06-19T13:55:15.303011",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "Demo"
+      }
+    },
+    {
+      "id": "d286c230-3774-43a3-98b0-46f0d9c28507",
+      "type": "general",
+      "title": "Note: The 'fake bold' lines above have each character rendered twice at slightly...",
+      "content": "Note: The 'fake bold' lines above have each character rendered twice at slightly offset positions, which causes text extraction to show doubled characters like 'BBOOLLDD' instead of 'BOLD'.",
+      "source_file": "fake-bold-sample.pdf",
+      "source_page": 1,
+      "keywords": [
+        "BBOOLLDD",
+        "BOLD"
+      ],
+      "created_at": "2026-06-19T13:55:15.303059",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "Demo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2606 @@
+[
+  {
+    "type": "NarrativeText",
+    "element_id": "5835e40a6e30be7b3e1359cd1338fcc9",
+    "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\"> <head> <link rel=\"schema.DC\" href=\"http://purl.org/dc/elements/1.1/\" /><title>Are You Weather-Ready for the Spring?</title><meta name=\"DC.title\" content=\"Are You Weather-Ready for the Spring?\" /><meta name=\"DC.description\" content=\"Are You Weather-Ready for the Spring?\" /><meta name=\"DC.creator\" content=\"US Department of Commerce, NOAA, National Weather Service\" /><meta name=\"DC.date.created\" scheme=\"ISO8601\" content=\"March 3rd 2023 9:28 PM\" /><meta name=\"DC.language\" scheme=\"DCTERMS.RFC1766\" content=\"EN-US\" /><meta name=\"DC.keywords\" content=\"Are You Weather-Ready for the Spring?\" /><meta name=\"DC.publisher\" content=\"NOAA's National Weather Service\" /><meta name=\"DC.contributor\" content=\"National Weather Service\" /><meta name=\"DC.rights\" content=\"http://www.weather.gov/disclaimer.php\" /><meta name=\"rating\" content=\"General\" /><meta name=\"robots\" content=\"index,follow\" />",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f3441a1bac67b38c03803df74a169aa3",
+    "text": "<link href=\"/css/weatherstyle.css\" rel=\"stylesheet\" type=\"text/css\" /> <link href=\"/css/template.css\" rel=\"stylesheet\" type=\"text/css\" /> <link href=\"/css/myfcst.css\" rel=\"stylesheet\" type=\"text/css\" /> <link href=\"/css/ForecastSearch.css\" rel=\"stylesheet\" type=\"text/css\" /> <link href=\"/css/pointforecast.css\" rel=\"stylesheet\" type=\"text/css\" /> <link href=\"/css/jqueryui10_3_1custom/jquery-ui-1.10.3.custom.min.css\" rel=\"stylesheet\" type=\"text/css\" /> <link href=\"/css/widgets.css\" rel=\"stylesheet\" type=\"text/css\" /> <link href=\"/css/colorbox/colorbox.css\" rel=\"stylesheet\" type=\"text/css\" />",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "445b47f3cc4f04f6b8b9da24855e76cf",
+    "text": "<script type=\"text/javascript\" src=\"/js/jquery",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "0b73906495af04e7c587a8bf22265232",
+    "text": "1.10.2.min.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1634cb186076af08e14f857e22d7ae7b",
+    "text": "<script type=\"text/javascript\" src=\"/js/jquery",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "300374301078305e87bb7b588daf5350",
+    "text": "ui",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "51adf1c31b8480606b1b09052a6cafeb",
+    "text": "1.10.3.custom.min.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e17529bc8ddbdb07c9b9866b2edd1245",
+    "text": "<script type=\"text/javascript\" src=\"/js/jquery.hoverIntent.minified.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2ab7c89d3768b3afd25d0f45a656170b",
+    "text": "<script type=\"text/javascript\" src=\"/js/ForecastSearch.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9e441bed864a786b7ca26bd9a4b35a48",
+    "text": "<script type=\"text/javascript\" src=\"/js/federated",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "38df42a514040f358eb74aefa797ca8d",
+    "text": "analytics.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1c6d7384c2fc24684c5b84a248df766f",
+    "text": "<script type=\"text/javascript\" src=\"/js/topNavMenu.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0d7afafb632a629afe6e992173fa8516",
+    "text": "<script type=\"text/javascript\" src=\"/js/NidsESRI.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "276639f79cb51278fa63390304bff7ab",
+    "text": "<script type=\"text/javascript\" src=\"/js/widgets.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5af6bddcd24eee0c4fdaf20f42f240e0",
+    "text": "<script type=\"text/javascript\" src=\"/js/jquery.cycle2.min.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "33c77c4cba96cd90b9b8f29f1b08e978",
+    "text": "<script type=\"text/javascript\" src=\"/js/jquery.colorbox",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ff24ee2c0f8f980392aaae4fa673a211",
+    "text": "min.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0a7dc8f1940b9dd8f006f789984c937a",
+    "text": "<script type=\"text/javascript\" src=\"/js/nwsexit.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1a0aae68189c5b41a14a0bf787c2403d",
+    "text": "<script type=\"text/javascript\"> var _gaq = _gaq || []; _gaq.push(['_setAccount', ' UA-40768555-2']); _gaq.push(['_anonymizeIp']); _gaq.push(['_trackPageview']);",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4efd5d41d8f7ea9c8eb1ebd86a32bd0a",
+    "text": "(function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script> </head>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "10f1f24c9b8bf4f8576b67982032e0e4",
+    "text": "<body> <div class=\"header\"> <div class=\"header-content\"> <a href=\"http://www.weather.gov\" class=\"header-nws\"><img src=\"/css/images/header.png\"  alt=\"National Weather Service\"/></a> <a href=\"http://www.commerce.gov\" class=\"header-doc\"><img src=\"/css/images/header_doc.png\" alt=\"United States Department of Commerce\"/></a> <a href=\"http://www.noaa.gov\" class=\"header-noaa\" title=\"National Oceanic and Atmospheric Administration\"></a> </div> <div style=\"clear:both\"></div> </div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a97047158b0ab4da25a4bb3e2a823407",
+    "text": "<div class=\"header",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "975eccff694c8796198585963991bfac",
+    "text": "shadow\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3de309029a05beee28d23d3ebb1e9fb8",
+    "text": "<div class=\"header",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "407a4e9fcd85573f34313a0094543837",
+    "text": "shadow",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "dbbae9eeda7e10456346e7c52a760fa5",
+    "text": "content\"></div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "10b8c322251fef79f5eacfb7c76e0527",
+    "text": "</div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "500c93326fb603fd9723a8a461bfb132",
+    "text": "<div class=\"center\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6b2f673d931f2747fac5382941eb3b3e",
+    "text": "<div class=\"center",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4175e0e1fd2d1050228c9cd2bac1d3c3",
+    "text": "content\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "25119f5e62d4715d54fb086dc9b4c2f7",
+    "text": "<div class=\"full",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6825b556ff248a97ef8ffb9759f5bce9",
+    "text": "width",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cde62c49541d45e67dc84b15ba780791",
+    "text": "border\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7f1bf539696c092955704fe84c2e0f6c",
+    "text": "<div class=\"partial",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "91d3cafa06aebf4c4f1680c017192b67",
+    "text": "width",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "55516174ae98c5506a24d2ce8f26b309",
+    "text": "borderbottom\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "59fbcb3f868911e2c1ebd83a61e92e27",
+    "text": "<!-- area for the myforecast widget and wwamap data -->",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c86708b570205221afc715f7f6a4ca3f",
+    "text": "<div class=\"div-full\"> <div class=\"div-full breadcrumb\">    <div class=\"sitename\">        <p class=\"sitename-name\">News Around NOAA</p>        <p class=\"sitename-class\">National Program</p>    </div>    <div class=\"location\">        <h1 class='location-pagetitle'>Are You Weather-Ready for the Spring?</h1>        <div class='location-breadcrumb'>            <a href=\"https://www.weather.gov\">Weather.gov</a> &gt; <a href=\"https://www.weather.gov/news\">News Around NOAA</a> &gt; Are You Weather-Ready for the Spring?        </div>    </div></div> <div class=\"div-full\">    <div class=\"subMenuNav\">        <ul id=\"subMenuNav\">            <li>                <div class=\"subMenuNavList section-link\">                    <a href=\"http://www.weather.gov/safetycampaign\">Weather Safety</a>                </div>                <div class=\"sub\">                    <ul>                        <li>                            <a href=\"https://www.weather.gov/safety/airquality\">Air Quality</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/beachhazards\">Beach Hazards</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/cold\">Cold</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/coldwater\">Cold Water</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/drought\">Drought</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/flood\">Floods</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/fog\">Fog</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/heat\">Heat</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/hurricane\"> Hurricanes</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/lightning\"> Lightning Safety</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/ripcurrent\">Rip Currents</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/safeboating\">Safe Boating</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/space\">Space Weather</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/heat-uv\">Sun (Ultraviolet Radiation)</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/thunderstorm\"> Thunderstorms & Tornadoes</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/tornado\">Tornado</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/tsunami\">Tsunami</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/wildfire\">Wildfire</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/wind\">Wind</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/safety/winter \">Winter</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class=\"subMenuNavList section-link\">                    <a href=\"https://www.weather.gov/safetycampaign\">Safety Campaigns</a>                </div>                <div class=\"sub\">                    <ul>                        <li>                            <a href=\"https://www.weather.gov/safetycampaign\">Seasonal Safety Campaigns</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/safeplaceselfie\">#SafePlaceSelfie</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/dhh-safety\">Deaf & Hard of Hearing</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/intellectualdisabilities\">Intellectual Disabilities</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/fall2020-espanol-sm\">Spanish-language Content</a>                        </li>                        <li>                            <a href=\"https://www.noaa.gov/explainers/great-outdoors-weather-safety\">The Great Outdoors</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class=\"subMenuNavList section-link\">                    <a href=\"https://www.weather.gov/wrn/ambassadors\">Ambassador</a>                </div>                <div class=\"sub\">                    <ul>                        <li>                            <a href=\"https://www.weather.gov/wrn/ambassadors\">About WRN Ambassadors</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/amb-tou\">Become an Ambassador</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/ambassador_recognition\">Ambassadors of Excellence</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/people/\">People of WRN</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/amb-faqs\"> FAQS</a>                        </li>                        <li>                            <a href=\"https://docs.google.com/forms/d/e/1FAIpQLScPHee5WAyC5K1LZ3pWLa2zjaM1HZSKN4_AxGUc6RaCy_gxLA/viewform\">Tell Your Success Story</a>                        </li>                        <li>                            <a href=\" https://www.weather.gov/wrn/success-stories\"> Success Stories</a>                        </li>                        <li>                            <a href=\"http://www.weather.gov/media/wrn/WRN_Ambassador_Trifold.pdf\">Tri-fold</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/aviation\">Aviation</a>                        </li>                        <li>                            <a href=\" http://www.weather.gov/wrn/current-ambassadors\"> Current Ambassadors</a>                        </li>                        <li>                            <a href=\"http://www.weather.gov/media/wrn/WRN_Ambassador_Flyer.pdf\">Brochure</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/en-espanol\">En Español</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class=\"subMenuNavList section-link\">                    <a href=\"http://www.weather.gov/owlie/\">Education</a>                </div>                <div class=\"sub\">                    <ul>                        <li>                            <a href=\"http://www.weather.gov/owlie/\">NWS Education Home</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/force\">Be A Force Of Nature</a>                        </li>                        <li>                            <a href=\" http://www.weather.gov/media/owlie/nws_kids_fact_sheet2.pdf\">WRN Kids Flyer</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/wea\">Wireless Emergency Alerts</a>                        </li>                        <li>                            <a href=\"http://www.nws.noaa.gov/nwr/\">NOAA Weather Radio</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/mobile-phone\">Mobile Weather</a>                        </li>                        <li>                            <a href=\"http://www.weather.gov/owlie/publication_brochures\">Brochures</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/hourly-weather-graph\">Hourly Weather Forecast</a>                        </li>                        <li>                            <a href=\"http://www.weather.gov/media/wrn/citizen_science_page.pdf\">Citizen Science</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/intellectualdisabilities\">Intellectual Disabilities</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class=\"subMenuNavList section-link\">                    <a href=\"https://www.weather.gov/wrn/collaborate\">Collaboration</a>                </div>                <div class=\"sub\">                    <ul>                        <li>                            <a href=\"https://www.weather.gov/wrn/get-involved\">Get Involved </a>                        </li>                        <li>                            <a href=\"http://www.weather.gov/socialmedia\">Social Media</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/ambassadors\">WRN Ambassadors ​</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/enterprise/\">Enterprise Resources</a>                        </li>                        <li>                            <a href=\"http://www.weather.gov/stormready/\">StormReady</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/tsunamiready/\">TsunamiReady</a>                        </li>                        <li>                            <a href=\"https://nwschat.weather.gov/\">NWSChat (core partners only)</a>                        </li>                        <li>                            <a href=\"https://inws.ncep.noaa.gov/\">InteractiveNWS (iNWS) (core partners only)​</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/SKYWARN\">SKYWARN</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class=\"subMenuNavList section-link\">                    <a href=\"http://www.weather.gov/news/\"> News & Events</a>                </div>                <div class=\"sub\">                    <ul>                        <li>                            <a href=\" http://www.weather.gov/news/\">Latest News</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/calendar\">Calendar</a>                        </li>                        <li>                            <a href=\" https://www.weather.gov/wrn/workshops\">Meetings & Workshops</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/publications/aware\">NWS Aware Newsletter</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class=\"subMenuNavList section-link\">                    <a href=\"https://www.weather.gov/wrn/wrns\">International</a>                </div>            </li>            <li>                <div class=\"subMenuNavList section-link\">                    <a href=\"https://www.weather.gov/wrn/about\">About</a>                </div>                <div class=\"sub\">                    <ul>                        <li>                            <a href=\" https://www.weather.gov/wrn/contact\">Contact Us</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/about\"> What is WRN?</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/wrn/faqs\"> WRN FAQ</a>                        </li>                        <li>                            <a href=\"http://www.weather.gov/media/wrn/WRN_Ambassador_Flyer.pdf\">WRN Brochure</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/hazardsimplification/\">Hazard Simplification</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/media/wrn/2018-IDSS2-Pager.pdf\">IDSS Brochure</a>                        </li>                        <li>                            <a href=\"http://www.weather.gov/media/wrn/nws_wrn_roadmap_final_april17.pdf\">Roadmap</a>                        </li>                        <li>                            <a href=\"https://www.weather.gov/media/wrn/NWS_Weather-Ready-Nation_Strategic_Plan_2019-2022.pdf\">Strategic Plan</a>                        </li>                        <li>                            <a href=\" https://www.weather.gov/wrn/international\">WRN International</a>                        </li>                        <li>                            <a href=\"https://vlab.noaa.gov/web/nws-social-science\">Social Science</a>                        </li>                    </ul>                </div>            </li>        </ul>    </div></div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5aeaca5e353e7b028e94c0448203ec83",
+    "text": "<div class=\"div-full\"> <div class=\"cms-content\"><p>The spring season is all about change &ndash; a rebirth both literally and figuratively. Even though the spring season doesn&rsquo;t officially (astronomically, that is) begin until March 20 this year, climatologically, it starts March 1.&nbsp;</p>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a76c780d3cbd31ab6221f0d1932cc95f",
+    "text": "<p>As cold winter nights are replaced by the warmth of longer daylight hours, the National Weather Service invites you to do two important things that may save your life or the life of a loved one.&nbsp;</p>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5f83fe5a17bbd235a4b617aca0b101af",
+    "text": "<p><strong>First, take steps to better prepare for the seasonal hazards weather can throw at you.</strong><br /> This could include a spring cleaning of your storm shelter or ensuring your emergency kit is fully stocked. Take a look at our infographics and social media posts to help you become &ldquo;weather-ready.&rdquo;&nbsp;</p>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cb0ac2014b92ca27eec15e9c9659e01b",
+    "text": "<p><strong>Second, encourage others to become Weather-Ready as well.</strong> Share the message by taking advantage of our vast array of weather safety content &ndash; everything posted on our <a href=\"https://www.weather.gov/wrn/spring-safety\">Spring Safety website</a> is freely available, and we encourage sharing on social media networks. Also remember those who are most vulnerable, like an elderly family member or neighbor who might have limited mobility or is isolated. Reach out to those who are at higher risk of being impacted by extreme weather, and help them get prepared. This simple act of caring could become heroic.&nbsp;</p>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c80df934fdcf6867dfcd6f59f208430f",
+    "text": "<p>This spring, the campaign is focused on heat dangers. Heat illness and death can occur even in spring&rsquo;s moderately warm weather. The majority of all heat-related deaths occur outside of heat waves and roughly a third of child hot car deaths occur outside of the summer months. Learn more by viewing the <a href=\"https://www.weather.gov/wrn/spring-infographics\">infographics</a> that are now available.&nbsp;</p>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d47f1bb8cc8049e33e6fcce145b9df20",
+    "text": "<p>Stay safe this spring, and every season, by being informed, prepared, and Weather-Ready.</p>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0fc8ae01dfca85f1ff00d87a46bf2807",
+    "text": "<p><a href=\"/images/wrn/Infographics/2023/outside",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "36cb2c24b1208a24570090ae5e316d67",
+    "text": "of",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d82eec893eefede84bd6a7d36f28e8c8",
+    "text": "heatwaves.png\"><img alt=\"\" src=\"/images/wrn/Infographics/2023/outside",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "59f683a26c9a57c0d6a9b5d376933710",
+    "text": "of",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "48c15092cb73e94e251c91509f81edbd",
+    "text": "heatwaves.png\" style=\"width: 700px;\" /></a></p>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "12716355230d27cd514ef2ef6de59a11",
+    "text": "</div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2316e1682dc56945e8a76d5f07253e16",
+    "text": "</div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b82b418afd7813168bb95d0ce0807de9",
+    "text": "<div style=\"clear:both\"></div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5983a368f575329e5e8b137b2ac33a37",
+    "text": "</div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ad1e4d310c983556478fe72b4aa1283e",
+    "text": "</div><!-",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "dd54f3cf37851c80cbc5eb643b52dc2a",
+    "text": "end of <div class=\"partial",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ce22f99e9e88c71c78b2b462e61edf29",
+    "text": "width",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a9a96a2347b32359386e03d895041af5",
+    "text": "borderbottom\"> -",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "61ae13fc3592da0c0141d1b8139fe7d4",
+    "text": ">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f35dfb76bf37688a0ba00315750aa3d2",
+    "text": "</div><!-",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d5e1eae7addef05ace2e51aefc866598",
+    "text": "<div class=\"full",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a20a179f5e8d6d37c0d0901ea4bf2ed1",
+    "text": "width",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4b89a03b8ee54098ca3861641ae68d77",
+    "text": "border\"> -",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "682d00858c38a903bd12b55a7ce0f7e0",
+    "text": ">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "614942125138bd6b375d66e16dd22a0b",
+    "text": "<div class=\"partial-width-borderbottom feature-block\"> <!-- area for features, frontpage thumbs, and custom page -->",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f9abf64570ca09664fedcb92678258c7",
+    "text": "</div><!-",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7b8db241f50852d6030999fd5c031489",
+    "text": "end of <div class=\"partial",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f87ae6a60cffeb700c1f433cf2dd8c0f",
+    "text": "width",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4eb1fd093aeabaa655648a0ae0d82f93",
+    "text": "borderbottom feature",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "394e081d993e38f061a90e5d4802ba16",
+    "text": "block\"> -",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "61287dca36454aec1ffeef2ab1c0dad6",
+    "text": ">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "199303272c0a96e4b77d1e203b762601",
+    "text": "<div class=\"full",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ecd14a7a631d791b89e5aabab934268e",
+    "text": "width",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e70ba7770a2edce471803bc80725d6ae",
+    "text": "first\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f87bd03c5086e1f50f5095c952002d8b",
+    "text": "</div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "87503c16b4fe103ab69be8733b775307",
+    "text": "<div style=\"clear:both;\"></div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "6cb35ab5d0e3833ae1c9a1bccd171983",
+    "text": "</div><!-",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "349f2239104249528002b3fe27638ac7",
+    "text": "<div class=\"center",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a3798ebbfb39c52d607d2e9814ab0707",
+    "text": "content\"> -",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "bae4b74d467785ef24a27d95ba95c49c",
+    "text": ">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9f668a0da57517b853b76e6a1e9017fc",
+    "text": "</div><!-- end of <div class=\"center\"> -->",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "57103668fdc8a9351e1510bf49ecd7a5",
+    "text": "<!-",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "589aabd4398a722496c148c3fdfe6fa5",
+    "text": "sitemap area -",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "476c499df26384546664defc9d85fef3",
+    "text": ">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "425b1c622f20a14fffe7c702332223d6",
+    "text": "<div class=\"footer\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cf6c98ada72f3cb2050d5f7d3fe73196",
+    "text": "</div><!-- end of <div class=\"footer\"> -->",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ac8328046c0ec4bc0ecc1695fb17cc7c",
+    "text": "<!-",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fb00e5075c2eaa9c6b5b3a1e4e552ced",
+    "text": "legal footer area -",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "8732ddd5108e5e1600a60beb30dd9a36",
+    "text": ">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f1bcb321d1e66d13c631c77a2d25e803",
+    "text": "<div class=\"footer",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7971dbae021d9716ef349fbbc1424b97",
+    "text": "legal\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "db42bd8b827221a4bc3e5f3e90579975",
+    "text": "<div class=\"footer",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "edb4bb7bbd33e07553541019f7d03647",
+    "text": "legal\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "400dce0e4c893e276ab6b04faf19d357",
+    "text": "<div class=\"footer",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3f5848d193d140c09707fef4c21473e4",
+    "text": "legal",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e7907f8cad6d86eb36f1ecb7075fa82a",
+    "text": "content\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6a8eb99f44eff676ed1c0cb4ea926ec8",
+    "text": "<div class=\"one-sixth-first\" id=\"footer_legal_gov\"> <a href=\"http://www.usa.gov\"><img src=\"/css/images/usa_gov.png\" alt=\"usa.gov\" width=\"110\" height=\"30\" /></a> </div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8bdec54526b875f17d93cd36ae336f99",
+    "text": "<div class=\"one-half-first\" id=\"footer_legal_info\"> <p> <a href=\"http://www.commerce.gov\">US Dept of Commerce</a><br /> <a href=\"http://www.noaa.gov\">National Oceanic and Atmospheric Administration</a><br /> <a href=\"https://www.weather.gov\" >National Weather Service</a><br /> News Around NOAA<br>1325 East West Highway<br />Silver Spring, MD 20910<br /><br /><br /><a href=\"https://www.weather.gov/news/contact\">Comments? Questions? Please Contact Us.</a>                    </p> </div><!-- end of <div class=\"one-half-first\" id=\"footer_legal_info\"> -->",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ba6895acd23e698ca4f5ebcac1158771",
+    "text": "<div class=\"one",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "684f9d94a4d8c57c0d80eb40a9ee9e1d",
+    "text": "third",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0dfd9b4b4a0bf6f0fe6f9986a53a1a15",
+    "text": "last\" id=\"footer_required_links\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5f743b4dd4a6d409b5e8bfab8e6f1e94",
+    "text": "<div class=\"div",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "567169fc50a06bad2eb5d30cfbec9ada",
+    "text": "half\">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "67332029e0e66f28a68ea872a7ed0159",
+    "text": "<a href=\"https://www.weather.gov/disclaimer\">Disclaimer</a><br />",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7c32f18a3fe3c13e1deb9bba5c6bbeb7",
+    "text": "<a href=\"http://www.cio.noaa.gov/services_programs/info_quality.html\">Information Quality</a><br />",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b07ff82d18a73b9a23500dc69571d2df",
+    "text": "<a href=\"https://www.weather.gov/help\">Help</a><br />",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "129651a1e7fbec392cc6e8d30d453ff6",
+    "text": "<a href=\"http://www.weather.gov/glossary\">Glossary</a>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e8377cb924a6625d3e455bbff4ddb37e",
+    "text": "</div>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4b6abbca97b80140a8d8c5a988bcd294",
+    "text": "<div class=\"div-half\"> <a href=\"https://www.weather.gov/privacy\">Privacy Policy</a><br /> <a href=\"https://www.noaa.gov/foia-freedom-of-information-act\">Freedom of Information Act (FOIA)</a><br /> <a href=\"https://www.weather.gov/about\">About Us</a><br /> <a href=\"https://www.weather.gov/careers\">Career Opportunities</a> </div> </div><!-- end of <div class=\"one-third-last\" id=\"footer_required_links\"> -->",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "d86df7184413151dc4bc70b5883214ca",
+    "text": "</div><!-",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "77216ee668bcb2b85f36cbcd99ed2aa3",
+    "text": "end of <div class=\"footer",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9d9640adbb62b6147f4df0b66178ab6d",
+    "text": "legal",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a1adda083fab638927be8b0476ca93ca",
+    "text": "content\"> -",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3cb0913461fa90dcc19c09609ba2dc84",
+    "text": ">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b0ac2ad3c874cc3d05b0003fac86e7c3",
+    "text": "</div><!-",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "56074c71782942623c03a5952c80c4b7",
+    "text": "end of <div class=\"footer",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "890a649e568bae720bb806c17e83d41f",
+    "text": "legal\"> -",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "e9742537e3e470d0459a92404c551487",
+    "text": ">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "1b52d2763ddb9077c1b89db85a0dce74",
+    "text": "</div><!-",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "007da9ecd1b105a467ddad4fe521826f",
+    "text": "end of <div class=\"footer",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ba4413baf66bd9fa4f5e349b2c4fac25",
+    "text": "legal\"> -",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "34c5e41fa3072334e67ca2ac962fd3a9",
+    "text": ">",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "578a379ef0b59fbc3a8978acc21adbb6",
+    "text": "<script type=\"text/javascript\" src=\"//www.weather.gov/js/govshutdown.js\"></script>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "51984e62ea77193a2af3064e5ce6c2a5",
+    "text": "</body>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c6ac536319a95dbca73cd08946891ee7",
+    "text": "</html>",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/plain",
+      "data_source": {
+        "url": "abfs://container1/spring-weather.html",
+        "version": "0x8DB214B74525BB6",
+        "record_locator": {
+          "protocol": "abfs",
+          "remote_file_path": "abfs://container1/"
+        },
+        "date_created": "1678441216.0",
+        "date_modified": "1678441216.0"
+      }
+    }
+  }
+]

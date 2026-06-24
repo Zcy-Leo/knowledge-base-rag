@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "header-test-doc.pdf",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "847900d1-d5b1-472a-95e2-b0373d17eff5",
+      "type": "general",
+      "title": "## I Am A Header",
+      "content": "## I Am A Header\n\n## **Title**\n\nHere is a lovely sentences.",
+      "source_file": "header-test-doc.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:12:19.644407",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    }
+  ]
+}

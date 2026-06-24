@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "source_file": "README.md",
+  "total_entries": 6,
+  "entries": [
+    {
+      "id": "537e52fe-1b7f-43b8-88fd-3613d68e484d",
+      "type": "general",
+      "title": "The sample docs directory contains the following f...",
+      "content": "The sample docs directory contains the following files:",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:52.029214",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "2746971c-52f3-46b7-ad2b-764aa0b8b20f",
+      "type": "general",
+      "title": "- `example-10k.html` - A 10-K SEC filing in HTML f...",
+      "content": "- `example-10k.html` - A 10-K SEC filing in HTML format\n- `layout-parser-paper.pdf` - A PDF copy of the layout parser paper\n- `factbook.xml`/`factbook.xsl` - Example XML/XLS files that you can use to test stylesheets",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [
+        "HTML",
+        "XML",
+        "SEC",
+        "XLS",
+        "format",
+        "paper"
+      ],
+      "created_at": "2026-06-16T11:57:52.029284",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "2b0c2cb0-8b85-486e-b3f2-cad5b01a467e",
+      "type": "general",
+      "title": "These documents can be used to test out the parser...",
+      "content": "These documents can be used to test out the parsers in the library. In addition, here are\ninstructions for pulling in some sample docs that are too big to store in the repo.",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [
+        "These"
+      ],
+      "created_at": "2026-06-16T11:57:52.029336",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "fa73073c-4790-4278-bd63-af6554cec0c0",
+      "type": "general",
+      "title": "You can get an example 10-K in inline XBRL format ...",
+      "content": "You can get an example 10-K in inline XBRL format using the following `curl`. Note, you need\nto have the user agent set in the header or the SEC site will reject your request.",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [
+        "SEC",
+        "XBRL",
+        "Note",
+        "format"
+      ],
+      "created_at": "2026-06-16T11:57:52.029389",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "07a7d8f9-aa09-4b71-934b-eba97fddcaff",
+      "type": "general",
+      "title": "```bash\ncurl -O \\\n  -A '${organization} ${email}'\n...",
+      "content": "```bash\ncurl -O \\\n  -A '${organization} ${email}'\n  https://www.sec.gov/Archives/edgar/data/311094/000117184321001344/0001171843-21-001344.txt\n```",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [
+        "data"
+      ],
+      "created_at": "2026-06-16T11:57:52.029428",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "3ff53d23-7ed0-4253-b3e0-6b36b84c2aa2",
+      "type": "general",
+      "title": "You can parse this document using the HTML parser.",
+      "content": "You can parse this document using the HTML parser.",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [
+        "HTML",
+        "document"
+      ],
+      "created_at": "2026-06-16T11:57:52.029449",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Unstructured_Demo"
+      }
+    }
+  ]
+}

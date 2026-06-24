@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "source_file": "teams_chat.docx",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "056aa633-d727-413b-9b9b-ab6c61d225f7",
+      "type": "general",
+      "title": "0:0:0.0 --> 0:0:1.510\nSome Body\nOK. Yeah.",
+      "content": "0:0:0.0 --> 0:0:1.510\nSome Body\nOK. Yeah.",
+      "source_file": "teams_chat.docx",
+      "source_page": 0,
+      "keywords": [
+        "Some",
+        "Yeah"
+      ],
+      "created_at": "2026-06-22T11:57:41.305202",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "ba439528-a655-4758-8b74-08413385371f",
+      "type": "general",
+      "title": "0:0:3.270 --> 0:0:4.250\nJames Bond\nUmm.",
+      "content": "0:0:3.270 --> 0:0:4.250\nJames Bond\nUmm.",
+      "source_file": "teams_chat.docx",
+      "source_page": 0,
+      "keywords": [
+        "James",
+        "Umm"
+      ],
+      "created_at": "2026-06-22T11:57:41.305403",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "b2a01ec1-5f9d-4437-b291-e83980295a71",
+      "type": "general",
+      "title": "Table Content",
+      "content": "saved-by | Dennis Forsythe",
+      "source_file": "teams_chat.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:41.305594",
+      "metadata": {
+        "element_type": "table",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

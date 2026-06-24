@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "single_table (1).pdf",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "2d593f09-f2e6-4034-9207-5ddc9708a4cf",
+      "type": "sop_step",
+      "title": "| Processing | total chunks | mean chunks per document (std) | tables mean (std)...",
+      "content": "| Processing | total chunks | mean chunks per document (std) | tables mean (std) |\n|------------|--------------|--------------------------------|-------------------|\n| Base 128   | 64,058       | 800.73 (484.11)                | N/A               |\n| Base 256   | 32,051       | 400.64 (242.04)                | N/A               |\n| Base 512   | 16,046       | 200.58 (121.01)                | N/A               |\n| Chipper    | 20,843       | 260.57 (145.80)                | 96.20 (57.53)     |",
+      "source_file": "single_table (1).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:59:41.023067",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    }
+  ]
+}

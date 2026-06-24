@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-html.html",
+  "total_entries": 4,
+  "entries": [
+    {
+      "id": "607cb7a7-1020-4753-aceb-78b52f261a2d",
+      "type": "general",
+      "title": "<!DOCTYPE html>\n<html>\n<body>",
+      "content": "<!DOCTYPE html>\n<html>\n<body>",
+      "source_file": "fake-html.html",
+      "source_page": 0,
+      "keywords": [
+        "DOCTYPE"
+      ],
+      "created_at": "2026-06-16T14:12:24.645377",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Demo",
+        "source": "fake-html.html"
+      }
+    },
+    {
+      "id": "6fca4bec-4e86-4105-aaf0-1e47e837a6b9",
+      "type": "general",
+      "title": "<h1>My First Heading</h1>\n<h2>My Second Heading</h...",
+      "content": "<h1>My First Heading</h1>\n<h2>My Second Heading</h2>\n<p>My first paragraph. lorem ipsum dolor set amet. if the cow comes home under the sun how do you fault the cow for it's worn hooves?</p>",
+      "source_file": "fake-html.html",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:24.645446",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Demo",
+        "source": "fake-html.html"
+      }
+    },
+    {
+      "id": "b49d351e-d54a-40b6-bdb5-cc856ea6a802",
+      "type": "general",
+      "title": "<ul>\n    <li>A test list</li>\n    <ul>\n        <li...",
+      "content": "<ul>\n    <li>A test list</li>\n    <ul>\n        <li>With sub-bullets!</li>\n        <li>And another</li>\n    </ul>\n    <li>Back at the root</li>\n</ul>",
+      "source_file": "fake-html.html",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:24.645492",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Demo",
+        "source": "fake-html.html"
+      }
+    },
+    {
+      "id": "72fbf734-3585-48e2-938f-7c7d5d425d0c",
+      "type": "general",
+      "title": "<h3>A Third Heading</h3>\n<table>\n    <tr>\n        ...",
+      "content": "<h3>A Third Heading</h3>\n<table>\n    <tr>\n        <th>Column 1</th>\n        <th>Column 2</th>\n    </tr>\n    <tr>\n        <td>Row 1, Cell 1</td>\n        <td>Row 1, Cell 2</td>\n    </tr>\n    <tr>\n        <td>Row 2, Cell 1</td>\n        <td>Row 2, Cell 2</td>\n    </tr>\n</table>",
+      "source_file": "fake-html.html",
+      "source_page": 0,
+      "keywords": [
+        "table"
+      ],
+      "created_at": "2026-06-16T14:12:24.645566",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Demo",
+        "source": "fake-html.html"
+      }
+    }
+  ]
+}

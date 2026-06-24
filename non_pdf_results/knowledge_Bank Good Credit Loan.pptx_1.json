@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "source_file": "Bank Good Credit Loan.pptx_1.txt",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "0a3b8404-ab89-4ec3-99b3-a0e8b5a02280",
+      "type": "general",
+      "title": "Bank Good Credit \nAccredited with IABAC™\n( Interna...",
+      "content": "Bank Good Credit \nAccredited with IABAC™\n( International Association of Business Analytics Certifications)`\n© DataMites™. All Rights Reserved | www.datamites.com\nObjective & Background\nClassify credit card customers as good / bad, based on information from internal and external sources. \nData provided\nDemographic: Base file of with credit card history details. Only one record for every customer.\nAccount: Contians data for various loans availed by the customer. Not related to credit card. Multiple records for every customer.\nEnquiries: Enquired made by customers for different loan purposes. Multiple records for every customer.\t\n© DataMites™. All Rights Reserved | www.datamites.com\nDesign\nData to be downloaded using SQL queries.\nRequired information to be extracted from Account and Enquiry files and converted to one-to-one files.\nThe columns from the two files should be merged with Demographic file using Left Join with “customer no” as key column, to create a final file. The final file should contain all the records in demographic and additional columns/features from Account and Enquiry files will get added to Demographic file.\nThere will be many customers in account and enquiry file who will get left out. This is fine as we anyway don’t know their good/bad label for training purpose. \n© DataMites™. All Rights Reserved | www.datamites.com\nAnalysis of Data\nShow using Excel File\n© DataMites™. All Rights Reserved | www.datamites.com\nExplain Coding / outcomes \nShow using Jupyter\n© DataMites™. All Rights Reserved | www.datamites.com\nThank You\n© DataMites™. All Rights Reserved | www.datamites.com",
+      "source_file": "Bank Good Credit Loan.pptx_1.txt",
+      "source_page": 0,
+      "keywords": [
+        "IABAC",
+        "SQL",
+        "Bank",
+        "Accredited",
+        "All",
+        "Objective",
+        "data",
+        "file"
+      ],
+      "created_at": "2026-06-22T11:57:36.790051",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "source_file": "multi-column-2p.pdf",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "ae499f70-5930-47a7-a9b2-ee28f9dddf6c",
+      "type": "general",
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "content": "",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:26:15.361811",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "80bc0f14-bc96-4975-9c50-9915d004feb1",
+      "type": "general",
+      "title": "Vladimir Karpukhin<sup>∗</sup> , Barlas Oguz ˘ ∗ , Sewon Min† , Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen‡ , Wen-tau Yih",
+      "content": "Facebook AI †University of Washington ‡Princeton University {vladk, barlaso, plewis, ledell, edunov, scottyih}@fb.com sewon@cs.washington.edu danqic@cs.princeton.edu",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": [
+        "AI"
+      ],
+      "created_at": "2026-06-19T14:26:15.361902",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "173208f2-4dc3-47bd-9d12-d4ea1aa064ba",
+      "type": "general",
+      "title": "Abstract",
+      "content": "Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. In this work, we show that retrieval can be practically implemented using *dense* representations alone, where embeddings are learned from a small number of questions and passages by a simple dualencoder framework. When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene-BM25 system greatly by 9%-19% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks.[1](#page-0-0)",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": [
+        "IDF",
+        "QA",
+        "TF"
+      ],
+      "created_at": "2026-06-19T14:26:15.361994",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "4cd48ca2-3e91-4ded-9568-ca1eb99be428",
+      "type": "manual_section",
+      "title": "1 Introduction",
+      "content": "Open-domain question answering (QA) [\\(Voorhees,](#page--1-0) [1999\\)](#page--1-0) is a task that answers factoid questions using a large collection of documents. While early QA systems are often complicated and consist of multiple components [\\(Ferrucci](#page--1-1) [\\(2012\\)](#page--1-1); [Moldovan](#page--1-2) [et al.](#page--1-2) [\\(2003\\)](#page--1-2), *inter alia*), the advances of reading comprehension models suggest a much simplified two-stage framework: (1) a context *retriever* first selects a small subset of passages where some of them contain the answer to the question, and then (2) a machine *reader* can thoroughly examine the retrieved contexts and identify the correct answer [\\(Chen et al.,](#page--1-3) [2017\\)](#page--1-3). Although reducing open-domain QA to machine reading is a very reasonable strategy, a huge performance degradation is often observed in practice[2](#page-0-1) , indicating the needs of improving retrieval.\n\nRetrieval in open-domain QA is usually implemented using TF-IDF or BM25 [\\(Robertson and](#page--1-5) [Zaragoza,](#page--1-5) [2009\\)](#page--1-5), which matches keywords efficiently with an inverted index and can be seen as representing the question and context in highdimensional, sparse vectors (with weighting). Conversely, the *dense*, latent semantic encoding is *complementary* to sparse representations by design. For example, synonyms or paraphrases that consist of completely different tokens may still be mapped to vectors close to each other. Consider the question *\"Who is the bad guy in lord of the rings?\"*, which can be answered from the context *\"Sala Baker is best known for portraying the villain Sauron in the Lord of the Rings trilogy.\"* A term-based system would have difficulty retrieving such a context, while a dense retrieval system would be able to better match *\"bad guy\"* with *\"villain\"* and fetch the correct context. Dense encodings are also *learnable* by adjusting the embedding functions, which provides addit",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": [
+        "IDF",
+        "QA",
+        "MIPS",
+        "TF"
+      ],
+      "created_at": "2026-06-19T14:26:15.362625",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "e23e412b-bfa6-41d1-8f14-b601df56d4ae",
+      "type": "table_data",
+      "title": "2 Background",
+      "content": "The problem of open-domain QA studied in this paper can be described as follows. Given a factoid question, such as \"Who first voiced Meg on Family Guy?\" or \"Where was the 8th Dalai Lama born?\", a system is required to answer it using a large corpus of diversified topics. More specifically, we assume\n\nthe extractive QA setting, in which the answer is restricted to a span appearing in one or more passages in the corpus. Assume that our collection contains D documents,  $d_1, d_2, \\dots, d_D$ . We first split each of the documents into text passages of equal lengths as the basic retrieval units<sup>3</sup> and get Mtotal passages in our corpus  $C = \\{p_1, p_2, \\dots, p_M\\},\\$ where each passage  $p_i$  can be viewed as a sequence of tokens  $w_1^{(i)}, w_2^{(i)}, \\cdots, w_{|p_i|}^{(i)}$ . Given a question q, the task is to find a span  $w_s^{(i)}, w_{s+1}^{(i)}, \\cdots, w_e^{(i)}$  from one of the passages  $p_i$  that can answer the question. Notice that to cover a wide variety of domains, the corpus size can easily range from millions of documents (e.g., Wikipedia) to billions (e.g., the Web). As a result, any open-domain QA system needs to include an efficient retriever component that can select a small set of relevant texts, before applying the reader to extract the answer (Chen et al., 2017).<sup>4</sup> Formally speaking, a retriever  $R:(q,\\mathcal{C})\\to\\mathcal{C}_{\\mathcal{F}}$ is a function that takes as input a question q and a corpus C and returns a much smaller *filter set* of texts  $\\mathcal{C}_{\\mathcal{F}} \\subset \\mathcal{C}$ , where  $|\\mathcal{C}_{\\mathcal{F}}| = k \\ll |\\mathcal{C}|$ . For a fixed k, a retriever can be evaluated in isolation on top-k retrieval accuracy, which is the fraction of questions for which  $\\mathcal{C}_{\\mathcal{F}}$  contains a span that answers the question.",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": [
+        "QA"
+      ],
+      "created_at": "2026-06-19T14:26:15.362778",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "d2dd8402-bf02-48db-92b5-9d3bb101ab10",
+      "type": "general",
+      "title": "3 Dense Passage Retriever (DPR)",
+      "content": "We focus our research in this work on improving the *retrieval* component in open-domain QA. Given a collection of M text passages, the goal of our dense passage retriever (DPR) is to index all the passages in a low-dimensional and continuous space, such that it can retrieve efficiently the top k passages relevant to the input question for the reader at run-time. Note that M can be very large (e.g., 21 million passages in our experiments, described in Section 4.1) and k is usually small, such as 20-100.",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": [
+        "QA",
+        "DPR"
+      ],
+      "created_at": "2026-06-19T14:26:15.362836",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "f8684f69-c6fd-4cbe-89eb-e0103de62b01",
+      "type": "manual_section",
+      "title": "3.1 Overview",
+      "content": "Our dense passage retriever (DPR) uses a dense encoder  $E_P(\\cdot)$  which maps any text passage to a d-dimensional real-valued vectors and builds an index for all the M passages that we will use for retrieval.\n\n<span id=\"page-1-0\"></span><sup>&</sup>lt;sup>3</sup>The ideal size and boundary of a text passage are functions of both the retriever and reader. We also experimented with natural paragraphs in our preliminary trials and found that using fixed-length passages performs better in both retrieval and final QA accuracy, as observed by Wang et al. (2019).\n\n<span id=\"page-1-1\"></span><sup>&</sup>lt;sup>4</sup>Exceptions include (Seo et al., 2019) and (Roberts et al., 2020), which *retrieves* and *generates* the answers, respectively.",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": [
+        "QA",
+        "DPR"
+      ],
+      "created_at": "2026-06-19T14:26:15.362919",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    }
+  ]
+}

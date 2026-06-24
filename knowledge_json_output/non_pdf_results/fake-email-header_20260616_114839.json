@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email-header.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "91b026ed-397c-4b59-a506-d7ce00396a14",
+      "type": "general",
+      "title": "Received: from ABCDEFG-000.ABC.guide (00.0.0.00) b...",
+      "content": "Received: from ABCDEFG-000.ABC.guide (00.0.0.00) by ABCDEFG-000.ABC.guide\r\n ([ba23::58b5:2236:45g2:88h2]) with Unstructured TTTT Server (version=ABC0_0,\r\n cipher=ABC_ABCDE_ABC_NOPE_ABC_000_ABC_ABC000) id 00.0.000.0 via Techbox\r\n Transport; Wed, 20 Feb 2023 10:03:18 +1200\r\nMIME-Version: 1.0\r\nDate: Fri, 16 Dec 2022 17:04:16 -0500\r\nBcc: Hello <hello@unstructured.io>\r\nMessage-ID: <CADc-_xaLB2FeVQ7mNsoX+NJb_7hAJhBKa_zet-rtgPGenj0uVw@mail.gmail.com>\r\nSubject: Test Email\r\nFrom: Matthew Robinson <mrobinson@unstructured.io>\r\nTo: Matthew Robinson <mrobinson@unstructured.io>\r\nCc: Fake Email <fake-email@unstructured.io>, test@unstructured.io\r\nContent-Type: multipart/alternative; boundary=\"00000000000095c9b205eff92630\"\r\n\r\n--00000000000095c9b205eff92630\r\nContent-Type: text/plain; charset=\"UTF-8\"\r\n\r\nThis is a test email to use for unit tests.\r\n\r\nImportant points:\r\n\r\n   - Roses are red\r\n   - Violets are blue\r\n\r\n--00000000000095c9b205eff92630\r\nContent-Type: text/html; charset=\"UTF-8\"\r\n\r\n<div dir=\"ltr\"><div>This is a test email to use for unit tests.</div><div><br></div><div>Important points:</div><div><ul><li>Roses are red</li><li>Violets are blue</li></ul></div></div>\r\n\r\n--00000000000095c9b205eff92630--",
+      "source_file": "fake-email-header.eml",
+      "source_page": 0,
+      "keywords": [
+        "ABCDEFG",
+        "MIME",
+        "UTF",
+        "TTTT",
+        "Received",
+        "Date",
+        "Fri",
+        "guide"
+      ],
+      "created_at": "2026-06-16T11:48:39.197460",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake email header"
+      }
+    }
+  ]
+}

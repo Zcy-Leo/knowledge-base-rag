@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-equals-attachment-filename.eml",
+  "total_entries": 8,
+  "entries": [
+    {
+      "id": "f190f525-b033-46d4-9995-ef4b272e2460",
+      "type": "general",
+      "title": "Return-Path: <testuser@example.com>\nDelivered-To: ...",
+      "content": "Return-Path: <testuser@example.com>\nDelivered-To: recipient@example.com\nReceived: from mail-il1-x135.google.com (mail-il1-x135.google.com [IPv6:2607:f8b0:4864:20::135])\n\tby spool.mail.gandi.net (Postfix) with ESMTPS id 30071740049\n\tfor <recipient@example.com>; Sun, 13 Aug 2023 22:00:09 +0000 (UTC)\nReceived: by mail-il1-x135.google.com with SMTP id e9e14a558f8ab-34aa0845837so895295ab.1\n        for <recipient@example.com>; Sun, 13 Aug 2023 15:00:09 -0700 (PDT)\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\n        d=gmail.com; s=20221208; t=1691964008; x=1692568808;\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\n         :date:message-id:reply-to;\n        bh=u2zZbdTcme/MRpud6yh6mKzbHh7iBKn7qvZ1YZJcZuQ=;\n        b=LxHBRFvl8tDcIithe7Il7GC7rAEu5QHGoko+PZll4SUDgh0gYHu35ksEuMO3bBT3sB\n         UGM5/Obbn+17F+DL0Mk/Zyc/6gG15lNMVLcr9+Fzjt2hDkrcUsEAkmS9chFiF0asGebj\n         F3vn1FJ9ZDi3IISHeD80PzmhT23Zp4ELjrfEGv2go7Psb320wzL58mHObkhz2spXEK0c\n         YzlCkJd8hBz2wI5mKedzf4mLdbTUZhPpmycvS+NkNwxQzaMXouLEkBvOXticqPQHvbTe\n         IiTb2JsaTFEJCfDVjhzIuGA6fFqNmH7hz7Fjh6eW66msB2QCIAhWHIIQ0Uy0Lx0FaQeo\n         pA5w==\nX-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\n        d=1e100.net; s=20221208; t=1691964008; x=1692568808;\n        h=to:subject:message-id:date:from:mime-version:x-gm-message-state\n         :from:to:cc:subject:date:message-id:reply-to;\n        bh=u2zZbdTcme/MRpud6yh6mKzbHh7iBKn7qvZ1YZJcZuQ=;\n        b=InxJceRYlLILD0JdetCcOea42zYYLr8BYlhXxpB07TuFAiKbIV28vxmp7XaEa6YIuA\n         IkpNpvLWrlRJpLsKvJF9QRdIAt83p+91zvd2BW8M0P7AP04KofvzGbbCFG67tjr23K7S\n         YYuVSIXgVli3sjbIMsxq/JnaHWk1fnrGBvpnMLEEekqsdXpyL5GJ0yN0Qb/4lBZO1uO9\n         oZ0gbwqEMA/eHAnpH5W/g9ubkVcXzfjSPCRzzNhXfOEGn3Cc5sAuEH03iVuVIKMe9FJg\n         sO5iyah9+tjnm1NBWCk2qSIuCJrA0YvqcoztgpmJYDDQtG6scHRL83DdMx7phwRlVd/l\n         S6rQ==\nX-Gm-Message-State: AOJu0YzoTpbToiITeHpRUQB8Tc5krfAtkhP2TRgs0WdgPAgfeUixZft6\n\tvGUz3KcsN2V+qf2+RQPiveSjelXe81VfycqaH+I2hUNd\nX-Google-Smtp-Source: AGHT+IFzHJ5xiuLxHriivr/CAV7z2Qo6Jep/LEhlzu4GiHEoXTFGC1DZ/MTDROwUz3fXKlKLU6uBzylF4XSOdKWfTW8=\nX-Received: by 2002:a05:6e02:1bee:b0:349:2d1d:e463 with SMTP id\n y14-20020a056e021bee00b003492d1de463mr12404311ilv.13.1691964008036; Sun, 13\n Aug 2023 15:00:08 -0700 (PDT)\nMIME-Version: 1.0\nFrom: Test User <testuser@example.com>\nDate: Sun, 13 Aug 2023 14:59:56 -0700\nMessage-ID: <CABBgHeGAW=UW77EE7p4CsCuaudixAYUU8iPqsm3=4921Wc9Vxw@mail.gmail.com>\nSubject: Odd filename example\nTo: recipient@example.com\nContent-Type: multipart/mixed; boundary=\"000000000000ac11b20602d51124\"\nX-GND-Status: LEGIT",
+      "source_file": "email-equals-attachment-filename.eml",
+      "source_page": 0,
+      "keywords": [
+        "GND",
+        "ESMTPS",
+        "SMTP",
+        "AGHT",
+        "Return",
+        "Delivered",
+        "Received"
+      ],
+      "created_at": "2026-06-16T11:53:31.825389",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "ae39929c-7f33-4e79-9743-1b0f5da4bc1d",
+      "type": "general",
+      "title": "--000000000000ac11b20602d51124\nContent-Type: multi...",
+      "content": "--000000000000ac11b20602d51124\nContent-Type: multipart/alternative; boundary=\"000000000000ac11b10602d51122\"",
+      "source_file": "email-equals-attachment-filename.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content"
+      ],
+      "created_at": "2026-06-16T11:53:31.825442",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "82907a27-0ca0-4f87-8961-cc6f2f998976",
+      "type": "general",
+      "title": "--000000000000ac11b10602d51122\nContent-Type: text/...",
+      "content": "--000000000000ac11b10602d51122\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "email-equals-attachment-filename.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:53:31.825471",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "bbd0b5e5-09f5-4d2f-8063-8c842577287d",
+      "type": "general",
+      "title": "Below is an example of an odd filename",
+      "content": "Below is an example of an odd filename",
+      "source_file": "email-equals-attachment-filename.eml",
+      "source_page": 0,
+      "keywords": [
+        "Below"
+      ],
+      "created_at": "2026-06-16T11:53:31.825493",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "aca59fdd-c0d7-412d-8173-4f61b66a4423",
+      "type": "general",
+      "title": "--000000000000ac11b10602d51122\nContent-Type: text/...",
+      "content": "--000000000000ac11b10602d51122\nContent-Type: text/html; charset=\"UTF-8\"",
+      "source_file": "email-equals-attachment-filename.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:53:31.825517",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "90a44de0-07ec-4ddd-b8aa-cd6f78b0f179",
+      "type": "general",
+      "title": "<div dir=\"ltr\">Below is an example of an odd filen...",
+      "content": "<div dir=\"ltr\">Below is an example of an odd filename</div>",
+      "source_file": "email-equals-attachment-filename.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:53:31.825543",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "a6c3714b-89e5-4f62-80af-0cbe7266f28d",
+      "type": "general",
+      "title": "--000000000000ac11b10602d51122--\n--000000000000ac1...",
+      "content": "--000000000000ac11b10602d51122--\n--000000000000ac11b20602d51124\nContent-Type: text/plain; charset=\"US-ASCII\"; name=\"odd=file=name.txt\"\nContent-Disposition: attachment; filename=\"odd=file=name.txt\"\nContent-Transfer-Encoding: base64\nContent-ID: <f_ll9zod670>\nX-Attachment-Id: f_ll9zod670",
+      "source_file": "email-equals-attachment-filename.eml",
+      "source_page": 0,
+      "keywords": [
+        "ASCII",
+        "Content",
+        "text",
+        "file"
+      ],
+      "created_at": "2026-06-16T11:53:31.825603",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "f46c3f25-7cc7-49af-a980-5ff9b524cc9c",
+      "type": "general",
+      "title": "T2RkIGZpbGVuYW1lCg==\n--000000000000ac11b20602d5112...",
+      "content": "T2RkIGZpbGVuYW1lCg==\n--000000000000ac11b20602d51124--",
+      "source_file": "email-equals-attachment-filename.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:53:31.825621",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    }
+  ]
+}

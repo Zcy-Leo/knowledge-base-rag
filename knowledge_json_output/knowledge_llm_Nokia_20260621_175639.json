@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "source_file": "database",
+  "total_entries": 6,
+  "entries": [
+    {
+      "id": "09bc24c8-8694-4800-b9bb-6a1609a2b48d",
+      "type": "general",
+      "title": "}",
+      "content": "[Title] }\n[Content] }\n\n## **Example: Multiple PXCs on the same underlying cross-connect configuration (classic CLI)**\n[Keywords] CLI",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": "CLI",
+      "created_at": "2026-06-21T17:56:36.401278",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "0698a3f7-2e79-4404-942a-64868ac01a2e",
+      "type": "general",
+      "title": "```",
+      "content": "[Title] ```\n[Content] ```\nA:node-2>config>port-xc# info\n----------------------------------------------\n pxc 1 create\n port 1/x1/1/c1/1\n no shutdown\n exit\n pxc 2 create\n shutdown\n port 1/x1/1/c1/1\n exit\n pxc 3 create\n shutdown\n port 1/x1/1/c1/1\n exit\n exit\n```",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:56:36.401300",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "d9bf0aa7-76f4-4178-962d-aae32eb03ce9",
+      "type": "general",
+      "title": "A faceplate port that has been placed in the loopback mode for PXC use, supports...",
+      "content": "[Title] A faceplate port that has been placed in the loopback mode for PXC use, supports...\n[Content] A faceplate port that has been placed in the loopback mode for PXC use, supports only hybrid mode of operation and dot1q encapsulation. The recommendation is that the MTU value be configured to the maximum value. dot1x tunneling is enabled and cannot be changed.\n[Keywords] PXC, MTU",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": "PXC, MTU",
+      "created_at": "2026-06-21T17:56:36.401310",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "51b8c873-f9a5-44c5-bca4-5340b0a41927",
+      "type": "general",
+      "title": "The pre-set dot1q Ethernet encapsulation on the faceplate port is irrelevant fro...",
+      "content": "[Title] The pre-set dot1q Ethernet encapsulation on the faceplate port is irrelevant fro...\n[Content] The pre-set dot1q Ethernet encapsulation on the faceplate port is irrelevant from the operator's perspective and there is no need to change it. The relevant encapsulation carrying service tags defined on PXC subports and that encapsulation is configurable. For more information, see [PXC sub-ports](#page--1-0).\n\nThe following guidelines apply to a PXC configuration based on faceplate ports:\n[Keywords] PXC",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": "PXC",
+      "created_at": "2026-06-21T17:56:36.401318",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "d887f47c-882a-4244-b1c9-1a467a5547e0",
+      "type": "general",
+      "title": "- Only unused faceplate ports (not associated with an interface or SAP) can be r...",
+      "content": "[Title] - Only unused faceplate ports (not associated with an interface or SAP) can be r...\n[Content] - Only unused faceplate ports (not associated with an interface or SAP) can be referenced within a PXC ID configuration.\n- When the faceplate port is allocated to a PXC, it cannot be used outside of the PXC context. For example, an IP interface cannot use the faceplate port directly, or a SAP under a such port cannot be associated with an Epipe or VPLS service.\n\n## **6.4 Internal PXC**\n[Keywords] ID, SAP, PXC, IP",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": "ID, SAP, PXC, IP",
+      "created_at": "2026-06-21T17:56:36.401355",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "c6e06c3e-18b1-44ab-bd00-38147abc48b1",
+      "type": "general",
+      "title": "With internal (or MAC-based) PXC, the egress path is cross-connected to the ingr...",
+      "content": "[Title] With internal (or MAC-based) PXC, the egress path is cross-connected to the ingr...\n[Content] With internal (or MAC-based) PXC, the egress path is cross-connected to the ingress path in the MAC chip, without the need to consume a faceplate port, as shown in [Figure 21: Internal cross-connect](#page--1-1) [\\(loopback\\) in a MAC chip](#page--1-1). The number of the MAC chips on a line card varies with the line card type. The **show datapath** command shows the MAC chip related connectivity information in the datapath (forwarding complex). This information is essential for the correct configuration of the cross-connect.\n\n3HE 19220 AAAB TQZZA 01 **© 2023 Nokia.** 93\n[Keywords] PXC, AAAB, TQZZA, MAC",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": "PXC, AAAB, TQZZA, MAC",
+      "created_at": "2026-06-21T17:56:36.401369",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    }
+  ]
+}

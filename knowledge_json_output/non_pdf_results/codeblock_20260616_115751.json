@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "source_file": "codeblock.md",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "6eab572d-4169-478c-9830-954a2e8ac90b",
+      "type": "general",
+      "title": "```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  ...",
+      "content": "```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Sample HTML</title>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n    <p>This is a simple HTML example.</p>\n</body>\n</html>\n```\n## XML Example\n```xml\n<note>\n    <to>Tove</to>\n    <from>Jani</from>\n    <heading>Reminder</heading>\n    <body>Don't forget me this weekend!</body>\n</note>\n```\n```xml\n<note>\n    <to>Tove</to>\n    <from>Jani</from>\n    <heading>Reminder</heading>\n    <body>Don't forget me this weekend!</body>\n</note>\n```",
+      "source_file": "codeblock.md",
+      "source_page": 0,
+      "keywords": [
+        "HTML",
+        "UTF",
+        "XML",
+        "DOCTYPE",
+        "device",
+        "note"
+      ],
+      "created_at": "2026-06-16T11:57:51.432708",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Unstructured_Demo"
+      }
+    }
+  ]
+}

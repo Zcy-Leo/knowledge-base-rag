@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "source_file": "layout-parser-paper-combined.tiff",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "351268e5-fdb1-40ab-99af-42889f6f1956",
+      "type": "general",
+      "title": "arXiv:2103.15348v2 [cs.CV] 21 Jun 2021",
+      "content": "arXiv:2103.15348v2 [cs.CV] 21 Jun 2021",
+      "source_file": "layout-parser-paper-combined.tiff",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:53.183266",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "9b09eeaf-5b85-42e0-b4e9-2f947c5ab0aa",
+      "type": "general",
+      "title": "LayoutParser: A Unified Toolkit for Deep\nLearning ...",
+      "content": "LayoutParser: A Unified Toolkit for Deep\nLearning Based Document Image Analysis",
+      "source_file": "layout-parser-paper-combined.tiff",
+      "source_page": 0,
+      "keywords": [
+        "LayoutParser",
+        "Learning",
+        "document",
+        "image"
+      ],
+      "created_at": "2026-06-22T11:56:53.183317",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "12b40077-f163-43c4-a8f8-0359b93f6588",
+      "type": "faq",
+      "title": "“Zejiang Shen! (FD), Ruochen Zhang?, Melissa Dal, ...",
+      "content": "“Zejiang Shen! (FD), Ruochen Zhang?, Melissa Dal, Benjamin Charles Germain\nLec, Jacob Carlson’, and Welaing Li",
+      "source_file": "layout-parser-paper-combined.tiff",
+      "source_page": 0,
+      "keywords": [
+        "Lec"
+      ],
+      "created_at": "2026-06-22T11:56:53.183365",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "9b13fe00-36f8-49d6-8891-dd7f2508917a",
+      "type": "general",
+      "title": "‘agchen tangthrowsedt\nseradelsacob-carLaon)efar-ha...",
+      "content": "‘agchen tangthrowsedt\nseradelsacob-carLaon)efar-harvard.eds\n“ Ualverty of Warhington\nvente cng ete",
+      "source_file": "layout-parser-paper-combined.tiff",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:53.183404",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "417d5353-8e0f-47c0-99e8-1c02a021f7ad",
+      "type": "general",
+      "title": "Abstract. fect advances in document mage anaes (DI...",
+      "content": "Abstract. fect advances in document mage anaes (DIA) have ben\n‘pimarliy driven bythe application of neural networks dell roar\n{uteomer could be aly deployed in production and extended fo farther\n[nvetigtion. However, various factory ke lcely organize codebanee\nsnd sophisticated modal cnigurations compat the ey ree of\n‘erin! innovation by wide sence, Though there have been sng\n‘Hors to improve reuablty and simplify deep lees (DL) mode\n‘aon, sone of them ae optimized for challenge inthe demain of DIA,\nThis roprscte a major gap in the extng fol, sw DIA i eal to\nscademic research acon wie range of dpi in the social ssencee\n[rary for streamlining the sage of DL in DIA research and appicn\n‘tons The core LayoutFaraer brary comes with a sch of simple and\nIntative interfaee or applying and eutomiing DI. odel fr Inyo de\npltfom for sharing both protrined modes an fal document dist\n{ation pipeline We demonutate that LayootPareer shea fr both\nlightweight and lrgeseledgtieation pipelines in eal-word uae ces\nThe leary pblely smal at Btspe://layost-pareergsthab So",
+      "source_file": "layout-parser-paper-combined.tiff",
+      "source_page": 0,
+      "keywords": [
+        "DIA",
+        "Abstract",
+        "However",
+        "Intative",
+        "document"
+      ],
+      "created_at": "2026-06-22T11:56:53.183815",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "cdbed65a-a008-4b32-8c14-a2bf61da5207",
+      "type": "general",
+      "title": "‘Keywords: Document Image Analysis: Dep Leening- L...",
+      "content": "‘Keywords: Document Image Analysis: Dep Leening- Layout Analysis\n(Character Recognition - Open Source library «Took",
+      "source_file": "layout-parser-paper-combined.tiff",
+      "source_page": 0,
+      "keywords": [
+        "Document",
+        "Dep",
+        "image"
+      ],
+      "created_at": "2026-06-22T11:56:53.183867",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "a160ab01-5fa6-4ea0-9e55-85600fbdcf24",
+      "type": "general",
+      "title": "Deep Learning(DL)-basod approaches are the stateaf...",
+      "content": "Deep Learning(DL)-basod approaches are the stateaftheart fr a wide rage of\ndocument image analysis (DIA) tasks including document image easifcation (II)",
+      "source_file": "layout-parser-paper-combined.tiff",
+      "source_page": 0,
+      "keywords": [
+        "DIA",
+        "Deep",
+        "document",
+        "image"
+      ],
+      "created_at": "2026-06-22T11:56:53.183918",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    }
+  ]
+}

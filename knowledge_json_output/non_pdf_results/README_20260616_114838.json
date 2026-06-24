@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "source_file": "README.md",
+  "total_entries": 6,
+  "entries": [
+    {
+      "id": "cab75574-e941-4e75-86e5-17df985cb3e3",
+      "type": "general",
+      "title": "The sample docs directory contains the following f...",
+      "content": "The sample docs directory contains the following files:",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:38.443069",
+      "metadata": {
+        "element_type": "text",
+        "company": "README"
+      }
+    },
+    {
+      "id": "65d418e7-3ce9-468b-90b4-c540ee542eae",
+      "type": "general",
+      "title": "- `example-10k.html` - A 10-K SEC filing in HTML f...",
+      "content": "- `example-10k.html` - A 10-K SEC filing in HTML format\n- `layout-parser-paper.pdf` - A PDF copy of the layout parser paper\n- `factbook.xml`/`factbook.xsl` - Example XML/XLS files that you can use to test stylesheets",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [
+        "XLS",
+        "HTML",
+        "XML",
+        "SEC",
+        "format",
+        "paper"
+      ],
+      "created_at": "2026-06-16T11:48:38.443145",
+      "metadata": {
+        "element_type": "text",
+        "company": "README"
+      }
+    },
+    {
+      "id": "6515cd35-5bac-4a00-90fa-10ce11a327ac",
+      "type": "general",
+      "title": "These documents can be used to test out the parser...",
+      "content": "These documents can be used to test out the parsers in the library. In addition, here are\ninstructions for pulling in some sample docs that are too big to store in the repo.",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [
+        "These"
+      ],
+      "created_at": "2026-06-16T11:48:38.443200",
+      "metadata": {
+        "element_type": "text",
+        "company": "README"
+      }
+    },
+    {
+      "id": "9590bc0d-0188-47f7-bc44-9c72822ed74b",
+      "type": "general",
+      "title": "You can get an example 10-K in inline XBRL format ...",
+      "content": "You can get an example 10-K in inline XBRL format using the following `curl`. Note, you need\nto have the user agent set in the header or the SEC site will reject your request.",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [
+        "XBRL",
+        "SEC",
+        "Note",
+        "format"
+      ],
+      "created_at": "2026-06-16T11:48:38.443259",
+      "metadata": {
+        "element_type": "text",
+        "company": "README"
+      }
+    },
+    {
+      "id": "4e059e82-77e2-4a54-99f9-92060394e865",
+      "type": "general",
+      "title": "```bash\ncurl -O \\\n  -A '${organization} ${email}'\n...",
+      "content": "```bash\ncurl -O \\\n  -A '${organization} ${email}'\n  https://www.sec.gov/Archives/edgar/data/311094/000117184321001344/0001171843-21-001344.txt\n```",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [
+        "data"
+      ],
+      "created_at": "2026-06-16T11:48:38.443303",
+      "metadata": {
+        "element_type": "text",
+        "company": "README"
+      }
+    },
+    {
+      "id": "24a787f5-b133-4166-a520-43966d8ee445",
+      "type": "general",
+      "title": "You can parse this document using the HTML parser.",
+      "content": "You can parse this document using the HTML parser.",
+      "source_file": "README.md",
+      "source_page": 0,
+      "keywords": [
+        "HTML",
+        "document"
+      ],
+      "created_at": "2026-06-16T11:48:38.443328",
+      "metadata": {
+        "element_type": "text",
+        "company": "README"
+      }
+    }
+  ]
+}

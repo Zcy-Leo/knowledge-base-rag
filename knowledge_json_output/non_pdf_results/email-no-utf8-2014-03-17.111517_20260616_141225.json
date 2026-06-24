@@ -1,0 +1,791 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-no-utf8-2014-03-17.111517.eml",
+  "total_entries": 44,
+  "entries": [
+    {
+      "id": "7e8cdcb5-1bb4-4183-b8d2-18db54de357a",
+      "type": "general",
+      "title": "From 1462821104707864209@xxx Mon Mar 17 11:15:17 +...",
+      "content": "From 1462821104707864209@xxx Mon Mar 17 11:15:17 +0000 2014\nX-GM-THRID: 1462821104707864209\nX-Gmail-Labels: Inbox,Important,Category Updates\nDelivered-To: slatest@gmail.com\nReceived: by 10.216.66.71 with SMTP id g49csp96136wed;\n        Mon, 17 Mar 2014 04:15:16 -0700 (PDT)\nReturn-Path: <3RNkmUwgTBzEab-eRcYlNPPbhagf.TbbTYR.PbZfYNiNTbTZNVY.PbZ@gaia.bounces.google.com>\nReceived-SPF: pass (google.com: domain of 3RNkmUwgTBzEab-eRcYlNPPbhagf.TbbTYR.PbZfYNiNTbTZNVY.PbZ@gaia.bounces.google.com designates 10.112.85.197 as permitted sender) client-ip=10.112.85.197\nAuthentication-Results: mr.google.com;\n       spf=pass (google.com: domain of 3RNkmUwgTBzEab-eRcYlNPPbhagf.TbbTYR.PbZfYNiNTbTZNVY.PbZ@gaia.bounces.google.com designates 10.112.85.197 as permitted sender) smtp.mail=3RNkmUwgTBzEab-eRcYlNPPbhagf.TbbTYR.PbZfYNiNTbTZNVY.PbZ@gaia.bounces.google.com;\n       dkim=pass header.i=@accounts.google.com\nX-Received: from mr.google.com ([10.112.85.197])\n        by 10.112.85.197 with SMTP id j5mr4444137lbz.20.1395054916934 (num_hops = 1);\n        Mon, 17 Mar 2014 04:15:16 -0700 (PDT)\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\n        d=accounts.google.com; s=20120806;\n        h=mime-version:date:message-id:subject:from:to:content-type;\n        bh=C1zlLt9m1CT7ZJnRpvpaNuwG0d6T973+uWUf3elVOWY=;\n        b=d6r0RNtMd+kYn9EM+cc/slvitbFQ2N+LK8m9xbLhEHtmNP+TgGolZ5oEXbibrBXps+\n         +HOlGtZChdmgTG5thFvoJ5fedE0/Ao5G+I1b6pRu7zycT7eWmv1VrPiweGKUoc9KAUs8\n         pMYGovgQf+WxfGUPgNlAlmUYDb+A4vXLEZ76lMK/xEotrq9D2U0gGF46Jzp1f2AiHFyy\n         L55pIIzgCUg8pZpgtmI2vTzKshr5M8IvKaUqR1MWVk8S1iOvd2fSqJgr1AmJWRoB2KR8\n         YJmPjNw1EwuugrdhbPwx0KSn+dKzNLjPWlIMiCUIbkzTjIMeC8T3RvBwd9c7KFdqDWoz\n         mKEQ==\nMIME-Version: 1.0\nX-Received: by 10.112.85.197 with SMTP id j5mr3398475lbz.20.1395054916778;\n Mon, 17 Mar 2014 04:15:16 -0700 (PDT)\nX-Notifications: XEAAAAO9nJPsY7qiVefFhta7RTxs\nDate: Mon, 17 Mar 2014 11:15:04 +0000 (UTC)\nX-Account-Notification-Type: PASSWORD_CHANGE\nMessage-ID: <jOOABqYPtvg7kqWVhkuTrw@notifications.google.com>\nSubject: Google Account password changed\nFrom: no-reply@accounts.google.com\nTo: slatest@gmail.com\nContent-Type: multipart/mixed; boundary=001a11346808c1bc8804f4cb88d1",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "SPF",
+        "UTC",
+        "DKIM",
+        "PDT",
+        "Inbox",
+        "Delivered",
+        "Received",
+        "Return"
+      ],
+      "created_at": "2026-06-16T14:12:25.547174",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "a654920c-d1b0-44d8-bc46-643b597bcef3",
+      "type": "general",
+      "title": "--001a11346808c1bc8804f4cb88d1\nContent-Type: multi...",
+      "content": "--001a11346808c1bc8804f4cb88d1\nContent-Type: multipart/alternative; boundary=001a11346808c1bc8204f4cb88cf",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content"
+      ],
+      "created_at": "2026-06-16T14:12:25.547212",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "82a98bb9-3e4e-430f-acf4-3124e40f5d16",
+      "type": "general",
+      "title": "--001a11346808c1bc8204f4cb88cf\nContent-Type: text/...",
+      "content": "--001a11346808c1bc8204f4cb88cf\nContent-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "ISO",
+        "Content",
+        "text",
+        "format"
+      ],
+      "created_at": "2026-06-16T14:12:25.547246",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "34bc2b22-7217-4d0b-87a7-075b06020555",
+      "type": "general",
+      "title": "The password for your Google Account - slava.Gxyzx...",
+      "content": "The password for your Google Account - slava.Gxyzxyz@gmail.com - was  \nrecently changed.\nIf you made this change, you don't need to do anything more.",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.547287",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "3b5af465-f64d-478b-bba8-e7719aeed5ca",
+      "type": "general",
+      "title": "If you didn't change your password, your account m...",
+      "content": "If you didn't change your password, your account might have been hijacked.  \nTo get back into your account, you'll need to reset your password by  \nclicking this link:  \nhttps://accounts.google.com/RecoverAccount?fpOnly=1&source=ancpse&Email=slava.Gxyzxyz@gmail.com.",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.547348",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "e70b64f2-0f62-4ce1-8dc0-1c21d8fbdeef",
+      "type": "general",
+      "title": "To fix an issue or learn more about your account, ...",
+      "content": "To fix an issue or learn more about your account, visit our help center:\nhttps://support.google.com/accounts/bin/answer.py?answer=1628875.",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "help",
+        "support"
+      ],
+      "created_at": "2026-06-16T14:12:25.547392",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "d8621aa3-42f8-4749-a27b-61ca67564a0b",
+      "type": "general",
+      "title": "Sincerely,\nThe Google Accounts team",
+      "content": "Sincerely,\nThe Google Accounts team",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "Sincerely"
+      ],
+      "created_at": "2026-06-16T14:12:25.547410",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "e52385f3-92a8-4b94-88dd-85946b562ebf",
+      "type": "general",
+      "title": "This email can't receive replies. For more informa...",
+      "content": "This email can't receive replies. For more information, visit the Google  \nAccounts Help Center  \n(https://support.google.com/accounts/bin/answer.py?answer=1628875).",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "Accounts",
+        "help",
+        "support"
+      ],
+      "created_at": "2026-06-16T14:12:25.547453",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "56662f28-b7fb-460e-af23-9074c3ebc688",
+      "type": "general",
+      "title": "If slava.Gxyzxyz@gmail.com isn't your Google Accou...",
+      "content": "If slava.Gxyzxyz@gmail.com isn't your Google Account, click this link to  \ndisconnect your email address from this account:\nhttps://accounts.google.com/AccountDisavow?adt=AOX8kxyzxyzxyzxyzxyzxyzxyzzRctqqns7QTuoScTHJ_5eXxky-CD_vhU6z",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.547500",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "d19473c0-407b-4d10-ade6-f85b307dd3dd",
+      "type": "general",
+      "title": "You have received this mandatory email service ann...",
+      "content": "You have received this mandatory email service announcement to update you  \nabout important changes to your Google product or account.",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.547535",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "23ce6806-de9a-4361-9244-129de56d4899",
+      "type": "general",
+      "title": "(c) 2014 Google Inc., 1600 Amphitheatre Parkway, M...",
+      "content": "(c) 2014 Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043,  \nUSA",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "USA"
+      ],
+      "created_at": "2026-06-16T14:12:25.547562",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "c6088a40-1f97-4262-9af5-01f7616e0164",
+      "type": "general",
+      "title": "--001a11346808c1bc8204f4cb88cf\nContent-Type: text/...",
+      "content": "--001a11346808c1bc8204f4cb88cf\nContent-Type: text/html; charset=ISO-8859-1\nContent-Transfer-Encoding: quoted-printable",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "ISO",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.547594",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "7db17268-f8ee-4327-9846-01c748da5539",
+      "type": "general",
+      "title": "<html lang=3D\"en\">\n    <body style=3D\"margin:0; pa...",
+      "content": "<html lang=3D\"en\">\n    <body style=3D\"margin:0; padding: 0;\">\n =20\n  <table bgcolor=3D\"#f1f1f1\" width=3D\"100%\" height=3D\"100%\" align=3D\"center=\n\" height=3D\"60\" style=3D\"border-collapse: collapse\"  border=3D\"0\" cellspaci=\nng=3D\"0\" cellpadding=3D\"0\">\n    <tr align=3D\"center\">\n      <td valign=3D\"top\">",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "table"
+      ],
+      "created_at": "2026-06-16T14:12:25.547668",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "dc6e5367-419e-4317-ad3c-82e528b2a651",
+      "type": "general",
+      "title": "=20\n        <table bgcolor=3D\"#f1f1f1\" height=3D\"6...",
+      "content": "=20\n        <table bgcolor=3D\"#f1f1f1\" height=3D\"60\" style=3D\"border-collapse: =\ncollapse\"  border=3D\"0\" cellspacing=3D\"0\" cellpadding=3D\"0\">\n          <tr valign=3D\"middle\" height=3D\"40\">",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "table"
+      ],
+      "created_at": "2026-06-16T14:12:25.547714",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "20ff3e79-2718-4bfd-bf08-2b931472d494",
+      "type": "general",
+      "title": "=20\n          <td width=3D\"9\"></td>",
+      "content": "=20\n          <td width=3D\"9\"></td>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.547732",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "3cb1f775-f058-41e1-8bac-6f07f9374745",
+      "type": "general",
+      "title": "=20\n          <td width=3D\"217\" valign=3D\"middle\">...",
+      "content": "=20\n          <td width=3D\"217\" valign=3D\"middle\">\n            <img src=3D\"cid:google\" border=3D\"0\" alt=3D\"Google Accounts\" st=\nyle=3D\"display: block;\" height=3D\"40\">\n          </td>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "display"
+      ],
+      "created_at": "2026-06-16T14:12:25.547779",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "3fb65215-d90b-4c70-9fb2-fa4d64972240",
+      "type": "general",
+      "title": "=20\n          <td width=3D\"327\" style=3D\"font-size...",
+      "content": "=20\n          <td width=3D\"327\" style=3D\"font-size: 13px; font-family: arial, s=\nans-serif; color: #777777; text-align: right\">\n           =20\n              Slava Gxyzxyz\n           =20\n          </td>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "size",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.547826",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "e67b5d02-1d8b-47fa-b855-89d31f39ba94",
+      "type": "general",
+      "title": "=20\n          <td width=3D\"10\"></td>",
+      "content": "=20\n          <td width=3D\"10\"></td>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.547844",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "5d6cc374-f80b-44f1-945f-2b5a0c8120f8",
+      "type": "general",
+      "title": "=20\n         =20\n            <td><img src=3D\"cid:p...",
+      "content": "=20\n         =20\n            <td><img src=3D\"cid:profilephoto\" /></td>\n         =20",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.547871",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "bd9dc624-0fde-4765-bd91-577907418194",
+      "type": "general",
+      "title": "=20\n          <td width=3D\"10\"></td>",
+      "content": "=20\n          <td width=3D\"10\"></td>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.547888",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "e7de11e2-d934-4077-abe0-715d48369cab",
+      "type": "general",
+      "title": "=20\n          </tr>\n        </table>",
+      "content": "=20\n          </tr>\n        </table>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "table"
+      ],
+      "created_at": "2026-06-16T14:12:25.547904",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "158bd0b5-3d83-4673-a07a-5275af889831",
+      "type": "general",
+      "title": "=20\n        <table border=3D\"1\" bordercolor=3D\"#e5...",
+      "content": "=20\n        <table border=3D\"1\" bordercolor=3D\"#e5e5e5\" cellspacing=3D\"0\" cellp=\nadding=3D\"0\" bgcolor=3D\"#ffffff\" style=3D\"text-align: left\">",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "table",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.547943",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "b21a3a27-007d-4114-a704-560f52320899",
+      "type": "general",
+      "title": "=20\n          <tr>\n            <td height=3D\"15\" s...",
+      "content": "=20\n          <tr>\n            <td height=3D\"15\" style=3D\"border-top: none; border-bottom: non=\ne; border-left: none; border-right: none;\">\n            </td>\n          </tr>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.547984",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "ed4d4d7d-a0bc-46f2-92e9-50b3199966bb",
+      "type": "general",
+      "title": "<tr>\n           =20\n            <td width=3D\"15\" s...",
+      "content": "<tr>\n           =20\n            <td width=3D\"15\" style=3D\"border-top: none; border-bottom: none=\n; border-left: none; border-right: none;\">\n            </td>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.548022",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "36e4c148-da28-4012-b366-6de7773ab9f0",
+      "type": "general",
+      "title": "=20\n            <td width=3D\"568\" valign=3D\"top\" s...",
+      "content": "=20\n            <td width=3D\"568\" valign=3D\"top\" style=3D\"font-size: 83%; borde=\nr-top: none; border-bottom: none; border-left: none; border-right: none; fo=\nnt-size: 13px; font-family: arial, sans-serif; color: #222222; line-height:=\n 18px\">\n           =20\n              Hi Slava,\n              <br />\n              <br />\n           =20",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "size"
+      ],
+      "created_at": "2026-06-16T14:12:25.548094",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "44b1f0e2-7402-4b12-b1e1-503b17bb75c8",
+      "type": "general",
+      "title": "The password for your Google Account - slava.Gxyzx...",
+      "content": "The password for your Google Account - slava.Gxyzxyz@gmail.com - was recent=\nly changed.",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.548122",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "5b15d245-b5ba-450f-bfd6-f9c313ec9922",
+      "type": "general",
+      "title": "If you made this change, you don't need to do anyt...",
+      "content": "If you made this change, you don't need to do anything more.",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.548147",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "7811f842-9bf7-452e-81e4-b48980c1b7d8",
+      "type": "general",
+      "title": "If you didn't change your password, your account m...",
+      "content": "If you didn't change your password, your account might have been hijacked. =\nTo get back into your account, you'll need to reset your password.",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.548186",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "beada722-aa62-48ba-9ed6-2b6bdd980f74",
+      "type": "general",
+      "title": "<a href=3D\"https://accounts.google.com/RecoverAcco...",
+      "content": "<a href=3D\"https://accounts.google.com/RecoverAccount?fpOnly=3D1&amp;source=\n=3Dancpse&amp;Email=3Dslava.Gxyzxyz@gmail.com\" target=3D\"_blank\" style=3D\"t=\next-align: center; font-size: 11px; font-family: arial, sans-serif; color: =\nwhite; font-weight: bold; border-color: #3079ed; background-color: #4d90fe;=\n background-image: linear-gradient(top,#4d90fe,#4787ed); text-decoration: n=\none; display:inline-block; height: 27px; padding-left: 8px; padding-right: =\n8px; line-height: 27px; border-radius: 2px; border-width: 1px;\">\n  <span style=3D\"color: white;\">\n   =20\n      Reset password\n   =20\n  </span>\n</a>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "size",
+        "image",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.548306",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "ff53af25-a819-4ee1-ab66-6b67ac343fbe",
+      "type": "general",
+      "title": "<br />\n                <br />\n               =20\n ...",
+      "content": "<br />\n                <br />\n               =20\n                  Sincerely,<br />\n                  The Google Accounts team\n               =20\n                </td>\n               =20\n                <td width=3D\"15\" style=3D\"border-top: none; border-bottom: =\nnone; border-left: none; border-right: none;\">\n                </td>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.548367",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "3e07d6c6-e4eb-4848-b819-4c3e53b6d55c",
+      "type": "general",
+      "title": "</tr>\n             =20\n              <tr>\n        ...",
+      "content": "</tr>\n             =20\n              <tr>\n                <td height=3D\"15\" style=3D\"border-top: none; border-bottom:=\n none; border-left: none; border-right: none;\">\n                </td>\n              </tr>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.548411",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "6b7e04e2-13d6-4b67-b5a5-c5d7e77c5a29",
+      "type": "general",
+      "title": "=20\n              <tr>",
+      "content": "=20\n              <tr>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.548425",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "9a9d039f-d065-4ec1-b6d3-ab40d87042b7",
+      "type": "general",
+      "title": "=20\n                <td width=3D\"15\" style=3D\"bord...",
+      "content": "=20\n                <td width=3D\"15\" style=3D\"border-top: none; border-bottom: =\nnone; border-left: none; border-right: none;\"></td>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.548459",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "b6a322c6-6f6f-442f-947c-a7bf813d5855",
+      "type": "general",
+      "title": "=20\n                <td width=3D\"568\" style=3D\"fon...",
+      "content": "=20\n                <td width=3D\"568\" style=3D\"font-size: 11px; font-family: ar=\nial, sans-serif; color: #777777; border-top: none; border-bottom: none; bor=\nder-left: none; border-right: none;\">\n               =20\n                  This email can't receive replies. For more information, v=\nisit the <a href=3D\"https://support.google.com/accounts/bin/answer.py?answe=\nr=3D1628875\" style=3D\"text-decoration: none; color: #4D90FE\"><span style=3D=\n\"color: #4D90FE;\">Google Accounts Help Center</span></a>.\n               =20\n                </td>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "size",
+        "support",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.548576",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "76775685-3cf5-41e7-af6c-56fcf75b2da0",
+      "type": "general",
+      "title": "=20\n                <td width=3D\"15\" style=3D\"bord...",
+      "content": "=20\n                <td width=3D\"15\" style=3D\"border-top: none; border-bottom: =\nnone; border-left: none; border-right: none;\"></td>\n              </tr>\n             =20\n                <tr>\n                  <td height=3D\"15\" style=3D\"border-top: none; border-botto=\nm: none; border-left: none; border-right: none;\">\n                  </td>\n                </tr>\n               =20\n                 =20\n                  <tr>\n                   =20\n                    <td width=3D\"15\" style=3D\"border-top: none; border-bott=\nom: none; border-left: none; border-right: none;\"></td>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.548682",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "f9868c0a-c7fb-4fdd-b956-42828d3db000",
+      "type": "general",
+      "title": "<td width=3D\"568\" style=3D\"font-size: 11px; font-f...",
+      "content": "<td width=3D\"568\" style=3D\"font-size: 11px; font-family=\n: arial, sans-serif; color: #777777; border-top: none; border-bottom: none;=\n border-left: none; border-right: none;\">\n                     =20\n                        If slava.Gxyzxyz@gmail.com isn't your Google Accoun=\nt, <a href=3D\"https://accounts.google.com/AccountDisavow?adt=3DAOX8kiq1EhCJ=\nuK82OhiOWSYKXfzRctqqns7QTuoScTHJ_5eXxky-CD_vhU6z\" target=3D\"_blank\">click h=\nere</a> to disconnect your email address from this account.\n                     =20\n                    </td>\n                   =20\n                    <td width=3D\"15\" style=3D\"border-top: none; border-bott=\nom: none; border-left: none; border-right: none;\"></td>\n                  </tr>\n               =20\n             =20\n             =20\n              <tr>\n                <td height=3D\"15\" style=3D\"border-top: none; border-bottom:=\n none; border-left: none; border-right: none;\">\n                </td>\n              </tr>\n            </table>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "size",
+        "table"
+      ],
+      "created_at": "2026-06-16T14:12:25.548853",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "a6b6c9b6-e81c-4b1b-830d-8c79828debaa",
+      "type": "general",
+      "title": "=20\n            <table bgcolor=3D\"#f1f1f1\" height=...",
+      "content": "=20\n            <table bgcolor=3D\"#f1f1f1\" height=3D\"80\" style=3D\"text-align: l=\neft\">\n              <tr valign=3D\"middle\">",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "table",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.548888",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "98523423-36c3-4be9-a273-04a1492260c6",
+      "type": "general",
+      "title": "=20\n                <td style=3D\"font-size: 11px; ...",
+      "content": "=20\n                <td style=3D\"font-size: 11px; font-family: arial, sans-seri=\nf; color: #777777;\">\n                 =20\n                    You received this mandatory email service announcement =\nto update you about important changes to your Google product or account.\n                 =20\n                  <br />\n                  <br />\n                  <div style=3D\"direction: ltr;\">\n                 =20\n                    &copy; 2014 Google Inc., 1600 Amphitheatre Parkway, Mou=\nntain View, CA 94043, USA\n                 =20\n                  </div>\n                </td>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "USA",
+        "size"
+      ],
+      "created_at": "2026-06-16T14:12:25.548990",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "7f6e2f73-f264-4e5c-9b1f-64bf780e2fe7",
+      "type": "general",
+      "title": "=20\n              </tr>\n            </table>",
+      "content": "=20\n              </tr>\n            </table>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "table"
+      ],
+      "created_at": "2026-06-16T14:12:25.549008",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "2213ac9e-64e7-4095-b386-ac1c51dd4e4b",
+      "type": "general",
+      "title": "</td>\n        </tr>\n      </table>",
+      "content": "</td>\n        </tr>\n      </table>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "table"
+      ],
+      "created_at": "2026-06-16T14:12:25.549024",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "69f8ca2e-952e-4051-a321-645e3b1cbe4e",
+      "type": "general",
+      "title": "=20\n    </body>\n  </html>",
+      "content": "=20\n    </body>\n  </html>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.549040",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "81646677-05de-4748-93a3-0a4ad790f48b",
+      "type": "general",
+      "title": "--001a11346808c1bc8204f4cb88cf--\n--001a11346808c1b...",
+      "content": "--001a11346808c1bc8204f4cb88cf--\n--001a11346808c1bc8804f4cb88d1\nContent-Type: image/png; name=\"google.png\"\nContent-Disposition: attachment; filename=\"google.png\"\nContent-Transfer-Encoding: base64\nContent-ID: <google>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content",
+        "image"
+      ],
+      "created_at": "2026-06-16T14:12:25.549085",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "99cf8ee5-b64e-4881-97f5-1349021201bb",
+      "type": "general",
+      "title": "iVBORw0KGgoAAAANSUhEUgAAAHQAAAApCAMAAADTVP08AAAC6F...",
+      "content": "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\n9fJre47yRD8AAAAASUVORK5CYII=\n--001a11346808c1bc8804f4cb88d1\nContent-Type: image/png; name=\"profilephoto.png\"\nContent-Disposition: attachment; filename=\"profilephoto.png\"\nContent-Transfer-Encoding: base64\nContent-ID: <profilephoto>",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [
+        "FPA",
+        "IVZ",
+        "JGTL",
+        "OSb",
+        "VUEfb",
+        "NyUPZuUUa",
+        "Tzv",
+        "image"
+      ],
+      "created_at": "2026-06-16T14:12:25.549422",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    },
+    {
+      "id": "34b74c02-aa4d-4fd0-b274-c3972eff570b",
+      "type": "general",
+      "title": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAA3...",
+      "content": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAA3NCSVQICAjb4U/gAAAB7UlEQVRI\nidWUz2sTQRTHv+/N7CbZbAxqBLVtqIhob1KIUI89iP+B/55X/wDxIqIIiim09VCknsQYW7ApTerm\nh5mZ58EEmu1O12gvneO8+X7e253vd+jpW8G5Lj5f3AUh6twTROBpX+cgeb89h6g1jn+aL60kGZhy\nSS8vlSuxNuZfiYHG+83OxqduQTMRRPB6s9NYqa6tXh37oV6i1viwfbi124uL6kQPtbXbY6YH96/4\nJs2+GSL0B665c1QM0weKITd3jvoDRzQnsdVOAp1dDTS32sncxMHI+jRnV7OJIogjLS7bKeIkjrTP\nRh6iQ32xbD0aK6gvlsXNRQQCTeuNWjK0qVIytOuNWqDJ53Sve6zFyp0KM141DwAwkRMB8Gjt2t3b\nlfHYpwOd/ZopBefQ3uv3ByYq6YUbETNseu6/mxGYxFkr3KpHIEAmuWaGiDfg2UStYCy+fkv2fgwP\nu7+O+8ZYUUxxSV2uhtdrxaWb5UKBrM3gpr/6T343Pna2P/eYwExMoKn3RMQJnMAYd285frhaKxTY\nOT+RCKORe/aiNbYSKI+Dp8taGVt58niheik8OemMe5TCy3f71uXjAChFYcDP3+xrNbM/QyTC94OR\n4nzcREzoJsbMXn3a4b60+qFpwenMzIk83eM/9ReT+BvKiMl2RJBzAgAAAABJRU5ErkJggg==\n--001a11346808c1bc8804f4cb88d1--",
+      "source_file": "email-no-utf8-2014-03-17.111517.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.549512",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-no-utf8-2014-03-17.111517.eml"
+      }
+    }
+  ]
+}

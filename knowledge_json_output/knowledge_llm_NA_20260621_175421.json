@@ -1,0 +1,660 @@
+{
+  "schema_version": "1.0",
+  "source_file": "database",
+  "total_entries": 42,
+  "entries": [
+    {
+      "id": "fe623dc1-87c4-484b-90c1-832b237db184",
+      "type": "manual_section",
+      "title": "**Module One - Introduction to Product Development and Quality Assurance**",
+      "content": "[Title] **Module One - Introduction to Product Development and Quality Assurance**\n[Content] This module introduces the learner to the importance and principles of product development and quality assurance, explores what kinds of products might be developed and tested, considers potential challenges and provides guidance on ensuring standards and efficiency throughout the development process. It then introduces the four steps of successful development.\n\n- What are product types?\n- What challenges may arise in development?\n- What is product development and quality assurance, and who is involved?\n- The importance and benefits of product development and quality assurance\n- Which products should be developed and tested?\n- Ensuring standards and efficiency in development\n- Timescales and conduct of development",
+      "source_file": "list-item-example.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:53:50.720552",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "Product Development",
+          "Quality Assurance",
+          "Introduction",
+          "Module One"
+        ],
+        "llm_confidence": 0.98
+      }
+    },
+    {
+      "id": "14ddeb56-6493-4789-8a7c-9bbbb3e0accf",
+      "type": "manual_section",
+      "title": "**Module Two: Initial Planning and Step 1: Concept Development**",
+      "content": "[Title] **Module Two: Initial Planning and Step 1: Concept Development**\n[Content] This module considers immediate actions following a product idea, including market research, defining requirements, and initial collaboration with stakeholders. It then looks at who should lead the development and what relevant information might need to be gathered as part of the process.\n\nMarket research and defining requirements Collaboration and initial planning Engaging stakeholders and recording information\n\n- Who should lead the development?\n- Step 1: Concept development\n- What is the product idea, target market, and objective?\n[Keywords] Step 1, Step 1",
+      "source_file": "list-item-example.pdf",
+      "source_page": 1,
+      "keywords": "Step 1, Step 1",
+      "created_at": "2026-06-21T17:53:50.720571",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "Concept Development",
+          "Initial Planning",
+          "Market Research",
+          "Module Two"
+        ],
+        "llm_confidence": 0.98
+      }
+    },
+    {
+      "id": "30f0ee3a-7f01-4a49-b3a2-815cb6ce2b36",
+      "type": "manual_section",
+      "title": "**Module Three: Step 2: Design and Prototyping**",
+      "content": "[Title] **Module Three: Step 2: Design and Prototyping**\n[Content] This module looks at the role of the design team in detail and outlines an approach for creating and testing prototypes based on the concept developed in the previous step. It looks at potential root challenges that may arise during the design phase, as well as considering underlying considerations.\n\n- The role of the design team\n- Determining the immediate and underlying challenges of design\n- Underlying considerations: usability and user experience\n- Underlying considerations: materials and manufacturing processes\n- Underlying considerations: compliance and standards\n- Determining root challenges: organizational factors\n- The product development lifecycle\n- Collaboration, responsibilities, and training\n- Design thinking and innovation\n- Management of changes, feedback, and iterations\n- Determining root challenges: market factors\n\n- How will the product meet market needs?\n- Design considerations\n- Case study\n- Prototyping methodologies\n- Intellectual property considerations\n- Concept validation\n- Team collaboration and leadership\n- Budgeting and resource planning\n- Technology and tools selection\n[Keywords] Step 2",
+      "source_file": "list-item-example.pdf",
+      "source_page": 1,
+      "keywords": "Step 2",
+      "created_at": "2026-06-21T17:53:50.720577",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "Design",
+          "Prototyping",
+          "Design Team",
+          "Module Three"
+        ],
+        "llm_confidence": 0.98
+      }
+    },
+    {
+      "id": "7bb61f10-7ba4-4808-b1e8-56c2765a1940",
+      "type": "general",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin moles...",
+      "content": "[Title] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin moles...\n[Content] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin molestie consequat. Morbi efficitur, ipsum maximus tristique lobortis, arcu erat dignissim urna, in ultricies nibh est nec quam. Curabitur eget lacus sollicitudin, accumsan metus id, dictum ipsum. Donec venenatis eu urna eu tempor. Proin non diam a metus fringilla laoreet vitae ut mauris. Vivamus aliquam metus at nisl dapibus eleifend. Praesent in pellentesque ex, sit amet dapibus justo.",
+      "source_file": "loremipsum-flat.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:53:50.720582",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "Lorem ipsum",
+          "placeholder text",
+          "dummy content"
+        ],
+        "llm_confidence": 1.0
+      }
+    },
+    {
+      "id": "b7db810d-0539-4c76-9c65-c547b89adbd6",
+      "type": "general",
+      "title": "Sed posuere sit amet lacus sed pharetra. Cras justo augue, facilisis id mi at, v...",
+      "content": "[Title] Sed posuere sit amet lacus sed pharetra. Cras justo augue, facilisis id mi at, v...\n[Content] Sed posuere sit amet lacus sed pharetra. Cras justo augue, facilisis id mi at, varius molestie dui. Quisque maximus lorem placerat nulla aliquam, et malesuada mauris pulvinar. Cras non quam ut magna tincidunt consequat. Pellentesque in gravida ante, ullamcorper sodales elit. Mauris eget elit sed tortor consequat pretium sit amet vel velit. Quisque quis sem lectus. Nulla vel lacus nisl.",
+      "source_file": "loremipsum-flat.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:53:50.720587",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "Placeholder text",
+          "dummy content",
+          "filler content"
+        ],
+        "llm_confidence": 1.0
+      }
+    },
+    {
+      "id": "b7b41be2-e063-46e6-87a7-816c5073b18d",
+      "type": "general",
+      "title": "Nunc elementum lacus posuere enim molestie finibus. Fusce dignissim urna nibh, a...",
+      "content": "[Title] Nunc elementum lacus posuere enim molestie finibus. Fusce dignissim urna nibh, a...\n[Content] Nunc elementum lacus posuere enim molestie finibus. Fusce dignissim urna nibh, at ultrices tellus consequat ac. Curabitur sed urna imperdiet, rutrum mauris ut, convallis purus. Pellentesque a libero fringilla, lobortis nisi consequat, lobortis eros. Ut dapibus ipsum non aliquet accumsan. Ut scelerisque massa et risus euismod consequat. Praesent sed dignissim magna, sed pharetra nulla. Pellentesque aliquam auctor sapien, sed venenatis felis pellentesque non. Quisque porta ante a vehicula convallis.",
+      "source_file": "loremipsum-flat.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:53:50.720592",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "e18172d4-ceac-462c-bde2-e05e28296988",
+      "type": "general",
+      "title": "Donec ut luctus nisi. Fusce ac molestie est. In hac habitasse platea dictumst. F...",
+      "content": "[Title] Donec ut luctus nisi. Fusce ac molestie est. In hac habitasse platea dictumst. F...\n[Content] Donec ut luctus nisi. Fusce ac molestie est. In hac habitasse platea dictumst. Fusce commodo porta pharetra. Sed sit amet ante at magna molestie imperdiet nec nec turpis. Nulla non felis placerat, commodo urna at, molestie enim. Nulla blandit dui vitae lectus faucibus consequat. Pellentesque eleifend facilisis varius. Curabitur aliquet ex rhoncus lectus dignissim vulputate. Quisque sodales iaculis mi sed facilisis. Integer convallis lorem nec enim fermentum, vitae varius lacus varius. Sed mollis a elit ut fringilla. Etiam mollis augue in risus finibus, a sodales purus tempus. Quisque nibh felis, efficitur dignissim est et, rhoncus malesuada nulla.",
+      "source_file": "loremipsum-flat.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:53:50.720596",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "7e198803-5cf4-4b4c-b046-5ed062f930b2",
+      "type": "general",
+      "title": "Duis quis lacinia lacus. Aenean at sapien dignissim, iaculis lectus in, euismod ...",
+      "content": "[Title] Duis quis lacinia lacus. Aenean at sapien dignissim, iaculis lectus in, euismod ...\n[Content] Duis quis lacinia lacus. Aenean at sapien dignissim, iaculis lectus in, euismod ipsum. Vivamus vehicula sem fringilla facilisis aliquet. Vivamus vel augue eget lorem aliquet bibendum. Quisque ut nibh arcu. Fusce convallis turpis in volutpat placerat. Phasellus ornare quis diam at vestibulum.",
+      "source_file": "loremipsum-flat.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:53:50.720600",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "cbaa8ed9-b304-453a-8a91-42295d570f75",
+      "type": "general",
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "content": "[Title] Dense Passage Retrieval for Open-Domain Question Answering",
+      "source_file": "multi-column.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:53:50.720603",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "74e6364a-76be-4ba1-b211-c25c758440ee",
+      "type": "general",
+      "title": "Vladimir Karpukhin<sup>∗</sup> , Barlas Oguz ˘ ∗ , Sewon Min† , Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen‡ , Wen-tau Yih",
+      "content": "[Title] Vladimir Karpukhin<sup>∗</sup> , Barlas Oguz ˘ ∗ , Sewon Min† , Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen‡ , Wen-tau Yih\n[Content] Facebook AI †University of Washington ‡Princeton University {vladk, barlaso, plewis, ledell, edunov, scottyih}@fb.com sewon@cs.washington.edu danqic@cs.princeton.edu\n[Keywords] AI",
+      "source_file": "multi-column.pdf",
+      "source_page": 1,
+      "keywords": "AI",
+      "created_at": "2026-06-21T17:53:50.720607",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "9926f7e3-9d67-4a12-97bf-a3440e599fe1",
+      "type": "general",
+      "title": "Abstract",
+      "content": "[Title] Abstract\n[Content] Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. In this work, we show that retrieval can be practically implemented using *dense* representations alone, where embeddings are learned from a small number of questions and passages by a simple dualencoder framework. When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene-BM25 system greatly by 9%-19% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks.[1](#page-0-0)\n[Keywords] IDF, QA, TF",
+      "source_file": "multi-column.pdf",
+      "source_page": 1,
+      "keywords": "IDF, QA, TF",
+      "created_at": "2026-06-21T17:53:50.720612",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "48ec4c57-34c5-4185-8c8a-51416d584e1f",
+      "type": "general",
+      "title": "1 Introduction",
+      "content": "[Title] 1 Introduction\n[Content] Open-domain question answering (QA) [\\(Voorhees,](#page-10-0) [1999\\)](#page-10-0) is a task that answers factoid questions using a large collection of documents. While early QA systems are often complicated and consist of multiple components [\\(Ferrucci](#page-9-0) [\\(2012\\)](#page-9-0); [Moldovan](#page-10-1) [et al.](#page-10-1) [\\(2003\\)](#page-10-1), *inter alia*), the advances of reading comprehension models suggest a much simplified two-stage framework: (1) a context *retriever* first selects a small subset of passages where some of them contain the answer to the question, and then (2) a machine *reader* can thoroughly examine the retrieved contexts and identify the correct answer [\\(Chen et al.,](#page-9-1) [2017\\)](#page-9-1). Although reducing open-domain QA to machine reading is a very reasonable strategy, a huge performance degradation is often observed in practice[2](#page-0-1) , indicating the needs of improving retrieval.\n\nRetrieval in open-domain QA is usually implemented using TF-IDF or BM25 [\\(Robertson and](#page-10-3) [Zaragoza,](#page-10-3) [2009\\)](#page-10-3), which matches keywords efficiently with an inverted index and can be seen as representing the question and context in highdimensional, sparse vectors (with weighting). Conversely, the *dense*, latent semantic encoding is *complementary* to sparse representations by design. For example, synonyms or paraphrases that consist of completely different tokens may still be mapped to vectors close to each other. Consider the question *\"Who is the bad guy in lord of the rings?\"*, which can be answered from the context *\"Sala Baker is best known for portraying the villain Sauron in the Lord of the Rings trilogy.\"* A term-based system would have difficulty retrieving such a context, while a dense retrieval system would be able to better match *\"bad guy\"* with *\"villain\"* and fetch the correct context. Dense encodings are also *learnable* by adjusting the embedding functions, which provides additiona\n[Keywords] IDF, QA, MIPS, TF",
+      "source_file": "multi-column.pdf",
+      "source_page": 1,
+      "keywords": "IDF, QA, MIPS, TF",
+      "created_at": "2026-06-21T17:53:50.720615",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "5ed06d14-ba14-4cb6-99b8-201cfad7c071",
+      "type": "general",
+      "title": "2 Background",
+      "content": "[Title] 2 Background\n[Content] The problem of open-domain QA studied in this paper can be described as follows. Given a factoid question, such as \"Who first voiced Meg on Family Guy?\" or \"Where was the 8th Dalai Lama born?\", a system is required to answer it using a large corpus of diversified topics. More specifically, we assume\n\nthe extractive QA setting, in which the answer is restricted to a span appearing in one or more passages in the corpus. Assume that our collection contains D documents,  $d_1, d_2, \\dots, d_D$ . We first split each of the documents into text passages of equal lengths as the basic retrieval units<sup>3</sup> and get Mtotal passages in our corpus  $C = \\{p_1, p_2, \\dots, p_M\\},\\$ where each passage  $p_i$  can be viewed as a sequence of tokens  $w_1^{(i)}, w_2^{(i)}, \\cdots, w_{|p_i|}^{(i)}$ . Given a question q, the task is to find a span  $w_s^{(i)}, w_{s+1}^{(i)}, \\cdots, w_e^{(i)}$  from one of the passages  $p_i$  that can answer the question. Notice that to cover a wide variety of domains, the corpus size can easily range from millions of documents (e.g., Wikipedia) to billions (e.g., the Web). As a result, any open-domain QA system needs to include an efficient retriever component that can select a small set of relevant texts, before applying the reader to extract the answer (Chen et al., 2017).<sup>4</sup> Formally speaking, a retriever  $R:(q,\\mathcal{C})\\to\\mathcal{C}_{\\mathcal{F}}$ is a function that takes as input a question q and a corpus C and returns a much smaller *filter set* of texts  $\\mathcal{C}_{\\mathcal{F}} \\subset \\mathcal{C}$ , where  $|\\mathcal{C}_{\\mathcal{F}}| = k \\ll |\\mathcal{C}|$ . For a fixed k, a retriever can be evaluated in isolation on top-k retrieval accuracy, which is the fraction of questions for which  $\\mathcal{C}_{\\mathcal{F}}$  contains a span that answers the question.\n[Keywords] QA",
+      "source_file": "multi-column.pdf",
+      "source_page": 1,
+      "keywords": "QA",
+      "created_at": "2026-06-21T17:53:50.720619",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "6a397e6a-b251-463f-9cd7-6ba1a9cd1101",
+      "type": "general",
+      "title": "3 Dense Passage Retriever (DPR)",
+      "content": "[Title] 3 Dense Passage Retriever (DPR)\n[Content] We focus our research in this work on improving the *retrieval* component in open-domain QA. Given a collection of M text passages, the goal of our dense passage retriever (DPR) is to index all the passages in a low-dimensional and continuous space, such that it can retrieve efficiently the top k passages relevant to the input question for the reader at run-time. Note that M can be very large (e.g., 21 million passages in our experiments, described in Section 4.1) and k is usually small, such as 20-100.\n[Keywords] QA, DPR",
+      "source_file": "multi-column.pdf",
+      "source_page": 1,
+      "keywords": "QA, DPR",
+      "created_at": "2026-06-21T17:53:50.720622",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "04da20cb-b4ab-4748-a254-8af757a37730",
+      "type": "general",
+      "title": "3.1 Overview",
+      "content": "[Title] 3.1 Overview\n[Content] Our dense passage retriever (DPR) uses a dense encoder  $E_P(\\cdot)$  which maps any text passage to a d-dimensional real-valued vectors and builds an index for all the M passages that we will use for retrieval.\n\n<span id=\"page-1-0\"></span><sup>&</sup>lt;sup>3</sup>The ideal size and boundary of a text passage are functions of both the retriever and reader. We also experimented with natural paragraphs in our preliminary trials and found that using fixed-length passages performs better in both retrieval and final QA accuracy, as observed by Wang et al. (2019).\n\n<span id=\"page-1-1\"></span><sup>&</sup>lt;sup>4</sup>Exceptions include (Seo et al., 2019) and (Roberts et al., 2020), which *retrieves* and *generates* the answers, respectively.\n\nAt run-time, DPR applies a different encoder  $E_Q(\\cdot)$  that maps the input question to a d-dimensional vector, and retrieves k passages of which vectors are the closest to the question vector. We define the similarity between the question and the passage using the dot product of their vectors:\n\n$$sim(q, p) = E_Q(q)^{\\mathsf{T}} E_P(p). \\tag{1}$$\n\nAlthough more expressive model forms for measuring the similarity between a question and a passage do exist, such as networks consisting of multiple layers of cross attentions, the similarity function needs to be decomposable so that the representations of the collection of passages can be precomputed. Most decomposable similarity functions are some transformations of Euclidean distance (L2). For instance, cosine is equivalent to inner product for unit vectors and the Mahalanobis distance is equivalent to L2 distance in a transformed space. Inner product search has been widely used and studied, as well as its connection to cosine similarity and L2 distance (Mussmann and Ermon, 2016; Ram and Gray, 2012). As our ablation study finds other similarity functions perform comparably (Section 5.2; Appendix B), we thus choose the simpler inner product function and improve the dense passage retr\n[Keywords] QA, CLS, FAISS, DPR",
+      "source_file": "multi-column.pdf",
+      "source_page": 1,
+      "keywords": "QA, CLS, FAISS, DPR",
+      "created_at": "2026-06-21T17:53:50.720651",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "1b5eda63-9a16-4805-a30b-bdaf50205bc6",
+      "type": "general",
+      "title": "<span id=\"page-2-1\"></span>3.2 Training",
+      "content": "[Title] <span id=\"page-2-1\"></span>3.2 Training\n[Content] Training the encoders so that the dot-product similarity (Eq. (1)) becomes a good ranking function for retrieval is essentially a *metric learning* problem (Kulis, 2013). The goal is to create a vector space such that relevant pairs of questions and passages will have smaller distance (i.e., higher simi-\n\nlarity) than the irrelevant ones, by learning a better embedding function.\n\nLet  $\\mathcal{D} = \\{\\langle q_i, p_i^+, p_{i,1}^-, \\cdots, p_{i,n}^- \\rangle\\}_{i=1}^m$  be the training data that consists of m instances. Each instance contains one question  $q_i$  and one relevant (positive) passage  $p_i^+$ , along with n irrelevant (negative) passages  $p_{i,j}^-$ . We optimize the loss function as the negative log likelihood of the positive passage:\n\n<span id=\"page-2-2\"></span><span id=\"page-2-0\"></span>\n$$L(q_{i}, p_{i}^{+}, p_{i,1}^{-}, \\cdots, p_{i,n}^{-})$$\n\n$$= -\\log \\frac{e^{\\sin(q_{i}, p_{i}^{+})}}{e^{\\sin(q_{i}, p_{i}^{+})} + \\sum_{j=1}^{n} e^{\\sin(q_{i}, p_{i,j}^{-})}}.$$\n(2)\n\nPositive and negative passages For retrieval problems, it is often the case that positive examples are available explicitly, while negative examples need to be selected from an extremely large pool. For instance, passages relevant to a question may be given in a QA dataset, or can be found using the answer. All other passages in the collection, while not specified explicitly, can be viewed as irrelevant by default. In practice, how to select negative examples is often overlooked but could be decisive for learning a high-quality encoder. We consider three different types of negatives: (1) Random: any random passage from the corpus; (2) BM25: top passages returned by BM25 which don't contain the answer but match most question tokens; (3) Gold: positive passages paired with other questions which appear in the training set. We will discuss the impact of different types of negative passages and training schemes in Section 5.2. Our best model uses gold passages from the same mini-batch and\n[Keywords] QA",
+      "source_file": "multi-column.pdf",
+      "source_page": 2,
+      "keywords": "QA",
+      "created_at": "2026-06-21T17:53:50.720656",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "2e3d8644-8117-49e7-acbb-fddf774c9699",
+      "type": "general",
+      "title": "4 Experimental Setup",
+      "content": "[Title] 4 Experimental Setup\n[Content] In this section, we describe the data we used for experiments and the basic setup.",
+      "source_file": "multi-column.pdf",
+      "source_page": 2,
+      "keywords": "",
+      "created_at": "2026-06-21T17:53:50.720659",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "0e1e8326-eee2-4615-8f0b-8177398c04cf",
+      "type": "general",
+      "title": "<span id=\"page-3-0\"></span>4.1 Wikipedia Data Pre-processing",
+      "content": "[Title] <span id=\"page-3-0\"></span>4.1 Wikipedia Data Pre-processing\n[Content] Following [\\(Lee et al.,](#page-9-3) [2019\\)](#page-9-3), we use the English Wikipedia dump from Dec. 20, 2018 as the source documents for answering questions. We first apply the pre-processing code released in DrQA [\\(Chen](#page-9-1) [et al.,](#page-9-1) [2017\\)](#page-9-1) to extract the clean, text-portion of articles from the Wikipedia dump. This step removes semi-structured data, such as tables, infoboxes, lists, as well as the disambiguation pages. We then split each article into multiple, disjoint text blocks of 100 words as *passages*, serving as our basic retrieval units, following [\\(Wang et al.,](#page-10-5) [2019\\)](#page-10-5), which results in 21,015,324 passages in the end.[5](#page-3-1) Each passage is also prepended with the title of the Wikipedia article where the passage is from, along with an [SEP] token.\n[Keywords] SEP",
+      "source_file": "multi-column.pdf",
+      "source_page": 2,
+      "keywords": "SEP",
+      "created_at": "2026-06-21T17:53:50.720663",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "7c19ba4e-7729-4f7e-88c5-896f8f727049",
+      "type": "general",
+      "title": "<span id=\"page-3-5\"></span>4.2 Question Answering Datasets",
+      "content": "[Title] <span id=\"page-3-5\"></span>4.2 Question Answering Datasets\n[Content] We use the same five QA datasets and training/dev/testing splitting method as in previous work [\\(Lee et al.,](#page-9-3) [2019\\)](#page-9-3). Below we briefly describe each dataset and refer readers to their paper for the details of data preparation.\n\nNatural Questions (NQ) [\\(Kwiatkowski et al.,](#page-9-6) [2019\\)](#page-9-6) was designed for end-to-end question answering. The questions were mined from real Google search queries and the answers were spans in Wikipedia articles identified by annotators.\n\nTriviaQA [\\(Joshi et al.,](#page-9-11) [2017\\)](#page-9-11) contains a set of trivia questions with answers that were originally scraped from the Web.\n\nWebQuestions (WQ) [\\(Berant et al.,](#page-8-0) [2013\\)](#page-8-0) consists of questions selected using Google Suggest API, where the answers are entities in Freebase.\n\nCuratedTREC (TREC) [\\(Baudis and](#page-8-1) ˇ Sediv ˇ y`, [2015\\)](#page-8-1) sources questions from TREC QA tracks\n\n<span id=\"page-3-4\"></span>\n\n| Dataset           |        | Train  | Dev   | Test   |\n|-------------------|--------|--------|-------|--------|\n| Natural Questions | 79,168 | 58,880 | 8,757 | 3,610  |\n| TriviaQA          | 78,785 | 60,413 | 8,837 | 11,313 |\n| WebQuestions      | 3,417  | 2,474  | 361   | 2,032  |\n| CuratedTREC       | 1,353  | 1,125  | 133   | 694    |\n| SQuAD             | 78,713 | 70,096 | 8,886 | 10,570 |\n\nTable 1: Number of questions in each QA dataset. The two columns of Train denote the original training examples in the dataset and the actual questions used for training DPR after filtering. See text for more details.\n\nas well as various Web sources and is intended for open-domain QA from unstructured corpora.\n\nSQuAD v1.1 [\\(Rajpurkar et al.,](#page-10-11) [2016\\)](#page-10-11) is a popular benchmark dataset for reading comprehension. Annotators were presented with a Wikipedia paragraph, and asked to write questions that could be answered from the given text. Although SQuAD has been used previously for open-doma\n[Keywords] QA, TREC, API, DPR",
+      "source_file": "multi-column.pdf",
+      "source_page": 3,
+      "keywords": "QA, TREC, API, DPR",
+      "created_at": "2026-06-21T17:53:50.720667",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "1d59d148-1939-4685-a49b-82a4adca5271",
+      "type": "general",
+      "title": "5 Experiments: Passage Retrieval",
+      "content": "[Title] 5 Experiments: Passage Retrieval\n[Content] In this section, we evaluate the retrieval performance of our Dense Passage Retriever (DPR), along with analysis on how its output differs from\n\n<span id=\"page-3-1\"></span><sup>5</sup>However, [Wang et al.](#page-10-5) [\\(2019\\)](#page-10-5) also propose splitting documents into overlapping passages, which we do not find advantageous compared to the non-overlapping version.\n\n<span id=\"page-3-2\"></span><sup>6</sup>We use the unfiltered TriviaQA version and discard the noisy evidence documents mined from Bing.\n\n<span id=\"page-3-3\"></span><sup>7</sup>The improvement of using gold contexts over passages that contain answers is small. See Section [5.2](#page-5-2) and Appendix [A.](#page-11-1)\n\n<span id=\"page-4-3\"></span>\n\n| Training | Retriever         |                  | Top-20              |                  |                  | Top-100             |                  |                     |                  |                     |                     |\n|----------|-------------------|------------------|---------------------|------------------|------------------|---------------------|------------------|---------------------|------------------|---------------------|---------------------|\n| _        |                   | NQ               | TriviaQA            | WQ               | TREC             | SQuAD               | NQ               | TriviaQA            | WQ               | TREC                | SQuAD               |\n| None     | BM25              | 59.1             | 66.9                | 55.0             | 70.9             | 68.8                | 73.7             | 76.7                | 71.1             | 84.1                | 80.0                |\n| Single   | DPR<br>BM25 + DPR | 78.4<br>76.6     | 79.4<br>79.8        | 73.2<br>71.0     | 79.8<br>85.2     | 63.2<br><b>71.5</b> | 85.4<br>83.8     | <b>85.0</b><br>84.5 | 81.4<br>80.5     | 89.1<br>92.7        | 77.2<br><b>81.3</b> |\n| Multi    | DPR<br>BM25 + DPR | <b>79.4</b> 78.0 | 78.8<br><b>79.9</b> | <b>75.0</\n[Keywords] TREC, NQ, DPR, WQ",
+      "source_file": "multi-column.pdf",
+      "source_page": 3,
+      "keywords": "TREC, NQ, DPR, WQ",
+      "created_at": "2026-06-21T17:53:50.720670",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "56468973-f22e-4f68-888a-ee7cba534781",
+      "type": "general",
+      "title": "<span id=\"page-4-0\"></span>5.1 Main Results",
+      "content": "[Title] <span id=\"page-4-0\"></span>5.1 Main Results\n[Content] Table 2 compares different passage retrieval systems on five QA datasets, using the top-k accuracy ( $k \\in \\{20, 100\\}$ ). With the exception of SQuAD, DPR performs consistently better than BM25 on all datasets. The gap is especially large when k is small (e.g., 78.4% vs. 59.1% for top-20 accuracy on Natural Questions). When training with mul-\n\n<span id=\"page-4-4\"></span>![](_page_4_Figure_9.jpeg)\n\nFigure 1: Retriever top-k accuracy with different numbers of training examples used in our dense passage retriever vs BM25. The results are measured on the development set of Natural Questions. Our DPR trained using 1,000 examples already outperforms BM25.\n\ntiple datasets, TREC, the smallest dataset of the five, benefits greatly from more training examples. In contrast, Natural Questions and WebQuestions improve modestly and TriviaQA degrades slightly. Results can be improved further in some cases by combining DPR with BM25 in both single- and multi-dataset settings.\n\nWe conjecture that the lower performance on SQuAD is due to two reasons. First, the annotators wrote questions after seeing the passage. As a result, there is a high lexical overlap between passages and questions, which gives BM25 a clear advantage. Second, the data was collected from only 500+ Wikipedia articles and thus the distribution of training examples is extremely biased, as argued previously by Lee et al. (2019).\n[Keywords] TREC, QA, DPR",
+      "source_file": "multi-column.pdf",
+      "source_page": 4,
+      "keywords": "TREC, QA, DPR",
+      "created_at": "2026-06-21T17:53:50.720673",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "a942d804-a76f-4021-9908-eadab24f2a37",
+      "type": "general",
+      "title": "5.2 Ablation Study on Model Training",
+      "content": "[Title] 5.2 Ablation Study on Model Training\n[Content] To understand further how different model training options affect the results, we conduct several additional experiments and discuss our findings below.\n\n<span id=\"page-4-1\"></span><sup>&</sup>lt;sup>8</sup>SQuAD is limited to a small set of Wikipedia documents and thus introduces unwanted bias. We will discuss this issue more in Section 5.1.\n\n<span id=\"page-4-2\"></span> $<sup>^9</sup>$ Lucene implementation. BM25 parameters b=0.4 (document length normalization) and  $k_1=0.9$  (term frequency scaling) are tuned using development sets.\n\nSample efficiency We explore how many training examples are needed to achieve good passage retrieval performance. Figure 1 illustrates the top-k retrieval accuracy with respect to different numbers of training examples, measured on the development set of Natural Questions. As is shown, a dense passage retriever trained using only 1,000 examples already outperforms BM25. This suggests that with a general pretrained language model, it is possible to train a high-quality dense retriever with a small number of question—passage pairs. Adding more training examples (from 1k to 59k) further improves the retrieval accuracy consistently.\n\n<span id=\"page-5-1\"></span>In-batch negative training We test different training schemes on the development set of Natural Questions and summarize the results in Table 3. The top block is the standard 1-of-N training setting, where each question in the batch is paired with a positive passage and its own set of n negative passages (Eq. (2)). We find that the choice of negatives — random, BM25 or gold passages (positive passages from other questions) — does not impact the top-k accuracy much in this setting when k > 20.\n\nThe middle bock is the in-batch negative training (Section 3.2) setting. We find that using a similar configuration (7 gold negative passages), in-batch negative training improves the results substantially. The key difference between the two is whether the gold negative passages come from the \n[Keywords] TREC, IB, DPR",
+      "source_file": "multi-column.pdf",
+      "source_page": 4,
+      "keywords": "TREC, IB, DPR",
+      "created_at": "2026-06-21T17:53:50.720676",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "e232daa8-c883-47de-81a4-f025625a7ec2",
+      "type": "general",
+      "title": "5.3 Qualitative Analysis",
+      "content": "[Title] 5.3 Qualitative Analysis\n[Content] Although DPR performs better than BM25 in general, passages retrieved by these two methods differ qualitatively. Term-matching methods like BM25 are sensitive to highly selective keywords and phrases, while DPR captures lexical variations or semantic relationships better. See Appendix C for examples and more discussion.\n[Keywords] DPR",
+      "source_file": "multi-column.pdf",
+      "source_page": 5,
+      "keywords": "DPR",
+      "created_at": "2026-06-21T17:53:50.720680",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "32bff088-d4a4-4460-9368-ce693810ed2c",
+      "type": "general",
+      "title": "5.4 Run-time Efficiency",
+      "content": "[Title] 5.4 Run-time Efficiency\n[Content] The main reason that we require a retrieval component for open-domain QA is to reduce the number of candidate passages that the reader needs to consider, which is crucial for answering user's questions in real-time. We profiled the passage retrieval speed on a server with Intel Xeon CPU E5-2698 v4 @ 2.20GHz and 512GB memory. With the help of FAISS in-memory index for real-valued vectors <sup>10</sup>, DPR can be made incredibly efficient, processing 995.0 questions per second, returning top 100 passages per question. In contrast, BM25/Lucene (implemented in Java, using file index) processes 23.7 questions per second per CPU thread.\n\nOn the other hand, the time required for building an index for dense vectors is much longer. Computing dense embeddings on 21-million passages is resource intensive, but can be easily parallelized, taking roughly 8.8 hours on 8 GPUs. However, building the FAISS index on 21-million vectors on a single server takes 8.5 hours. In comparison, building an inverted index using Lucene is much cheaper and takes only about 30 minutes in total.\n[Keywords] FAISS, QA, DPR, CPU",
+      "source_file": "multi-column.pdf",
+      "source_page": 6,
+      "keywords": "FAISS, QA, DPR, CPU",
+      "created_at": "2026-06-21T17:53:50.720683",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "0d984b0e-13af-462f-816b-f9f28b1e6d99",
+      "type": "general",
+      "title": "**6 Experiments: Question Answering**",
+      "content": "[Title] **6 Experiments: Question Answering**\n[Content] In this section, we experiment with how different passage retrievers affect the final QA accuracy.\n[Keywords] QA",
+      "source_file": "multi-column.pdf",
+      "source_page": 6,
+      "keywords": "QA",
+      "created_at": "2026-06-21T17:53:50.720687",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "2b5452fa-242f-4139-9dea-5fd578db7489",
+      "type": "general",
+      "title": "6.1 End-to-end QA System",
+      "content": "[Title] 6.1 End-to-end QA System\n[Content] We implement an end-to-end question answering system in which we can plug different retriever systems directly. Besides the retriever, our QA system consists of a neural reader that outputs the answer to the question. Given the top k retrieved passages (up to 100 in our experiments), the reader assigns a passage selection score to each passage. In addition, it extracts an answer span from each passage and assigns a span score. The best span from the passage with the highest passage selection\n\nscore is chosen as the final answer. The passage selection model serves as a reranker through cross-attention between the question and the passage. Although cross-attention is not feasible for retrieving relevant passages in a large corpus due to its non-decomposable nature, it has more capacity than the dual-encoder model sim(q, p) as in Eq. (1). Applying it to selecting the passage from a small number of retrieved candidates has been shown to work well (Wang et al., 2019, 2018; Lin et al., 2018).\n\nSpecifically, let  $\\mathbf{P}_i \\in \\mathbb{R}^{L \\times h}$   $(1 \\leq i \\leq k)$  be a BERT (base, uncased in our experiments) representation for the *i*-th passage, where L is the maximum length of the passage and h the hidden dimension. The probabilities of a token being the starting/ending positions of an answer span and a passage being selected are defined as:\n\n$$P_{\\text{start},i}(s) = \\operatorname{softmax}(\\mathbf{P}_i \\mathbf{w}_{\\text{start}})_s,$$\n (3)\n\n$$P_{\\text{end},i}(t) = \\operatorname{softmax}(\\mathbf{P}_i \\mathbf{w}_{\\text{end}})_t,$$\n (4)\n\n$$P_{\\text{selected}}(i) = \\operatorname{softmax}(\\hat{\\mathbf{P}}^{\\mathsf{T}}\\mathbf{w}_{\\text{selected}})_{i}, (5)$$\n\nwhere  $\\hat{\\mathbf{P}} = [\\mathbf{P}_1^{[\\text{CLS}]}, \\dots, \\mathbf{P}_k^{[\\text{CLS}]}] \\in \\mathbb{R}^{h \\times k}$  and  $\\mathbf{w}_{\\text{start}}, \\mathbf{w}_{\\text{end}}, \\mathbf{w}_{\\text{selected}} \\in \\mathbb{R}^h$  are learnable vectors. We compute a span score of the s-th to t-th words from th\n[Keywords] QA, TREC, CLS, DPR",
+      "source_file": "multi-column.pdf",
+      "source_page": 6,
+      "keywords": "QA, TREC, CLS, DPR",
+      "created_at": "2026-06-21T17:53:50.720690",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "33fde985-4bb2-4af4-8aad-c9ffd4f95883",
+      "type": "general",
+      "title": "6.2 Results",
+      "content": "[Title] 6.2 Results\n[Content] Table 4 summarizes our final end-to-end QA results, measured by *exact match* with the reference answer after minor normalization as in (Chen et al., 2017; Lee et al., 2019). From the table, we can\n\n<span id=\"page-6-0\"></span> $<sup>^{10}</sup>$ FAISS configuration: we used HNSW index type on CPU, neighbors to store per node = 512, construction time search depth = 200, search depth = 128.\n\n<span id=\"page-7-0\"></span>\n\n| Training | Model                              | NQ   | TriviaQA | WQ   | TREC | SQuAD |\n|----------|------------------------------------|------|----------|------|------|-------|\n| Single   | BM25+BERT (Lee et al., 2019)       | 26.5 | 47.1     | 17.7 | 21.3 | 33.2  |\n| Single   | ORQA (Lee et al., 2019)            | 33.3 | 45.0     | 36.4 | 30.1 | 20.2  |\n| Single   | HardEM (Min et al., 2019a)         | 28.1 | 50.9     | -    | -    | -     |\n| Single   | GraphRetriever (Min et al., 2019b) | 34.5 | 56.0     | 36.4 | -    | -     |\n| Single   | PathRetriever (Asai et al., 2020)  | 32.6 | -        | -    | -    | 56.5  |\n| Single   | REALMWiki<br>(Guu et al., 2020)    | 39.2 | -        | 40.2 | 46.8 | -     |\n| Single   | REALMNews<br>(Guu et al., 2020)    | 40.4 | -        | 40.7 | 42.9 | -     |\n|          | BM25                               | 32.6 | 52.4     | 29.9 | 24.9 | 38.1  |\n| Single   | DPR                                | 41.5 | 56.8     | 34.6 | 25.9 | 29.8  |\n|          | BM25+DPR                           | 39.0 | 57.0     | 35.2 | 28.0 | 36.7  |\n|          | DPR                                | 41.5 | 56.8     | 42.4 | 49.4 | 24.1  |\n| Multi    | BM25+DPR                           | 38.8 | 57.9     | 41.1 | 50.6 | 35.8  |\n\nTable 4: End-to-end QA (Exact Match) Accuracy. The first block of results are copied from their cited papers. REALMWiki and REALMNews are the same model but pretrained on Wikipedia and CC-News, respectively. *Single* and *Multi* denote that our Dense Passage Retriever (DPR) is trained using individual or combined tr\n[Keywords] QA, REALM, TREC, ORQA",
+      "source_file": "multi-column.pdf",
+      "source_page": 6,
+      "keywords": "QA, REALM, TREC, ORQA",
+      "created_at": "2026-06-21T17:53:50.720694",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "8f55ea4b-4f3f-40a8-be53-21cf0a44aa6a",
+      "type": "general",
+      "title": "7 Related Work",
+      "content": "[Title] 7 Related Work\n[Content] Passage retrieval has been an important component for open-domain QA [\\(Voorhees,](#page-10-0) [1999\\)](#page-10-0). It not only effectively reduces the search space for answer extraction, but also identifies the support context for users to verify the answer. Strong sparse vector space models like TF-IDF or BM25 have\n\nbeen used as the standard method applied broadly to various QA tasks (e.g., [Chen et al.,](#page-9-1) [2017;](#page-9-1) [Yang](#page-10-2) [et al.,](#page-10-2) [2019a,](#page-10-2)[b;](#page-10-16) [Nie et al.,](#page-10-17) [2019;](#page-10-17) [Min et al.,](#page-10-14) [2019a;](#page-10-14) [Wolfson et al.,](#page-10-18) [2020\\)](#page-10-18). Augmenting text-based retrieval with external structured information, such as knowledge graph and Wikipedia hyperlinks, has also been explored recently [\\(Min et al.,](#page-10-15) [2019b;](#page-10-15) [Asai](#page-8-2) [et al.,](#page-8-2) [2020\\)](#page-8-2).\n\nThe use of dense vector representations for retrieval has a long history since Latent Semantic Analysis [\\(Deerwester et al.,](#page-9-14) [1990\\)](#page-9-14). Using labeled pairs of queries and documents, discriminatively trained dense encoders have become popular recently [\\(Yih et al.,](#page-10-10) [2011;](#page-10-10) [Huang et al.,](#page-9-15) [2013;](#page-9-15) [Gillick](#page-9-10) [et al.,](#page-9-10) [2019\\)](#page-9-10), with applications to cross-lingual document retrieval, ad relevance prediction, Web search and entity retrieval. Such approaches complement the sparse vector methods as they can potentially give high similarity scores to semantically relevant text pairs, even without exact token matching. The dense representation alone, however, is typically inferior to the sparse one. While not the focus of this work, dense representations from pretrained models, along with cross-attention mechanisms, have also been shown effective in passage or dialogue re-ranking tasks [\\(Nogueira and Cho,](#page-10-19) [2019;](#page-10-19) [Humea\n[Keywords] IDF, QA, BART, TF",
+      "source_file": "multi-column.pdf",
+      "source_page": 7,
+      "keywords": "IDF, QA, BART, TF",
+      "created_at": "2026-06-21T17:53:50.720699",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "a0dfc464-52bb-41b0-8045-c5777682e7a8",
+      "type": "general",
+      "title": "8 Conclusion",
+      "content": "[Title] 8 Conclusion\n[Content] In this work, we demonstrated that dense retrieval can outperform and potentially replace the traditional sparse retrieval component in open-domain question answering. While a simple dual-encoder approach can be made to work surprisingly well, we showed that there are some critical ingredients to training a dense retriever successfully. Moreover, our empirical analysis and ablation studies indicate that more complex model frameworks or similarity functions do not necessarily provide additional values. As a result of improved retrieval performance, we obtained new state-of-the-art results on multiple open-domain question answering benchmarks.",
+      "source_file": "multi-column.pdf",
+      "source_page": 8,
+      "keywords": "",
+      "created_at": "2026-06-21T17:53:50.720703",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "3c092b78-6973-4de2-8c5c-3ee43e8d2cd5",
+      "type": "general",
+      "title": "Acknowledgments",
+      "content": "[Title] Acknowledgments\n[Content] We thank the anonymous reviewers for their helpful comments and suggestions.",
+      "source_file": "multi-column.pdf",
+      "source_page": 8,
+      "keywords": "",
+      "created_at": "2026-06-21T17:53:50.720707",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "31f4b7f4-470e-4b3e-9068-00f69fc40581",
+      "type": "general",
+      "title": "References",
+      "content": "[Title] References\n[Content] <span id=\"page-8-2\"></span>Akari Asai, Kazuma Hashimoto, Hannaneh Hajishirzi, Richard Socher, and Caiming Xiong. 2020. Learning to retrieve reasoning paths over Wikipedia graph for question answering. In *International Conference on Learning Representations (ICLR)*.\n\n<span id=\"page-8-1\"></span>Petr Baudis and Jan ˇ Sediv ˇ y. 2015. Modeling of the ` question answering task in the yodaqa system. In *International Conference of the Cross-Language Evaluation Forum for European Languages*, pages 222– 228. Springer.\n\n<span id=\"page-8-0\"></span>Jonathan Berant, Andrew Chou, Roy Frostig, and Percy Liang. 2013. Semantic parsing on Freebase from\n\n- question-answer pairs. In *Empirical Methods in Natural Language Processing (EMNLP)*.\n- <span id=\"page-9-5\"></span>Jane Bromley, Isabelle Guyon, Yann LeCun, Eduard Sackinger, and Roopak Shah. 1994. Signature verifi- ¨ cation using a \"Siamese\" time delay neural network. In *NIPS*, pages 737–744.\n- <span id=\"page-9-12\"></span>Chris Burges, Tal Shaked, Erin Renshaw, Ari Lazier, Matt Deeds, Nicole Hamilton, and Greg Hullender. 2005. Learning to rank using gradient descent. In *Proceedings of the 22nd international conference on Machine learning*, pages 89–96.\n- <span id=\"page-9-1\"></span>Danqi Chen, Adam Fisch, Jason Weston, and Antoine Bordes. 2017. Reading Wikipedia to answer opendomain questions. In *Association for Computational Linguistics (ACL)*, pages 1870–1879.\n- <span id=\"page-9-18\"></span>Rajarshi Das, Shehzaad Dhuliawala, Manzil Zaheer, and Andrew McCallum. 2019. Multi-step retrieverreader interaction for scalable open-domain question answering. In *International Conference on Learning Representations (ICLR)*.\n- <span id=\"page-9-14\"></span>Scott Deerwester, Susan T Dumais, George W Furnas, Thomas K Landauer, and Richard Harshman. 1990. Indexing by latent semantic analysis. *Journal of the American society for information science*, 41(6):391–407.\n- <span id=\"page-9-4\"></span>Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kris\n[Keywords] MIPS, REALM, EMNLP, BERT",
+      "source_file": "multi-column.pdf",
+      "source_page": 8,
+      "keywords": "MIPS, REALM, EMNLP, BERT",
+      "created_at": "2026-06-21T17:53:50.720710",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "3e6a7c96-6b4a-41bc-a8f0-83fe51d32bf3",
+      "type": "general",
+      "title": "<span id=\"page-11-1\"></span>A Distant Supervision",
+      "content": "[Title] <span id=\"page-11-1\"></span>A Distant Supervision\n[Content] When training our final DPR model using Natural Questions, we use the passages in our collection that best match the gold context as the positive passages. As some QA datasets contain only the question and answer pairs, it is thus interesting to see when using the passages that contain the answers as positives (i.e., the distant supervision setting), whether there is a significant performance degradation. Using the question and answer together as the query, we run Lucene-BM25 and pick the top passage that contains the answer as the positive passage. Table [5](#page-11-4) shows the performance of DPR when trained using the original setting and the distant supervision setting.\n[Keywords] QA, DPR",
+      "source_file": "multi-column.pdf",
+      "source_page": 11,
+      "keywords": "QA, DPR",
+      "created_at": "2026-06-21T17:53:50.720715",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "89dc9613-ff46-4e09-bb6a-f3d04918cb02",
+      "type": "general",
+      "title": "<span id=\"page-11-0\"></span>B Alternative Similarity Functions & Triplet Loss",
+      "content": "[Title] <span id=\"page-11-0\"></span>B Alternative Similarity Functions & Triplet Loss\n[Content] In addition to dot product (DP) and negative loglikelihood based on softmax (NLL), we also experiment with Euclidean distance (L2) and the triplet loss. We negate L2 similarity scores before applying softmax and change signs of question-topositive and question-to-negative similarities when applying the triplet loss on dot product scores. The margin value of the triplet loss is set to 1. Table [6](#page-11-5) summarizes the results. All these additional experiments are conducted using the same hyperparameters tuned for the baseline (DP, NLL).\n\nNote that the retrieval accuracy for our \"baseline\" settings reported in Table [5](#page-11-4) (Gold) and Table [6](#page-11-5) (DP, NLL) is slightly better than those reported in Table 3. This is due to a better hyper-parameter setting used in these analysis experiments, which is documented in our code release.\n[Keywords] DP, NLL",
+      "source_file": "multi-column.pdf",
+      "source_page": 11,
+      "keywords": "DP, NLL",
+      "created_at": "2026-06-21T17:53:50.720718",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "80d20755-45a0-48f2-afbb-538ac338c42f",
+      "type": "general",
+      "title": "<span id=\"page-11-2\"></span>C Qualitative Analysis",
+      "content": "[Title] <span id=\"page-11-2\"></span>C Qualitative Analysis\n[Content] Although DPR performs better than BM25 in general, the retrieved passages of these two retrievers actually differ qualitatively. Methods like BM25 are sensitive to highly selective keywords and phrases, but cannot capture lexical variations or semantic relationships well. In contrast, DPR excels at semantic representation, but might lack sufficient capacity to represent salient phrases which appear rarely. Table [7](#page-12-0) illustrates this phenomenon with two examples. In the first example, the top scoring passage from BM25 is irrelevant, even though keywords such as *England* and *Ireland* appear multiple times. In comparison, DPR is able to return\n\n<span id=\"page-11-4\"></span>\n\n|            | Top-1 | Top-5 | Top-20 | Top-100 |\n|------------|-------|-------|--------|---------|\n| Gold       | 44.9  | 66.8  | 78.1   | 85.0    |\n| Dist. Sup. | 43.9  | 65.3  | 77.1   | 84.4    |\n\nTable 5: Retrieval accuracy on the development set of Natural Questions, trained on passages that match the gold context (Gold) or the top BM25 passage that contains the answer (Dist. Sup.).\n\n<span id=\"page-11-5\"></span>\n\n| Sim | Loss    | Retrieval Accuracy |       |        |         |  |\n|-----|---------|--------------------|-------|--------|---------|--|\n|     |         | Top-1              | Top-5 | Top-20 | Top-100 |  |\n| DP  | NLL     | 44.9               | 66.8  | 78.1   | 85.0    |  |\n|     | Triplet | 41.6               | 65.0  | 77.2   | 84.5    |  |\n| L2  | NLL     | 43.5               | 64.7  | 76.1   | 83.1    |  |\n|     | Triplet | 42.2               | 66.0  | 78.1   | 84.9    |  |\n\nTable 6: Retrieval Top-k accuracy on the development set of Natural Questions using different similarity and loss functions.\n\nthe correct answer, presumably by matching *\"body of water\"* with semantic neighbors such as *sea* and *channel*, even though no lexical overlap exists. The second example is one where BM25 does better. The salient phrase *\"Thoros of Myr\"* is critical, and DPR is unable to\n[Keywords] DP, NLL, DPR",
+      "source_file": "multi-column.pdf",
+      "source_page": 11,
+      "keywords": "DP, NLL, DPR",
+      "created_at": "2026-06-21T17:53:50.720723",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "5c764e55-a7de-4325-a5d4-fc45dd012938",
+      "type": "general",
+      "title": "<span id=\"page-11-3\"></span>D Joint Training of Retriever and Reader",
+      "content": "[Title] <span id=\"page-11-3\"></span>D Joint Training of Retriever and Reader\n[Content] We fix the passage encoder in our joint-training scheme while allowing only the question encoder to receive backpropagation signal from the combined (retriever + reader) loss function. This allows us to leverage the HNSW-based FAISS index for efficient low-latency retrieving, without reindexing the passages during model updates. Our loss function largely follows ORQA's approach, which uses log probabilities of positive passages selected from the retriever model, and correct spans and passages selected from the reader model. Since the passage encoder is fixed, we could use larger amount of retrieved passages when calculating the retriever loss. Specifically, we get top 100 passages for each question in a mini-batch and use the method similar to in-batch negative training: all retrieved passages' vectors participate in the loss calculation for *all* questions in a batch. Our training batch size is set to 16, which effectively gives 1,600 passages per question to calculate retriever loss. The reader still uses 24 passages per question, which are selected\n\n<span id=\"page-12-0\"></span>\n\n| Question                                                  | Passage received by BM25                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Passage retrieved by DPR                                                                                                                                                                                                                                                                                                                                      \n[Keywords] QA, ORQA, FAISS, VG",
+      "source_file": "multi-column.pdf",
+      "source_page": 11,
+      "keywords": "QA, ORQA, FAISS, VG",
+      "created_at": "2026-06-21T17:53:50.720726",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "74d26c22-e8a2-4335-83ca-771707784221",
+      "type": "general",
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "content": "[Title] Dense Passage Retrieval for Open-Domain Question Answering",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:53:50.720730",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "aef37655-a219-48a0-821c-6182442c9f02",
+      "type": "general",
+      "title": "Vladimir Karpukhin<sup>∗</sup> , Barlas Oguz ˘ ∗ , Sewon Min† , Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen‡ , Wen-tau Yih",
+      "content": "[Title] Vladimir Karpukhin<sup>∗</sup> , Barlas Oguz ˘ ∗ , Sewon Min† , Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen‡ , Wen-tau Yih\n[Content] Facebook AI †University of Washington ‡Princeton University {vladk, barlaso, plewis, ledell, edunov, scottyih}@fb.com sewon@cs.washington.edu danqic@cs.princeton.edu\n[Keywords] AI",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": "AI",
+      "created_at": "2026-06-21T17:53:50.720734",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "c9915743-9191-4b74-8fb3-8525314b5ce9",
+      "type": "general",
+      "title": "Abstract",
+      "content": "[Title] Abstract\n[Content] Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. In this work, we show that retrieval can be practically implemented using *dense* representations alone, where embeddings are learned from a small number of questions and passages by a simple dualencoder framework. When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene-BM25 system greatly by 9%-19% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks.[1](#page-0-0)\n[Keywords] IDF, QA, TF",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": "IDF, QA, TF",
+      "created_at": "2026-06-21T17:53:50.720737",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "07ff4612-cd68-4bbb-b3c6-8b3ea5390425",
+      "type": "general",
+      "title": "1 Introduction",
+      "content": "[Title] 1 Introduction\n[Content] Open-domain question answering (QA) [\\(Voorhees,](#page--1-0) [1999\\)](#page--1-0) is a task that answers factoid questions using a large collection of documents. While early QA systems are often complicated and consist of multiple components [\\(Ferrucci](#page--1-1) [\\(2012\\)](#page--1-1); [Moldovan](#page--1-2) [et al.](#page--1-2) [\\(2003\\)](#page--1-2), *inter alia*), the advances of reading comprehension models suggest a much simplified two-stage framework: (1) a context *retriever* first selects a small subset of passages where some of them contain the answer to the question, and then (2) a machine *reader* can thoroughly examine the retrieved contexts and identify the correct answer [\\(Chen et al.,](#page--1-3) [2017\\)](#page--1-3). Although reducing open-domain QA to machine reading is a very reasonable strategy, a huge performance degradation is often observed in practice[2](#page-0-1) , indicating the needs of improving retrieval.\n\nRetrieval in open-domain QA is usually implemented using TF-IDF or BM25 [\\(Robertson and](#page--1-5) [Zaragoza,](#page--1-5) [2009\\)](#page--1-5), which matches keywords efficiently with an inverted index and can be seen as representing the question and context in highdimensional, sparse vectors (with weighting). Conversely, the *dense*, latent semantic encoding is *complementary* to sparse representations by design. For example, synonyms or paraphrases that consist of completely different tokens may still be mapped to vectors close to each other. Consider the question *\"Who is the bad guy in lord of the rings?\"*, which can be answered from the context *\"Sala Baker is best known for portraying the villain Sauron in the Lord of the Rings trilogy.\"* A term-based system would have difficulty retrieving such a context, while a dense retrieval system would be able to better match *\"bad guy\"* with *\"villain\"* and fetch the correct context. Dense encodings are also *learnable* by adjusting the embedding functions, which provides addit\n[Keywords] IDF, QA, MIPS, TF",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": "IDF, QA, MIPS, TF",
+      "created_at": "2026-06-21T17:53:50.720741",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "b63bd158-5e2f-42a1-9800-7e2d12a1afba",
+      "type": "general",
+      "title": "2 Background",
+      "content": "[Title] 2 Background\n[Content] The problem of open-domain QA studied in this paper can be described as follows. Given a factoid question, such as \"Who first voiced Meg on Family Guy?\" or \"Where was the 8th Dalai Lama born?\", a system is required to answer it using a large corpus of diversified topics. More specifically, we assume\n\nthe extractive QA setting, in which the answer is restricted to a span appearing in one or more passages in the corpus. Assume that our collection contains D documents,  $d_1, d_2, \\dots, d_D$ . We first split each of the documents into text passages of equal lengths as the basic retrieval units<sup>3</sup> and get Mtotal passages in our corpus  $C = \\{p_1, p_2, \\dots, p_M\\},\\$ where each passage  $p_i$  can be viewed as a sequence of tokens  $w_1^{(i)}, w_2^{(i)}, \\cdots, w_{|p_i|}^{(i)}$ . Given a question q, the task is to find a span  $w_s^{(i)}, w_{s+1}^{(i)}, \\cdots, w_e^{(i)}$  from one of the passages  $p_i$  that can answer the question. Notice that to cover a wide variety of domains, the corpus size can easily range from millions of documents (e.g., Wikipedia) to billions (e.g., the Web). As a result, any open-domain QA system needs to include an efficient retriever component that can select a small set of relevant texts, before applying the reader to extract the answer (Chen et al., 2017).<sup>4</sup> Formally speaking, a retriever  $R:(q,\\mathcal{C})\\to\\mathcal{C}_{\\mathcal{F}}$ is a function that takes as input a question q and a corpus C and returns a much smaller *filter set* of texts  $\\mathcal{C}_{\\mathcal{F}} \\subset \\mathcal{C}$ , where  $|\\mathcal{C}_{\\mathcal{F}}| = k \\ll |\\mathcal{C}|$ . For a fixed k, a retriever can be evaluated in isolation on top-k retrieval accuracy, which is the fraction of questions for which  $\\mathcal{C}_{\\mathcal{F}}$  contains a span that answers the question.\n[Keywords] QA",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": "QA",
+      "created_at": "2026-06-21T17:53:50.720744",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "41024466-c786-45cb-8b94-0bdde5840d62",
+      "type": "general",
+      "title": "3 Dense Passage Retriever (DPR)",
+      "content": "[Title] 3 Dense Passage Retriever (DPR)\n[Content] We focus our research in this work on improving the *retrieval* component in open-domain QA. Given a collection of M text passages, the goal of our dense passage retriever (DPR) is to index all the passages in a low-dimensional and continuous space, such that it can retrieve efficiently the top k passages relevant to the input question for the reader at run-time. Note that M can be very large (e.g., 21 million passages in our experiments, described in Section 4.1) and k is usually small, such as 20-100.\n[Keywords] QA, DPR",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": "QA, DPR",
+      "created_at": "2026-06-21T17:53:50.720748",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "73e5737c-6356-47de-ba04-3c7a610ed37f",
+      "type": "general",
+      "title": "3.1 Overview",
+      "content": "[Title] 3.1 Overview\n[Content] Our dense passage retriever (DPR) uses a dense encoder  $E_P(\\cdot)$  which maps any text passage to a d-dimensional real-valued vectors and builds an index for all the M passages that we will use for retrieval.\n\n<span id=\"page-1-0\"></span><sup>&</sup>lt;sup>3</sup>The ideal size and boundary of a text passage are functions of both the retriever and reader. We also experimented with natural paragraphs in our preliminary trials and found that using fixed-length passages performs better in both retrieval and final QA accuracy, as observed by Wang et al. (2019).\n\n<span id=\"page-1-1\"></span><sup>&</sup>lt;sup>4</sup>Exceptions include (Seo et al., 2019) and (Roberts et al., 2020), which *retrieves* and *generates* the answers, respectively.\n[Keywords] QA, DPR",
+      "source_file": "multi-column-2p.pdf",
+      "source_page": 1,
+      "keywords": "QA, DPR",
+      "created_at": "2026-06-21T17:53:50.720752",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    }
+  ]
+}

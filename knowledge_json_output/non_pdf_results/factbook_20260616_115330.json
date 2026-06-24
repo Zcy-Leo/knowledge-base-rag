@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "factbook.xml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "28f9e51d-c5e8-4200-871a-b50d139e25c0",
+      "type": "faq",
+      "title": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<factbook>\n...",
+      "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<factbook>\n  <country>\n    <name>United States</name>\n    <capital>Washington, DC</capital>\n    <leader>Joe Biden</leader>\n    <sport>Baseball</sport>\n  </country>\n  <country>\n    <name>Canada</name>\n    <capital>Ottawa</capital>\n    <leader>Justin Trudeau</leader>\n    <sport>Hockey</sport>\n  </country>\n  <country>\n    <name>France</name>\n    <capital>Paris</capital>\n    <leader>Emmanuel Macron</leader>\n    <sport>Soccer</sport>\n  </country>\n  <country>\n    <name>Trinidad &amp; Tobado</name>\n    <capital>Port of Spain</capital>\n    <leader>Keith Rowley</leader>\n    <sport>Track &amp; Field</sport>\n  </country>\n</factbook>",
+      "source_file": "factbook.xml",
+      "source_page": 0,
+      "keywords": [
+        "UTF"
+      ],
+      "created_at": "2026-06-16T11:53:30.639637",
+      "metadata": {
+        "element_type": "text",
+        "company": "Data"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "picture.pptx",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "ff03593b-e5f2-4d4a-9cd6-4b0a77e99191",
+      "type": "general",
+      "title": "Slide {slide_idx + 1}",
+      "content": "[OCR] Ae python\n\npowered",
+      "source_file": "picture.pptx",
+      "source_page": 1,
+      "keywords": [
+        "OCR"
+      ],
+      "created_at": "2026-06-22T11:56:57.256297",
+      "metadata": {
+        "element_type": "slide",
+        "parser": "python-pptx-enhanced"
+      }
+    }
+  ]
+}

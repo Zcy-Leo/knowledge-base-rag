@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "source_file": "docx-hdrftr.docx",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "da839637-aa00-4e2f-8e83-1b9c086932c6",
+      "type": "general",
+      "title": "Header: First header para",
+      "content": "First header para",
+      "source_file": "docx-hdrftr.docx",
+      "source_page": 0,
+      "keywords": [
+        "First"
+      ],
+      "created_at": "2026-06-22T11:57:38.381929",
+      "metadata": {
+        "element_type": "header",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "b058a4a0-ed61-426a-9bc9-5418ecabd9da",
+      "type": "general",
+      "title": "Header: Last header para",
+      "content": "Last header para",
+      "source_file": "docx-hdrftr.docx",
+      "source_page": 0,
+      "keywords": [
+        "Last"
+      ],
+      "created_at": "2026-06-22T11:57:38.382184",
+      "metadata": {
+        "element_type": "header",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "e027568d-a3b3-46d1-9c93-6af8321b30c4",
+      "type": "general",
+      "title": "Main document",
+      "content": "Main document",
+      "source_file": "docx-hdrftr.docx",
+      "source_page": 0,
+      "keywords": [
+        "Main",
+        "document"
+      ],
+      "created_at": "2026-06-22T11:57:38.382992",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

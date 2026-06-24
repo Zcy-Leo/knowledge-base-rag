@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "factbook.xml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "6682381c-0b32-42f5-bff8-5582c23b453d",
+      "type": "general",
+      "title": "United States Washington, DC Joe Biden Baseball Ca...",
+      "content": "United States Washington, DC Joe Biden Baseball Canada Ottawa Justin Trudeau Hockey France Paris Emmanuel Macron Soccer Trinidad &amp; Tobado Port of Spain Keith Rowley Track &amp; Field",
+      "source_file": "factbook.xml",
+      "source_page": 0,
+      "keywords": [
+        "United"
+      ],
+      "created_at": "2026-06-22T11:57:41.328959",
+      "metadata": {
+        "element_type": "xml",
+        "parser": "data"
+      }
+    }
+  ]
+}

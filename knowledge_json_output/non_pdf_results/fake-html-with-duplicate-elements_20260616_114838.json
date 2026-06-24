@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-html-with-duplicate-elements.html",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "47aff720-76b6-4ec5-b47e-0eb785566362",
+      "type": "general",
+      "title": "<!DOCTYPE html>\n<html>",
+      "content": "<!DOCTYPE html>\n<html>",
+      "source_file": "fake-html-with-duplicate-elements.html",
+      "source_page": 0,
+      "keywords": [
+        "DOCTYPE"
+      ],
+      "created_at": "2026-06-16T11:48:38.172129",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake html with duplicate eleme"
+      }
+    },
+    {
+      "id": "63efdafb-25ef-4ae4-bf82-c5f040c6dd5e",
+      "type": "general",
+      "title": "<head>\n    <title>Simple Nested HTML</title>\n    <...",
+      "content": "<head>\n    <title>Simple Nested HTML</title>\n    </strong>",
+      "source_file": "fake-html-with-duplicate-elements.html",
+      "source_page": 0,
+      "keywords": [
+        "HTML"
+      ],
+      "created_at": "2026-06-16T11:48:38.172191",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake html with duplicate eleme"
+      }
+    },
+    {
+      "id": "778002f8-7556-482a-bb62-2ea544755f26",
+      "type": "general",
+      "title": "<body>\n    <h1>Example heading.</h1>\n    <div>\n   ...",
+      "content": "<body>\n    <h1>Example heading.</h1>\n    <div>\n        <span>This is a span.</span>\n        <span>This is another span.</span>\n    </div>\n    <br>\n    <h1>Example heading.</h1>\n    <div>\n        <span>This is a span.</span>\n        <span>This is another span.</span>\n    </div>",
+      "source_file": "fake-html-with-duplicate-elements.html",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:38.172318",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake html with duplicate eleme"
+      }
+    }
+  ]
+}

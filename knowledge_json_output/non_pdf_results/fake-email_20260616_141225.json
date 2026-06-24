@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email.txt",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "885a2fbc-166c-4f26-a41e-d9d7c38cf4d8",
+      "type": "general",
+      "title": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 ...",
+      "content": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 -0500\nMessage-ID: <CADc-_xaLB2FeVQ7mNsoX+NJb_7hAJhBKa_zet-rtgPGenj0uVw@mail.gmail.com>\nSubject: Test Email\nFrom: Matthew Robinson <mrobinson@unstructured.io>\nTo: Matthew Robinson <mrobinson@unstructured.io>\nContent-Type: multipart/alternative; boundary=\"00000000000095c9b205eff92630\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Date",
+        "Fri",
+        "Message"
+      ],
+      "created_at": "2026-06-16T14:12:25.618985",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email.txt"
+      }
+    },
+    {
+      "id": "721140ec-db68-4490-8945-25972d1e811a",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.619030",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email.txt"
+      }
+    },
+    {
+      "id": "6df72bde-6fc1-4a1b-bfef-3f1200cea8c4",
+      "type": "general",
+      "title": "This is a test email to use for unit tests.",
+      "content": "This is a test email to use for unit tests.",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.619090",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email.txt"
+      }
+    },
+    {
+      "id": "e7d6867e-3295-4a31-bdd9-9e9bed8f7f38",
+      "type": "general",
+      "title": "- Roses are red\n   - Violets are blue",
+      "content": "- Roses are red\n   - Violets are blue",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.619123",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email.txt"
+      }
+    },
+    {
+      "id": "db5ebc76-d342-49ae-9272-cb77c54ed82d",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/html; charset=\"UTF-8\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.619154",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email.txt"
+      }
+    },
+    {
+      "id": "d61ca717-a748-4a5a-aec9-e31ac9ad3f57",
+      "type": "general",
+      "title": "<div dir=\"ltr\"><div>This is a test email to use fo...",
+      "content": "<div dir=\"ltr\"><div>This is a test email to use for unit tests.</div><div><br></div><div>Important points:</div><div><ul><li>Roses are red</li><li>Violets are blue</li></ul></div></div>",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.619214",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email.txt"
+      }
+    },
+    {
+      "id": "de23ef05-ea35-4125-a1cd-d46ddad10471",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630--",
+      "content": "--00000000000095c9b205eff92630--",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.619228",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email.txt"
+      }
+    }
+  ]
+}

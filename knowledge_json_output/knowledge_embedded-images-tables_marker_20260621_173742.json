@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "source_file": "embedded-images-tables.pdf",
+  "total_entries": 4,
+  "entries": [
+    {
+      "id": "68db7e1c-d363-4d1d-9fcd-d91fb8d1edf4",
+      "type": "general",
+      "title": "Fig. 4. Anodic and cathodic polarization curve of stainless steel in 0.5 M H<sub...",
+      "content": "Fig. 4. Anodic and cathodic polarization curve of stainless steel in 0.5 M H<sub>2</sub>SO<sub>4</sub> solution in the presence and absence of ES.",
+      "source_file": "embedded-images-tables.pdf",
+      "source_page": 1,
+      "keywords": [
+        "ES",
+        "SO"
+      ],
+      "created_at": "2026-06-19T13:53:52.328875",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "e2deb237-9c81-46d8-8c18-a9d907587ab0",
+      "type": "general",
+      "title": "**Table 1**Potentiodynamic polarization data for stainless steel in the absence ...",
+      "content": "**Table 1**Potentiodynamic polarization data for stainless steel in the absence and presence of ES in 0.5 M H<sub>2</sub>SO<sub>4</sub> solution.",
+      "source_file": "embedded-images-tables.pdf",
+      "source_page": 1,
+      "keywords": [
+        "ES",
+        "SO"
+      ],
+      "created_at": "2026-06-19T13:53:52.328946",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "fc14e4fa-a834-4608-b070-db491b9c83ce",
+      "type": "table_data",
+      "title": "| Inhibitor<br>concentration (g) | bc (V/dec) | ba (V/dec) | Ecorr (V) | icorr (...",
+      "content": "| Inhibitor<br>concentration (g) | bc (V/dec) | ba (V/dec) | Ecorr (V) | icorr (A/cm²) | Polarization resistance ( $\\Omega$ ) | Corrosion<br>rate (mm/year) |\n|--------------------------------|------------|------------|-----------|---------------|--------------------------------------|-----------------------------|\n| 0                              | 0.0335     | 0.0409     | -0.9393   | 0.0003        | 24.0910                              | 2.8163                      |\n| 2                              | 1.9460     | 0.0596     | -0.8276   | 0.0002        | 121.440                              | 1.5054                      |\n| 4                              | 0.0163     | 0.2369     | -0.8825   | 0.0001        | 42.121                               | 0.9476                      |\n| 6                              | 0.3233     | 0.0540     | -0.8027   | 5.39E-05      | 373.180                              | 0.4318                      |\n| 8                              | 0.1240     | 0.0556     | -0.5896   | 5.46E-05      | 305.650                              | 0.3772                      |\n| 10                             | 0.0382     | 0.0086     | -0.5356   | 1.24E-05      | 246.080                              | 0.0919                      |",
+      "source_file": "embedded-images-tables.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T13:53:52.329074",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "ddfbb728-97e9-4b2c-a09e-819f9a60eddd",
+      "type": "general",
+      "title": "The plot of inhibitor concentration over degree of surface coverage versus inhib...",
+      "content": "The plot of inhibitor concentration over degree of surface coverage versus inhibitor concentration gives a straight line as shown in Fig. 5. The strong correlation reveals that egg shell adsorption on stainless surface in 0.5 M H<sub>2</sub>SO<sub>4</sub> follow Langmuir adsorption isotherm. Figs. 6–8 show the SEM/EDX surface morphology analysis of stainless steel. Figs. 7 and 8 are the SEM/EDX images of the stainless steel specimens without and with inhibitor after weight loss experiment in sulphuric acid medium. The stainless steel surface corrosion product layer in the absence of inhibitor was porous and as a result gives no corrosion protection. With the presence of ES, corrosion damage was minimized, with an evidence of ES present on the metal surface as shown in Fig. 8.\n\n![](_page_0_Figure_7.jpeg)\n\nFig. 5. Langmuir adsorption isotherm of ES.",
+      "source_file": "embedded-images-tables.pdf",
+      "source_page": 1,
+      "keywords": [
+        "EDX",
+        "ES",
+        "SEM",
+        "SO"
+      ],
+      "created_at": "2026-06-19T13:53:52.329229",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "Academic"
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "source_file": "contains-pictures.docx",
+  "total_entries": 5,
+  "entries": [
+    {
+      "id": "11a65d15-b876-4cdc-96de-39b91b62f69d",
+      "type": "general",
+      "title": "Header: An inline picture in the heade",
+      "content": "An inline picture in the header.",
+      "source_file": "contains-pictures.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.366902",
+      "metadata": {
+        "element_type": "header",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "e1c2d2f2-f45c-4993-b801-bfb159c2d502",
+      "type": "general",
+      "title": "Some paragraph text that runs “through” the floati...",
+      "content": "Some paragraph text that runs “through” the floating picture: Lorem ipsum dolor sit amet, consectetur adipiscing elit , sed do eiusmod tempor incididunt ut laboreet dolore magna aliqua . Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat . Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "source_file": "contains-pictures.docx",
+      "source_page": 0,
+      "keywords": [
+        "Some",
+        "Lorem",
+        "Duis",
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.368631",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "17728855-b51c-4e7c-8449-57a86daeef77",
+      "type": "general",
+      "title": "An inline picture appears here><and this text foll...",
+      "content": "An inline picture appears here><and this text follows it on the same line.",
+      "source_file": "contains-pictures.docx",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.369308",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "d57a10dc-479d-447d-97f4-0f2922031925",
+      "type": "general",
+      "title": "Text following an inline picture that appears as t...",
+      "content": "Text following an inline picture that appears as the first glyph of the paragraph.",
+      "source_file": "contains-pictures.docx",
+      "source_page": 0,
+      "keywords": [
+        "Text"
+      ],
+      "created_at": "2026-06-22T11:57:38.369857",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "676e9f8c-c1b1-4a86-8edc-f5dab25b8d88",
+      "type": "general",
+      "title": "A floating picture that appears on top of the text...",
+      "content": "A floating picture that appears on top of the text, partially obscuring it.",
+      "source_file": "contains-pictures.docx",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.370361",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

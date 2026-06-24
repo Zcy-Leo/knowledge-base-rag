@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-incomplete-json.txt",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "33a679a6-621f-4da6-a599-5190cebf548a",
+      "type": "general",
+      "title": "{\n  \"name\": \"John Doe\",\n  \"age\": 30,\n  \"email\": \"j...",
+      "content": "{\n  \"name\": \"John Doe\",\n  \"age\": 30,\n  \"email\": \"johndoe@example.com\",\n  \"is_student\": true,\n  \"address\": {\n    \"city\": \"New York\",\n    \"zipcode\": \"10001\"\n  },\n  \"hobbies\": [\"reading\", \"running\", \"cooking\"]",
+      "source_file": "fake-incomplete-json.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:53:30.788685",
+      "metadata": {
+        "element_type": "text",
+        "company": "Data"
+      }
+    }
+  ]
+}

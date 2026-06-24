@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "source_file": "embedded-images.pdf",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "d57f0fb2-4bca-4ec1-9c04-9329aae04308",
+      "type": "general",
+      "title": "**\"HANDS-FREE\" CARD: use (2/4)**",
+      "content": "![](_page_0_Picture_1.jpeg)",
+      "source_file": "embedded-images.pdf",
+      "source_page": 1,
+      "keywords": [
+        "HANDS",
+        "CARD",
+        "FREE"
+      ],
+      "created_at": "2026-06-19T13:53:25.122540",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "Allen Institute for AI",
+        "topic": "Images"
+      }
+    },
+    {
+      "id": "d1a55926-34a0-4894-8143-92d777b2a0bd",
+      "type": "general",
+      "title": "**Hands-free unlocking, when approaching the vehicle;**",
+      "content": "With the card in access zone *3*, the vehicle will unlock. Unlocking is indicated by **one flash** of the hazard warning lights and the indicator lights.\n\nDepending on the vehicle, the door mirrors fold in/out automatically when the vehicle is locked/unlocked ➥ [1.90](#page--1-0)\n\n![](_page_0_Picture_5.jpeg)",
+      "source_file": "embedded-images.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T13:53:25.122624",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "Allen Institute for AI",
+        "topic": "Images"
+      }
+    },
+    {
+      "id": "11975f40-cfa6-4dc4-9495-0bd1e0fed5c1",
+      "type": "general",
+      "title": "**Hands-free locking when moving away from the vehicle**",
+      "content": "With the card on you, doors and luggage compartment door closed, move away from the vehicle: it will lock automatically once you have left the access zone *3*.\n\n**Note:** the distance at which the vehicle locks depends on the surroundings.\n\nTo indicate that the vehicle has been locked, the hazard warning lights **flash twice** and then **light up** for approximately four seconds, and a beep sounds in confirmation.\n\n![](_page_0_Picture_10.jpeg)\n\nIf the card has been within the detection area *3* for approximately 15 minutes, remote locking is disabled. To lock the vehicle, press the *5* button on the card or, depending on the vehicle, the *2* button on the handle *1*.\n\nThe vehicle cannot be remotely locked if the card is within the area *4*.",
+      "source_file": "embedded-images.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T13:53:25.122702",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "Allen Institute for AI",
+        "topic": "Images"
+      }
+    }
+  ]
+}

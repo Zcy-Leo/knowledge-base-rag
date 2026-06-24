@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-no-body.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "8b984a24-8cf4-459b-8f63-5a1c08f0a582",
+      "type": "general",
+      "title": "Email: {subject}",
+      "content": "From: {from_addr}\nTo: {to_addr}\nDate: {date}\nSubject: {subject}\n\n{body}",
+      "source_file": "mime-no-body.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject"
+      ],
+      "created_at": "2026-06-22T11:56:15.810849",
+      "metadata": {
+        "element_type": "email",
+        "parser": "email"
+      }
+    }
+  ]
+}

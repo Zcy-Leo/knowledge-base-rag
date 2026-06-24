@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-power-point-many-pages.pptx",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "7352a42b-7678-4d0d-a49f-a21dc8f3323a",
+      "type": "general",
+      "title": "Slide {slide_idx + 1}",
+      "content": "Page 1",
+      "source_file": "fake-power-point-many-pages.pptx",
+      "source_page": 1,
+      "keywords": [
+        "Page"
+      ],
+      "created_at": "2026-06-22T11:56:56.890822",
+      "metadata": {
+        "element_type": "slide",
+        "parser": "python-pptx-enhanced"
+      }
+    },
+    {
+      "id": "d286495f-a5d8-4d3d-8a6d-1013b522cc57",
+      "type": "general",
+      "title": "Slide {slide_idx + 1}",
+      "content": "Page 2",
+      "source_file": "fake-power-point-many-pages.pptx",
+      "source_page": 2,
+      "keywords": [
+        "Page"
+      ],
+      "created_at": "2026-06-22T11:56:56.891077",
+      "metadata": {
+        "element_type": "slide",
+        "parser": "python-pptx-enhanced"
+      }
+    }
+  ]
+}

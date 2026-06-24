@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "source_file": "interface-config-guide-p93.pdf",
+  "total_entries": 6,
+  "entries": [
+    {
+      "id": "275c22ca-a51c-481f-8590-cbbb91302d90",
+      "type": "general",
+      "title": "}",
+      "content": "}\n\n## **Example: Multiple PXCs on the same underlying cross-connect configuration (classic CLI)**",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": [
+        "CLI"
+      ],
+      "created_at": "2026-06-19T14:12:22.906390",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    },
+    {
+      "id": "255b3c0e-09b2-48ae-a177-b002c5ab7637",
+      "type": "general",
+      "title": "```",
+      "content": "```\nA:node-2>config>port-xc# info\n----------------------------------------------\n pxc 1 create\n port 1/x1/1/c1/1\n no shutdown\n exit\n pxc 2 create\n shutdown\n port 1/x1/1/c1/1\n exit\n pxc 3 create\n shutdown\n port 1/x1/1/c1/1\n exit\n exit\n```",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:12:22.906454",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    },
+    {
+      "id": "ffbd7547-1d7e-491b-935d-26a8ba240fe0",
+      "type": "general",
+      "title": "A faceplate port that has been placed in the loopback mode for PXC use, supports...",
+      "content": "A faceplate port that has been placed in the loopback mode for PXC use, supports only hybrid mode of operation and dot1q encapsulation. The recommendation is that the MTU value be configured to the maximum value. dot1x tunneling is enabled and cannot be changed.",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": [
+        "PXC",
+        "MTU"
+      ],
+      "created_at": "2026-06-19T14:12:22.906500",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    },
+    {
+      "id": "20de7dd9-04e6-40f1-94c4-b21ca550c84f",
+      "type": "general",
+      "title": "The pre-set dot1q Ethernet encapsulation on the faceplate port is irrelevant fro...",
+      "content": "The pre-set dot1q Ethernet encapsulation on the faceplate port is irrelevant from the operator's perspective and there is no need to change it. The relevant encapsulation carrying service tags defined on PXC subports and that encapsulation is configurable. For more information, see [PXC sub-ports](#page--1-0).\n\nThe following guidelines apply to a PXC configuration based on faceplate ports:",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": [
+        "PXC"
+      ],
+      "created_at": "2026-06-19T14:12:22.906549",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    },
+    {
+      "id": "ab9c7bb8-eef0-4c90-95e9-e6c218b3ba72",
+      "type": "general",
+      "title": "- Only unused faceplate ports (not associated with an interface or SAP) can be r...",
+      "content": "- Only unused faceplate ports (not associated with an interface or SAP) can be referenced within a PXC ID configuration.\n- When the faceplate port is allocated to a PXC, it cannot be used outside of the PXC context. For example, an IP interface cannot use the faceplate port directly, or a SAP under a such port cannot be associated with an Epipe or VPLS service.\n\n## **6.4 Internal PXC**",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": [
+        "ID",
+        "SAP",
+        "PXC",
+        "IP"
+      ],
+      "created_at": "2026-06-19T14:12:22.906602",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    },
+    {
+      "id": "37dd7293-bf8f-4a87-8d52-7134377e5f4a",
+      "type": "general",
+      "title": "With internal (or MAC-based) PXC, the egress path is cross-connected to the ingr...",
+      "content": "With internal (or MAC-based) PXC, the egress path is cross-connected to the ingress path in the MAC chip, without the need to consume a faceplate port, as shown in [Figure 21: Internal cross-connect](#page--1-1) [\\(loopback\\) in a MAC chip](#page--1-1). The number of the MAC chips on a line card varies with the line card type. The **show datapath** command shows the MAC chip related connectivity information in the datapath (forwarding complex). This information is essential for the correct configuration of the cross-connect.\n\n3HE 19220 AAAB TQZZA 01 **© 2023 Nokia.** 93",
+      "source_file": "interface-config-guide-p93.pdf",
+      "source_page": 1,
+      "keywords": [
+        "PXC",
+        "AAAB",
+        "TQZZA",
+        "MAC"
+      ],
+      "created_at": "2026-06-19T14:12:22.906670",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-html-only.eml",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "83da6aef-7700-4219-9144-c19741fa24c7",
+      "type": "general",
+      "title": "MIME-Version: 1.0\nFrom: sender@example.com\nTo: rec...",
+      "content": "MIME-Version: 1.0\nFrom: sender@example.com\nTo: recipient@example.com\nDate: Tue, 01 Oct 2024 12:34:56 -0500\nSubject: Example HTML Only MIME Email\nContent-Type: text/html; charset=\"ISO-8859-1\"\nContent-Transfer-Encoding: base64",
+      "source_file": "mime-html-only.eml",
+      "source_page": 0,
+      "keywords": [
+        "ISO",
+        "MIME",
+        "HTML",
+        "Date",
+        "Tue",
+        "Subject",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:15:59.907598",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "c12df22b-3a75-4eff-8450-6fa5cd6741f8",
+      "type": "general",
+      "title": "PHA+VGhpcyBpcyBhIHRleHQvaHRtbCBwYXJ0LjwvcD4KPGRpdi...",
+      "content": "PHA+VGhpcyBpcyBhIHRleHQvaHRtbCBwYXJ0LjwvcD4KPGRpdiBpZD0iY29udGVudCI+PHA+VGhl\nIGZpcnN0IGVtb3RpY29uLCA6KSAsIHdhcyBwcm9wb3NlZCBieSBTY290dCBGYWhsbWFuIGluIDE5\nODIgdG8gaW5kaWNhdGUganVzdCBvciBzYXJjYXNtIGluIHRleHQgZW1haWxzLjwvcD4KPHA+R21h\naWwgd2FzIGxhdW5jaGVkIGJ5IEdvb2dsZSBpbiAyMDA0IHdpdGggMSBHQiBvZiBmcmVlIHN0b3Jh\nZ2UsIHNpZ25pZmljYW50bHkgbW9yZSB0aGFuIHdoYXQgb3RoZXIgc2VydmljZXMgb2ZmZXJlZCBh\ndCB0aGUgdGltZS48L3A+PC9kaXY+",
+      "source_file": "mime-html-only.eml",
+      "source_page": 0,
+      "keywords": [
+        "PHA",
+        "IGZpcnN",
+        "ODIgdG"
+      ],
+      "created_at": "2026-06-16T11:15:59.907728",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    }
+  ]
+}

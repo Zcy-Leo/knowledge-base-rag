@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "source_file": "website_extraction",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "82c8c129-a409-4395-b8a8-10b0722c3925",
+      "type": "faq",
+      "title": "How do I change the admin password on my NETGEAR router",
+      "content": "Bug Fixes:\n- Fixes a DNS problem that intermittently causes loss of connectivity\n- Fixes the issue where MAC ACL entries can be lost\n- Fixes the issue where the third radio can stop working after Dynamic Frequency Selection (DFS) detects radar presence on a channel too many times\n- Fixes the issue where the Insight app or Insight Cloud portal show incorrect information in the device dashboard page when there are multiple attached devices\n- Fixes the issue where the password can be recovered only if the user name is 'admin'\n- Updates the HTTP Certificate\nKnown Issues:\n- After updating router firmware, existing clients can be steered to the router because the wireless readiness in the router is faster than the wireless readiness in the satellite. Workaround: Connected clients might notice slower throughput or a weaker signal, which resolves when the user roams or reconnects.\nFirmware Update Instructions:\nDownload Link : https://www.downloads.netgear.com/files/GDC/SRC60/SRC60-V2.5.3.110.zip\nIf the Orbi Pro is connected to the Insight cloud, perform a firmware update through the firmware schedule policy, or manually perform a firmware update using the Insight app or local browser interface.\nTo update the Orbi Pro firmware from the local browser interface, follow the instructions in your product’s user manual. To find your user manual, visit https://www.netgear.com/support/, enter your model number in the search box, and click Documentation on the product page. We highly recommend updating the satellite firmware first, and then updating the router firmware.\nAfter updating to the latest firmware, make sure to update your version of the NETGEAR Insight app for the best functionality and user experience.",
+      "source_file": "https://kb.netgear.com/000062287/How-do-I-change-the-admin-password-on-my-NETGEAR-router",
+      "source_page": 1,
+      "keywords": [
+        "ACL",
+        "DNS",
+        "GDC",
+        "DFS",
+        "Orbi Pro",
+        "Insight Cloud"
+      ],
+      "created_at": "2026-06-10T08:36:15.237754",
+      "metadata": {
+        "parser": "trafilatura",
+        "source_type": "website",
+        "company": "HKSB"
+      }
+    },
+    {
+      "id": "02747548-0d51-42f9-9401-8397a0aa62b1",
+      "type": "faq",
+      "title": "How do I perform a factory reset on my NETGEAR router",
+      "content": "NETGEAR has released a fix for a pre-authentication command injection security vulnerability on the following product:\n- R8300 running firmware versions prior to 1.0.2.134\nNETGEAR strongly recommends that you download the latest firmware as soon as possible.\nTo download the latest firmware for your NETGEAR product:\n- Visit NETGEAR Support.\n- Start typing your model number in the search box, then select your model from the drop-down menu as soon as it appears.\n If you do not see a drop-down menu, make sure that you entered your model number correctly, or select a product category to browse for your product model.\n- Click Downloads.\n- Under Current Versions, select the first download whose title begins with Firmware Version.\n- Click Release Notes.\n- Follow the instructions in the firmware release notes to download and install the new firmware.\nNETGEAR will update this advisory when more information is available.\nDisclaimer\nThis document is provided on an \"as is\" basis and does not imply any kind of guarantee or warranty, including the warranties of merchantability or fitness for a particular use. Your use of the information in the document or materials linked from the document is at your own risk. NETGEAR reserves the right to change or update this document at any time. NETGEAR expects to update this document as new information becomes available.\nThe pre-authentication command injection vulnerability remains if you do not complete all recommended steps. NETGEAR is not responsible for any consequences that could have been avoided by following the recommendations in this notification.\nAcknowledgements\nAn independent security researcher has reported this vulnerability to SSD Secure Disclosure program.\nCommon Vulnerability Scoring System\nCVSS v3.1 Rating: Critical\nCVSS v3.1 Score: 9.6\nVector: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\nContact\nWe appreciate and value having security concerns brought to our attention. NETGEAR constantly monitors for both known and unknown",
+      "source_file": "https://kb.netgear.com/000062158/How-do-I-perform-a-factory-reset-on-my-NETGEAR-router",
+      "source_page": 1,
+      "keywords": [
+        "PR",
+        "AC",
+        "AV",
+        "SSD",
+        "Click Downloads",
+        "Common Vulnerability Scoring System"
+      ],
+      "created_at": "2026-06-10T08:36:16.025647",
+      "metadata": {
+        "parser": "trafilatura",
+        "source_type": "website",
+        "company": "HKSB"
+      }
+    }
+  ]
+}

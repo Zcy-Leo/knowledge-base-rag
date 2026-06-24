@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-text.txt",
+  "total_entries": 4,
+  "entries": [
+    {
+      "id": "ff8e7afe-376f-40dd-8940-f7025f6bcf4b",
+      "type": "general",
+      "title": "This is a test document to use for unit tests.",
+      "content": "This is a test document to use for unit tests.",
+      "source_file": "fake-text.txt",
+      "source_page": 0,
+      "keywords": [
+        "document"
+      ],
+      "created_at": "2026-06-22T11:57:38.105222",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    },
+    {
+      "id": "4752f354-6de4-4a7b-972e-4c082cf58249",
+      "type": "general",
+      "title": "Doylestown, PA 18901",
+      "content": "Doylestown, PA 18901",
+      "source_file": "fake-text.txt",
+      "source_page": 0,
+      "keywords": [
+        "Doylestown"
+      ],
+      "created_at": "2026-06-22T11:57:38.105257",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    },
+    {
+      "id": "048831c2-670b-4b5a-ae39-3b8b13c885fb",
+      "type": "general",
+      "title": "Important points:",
+      "content": "Important points:",
+      "source_file": "fake-text.txt",
+      "source_page": 0,
+      "keywords": [
+        "Important"
+      ],
+      "created_at": "2026-06-22T11:57:38.105296",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    },
+    {
+      "id": "366b8bcb-3c8b-4424-a4a2-f54203b1b7c5",
+      "type": "general",
+      "title": "- Hamburgers are delicious\n   - Dogs are the best\n...",
+      "content": "- Hamburgers are delicious\n   - Dogs are the best\n   - I love fuzzy blankets",
+      "source_file": "fake-text.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.105328",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    }
+  ]
+}

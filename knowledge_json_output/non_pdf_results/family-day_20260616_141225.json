@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "source_file": "family-day.eml",
+  "total_entries": 8,
+  "entries": [
+    {
+      "id": "c22b851d-3eec-4bec-9c64-100f5a6e2f32",
+      "type": "general",
+      "title": "MIME-Version: 1.0\nDate: Wed, 21 Dec 2022 10:28:53 ...",
+      "content": "MIME-Version: 1.0\nDate: Wed, 21 Dec 2022 10:28:53 -0600\nMessage-ID: <CAPgNNXQKR=o6AsOTr74VMrsDNhUJW0Keou9n3vLa2UO_Nv+tZw@mail.gmail.com>\nSubject: Family Day\nFrom: Mallori Harrell <mallori@unstructured.io>\nTo: Mallori Harrell <mallori@unstructured.io>\nContent-Type: multipart/alternative; boundary=\"0000000000005c115405f0590ce4\"",
+      "source_file": "family-day.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Date",
+        "Wed",
+        "Message"
+      ],
+      "created_at": "2026-06-16T14:12:25.632753",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "family-day.eml"
+      }
+    },
+    {
+      "id": "27e04d95-8e34-40fc-a186-c71d10effba4",
+      "type": "general",
+      "title": "--0000000000005c115405f0590ce4\nContent-Type: text/...",
+      "content": "--0000000000005c115405f0590ce4\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "family-day.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.632784",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "family-day.eml"
+      }
+    },
+    {
+      "id": "a083c038-bb7f-41f9-803f-6f8369ef07de",
+      "type": "general",
+      "title": "Get excited for our first annual family day!",
+      "content": "Get excited for our first annual family day!",
+      "source_file": "family-day.eml",
+      "source_page": 0,
+      "keywords": [
+        "Get"
+      ],
+      "created_at": "2026-06-16T14:12:25.632806",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "family-day.eml"
+      }
+    },
+    {
+      "id": "75390bda-fe71-48f2-8f23-43b806c09120",
+      "type": "general",
+      "title": "There will be face painting, a petting zoo, funnel...",
+      "content": "There will be face painting, a petting zoo, funnel cake and more.",
+      "source_file": "family-day.eml",
+      "source_page": 0,
+      "keywords": [
+        "There"
+      ],
+      "created_at": "2026-06-16T14:12:25.632832",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "family-day.eml"
+      }
+    },
+    {
+      "id": "f1292b3e-fe5f-4a30-8f61-bb898ffdd5a0",
+      "type": "general",
+      "title": "-- \nMallori Harrell\nUnstructured Technologies\nData...",
+      "content": "-- \nMallori Harrell\nUnstructured Technologies\nData Scientist",
+      "source_file": "family-day.eml",
+      "source_page": 0,
+      "keywords": [
+        "Mallori",
+        "Unstructured",
+        "Data"
+      ],
+      "created_at": "2026-06-16T14:12:25.632854",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "family-day.eml"
+      }
+    },
+    {
+      "id": "597395be-b1ed-4757-9fda-507706a985ec",
+      "type": "general",
+      "title": "--0000000000005c115405f0590ce4\nContent-Type: text/...",
+      "content": "--0000000000005c115405f0590ce4\nContent-Type: text/html; charset=\"UTF-8\"\nContent-Transfer-Encoding: quoted-printable",
+      "source_file": "family-day.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.632884",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "family-day.eml"
+      }
+    },
+    {
+      "id": "ac95a7d5-cd14-4bb4-85db-bdeea740d9b5",
+      "type": "general",
+      "title": "<div dir=3D\"ltr\">Hi All,<div><br></div><div>Get ex...",
+      "content": "<div dir=3D\"ltr\">Hi All,<div><br></div><div>Get excited for our first annua=\nl family day!=C2=A0</div><div><br></div><div>There will be face painting, =\na petting zoo, funnel cake and more.</div><div><br></div><div>Make sure to =\nRSVP!</div><div><br></div><div>Best.<br clear=3D\"all\"><div><br></div>-- <br=\n><div dir=3D\"ltr\" class=3D\"gmail_signature\" data-smartmail=3D\"gmail_signatu=\nre\"><div dir=3D\"ltr\">Mallori Harrell<div>Unstructured Technologies<br><div>=\nData Scientist</div><div><br></div></div></div></div></div></div>",
+      "source_file": "family-day.eml",
+      "source_page": 0,
+      "keywords": [
+        "RSVP",
+        "Data"
+      ],
+      "created_at": "2026-06-16T14:12:25.633015",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "family-day.eml"
+      }
+    },
+    {
+      "id": "ca746793-ac20-413d-81dd-dea7cd20bb1b",
+      "type": "general",
+      "title": "--0000000000005c115405f0590ce4--",
+      "content": "--0000000000005c115405f0590ce4--",
+      "source_file": "family-day.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.633030",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "family-day.eml"
+      }
+    }
+  ]
+}

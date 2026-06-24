@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "source_file": "tables-with-incomplete-rows.docx",
+  "total_entries": 6,
+  "entries": [
+    {
+      "id": "a9fa9af8-61f1-4e82-abab-7c12fb4b0667",
+      "type": "general",
+      "title": "Example of DOCX table where one or more rows is mi...",
+      "content": "Example of DOCX table where one or more rows is missing cells from the end.",
+      "source_file": "tables-with-incomplete-rows.docx",
+      "source_page": 0,
+      "keywords": [
+        "DOCX",
+        "Example",
+        "table"
+      ],
+      "created_at": "2026-06-22T11:57:41.299041",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "1df3101f-ca79-4d39-9a32-086046fb8b7f",
+      "type": "general",
+      "title": "Table Content",
+      "content": "a | b\nc | d",
+      "source_file": "tables-with-incomplete-rows.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:41.299501",
+      "metadata": {
+        "element_type": "table",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "1e4671b2-53f6-4840-8d03-42e1d4c20e87",
+      "type": "general",
+      "title": "Table Content",
+      "content": "a | a\nb | c | d",
+      "source_file": "tables-with-incomplete-rows.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:41.300099",
+      "metadata": {
+        "element_type": "table",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "7beac15a-548c-4822-83c8-a66c30188b26",
+      "type": "general",
+      "title": "Table Content",
+      "content": "a | b\na | c | d",
+      "source_file": "tables-with-incomplete-rows.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:41.300604",
+      "metadata": {
+        "element_type": "table",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "cf9180a3-104c-4bac-bb34-dad0f46ca535",
+      "type": "general",
+      "title": "Table Content",
+      "content": "a | a | b | c\nd | d\ne | d | d | f\nd | d",
+      "source_file": "tables-with-incomplete-rows.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:41.301659",
+      "metadata": {
+        "element_type": "table",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "9c8774b0-3298-4e94-b349-31b556ab891a",
+      "type": "general",
+      "title": "Table Content",
+      "content": "Data | Data\nData | Data\nData | Data\n | More\nDato\nWTF? | WTF?\nStrange | Strange\n | Format | Format",
+      "source_file": "tables-with-incomplete-rows.docx",
+      "source_page": 0,
+      "keywords": [
+        "WTF",
+        "Data",
+        "Dato"
+      ],
+      "created_at": "2026-06-22T11:57:41.302813",
+      "metadata": {
+        "element_type": "table",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

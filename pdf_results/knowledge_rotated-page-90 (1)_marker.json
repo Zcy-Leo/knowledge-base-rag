@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "rotated-page-90 (1).pdf",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "2da920d9-ee27-498a-b429-893bdbcb68e6",
+      "type": "general",
+      "title": "Hello World Test Text",
+      "content": "Hello World Test Text\n\nSecond line of text here\n\nRotated page fixture",
+      "source_file": "rotated-page-90 (1).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:59:35.720681",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    }
+  ]
+}

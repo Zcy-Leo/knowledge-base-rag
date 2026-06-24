@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "source_file": "stanley-cups-with-emoji.tsv",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "826e047b-2081-45f9-8a13-67f645924d08",
+      "type": "general",
+      "title": "Stanley Cups\t\t\nTeam\tLocation\tStanley Cups\nBlues\tST...",
+      "content": "Stanley Cups\t\t\nTeam\tLocation\tStanley Cups\nBlues\tSTL\t1\nFlyers\tPHI\t2\nMaple Leafs\tTOR\t13\n👨\\U+1F3FB🔧\tTOR\t15",
+      "source_file": "stanley-cups-with-emoji.tsv",
+      "source_page": 0,
+      "keywords": [
+        "PHI",
+        "STL",
+        "TOR",
+        "Stanley",
+        "Team",
+        "Blues",
+        "Flyers"
+      ],
+      "created_at": "2026-06-16T11:15:59.635093",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    }
+  ]
+}

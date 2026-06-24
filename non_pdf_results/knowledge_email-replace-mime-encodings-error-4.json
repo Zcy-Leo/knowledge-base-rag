@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-replace-mime-encodings-error-4.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "17a1f93b-e3db-4aae-9f77-789885001244",
+      "type": "general",
+      "title": "Email: {subject}",
+      "content": "From: {from_addr}\nTo: {to_addr}\nDate: {date}\nSubject: {subject}\n\n{body}",
+      "source_file": "email-replace-mime-encodings-error-4.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject"
+      ],
+      "created_at": "2026-06-22T11:56:15.022725",
+      "metadata": {
+        "element_type": "email",
+        "parser": "email"
+      }
+    }
+  ]
+}

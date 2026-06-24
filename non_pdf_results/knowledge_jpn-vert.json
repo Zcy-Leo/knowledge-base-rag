@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "source_file": "jpn-vert.jpeg",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "b7f1a002-7635-40f2-b2e9-8579e92c93cb",
+      "type": "general",
+      "title": "IR ROL Ha tS BK XS” PC thw\nROK HHEWIR OW UH\nSMRRWI...",
+      "content": "IR ROL Ha tS BK XS” PC thw\nROK HHEWIR OW UH\nSMRRWIEOVSN° Miya\nSt BP SMI WIN ONES’\nSE MOOK BES ITS 4D Hb HH fone °",
+      "source_file": "jpn-vert.jpeg",
+      "source_page": 0,
+      "keywords": [
+        "ITS",
+        "ONES",
+        "HHEWIR",
+        "SMRRWIEOVSN",
+        "ROK"
+      ],
+      "created_at": "2026-06-22T11:56:31.489183",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    }
+  ]
+}

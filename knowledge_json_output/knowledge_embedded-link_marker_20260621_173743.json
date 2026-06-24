@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "source_file": "embedded-link.pdf",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "432b556f-3ebf-4726-98b6-c8c16a445bbd",
+      "type": "general",
+      "title": "This is the [link.](https://github.com/Unstructured-IO/unstructured) This is the...",
+      "content": "This is the [link.](https://github.com/Unstructured-IO/unstructured) This is the [email](mailto:unstructuredai@earlygrowth.com). This is the [phone number.](tel:6505124019)",
+      "source_file": "embedded-link.pdf",
+      "source_page": 1,
+      "keywords": [
+        "IO"
+      ],
+      "created_at": "2026-06-19T13:53:55.176941",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "Demo"
+      }
+    },
+    {
+      "id": "7edeea15-0db3-4144-ab78-2a3e986e1213",
+      "type": "general",
+      "title": "- 1. This is to test the index where the list item was not captured correctly an...",
+      "content": "- 1. This is to test the index where the list item was not captured correctly and the new line got detected as separate element. We will need to run the index number again. Here is the link to the website.\n- 2. Now, what would happen if the embedded url is across two lines with [broken list item group](http://www.apple.com)  [capturing](http://www.apple.com)?",
+      "source_file": "embedded-link.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T13:53:55.177007",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "Demo"
+      }
+    }
+  ]
+}

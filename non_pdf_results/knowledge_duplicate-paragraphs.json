@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "duplicate-paragraphs.docx",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "719b41c8-f749-4f04-8d5e-ea9685da6748",
+      "type": "general",
+      "title": "This document contains duplicates",
+      "content": "This document contains duplicates",
+      "source_file": "duplicate-paragraphs.docx",
+      "source_page": 0,
+      "keywords": [
+        "document"
+      ],
+      "created_at": "2026-06-22T11:57:38.409891",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Heading 1",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

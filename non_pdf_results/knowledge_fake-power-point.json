@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-power-point.pptx",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "510aa61e-0040-43b9-ae5c-3ed400d8af31",
+      "type": "general",
+      "title": "Slide {slide_idx + 1}",
+      "content": "Adding a Bullet Slide\nFind the bullet slide layout\nUse _TextFrame.text for first bullet\nUse _TextFrame.add_paragraph() for subsequent bullets\nHere is a lot of text!\nHere is some text in a text box!",
+      "source_file": "fake-power-point.pptx",
+      "source_page": 1,
+      "keywords": [
+        "Adding",
+        "Find",
+        "Use",
+        "text"
+      ],
+      "created_at": "2026-06-22T11:56:56.931024",
+      "metadata": {
+        "element_type": "slide",
+        "parser": "python-pptx-enhanced"
+      }
+    }
+  ]
+}

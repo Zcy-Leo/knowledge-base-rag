@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "source_file": "tests-example.xls",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "1016bccc-f6dd-4b4a-b746-c0828306e22a",
+      "type": "general",
+      "title": "Excel Data - {os.path.basename(file_path)}",
+      "content": " MC                                                                                                     What is 2+2?           4                          correct        3      incorrect Unnamed: 6 Unnamed: 7 Unnamed: 8\n MA                                                                       What C datatypes are 8 bits? (assume i386)         int                              NaN    float            NaN     double        NaN       char\n TF                                                                                            Bagpipes are awesome.        true                              NaN      NaN            NaN        NaN        NaN        NaN\nESS How have the original Henry Hornbostel buildings influenced campus architecture and design in the last 30 years?         NaN                              NaN      NaN            NaN        NaN        NaN        NaN\nORD                                                                  Rank the following in their order of operation. Parentheses                        Exponents Division       Addition        NaN        NaN        NaN\nFIB                                                                                    The student activities fee is          95 dollars for students enrolled in       19 units or more,        NaN        NaN        NaN\nMAT                                                         Match the lower-case greek letter with its capital form.           λ                                Λ        α              γ          Γ          φ          Φ",
+      "source_file": "tests-example.xls",
+      "source_page": 0,
+      "keywords": [
+        "MAT",
+        "ESS",
+        "FIB",
+        "ORD",
+        "Parentheses"
+      ],
+      "created_at": "2026-06-22T11:56:16.937918",
+      "metadata": {
+        "element_type": "excel_table",
+        "parser": "pandas"
+      }
+    }
+  ]
+}

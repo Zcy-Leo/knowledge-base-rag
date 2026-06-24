@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "table-semicolon-delimiter.csv",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "1466da9c-ba37-4325-9325-ca28582971dc",
+      "type": "general",
+      "title": "CSV Table - {os.path.basename(file_path)}",
+      "content": "Columns: {', '.join(header)}\n2022;1;123;-123;\n2023;2;143 | 1;-814 | 38;\n2024;3;215 | 32;-11 | 08;",
+      "source_file": "table-semicolon-delimiter.csv",
+      "source_page": 0,
+      "keywords": [
+        "Columns"
+      ],
+      "created_at": "2026-06-22T11:56:14.635424",
+      "metadata": {
+        "element_type": "csv_table",
+        "parser": "csv"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "source_file": "database",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "dae2505f-546d-4066-8845-eb5027d8a7bc",
+      "type": "manual_section",
+      "title": "**Module One - Introduction to Product Development and Quality Assurance**",
+      "content": "[Title] **Module One - Introduction to Product Development and Quality Assurance**\n[Content] This module introduces the learner to the importance and principles of product development and quality assurance, explores what kinds of products might be developed and tested, considers potential challenges and provides guidance on ensuring standards and efficiency throughout the development process. It then introduces the four steps of successful development.\n\n- What are product types?\n- What challenges may arise in development?\n- What is product development and quality assurance, and who is involved?\n- The importance and benefits of product development and quality assurance\n- Which products should be developed and tested?\n- Ensuring standards and efficiency in development\n- Timescales and conduct of development",
+      "source_file": "list-item-example.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T16:17:32.106089",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "Product Development",
+          "Quality Assurance",
+          "Introduction",
+          "principles"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "01596ed7-2e29-4013-8920-d4aad21f4e58",
+      "type": "manual_section",
+      "title": "**Module Two: Initial Planning and Step 1: Concept Development**",
+      "content": "[Title] **Module Two: Initial Planning and Step 1: Concept Development**\n[Content] This module considers immediate actions following a product idea, including market research, defining requirements, and initial collaboration with stakeholders. It then looks at who should lead the development and what relevant information might need to be gathered as part of the process.\n\nMarket research and defining requirements Collaboration and initial planning Engaging stakeholders and recording information\n\n- Who should lead the development?\n- Step 1: Concept development\n- What is the product idea, target market, and objective?\n[Keywords] Step 1, Step 1",
+      "source_file": "list-item-example.pdf",
+      "source_page": 1,
+      "keywords": "Step 1, Step 1",
+      "created_at": "2026-06-21T16:17:32.106105",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "Initial Planning",
+          "Concept Development",
+          "market research",
+          "requirements"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "eae12993-90a1-49ae-9658-fee8444acb87",
+      "type": "manual_section",
+      "title": "**Module Three: Step 2: Design and Prototyping**",
+      "content": "[Title] **Module Three: Step 2: Design and Prototyping**\n[Content] This module looks at the role of the design team in detail and outlines an approach for creating and testing prototypes based on the concept developed in the previous step. It looks at potential root challenges that may arise during the design phase, as well as considering underlying considerations.\n\n- The role of the design team\n- Determining the immediate and underlying challenges of design\n- Underlying considerations: usability and user experience\n- Underlying considerations: materials and manufacturing processes\n- Underlying considerations: compliance and standards\n- Determining root challenges: organizational factors\n- The product development lifecycle\n- Collaboration, responsibilities, and training\n- Design thinking and innovation\n- Management of changes, feedback, and iterations\n- Determining root challenges: market factors\n\n- How will the product meet market needs?\n- Design considerations\n- Case study\n- Prototyping methodologies\n- Intellectual property considerations\n- Concept validation\n- Team collaboration and leadership\n- Budgeting and resource planning\n- Technology and tools selection\n[Keywords] Step 2",
+      "source_file": "list-item-example.pdf",
+      "source_page": 1,
+      "keywords": "Step 2",
+      "created_at": "2026-06-21T16:17:32.106109",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "Design",
+          "Prototyping",
+          "design team",
+          "testing prototypes"
+        ],
+        "llm_confidence": 0.95
+      }
+    }
+  ]
+}

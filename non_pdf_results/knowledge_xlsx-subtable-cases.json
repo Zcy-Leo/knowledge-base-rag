@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "xlsx-subtable-cases.xlsx",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "61c957ce-9977-4062-8ef7-54f6cc0c0b66",
+      "type": "general",
+      "title": "Excel Table - {sheet_name}",
+      "content": "Sheet: {sheet_name}\na | b |  | \nc | d |  | e\n |  |  | - f\na |  |  | \nb | c |  | \nd | e |  | \n | a |  | \n | b |  | \nc | d |  | \ne | f |  | \na | b |  | \nc | d |  | \n | 2. e |  | \na | b |  | \nc | d |  | \ne |  |  | \nf |  |  | \na |  |  | \nb | c |  | \nd | e |  | \n | f |  | \na |  |  | \nb |  |  | \nc | d |  | \ne | f |  | \ng |  |  | \n | a |  | \nb | c |  | \nd | e |  | \n | f |  | \n | g |  | \na |  |  | \nb |  |  | \nc | d |  | \ne | f |  | \ng |  |  | \nh |  |  | \na | b | c | \na |  |  | \nb | c | d | \na | b | c | \nd |  |  | \ne |  |  | ",
+      "source_file": "xlsx-subtable-cases.xlsx",
+      "source_page": 0,
+      "keywords": [
+        "Sheet"
+      ],
+      "created_at": "2026-06-22T11:56:16.980749",
+      "metadata": {
+        "element_type": "excel_table",
+        "sheet": "Sheet1",
+        "parser": "openpyxl"
+      }
+    }
+  ]
+}

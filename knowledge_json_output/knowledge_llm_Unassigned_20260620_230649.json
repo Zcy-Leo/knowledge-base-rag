@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "source_file": "database",
+  "total_entries": 16,
+  "entries": [
+    {
+      "id": "f3d4a5de-3c58-4140-8c95-b2621e31230e",
+      "type": "manual_section",
+      "title": "## LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analys...",
+      "content": "[Title] ## LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analys...\n[Content] ## LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analysis",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-20T23:06:25.553568",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "LayoutParser",
+          "Document Image Analysis",
+          "Deep Learning",
+          "Toolkit"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "2f7ce7a0-bd5a-4f78-acef-07d93bf9dbe4",
+      "type": "general",
+      "title": "Zejiang Shen¹ (⋈), Ruochen Zhang², Melissa Dell³, Benjamin Charles Germain Lee⁴,...",
+      "content": "[Title] Zejiang Shen¹ (⋈), Ruochen Zhang², Melissa Dell³, Benjamin Charles Germain Lee⁴,...\n[Content] Zejiang Shen¹ (⋈), Ruochen Zhang², Melissa Dell³, Benjamin Charles Germain Lee⁴, Jacob Carlson³, and Weining Li⁵",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-20T23:06:25.553585",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "Authors",
+          "Researchers",
+          "Names",
+          "Academic Paper"
+        ],
+        "llm_confidence": 0.9
+      }
+    },
+    {
+      "id": "4b746425-0530-41b5-ab96-6836177e8f62",
+      "type": "general",
+      "title": "1 Allen Institute for AI",
+      "content": "[Title] 1 Allen Institute for AI\n[Content] 1 Allen Institute for AI\nshannons@allenai.org\n2 Brown University\nruochen\\_zhang@brown.edu\n3 Harvard University\n{melissadell,jacob\\_carlson}@fas.harvard.edu\n4 University of Washington\nbcgl@cs.washington.edu\n5 University of Waterloo\nw4221i@uwaterloo.ca\n[Keywords] AI",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "AI",
+      "created_at": "2026-06-20T23:06:25.553592",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "Affiliations",
+          "Institutions",
+          "Universities",
+          "Contact Information",
+          "Email Addresses"
+        ],
+        "llm_confidence": 0.9
+      }
+    },
+    {
+      "id": "442083a7-20f3-438b-891d-8de4f1b7f102",
+      "type": "manual_section",
+      "title": "**Abstract.** Recent advances in document image analysis (DIA) have been primari...",
+      "content": "[Title] **Abstract.** Recent advances in document image analysis (DIA) have been primari...\n[Content] **Abstract.** Recent advances in document image analysis (DIA) have been primarily driven by the application of neural networks. Ideally, research outcomes could be easily deployed in production and extended for further investigation. However, various factors like loosely organized codebases and sophisticated model configurations complicate the easy reuse of important innovations by a wide audience. Though there have been on-going efforts to improve reusability and simplify deep learning (DL) model development in disciplines like natural language processing and computer vision, none of them are optimized for challenges in the domain of DIA. This represents a major gap in the existing toolkit, as DIA is central to academic research across a wide range of disciplines in the social sciences and humanities. This paper introduces LayoutParser, an open-source library for streamlining the usage of DL in DIA research and applications. The core LayoutParser library comes with a set of simple and intuitive interfaces for applying and customizing DL models for layout detection, character recognition, and many other document processing tasks. To promote extensibility, LayoutParser also incorporates a community platform for sharing both pre-trained models and full document digitization pipelines. We demonstrate that LayoutParser is helpful for both lightweight and large-scale digitization pipelines in real-word use cases. The library is publicly available at https://layout-parser.github.io\n[Keywords] DL, DIA",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-20T23:06:25.553596",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "Abstract",
+          "Document Image Analysis",
+          "Neural Networks",
+          "Research"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "0190a569-3525-414b-ad49-5f6788d6946e",
+      "type": "manual_section",
+      "title": "**Keywords:** Document Image Analysis · Deep Learning · Layout Analysis · Charac...",
+      "content": "[Title] **Keywords:** Document Image Analysis · Deep Learning · Layout Analysis · Charac...\n[Content] **Keywords:** Document Image Analysis · Deep Learning · Layout Analysis · Character Recognition · Open Source library · Toolkit.\n\n## 1 Introduction",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-20T23:06:25.553600",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "Keywords",
+          "Document Image Analysis",
+          "Deep Learning",
+          "Layout Analysis",
+          "Character Recognition"
+        ],
+        "llm_confidence": 0.85
+      }
+    },
+    {
+      "id": "0690f09e-950d-4880-a9fe-6fa422bf655e",
+      "type": "general",
+      "title": "Deep Learning(DL)-based approaches are the state-of-the-art for a wide range of ...",
+      "content": "[Title] Deep Learning(DL)-based approaches are the state-of-the-art for a wide range of ...\n[Content] Deep Learning(DL)-based approaches are the state-of-the-art for a wide range of document image analysis (DIA) tasks including document image classification [11].\n[Keywords] DL, DIA",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-20T23:06:25.553605",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "2417d788-f3cd-4559-9d64-bafc788f5cc2",
+      "type": "general",
+      "title": "37], layout detection [38, 22], table detection [26], and scene text detection [...",
+      "content": "[Title] 37], layout detection [38, 22], table detection [26], and scene text detection [...\n[Content] 37], layout detection [38, 22], table detection [26], and scene text detection [4]. A generalized learning-based framework dramatically reduces the need for the manual specification of complicated rules, which is the status quo with traditional methods. DL has the potential to transform DIA pipelines and benefit a broad spectrum of large-scale document digitization projects.\n[Keywords] DL, DIA",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-20T23:06:25.553609",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "42c3c7d7-8d2b-4b04-9e5d-9ffba79dfb68",
+      "type": "general",
+      "title": "However, there are several practical diculties for taking advantages of recent a...",
+      "content": "[Title] However, there are several practical diculties for taking advantages of recent a...\n[Content] However, there are several practical diculties for taking advantages of recent advances in DL-based methods: 1) DL models are notoriously convoluted for reuse and extension. Existing models are developed using distinct frameworks like TensorFlow [1] or PyTorch [24], and the high-level parameters can be obfuscated by implementation details [8]. It can be a time-consuming and frustrating experience to debug, reproduce, and adapt existing models for DIA, and *many researchers who would benefit the most from using these methods lack the technical background to implement them from scratch.* 2) Document images contain diverse and disparate patterns across domains, and customized training is often required to achieve a desirable detection accuracy. Currently *there is no full-fledged infrastructure for easily curating the target document image datasets and fine-tuning or re-training the models.* 3) DIA usually requires a sequence of models and other processing to obtain the final outputs. Often research teams use DL models and then perform further document analyses in separate processes, and these pipelines are not documented in any central location (and often not documented at all). This makes it *dicult for research teams to learn about how full pipelines are implemented* and *leads them to invest significant resources in reinventing the DIA wheel*.\n[Keywords] DL, DIA",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-20T23:06:25.553613",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "4fd7031e-5a8b-4a60-bf1d-28b56d359d31",
+      "type": "general",
+      "title": "LayoutParser provides a unified toolkit to support DL-based document image analy...",
+      "content": "[Title] LayoutParser provides a unified toolkit to support DL-based document image analy...\n[Content] LayoutParser provides a unified toolkit to support DL-based document image analysis and processing. To address the aforementioned challenges, LayoutParser is built with the following components:\n[Keywords] DL",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "DL",
+      "created_at": "2026-06-20T23:06:25.553617",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "9df98b26-2f7c-4337-a9ac-102e8fff4cec",
+      "type": "general",
+      "title": "- 1. An o↵-the-shelf toolkit for applying DL models for layout detection, charac...",
+      "content": "[Title] - 1. An o↵-the-shelf toolkit for applying DL models for layout detection, charac...\n[Content] - 1. An o↵-the-shelf toolkit for applying DL models for layout detection, character recognition, and other DIA tasks (Section 3)\n- 2. A rich repository of pre-trained neural network models (Model Zoo) that underlies the o↵-the-shelf usage\n- 3. Comprehensive tools for ecient document image data annotation and model tuning to support di↵erent levels of customization\n- 4. A DL model hub and community platform for the easy sharing, distribution, and discussion of DIA models and pipelines, to promote reusability, reproducibility, and extensibility (Section 4)\n[Keywords] DL, DIA",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-20T23:06:25.553622",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "7509f573-3a1b-490d-8d84-1ed37d5f9adf",
+      "type": "general",
+      "title": "The library implements simple and intuitive Python APIs without sacrificing gene...",
+      "content": "[Title] The library implements simple and intuitive Python APIs without sacrificing gene...\n[Content] The library implements simple and intuitive Python APIs without sacrificing generalizability and versatility, and can be easily installed via pip. Its convenient functions for handling document image data can be seamlessly integrated with existing DIA pipelines. With detailed documentations and carefully curated tutorials, we hope this tool will benefit a variety of end-users, and will lead to advances in applications in both industry and academic research.\n[Keywords] DIA",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "DIA",
+      "created_at": "2026-06-20T23:06:25.553626",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "34ccc897-5c20-49e3-9dea-43ac6c6702ed",
+      "type": "general",
+      "title": "LayoutParser is well aligned with recent e↵orts for improving DL model reusabili...",
+      "content": "[Title] LayoutParser is well aligned with recent e↵orts for improving DL model reusabili...\n[Content] LayoutParser is well aligned with recent e↵orts for improving DL model reusability in other disciplines like natural language processing [8, 34] and computer vision [35], but with a focus on unique challenges in DIA. We show LayoutParser can be applied in sophisticated and large-scale digitization projects\n[Keywords] DL, DIA",
+      "source_file": "copy-protected.pdf",
+      "source_page": 1,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-20T23:06:25.553629",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "e498ad7e-c96d-4e04-a328-bafbad644b64",
+      "type": "general",
+      "title": "**MAIN GAME**",
+      "content": "[Title] **MAIN GAME**\n[Keywords] MAIN, GAME",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": "MAIN, GAME",
+      "created_at": "2026-06-20T23:06:25.553634",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "12e00d82-1c71-4387-893b-b1b1916c1fc3",
+      "type": "general",
+      "title": "**CREATURES**",
+      "content": "[Title] **CREATURES**\n[Keywords] CREATURES",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": "CREATURES",
+      "created_at": "2026-06-20T23:06:25.553637",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "12d7f258-29a3-472b-bc9f-d9221a528763",
+      "type": "general",
+      "title": "**Abomination**",
+      "content": "[Title] **Abomination**\n[Content] \"We arrived in the dead of night. We had been tracking the maleficar for days, and finally had him cornered... or so we thought.\n\nAs we approached, a home on the edge of the town exploded, sending splinters of wood and fist-sized chunks of rocks into our ranks. We had but moments to regroup before fire rained from the sky, the sounds of destruction wrapped in a hideous laughter from the center of the village.\n\nThere, perched atop the spire of the village chantry, stood the mage. But he was human no longer.\n\nWe shouted prayers to the Maker and deflected what magic we could, but as we fought, the creature fought harder. I saw my comrades fall, burned by the flaming sky or crushed by debris. The monstrous creature, looking as if a demon were wearing a man like a twisted suit of skin, spotted me and grinned. We had forced it to this, I realized; the mage had made this pact, given himself over to the demon to survive our assault.\"\n\n*—Transcribed from a tale told by a former templar in Cumberland, 8:84 Blessed.*\n\nIt is known that mages are able to walk the Fade while completely aware of their surroundings, unlike most others who may only enter the realm as dreamers and leave it scarcely aware of their experience. Demons are drawn to mages, though whether it is because of this awareness or simply by virtue of their magical power in our world is unknown.\n\nRegardless of the reason, a demon always attempts to possess a mage when it encounters one—by force or by making some kind of deal depending on the strength of the mage. Should the demon get the upper hand, the result is an unholy union known as an abomination. Abominations have been responsible for some of the worst cataclysms in history, and the notion that some mage in a remote tower could turn into such a creature unbeknownst to any was the driving force behind the creation of the Circle of Magi.\n\nThankfully, abominations are rare. The Circle has methods for weeding out those who are too at risk for demonic possession,",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-20T23:06:25.553642",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "b2dd7404-a0d2-45a5-9bac-b21b002453c6",
+      "type": "general",
+      "title": "**Arcane Horror**",
+      "content": "[Title] **Arcane Horror**\n[Content] \"Upon ascending to the second floor of the tower, we were greeted by a gruesome sight: a ragged collection of bones wearing the robes of one of the senior enchanters. I had known her for years, watched her raise countless apprentices, and now she was a mere puppet for some demon.\"",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-20T23:06:25.553645",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    }
+  ]
+}

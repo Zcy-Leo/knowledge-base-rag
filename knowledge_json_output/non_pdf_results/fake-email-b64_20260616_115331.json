@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email-b64.eml",
+  "total_entries": 6,
+  "entries": [
+    {
+      "id": "4fc06692-b053-4328-8477-c20af9364a01",
+      "type": "general",
+      "title": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 ...",
+      "content": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 -0500\nMessage-ID: \n <CADc-_xaLB2FeVQ7mNsoX+NJb_7hAJhBKa_zet-rtgPGenj0uVw@mail.gmail.com>\nSubject: Test Email\nFrom: Matthew Robinson <mrobinson@unstructured.io>\nTo: NotMatthew <NotMatthew@notunstructured.com>\nContent-Type: multipart/alternative; boundary=\"00000000000095c9b205eff92630\"",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Date",
+        "Fri",
+        "Message"
+      ],
+      "created_at": "2026-06-16T11:53:31.895516",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "0a990809-566f-4237-b6a3-9f954ebc930d",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/plain; charset=\"UTF-8\"\nContent-Transfer-Encoding: base64",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:53:31.895555",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "58d23392-41fd-4f0a-aee8-bd3b84d7aac4",
+      "type": "general",
+      "title": "VGhpcyBpcyBhIHRlc3QgZW1haWwgdG8gdXNlIGZvciB1bml0IH...",
+      "content": "VGhpcyBpcyBhIHRlc3QgZW1haWwgdG8gdXNlIGZvciB1bml0IHRlc3RzLgoKSW1wb3J0YW50IHBv\naW50czoKCiAgIC0gUm9zZXMgYXJlIHJlZAogICAtIFZpb2xldHMgYXJlIGJsdWUK",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [
+        "VGhpcyBpcyBhIHRlc"
+      ],
+      "created_at": "2026-06-16T11:53:31.895578",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "c64dccef-1080-4882-9dda-f95589141e20",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/html; charset=\"UTF-8\"\nContent-Transfer-Encoding: base64",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:53:31.895606",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "4124ca48-6756-45b9-828e-637d31dd7da8",
+      "type": "general",
+      "title": "PGRpdiBkaXI9Imx0ciI+PGRpdj5UaGlzIGlzIGEgdGVzdCBlbW...",
+      "content": "PGRpdiBkaXI9Imx0ciI+PGRpdj5UaGlzIGlzIGEgdGVzdCBlbWFpbCB0byB1c2UgZm9yIHVuaXQg\ndGVzdHMuPC9kaXY+PGRpdj48YnI+PC9kaXY+PGRpdj5JbXBvcnRhbnQgcG9pbnRzOjwvZGl2Pjxk\naXY+PHVsPjxsaT5Sb3NlcyBhcmUgcmVkPC9saT48bGk+VmlvbGV0cyBhcmUgYmx1ZTwvbGk+PC91\nbD48L2Rpdj48L2Rpdj4K",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [
+        "PGRpdiBkaXI"
+      ],
+      "created_at": "2026-06-16T11:53:31.895641",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "5337c245-4c37-4a05-887f-7ad0ab97a5e7",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630--",
+      "content": "--00000000000095c9b205eff92630--",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:53:31.895656",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    }
+  ]
+}

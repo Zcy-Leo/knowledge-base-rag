@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "source_file": "currency.csv.txt",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "6ef61a45-6616-4c0c-b18d-b60643b3e0b2",
+      "type": "general",
+      "title": "Code\tSymbol\tName\nAED\t.\tUnited Arab Emirates d\nAFN\t...",
+      "content": "Code\tSymbol\tName\nAED\t.\tUnited Arab Emirates d\nAFN\t\tAfghan afghani\nALL\tL\tAlbanian lek\nAMD\tAMD\tArmenian dram\nANG\t\tNetherlands Antillean gu\nAOA\tKz\tAngolan kwanza\nARS\t$\tArgentine peso\nAUD\t$\tAustralian dollar\nAWG\tAfl.\tAruban florin\nAZN\tAZN\tAzerbaijani manat\nBAM\tKM\tBosnia and Herzegovina\nBBD\t$\tBarbadian dollar\nBDT\t\tBangladeshi taka\nBGN\t.\tBulgarian lev\nBHD\t..\tBahraini dinar\nBIF\tFr\tBurundian franc\nBMD\t$\tBermudian dollar\nBND\t$\tBrunei dollar\nBOB\tBs.\tBolivian boliviano\nBRL\tR$\tBrazilian real\nBSD\t$\tBahamian dollar\nBTC\t\tBitcoin\nBTN\tNu.\tBhutanese ngultrum\nBWP\tP\tBotswana pula\nBYR\tBr\tBelarusian ruble (old)'\nBYN\tBr\tBelarusian ruble\nBZD\t$\tBelize dollar\nCAD\t$\tCanadian dollar\nCDF\tFr\tCongolese franc\nCHF\tCHF\tSwiss franc\nCLP\t$\tChilean peso\nCNY\t\tChinese yuan\nCOP\t$\tColombian peso\nCRC\t\tCosta Rican coln\nCUC\t$\tCuban convertible peso')\nCUP\t$\tCuban peso\nCVE\t$\tCape Verdean escudo\nCZK\tK\tCzech koruna\nDJF\tFr\tDjiboutian franc\nDKK\tDKK\tDanish krone\nDOP\tRD$\tDominican peso\nDZD\t.\tAlgerian dinar\nEGP\tEGP\tEgyptian pound\nERN\tNfk\tEritrean nakfa\nETB\tBr\tEthiopian birr\nEUR\t\tEuro\nFJD\t$\tFijian dollar\nFKP\t\tFalkland Islands pound')\nGBP\t\tPound sterling\nGEL\t\tGeorgian lari\nGGP\t\tGuernsey pound\nGHS\t\tGhana cedi\nGIP\t\tGibraltar pound\nGMD\tD\tGambian dalasi\nGNF\tFr\tGuinean franc\nGTQ\tQ\tGuatemalan quetzal\nGYD\t$\tGuyanese dollar\nHKD\t$\tHong Kong dollar\nHNL\tL\tHonduran lempira\nHRK\tkn\tCroatian kuna\nHTG\tG\tHaitian gourde\nHUF\tFt\tHungarian forint\nIDR\tRp\tIndonesian rupiah\nILS\t\tIsraeli new shekel\nIMP\t\tManx pound\nINR\t\tIndian rupee\nIQD\t.\tIraqi dinar\nIRR\t\tIranian rial\nIRT\t\tIranian toman\nISK\tkr.\tIcelandic krna\nJEP\t\tJersey pound\nJMD\t$\tJamaican dollar\nJOD\t.\tJordanian dinar\nJPY\t\tJapanese yen\nKES\tKSh\tKenyan shilling\nKGS\t\tKyrgyzstani som\nKHR\t\tCambodian riel\nKMF\tFr\tComorian franc\nKPW\t\tNorth Korean won\nKRW\t\tSouth Korean won\nKWD\t.\tKuwaiti dinar\nKYD\t$\tCayman Islands dollar\nKZT\t\tKazakhstani tenge\nLAK\t\tLao kip\nLBP\t.\tLebanese pound\nLKR\t\tSri Lankan rupee\nLRD\t$\tLiberian dollar\nLSL\tL\tLesotho loti\nLYD\t.\tLibyan dinar\nMAD\t..\tMoroccan dirham\nMDL\tMDL\tMoldovan leu\nMGA\tAr\tMalagasy ariary\nMKD\t\tMacedonian denar\nMMK\tKs\tBurmese kyat\nMNT\t\tMongolian tgrg\nMOP\tP\tMacanese pataca\nMRU\tUM\tMauritanian ouguiya\nMUR\t\tMauritian rupee\nMVR\t.\tMaldivian rufiyaa\nMWK\tMK\tMalawian kwacha\nMXN\t$\tMexican peso\nMYR\tRM\tMalaysian ringgit\nMZN\tMT\tMozambican metical\nNAD\tN$\tNamibian dollar\nNGN\t\tNigerian naira\nNIO\tC$\tNicaraguan crdoba\nNOK\tkr\tNorwegian krone\nNPR\t\tNepalese rupee\nNZD\t$\tNew Zealand dollar\nOMR\t..\tOmani rial\nPAB\tB/.\tPanamanian balboa\nPEN\tS/\tSol\nPGK\tK\tPapua New Guinean kina')\nPHP\t\tPhilippine peso\nPKR\t\tPakistani rupee\nPLN\tz\tPolish zoty\nPRB\t.\tTransnistrian ruble\nPYG\t\tParaguayan guaran\nQAR\t.\tQatari riyal\nRON\tlei\tRomanian leu\nRSD\t\tSerbian dinar\nRUB\t\tRussian ruble\nRWF\tFr\tRwandan franc\nSAR\t.\tSaudi riyal\nSBD\t$\tSolomon Islands dollar')\nSCR\t\tSeychellois rupee\nSDG\t..\tSudanese pound\nSEK\tkr\tSwedish krona\nSGD\t$\tSingapore dollar\nSHP\t\tSaint Helena pound\nSLL\tLe\tSierra Leonean leone\nSOS\tSh\tSomali shilling\nSRD\t$\tSurinamese dollar\nSSP\t\tSouth Sudanese pound\nSTN\tDb\tSo Tom and Prncipe d\nSYP\t.\tSyrian pound\nSZL\tL\tSwazi lilangeni\nTHB\t\tThai baht\nTJS\t\tTajikistani somoni\nTMT\tm\tTurkmenistan manat\nTND\t.\tTunisian dinar\nTOP\tT$\tTongan paanga\nTRY\t\tTurkish lira\nTTD\t$\tTrinidad and Tobago doll\nTWD\tNT$\tNew Taiwan dollar\nTZS\tSh\tTanzanian shilling\nUAH\t\tUkrainian hryvnia\nUGX\tUGX\tUgandan shilling\nUSD\t$\tUnited States (US) dolla\nUYU\t$\tUruguayan peso\nUZS\tUZS\tUzbekistani som\nVEF\tBs F\tVenezuelan bolvar\nVES\tBs.S\tBolvar soberano\nVND\t\tVietnamese ng\nVUV\tVt\tVanuatu vatu\nWST\tT\tSamoan tl\nXAF\tCFA\tCentral African CFA fr\nXCD\t$\tEast Caribbean dollar\nXOF\tCFA\tWest African CFA franc\nXPF\tFr\tCFP franc\nYER\t\tYemeni rial\nZAR\tR\tSouth African rand\nZMW\tZK\tZambian kwacha",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BZD",
+        "CDF",
+        "MRU",
+        "KPW",
+        "Code",
+        "AED",
+        "United",
+        "AFN"
+      ],
+      "created_at": "2026-06-22T11:57:38.075665",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-html-with-image-from-url.html",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "2c88029b-a3e0-4100-bcf8-b36f9056b970",
+      "type": "general",
+      "title": "<div>\n  <p>Test page</p>\n  <img src=\"https://avata...",
+      "content": "<div>\n  <p>Test page</p>\n  <img src=\"https://avatars.githubusercontent.com/u/108372208?s=200&v=4\" alt=\"Unstructured Logo\" />\n</div>",
+      "source_file": "fake-html-with-image-from-url.html",
+      "source_page": 0,
+      "keywords": [
+        "page"
+      ],
+      "created_at": "2026-06-22T11:26:49.456067",
+      "metadata": {
+        "element_type": "text"
+      }
+    }
+  ]
+}

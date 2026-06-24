@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "source_file": "category-level.docx",
+  "total_entries": 11,
+  "entries": [
+    {
+      "id": "c6f2bfb3-68de-4f3a-9abc-8e26e0c21f07",
+      "type": "general",
+      "title": "Call me Ishmael. Some years ago—never mind how lon...",
+      "content": "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation.",
+      "source_file": "category-level.docx",
+      "source_page": 0,
+      "keywords": [
+        "Call",
+        "Some"
+      ],
+      "created_at": "2026-06-22T11:57:38.349178",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "5a4450c0-c3c9-43f7-93b0-cf9af6f69a73",
+      "type": "general",
+      "title": "A Heading 1",
+      "content": "A Heading 1",
+      "source_file": "category-level.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.350166",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Heading 1",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "ca913ef5-27ae-4147-9160-ea7a1fea8913",
+      "type": "general",
+      "title": "Whenever I find myself growing grim about the mout...",
+      "content": "Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul;",
+      "source_file": "category-level.docx",
+      "source_page": 0,
+      "keywords": [
+        "Whenever"
+      ],
+      "created_at": "2026-06-22T11:57:38.350782",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "1cade4cc-07ad-463b-935d-525ad0055d49",
+      "type": "general",
+      "title": "A top level list item",
+      "content": "A top level list item",
+      "source_file": "category-level.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.351312",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "List Paragraph",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "f2421134-d198-4957-badf-a873d1ad4b19",
+      "type": "general",
+      "title": "Next level",
+      "content": "Next level",
+      "source_file": "category-level.docx",
+      "source_page": 0,
+      "keywords": [
+        "Next"
+      ],
+      "created_at": "2026-06-22T11:57:38.351765",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "List Paragraph",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "74212f39-99ce-438a-b820-fdd2cbc0b717",
+      "type": "general",
+      "title": "Second top-level list item",
+      "content": "Second top-level list item",
+      "source_file": "category-level.docx",
+      "source_page": 0,
+      "keywords": [
+        "Second"
+      ],
+      "created_at": "2026-06-22T11:57:38.352293",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "List Paragraph",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "3c47bc8b-b270-4641-b07d-8408863da16f",
+      "type": "general",
+      "title": "whenever I find myself involuntarily pausing befor...",
+      "content": "whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people’s hats off—then, I account it high time to get to sea as soon as I can.",
+      "source_file": "category-level.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.353082",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "766d5ff8-fd49-4959-8508-4860b5ddb11e",
+      "type": "general",
+      "title": "A Heading 2",
+      "content": "A Heading 2",
+      "source_file": "category-level.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.353652",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Heading 2",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "6bdcedb6-4709-4486-976d-2c550830a769",
+      "type": "general",
+      "title": "This is my substitute for pistol and ball. With a ...",
+      "content": "This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me.",
+      "source_file": "category-level.docx",
+      "source_page": 0,
+      "keywords": [
+        "There"
+      ],
+      "created_at": "2026-06-22T11:57:38.354322",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "b118663e-0bae-46d3-b41c-ef965e7330b8",
+      "type": "general",
+      "title": "Another Heading 1",
+      "content": "Another Heading 1",
+      "source_file": "category-level.docx",
+      "source_page": 0,
+      "keywords": [
+        "Another"
+      ],
+      "created_at": "2026-06-22T11:57:38.354712",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Heading 1",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "3420b8bb-8264-4d22-a66f-204667985860",
+      "type": "general",
+      "title": "There now is your insular city of the Manhattoes, ...",
+      "content": "There now is your insular city of the Manhattoes, belted round by wharves as Indian isles by coral reefs—commerce surrounds it with her surf. Right and left, the streets take you waterward. Its extreme downtown is the battery, where that noble mole is washed by waves, and cooled by breezes, which a few hours previous were out of sight of land.",
+      "source_file": "category-level.docx",
+      "source_page": 0,
+      "keywords": [
+        "There",
+        "Right",
+        "Its"
+      ],
+      "created_at": "2026-06-22T11:57:38.355472",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

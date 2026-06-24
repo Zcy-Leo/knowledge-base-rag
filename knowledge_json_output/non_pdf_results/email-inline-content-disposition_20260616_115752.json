@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-inline-content-disposition.eml",
+  "total_entries": 5,
+  "entries": [
+    {
+      "id": "4a1eb544-144e-4619-bc8c-0b3802ed6a94",
+      "type": "general",
+      "title": "From: Test User <testuser@example.com>\nTo: recipie...",
+      "content": "From: Test User <testuser@example.com>\nTo: recipient@example.com\nSubject: Testing Inline\nMessage-ID: <CAPgCCDEzLVJ-d1OCX_TjFgJU7ugtQrjFybPtAMmmYZzphxNFYg@mail.example.com>\nX-Mailer: Claws Mail 4.1.1 (GTK 3.24.34; x86_64-pc-linux-gnu)\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=\"MP_/pqqQE0ldE7RYQcFW3Kd0aQV\"",
+      "source_file": "email-inline-content-disposition.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "GTK",
+        "Test",
+        "Subject",
+        "Testing",
+        "Message"
+      ],
+      "created_at": "2026-06-16T11:57:52.749929",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "d58978a2-37a7-45d7-bf96-75600de0f296",
+      "type": "general",
+      "title": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV\nContent-Type: text/p...",
+      "content": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV\nContent-Type: text/plain; charset=US-ASCII\nContent-Transfer-Encoding: 7bit\nContent-Disposition: inline",
+      "source_file": "email-inline-content-disposition.eml",
+      "source_page": 0,
+      "keywords": [
+        "ASCII",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:57:52.749974",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "def8d15b-a222-4413-a149-5c81ecc4b8c1",
+      "type": "general",
+      "title": "This is a test of inline",
+      "content": "This is a test of inline",
+      "source_file": "email-inline-content-disposition.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:52.749996",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "b442da26-cbe5-4bfa-8149-3fd81da96600",
+      "type": "general",
+      "title": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV\nContent-Type: text/p...",
+      "content": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV\nContent-Type: text/plain\nContent-Transfer-Encoding: 7bit\nContent-Disposition: attachment; filename=t.txt",
+      "source_file": "email-inline-content-disposition.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:57:52.750033",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "4b770b72-ea98-445c-82fd-05a45dd3665d",
+      "type": "general",
+      "title": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV--",
+      "content": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV--",
+      "source_file": "email-inline-content-disposition.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:52.750053",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    }
+  ]
+}

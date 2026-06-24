@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "source_file": "test-invalid-date.eml",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "89956f10-5e0a-4e46-9969-e2f8e3eab563",
+      "type": "general",
+      "title": "Date: INVALID-DATE-FORMAT\nFrom: sender@example.com...",
+      "content": "Date: INVALID-DATE-FORMAT\nFrom: sender@example.com\nTo: recipient@example.com\nSubject: Test invalid date format",
+      "source_file": "test-invalid-date.eml",
+      "source_page": 0,
+      "keywords": [
+        "FORMAT",
+        "DATE",
+        "INVALID",
+        "Subject",
+        "Test"
+      ],
+      "created_at": "2026-06-16T11:48:39.253222",
+      "metadata": {
+        "element_type": "text",
+        "company": "test invalid date"
+      }
+    },
+    {
+      "id": "d6bf7c92-caaf-4d31-bf15-d2be310cc327",
+      "type": "general",
+      "title": "This is a test-email with an invalid date format.",
+      "content": "This is a test-email with an invalid date format.",
+      "source_file": "test-invalid-date.eml",
+      "source_page": 0,
+      "keywords": [
+        "format"
+      ],
+      "created_at": "2026-06-16T11:48:39.253252",
+      "metadata": {
+        "element_type": "text",
+        "company": "test invalid date"
+      }
+    }
+  ]
+}

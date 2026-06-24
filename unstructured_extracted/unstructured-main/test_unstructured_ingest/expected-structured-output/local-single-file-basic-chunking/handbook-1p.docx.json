@@ -1,0 +1,766 @@
+[
+  {
+    "type": "CompositeElement",
+    "element_id": "85002882dd396da0b1b82c925b002be5",
+    "text": "US Trustee Handbook\n\nCHAPTER 1\n\nINTRODUCTION\n\nCHAPTER 1 – INTRODUCTION\n\nA. PURPOSE",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "emphasized_text_contents": [
+        "CHAPTER 1",
+        "INTRODUCTION"
+      ],
+      "emphasized_text_tags": [
+        "b",
+        "b"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJztlV1r2zAUhv+K0fWS+NvW7kpXSG+akCZXbTD6OHJMLcnI8pYu5L9PSpqtHYGxjcEydmUdnffovDoPwg87BC1IULZqOHofoIQBwSUTEPKsKPMcEwoxS5NMYJGFnKB3AZJgCSeWOP0O+UXV68EwOMQdGNn0faNVX72IHnZIau7TSRKV5X7tzjDAtOFVqxmx2hwrid14C5ONljAxg1JgJp+0eZoMqrdmYHYwwN8GsCWya2HENesnG6I41fppFHVjt7FF+73rJJoW7HPn2yPSdW3jOjp3k4+Kj3UHaitboY0kth9pIRoGrnTwExm73rwzmoG7jqplOz5l/BA2QDiYSmht3efUoDONJObZC1qi6oHU0PsJIFA1Wns7FrbWK1f3wdIMvQUIpi++fdXpoOnheOQqvickOMYl4WnKIcNZVuCkjHmRu0VBaVyyyyMEstuQvvkMvPLTqZhW1t33OLjr6dV8ebMIIrQ+I7WkPsroIf2HWJ9B6XY7t1OpQVLw04lew/1m+hXSlXJuoNbG21965Rm6tOQh5lnKOMRlGfKC8ATnOYQkZIxS+o/Rvb1bLmYfVtfL29ndJQF+4/unGSdZnpUkFUXMHVoq4jBnQHOWxDFgEV8e478Fy9d3FzwOcRglwW9xYjnEBY7crzBKS47TOCuKKEnBh0mE0/+cfpXT1fjRzleL+ez+5gdU1l8AKnj1Ng=="
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "80f07bed3e4ae2a612e9180c2f1a2f6b",
+    "text": "The United States Trustee appoints and supervises standing trustees and monitors and supervises cases under chapter 13 of title 11 of the United",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJx1VNtu2zAM/RXCTymQOnHTdtn2tgLFnoail6etCGSJjoXKkiFRuaDov490krVdWiCIbfF2eHio388FOuzQ08Ka4hsUyjSzy+qinmE9PTPTaXN2oefn83M01Vx/xaYYQ9EhKaNIsf9zIS+LFHLUOHz3GDubkg0+LfZOv5+LLhgxz2bVfP7yyDki6hDNwgWtKMRdpKJWIEza0OEkZu8xTtYhPk2yTxSzphzRvP/Ajep6h6cm6DRplTd1CE+nVV/ywaZ4eeFKjXVI2x6H7vreWa7I6CYrb8rQo990rgmxU5ROQ9NYjRyahZGSa5s+Bo3cjl92rjxYhASn/DKrJSZpsEC/LKStnk8WPnc1Sk+V1CfckNS+bxEevCU0cEeKMMF9zIkQgVEF6ykB44eUmcGVTWxPxAdcGWjnuHPoAicJ8chbK/nP3mAE3aqe+FnNIDRAlhxCVQ3vRyiueDQlwNkcHsq78qqEP3k6VV/gYn45qk/YIsB/7qkdA882c7BK0KtIkpJnDyaT/Vf9o1RjQG6ndja17BcYolPRNhIkkPqQrEzlY4gHom5iWEbVwWj/cgIcIe778mHNMfUW1BF1QGHniLVwNwbN6rG718CGOHQjOaznH3PHcMcDxZ/C+Y8aMIFtPhD0HMwqYRhNdm5IooPIlFCA0bBvh06dWn8HS5DakJ0Z4muEnHYccye5TjzAzLEsU3C4VA6kgIq6HXIrr9w22bTHc9R6xw/J2ajOOqsirC21nMLhSnlBG1hAsq8HSD+Uf4q5J70dxDGGa+Sxctnb7HDweuNxIwtieBlhNJhPhLUtyGI7qF/9ohh3jIpSpW8GzKJ8L5XZWTX+REB8elVel7dvTsvLkToZzUSld8fLwpjQa5YnL6URBTTBubBmyEoTLzrc254HbngaokQjs6fWpteR1pmEEYYryWQ2mnniCFYPdOwll9e2lPvgcMX8UjHyBbPCe9n7l8e/SDHcqA=="
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "1abe685eb8dfed0f2266d6cf793d7e6b",
+    "text": "le 11 of the United States Code. 28 U.S.C. § 586(b). The Handbook, issued as part of our duties under 28 U.S.C. § 586, establishes or clarifies the",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJx1VNtu2zAM/RXCTymQOnHTdtn2tgLFnoail6etCGSJjoXKkiFRuaDov490krVdWiCIbfF2eHio388FOuzQ08Ka4hsUyjSzy+qinmE9PTPTaXN2oefn83M01Vx/xaYYQ9EhKaNIsf9zIS+LFHLUOHz3GDubkg0+LfZOv5+LLhgxz2bVfP7yyDki6hDNwgWtKMRdpKJWIEza0OEkZu8xTtYhPk2yTxSzphzRvP/Ajep6h6cm6DRplTd1CE+nVV/ywaZ4eeFKjXVI2x6H7vreWa7I6CYrb8rQo990rgmxU5ROQ9NYjRyahZGSa5s+Bo3cjl92rjxYhASn/DKrJSZpsEC/LKStnk8WPnc1Sk+V1CfckNS+bxEevCU0cEeKMMF9zIkQgVEF6ykB44eUmcGVTWxPxAdcGWjnuHPoAicJ8chbK/nP3mAE3aqe+FnNIDRAlhxCVQ3vRyiueDQlwNkcHsq78qqEP3k6VV/gYn45qk/YIsB/7qkdA882c7BK0KtIkpJnDyaT/Vf9o1RjQG6ndja17BcYolPRNhIkkPqQrEzlY4gHom5iWEbVwWj/cgIcIe778mHNMfUW1BF1QGHniLVwNwbN6rG718CGOHQjOaznH3PHcMcDxZ/C+Y8aMIFtPhD0HMwqYRhNdm5IooPIlFCA0bBvh06dWn8HS5DakJ0Z4muEnHYccye5TjzAzLEsU3C4VA6kgIq6HXIrr9w22bTHc9R6xw/J2ajOOqsirC21nMLhSnlBG1hAsq8HSD+Uf4q5J70dxDGGa+Sxctnb7HDweuNxIwtieBlhNJhPhLUtyGI7qF/9ohh3jIpSpW8GzKJ8L5XZWTX+REB8elVel7dvTsvLkToZzUSld8fLwpjQa5YnL6URBTTBubBmyEoTLzrc254HbngaokQjs6fWpteR1pmEEYYryWQ2mnniCFYPdOwll9e2lPvgcMX8UjHyBbPCe9n7l8e/SDHcqA==",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "a9012d27166d14371c4c502ef0b949e1",
+    "text": "es or clarifies the position of the United States Trustee Program (Program) on the duties owed by a standing trustee to the debtors, creditors, other",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJx1VNtu2zAM/RXCTymQOnHTdtn2tgLFnoail6etCGSJjoXKkiFRuaDov490krVdWiCIbfF2eHio388FOuzQ08Ka4hsUyjSzy+qinmE9PTPTaXN2oefn83M01Vx/xaYYQ9EhKaNIsf9zIS+LFHLUOHz3GDubkg0+LfZOv5+LLhgxz2bVfP7yyDki6hDNwgWtKMRdpKJWIEza0OEkZu8xTtYhPk2yTxSzphzRvP/Ajep6h6cm6DRplTd1CE+nVV/ywaZ4eeFKjXVI2x6H7vreWa7I6CYrb8rQo990rgmxU5ROQ9NYjRyahZGSa5s+Bo3cjl92rjxYhASn/DKrJSZpsEC/LKStnk8WPnc1Sk+V1CfckNS+bxEevCU0cEeKMMF9zIkQgVEF6ykB44eUmcGVTWxPxAdcGWjnuHPoAicJ8chbK/nP3mAE3aqe+FnNIDRAlhxCVQ3vRyiueDQlwNkcHsq78qqEP3k6VV/gYn45qk/YIsB/7qkdA882c7BK0KtIkpJnDyaT/Vf9o1RjQG6ndja17BcYolPRNhIkkPqQrEzlY4gHom5iWEbVwWj/cgIcIe778mHNMfUW1BF1QGHniLVwNwbN6rG718CGOHQjOaznH3PHcMcDxZ/C+Y8aMIFtPhD0HMwqYRhNdm5IooPIlFCA0bBvh06dWn8HS5DakJ0Z4muEnHYccye5TjzAzLEsU3C4VA6kgIq6HXIrr9w22bTHc9R6xw/J2ajOOqsirC21nMLhSnlBG1hAsq8HSD+Uf4q5J70dxDGGa+Sxctnb7HDweuNxIwtieBlhNJhPhLUtyGI7qF/9ohh3jIpSpW8GzKJ8L5XZWTX+REB8elVel7dvTsvLkToZzUSld8fLwpjQa5YnL6URBTTBubBmyEoTLzrc254HbngaokQjs6fWpteR1pmEEYYryWQ2mnniCFYPdOwll9e2lPvgcMX8UjHyBbPCe9n7l8e/SDHcqA==",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "40588c4c1489058c4fec885f4696ebcc",
+    "text": "s, creditors, other parties in interest, and the United States Trustee. The Handbook does not present a full and complete statement of the law; it",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJx1VNtu2zAM/RXCTymQOnHTdtn2tgLFnoail6etCGSJjoXKkiFRuaDov490krVdWiCIbfF2eHio388FOuzQ08Ka4hsUyjSzy+qinmE9PTPTaXN2oefn83M01Vx/xaYYQ9EhKaNIsf9zIS+LFHLUOHz3GDubkg0+LfZOv5+LLhgxz2bVfP7yyDki6hDNwgWtKMRdpKJWIEza0OEkZu8xTtYhPk2yTxSzphzRvP/Ajep6h6cm6DRplTd1CE+nVV/ywaZ4eeFKjXVI2x6H7vreWa7I6CYrb8rQo990rgmxU5ROQ9NYjRyahZGSa5s+Bo3cjl92rjxYhASn/DKrJSZpsEC/LKStnk8WPnc1Sk+V1CfckNS+bxEevCU0cEeKMMF9zIkQgVEF6ykB44eUmcGVTWxPxAdcGWjnuHPoAicJ8chbK/nP3mAE3aqe+FnNIDRAlhxCVQ3vRyiueDQlwNkcHsq78qqEP3k6VV/gYn45qk/YIsB/7qkdA882c7BK0KtIkpJnDyaT/Vf9o1RjQG6ndja17BcYolPRNhIkkPqQrEzlY4gHom5iWEbVwWj/cgIcIe778mHNMfUW1BF1QGHniLVwNwbN6rG718CGOHQjOaznH3PHcMcDxZ/C+Y8aMIFtPhD0HMwqYRhNdm5IooPIlFCA0bBvh06dWn8HS5DakJ0Z4muEnHYccye5TjzAzLEsU3C4VA6kgIq6HXIrr9w22bTHc9R6xw/J2ajOOqsirC21nMLhSnlBG1hAsq8HSD+Uf4q5J70dxDGGa+Sxctnb7HDweuNxIwtieBlhNJhPhLUtyGI7qF/9ohh3jIpSpW8GzKJ8L5XZWTX+REB8elVel7dvTsvLkToZzUSld8fLwpjQa5YnL6URBTTBubBmyEoTLzrc254HbngaokQjs6fWpteR1pmEEYYryWQ2mnniCFYPdOwll9e2lPvgcMX8UjHyBbPCe9n7l8e/SDHcqA==",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "9ddf0b109cf940de5f575acc9d9758c8",
+    "text": "ment of the law; it should not be used as a substitute for legal research and analysis. The standing trustee must be familiar with relevant provisions",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJx1VNtu2zAM/RXCTymQOnHTdtn2tgLFnoail6etCGSJjoXKkiFRuaDov490krVdWiCIbfF2eHio388FOuzQ08Ka4hsUyjSzy+qinmE9PTPTaXN2oefn83M01Vx/xaYYQ9EhKaNIsf9zIS+LFHLUOHz3GDubkg0+LfZOv5+LLhgxz2bVfP7yyDki6hDNwgWtKMRdpKJWIEza0OEkZu8xTtYhPk2yTxSzphzRvP/Ajep6h6cm6DRplTd1CE+nVV/ywaZ4eeFKjXVI2x6H7vreWa7I6CYrb8rQo990rgmxU5ROQ9NYjRyahZGSa5s+Bo3cjl92rjxYhASn/DKrJSZpsEC/LKStnk8WPnc1Sk+V1CfckNS+bxEevCU0cEeKMMF9zIkQgVEF6ykB44eUmcGVTWxPxAdcGWjnuHPoAicJ8chbK/nP3mAE3aqe+FnNIDRAlhxCVQ3vRyiueDQlwNkcHsq78qqEP3k6VV/gYn45qk/YIsB/7qkdA882c7BK0KtIkpJnDyaT/Vf9o1RjQG6ndja17BcYolPRNhIkkPqQrEzlY4gHom5iWEbVwWj/cgIcIe778mHNMfUW1BF1QGHniLVwNwbN6rG718CGOHQjOaznH3PHcMcDxZ/C+Y8aMIFtPhD0HMwqYRhNdm5IooPIlFCA0bBvh06dWn8HS5DakJ0Z4muEnHYccye5TjzAzLEsU3C4VA6kgIq6HXIrr9w22bTHc9R6xw/J2ajOOqsirC21nMLhSnlBG1hAsq8HSD+Uf4q5J70dxDGGa+Sxctnb7HDweuNxIwtieBlhNJhPhLUtyGI7qF/9ohh3jIpSpW8GzKJ8L5XZWTX+REB8elVel7dvTsvLkToZzUSld8fLwpjQa5YnL6URBTTBubBmyEoTLzrc254HbngaokQjs6fWpteR1pmEEYYryWQ2mnniCFYPdOwll9e2lPvgcMX8UjHyBbPCe9n7l8e/SDHcqA==",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "b7d1b42646393ca0f41af0e8ec48f9a9",
+    "text": "relevant provisions of the Bankruptcy Code, Federal Rules of Bankruptcy Procedure (Rules), any local bankruptcy rules, and case law. 11 U.S.C. § 321,",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJx1VNtu2zAM/RXCTymQOnHTdtn2tgLFnoail6etCGSJjoXKkiFRuaDov490krVdWiCIbfF2eHio388FOuzQ08Ka4hsUyjSzy+qinmE9PTPTaXN2oefn83M01Vx/xaYYQ9EhKaNIsf9zIS+LFHLUOHz3GDubkg0+LfZOv5+LLhgxz2bVfP7yyDki6hDNwgWtKMRdpKJWIEza0OEkZu8xTtYhPk2yTxSzphzRvP/Ajep6h6cm6DRplTd1CE+nVV/ywaZ4eeFKjXVI2x6H7vreWa7I6CYrb8rQo990rgmxU5ROQ9NYjRyahZGSa5s+Bo3cjl92rjxYhASn/DKrJSZpsEC/LKStnk8WPnc1Sk+V1CfckNS+bxEevCU0cEeKMMF9zIkQgVEF6ykB44eUmcGVTWxPxAdcGWjnuHPoAicJ8chbK/nP3mAE3aqe+FnNIDRAlhxCVQ3vRyiueDQlwNkcHsq78qqEP3k6VV/gYn45qk/YIsB/7qkdA882c7BK0KtIkpJnDyaT/Vf9o1RjQG6ndja17BcYolPRNhIkkPqQrEzlY4gHom5iWEbVwWj/cgIcIe778mHNMfUW1BF1QGHniLVwNwbN6rG718CGOHQjOaznH3PHcMcDxZ/C+Y8aMIFtPhD0HMwqYRhNdm5IooPIlFCA0bBvh06dWn8HS5DakJ0Z4muEnHYccye5TjzAzLEsU3C4VA6kgIq6HXIrr9w22bTHc9R6xw/J2ajOOqsirC21nMLhSnlBG1hAsq8HSD+Uf4q5J70dxDGGa+Sxctnb7HDweuNxIwtieBlhNJhPhLUtyGI7qF/9ohh3jIpSpW8GzKJ8L5XZWTX+REB8elVel7dvTsvLkToZzUSld8fLwpjQa5YnL6URBTTBubBmyEoTLzrc254HbngaokQjs6fWpteR1pmEEYYryWQ2mnniCFYPdOwll9e2lPvgcMX8UjHyBbPCe9n7l8e/SDHcqA==",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "9ee33f4141eca1f98ca4299d0fdfba31",
+    "text": "w. 11 U.S.C. § 321, 28 U.S.C. § 586, 28 C.F.R. § 58.6(a)(3). Standing trustees are encouraged to follow Practice Tips identified in this Handbook but",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJx1VNtu2zAM/RXCTymQOnHTdtn2tgLFnoail6etCGSJjoXKkiFRuaDov490krVdWiCIbfF2eHio388FOuzQ08Ka4hsUyjSzy+qinmE9PTPTaXN2oefn83M01Vx/xaYYQ9EhKaNIsf9zIS+LFHLUOHz3GDubkg0+LfZOv5+LLhgxz2bVfP7yyDki6hDNwgWtKMRdpKJWIEza0OEkZu8xTtYhPk2yTxSzphzRvP/Ajep6h6cm6DRplTd1CE+nVV/ywaZ4eeFKjXVI2x6H7vreWa7I6CYrb8rQo990rgmxU5ROQ9NYjRyahZGSa5s+Bo3cjl92rjxYhASn/DKrJSZpsEC/LKStnk8WPnc1Sk+V1CfckNS+bxEevCU0cEeKMMF9zIkQgVEF6ykB44eUmcGVTWxPxAdcGWjnuHPoAicJ8chbK/nP3mAE3aqe+FnNIDRAlhxCVQ3vRyiueDQlwNkcHsq78qqEP3k6VV/gYn45qk/YIsB/7qkdA882c7BK0KtIkpJnDyaT/Vf9o1RjQG6ndja17BcYolPRNhIkkPqQrEzlY4gHom5iWEbVwWj/cgIcIe778mHNMfUW1BF1QGHniLVwNwbN6rG718CGOHQjOaznH3PHcMcDxZ/C+Y8aMIFtPhD0HMwqYRhNdm5IooPIlFCA0bBvh06dWn8HS5DakJ0Z4muEnHYccye5TjzAzLEsU3C4VA6kgIq6HXIrr9w22bTHc9R6xw/J2ajOOqsirC21nMLhSnlBG1hAsq8HSD+Uf4q5J70dxDGGa+Sxctnb7HDweuNxIwtieBlhNJhPhLUtyGI7qF/9ohh3jIpSpW8GzKJ8L5XZWTX+REB8elVel7dvTsvLkToZzUSld8fLwpjQa5YnL6URBTTBubBmyEoTLzrc254HbngaokQjs6fWpteR1pmEEYYryWQ2mnniCFYPdOwll9e2lPvgcMX8UjHyBbPCe9n7l8e/SDHcqA==",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "6da3b5e2a833fa5ab6685f0fa46d2d6f",
+    "text": "n this Handbook but these are not considered mandatory.",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJx1VNtu2zAM/RXCTymQOnHTdtn2tgLFnoail6etCGSJjoXKkiFRuaDov490krVdWiCIbfF2eHio388FOuzQ08Ka4hsUyjSzy+qinmE9PTPTaXN2oefn83M01Vx/xaYYQ9EhKaNIsf9zIS+LFHLUOHz3GDubkg0+LfZOv5+LLhgxz2bVfP7yyDki6hDNwgWtKMRdpKJWIEza0OEkZu8xTtYhPk2yTxSzphzRvP/Ajep6h6cm6DRplTd1CE+nVV/ywaZ4eeFKjXVI2x6H7vreWa7I6CYrb8rQo990rgmxU5ROQ9NYjRyahZGSa5s+Bo3cjl92rjxYhASn/DKrJSZpsEC/LKStnk8WPnc1Sk+V1CfckNS+bxEevCU0cEeKMMF9zIkQgVEF6ykB44eUmcGVTWxPxAdcGWjnuHPoAicJ8chbK/nP3mAE3aqe+FnNIDRAlhxCVQ3vRyiueDQlwNkcHsq78qqEP3k6VV/gYn45qk/YIsB/7qkdA882c7BK0KtIkpJnDyaT/Vf9o1RjQG6ndja17BcYolPRNhIkkPqQrEzlY4gHom5iWEbVwWj/cgIcIe778mHNMfUW1BF1QGHniLVwNwbN6rG718CGOHQjOaznH3PHcMcDxZ/C+Y8aMIFtPhD0HMwqYRhNdm5IooPIlFCA0bBvh06dWn8HS5DakJ0Z4muEnHYccye5TjzAzLEsU3C4VA6kgIq6HXIrr9w22bTHc9R6xw/J2ajOOqsirC21nMLhSnlBG1hAsq8HSD+Uf4q5J70dxDGGa+Sxctnb7HDweuNxIwtieBlhNJhPhLUtyGI7qF/9ohh3jIpSpW8GzKJ8L5XZWTX+REB8elVel7dvTsvLkToZzUSld8fLwpjQa5YnL6URBTTBubBmyEoTLzrc254HbngaokQjs6fWpteR1pmEEYYryWQ2mnniCFYPdOwll9e2lPvgcMX8UjHyBbPCe9n7l8e/SDHcqA==",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "0a43a9535c06cfbe46bebddcdd5a46e0",
+    "text": "Nothing in this Handbook should be construed to excuse the standing trustee from complying with all duties imposed by the Bankruptcy Code and Rules,",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJyVUk1v2zAM/SuEz4kTN82S7Lb1slMPa3vqikCW6FioLHkSlcQo8t9HOmnRFcWA3SR+vffI9/hSoMMOPW2tKb5CsVrUmy96szArtVk3G1NfXS+XV2p53SyWq3o9LyZQdEjKKFJc/1LIY5tCjhrHf4+xsynZ4NP2UvT4UnTBSHqxqNbr0xPPiKhDNFsXtKIQz52KWqEwa0OHs5i9xzg7hPg8yz5RzJpyRPP3B4+q6x1OTdBp1ipv6hCep1VfcuBYnE6M1FiHNPQCX6i+d5YRmd1s700ZevTHzjUhdorSNDSN1citWTZSMrbpY9DIcvyuc+VrRpbglN9ltcMkAgv0u0Jk9RzZ+tzVKJoqwSc8kmDfBmp5DFgP/Ejw48IWUhuyM1Aj6DBqQwMUAI86J+RahERcK72cTIQITQwdV7P0QcIHSy0o58BkspjAdn1IPKUexvbvyj/H3JMe4IbvADwMfmaHaQKyfwfx/JE4S8aYIDRjp+a7Uglw/xmJC28fyDZnoAdviWHvSBGzuL/UHVr0uMc4lvA+91bc8QrxtgYW3/BxKJ3lSO4dOyb2P9x4v0pzhSdVO94Xd7/bT0KSEKN8PMYE6kzgEUddwGZOwXPnIE+xCS9pkDEDZM+0mA1ziQfLl7JMgb2Fhkl9YzAmRZnNPUDEBiN6Laf5eP0xJ/f+5FITqCp4KO/KmxJ+5flcraCaV8DsE/4uJ/+iIBZ9df2tipE9v8d7seLp6Q+7i2fd"
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "685600ed24c5b0e3b34e7d639d3b1959",
+    "text": "tcy Code and Rules, local rules, and orders of the court. The standing trustee should notify the United States Trustee whenever the provision of the",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJyVUk1v2zAM/SuEz4kTN82S7Lb1slMPa3vqikCW6FioLHkSlcQo8t9HOmnRFcWA3SR+vffI9/hSoMMOPW2tKb5CsVrUmy96szArtVk3G1NfXS+XV2p53SyWq3o9LyZQdEjKKFJc/1LIY5tCjhrHf4+xsynZ4NP2UvT4UnTBSHqxqNbr0xPPiKhDNFsXtKIQz52KWqEwa0OHs5i9xzg7hPg8yz5RzJpyRPP3B4+q6x1OTdBp1ipv6hCep1VfcuBYnE6M1FiHNPQCX6i+d5YRmd1s700ZevTHzjUhdorSNDSN1citWTZSMrbpY9DIcvyuc+VrRpbglN9ltcMkAgv0u0Jk9RzZ+tzVKJoqwSc8kmDfBmp5DFgP/Ejw48IWUhuyM1Aj6DBqQwMUAI86J+RahERcK72cTIQITQwdV7P0QcIHSy0o58BkspjAdn1IPKUexvbvyj/H3JMe4IbvADwMfmaHaQKyfwfx/JE4S8aYIDRjp+a7Uglw/xmJC28fyDZnoAdviWHvSBGzuL/UHVr0uMc4lvA+91bc8QrxtgYW3/BxKJ3lSO4dOyb2P9x4v0pzhSdVO94Xd7/bT0KSEKN8PMYE6kzgEUddwGZOwXPnIE+xCS9pkDEDZM+0mA1ziQfLl7JMgb2Fhkl9YzAmRZnNPUDEBiN6Laf5eP0xJ/f+5FITqCp4KO/KmxJ+5flcraCaV8DsE/4uJ/+iIBZ9df2tipE9v8d7seLp6Q+7i2fd",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "c998f5c10c9dac92e4d3624896a603c7",
+    "text": "he provision of the Handbook conflicts with the local rules or orders of the court. The standing trustee is accountable for all duties set forth in",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJyVUk1v2zAM/SuEz4kTN82S7Lb1slMPa3vqikCW6FioLHkSlcQo8t9HOmnRFcWA3SR+vffI9/hSoMMOPW2tKb5CsVrUmy96szArtVk3G1NfXS+XV2p53SyWq3o9LyZQdEjKKFJc/1LIY5tCjhrHf4+xsynZ4NP2UvT4UnTBSHqxqNbr0xPPiKhDNFsXtKIQz52KWqEwa0OHs5i9xzg7hPg8yz5RzJpyRPP3B4+q6x1OTdBp1ipv6hCep1VfcuBYnE6M1FiHNPQCX6i+d5YRmd1s700ZevTHzjUhdorSNDSN1citWTZSMrbpY9DIcvyuc+VrRpbglN9ltcMkAgv0u0Jk9RzZ+tzVKJoqwSc8kmDfBmp5DFgP/Ejw48IWUhuyM1Aj6DBqQwMUAI86J+RahERcK72cTIQITQwdV7P0QcIHSy0o58BkspjAdn1IPKUexvbvyj/H3JMe4IbvADwMfmaHaQKyfwfx/JE4S8aYIDRjp+a7Uglw/xmJC28fyDZnoAdviWHvSBGzuL/UHVr0uMc4lvA+91bc8QrxtgYW3/BxKJ3lSO4dOyb2P9x4v0pzhSdVO94Xd7/bT0KSEKN8PMYE6kzgEUddwGZOwXPnIE+xCS9pkDEDZM+0mA1ziQfLl7JMgb2Fhkl9YzAmRZnNPUDEBiN6Laf5eP0xJ/f+5FITqCp4KO/KmxJ+5flcraCaV8DsE/4uJ/+iIBZ9df2tipE9v8d7seLp6Q+7i2fd",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "d4b750e9af7167156f369b310a8cebb8",
+    "text": "duties set forth in this Handbook, but need not personally perform any duty unless otherwise indicated. All statutory references in this Handbook",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJyVUk1v2zAM/SuEz4kTN82S7Lb1slMPa3vqikCW6FioLHkSlcQo8t9HOmnRFcWA3SR+vffI9/hSoMMOPW2tKb5CsVrUmy96szArtVk3G1NfXS+XV2p53SyWq3o9LyZQdEjKKFJc/1LIY5tCjhrHf4+xsynZ4NP2UvT4UnTBSHqxqNbr0xPPiKhDNFsXtKIQz52KWqEwa0OHs5i9xzg7hPg8yz5RzJpyRPP3B4+q6x1OTdBp1ipv6hCep1VfcuBYnE6M1FiHNPQCX6i+d5YRmd1s700ZevTHzjUhdorSNDSN1citWTZSMrbpY9DIcvyuc+VrRpbglN9ltcMkAgv0u0Jk9RzZ+tzVKJoqwSc8kmDfBmp5DFgP/Ejw48IWUhuyM1Aj6DBqQwMUAI86J+RahERcK72cTIQITQwdV7P0QcIHSy0o58BkspjAdn1IPKUexvbvyj/H3JMe4IbvADwMfmaHaQKyfwfx/JE4S8aYIDRjp+a7Uglw/xmJC28fyDZnoAdviWHvSBGzuL/UHVr0uMc4lvA+91bc8QrxtgYW3/BxKJ3lSO4dOyb2P9x4v0pzhSdVO94Xd7/bT0KSEKN8PMYE6kzgEUddwGZOwXPnIE+xCS9pkDEDZM+0mA1ziQfLl7JMgb2Fhkl9YzAmRZnNPUDEBiN6Laf5eP0xJ/f+5FITqCp4KO/KmxJ+5flcraCaV8DsE/4uJ/+iIBZ9df2tipE9v8d7seLp6Q+7i2fd",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "f4412be8c7b2624c729af85c85b3a0e4",
+    "text": "es in this Handbook refer to the Bankruptcy Code, 11 U.S.C. § 101 et seq., unless otherwise indicated.",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJyVUk1v2zAM/SuEz4kTN82S7Lb1slMPa3vqikCW6FioLHkSlcQo8t9HOmnRFcWA3SR+vffI9/hSoMMOPW2tKb5CsVrUmy96szArtVk3G1NfXS+XV2p53SyWq3o9LyZQdEjKKFJc/1LIY5tCjhrHf4+xsynZ4NP2UvT4UnTBSHqxqNbr0xPPiKhDNFsXtKIQz52KWqEwa0OHs5i9xzg7hPg8yz5RzJpyRPP3B4+q6x1OTdBp1ipv6hCep1VfcuBYnE6M1FiHNPQCX6i+d5YRmd1s700ZevTHzjUhdorSNDSN1citWTZSMrbpY9DIcvyuc+VrRpbglN9ltcMkAgv0u0Jk9RzZ+tzVKJoqwSc8kmDfBmp5DFgP/Ejw48IWUhuyM1Aj6DBqQwMUAI86J+RahERcK72cTIQITQwdV7P0QcIHSy0o58BkspjAdn1IPKUexvbvyj/H3JMe4IbvADwMfmaHaQKyfwfx/JE4S8aYIDRjp+a7Uglw/xmJC28fyDZnoAdviWHvSBGzuL/UHVr0uMc4lvA+91bc8QrxtgYW3/BxKJ3lSO4dOyb2P9x4v0pzhSdVO94Xd7/bT0KSEKN8PMYE6kzgEUddwGZOwXPnIE+xCS9pkDEDZM+0mA1ziQfLl7JMgb2Fhkl9YzAmRZnNPUDEBiN6Laf5eP0xJ/f+5FITqCp4KO/KmxJ+5flcraCaV8DsE/4uJ/+iIBZ9df2tipE9v8d7seLp6Q+7i2fd",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "c6d218f7643bbbc7b4eae0712e8fd659",
+    "text": "This Handbook does not create additional rights against the standing trustee or United States Trustee in favor of other parties.",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "orig_elements": "eJztUsmO2zAM/RVB58bL2Nl67KmnQYGmp8HAoCXKFmItkOg0RZB/L9VmgGmB/kFvosint4gvN4kLOvQ0WC0/Com4b5vdCI1+6pv9sekb0xg8bo+tgQ7GXn4Q0iGBBgKev8lyGHJYk8JfdcTkbM42+Dw8hl5u0gVd2l3XHg73V34joQpJD0tQQCH9RgLNRUI9B4d1Wr3HVH8P6VyvPlNaFa0J9Z8FXsHFBTc6qFzP4PUYwnnTxoovrvJ+ZyZjF6QfsdBLiHGxzMjq6ovXVYjor24xITmgvAnGWIUMXUsiFXPrmIJCtuMnt1RvnRLCAn5aYcJcDEr0kyy2It8MfnUjFk9t4Se8UuE+zTaLzw+JQgfMwgcSKiEQCtDaFlmwiGSnmbKACSxbFTSjyMQ41iDYeSZEEZL45i2hFl+J4VmcHg3rhYELt4MRgaFJREhkMVdF9FsOz5ASp3DBUxHHKv9eg2402wa2DW47rXBU4/6wM3vTd7tDt+8B/q/Bv9fg/ae/D/0Lj33i3z7L++tP43k1Mw=="
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "8f411358790d6ee5b0d24f919206d3fd",
+    "text": "B. ROLE OF THE UNITED STATES TRUSTEE",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJxVkMtOwzAQRX8l8pomtGmlhB2IIJAQldp0VarIsSdpVNtj+QGBKv+ODe2C3bzPvbM/ExAgQblm4OQuIcucccp52eaLlpfzJVvkvCvboiyKFbtd5eQmIRIc5dTRMH8mMWgsesPgN9dg5GDtgMo2l6H9mUjksZ3n86KYDuGGAYaGNwIZdWj+Nqk7RgnZESVkxisFJvtEc8q8ss545rwB/j+BkUotYMaR2exIFW8RT7O5TkNhJNMUSN0gwH3piCdUazEEYlCXfSieogY1StGhkdTZGXbdwCCs+viRNLC5Nsgg2FG9FOm1E58gqOo97cFGgwRUT6ItHSqN8rKF6GkR+Q5GF9kP6bvbrF+rZP2U1M9Vsnt7qavHZFvf19U2qTe7bV1V8fJV7E4FpdCjGb6B1/HKdPgBKuqS2A=="
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "6044d58375609c8802cfae16cef5cee9",
+    "text": "The Bankruptcy Reform Act of 1978 removed the bankruptcy judge from the responsibilities for daytoday administration of cases. Debtors, creditors, and",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJxdUkuP2jAQ/iujnCEQKIXtrVXPPVTcVivk2BPiEnussc1DiP/eccL2sZfI8cx8L8/rvcIBHfp0sKb6AlXT7Zpd15hta5abpVo2643qupfPq+W2+4SrTTWDymFSRiUl/feqHA6RMmsc/wOyszFa8vHwbHq9V45MKa/XzW73eBMMRk1sDgNplYinSZX6ImHRk8MFZ++RFxfi0yL7mDjrlBnN/z94VS4MODek46JX3rREp3kTarm4Vo+HMHV2wHQLhb5SIQxWGEXd4uxNTQH91Q0dsVMpzqnrrEYZzSWRWrhNYNIodvzRDfV7pYQwKH/M6oixGKzQH6tiK8jNwWfXYvG0KvwJr6lw73uEb8qfOIekb/ATCyt81Qmog+ZluwNGR2c0kKSz/dv5K5sjQsfkxgpjDBKube1gk8UIggNG3RLJB5Rx1ltJaDRZoLWKGGuA79hK0nEGWoKz01ECE0zLBoLiEexiUy8gZ+SIYH1CoUsREo3cEnxMiHCRa9DkNbIfBas01rXsQZrBpbe6h8B4tpTjIKpCoAJmRsaYZUnONj6tPkFljPJgwFMC60Y9aiizRgIoj4al2zKwPfYiScWnTsVFuDidZExoNexJ6kbkxzIX/+gV2yOgoI9q/k3sLDlnr0t0UxTWf3yNeBN4NyXQ2k72XpSZuqzE+5b9UDyB7cvTP95+AzyBOSk="
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "a4030396eaf54570462ed74f86e45bc8",
+    "text": "ors, creditors, and third parties with adverse interests to the trustee were concerned that the court, which previously appointed and supervised the",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJxdUkuP2jAQ/iujnCEQKIXtrVXPPVTcVivk2BPiEnussc1DiP/eccL2sZfI8cx8L8/rvcIBHfp0sKb6AlXT7Zpd15hta5abpVo2643qupfPq+W2+4SrTTWDymFSRiUl/feqHA6RMmsc/wOyszFa8vHwbHq9V45MKa/XzW73eBMMRk1sDgNplYinSZX6ImHRk8MFZ++RFxfi0yL7mDjrlBnN/z94VS4MODek46JX3rREp3kTarm4Vo+HMHV2wHQLhb5SIQxWGEXd4uxNTQH91Q0dsVMpzqnrrEYZzSWRWrhNYNIodvzRDfV7pYQwKH/M6oixGKzQH6tiK8jNwWfXYvG0KvwJr6lw73uEb8qfOIekb/ATCyt81Qmog+ZluwNGR2c0kKSz/dv5K5sjQsfkxgpjDBKube1gk8UIggNG3RLJB5Rx1ltJaDRZoLWKGGuA79hK0nEGWoKz01ECE0zLBoLiEexiUy8gZ+SIYH1CoUsREo3cEnxMiHCRa9DkNbIfBas01rXsQZrBpbe6h8B4tpTjIKpCoAJmRsaYZUnONj6tPkFljPJgwFMC60Y9aiizRgIoj4al2zKwPfYiScWnTsVFuDidZExoNexJ6kbkxzIX/+gV2yOgoI9q/k3sLDlnr0t0UxTWf3yNeBN4NyXQ2k72XpSZuqzE+5b9UDyB7cvTP95+AzyBOSk=",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "80e3b20fead224c85652bbdce327a28d",
+    "text": "and supervised the trustee, would not impartially adjudicate their rights as adversaries of that trustee. To address these concerns, judicial and",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJxdUkuP2jAQ/iujnCEQKIXtrVXPPVTcVivk2BPiEnussc1DiP/eccL2sZfI8cx8L8/rvcIBHfp0sKb6AlXT7Zpd15hta5abpVo2643qupfPq+W2+4SrTTWDymFSRiUl/feqHA6RMmsc/wOyszFa8vHwbHq9V45MKa/XzW73eBMMRk1sDgNplYinSZX6ImHRk8MFZ++RFxfi0yL7mDjrlBnN/z94VS4MODek46JX3rREp3kTarm4Vo+HMHV2wHQLhb5SIQxWGEXd4uxNTQH91Q0dsVMpzqnrrEYZzSWRWrhNYNIodvzRDfV7pYQwKH/M6oixGKzQH6tiK8jNwWfXYvG0KvwJr6lw73uEb8qfOIekb/ATCyt81Qmog+ZluwNGR2c0kKSz/dv5K5sjQsfkxgpjDBKube1gk8UIggNG3RLJB5Rx1ltJaDRZoLWKGGuA79hK0nEGWoKz01ECE0zLBoLiEexiUy8gZ+SIYH1CoUsREo3cEnxMiHCRa9DkNbIfBas01rXsQZrBpbe6h8B4tpTjIKpCoAJmRsaYZUnONj6tPkFljPJgwFMC60Y9aiizRgIoj4al2zKwPfYiScWnTsVFuDidZExoNexJ6kbkxzIX/+gV2yOgoI9q/k3sLDlnr0t0UxTWf3yNeBN4NyXQ2k72XpSZuqzE+5b9UDyB7cvTP95+AzyBOSk=",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "45eb8c16f94112f46ab05c934abc1d84",
+    "text": "cerns, judicial and administrative functions within the bankruptcy system were bifurcated.",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJxdUkuP2jAQ/iujnCEQKIXtrVXPPVTcVivk2BPiEnussc1DiP/eccL2sZfI8cx8L8/rvcIBHfp0sKb6AlXT7Zpd15hta5abpVo2643qupfPq+W2+4SrTTWDymFSRiUl/feqHA6RMmsc/wOyszFa8vHwbHq9V45MKa/XzW73eBMMRk1sDgNplYinSZX6ImHRk8MFZ++RFxfi0yL7mDjrlBnN/z94VS4MODek46JX3rREp3kTarm4Vo+HMHV2wHQLhb5SIQxWGEXd4uxNTQH91Q0dsVMpzqnrrEYZzSWRWrhNYNIodvzRDfV7pYQwKH/M6oixGKzQH6tiK8jNwWfXYvG0KvwJr6lw73uEb8qfOIekb/ATCyt81Qmog+ZluwNGR2c0kKSz/dv5K5sjQsfkxgpjDBKube1gk8UIggNG3RLJB5Rx1ltJaDRZoLWKGGuA79hK0nEGWoKz01ECE0zLBoLiEexiUy8gZ+SIYH1CoUsREo3cEnxMiHCRa9DkNbIfBas01rXsQZrBpbe6h8B4tpTjIKpCoAJmRsaYZUnONj6tPkFljPJgwFMC60Y9aiizRgIoj4al2zKwPfYiScWnTsVFuDidZExoNexJ6kbkxzIX/+gV2yOgoI9q/k3sLDlnr0t0UxTWf3yNeBN4NyXQ2k72XpSZuqzE+5b9UDyB7cvTP95+AzyBOSk=",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "39a3f1465d06269d2544ded43dc3a7df",
+    "text": "Many administrative functions formerly performed by the court were placed within the Department of Justice through the creation of the Program. Among",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJx1Uslu2zAQ/ZWBzrXkJXGj3gr0UBRoUaDuKQ2MMTmSiIgLyKEXGP73DiXn0AC9cdb33jw+XysayZLjvdHVJ6gO2zU+rB63qt1i93H9uGy3a922m1YvSW83D9UHqCwxamSU/mtVHvvkc1Q0xYGiNSkZ79L+3vR8razXpbzZrJ6ebi+yI5LyUe9Hr5B9nCeRh0KhGbylJmbnKDYnH1+b7BLHrDhH0v8GdEYbRlpor1IzoNMH718Xq1BL4lzdboLUmZH4Egp8hSGMRhCFXXN0uvaB3NmOnY8WOS181xlFMprLRWrB1iF6RSLH9Xas3yrlCCO6PmNPqQisyPVVkRUks3fZHqhoWhd8pjMX7O/oLoDaGmdEgHA4EnTZqUImQaFAcbyA3G96azhcgAcCJbdlOFEkCCMKPTgZHoybil8oYOTCCXwH33JiESCV6HM/zOORJr2lXuKf0fcRbQ3w2XrXT7n/skJR3juBZD81/naGJfrFyJRgFwWPaOY27QnBGzfTES8gZVFzNOkOrwYMTBFWG+B5NNUNwG4wCb7evQN5y/fJgpKdluZpb+bBR8OXdyL+5PVy1SYgh4dRLIIkxLJQq6FY9Ob6D4yzsl2x4vbyFyplDUI="
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "2872e5d0bea6ec1523eb9ae2c1c64add",
+    "text": "the Program. Among the administrative functions assigned to the United States Trustee were the appointment and supervision of chapter 13 trustees./",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJx1Uslu2zAQ/ZWBzrXkJXGj3gr0UBRoUaDuKQ2MMTmSiIgLyKEXGP73DiXn0AC9cdb33jw+XysayZLjvdHVJ6gO2zU+rB63qt1i93H9uGy3a922m1YvSW83D9UHqCwxamSU/mtVHvvkc1Q0xYGiNSkZ79L+3vR8razXpbzZrJ6ebi+yI5LyUe9Hr5B9nCeRh0KhGbylJmbnKDYnH1+b7BLHrDhH0v8GdEYbRlpor1IzoNMH718Xq1BL4lzdboLUmZH4Egp8hSGMRhCFXXN0uvaB3NmOnY8WOS181xlFMprLRWrB1iF6RSLH9Xas3yrlCCO6PmNPqQisyPVVkRUks3fZHqhoWhd8pjMX7O/oLoDaGmdEgHA4EnTZqUImQaFAcbyA3G96azhcgAcCJbdlOFEkCCMKPTgZHoybil8oYOTCCXwH33JiESCV6HM/zOORJr2lXuKf0fcRbQ3w2XrXT7n/skJR3juBZD81/naGJfrFyJRgFwWPaOY27QnBGzfTES8gZVFzNOkOrwYMTBFWG+B5NNUNwG4wCb7evQN5y/fJgpKdluZpb+bBR8OXdyL+5PVy1SYgh4dRLIIkxLJQq6FY9Ob6D4yzsl2x4vbyFyplDUI=",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "24e1076110b431b248b43b1fdaae5282",
+    "text": "apter 13 trustees./ This Handbook is issued under the authority of the Program’s enabling statutes.",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJx1Uslu2zAQ/ZWBzrXkJXGj3gr0UBRoUaDuKQ2MMTmSiIgLyKEXGP73DiXn0AC9cdb33jw+XysayZLjvdHVJ6gO2zU+rB63qt1i93H9uGy3a922m1YvSW83D9UHqCwxamSU/mtVHvvkc1Q0xYGiNSkZ79L+3vR8razXpbzZrJ6ebi+yI5LyUe9Hr5B9nCeRh0KhGbylJmbnKDYnH1+b7BLHrDhH0v8GdEYbRlpor1IzoNMH718Xq1BL4lzdboLUmZH4Egp8hSGMRhCFXXN0uvaB3NmOnY8WOS181xlFMprLRWrB1iF6RSLH9Xas3yrlCCO6PmNPqQisyPVVkRUks3fZHqhoWhd8pjMX7O/oLoDaGmdEgHA4EnTZqUImQaFAcbyA3G96azhcgAcCJbdlOFEkCCMKPTgZHoybil8oYOTCCXwH33JiESCV6HM/zOORJr2lXuKf0fcRbQ3w2XrXT7n/skJR3juBZD81/naGJfrFyJRgFwWPaOY27QnBGzfTES8gZVFzNOkOrwYMTBFWG+B5NNUNwG4wCb7evQN5y/fJgpKdluZpb+bBR8OXdyL+5PVy1SYgh4dRLIIkxLJQq6FY9Ob6D4yzsl2x4vbyFyplDUI=",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "158a80e29cfe6aa83a4931d955a8fa4f",
+    "text": "C. STATUTORY DUTIES OF A STANDING TRUSTEE",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJxVkMtuwjAQRX8l8rokDZRHukOFVmxAgmRRAYqceBIibI/lR5sW8e+1aVl0N+9z7+wvBDgIkLbsGHmOyFOWpcM0G4+mtMoqeBwDjClkkFLGJnQ6IQ8REWApo5b6+QsJQWnQ6RpuuQItOmM6lKb8G9pfiEAW2qNROptdj/6Ghho1KznW1KL+3aT2FCQkJxSQaCcl6OQT9Tlx0ljtaus0sP8J9FQoDgOGtUlOVLIK8TxIVewLPblePanpONgvFfCEKsU7T/Tqkg/JYlQge8Eb1IJaM8Cm6Wrwqy58JPZspjTW4O3IVvD43glP4FS2jrZggkECsiXBlvKVUjpRQfA0DHwLvQ3sl/hgd/k8L/LN9j1aFPlquYs2r9E88tX1YrV+i/JtscuXy8MNcNdcSC8YWtTdN7A8HLsefwA0I5VB"
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "e5fdcc6a007017354a9d708dc04fee02",
+    "text": "The standing trustee has a fiduciary responsibility to the bankruptcy estate. The standing trustee is more than a mere disbursing agent. The standing",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJx1Ustu2zAQ/JWFTi1gU/IjttprgAK99NA4pzQwVuTKJsyHwIdrw/C/d6nUQFK4Jz52Z3ZmyJdLRYYsubTVqvoK1bz9slbLvuuWs4VcN/jQrtu2b5oW16uVbOfVBCpLCRUm5P5LVTbb6HOQNJ4HClbHqL2L279NL5fKelXKi8Wsba+vzBFI+qC2xktMPrwhMe2LhHrvLdUhO0eh/u3Doc4uppBlyoHUxwOd0A6GpsrLWO/Rqc77w3Q2CL44VdcrT+q1oXQeyvgKh8Fonsjq6qNTwg/kTtb0PlhMcer7XktiaC6JCJ6thuAlsR23s0bcKiUEg26XcUexGKzI7apia+Cbrcu2o+JpXuYnOqUye7MniIklMhewg5iIYI8REHqtstQYzhAoDpyc7rTR6QzJQ2JYh+4Q8pDkGYgpEgmAu3Q6gvWBGISOeS3xXunY5VAcAItjW//BWl6gI+AHjN6hMWfQ7ujNkRRvRh23Vo4tjCEy1/d+LN2T4gPzSX7MCNlhZ6j4YWiJewSpnDQXGfnReLn0PRv4l3Vyf9YoXVtLSnM4LBzVUUcam5+dTuzgqcQWYfOGYN3zFp7Fk3gU8Cs3Da7hoV196j5PSuFRfBM/3xXEkisssec8nSyT7zUtuEmUr3H7bT8wlJiOtClf4Pr6B/mZL3k="
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "0bf52e064da3ef4fb8b0a92d4b9fa694",
+    "text": "agent. The standing trustee must be personally involved in the trustee operation. If the standing trustee is or becomes unable to perform the duties",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJx1Ustu2zAQ/JWFTi1gU/IjttprgAK99NA4pzQwVuTKJsyHwIdrw/C/d6nUQFK4Jz52Z3ZmyJdLRYYsubTVqvoK1bz9slbLvuuWs4VcN/jQrtu2b5oW16uVbOfVBCpLCRUm5P5LVTbb6HOQNJ4HClbHqL2L279NL5fKelXKi8Wsba+vzBFI+qC2xktMPrwhMe2LhHrvLdUhO0eh/u3Doc4uppBlyoHUxwOd0A6GpsrLWO/Rqc77w3Q2CL44VdcrT+q1oXQeyvgKh8Fonsjq6qNTwg/kTtb0PlhMcer7XktiaC6JCJ6thuAlsR23s0bcKiUEg26XcUexGKzI7apia+Cbrcu2o+JpXuYnOqUye7MniIklMhewg5iIYI8REHqtstQYzhAoDpyc7rTR6QzJQ2JYh+4Q8pDkGYgpEgmAu3Q6gvWBGISOeS3xXunY5VAcAItjW//BWl6gI+AHjN6hMWfQ7ujNkRRvRh23Vo4tjCEy1/d+LN2T4gPzSX7MCNlhZ6j4YWiJewSpnDQXGfnReLn0PRv4l3Vyf9YoXVtLSnM4LBzVUUcam5+dTuzgqcQWYfOGYN3zFp7Fk3gU8Cs3Da7hoV196j5PSuFRfBM/3xXEkisssec8nSyT7zUtuEmUr3H7bT8wlJiOtClf4Pr6B/mZL3k=",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "db297530e558410b89acd93c6b452b84",
+    "text": "perform the duties and responsibilities of a standing trustee, the standing trustee must immediately advise the United States Trustee. 28 U.S.C. §",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJx1Ustu2zAQ/JWFTi1gU/IjttprgAK99NA4pzQwVuTKJsyHwIdrw/C/d6nUQFK4Jz52Z3ZmyJdLRYYsubTVqvoK1bz9slbLvuuWs4VcN/jQrtu2b5oW16uVbOfVBCpLCRUm5P5LVTbb6HOQNJ4HClbHqL2L279NL5fKelXKi8Wsba+vzBFI+qC2xktMPrwhMe2LhHrvLdUhO0eh/u3Doc4uppBlyoHUxwOd0A6GpsrLWO/Rqc77w3Q2CL44VdcrT+q1oXQeyvgKh8Fonsjq6qNTwg/kTtb0PlhMcer7XktiaC6JCJ6thuAlsR23s0bcKiUEg26XcUexGKzI7apia+Cbrcu2o+JpXuYnOqUye7MniIklMhewg5iIYI8REHqtstQYzhAoDpyc7rTR6QzJQ2JYh+4Q8pDkGYgpEgmAu3Q6gvWBGISOeS3xXunY5VAcAItjW//BWl6gI+AHjN6hMWfQ7ujNkRRvRh23Vo4tjCEy1/d+LN2T4gPzSX7MCNlhZ6j4YWiJewSpnDQXGfnReLn0PRv4l3Vyf9YoXVtLSnM4LBzVUUcam5+dTuzgqcQWYfOGYN3zFp7Fk3gU8Cs3Da7hoV196j5PSuFRfBM/3xXEkisssec8nSyT7zUtuEmUr3H7bT8wlJiOtClf4Pr6B/mZL3k=",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "201bfacc211f0eb640e2830b8c29ae41",
+    "text": "rustee. 28 U.S.C. § 586(b), 28 C.F.R. § 58.4(b) referencing 28 C.F.R. § 58.3(b).",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJx1Ustu2zAQ/JWFTi1gU/IjttprgAK99NA4pzQwVuTKJsyHwIdrw/C/d6nUQFK4Jz52Z3ZmyJdLRYYsubTVqvoK1bz9slbLvuuWs4VcN/jQrtu2b5oW16uVbOfVBCpLCRUm5P5LVTbb6HOQNJ4HClbHqL2L279NL5fKelXKi8Wsba+vzBFI+qC2xktMPrwhMe2LhHrvLdUhO0eh/u3Doc4uppBlyoHUxwOd0A6GpsrLWO/Rqc77w3Q2CL44VdcrT+q1oXQeyvgKh8Fonsjq6qNTwg/kTtb0PlhMcer7XktiaC6JCJ6thuAlsR23s0bcKiUEg26XcUexGKzI7apia+Cbrcu2o+JpXuYnOqUye7MniIklMhewg5iIYI8REHqtstQYzhAoDpyc7rTR6QzJQ2JYh+4Q8pDkGYgpEgmAu3Q6gvWBGISOeS3xXunY5VAcAItjW//BWl6gI+AHjN6hMWfQ7ujNkRRvRh23Vo4tjCEy1/d+LN2T4gPzSX7MCNlhZ6j4YWiJewSpnDQXGfnReLn0PRv4l3Vyf9YoXVtLSnM4LBzVUUcam5+dTuzgqcQWYfOGYN3zFp7Fk3gU8Cs3Da7hoV196j5PSuFRfBM/3xXEkisssec8nSyT7zUtuEmUr3H7bT8wlJiOtClf4Pr6B/mZL3k=",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "eff9d6f3a0cdb968b7715e2e417e12ea",
+    "text": "Although this Handbook is not intended to be a complete statutory reference, the standing trustee’s primary statutory duties are set forth in 11",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJxtUcluGzEM/RVizvFsDupxbkUvPfXS9JQEhmbE8QiRREGiYgeG/72UY3cBchNFPr6FT6cKLTr0vDO6eoBq+2Xu7/uxHVGNQ4/rWbfzZrvGzTAOw3buqzuoHLLSipXMn6ry2CXKccJLHTA6k5Ihn3bXoadT5UiX9nrdDcP5RXZEnCjqnaVJMcUPpOKlSGgWctjE7D3G5kDxtck+ccwT54j6/wKPygWLK01Tahbl9Uj0uupCLR/H6nwWptlY5PdQ6CsVgjXCKOqaN69rCuiPzs4UneK0onk2Ewo0l0Rq4dYh0oRix++drW+dEoJVfp/VHlMxWKHfV8VWkJ+dz27E4qkv/IxHLtxfLS+U9wvwYhJ8v2oFeXtiMJ7Ra9TABCOCgomKMUZIrDhLRu8QccaIfsI72XFpeC3CQOJIjPic+7bbJgjROCXjf4E6s8EEKgoIGcQuL8IIXQe/6p/1txqec9uqDXTrtr+Dw2Km0pcLBYqKBTr+ww5J7gM0X0RcV0s1LSowRtjc9CQhyl5/SrRp72uAxwXTnxXCZ7MWb2Pmi9QSizXO8CWVD88zWUsHMf1QbnA76w8VRaZ5w8eS9fnlNxE8+1s="
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "fd4c45036e8f17c27271f75944389724",
+    "text": "are set forth in 11 U.S.C. § 1302, which incorporates by reference some of the duties of chapter 7 trustees found in 11 U.S.C. § 704. These duties",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJxtUcluGzEM/RVizvFsDupxbkUvPfXS9JQEhmbE8QiRREGiYgeG/72UY3cBchNFPr6FT6cKLTr0vDO6eoBq+2Xu7/uxHVGNQ4/rWbfzZrvGzTAOw3buqzuoHLLSipXMn6ry2CXKccJLHTA6k5Ihn3bXoadT5UiX9nrdDcP5RXZEnCjqnaVJMcUPpOKlSGgWctjE7D3G5kDxtck+ccwT54j6/wKPygWLK01Tahbl9Uj0uupCLR/H6nwWptlY5PdQ6CsVgjXCKOqaN69rCuiPzs4UneK0onk2Ewo0l0Rq4dYh0oRix++drW+dEoJVfp/VHlMxWKHfV8VWkJ+dz27E4qkv/IxHLtxfLS+U9wvwYhJ8v2oFeXtiMJ7Ra9TABCOCgomKMUZIrDhLRu8QccaIfsI72XFpeC3CQOJIjPic+7bbJgjROCXjf4E6s8EEKgoIGcQuL8IIXQe/6p/1txqec9uqDXTrtr+Dw2Km0pcLBYqKBTr+ww5J7gM0X0RcV0s1LSowRtjc9CQhyl5/SrRp72uAxwXTnxXCZ7MWb2Pmi9QSizXO8CWVD88zWUsHMf1QbnA76w8VRaZ5w8eS9fnlNxE8+1s=",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "a968d741409111b777fc123ef01f5407",
+    "text": "§ 704. These duties include, but are not limited to, the following:",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "orig_elements": "eJxtUcluGzEM/RVizvFsDupxbkUvPfXS9JQEhmbE8QiRREGiYgeG/72UY3cBchNFPr6FT6cKLTr0vDO6eoBq+2Xu7/uxHVGNQ4/rWbfzZrvGzTAOw3buqzuoHLLSipXMn6ry2CXKccJLHTA6k5Ihn3bXoadT5UiX9nrdDcP5RXZEnCjqnaVJMcUPpOKlSGgWctjE7D3G5kDxtck+ccwT54j6/wKPygWLK01Tahbl9Uj0uupCLR/H6nwWptlY5PdQ6CsVgjXCKOqaN69rCuiPzs4UneK0onk2Ewo0l0Rq4dYh0oRix++drW+dEoJVfp/VHlMxWKHfV8VWkJ+dz27E4qkv/IxHLtxfLS+U9wvwYhJ8v2oFeXtiMJ7Ra9TABCOCgomKMUZIrDhLRu8QccaIfsI72XFpeC3CQOJIjPic+7bbJgjROCXjf4E6s8EEKgoIGcQuL8IIXQe/6p/1txqec9uqDXTrtr+Dw2Km0pcLBYqKBTr+ww5J7gM0X0RcV0s1LSowRtjc9CQhyl5/SrRp72uAxwXTnxXCZ7MWb2Pmi9QSizXO8CWVD88zWUsHMf1QbnA76w8VRaZ5w8eS9fnlNxE8+1s=",
+      "is_continuation": true
+    }
+  },
+  {
+    "type": "CompositeElement",
+    "element_id": "6856f7d3b3c9ceab0b35fb2951d30be0",
+    "text": "Copyright",
+    "metadata": {
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/handbook-1p.docx"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      },
+      "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "languages": [
+        "eng"
+      ],
+      "orig_elements": "eJxVUNFuwyAM/JWJ5zVZ1C6L9jppP1FVkQMmQQWMDGypqvz7IFsf9gS2z3fnO98FWnTo02iUeH8S0Es1dKfj6bV/64cJ9HQaZD9JOb1MEjstnp+EwwQKEhT8XdTPGCmzxL0OyM7EaMjH8Q90vgtHqo6Px24YtkvhYJTEarQkIRH/bkJaqoV2IYctZ++R22/ia5t9TJxlyozqf4EruGDxoEjGdgGvJqLroQtNaaxi24qSNhbTLeB+XQjWFMXirv3yqqGAfnVWEztI8UBaG4llNddEmqKtApPEco6fnW0ekxrCgqCQR02UyvMQCGwc8K0CLPg5w4yxJiDQz+JS7SRcU0V+ULixmZed7LH+ubOJ7fIDJz+OQw=="
+    }
+  }
+]

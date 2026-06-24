@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-html-with-footer-and-header.html",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "3e04bae1-f7bf-4b23-9e19-c4837db0b3e4",
+      "type": "general",
+      "title": "<!DOCTYPE html>\n<html>\n<header>\n    <p>Header</p>\n...",
+      "content": "<!DOCTYPE html>\n<html>\n<header>\n    <p>Header</p>\n</header>\n<body>",
+      "source_file": "fake-html-with-footer-and-header.html",
+      "source_page": 0,
+      "keywords": [
+        "DOCTYPE"
+      ],
+      "created_at": "2026-06-16T11:48:38.174062",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake html with footer and head"
+      }
+    },
+    {
+      "id": "47435c67-3f31-4c31-be15-16759ce9c64e",
+      "type": "general",
+      "title": "<h1>My First Heading</h1>\n<p>My first paragraph.</...",
+      "content": "<h1>My First Heading</h1>\n<p>My first paragraph.</p>",
+      "source_file": "fake-html-with-footer-and-header.html",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:38.174113",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake html with footer and head"
+      }
+    },
+    {
+      "id": "90c55d39-fa8e-41f6-a104-198af7ec5a93",
+      "type": "general",
+      "title": "</body>\n<footer>\n    <p>Footer</p>\n</footer>\n</htm...",
+      "content": "</body>\n<footer>\n    <p>Footer</p>\n</footer>\n</html>",
+      "source_file": "fake-html-with-footer-and-header.html",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:38.174149",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake html with footer and head"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-doc.rtf",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "6d17ddb4-3fd2-47ed-9404-06fa1fa2ebc6",
+      "type": "general",
+      "title": "{\\rtf1\\ansi\\deff0\n{\\pard \\ql \\f0 \\sa180 \\li0 \\fi0 ...",
+      "content": "{\\rtf1\\ansi\\deff0\n{\\pard \\ql \\f0 \\sa180 \\li0 \\fi0 \\outlinelevel0 \\b \\fs36 My First Heading\\par}\n{\\pard \\ql \\f0 \\sa180 \\li0 \\fi0 My first paragraph.\\par}\n{\\pard \\sa180 \\li0 \\fi0 \\b Table Example:\\par}\n{\\trowd\\cellx3000\\cellx6000\n\\pard\\intbl\\qc\\fs20 Column 1\\cell Column 2\\cell\\row\n\\pard\\intbl\\qc\\fs20 Row 1, Cell 1\\cell Row 1, Cell 2\\cell\\row\n\\pard\\intbl\\qc\\fs20 Row 2, Cell 1\\cell Row 2, Cell 2\\cell\\row\n}\n}",
+      "source_file": "fake-doc.rtf",
+      "source_page": 0,
+      "keywords": [
+        "table"
+      ],
+      "created_at": "2026-06-22T11:57:38.564450",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    }
+  ]
+}

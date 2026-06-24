@@ -1,0 +1,485 @@
+{
+  "schema_version": "1.0",
+  "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+  "total_entries": 26,
+  "entries": [
+    {
+      "id": "55990a87-0739-49a0-8b4a-4a52f1ef665b",
+      "type": "general",
+      "title": "<span id=\"page-0-0\"></span>Collaborative Neural Rendering Using Anime Character Sheets",
+      "content": "Zuzeng Lin<sup>1</sup>,2,<sup>∗</sup> , Ailin Huang<sup>2</sup>,3,<sup>∗</sup> , Zhewei Huang<sup>2</sup>,<sup>∗</sup> <sup>1</sup>Tianjin University <sup>2</sup>Megvii Technology <sup>3</sup>Wuhan University\n\ntranspchan@gmail.com, {huangailin, huangzhewei}@megvii.com\n\n<https://github.com/megvii-research/IJCAI2023-CoNR>",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:03.995897",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "eca4bce4-99d2-405c-bed3-325cd70b70e5",
+      "type": "general",
+      "title": "Abstract",
+      "content": "Drawing images of characters with desired poses is an essential but laborious task in anime production. Assisting artists to create is a research hotspot in recent years. In this paper, we present the Collaborative Neural Rendering (CoNR) method, which creates new images for specified poses from a few reference images (AKA Character Sheets). In general, the diverse hairstyles and garments of anime characters defies the employment of universal body models like SMPL [Loper *et al.*[, 2015\\]](#page-8-0), which fits in most nude human shapes. To overcome this, CoNR uses a compact and easy-to-obtain landmark encoding to avoid creating a unified UV mapping in the pipeline. In addition, the performance of CoNR can be significantly improved when referring to multiple reference images, thanks to feature space cross-view warping in a carefully designed neural network. Moreover, we have collected a character sheet dataset containing over 700, 000 hand-drawn and synthesized images of diverse poses to facilitate research in this area.",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 1,
+      "keywords": [
+        "UV",
+        "SMPL",
+        "AKA"
+      ],
+      "created_at": "2026-06-19T14:14:03.996031",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "c98ef930-e308-4caf-aaa0-220ae6fff0b8",
+      "type": "manual_section",
+      "title": "1 Introduction",
+      "content": "2D Animation is one of the essential carriers of art reflecting human creativity. Artists commonly use character sheets to show their virtual character design. A character sheet is the image collection of a specific character with multiple postures observed from different views, as shown in Figure [1.](#page-1-0) It covers all the appearance details and is widely used to assist the creation of animations or their derived media. Moreover, character sheets allow many artists to cooperate while maintaining the consistency of the design of this character.\n\nDrawing a sequence of anime frames is extremely timeconsuming, requiring imagination and expertise. Due to the semantic gap between the character sheet and the desired poses, it is challenging to design a pipeline to draw character images automatically. Some non-photorealistic rendering (NPR) methods [\\[Gooch and Gooch, 2001\\]](#page-7-0) can simulate the artistic style of hand-drawn animation. For example, Toon Shading is widely used in games and animation production. However, it currently still requires a very complex manual design to approximate a specific artistic style. Artists need to manually retouch the shadows, which is too complicated for animators and painters. Therefore, we try to explore a new method of generating pictures in 2D animation.\n\nWe formulate the task of rendering a particular character in the desired pose from the character sheet. Based on this formulation, we develop a Collaborative Neural Rendering (CoNR) model based on convolutional neural network (CNN). CoNR fully exploits the information available in a provided set of reference images by using feature space cross-view dense correspondence. In addition, CoNR uses the Ultra-Dense Pose (UDP), an easy-to-construct compact landmark encoding tailored for anime characters. CoNR will not require a unified UV texture mapping [Yoon *et al.*[, 2021;](#page-8-1) Gao *et al.*[, 2020\\]](#page-7-1) in the pipeline, which may not be done in a consistent ",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 1,
+      "keywords": [
+        "NPR",
+        "UDP",
+        "XY",
+        "UV"
+      ],
+      "created_at": "2026-06-19T14:14:03.996512",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "2e1e9c4a-a68a-4e99-a071-eaea503d6f62",
+      "type": "general",
+      "title": "2 Related Work",
+      "content": "",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:03.996538",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "31d9eb89-a87d-444b-9f92-363c7d23458d",
+      "type": "general",
+      "title": "2.1 Image Generation and Translation for Anime",
+      "content": "Recent years have seen significant advancement in applying deep learning methods to assist the creation of anime. For example, Gao *[et al.](#page-7-2)*; [Zheng](#page-8-3) *et al.* propose to apply realistic lighting effects and shadow for 2D anime automatically; [Wang](#page-8-4) [and Yu](#page-8-4) propose to transfer photos to anime style; [Siyao](#page-8-5) *et [al.](#page-8-5)*; [Chen and Zwicker](#page-7-3) propose frame interpolation tailored for animation. There are also attempts to produce vectorized anime images [Su *et al.*[, 2021\\]](#page-8-6), similar to the step-by-step manual drawing process. The generative modeling of anime faces has achieved very impressive results [Jin *et al.*[, 2017;](#page-7-4) [Gokaslan](#page-7-5) *et al.*, 2018; Tseng *et al.*[, 2020;](#page-8-7) Li *et al.*[, 2021;](#page-7-6) He *et al.*[, 2021\\]](#page-7-7). The latent semantics of generative models has also been extensively explored [\\[Shen and Zhou, 2021\\]](#page-8-8). A modified StyleGAN2 model [\\[aydao, 2021\\]](#page-7-8) can generate fullbody anime images, although it still suffers from artifacts because of the high degree of freedom of the human body.",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:03.996663",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "96459f6e-c608-4187-9b7e-f8b19ef3aa21",
+      "type": "general",
+      "title": "2.2 Representation of Human Body",
+      "content": "Stick-figure of skeletons [Chan *et al.*[, 2019\\]](#page-7-9), SMPL vectors [Loper *et al.*[, 2015\\]](#page-8-0), and heat maps of joints [Cao *[et al.](#page-7-10)*, [2019;](#page-7-10) [Siarohin](#page-8-9) *et al.*, 2021] are widely-used representations obtained from motion capture system. However, when these sparse representations are used for anime characters [\\[Khun](#page-7-11)[gurn and Chou, 2016\\]](#page-7-11), they face a new series of challenges: noisy manual annotations, unexpected occlusions caused by\n\nthe wide variety of characters' clothing and body shapes, and ambiguity due to hand drawing. Furthermore, the aforementioned human pose representations only represent human joints and body shapes. However, anime characters often require flexible artistic control over other body parts, such as the fluttering of hair and skirts. These representations cannot directly drive these parts.\n\nHuman parsers or clothing segmenters [Yoon *et al.*[, 2021;](#page-8-1) Gafni *et al.*[, 2021;](#page-7-12) Chou *et al.*[, 2021\\]](#page-7-13) are robust to the uncertainty of joint positions. However, the provided semantic masks are not informative enough to represent the pose or even the orientation of a person. DensePose [\\[Guler](#page-7-14) ¨ *et al.*[, 2018\\]](#page-7-14) and UV texture mapping [Yao *et al.*[, 2019;](#page-8-10) Yoon *et al.*[, 2021;](#page-8-1) Gao *et al.*[, 2020\\]](#page-7-1), greatly enhance the detail of pose representation on the human body or face by adding a universal definition that essentially unwarps the 3D human body surface into a 2D coordinate system. However, due to the great diversity and rich topology of anime characters, it is difficult to find a general labeling method to unwarp them, which makes existing dense representations still not serve as an off-the-shelf solution for anime-related tasks. One motivation for our work is to find a suitable representation to represent the motion of hair and clothes in principle.\n\nThere are also s",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 1,
+      "keywords": [
+        "CSE",
+        "UV",
+        "SMPL"
+      ],
+      "created_at": "2026-06-19T14:14:03.996898",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "1809f9eb-a232-4335-8598-592919dce1a1",
+      "type": "general",
+      "title": "2.3 Human Appearance Transfer",
+      "content": "Most of works create vivid body motions or talking heads from only one single image [Gafni *et al.*[, 2021;](#page-7-12) [Sarkar](#page-8-12) *et al.*[, 2020;](#page-8-12) Yoon *et al.*[, 2021;](#page-8-1) [Siarohin](#page-8-13) *et al.*, 2019; Liu *[et al.](#page-7-15)*, [2019\\]](#page-7-15). The learned prior of the human body [\\[Loper](#page-8-0) *et al.*, [2015\\]](#page-8-0), head [\\[Blanz and Vetter, 1999\\]](#page-7-16), or real-world clothing shape and textures [\\[Alldieck](#page-7-17) *et al.*, 2019] enables the model to solve ill-posed problems like imagining and inpainting the back view even if only the frontal view is available. However, anime has long been featuring a flexible character design leading to high diversity in clothing, body shapes, hairstyles, and other appearance features. A model trained on a huge dataset (*e.g.*,, CLIP [\\[Radford](#page-8-14) *et al.*, 2021]) might be able to encode some popular anime character designs implicitly. Still, it is generally more challenging to establish priors or styles of the anime character domain than the real human domain.\n\nThere are some attempts [Liu *et al.*[, 2021\\]](#page-8-15) to extend the pose transfer task by utilizing SMPL [Loper *et al.*[, 2015\\]](#page-8-0), a realistic 3D mesh of the naked human body that is based on skinning and blend-shapes, to combine appearance from different views. Using multiple reference images would, in principle, allow the model to follow the original appearance of the given person and better suit the needs of anime production.\n\nSome recent works utilize neural rendering models [\\[Mildenhall](#page-8-16) *et al.*, 2020] which are trained using photometric reconstruction loss and camera poses over multiple images of 3D objects and scenes. Due to their ray-marching nature and capability to in-paint in 3D, they are promising methods in modeling real-world 3D data [Peng *et al.*[, 2021\\]](#page-8-17). These methods are not influenced by or depend on prior knowledge other ",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 1,
+      "keywords": [
+        "SMPL",
+        "CLIP"
+      ],
+      "created_at": "2026-06-19T14:14:03.997094",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "90c9f6d3-c278-4934-a316-f3c8b64a80d3",
+      "type": "general",
+      "title": "3 Method",
+      "content": "",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 2,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:03.997115",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "a8998ed1-1b3a-4903-afad-f53af6789cb2",
+      "type": "general",
+      "title": "3.1 Task Formulation",
+      "content": "Our formulation is inspired by the tasks about drawing or painting art [\\[Huang](#page-7-18) *et al.*, 2019; Su *et al.*[, 2021\\]](#page-8-6). We consider the character sheet I<sup>n</sup> ∈ Sref in a whole. A target pose Ptar representation is also required to provide rendering target for the model. The task can be formulated as mapping <sup>S</sup>ref to target image <sup>I</sup>btar with the desired target pose <sup>P</sup>tar:\n\n$$\\widehat{I}_{tar} = \\Phi(P_{tar}, S_{ref}). \\tag{1}$$\n\nWe notice that complicated poses, motions, or characters may require more references in Sref than others, so dynamically sized Sref should be allowed.",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 2,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:03.997216",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "6ef110ba-d8d3-4aec-959e-c3aca7868134",
+      "type": "general",
+      "title": "3.2 Ultra-Dense Pose",
+      "content": "A UDP specifies a character's pose by mapping 2D viewport coordinates to feature vectors, which are 3-tuple floats that continuously and consistently encode body surfaces. In this way, a UDP can be represented as a color image Ptar ∈\n\n<span id=\"page-2-0\"></span>![](_page_2_Picture_12.jpeg)\n\nFigure 2: Random characters with random backgrounds.\n\nR <sup>H</sup>×W×<sup>3</sup> with pixels corresponding to landmarks L(x,y) ∈ R 3 . Non-person areas of the UDP image are masked. It allows better compatibility across a broader range of anime body shapes and enables better artistic control over body details like garment motions.\n\n3D meshes are widely used data representations for anime characters in their game adaptations. Vertex in a mesh usually comprises corresponding texture coordinate (u, v) or a vertex color (r, g, b). Interpolation over the barycentric coordinates allows triangles to form faces filled with color values or pixels looked up from textures coordinates.\n\nTaking a bunch of anime body meshes standing at the center of the world, we ask them to perform the same A-pose (a standard pose) to align the joints. To construct UDPs, we remove the original texture and overwrite the color (r, g, b) of each vertex with a landmark, which is currently the world coordinate (x, y, z), as shown in Figure [1\\(](#page-1-0)b). When the anime body changes its pose, the vertex on the mesh may move to a new position in the world coordinate system, but the landmark at the corresponding body part will remain the same color.\n\nTo avoid the difficulty of down-sampling and processing meshes, we convert the modified meshes into 2D images, which are compatible with CNNs. This is done by introducing a camera, culling on occluded faces, and projecting only the faces visible from the camera into an image. The processed UDP representation is a H × W × 4 shaped image recorded in floating-point numbers ranging from 0 to 1. The four channels include the three-dimensional landmark encodings and one",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 2,
+      "keywords": [
+        "UDP"
+      ],
+      "created_at": "2026-06-19T14:14:03.997519",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "30b37b52-d363-4fac-9d17-1d6d0a0ec22f",
+      "type": "general",
+      "title": "3.3 Data Preparation",
+      "content": "As character sheets used in the anime-related industries are not yet available to the computer vision community, we built a dataset containing more than 20, 000 hand-drawn anime characters by selecting human-like characters from public\n\n<span id=\"page-3-0\"></span>datasets [Anonymous et al., 2021; Jerry, 2017]. We manually perform matting to remove the background from the character with the help of the watershed algorithm [Torralba et al., 2010]. We also construct a 2D background dataset containing 4000 images with a similar method. Manually annotating hand-drawn anime images with UDP involves significant hardship. To alleviate the problem of label scarcity, we further construct a synthesized dataset from anime-styled 3D meshes.\n\nFinally, We combine the synthesized dataset with the hand-drawn dataset to obtain both high-quality UDP labels and high diversity of hand-drawn styles. We randomly split the whole dataset by a 1/16 ratio into the validation and training sets. The split is on a per-anime-character basis, so the validation set contains characters unseen during training. The whole dataset contains over 700,000 hand-drawn and synthesized images of diverse poses and appearances. We manually exclude content containing excessive nudity that is not suitable for public display. Random characters with a random background are shown in Figure 2.",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 2,
+      "keywords": [
+        "UDP"
+      ],
+      "created_at": "2026-06-19T14:14:03.997650",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "3d980975-46b9-4a4b-874b-6a5ef0df64ad",
+      "type": "general",
+      "title": "3.4 Collaborative Neural Rendering",
+      "content": "Overview. We utilize a collaborative inference for a convolutional neural network named CINN, inspired by Point-Net [Qi et al., 2017] and Equivariant-SFM [Moran et al., 2021]. CoNR consists of a CINN renderer and an optional UDP Detector. Figure 1(c) shows the pipeline of the proposed approach. CoNR generates a character image of the desired pose, taking the UDP representation  $\\mathbf{P}_{tar}$  of the target pose and a character sheet  $\\mathbf{S}_{ref}$ , as the inputs. When generating more than one pose, we feed different UDPs and use the same reference character sheet.\n\nThe input UDP representation can be produced by a UDP Detector from reference images. For interactive applications like games, the existing physics engine can be used as a dropin replacement for the UDP Detector to compute body and cloth dynamics for the anime character directly.\n\n**Renderer.** We apply the following modifications to the U-Net [Ronneberger *et al.*, 2015]:\n\n- 1) As shown in Figure 1(c), we rescale and concatenate UDP to each block of the decoder. This input strategy aims to reuse the encoder's results and further allow highly efficient inference when there are multiple target UDPs when generating an animation video of a character.\n- 2) Due to the spatial misalignment of the local and the remote branches, we use flow fields to align the features. Specifically, we approximate a flow field **f** as two channels and warp the features of other channels according to the estimated flow [Zhou *et al.*, 2016; Liu *et al.*, 2017; Hu *et al.*, 2023]. This operator enhances the long-range lookup ability for CINN.\n- 3) We use the CINN method in the decoders of the network. We split the original up-sampling output feature channels by half, one for the remote branch and the other for the local branch. Firstly, we warp the features of the remote branches to align with the local features. Then the output features from all remote branches are averaged to be concatenated with the encoder output. ",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 3,
+      "keywords": [
+        "SFM",
+        "CINN",
+        "UDP"
+      ],
+      "created_at": "2026-06-19T14:14:03.998001",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "401d351a-7910-48cc-8bf7-1ca32ada62fe",
+      "type": "general",
+      "title": "4 Experiments",
+      "content": "",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 3,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:03.998027",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "c37730e2-0869-4f5d-807f-e53ef40ea277",
+      "type": "table_data",
+      "title": "4.1 Training Strategy",
+      "content": "We train CoNR with m sub-networks (views) on our dataset. To create one training sample, we randomly select a character and then randomly select m+1 arbitrary poses. These images are split as m image inputs (character sheet)  $I_1\\cdots I_m\\in S_{ref}$  and one image of the target pose as the ground truth of CoNR's final output.\n\nWe paste them onto k random backgrounds and feed them into the UDP Detector. We use the average of the k UDP detection results  $\\widehat{P}_i$  of the same target pose,  $\\widehat{P}_{tar}=1/k\\sum_{i=1}^k\\widehat{P}_i$ , as the final UDP detection results. We compute losses at both the output of the detector and the end of the CoNR pipeline. We use L1 loss on the landmark encodings and binary cross-entropy (BCE) loss on the mask to train the detector if the ground truth UDP  $P_{tar}^{GT}$  is available:\n\n$$\\mathcal{L}_{udp} = ||\\widehat{P}_{tar} - P_{tar}^{GT}||_1, \\tag{4}$$\n\n$$\\mathcal{L}_{mask} = BCE(sgn(\\widehat{P}_{tar}), sgn(P_{tar}^{GT})), \\tag{5}$$\n\nwhere sgn indicates that a point is from the body surface or background. We use a consistency loss  $\\mathcal{L}_{cons}$  by computing the standard deviation of k UDP Detector outputs:\n\n$$\\mathcal{L}_{cons} = \\sqrt{\\frac{1}{k-1} \\sum_{i=1}^{k} (\\hat{P}_i - \\hat{P}_{tar})^2}.$$\n (6)\n\nAt the end of the collaborated renderer, we use L1 loss and feature loss [Ledig *et al.*, 2017] which is based on a pre-trained 19-layer VGG [Simonyan and Zisserman, 2015] network to supervise the reconstruction in the desired target pose, denoted as  $L_{photo}$  and  $L_{vag}$ .\n\n<span id=\"page-4-4\"></span><span id=\"page-4-2\"></span>\n\n| Setting      | 112K iter |        | 224K iter |        |\n|--------------|-----------|--------|-----------|--------|\n|              | Lphoto    | LPIPS  | Lphoto    | LPIPS  |\n| m = 1, n = 1 | 0.0247    | 0.0832 | 0.0238    | 0.0801 |\n| m = 4, n = 1 | 0.0249    | 0.0865 | 0.0237    | 0.0827 |\n| m = 1, n = 4 | 0.0219    | 0.0798 | 0.0211    | 0.0764 |\n| m = 4, n = 4 | 0.0187 ",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 3,
+      "keywords": [
+        "VGG",
+        "BCE",
+        "UDP",
+        "LPIPS"
+      ],
+      "created_at": "2026-06-19T14:14:03.998463",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "8aaaafe5-d9ad-4217-85ec-45f54f885e1f",
+      "type": "general",
+      "title": "4.2 Result",
+      "content": "For quantitative evaluation on the validation set, we measure Ludp and Lphoto which is the averaged L1 distance between predictions and ground truth. We further use LPIPS [\\[Zhang](#page-8-25) *et al.*[, 2018a\\]](#page-8-25) to measure the perceptual quality.\n\nInference Visual Effects. CoNR can cope with the diverse styles of anime, including differences between synthesized and hand-drawn images. Figure [3](#page-4-0) lists some random CoNR outputs on the validation split. With the same character sheet input Sref , we replaced the provided UDP Ptar, and the results of CoNR changed accordingly. Notably, CoNR goes beyond a na¨ıve correspondence by absolute UDP value (transfer between different cloths).\n\n<span id=\"page-4-1\"></span>![](_page_4_Picture_11.jpeg)\n\nFigure 4: Transfer appearance based on the character sheet. This UDP comes from UDP Detector rather than 3D softwares.\n\nCoNR with UDP Detector can also be used to achieve similar results to style transfer methods when running a textured image at the reference pose. As shown in Figure [4,](#page-4-1) UDP detection of one character can be used to render another character. The CoNR inference pipeline for the anime (or game) production will usually be without the UDP Detector.\n\nEffectiveness of the Collaboration. CoNR uses a dynamically-sized set of reference inputs during training and inference. Table [1](#page-4-2) shows that using additional views (m > 1) during training will enhance the quality of generated images. On the opposite, removing images from the character sheet will reduce the coverage of the body surface. When CoNR is trained with m = 1, CoNR can not provide a reasonable solution. For example, given the character's backside, it is hard to imagine the frontal side. In this case, the photo-metric reconstruction and feature losses may encourage the network to learn a wrong solution. Therefore even if enough information in the n > 1 images is provided during inference, the network may not generate the tar",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 4,
+      "keywords": [
+        "LPIPS",
+        "UDP"
+      ],
+      "created_at": "2026-06-19T14:14:03.998821",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "58c1ea2a-0480-4145-b9f5-d8c650c0b613",
+      "type": "table_data",
+      "title": "4.3 Comparison with Related Work",
+      "content": "As CoNR provides a baseline for a new task, we admit that direct comparison with related works can either be impossible or unfair. We still try to include comparisons, only to show how our task is related to other existing tasks.\n\nHuman Pose Synthesis. We compare the results produced by CoNR to a real-world digital human system [Liu *et al.*[, 2021\\]](#page-8-15) using the same target poses as used in their demo. We use two character sheets [1](#page-4-3) with both pose and appearance unseen during training. One contains the same 4 images shown in\n\n<span id=\"page-4-3\"></span><sup>1</sup>One anime character is from [www.youtube.com/watch?v=m6k](www.youtube.com/watch?v=m6k_t8yEyvE) [t8yEyvE](www.youtube.com/watch?v=m6k_t8yEyvE) and another character is illustrated by an amateur artist.\n\n<span id=\"page-5-4\"></span><span id=\"page-5-0\"></span>![](_page_5_Figure_0.jpeg)\n\nFigure 5: **Effectiveness of the collaboration.** We perform a reconstruction experiment with Chika Dance, which is a high-quality rotoscoping animation (in which body and clothing motions are drawn according to real characters) ensuring that the ground truth is reasonable. The last row shows 8 ground truth frames  $I_i^{GT} \\in S_{vid}^{GT}$  from a video. In this experiment, the UDPs are estimated from ground truth frames by a trained UDP Detector. The first two rows show the input and output images of CoNR. The used subsets of character sheet  $S_{ref} \\subset S_{vid}^{GT}$  are marked using the blue background. Generated images for novel poses are marked using the red backgrounds.\n\n<span id=\"page-5-1\"></span>\n\n| Setting        | 112K iter           |                      | 224K iter           |                      |\n|----------------|---------------------|----------------------|---------------------|----------------------|\n|                | $\\mathcal{L}_{udp}$ | $\\mathcal{L}_{mask}$ | $\\mathcal{L}_{udp}$ | $\\mathcal{L}_{mask}$ |\n| Original U-Net | 0.1247              | 0.0856               | Fail   ",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 5,
+      "keywords": [
+        "UDP",
+        "CINN",
+        "SMPL",
+        "LPIPS"
+      ],
+      "created_at": "2026-06-19T14:14:03.999356",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "02bc9ad9-eba8-40c2-a600-a3629be8f650",
+      "type": "general",
+      "title": "4.4 Ablation Study",
+      "content": "We perform ablation studies on the UDP Detector, renderer, loss functions and message passing. Table [2](#page-5-1) shows that UDP representation can be inferred from images using a U-Net [\\[Ronneberger](#page-8-2) *et al.*, 2015]. An original U-Net, which takes a concatenated tensor of 4 reference images and the target UDP as the input, does not provide acceptable results on this task, as shown in Table [3.](#page-5-2) The proposed CoNR method with both the feature warping and the CINN method significantly increases the performance, thus establishing a stronger baseline for the proposed task. We further ablate the loss functions in Table [5.](#page-6-1) In Table [4,](#page-5-3) we perform ablations on the number of message passing for the CoNR. In default, the subnetworks communicate at three different feature levels. More ghosting can be observed when sub-networks communicate less than three times.",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 6,
+      "keywords": [
+        "UDP",
+        "CINN"
+      ],
+      "created_at": "2026-06-19T14:14:03.999467",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "6ca0cace-7d24-410b-a050-3e1917ffcad0",
+      "type": "table_data",
+      "title": "5 Limitations",
+      "content": "The inputs of CoNR can not provide any information about the environmental or contextual information that could be utilized to infer lighting effects. Users may have to look for sketch relighting techniques [\\[Zheng](#page-8-3) *et al.*, 2020]. The generation results of finer layering and structuring are also to be studied.\n\n![](_page_6_Picture_6.jpeg)\n\nFigure 7: Comparision between detection results of hand-drawn anime character images using OpenPose [Cao *et al.*[, 2019\\]](#page-7-10), the UDP Detector and SMPLify [Bogo *et al.*[, 2016\\]](#page-7-27). The images are from the validation split of the hand-drawn dataset [\\[Anonymous](#page-7-19) *et al.*[, 2021\\]](#page-7-19) with the ID number. The detected SMPL body can not fully handle the diverse body shapes of anime characters. UDP Detector produces relatively reasonable results.\n\n<span id=\"page-6-1\"></span>\n\n| Setting    | 224K iter |       |        |       |\n|------------|-----------|-------|--------|-------|\n|            | Ludp      | Lmask | Lphoto | LPIPS |\n| w/o Lmask  | 0.162     | 0.880 | -      | -     |\n| w/o Lphoto | -         | -     | 0.023  | 0.084 |\n| w/o Lvgg   | -         | -     | 0.028  | 0.158 |\n| CoNR       | 0.097     | 0.079 | 0.019  | 0.066 |\n\nTable 5: Ablation on loss functions.\n\nCoNR is unable to model the dynamics of the character. The CoNR model accepts target poses detected from a video of a character with a body shape similar to Sref , and could inherit the dynamics. However, it requires such a pose sequence beforehand. To bypass the UDP Detector, we can rely on additional technologies like garment captures [\\[Bradley](#page-7-28) *et al.*, 2008], physics simulations [\\[Baraff and](#page-7-29) [Witkin, 1998\\]](#page-7-29), learning-based methods [\\[Tiwari](#page-8-27) *et al.*, 2021] or existing 3D animation workflows to obtain a synthesized UDP Ptar. CoNR focuses on the rendering task. Obtaining a suitable 3D mesh with all the body parts rigged and all clothing computed with proper",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 6,
+      "keywords": [
+        "LPIPS",
+        "SMPL",
+        "UDP",
+        "ID"
+      ],
+      "created_at": "2026-06-19T14:14:03.999682",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "a1faa29a-e837-4761-8a35-9a34c841d5a0",
+      "type": "general",
+      "title": "6 Conclusion",
+      "content": "In this paper, we explore a new task to render anime character images with the desired pose from multiple images in character sheets. We develop a UV-mapping-free method, CoNR, achieving encouraging effectiveness. We show the potential of this data-driven method in assisting animation art. We hope the method and the datasets presented in this paper will inspire our community and further researchers.",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 6,
+      "keywords": [
+        "UV"
+      ],
+      "created_at": "2026-06-19T14:14:03.999739",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "b6eeaf52-c2cd-4b9a-8378-959abb337129",
+      "type": "general",
+      "title": "References",
+      "content": "- <span id=\"page-7-17\"></span>[Alldieck *et al.*, 2019] Thiemo Alldieck, Gerard Pons-Moll, Christian Theobalt, and Marcus Magnor. Tex2shape: Detailed full human body geometry from a single image. In *International Conference on Computer Vision (ICCV)*, 2019. [3](#page-2-1)\n- <span id=\"page-7-19\"></span>[Anonymous *et al.*, 2021] Anonymous, Danbooru community, and Gwern Branwen. Danbooru2020: A large-scale crowdsourced and tagged anime illustration dataset. [https://www.gwern.net/](https://www.gwern.net/Danbooru2020) [Danbooru2020,](https://www.gwern.net/Danbooru2020) January 2021. Accessed: DATE. [4,](#page-3-0) [7,](#page-6-2) [10](#page-9-0)\n- <span id=\"page-7-8\"></span>[aydao, 2021] aydao. Website: This anime does not exist. [https:](https://thisanimedoesnotexist.ai) [//thisanimedoesnotexist.ai,](https://thisanimedoesnotexist.ai) 2021. [2](#page-1-1)\n- <span id=\"page-7-29\"></span>[Baraff and Witkin, 1998] David Baraff and Andrew Witkin. Large steps in cloth simulation. In *25th annual conference on Computer graphics and interactive techniques*, pages 43–54, 1998. [7](#page-6-2)\n- <span id=\"page-7-16\"></span>[Blanz and Vetter, 1999] Volker Blanz and Thomas Vetter. A morphable model for the synthesis of 3d faces. In *26th annual conference on Computer graphics and interactive techniques*, pages 187–194, 1999. [3](#page-2-1)\n- <span id=\"page-7-27\"></span>[Bogo *et al.*, 2016] Federica Bogo, Angjoo Kanazawa, Christoph Lassner, Peter Gehler, Javier Romero, and Michael J Black. Keep it smpl: Automatic estimation of 3d human pose and shape from a single image. In *European conference on computer vision (ECCV)*, 2016. [7](#page-6-2)\n- <span id=\"page-7-28\"></span>[Bradley *et al.*, 2008] Derek Bradley, Tiberiu Popa, Alla Sheffer, Wolfgang Heidrich, and Tamy Boubekeur. Markerless garment capture. In *ACM SIGGRAPH*, 2008. [7](#page-6-2)\n- <span id=\"page-7-10\"></span>[Cao *et al.*, 2019] Zhe Cao, Gines Hidalgo, Tomas Simon, Shih-En Wei, and Yaser Sheikh. Openpose: realtime m",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 7,
+      "keywords": [
+        "DATE",
+        "NIPS",
+        "AK",
+        "MICCAI"
+      ],
+      "created_at": "2026-06-19T14:14:04.001354",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "7457ab1e-44e5-4a01-8cea-518b3bac7c08",
+      "type": "general",
+      "title": "<span id=\"page-9-0\"></span>7 Appendix",
+      "content": "",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 10,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:04.001381",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "3c60fc7f-7c95-42d9-be5b-0c01d7ee48a8",
+      "type": "general",
+      "title": "7.1 Postscript",
+      "content": "Zuzeng Lin explored the idea of assisting anime creation with neural networks. He proposed CoNR as a baseline to solve consistency and artistic control issues at the end of the 2020. He did most of the experiments and wrote the first draft. He quit subsequent submissions because of receiving the negative reviews from CVPR2022 and ECCV2022. He was therefore no longer involved in the submissions to AAAI2023 and IJCAI2023, which were made by other authors. They revised the paper to its present state with various demos. Zuzeng appreciates the discussions with many people who are interested in this project and Live3D public beta users in Sept. 2021.",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 10,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:04.001462",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "d1738d9d-7f51-4af0-b1fc-8e3036fbf79d",
+      "type": "general",
+      "title": "7.2 Dataset Details",
+      "content": "The synthesized part of the dataset contains multiple-pose and multiple-view images. Each of them is paired with UDP annotations. A randomly-sampled subset of 3D mesh data obtained in the same way as in [Khungurn and Chou, 2016] was used in this work, which contains 2, 000 anime characters with more than 200 poses. The scope of permissions was confirmed before using existing assets in this work. The dataset contribution in this work is mostly about years of manual data clean-up, which includes converting mesh formats, restructuring the bone hierarchy, and aligning the A-poses before synthesizing RGB images for each pose, and their corresponding UDPs with MikuMikuDance (MMD) software.\n\nThe final dataset also contains unlabeled hand-drawn samples and one-shot samples, *i.e.* characters with the only single available pose, which are randomly sampled from existing datasets [Anonymous *et al.*, 2021; Jerry, 2017]. We keep the licenses of all 3D models and motions meet the usage and distribution requirements.",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 10,
+      "keywords": [
+        "RGB",
+        "MMD",
+        "UDP"
+      ],
+      "created_at": "2026-06-19T14:14:04.001564",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "cb635168-96b4-43cc-aaaa-a28e4a4b73cb",
+      "type": "general",
+      "title": "7.3 Experiment Details",
+      "content": "We make full use of the dataset by performing semisupervised learning. For the UDP Detector, we skip the  $\\mathcal{L}_{udp}$ when we do not have ground truth of the UDP. We will keep the  $\\mathcal{L}_{cons}$  to encourage the UDP Detector to make a same prediction of one character under k random augmentations.\n\nAs for the renderer, we have to reuse the image of the same pose multiple times to fill all the m views if the provided images in the character sheet are not enough. Random-crop augmentation is applied to  $\\mathbf{I}_m \\in \\mathbf{S}_{ref}$ ,  $\\hat{\\mathbf{P}}_{tar}$  and  $\\mathbf{I}_{tar}^{gt}$ . With the random-crop augmentation, in order to generate the image of body parts in the right position, CoNR has to learn a cross-modality feature matching instead of a trivial solution by simply selecting one of the provided images as the output.",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 10,
+      "keywords": [
+        "UDP"
+      ],
+      "created_at": "2026-06-19T14:14:04.001657",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "49e98544-3a78-46c3-b650-55ce81864c98",
+      "type": "general",
+      "title": "7.4 Comparison with Style Transfer",
+      "content": "To best of our knowledge, fusion of pose and texture for virtual character cannot be solved directly by implicit style transfer. As shown in Figure 8, SwapAE [Park *et al.*, 2020] fails in this scene.",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 10,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:04.001699",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "d8da84f5-f5a9-417f-94ba-4cddc5d36590",
+      "type": "general",
+      "title": "7.5 Relationship with Neural Digital Human System",
+      "content": "Some neural rendering systems can produce demos which may be similar to CoNR visually. For example, ANR [Raj et\n\nal., 2021] uses UV mapping, which requires the assumption that the characters essentially have a similar topology. The main difference is that CoNR may deal with more general situations such as hair and long skirts. In addition, real-world video is constrained by geometric consistency, but painting creation is not. For 2D animation, the existing methods can not even accurately identify the skeleton. This domain gap is a part of our motivation to explore UDP tailored for animation.\n\n<span id=\"page-10-1\"></span><span id=\"page-10-0\"></span>![](_page_10_Figure_0.jpeg)\n\nFigure 8: Evaluation results of Swapping Autoencoder (SwapAE) [Park *et al.*[, 2020\\]](#page-8-26) for Deep Image Manipulation. We trained a PyTorch implementation of SwapAE [Park *et al.*[, 2020\\]](#page-8-26) with pairs of images of different characters in our dataset. This figure, from the first to the last row, shows (a) the target pose image, (b) the reference image, (c) pose of a and texture of b, fused by SwapAE, (d) pose of b and texture of a, fused by SwapAE.",
+      "source_file": "invalid-pdf-structure-pdfminer-entire-doc.pdf",
+      "source_page": 10,
+      "keywords": [
+        "ANR",
+        "UV",
+        "UDP"
+      ],
+      "created_at": "2026-06-19T14:14:04.001816",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "heading"
+      }
+    }
+  ]
+}

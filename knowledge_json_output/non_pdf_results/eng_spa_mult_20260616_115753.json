@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "source_file": "eng_spa_mult.xml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "a4564f30-f4b6-402f-b1f1-3fb688403ec3",
+      "type": "faq",
+      "title": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<factbook>\n...",
+      "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<factbook>\n  <paragraph>\n    <content>All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.</content>\n  </paragraph>\n  <paragraph>\n    <content>All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. \"Todos los seres humanos nacen libres e iguales en dignidad y derechos y, dotados como están de razón y conciencia, deben comportarse fraternalmente los unos con los otros. Todos los seres humanos nacen libres e iguales en dignidad y derechos y, dotados como están de razón y conciencia, deben comportarse fraternalmente los unos con los otros.\"</content>\n  </paragraph>\n  <paragraph>\n    <content>All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.</content>\n  </paragraph>\n  <paragraph>\n    <content>All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.</content>\n  </paragraph>\n  <paragraph>\n    <content>\"Todos los seres humanos nacen libres e iguales en dignidad y derechos y, dotados como están de razón y conciencia, deben comportarse fraternalmente los unos con los otros. Todos los seres humanos nacen libres e iguales en dignidad y derechos y, dotados como están de razón y conciencia, deben comportarse fraternalmente los unos con los otros.\"</content>\n  </paragraph>\n</factbook>",
+      "source_file": "eng_spa_mult.xml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "They",
+        "All"
+      ],
+      "created_at": "2026-06-16T11:57:53.646733",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Data"
+      }
+    }
+  ]
+}

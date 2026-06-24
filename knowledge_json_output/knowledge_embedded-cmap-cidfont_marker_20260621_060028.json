@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "source_file": "embedded-cmap-cidfont.pdf",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "de28a1a4-0a25-4fcb-8df9-50d424b1d163",
+      "type": "general",
+      "title": "## Heading in Helvetica",
+      "content": "## Heading in Helvetica\n\nThis text uses an embedded CMap and should be extractable",
+      "source_file": "embedded-cmap-cidfont.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T13:45:51.846890",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "TechDocs"
+      }
+    }
+  ]
+}

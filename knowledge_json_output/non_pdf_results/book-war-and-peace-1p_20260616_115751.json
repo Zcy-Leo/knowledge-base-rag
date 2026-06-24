@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "source_file": "book-war-and-peace-1p.txt",
+  "total_entries": 12,
+  "entries": [
+    {
+      "id": "cb6aabec-ffc3-4a19-84f9-bad0ed75c5c3",
+      "type": "general",
+      "title": "\"Well, Prince, so Genoa and Lucca are now just fam...",
+      "content": "\"Well, Prince, so Genoa and Lucca are now just family estates of the\nBuonapartes. But I warn you, if you don't tell me that this means war,\nif you still try to defend the infamies and horrors perpetrated by that\nAntichrist--I really believe he is Antichrist--I will have nothing more\nto do with you and you are no longer my friend, no longer my 'faithful\nslave,' as you call yourself! But how do you do? I see I have frightened\nyou--sit down and tell me all the news.\"",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [
+        "Buonapartes",
+        "Antichrist"
+      ],
+      "created_at": "2026-06-16T11:57:51.424528",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "b1ee247b-3ce7-40b1-ba1b-5450bbd1b63a",
+      "type": "general",
+      "title": "It was in July, 1805, and the speaker was the well...",
+      "content": "It was in July, 1805, and the speaker was the well-known Anna Pavlovna\nScherer, maid of honor and favorite of the Empress Marya Fedorovna. With\nthese words she greeted Prince Vasili Kuragin, a man of high rank and\nimportance, who was the first to arrive at her reception. Anna Pavlovna\nhad had a cough for some days. She was, as she said, suffering from la\ngrippe; grippe being then a new word in St. Petersburg, used only by the\nelite.",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [
+        "Scherer",
+        "Anna",
+        "She",
+        "Petersburg"
+      ],
+      "created_at": "2026-06-16T11:57:51.424645",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "da38b242-0079-46fd-b52a-fb412aaec2da",
+      "type": "general",
+      "title": "All her invitations without exception, written in ...",
+      "content": "All her invitations without exception, written in French, and delivered\nby a scarlet-liveried footman that morning, ran as follows:",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [
+        "All"
+      ],
+      "created_at": "2026-06-16T11:57:51.424683",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "a65baffb-8d1c-4024-9ca1-f89cf1ae07c6",
+      "type": "general",
+      "title": "\"If you have nothing better to do, Count (or Princ...",
+      "content": "\"If you have nothing better to do, Count (or Prince), and if the\nprospect of spending an evening with a poor invalid is not too terrible,\nI shall be very charmed to see you tonight between 7 and 10--Annette\nScherer.\"",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [
+        "Scherer"
+      ],
+      "created_at": "2026-06-16T11:57:51.424742",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "cd0f3814-4dfe-458a-908f-83e6d56e8220",
+      "type": "general",
+      "title": "\"Heavens! what a virulent attack!\" replied the pri...",
+      "content": "\"Heavens! what a virulent attack!\" replied the prince, not in the least\ndisconcerted by this reception. He had just entered, wearing an\nembroidered court uniform, knee breeches, and shoes, and had stars on\nhis breast and a serene expression on his flat face. He spoke in that\nrefined French in which our grandfathers not only spoke but thought, and\nwith the gentle, patronizing intonation natural to a man of importance\nwho had grown old in society and at court. He went up to Anna Pavlovna,\nkissed her hand, presenting to her his bald, scented, and shining head,\nand complacently seated himself on the sofa.",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.424866",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "469f2f36-4c1d-4139-a27e-26bedae397bd",
+      "type": "general",
+      "title": "\"First of all, dear friend, tell me how you are. S...",
+      "content": "\"First of all, dear friend, tell me how you are. Set your friend's mind\nat rest,\" said he without altering his tone, beneath the politeness and\naffected sympathy of which indifference and even irony could be\ndiscerned.",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [
+        "Set"
+      ],
+      "created_at": "2026-06-16T11:57:51.424921",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "9a8d6fe0-0e3e-4542-b434-574aaf7537b2",
+      "type": "faq",
+      "title": "\"Can one be well while suffering morally? Can one ...",
+      "content": "\"Can one be well while suffering morally? Can one be calm in times like\nthese if one has any feeling?\" said Anna Pavlovna. \"You are staying the\nwhole evening, I hope?\"",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.424967",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "51e78ec5-8415-4f91-81d4-5d31092a3f91",
+      "type": "faq",
+      "title": "\"And the fete at the English ambassador's? Today i...",
+      "content": "\"And the fete at the English ambassador's? Today is Wednesday. I must\nput in an appearance there,\" said the prince. \"My daughter is coming for\nme to take me there.\"",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.425011",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "d37d12cb-fc77-46ed-a925-46cdb3608791",
+      "type": "general",
+      "title": "\"I thought today's fete had been canceled. I confe...",
+      "content": "\"I thought today's fete had been canceled. I confess all these\nfestivities and fireworks are becoming wearisome.\"",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.425043",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "03ec3089-122a-40ed-9c2b-a4be5fd4e980",
+      "type": "general",
+      "title": "\"If they had known that you wished it, the enterta...",
+      "content": "\"If they had known that you wished it, the entertainment would have been\nput off,\" said the prince, who, like a wound-up clock, by force of habit\nsaid things he did not even wish to be believed.",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.425094",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "505b20be-0ae4-4f4f-ac19-1c15fc3ee1fd",
+      "type": "general",
+      "title": "\"Don't tease! Well, and what has been decided abou...",
+      "content": "\"Don't tease! Well, and what has been decided about Novosiltsev's\ndispatch? You know everything.\"",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.425124",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "63039fd5-305f-46cf-930a-6f7a504dfd8f",
+      "type": "faq",
+      "title": "\"What can one say about it?\" replied the prince in...",
+      "content": "\"What can one say about it?\" replied the prince in a cold, listless\ntone. \"What has been decided? They have decided that Buonaparte has\nburnt his boats, and I believe that we are ready to burn ours.\"",
+      "source_file": "book-war-and-peace-1p.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.425174",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Books"
+      }
+    }
+  ]
+}

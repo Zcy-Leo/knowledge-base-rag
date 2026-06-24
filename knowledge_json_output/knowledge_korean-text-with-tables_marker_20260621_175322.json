@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "source_file": "korean-text-with-tables.pdf",
+  "total_entries": 8,
+  "entries": [
+    {
+      "id": "d03ecb05-d666-49ff-8a27-783a18118307",
+      "type": "general",
+      "title": "할인점·주유·온라인쇼핑몰 **1.5%** 빅포인트 적립",
+      "content": "",
+      "source_file": "korean-text-with-tables.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:20:24.242056",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "Samsung Card",
+        "topic": "Financial"
+      }
+    },
+    {
+      "id": "7d130d37-287f-42b1-a0cf-ca678e4ceae8",
+      "type": "table_data",
+      "title": "적립한도 없이 할인점·주유·온라인쇼핑몰 1.5% 빅포인트 적립 적립한도 없이 커피전문점·제과점·편의점 2% 빅포인트 적립",
+      "content": "| 업종     | 적립 대상                                                             |\n|--------|-------------------------------------------------------------------|\n| 할인점    | 이마트,<br>이마트<br>트레이더스,<br>롯데마트,<br>홈플러스                            |\n| 주유     | 모든<br>주유소                                                         |\n| 온라인쇼핑몰 | 삼성카드<br>쇼핑,<br>G마켓,<br>옥션,<br>11번가,<br>인터파크,<br>쿠팡,<br>티몬,<br>위메프 |\n\n- \\* 전월 이용금액 40만원 이상 시 제공\n- \\* 발급월+1개월까지는 전월 이용금액 40만원 미만 시에도 제공\n- \\* 할인점은 온라인몰도 포함되며, 기업형 슈퍼마켓(이마트 에브리데이, 홈플러스 익스프레스, 롯데슈퍼 등), 쇼핑 외 결제건 (상품권, 주차장 등), 임대매장은 제외\n- \\* 주유는 LPG충전소 포함",
+      "source_file": "korean-text-with-tables.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:20:24.242158",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "Samsung Card",
+        "topic": "Financial"
+      }
+    },
+    {
+      "id": "39f242a7-eee8-4b51-bdce-49541798e984",
+      "type": "table_data",
+      "title": "커피전문점·제과점·편의점 **2%** 빅포인트 적립",
+      "content": "| 업종    | 적립 대상                                                                                      |\n|-------|--------------------------------------------------------------------------------------------|\n| 커피전문점 | 스타벅스,<br>투썸플레이스,<br>카페베네,<br>탐앤탐스,<br>커피빈,<br>엔제리너스,<br>할리스커피,<br>파스쿠찌,<br>아티제,<br>폴<br>바셋 |\n| 제과점   | 파리바게뜨,<br>뚜레쥬르                                                                             |\n| 편의점   | CU,<br>GS25,<br>세븐일레븐,<br>미니스톱                                                             |\n\n- \\* 전월 이용금액 40만원 이상 시 제공\n- \\* 발급월+1개월까지는 전월 이용금액 40만원 미만 시에도 제공\n- \\* 커피전문점은 오프라인 결제건에 한하며, 임대매장은 제외 (단, 스타벅스의 경우, 사이렌오더 결제건도 혜택 제공)\n- \\* 제과점은 오프라인 결제건에 한하며, 백화점, 할인점, 쇼핑몰 등의 임대매장은 제외",
+      "source_file": "korean-text-with-tables.pdf",
+      "source_page": 1,
+      "keywords": [
+        "CU"
+      ],
+      "created_at": "2026-06-19T14:20:24.242243",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "Samsung Card",
+        "topic": "Financial"
+      }
+    },
+    {
+      "id": "85345a3f-eef8-4efd-a7b6-3e891079de5a",
+      "type": "general",
+      "title": "서비스 제공 기준",
+      "content": "",
+      "source_file": "korean-text-with-tables.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:20:24.242262",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "Samsung Card",
+        "topic": "Financial"
+      }
+    },
+    {
+      "id": "8c17bf89-4e8b-4e26-bfa2-4b458e9c34a8",
+      "type": "general",
+      "title": "전월 이용금액 기준",
+      "content": "매월 1일부터 말일까지 이용한 일시불 및 할부 이용금액",
+      "source_file": "korean-text-with-tables.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:20:24.242283",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "Samsung Card",
+        "topic": "Financial"
+      }
+    },
+    {
+      "id": "5e1fdd7e-a1a1-4664-a4f2-7b9846c6880b",
+      "type": "general",
+      "title": "전월 이용금액 제외 대상",
+      "content": "건강보험/국민연금/고용보험/산재보험 및 장애인 고용부담금, 국세/지방세/공과금, 대학 등록금, 대중교통, 택시, 아파트 관리비, 기프트/선불카드(포인트, 사이버머니 등 전자지급수단 포함) 구매 및 충전, 상품권 구매건",
+      "source_file": "korean-text-with-tables.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:20:24.242311",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "Samsung Card",
+        "topic": "Financial"
+      }
+    },
+    {
+      "id": "6802a338-8f6d-4af5-8f35-70bccdd4c776",
+      "type": "general",
+      "title": "적립 제외 대상",
+      "content": "무이자할부, 다이어트할부, 삼성카드 할인이 적용된 일시불 및 할부 이용금액, 기프트/선불카드(포인트, 사이버머니 등 전자지급수단 포함) 구매 및 충전, 상품권 구매건",
+      "source_file": "korean-text-with-tables.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:20:24.242334",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "Samsung Card",
+        "topic": "Financial"
+      }
+    },
+    {
+      "id": "2d1a19b2-0af3-4564-b92f-a883d928b7d0",
+      "type": "general",
+      "title": "기타",
+      "content": "- \\* 적립 혜택은 매출전표 접수 시점 기준으로 적용\n- \\* 삼성카드의 포인트는 빅포인트, 보너스포인트, 서비스포인트로 구분되며, 적립된 포인트는 합산하여 사용 가능(1 포인트 = 1원의 가치)\n- \\* 빅포인트의 유효기간은 5년으로, 유효기간 만료 시 월 단위로 자동 소멸\n- \\* 보너스클럽 이용 시 보너스포인트와 빅포인트 중 높은 적립률의 포인트 적립\n- \\* 포인트 사용에 대한 자세한 내용은 '삼성카드 홈페이지(PC, 모바일)' 에서 확인",
+      "source_file": "korean-text-with-tables.pdf",
+      "source_page": 1,
+      "keywords": [
+        "PC"
+      ],
+      "created_at": "2026-06-19T14:20:24.242374",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "Samsung Card",
+        "topic": "Financial"
+      }
+    }
+  ]
+}

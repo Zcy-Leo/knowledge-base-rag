@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "emoji.xlsx",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "201ede63-af32-4e6b-b075-63413883e6d1",
+      "type": "general",
+      "title": "Excel Table - {sheet_name}",
+      "content": "Sheet: {sheet_name}\n🤠😅",
+      "source_file": "emoji.xlsx",
+      "source_page": 0,
+      "keywords": [
+        "Sheet"
+      ],
+      "created_at": "2026-06-22T11:56:16.276999",
+      "metadata": {
+        "element_type": "excel_table",
+        "sheet": "Sheet1",
+        "parser": "openpyxl"
+      }
+    }
+  ]
+}

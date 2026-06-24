@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "source_file": "README.rst",
+  "total_entries": 9,
+  "entries": [
+    {
+      "id": "4d1292d1-aec0-49d5-aa2c-c586fe8a86a9",
+      "type": "general",
+      "title": "Example Docs\n------------",
+      "content": "Example Docs\n------------",
+      "source_file": "README.rst",
+      "source_page": 0,
+      "keywords": [
+        "Example"
+      ],
+      "created_at": "2026-06-22T11:56:56.468660",
+      "metadata": {
+        "element_type": "rst",
+        "parser": "markup"
+      }
+    },
+    {
+      "id": "89fc151a-c244-438f-a6ae-293f5a7de4d8",
+      "type": "general",
+      "title": "The sample docs directory contains the following f...",
+      "content": "The sample docs directory contains the following files:",
+      "source_file": "README.rst",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:56.468763",
+      "metadata": {
+        "element_type": "rst",
+        "parser": "markup"
+      }
+    },
+    {
+      "id": "86f8a19d-71d1-4086-b232-e93797e23a7c",
+      "type": "general",
+      "title": "-  ``example-10k.html`` - A 10-K SEC filing in HTM...",
+      "content": "-  ``example-10k.html`` - A 10-K SEC filing in HTML format\n-  ``layout-parser-paper.pdf`` - A PDF copy of the layout parser paper\n-  ``factbook.xml``/``factbook.xsl`` - Example XML/XLS files that you\n   can use to test stylesheets",
+      "source_file": "README.rst",
+      "source_page": 0,
+      "keywords": [
+        "PDF",
+        "XLS",
+        "XML",
+        "SEC",
+        "format",
+        "paper"
+      ],
+      "created_at": "2026-06-22T11:56:56.468963",
+      "metadata": {
+        "element_type": "rst",
+        "parser": "markup"
+      }
+    },
+    {
+      "id": "2edb4e2b-e96a-4d95-aa8e-8cc3afb7bc0a",
+      "type": "general",
+      "title": "These documents can be used to test out the parser...",
+      "content": "These documents can be used to test out the parsers in the library. In\naddition, here are instructions for pulling in some sample docs that are\ntoo big to store in the repo.",
+      "source_file": "README.rst",
+      "source_page": 0,
+      "keywords": [
+        "These"
+      ],
+      "created_at": "2026-06-22T11:56:56.469132",
+      "metadata": {
+        "element_type": "rst",
+        "parser": "markup"
+      }
+    },
+    {
+      "id": "f043dbc5-9181-419b-8bad-b54d3698b641",
+      "type": "general",
+      "title": "XBRL 10-K\n^^^^^^^^^",
+      "content": "XBRL 10-K\n^^^^^^^^^",
+      "source_file": "README.rst",
+      "source_page": 0,
+      "keywords": [
+        "XBRL"
+      ],
+      "created_at": "2026-06-22T11:56:56.469186",
+      "metadata": {
+        "element_type": "rst",
+        "parser": "markup"
+      }
+    },
+    {
+      "id": "a4fcc4dd-d872-47e7-a301-570cc16aefc3",
+      "type": "general",
+      "title": "You can get an example 10-K in inline XBRL format ...",
+      "content": "You can get an example 10-K in inline XBRL format using the following\n``curl``. Note, you need to have the user agent set in the header or the\nSEC site will reject your request.",
+      "source_file": "README.rst",
+      "source_page": 0,
+      "keywords": [
+        "SEC",
+        "XBRL",
+        "Note",
+        "format"
+      ],
+      "created_at": "2026-06-22T11:56:56.469361",
+      "metadata": {
+        "element_type": "rst",
+        "parser": "markup"
+      }
+    },
+    {
+      "id": "ba81a8ce-f7de-4a85-bc6c-873cab2343d4",
+      "type": "general",
+      "title": ".. code:: bash",
+      "content": ".. code:: bash",
+      "source_file": "README.rst",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:56.469428",
+      "metadata": {
+        "element_type": "rst",
+        "parser": "markup"
+      }
+    },
+    {
+      "id": "3b716c54-a924-4245-b61e-f0ef694b6cbb",
+      "type": "general",
+      "title": "curl -O \\\n     -A '${organization} ${email}'\n     ...",
+      "content": "curl -O \\\n     -A '${organization} ${email}'\n     https://www.sec.gov/Archives/edgar/data/311094/000117184321001344/0001171843-21-001344.txt",
+      "source_file": "README.rst",
+      "source_page": 0,
+      "keywords": [
+        "data"
+      ],
+      "created_at": "2026-06-22T11:56:56.469561",
+      "metadata": {
+        "element_type": "rst",
+        "parser": "markup"
+      }
+    },
+    {
+      "id": "a7fe9fdf-363b-4b96-b6c1-3d674a683a90",
+      "type": "general",
+      "title": "You can parse this document using the HTML parser.",
+      "content": "You can parse this document using the HTML parser.",
+      "source_file": "README.rst",
+      "source_page": 0,
+      "keywords": [
+        "HTML",
+        "document"
+      ],
+      "created_at": "2026-06-22T11:56:56.469634",
+      "metadata": {
+        "element_type": "rst",
+        "parser": "markup"
+      }
+    }
+  ]
+}

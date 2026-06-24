@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email-malformed-encoding.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "4f935175-0fe8-4389-87eb-d54b5dcdc6d0",
+      "type": "general",
+      "title": "MIME-Version: 1.0\r\nDate: Fri, 16 Dec 2022 17:04:16...",
+      "content": "MIME-Version: 1.0\r\nDate: Fri, 16 Dec 2022 17:04:16 -0500\r\nMessage-ID: <CADc-_xaLB2FeVQ7mNsoX+NJb_7hAJhBKa_zet-rtgPGenj0uVw@mail.gmail.com>\r\nSubject: Test Email\r\nFrom: Matthew Robinson <mrobinson@unstructured.io>\r\nTo: Matthew Robinson <mrobinson@unstructured.io>\r\nContent-Type: multipart/alternative; boundary=\"00000000000095c9b205eff92630\"\r\n\r\n--00000000000095c9b205eff92630\r\nContent-Type: text/plain; charset = \"UTF-8\"Content-Transfer-Encoding: 8bit\r\n\r\nThis is a test email to use for unit tests.\r\n\r\nImportant points:\r\n\r\n   - Roses are red\r\n   - Violets are blue\r\n\r\n--00000000000095c9b205eff92630\r\nContent-Type: text/html; charset = \"UTF-8\"Content-Transfer-Encoding: 8bit\r\n\r\n<div dir=\"ltr\"><div>This is a test email to use for unit tests.</div><div><br></div><div>Important points:</div><div><ul><li>Roses are red</li><li>Violets are blue</li></ul></div></div>\r\n\r\n--00000000000095c9b205eff92630--",
+      "source_file": "fake-email-malformed-encoding.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "MIME",
+        "Date",
+        "Fri",
+        "Message",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:15:59.861957",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    }
+  ]
+}

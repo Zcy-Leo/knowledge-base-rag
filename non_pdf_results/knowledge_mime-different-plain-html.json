@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-different-plain-html.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "90549aeb-90f4-4d8e-9b70-237e1780a92a",
+      "type": "general",
+      "title": "Email: {subject}",
+      "content": "From: {from_addr}\nTo: {to_addr}\nDate: {date}\nSubject: {subject}\n\n{body}",
+      "source_file": "mime-different-plain-html.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject"
+      ],
+      "created_at": "2026-06-22T11:56:15.808521",
+      "metadata": {
+        "element_type": "email",
+        "parser": "email"
+      }
+    }
+  ]
+}

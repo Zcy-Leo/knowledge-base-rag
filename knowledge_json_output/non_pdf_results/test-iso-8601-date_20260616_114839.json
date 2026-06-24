@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "source_file": "test-iso-8601-date.eml",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "e6b1d6a5-d2a9-4b92-91a2-d1d4d15baaf4",
+      "type": "general",
+      "title": "Date: 2025-07-29T12:42:06.000Z\nFrom: sender@exampl...",
+      "content": "Date: 2025-07-29T12:42:06.000Z\nFrom: sender@example.com\nTo: recipient@example.com\nSubject: Test a Z-suffix date",
+      "source_file": "test-iso-8601-date.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject",
+        "Test"
+      ],
+      "created_at": "2026-06-16T11:48:39.254337",
+      "metadata": {
+        "element_type": "text",
+        "company": "test iso 8601 date"
+      }
+    },
+    {
+      "id": "c350ae3e-cbee-499d-935c-14a2d4993297",
+      "type": "general",
+      "title": "This is a test-email.",
+      "content": "This is a test-email.",
+      "source_file": "test-iso-8601-date.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.254361",
+      "metadata": {
+        "element_type": "text",
+        "company": "test iso 8601 date"
+      }
+    }
+  ]
+}

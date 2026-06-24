@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "source_file": "negative-coords.pdf",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "1e7dd0ec-7e26-4e24-b26c-e5a9ac75b96c",
+      "type": "general",
+      "title": "![](_page_0_Picture_3.jpeg)",
+      "content": "![](_page_0_Picture_3.jpeg)",
+      "source_file": "negative-coords.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:26:18.981273",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    },
+    {
+      "id": "59c0b53d-228b-4f5e-aaca-4539bd5859c4",
+      "type": "general",
+      "title": "AirPort Extreme, Apple TV, Air<sup>P</sup>ods and Beats products) underwent no o...",
+      "content": "AirPort Extreme, Apple TV, Air<sup>P</sup>ods and Beats products) underwent no or only minor design changes compared to those which went through a full LCA review in former years. All reviewed LCA studies up to now cover in total 67.3% of the total scope 3 carbon footprint.",
+      "source_file": "negative-coords.pdf",
+      "source_page": 1,
+      "keywords": [
+        "LCA",
+        "TV"
+      ],
+      "created_at": "2026-06-19T14:26:18.981325",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    },
+    {
+      "id": "54dc9b76-173a-4acf-9a02-96d6ce7253e2",
+      "type": "general",
+      "title": "All questions raised in the course of the review were answered by Apple and rela...",
+      "content": "All questions raised in the course of the review were answered by Apple and related evidence was provided where needed.\n\n## 4 Conclusions",
+      "source_file": "negative-coords.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:26:18.981358",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    },
+    {
+      "id": "b104d6db-8a7d-4fe4-a97c-f52685b57f7d",
+      "type": "general",
+      "title": "Apple's assessment approach is excellent in terms of granularity of the used cal...",
+      "content": "Apple's assessment approach is excellent in terms of granularity of the used calculation data. A significant share of components is modelled with accurate primary data from Apple's suppliers.",
+      "source_file": "negative-coords.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:26:18.981407",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    },
+    {
+      "id": "97d29243-357d-4ae3-911f-bda015c9fe57",
+      "type": "general",
+      "title": "For all product LCA calculations, where exact data was missing, the principle of...",
+      "content": "For all product LCA calculations, where exact data was missing, the principle of a worstcase approach has been followed and results have been calculated with rather conservative estimates.",
+      "source_file": "negative-coords.pdf",
+      "source_page": 1,
+      "keywords": [
+        "LCA"
+      ],
+      "created_at": "2026-06-19T14:26:18.981443",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    },
+    {
+      "id": "48c0572a-a8c8-448e-a540-ba81ff383424",
+      "type": "general",
+      "title": "The review has not found assumptions or calculation errors on the carbon footpri...",
+      "content": "The review has not found assumptions or calculation errors on the carbon footprint data level that indicate the scope 3 carbon footprint has been materially misstated. The excellent analysis meets the principles of good scientific practice.\n\nBerlin, March 21, 2022\n\n- Karsten Schischke - - Marina Proske - Fraunhofer IZM Fraunhofer IZM\n\nDept. Environmental and Dept. Environmental and Reliability Engineering Reliability Engineering\n\n## **Reviewer Credentials and Qualification**\n\n**Karsten Schischke**: Experience and background in the field of Life Cycle Assessments include",
+      "source_file": "negative-coords.pdf",
+      "source_page": 1,
+      "keywords": [
+        "IZM"
+      ],
+      "created_at": "2026-06-19T14:26:18.981531",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    },
+    {
+      "id": "605bb140-437e-461c-bb53-93be44835f1d",
+      "type": "general",
+      "title": "- Life Cycle Assessment course and exam as part of the Environmental Engineering...",
+      "content": "- Life Cycle Assessment course and exam as part of the Environmental Engineering studies (Dipl.-Ing. Technischer Umweltschutz, Technische Universität Berlin, 1999)\n- more than 130 Critical Reviews of LCA studies since 2005 (batteries, displays, mobile devices, networked ICT equipment, home automation devices, servers, desktop computers, inverters, digital advertising solutions, smart cards) for 8 different industry clients and of the EPEAT Environmental Benefits Calculator",
+      "source_file": "negative-coords.pdf",
+      "source_page": 1,
+      "keywords": [
+        "LCA",
+        "EPEAT",
+        "ICT"
+      ],
+      "created_at": "2026-06-19T14:26:18.981594",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph"
+      }
+    }
+  ]
+}

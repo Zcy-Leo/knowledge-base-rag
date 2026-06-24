@@ -1,0 +1,87 @@
+[
+  {
+    "type": "Title",
+    "element_id": "a59f117741c76dca0bc8f5ee72e2010b",
+    "text": "My First Heading",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/html",
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/fake-html-cp1252.html"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "82eda2671c5ead903683b67b0f8e3f29",
+    "text": "My first paragraph.",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/html",
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/fake-html-cp1252.html"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "d536ba7636a9a4603a81b358d1fe2590",
+    "text": "Some text with CP1252-specific characters:",
+    "metadata": {
+      "languages": [
+        "eng"
+      ],
+      "filetype": "text/html",
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/fake-html-cp1252.html"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "CodeSnippet",
+    "element_id": "3b8ca5305e52587b8fbbfcd994de0667",
+    "text": "Die schöne Frau hat einen Kaffee mit Kuchen gegessen. Sie sagte: \"Das war köstlich!\" und lächelte dabei. Der Preis betrug 15,50 €.\nL'été était trčs chaud cette année. J'ai acheté un café au lait pour 3,50 €. C'était délicieux ! L'homme a dit : \"C'est parfait !\"\nEl nińo comió paella con ńoquis. La seńora dijo: \"ˇQué rico!\" y pagó 25,75 €. El restaurante tenía un menú del día.\nKvinnan ĺt köttbullar med lingonsylt. Hon sa: \"Det var fantastiskt!\" och betalade 45,90 €. Mannen frĺgade: \"Vill du ha mer?\"\nO Joăo comprou um café por 2,50 €. Ele disse: \"Está ótimo!\" e sorriu. A mulher perguntou: \"Quer mais alguma coisa?\"\nDe vrouw dronk koffie met koekjes. Ze zei: \"Het was heerlijk!\" en betaalde 4,25 €. Het kind vroeg: \"Mag ik ook wat?\"",
+    "metadata": {
+      "languages": [
+        "fra",
+        "nld"
+      ],
+      "filetype": "text/html",
+      "data_source": {
+        "record_locator": {
+          "path": "/home/runner/work/unstructured/unstructured/example-docs/fake-html-cp1252.html"
+        },
+        "permissions_data": [
+          {
+            "mode": 33188
+          }
+        ]
+      }
+    }
+  }
+]

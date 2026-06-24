@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "source_file": "example-list-items-multiple.docx",
+  "total_entries": 14,
+  "entries": [
+    {
+      "id": "c0191f9e-f05f-417e-ac09-28c619f501ca",
+      "type": "general",
+      "title": "Lorem Ipsum",
+      "content": "Lorem Ipsum",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "Lorem"
+      ],
+      "created_at": "2026-06-22T11:57:38.529729",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "d7938f1d-3c79-4c57-847b-3d30fa921efb",
+      "type": "general",
+      "title": "This is simply dummy text of the printing and type...",
+      "content": "This is simply dummy text of the printing and typesetting industry.",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.530209",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "4c46b849-5d08-4c6c-a33c-ea8be255476a",
+      "type": "general",
+      "title": "This is simply dummy text of the printing and type...",
+      "content": "This is simply dummy text of the printing and typesetting industry.",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.530589",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "eeba5c2e-1da7-4be5-a86d-c766fcb80451",
+      "type": "general",
+      "title": "Lorem Ipsum 2",
+      "content": "Lorem Ipsum 2",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "Lorem"
+      ],
+      "created_at": "2026-06-22T11:57:38.530929",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "e44bd47d-f3f2-471e-896a-0ee388f72295",
+      "type": "general",
+      "title": "This is simply dummy text of the printing and type...",
+      "content": "This is simply dummy text of the printing and typesetting industry.",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.531287",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "67f924d2-53dd-4133-995c-5bba0d3b9cb9",
+      "type": "general",
+      "title": "This is simply dummy text of the printing and type...",
+      "content": "This is simply dummy text of the printing and typesetting industry.",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.531753",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "3e7eeeb6-a1a5-4e14-bb27-7045388d28fb",
+      "type": "general",
+      "title": "The quick brown fox jumps over the lazy dog.",
+      "content": "The quick brown fox jumps over the lazy dog.",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.532267",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "75c11989-1fec-4198-80b7-3e026a179092",
+      "type": "general",
+      "title": "The quick brown fox jumps over the lazy dog.",
+      "content": "The quick brown fox jumps over the lazy dog.",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.532590",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "be1ee05c-3640-4799-b442-3e01469877d4",
+      "type": "general",
+      "title": "Lorem Ipsum 3",
+      "content": "Lorem Ipsum 3",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "Lorem"
+      ],
+      "created_at": "2026-06-22T11:57:38.532896",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "68130e51-5089-432f-a4b5-8e3b59827479",
+      "type": "general",
+      "title": "Test text.",
+      "content": "Test text.",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "Test",
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.533172",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "20c0bdbb-8c54-4387-b852-a792d1cce9f0",
+      "type": "general",
+      "title": "Trying various lists.",
+      "content": "Trying various lists.",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "Trying"
+      ],
+      "created_at": "2026-06-22T11:57:38.533392",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "List Paragraph",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "a0519d08-d029-4356-bc6a-38bb93261d7a",
+      "type": "general",
+      "title": "Trying various lists.",
+      "content": "Trying various lists.",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "Trying"
+      ],
+      "created_at": "2026-06-22T11:57:38.533568",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "List Paragraph",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "cdd52045-f54d-4335-b14d-b97550fbab06",
+      "type": "general",
+      "title": "Trying more lists.",
+      "content": "Trying more lists.",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "Trying"
+      ],
+      "created_at": "2026-06-22T11:57:38.533760",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "List Paragraph",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "594088b0-f3dc-422a-8db3-31f09e202316",
+      "type": "general",
+      "title": "This is simply dummy text of the printing and type...",
+      "content": "This is simply dummy text of the printing and typesetting industry.",
+      "source_file": "example-list-items-multiple.docx",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.533941",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "List Paragraph",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

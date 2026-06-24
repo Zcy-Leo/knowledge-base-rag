@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "source_file": "pdf-bad-color-space (1).pdf",
+  "total_entries": 5,
+  "entries": [
+    {
+      "id": "d2dba377-98ab-4d82-87c4-1e9d2f3943f2",
+      "type": "general",
+      "title": "**Net-zero carbon**",
+      "content": "We aim to achieve net-zero emissions across all of our operations and value chain by 2030",
+      "source_file": "pdf-bad-color-space (1).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:58:07.951687",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "31b59307-acaf-47d7-bd24-b7c974741b09",
+      "type": "general",
+      "title": "**Our ambition**",
+      "content": "",
+      "source_file": "pdf-bad-color-space (1).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:58:07.951751",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "97ad0453-9c9b-4a74-9cd9-5f283ebd5ca0",
+      "type": "general",
+      "title": "**Our approach**",
+      "content": "Measuring our carbon footprint\n\nReducing carbon emissions\n\nAdvancing carbon-free energy\n\nManaging residual emissions\n\n**The journey ahead**",
+      "source_file": "pdf-bad-color-space (1).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:58:07.951832",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "fb82127e-6013-4c62-93e2-7424db088674",
+      "type": "general",
+      "title": "**Our ambition**",
+      "content": "The United Nations Intergovernmental Panel on Climate Change is unequivocal: climate change is an urgent threat to human well-being and the health of the planet. 66 While the last several years have seen significant progress in mobilizing the global community to take more ambitious climate action, the world isn't on track to meet the targets established by the Paris Agreement to limit temperature rise to 1.5°C. 67\n\nAt Google, we're working to accelerate the transition to a carbon-free future. We know that our responsibility begins with our own carbon footprint, which is why we've taken significant steps over the past two decades to minimize our own emissions. In 2021, we set our most ambitious goal yet: to achieve **net-zero emissions** across all of our operations and value chain by 2030. To accomplish this, we aim to reduce 50% of our combined Scope 1, Scope 2 (marketbased), and Scope 3 absolute emissions (versus our 2019 baseline) before 2030, and plan to invest in nature-based and technology-based carbon removal solutions to neutralize our remaining emissions. We've formally committed to the [Science Based Targets initiative](https://sciencebasedtargets.org/about-us) (SBTi) to seek their validation of our absolute emissions reduction target.\n\nOne of the key levers for reducing emissions from our operations is transitioning to clean energy. Energy use contributes to a significant share of our carbon footprint due to the electricity needs of our operations—in particular, our data centers. That's why, in 2020, we set a goal to\n\noperate our data centers and office campuses on **24/7 carbon-free energy** on every grid where we operate by 2030 (24/7 CFE). We've been working hard to transition our operations and the electricity grids that serve us to cleaner sources of power, through a combination of clean energy procurement, technology innovation, and policy advocacy. And we expect our work to decarbonize electricity grids where we operate to contribute to decarboniza",
+      "source_file": "pdf-bad-color-space (1).pdf",
+      "source_page": 1,
+      "keywords": [
+        "CFE"
+      ],
+      "created_at": "2026-06-19T14:58:07.952153",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "ef5f9891-d0b0-48c9-add8-b53bc7d2d56c",
+      "type": "general",
+      "title": "**Charting our path**",
+      "content": "Achieving net-zero emissions and 24/7 CFE by 2030 are extremely ambitious goals—what we call \"moonshots.\" We also know that our path to net-zero emissions won't be easy or linear; it may require us to navigate significant uncertainty and deploy new systems and technologies across our business. Some of our plans will take years to deliver their full results, particularly where they involve building new large-scale infrastructure with long lead times. So as our business continues to evolve, we expect our emissions to rise before dropping towards our absolute emissions reduction target.\n\nIn our **third decade of climate action**, we recognize that we can't achieve our goals alone. Transitioning to a carbonfree future will require stronger government policies and partnerships with many other organizations, as well as new technologies and structural changes to the broader systems that serve our operations and value chain, such as electricity grids and hardware supply chains.",
+      "source_file": "pdf-bad-color-space (1).pdf",
+      "source_page": 1,
+      "keywords": [
+        "CFE"
+      ],
+      "created_at": "2026-06-19T14:58:07.952325",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    }
+  ]
+}

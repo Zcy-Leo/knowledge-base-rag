@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "source_file": "docx-shapes.docx",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "90a27d41-c535-4068-bf85-32ae73d90fe3",
+      "type": "general",
+      "title": "Paragraph with single  within.",
+      "content": "Paragraph with single  within.",
+      "source_file": "docx-shapes.docx",
+      "source_page": 0,
+      "keywords": [
+        "Paragraph"
+      ],
+      "created_at": "2026-06-22T11:57:38.388265",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "45cbfd34-3e8f-4c10-b484-7df02fb46353",
+      "type": "general",
+      "title": "Paragraph with  and  within.",
+      "content": "Paragraph with  and  within.",
+      "source_file": "docx-shapes.docx",
+      "source_page": 0,
+      "keywords": [
+        "Paragraph"
+      ],
+      "created_at": "2026-06-22T11:57:38.388586",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "826b6128-9201-4bb8-809a-3bb80e484bd5",
+      "type": "general",
+      "title": "Paragraph with floating shape attached.",
+      "content": "Paragraph with floating shape attached.",
+      "source_file": "docx-shapes.docx",
+      "source_page": 0,
+      "keywords": [
+        "Paragraph"
+      ],
+      "created_at": "2026-06-22T11:57:38.388791",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}
