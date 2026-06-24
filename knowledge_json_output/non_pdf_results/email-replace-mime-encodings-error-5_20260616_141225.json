@@ -1,0 +1,405 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-replace-mime-encodings-error-5.eml",
+  "total_entries": 21,
+  "entries": [
+    {
+      "id": "71c454eb-1e60-4e1e-8a31-6ceb448a8144",
+      "type": "general",
+      "title": "X-Gmail-Labels: Archived,Important,Category Person...",
+      "content": "X-Gmail-Labels: Archived,Important,Category Personal,Unread\nDelivered-To: email@domain.com\nReceived: by 2002:a05:6520:817:b0:1a2:7c89:3418 with SMTP id x23csp756888lkw;\n        Tue, 1 Mar 2022 08:19:13 -0800 (PST)\nX-Received: by 2002:adf:e288:0:b0:1e3:36c0:91cc with SMTP id v8-20020adfe288000000b001e336c091ccmr19869924wri.41.1646151552405;\n        Tue, 01 Mar 2022 08:19:12 -0800 (PST)\nARC-Seal: i=1; a=rsa-sha256; t=1646151552; cv=none;\n        d=google.com; s=arc-20160816;\n        b=sqbVp767fwHgTbmrtHYBxS6XKXmYaj6Mj5wKgU0HQQVdkpmK1B4TmiQhmL6Zlku37l\n         IvphTws0zvFrQNEVbet+HAs+7vlYmgTT+wFEAPcZsxyusK8sVfyQlflHM7KCNpVouTFd\n         nG7i2MVvqPkv31cWwJPLExH132Qb3nm+ljeKLIvUySE1gYSE0iCUwUV3HbwFiXGwjoXQ\n         0gzr1CQPetZVCtc6WH1MbxuUgA7zT/HrAfDnQ4WhzKT8OGI9HXkBUSIjldK5MPPIlXDP\n         yM5E1JcyXSggO0TAe0NIPT7DItBI2wfbsjZtuuODAWn/uEdWg1ZDSYbZM5GmqoVwqo1/\n         f+FQ==\nARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;\n        h=disposition-notification-to:content-language:thread-index\n         :mime-version:message-id:date:subject:to:from:return-receipt-to\n         :dkim-signature;\n        bh=sUM/mzXzhmvAhGNBm0ixfcL+oTRsIxvcPLzmtDd6JTk=;\n        b=PF26qwPysVyBvAxXt5rztVry20hCdKgU+jUPtN+BDlP0PwqyToFw+fX70H8heERWoi\n         XrqogHtzK0ErtELAi2ebBaxWbrItYOWxisA/Bx7LzURKDsJV9OK6YgHQfYSNfs6/YnUw\n         6xHK7pmA4Pb9r/783mpABZrdLDQUOAYJNAmnfxEQxi6+1+vW6g5EftuSEteKU/ipINMY\n         v1lFTxhJvW2EjNIBAD5SzmosDeV+WPYgpMguvARAkX9uB/c3GENcI6AQCqfBSqpr/+lu\n         vF5jzwCIQLGEZ9WUCx7MMea4Q+zMpqRUU1tQB295TJXOc418vOH1S4zDC5EHNq37lqGy\n         /Byw==\nARC-Authentication-Results: i=1; mx.google.com;\n       dkim=pass header.i=@cw-event.com header.s=google header.b=\"h/6eaAUk\";\n       spf=pass (google.com: domain of email@domain.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=email@domain.com\nReturn-Path: <email@domain.com>\nReceived: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\n        by mx.google.com with SMTPS id i12-20020adfaacc000000b001ede4df6ef4sor1543550wrc.8.2022.03.01.08.19.12\n        for <email@domain.com>\n        (Google Transport Security);\n        Tue, 01 Mar 2022 08:19:12 -0800 (PST)\nReceived-SPF: pass (google.com: domain of email@domain.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;\nAuthentication-Results: mx.google.com;\n       dkim=pass header.i=@cw-event.com header.s=google header.b=\"h/6eaAUk\";\n       spf=pass (google.com: domain of email@domain.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=email@domain.com\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\n        d=cw-event.com; s=google;\n        h=return-receipt-to:from:to:subject:date:message-id:mime-version\n         :thread-index:content-language:disposition-notification-to;\n        bh=sUM/mzXzhmvAhGNBm0ixfcL+oTRsIxvcPLzmtDd6JTk=;\n        b=h/6eaAUkGO/TVie01ViWyEW5xNeH+iYEstzSZjjpcqgwf4m7+OZgKV+x5n1oU5nhlk\n         VWbjGb0jvrKxv8jtP6E29NwxlP/JYxhhZgrcBisWlmK/jt4thqaGumcNSRnww5wfvvZS\n         TX7Dci1YkNt8FnRh6YhF9aS4U1dm3lywElV+2dy/bYwDuKtLI8xHmRyaFc/MTUCy4SgQ\n         SX22kIeJeJx1Lo27mE4y3ehz52LUjav5xZFVS1m+CuFoVkq3193Srmd2Sq236nxgEOc1\n         Yaj2YbM7WZpq4K4cHEGlhqDlz055FR4HONqipphhJn5+wKhRd6PSir+Ybvm33gUQ8A6e\n         Y5Wg==\nX-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\n        d=1e100.net; s=20210112;\n        h=x-gm-message-state:return-receipt-to:from:to:subject:date\n         :message-id:mime-version:thread-index:content-language\n         :disposition-notification-to;\n        bh=sUM/mzXzhmvAhGNBm0ixfcL+oTRsIxvcPLzmtDd6JTk=;\n        b=0t7wxPAekKSEalNw5rSlKx0YovW/yPrSKAdf0SAxPmoquhvtgudQIKP3Fgk4wyFeRC\n         OOOaV2+HYE62Yw6ZfI1Tc1EthlIiO1q4VCanWp9+ayEWhp9sEoZSOapOLRRoUZ/HDMh3\n         NFh1cPPymperx5qz5c++iTCV7zfILJhaVciGfzXohxmoigivOPpYT6UHLcbuYbzkpiey\n         Gble858k9BPyxAbHsGaAjejIOyqvi2RVjSFbsCFMOCpG8gwnYPWeBz6GEIEupPBUjGu3\n         fiossxEFPKZSG8cox2Pp6E8cRbOxPF8KTNKn81iKVuetRtynpn0QdAj7pPjYB27Fwqa3\n         Nbsg==\nX-Gm-Message-State: AOAM5333lpipEiofVOQP2wqjMdGnqV2V8MU87XZOIerVGl+c6AAh6L69\n\tzzW+MEDbU718WfyyNPr9XRfooBO/6JBDzIl2\nX-Google-Smtp-Source: ABdhPJxGjQAK7WGXUeCgYI81hmJG35ug3C87H19fUPxqDeiMcnnmWasEX7R9GYVg4uAI1qVkce8UKg==\nX-Received: by 2002:a05:6000:1814:b0:1f0:21f4:399e with SMTP id m20-20020a056000181400b001f021f4399emr1976636wrh.188.1646151549580;\n        Tue, 01 Mar 2022 08:19:09 -0800 (PST)\nReturn-Path: <email@domain.com>\nReceived: from AsieduCW ([102.176.94.103])\n        by smtp.gmail.com with ESMTPSA id i20-20020a05600c355400b0038164ef5418sm3238165wmq.32.2022.03.01.08.19.04\n        for <email@domain.com>\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\n        Tue, 01 Mar 2022 08:19:08 -0800 (PST)\nReturn-Receipt-To: \"Someone\" <email@domain.com>\nFrom: \"Someone\" <email@domain.com>\nTo: <email@domain.com>\nSubject: GLOBAL SPONSORSHIP OPPORTUNITY - BIOPROCESSING SUMMIT\nDate: Tue, 1 Mar 2022 08:19:03 -0800\nMessage-ID: <0a3901d82d88$125ebb30$371c3190$@cw-event.com>\nMIME-Version: 1.0\nContent-Type: multipart/mixed;\n\tboundary=\"----=_NextPart_000_0A3A_01D82D45.043B7B30\"\nX-Mailer: Microsoft Outlook 16.0\nThread-Index: AdgtiA4u3uKdslQZSg6fty2sxNxmfw==\nContent-Language: en-us\nDisposition-Notification-To: \"Someone\" <email@domain.com>",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "SPF",
+        "ARC",
+        "OPPORTUNITY",
+        "GLOBAL",
+        "Archived",
+        "Delivered",
+        "Received"
+      ],
+      "created_at": "2026-06-16T14:12:25.586884",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "2f5cfabd-6ee0-4bfd-b615-f23275c12972",
+      "type": "general",
+      "title": "This is a multipart message in MIME format.",
+      "content": "This is a multipart message in MIME format.",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "format"
+      ],
+      "created_at": "2026-06-16T14:12:25.586920",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "eae3cd9c-d3c2-4f49-bd82-62d951bbbd2a",
+      "type": "general",
+      "title": "------=_NextPart_000_0A3A_01D82D45.043B7B30\nConten...",
+      "content": "------=_NextPart_000_0A3A_01D82D45.043B7B30\nContent-Type: multipart/alternative;\n\tboundary=\"----=_NextPart_001_0A3B_01D82D45.043B7B30\"",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content"
+      ],
+      "created_at": "2026-06-16T14:12:25.586951",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "c71f8273-b801-488b-9e8a-f89fb1695f25",
+      "type": "general",
+      "title": "------=_NextPart_001_0A3B_01D82D45.043B7B30\nConten...",
+      "content": "------=_NextPart_001_0A3B_01D82D45.043B7B30\nContent-Type: text/plain;\n\tcharset=\"us-ascii\"\nContent-Transfer-Encoding: 7bit",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.586983",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "d97d0153-1545-4d9c-abc8-34f8cb93f170",
+      "type": "general",
+      "title": "Events Sponsorship department",
+      "content": "Events Sponsorship department",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Events"
+      ],
+      "created_at": "2026-06-16T14:12:25.586999",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "85b2086c-cca2-466f-8de7-ab30a2276e22",
+      "type": "general",
+      "title": "I am contacting you regarding a sponsorship opport...",
+      "content": "I am contacting you regarding a sponsorship opportunity at our upcoming\nBioprocessing Summit, which will take place on 21st - 22nd April, 2022 |\nBerlin, Germany.",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Bioprocessing",
+        "Berlin"
+      ],
+      "created_at": "2026-06-16T14:12:25.587041",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "ae0371b4-66b1-4f01-8846-8a3766d66bba",
+      "type": "general",
+      "title": "Find attached the agenda the of the event.",
+      "content": "Find attached the agenda the of the event.",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Find"
+      ],
+      "created_at": "2026-06-16T14:12:25.587062",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "6ca34afb-b053-4355-ab89-ab333ccf449b",
+      "type": "general",
+      "title": "Our exhibition/sponsorship packages offer a wide r...",
+      "content": "Our exhibition/sponsorship packages offer a wide range of opportunities\nlike:",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Our"
+      ],
+      "created_at": "2026-06-16T14:12:25.587087",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "456864db-5187-4b48-bc5d-db537796eb2c",
+      "type": "general",
+      "title": ". Speaking slots to share your experience with a s...",
+      "content": ". Speaking slots to share your experience with a senior audience",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Speaking"
+      ],
+      "created_at": "2026-06-16T14:12:25.587150",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "8d9ead7e-e428-4437-b049-50566f00a39c",
+      "type": "general",
+      "title": ". Exhibition locations to develop relationships wi...",
+      "content": ". Exhibition locations to develop relationships with your target market",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Exhibition"
+      ],
+      "created_at": "2026-06-16T14:12:25.587240",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "89af7155-2f6d-4756-af2b-0e6f8728fce8",
+      "type": "general",
+      "title": ". Marketing visibility to improve your reputation ...",
+      "content": ". Marketing visibility to improve your reputation within the industry etc.",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Marketing"
+      ],
+      "created_at": "2026-06-16T14:12:25.587271",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "fb612f73-5eeb-4839-b5a6-7f0432750b85",
+      "type": "general",
+      "title": ". Wish list of companies you want to meet can be p...",
+      "content": ". Wish list of companies you want to meet can be provided to us so we can\ninvite them for you",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Wish"
+      ],
+      "created_at": "2026-06-16T14:12:25.587307",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "cf18d75d-c017-4aee-8ad9-25d3ff4a1d06",
+      "type": "general",
+      "title": ". One-to-one meetings if you wish to meet some spe...",
+      "content": ". One-to-one meetings if you wish to meet some specific people on our\nparticipants list",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "One"
+      ],
+      "created_at": "2026-06-16T14:12:25.587337",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "48dd912e-3cb4-4d8f-b98a-164c683a8fbd",
+      "type": "general",
+      "title": "The summit will bring together C-level decision ma...",
+      "content": "The summit will bring together C-level decision makers from a range of\nindustries such as Biotechnology, Pharmaceuticals, Machinery, Food\nProduction, Food & Beverages etc",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Production"
+      ],
+      "created_at": "2026-06-16T14:12:25.587433",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "a5fbd26d-b3b7-4bfc-8770-ea92aabca510",
+      "type": "general",
+      "title": "Expected companies include ThermoFisher, Takeda, S...",
+      "content": "Expected companies include ThermoFisher, Takeda, Sanofi, Abbvie, Novartis,\nRepligen, GSK, AstraZeneca, Merck serona etc. In terms of audience\nexpectation, we anticipate around 150+ attendees based on previous events.",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "GSK",
+        "Expected",
+        "Repligen"
+      ],
+      "created_at": "2026-06-16T14:12:25.587489",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "b21d0f15-a77d-45ff-8dbd-906c6c9d1d3d",
+      "type": "general",
+      "title": "Please note that a limited number of sponsor slots...",
+      "content": "Please note that a limited number of sponsor slots are reserved in the\nagenda and will be considered on a first come first served basis. If this\nopportunity is something that you would like to explore, please let me know\nso I can send the sponsorship packages for your consideration. You can also\nrequest for the packages from our website  <http://www.randomworld.com>\nwww.randomworld.com",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Please",
+        "note"
+      ],
+      "created_at": "2026-06-16T14:12:25.587582",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "c914acbc-afa2-4e84-96c7-15b79cd71150",
+      "type": "general",
+      "title": "If you are not the responsible person, please shar...",
+      "content": "If you are not the responsible person, please share the information with the\nrelevant persons. Thank you and I look forward to hearing from you.",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Thank"
+      ],
+      "created_at": "2026-06-16T14:12:25.587651",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "c81356cc-11d9-42d0-96f7-30a5ef3213d5",
+      "type": "general",
+      "title": "Someone| Project Manager",
+      "content": "Someone| Project Manager",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Someone"
+      ],
+      "created_at": "2026-06-16T14:12:25.587670",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "451e9106-16f0-40dc-abb0-f653ac344b6f",
+      "type": "general",
+      "title": "Email:  <mailto:email@domain.com> email@domain.com",
+      "content": "Email:  <mailto:email@domain.com> email@domain.com",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Email"
+      ],
+      "created_at": "2026-06-16T14:12:25.587693",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "6253e3e2-955e-4c85-9aac-da4cdf5f3ee4",
+      "type": "general",
+      "title": "------=_NextPart_001_0A3B_01D82D45.043B7B30\nConten...",
+      "content": "------=_NextPart_001_0A3B_01D82D45.043B7B30\nContent-Type: text/html;\n\tcharset=\"us-ascii\"\nContent-Transfer-Encoding: quoted-printable",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.587729",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    },
+    {
+      "id": "1d2566c4-dfaf-4d4c-b432-07ad136b2969",
+      "type": "general",
+      "title": "<html xmlns:v=3D\"urn:schemas-microsoft-com:vml\" =\n...",
+      "content": "<html xmlns:v=3D\"urn:schemas-microsoft-com:vml\" =\nxmlns:o=3D\"urn:schemas-microsoft-com:office:office\" =\nxmlns:w=3D\"urn:schemas-microsoft-com:office:word\" =\nxmlns:m=3D\"http://schemas.microsoft.com/office/2004/12/omml\" =\nxmlns=3D\"http://www.w3.org/TR/REC-html40\"><head><META =\nHTTP-EQUIV=3D\"Content-Type\" CONTENT=3D\"text/html; =\ncharset=3Dus-ascii\"><meta name=3DGenerator content=3D\"Microsoft Word 15 =\n(filtered medium)\"><style><!--\n/* Font Definitions */\n@font-face\n\t{font-family:\"Cambria Math\";\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\n@font-face\n\t{font-family:Calibri;\n\tpanose-1:2 15 5 2 2 2 4 3 2 4;}\n/* Style Definitions */\np.MsoNormal, li.MsoNormal, div.MsoNormal\n\t{margin:0in;\n\tfont-size:11.0pt;\n\tfont-family:\"Calibri\",sans-serif;}\na:link, span.MsoHyperlink\n\t{mso-style-priority:99;\n\tcolor:#0563C1;\n\ttext-decoration:underline;}\nspan.EmailStyle17\n\t{mso-style-type:personal-compose;\n\tfont-family:\"Calibri\",sans-serif;\n\tcolor:windowtext;}\n.MsoChpDefault\n\t{mso-style-type:export-only;\n\tfont-family:\"Calibri\",sans-serif;}\n@page WordSection1\n\t{size:8.5in 11.0in;\n\tmargin:1.0in 1.0in 1.0in 1.0in;}\ndiv.WordSection1\n\t{page:WordSection1;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext=3D\"edit\" spidmax=3D\"1026\" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext=3D\"edit\">\n<o:idmap v:ext=3D\"edit\" data=3D\"1\" />\n</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US =\nlink=3D\"#0563C1\" vlink=3D\"#954F72\" style=3D'word-wrap:break-word'><div =\nclass=3DWordSection1><p class=3DMsoNormal><a name=3D\"_Hlk88112840\"><span =\nlang=3DEN-GB>To the attention of:<o:p></o:p></span></a></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>Marketing department<o:p></o:p></span></span></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>Sales department<o:p></o:p></span></span></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>Events Sponsorship =\ndepartment<o:p></o:p></span></span></p><p class=3DMsoNormal><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB><o:p>&nbsp;</o:p></span></span></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>I am contacting you regarding a sponsorship opportunity at =\nour upcoming <b><span =\nstyle=3D'color:#222222;background:white'>Bioprocessing =\nSummit</span></b><span style=3D'color:#222222;background:white'>,</span> =\nwhich will take place on <b><span =\nstyle=3D'color:#222222;background:white'>21st &#8211; 22nd April, 2022 | =\nBerlin, Germany.</span></b><o:p></o:p></span></span></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB><o:p>&nbsp;</o:p></span></span></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>Find attached the agenda the of the =\nevent.<o:p></o:p></span></span></p><p class=3DMsoNormal><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB><o:p>&nbsp;</o:p></span></span></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>Our exhibition/sponsorship packages offer a wide range of =\nopportunities like:<o:p></o:p></span></span></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>&#8226; Speaking slots to share your experience with a =\nsenior audience<o:p></o:p></span></span></p><p class=3DMsoNormal><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span lang=3DEN-GB>&#8226; =\nExhibition locations to develop relationships with your target =\nmarket<o:p></o:p></span></span></p><p class=3DMsoNormal><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span lang=3DEN-GB>&#8226; Marketing =\nvisibility to improve your reputation within the industry =\netc.<o:p></o:p></span></span></p><p class=3DMsoNormal><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span lang=3DEN-GB>&#8226; Wish list =\nof companies you want to meet can be provided to us so we can invite =\nthem for you<o:p></o:p></span></span></p><p class=3DMsoNormal><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span lang=3DEN-GB>&#8226; =\nOne-to-one meetings if you wish to meet some specific people on our =\nparticipants list<o:p></o:p></span></span></p><p class=3DMsoNormal><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB><o:p>&nbsp;</o:p></span></span></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>The summit will bring together C-level decision makers from =\na range of industries such as Biotechnology, Pharmaceuticals, Machinery, =\nFood Production, Food &amp; Beverages etc<o:p></o:p></span></span></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>Expected companies include ThermoFisher, Takeda, Sanofi, =\nAbbvie, Novartis, Repligen, GSK, AstraZeneca, Merck serona etc. In terms =\nof audience expectation, we anticipate around 150+ attendees based on =\nprevious events. <o:p></o:p></span></span></p><p class=3DMsoNormal><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB><o:p>&nbsp;</o:p></span></span></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>Please note that a limited number of sponsor slots are =\nreserved in the agenda and will be considered on a first come first =\nserved basis. If this opportunity is something that you would like to =\nexplore, please let me know so I can send the sponsorship packages for =\nyour consideration. You can also request for the packages from our =\nwebsite </span></span><a href=3D\"http://www.randomworld.com\"><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>www.randomworld.com</span></span><span =\nstyle=3D'mso-bookmark:_Hlk88112840'></span></a><span =\nstyle=3D'mso-bookmark:_Hlk88112840'> </span><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB><o:p></o:p></span></span></p><p class=3DMsoNormal><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span lang=3DEN-GB>If you are not =\nthe responsible person, please share the information with the relevant =\npersons. Thank you and I look forward to hearing from =\nyou.<o:p></o:p></span></span></p><p class=3DMsoNormal><span =\nstyle=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB><o:p>&nbsp;</o:p></span></span></p><p =\nclass=3DMsoNormal><span style=3D'mso-bookmark:_Hlk88112840'><span =\nlang=3DEN-GB>Kind regards,<o:p></o:p></span></span></p><span =\nstyle=3D'mso-bookmark:_Hlk88112840'></span><p =\nclass=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><b><span =\nstyle=3D'font-size:12.0pt;color:black'>Someone</span></b><span =\nstyle=3D'font-size:12.0pt;color:black'>|&nbsp;Project&nbsp;Manager<o:p></=\no:p></span></p><p class=3DMsoNormal><span =\nstyle=3D'font-size:12.0pt;color:#C00000'>Random World=\nLtd.<o:p></o:p></span></p><p class=3DMsoNormal>\n<span =\nstyle=3D'font-size:12.0pt;color:black'>Email: <a =\nhref=3D\"mailto:email@domain.com\"><span =\nstyle=3D'color:black;text-decoration:none'>email@domain.com</span></a><o=\n:p></o:p></span></p><p =\nclass=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>",
+      "source_file": "email-replace-mime-encodings-error-5.eml",
+      "source_page": 0,
+      "keywords": [
+        "CONTENT",
+        "GSK",
+        "HTTP",
+        "META",
+        "Summit",
+        "Berlin",
+        "Exhibition",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.589222",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "email-replace-mime-encodings-error-5.eml"
+      }
+    }
+  ]
+}

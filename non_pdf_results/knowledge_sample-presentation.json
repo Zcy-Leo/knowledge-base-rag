@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "source_file": "sample-presentation.pptx",
+  "total_entries": 4,
+  "entries": [
+    {
+      "id": "28c5dfc2-9c91-4477-9b0d-6ea7acb23f06",
+      "type": "general",
+      "title": "Slide {slide_idx + 1}",
+      "content": "Title Slide\nWith a subtitle",
+      "source_file": "sample-presentation.pptx",
+      "source_page": 1,
+      "keywords": [
+        "Title"
+      ],
+      "created_at": "2026-06-22T11:56:57.270060",
+      "metadata": {
+        "element_type": "slide",
+        "parser": "python-pptx-enhanced"
+      }
+    },
+    {
+      "id": "a9c92c00-7257-4163-a883-bd86800c4368",
+      "type": "general",
+      "title": "Slide {slide_idx + 1}",
+      "content": "This is the first content slide\nThere’s text here\nAnd a list of bulleted information\nWith a sub-bullet\nAnd another one\nThis one is a sub-sub-bullet\nWe can see how it works",
+      "source_file": "sample-presentation.pptx",
+      "source_page": 2,
+      "keywords": [
+        "There",
+        "text"
+      ],
+      "created_at": "2026-06-22T11:56:57.270392",
+      "metadata": {
+        "element_type": "slide",
+        "parser": "python-pptx-enhanced"
+      }
+    },
+    {
+      "id": "95c5b3e8-f108-453e-bb99-c317c8f001da",
+      "type": "general",
+      "title": "Slide {slide_idx + 1}",
+      "content": "This is the second content slide\nWhat happens when there’s one here\nTopic 1\nSubtopic 1\nSubtopic 2\nSubtopic 1 of subtopic 2\nTopic 2\nWhat happens when there’s 2\nDetails 1\nSub-details 1\nSub-details 2\nThis one is a sub-sub-detail\nDetails 2",
+      "source_file": "sample-presentation.pptx",
+      "source_page": 3,
+      "keywords": [
+        "Topic",
+        "Subtopic"
+      ],
+      "created_at": "2026-06-22T11:56:57.271138",
+      "metadata": {
+        "element_type": "slide",
+        "parser": "python-pptx-enhanced"
+      }
+    },
+    {
+      "id": "3875b59f-638d-4573-95c0-357211239edb",
+      "type": "general",
+      "title": "Slide {slide_idx + 1}",
+      "content": "This is kinda backwards, huh?",
+      "source_file": "sample-presentation.pptx",
+      "source_page": 4,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:57.271590",
+      "metadata": {
+        "element_type": "slide",
+        "parser": "python-pptx-enhanced"
+      }
+    }
+  ]
+}

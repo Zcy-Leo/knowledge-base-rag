@@ -1,0 +1,347 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-replace-mime-encodings-error-2.eml",
+  "total_entries": 19,
+  "entries": [
+    {
+      "id": "023ac6f2-5efd-4c3f-9c24-caf063a00fa5",
+      "type": "general",
+      "title": "X-Gmail-Labels: Archived,Important,Category Forums...",
+      "content": "X-Gmail-Labels: Archived,Important,Category Forums,Unread\nDelivered-To: email@domain.com\nReceived: by 2002:a05:6520:2557:b0:258:b5a2:9a1 with SMTP id cu23csp99781lkb;\n        Thu, 30 Mar 2023 11:00:43 -0700 (PDT)\nX-Received: by 2002:a05:6a20:baa5:b0:dc:e183:26cc with SMTP id fb37-20020a056a20baa500b000dce18326ccmr22121966pzb.23.1680199243395;\n        Thu, 30 Mar 2023 11:00:43 -0700 (PDT)\nARC-Seal: i=3; a=rsa-sha256; t=1680199243; cv=pass;\n        d=google.com; s=arc-20160816;\n        b=zf3aDyMdtzML6N6OFWNECEmgqfDAxjfvhxiDEN/6POhUGBJq5XQvkeFRhnqKvuZZxy\n         7iaIurn0SqH2QS2gAUus7xL0RktDCQxD+ttAM5uE4G+N6W4/NgQxH+dhOBtkPrGEb5nE\n         42g4OFoOA64YQM6zOBGHu+fCHezDUUxNEWGH/DsD7BZTltk4nanMnPok5KYkif76l4BU\n         XlarGHCWAq0+dcFg/368Hh+rOtAhiR88oMHS9opZchc1Na/Q+i01KdsS8Vfqhy93XWMo\n         xH3MezQh7vJpepMrqtpBOLUKnM/DhAbtYUCyr4YHHYKZY9yD23vk5jZrMug9EbJdP+X+\n         g2yQ==\nARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;\n        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post\n         :list-id:mailing-list:precedence:content-language:importance\n         :thread-index:mime-version:message-id:date:subject:in-reply-to\n         :references:to:from:sender:dkim-signature;\n        bh=D7Wf7anmuBCeL/ZQfgU9Tyg9blpKpozFd2lPq2C4IhM=;\n        b=Hu8ZVKktBNBIKzwr9lS+7EH+g+fK+0WNtOgAOwjKe5oIPToIVdr6LncDQ5vV/JgdiN\n         KkZ0wXMGb8ApbJopZuRFWUbQ194Qme5YboN1ZVTn7SGpLBh21+L4dAD0p2XiIedCc0zY\n         CY4MEqG6TUWON8ZSlRWzEOIQ0JjVkMqEHb1DoIenVglteHSggx+SNZs8dtNomY/WExqz\n         D6P9nSd7BCHsnZsCZykrknEqDHrDJcmMyxZpEfKjZRIoPoLcUKCgIKQRsWR7CauccclT\n         Y2aQqdNWxeCcocEQGLvNCXNbZSRX3KEvnFrNeEYSrkyQgR/UeLuDG8FOiG6ZK473uEpH\n         fXKA==\nARC-Authentication-Results: i=3; mx.google.com;\n       dkim=pass header.i=@webpage.com header.s=google header.b=DmPqo2BP;\n       arc=pass (i=2 spf=pass spfdomain=aptaintell.com dkim=pass dkdomain=rediffmailpro.com);\n       spf=pass (google.com: domain of email@domain.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=email@domain.com\nReturn-Path: <email@domain.com>\nReceived: from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\n        by mx.google.com with SMTPS id c1-20020aa78801000000b0061995eabe83sor167574pfo.56.2023.03.30.11.00.43\n        for <email@domain.com>\n        (Google Transport Security);\n        Thu, 30 Mar 2023 11:00:43 -0700 (PDT)\nReceived-SPF: pass (google.com: domain of email@domain.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;\nAuthentication-Results: mx.google.com;\n       dkim=pass header.i=@webpage.com header.s=google header.b=DmPqo2BP;\n       arc=pass (i=2 spf=pass spfdomain=aptaintell.com dkim=pass dkdomain=rediffmailpro.com);\n       spf=pass (google.com: domain of email@domain.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=email@domain.com\nARC-Seal: i=2; a=rsa-sha256; t=1680199243; cv=pass;\n        d=google.com; s=arc-20160816;\n        b=wE0k0KTTP/OsBAu+ybmmJvBUJVKitL50w/2g5JFKyRcVaH26CbyUu1s+t9lUtKlg6t\n         KlWOQFQE1othqJAggyVieb9IHsEvTFTIugg46e5PxUUwqV2V0PA6FYxyRIUQf25qUCP6\n         OYO7AJJ2xLLj7u4dLcsluMqaCwqTZFfXRNZZxsfqDU/hCjiod/28Yo//Qyx5BtqNEaiY\n         Kzk+Xe4J05/kOKzBwol2z7cXDwSAD2m05UIV925LuBxKdX/3Su4iV9K+hIltKU/0Sf/S\n         41rQ8frn1hvmENj2X8o+PbCvmUuNirbZzBr6JjDSSv6jU47/wg1sUIjw+Ay7ogA8svs7\n         MjjQ==\nARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;\n        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post\n         :list-id:mailing-list:precedence:content-language:importance\n         :thread-index:mime-version:message-id:date:subject:in-reply-to\n         :references:to:from:sender:dkim-signature;\n        bh=D7Wf7anmuBCeL/ZQfgU9Tyg9blpKpozFd2lPq2C4IhM=;\n        b=0WsUhXIj+V9gzUwZCKJTdh560F3dmpKF3xkdQXQ1Y3Irle4C77ICWE5i+F6Czpsx9o\n         zoDZQsGa9OBGblpXTIiNmWG5AEtxe6MS+3hMoyrD2bObRq91Dfwx38vMn4RuddiYQT7c\n         iqwS53jT5i4w9m5A4IC6q2aTkPq7wVe+MENNWPGHQvs+ZhUWD5yX/gUP0tG9pAsxm4+B\n         vbnTEZ+Mlik/VR/aqQeB7oJK2zBIMyvZu/JLZ1I6kVbBERws1bcZnNLJagxT/cWwJKo5\n         Qw2pCQaBdg2yBWX+W7tSaBkxCMAA5BGzcHuoGLF9Ogv1BGCGi/g0ew9Y5mr5xFw90Xs2\n         01oQ==\nARC-Authentication-Results: i=2; mx.google.com;\n       dkim=pass header.i=@rediffmailpro.com header.s=epro header.b=EiT5JEqL;\n       spf=pass (google.com: domain of email@domain.com designates 119.252.152.31 as permitted sender) smtp.mailfrom=email@domain.com\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\n        d=webpage.com; s=google; t=1680199243;\n        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post\n         :list-id:mailing-list:precedence:x-original-authentication-results\n         :x-original-sender:content-language:importance:thread-index\n         :mime-version:message-id:date:subject:in-reply-to:references:to:from\n         :sender:from:to:cc:subject:date:message-id:reply-to;\n        bh=D7Wf7anmuBCeL/ZQfgU9Tyg9blpKpozFd2lPq2C4IhM=;\n        b=DmPqo2BPBx1Mq82bi1bxAzvGsQ6D/ijpI3l0ieU6N9jUYnWvH7pSuiMwA5BEAFpGMZ\n         bN1/EzzkRrHYfsp5FjzQx/zedNez4jkDFm4s0p0TDay00Zk5AZtF3iRJxy1Pm2A3/w7z\n         VPAdcqWpbq/RIMI8iV2igTSK1X+awFE0VAorc=\nX-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\n        d=1e100.net; s=20210112; t=1680199243;\n        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post\n         :x-spam-checked-in-group:list-id:mailing-list:precedence\n         :x-original-authentication-results:x-original-sender\n         :content-language:importance:thread-index:mime-version:message-id\n         :date:subject:in-reply-to:references:to:from:x-gm-message-state\n         :sender:from:to:cc:subject:date:message-id:reply-to;\n        bh=D7Wf7anmuBCeL/ZQfgU9Tyg9blpKpozFd2lPq2C4IhM=;\n        b=0hwrwY8tyNUM+cgDljMMh8tcH6qDUUfL/W6MIetNnCQgLKIf9Lpuen0mZv7NIfkL5J\n         +BcFTlvZ4Bp525nYK8Gp19YLh6YaKNLO+g7x2nskAtXz+OHkwG/3+WAvn8MIv0dVwjnH\n         2Z9w574IRK3ui6f+HAnbnQpB/h522tJblN1nPklsyi7MpN0k0y6mDKpIFYtrdnIiCqb1\n         vRR2maXCjScKB0BQPfPkwwua8PgkCjk5An2hNe/dv0nqQ1eFziqDjn5Z4aFkmWsQkbjc\n         Hku6t4emAR5L5h5x26PC1CtieE1ex4fYnhqFwTvxmUyMyQVm59TuMXGULi3QoAeOx8+m\n         AIIg==\nSender: email@domain.com\nX-Gm-Message-State: AAQBX9eEFzCHz46ynsQc2qXxMguQ/+4V0lAS1ybKvfnxP4cjATLE49uX\n\teL5YLIVbp3fz3B9WqtTUlpwMDfvt\nX-Google-Smtp-Source: AK7set/ENlM2O9mkpX2Ha9M1bOVL8eyCT80MEU/Poy0zd6cQED/1AKoCDkHYPu4LC4sdBY0nGGHgWg==\nX-Received: by 2002:a05:6a00:2d0d:b0:623:7446:7075 with SMTP id fa13-20020a056a002d0d00b0062374467075mr12528164pfb.2.1680199242911;\n        Thu, 30 Mar 2023 11:00:42 -0700 (PDT)\nX-BeenThere: webpage.com\nReceived: by 2002:a05:6a00:3307:b0:61d:9178:80de with SMTP id\n cq7-20020a056a00330700b0061d917880dels817798pfb.2.-pod-prod-gmail; Thu, 30\n Mar 2023 11:00:41 -0700 (PDT)\nX-Received: by 2002:a05:6a00:1881:b0:627:e180:abed with SMTP id x1-20020a056a00188100b00627e180abedmr12874021pfh.1.1680199241649;\n        Thu, 30 Mar 2023 11:00:41 -0700 (PDT)\nX-BeenThere: email@domain.com\nReceived: by 2002:a17:90b:4cc8:b0:234:bff4:2e74 with SMTP id\n nd8-20020a17090b4cc800b00234bff42e74ls3078332pjb.1.-pod-preprod-gmail; Thu,\n 30 Mar 2023 11:00:41 -0700 (PDT)\nX-Received: by 2002:a17:903:41cf:b0:1a1:a800:96a7 with SMTP id u15-20020a17090341cf00b001a1a80096a7mr29010392ple.8.1680199238760;\n        Thu, 30 Mar 2023 11:00:38 -0700 (PDT)\nARC-Seal: i=1; a=rsa-sha256; t=1680199238; cv=none;\n        d=google.com; s=arc-20160816;\n        b=FXTmCzU58W8r/ZNDiEGRZJ3Mz80t80+kLtJVSKo/KI57tMgbg94Faebee/hTCMX0mi\n         NuY1tycpQsu+Z6BIyTHkk8nQSUN2GGYVmOvW+GZgFVu5lkBXz5rPQFDCg/QXBNNgTpbK\n         HnUGPWxbp/XpuOK/F7n/hrV47OMzhXb9Mivyf6xTs6LLAm3APA5MVbVEQyZl7NhgcGFl\n         QschCh5gF4lQcfvNKLxv+8y/us2AVgHsz8JWE52IE4ialxPiXE9B5jSR3/eZoULv5QFR\n         fj8tJ9VwJ2aSUfI/j9AkSfm+JLWQsUvJ/uz0x12TXCNIsWCNSOvEsqj2TLo2jSrPK0E3\n         TA/A==\nARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;\n        h=disposition-notification-to:content-language:importance\n         :thread-index:mime-version:message-id:date:subject:in-reply-to\n         :references:to:from:dkim-signature;\n        bh=D7Wf7anmuBCeL/ZQfgU9Tyg9blpKpozFd2lPq2C4IhM=;\n        b=m+bf+Z+//rZoBky4+cIJkKSeRy9xGaercZJHgNEt/rvpywV95C9vn9c9L62Hmiwchx\n         pNPxWDrC/+f0SkDot3cCLxRQpX1yesSEwzzkEXUibi/FQtusr4GLdaS3iKvoSUmnyQUd\n         d1fJJgSbvx899siz486okS0u8tJ/KusuijoTRyrKBx3t8n6cwWKEwLc/HtEWX0X77a5t\n         Ate/jcA0vadKNNdUJyK7/fuQcCCC5oE7fL2lzgtdHdWmkrsqfjeOhigxs1jrZ4iQm2QC\n         p0VzJqLLAlqOMR52RiFy+Cbm9xgPY/IlylA2WZ6VgSHejTvRvSfH05wSU6OTQNdNYTFv\n         cZLg==\nARC-Authentication-Results: i=1; mx.google.com;\n       dkim=pass header.i=@rediffmailpro.com header.s=epro header.b=EiT5JEqL;\n       spf=pass (google.com: domain of email@domain.com designates 119.252.152.31 as permitted sender) smtp.mailfrom=email@domain.com\nReceived: from pro152-31.mxout.rediffmailpro.com (pro152-31.mxout.rediffmailpro.com. [119.252.152.31])\n        by mx.google.com with ESMTPS id c9-20020a170903234900b0019e25cff4f5si2649plh.617.2023.03.30.11.00.38\n        for <email@domain.com>\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\n        Thu, 30 Mar 2023 11:00:38 -0700 (PDT)\nReceived-SPF: pass (google.com: domain of email@domain.com designates 119.252.152.31 as permitted sender) client-ip=119.252.152.31;\nReceived: from pro-236-102.rediffmailpro.com (unknown [10.50.252.5])\n\tby pro152-31.mxout.rediffmailpro.com (Postfix) with ESMTP id 4231F1E0B27\n\tfor <email@domain.com>; Thu, 30 Mar 2023 23:30:37 +0530 (IST)\nX-REDIFF-Delivered-Remotely-To: email@domain.com\nReceived: (qmail 32448 invoked from network); 30 Mar 2023 18:00:37 -0000\nx-m-msg: 388bebb4ee4e45633ad15c14b8bad855; a6da7d6asas6dasd77; 5dad65ad5sd;\nX-OUT-VDRT-SpamState: 0\\LEGIT\nX-OUT-VDRT-SpamScore: 0\nX-OUT-VDRT-SpamCause: \"gggruggvucftvghtrhhoucdtuddrgedvhedrvdehledgvdekucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgfffkhffhnecuuegrihhlohhuthemuceftddtnecunecujfgurhephffvfhgjufffkfggtgfrigfothgkpfesrhdtreepvddtudenucfhrhhomhepfdfgmhhmrgcurfgvrghrshhonhdfuceovghmmhgrrdhpsegrphhtrghinhhtvghllhdrtghomheqnecuggftrfgrthhtvghrnhepiefgiedvffdufeefheefjedvleetffelveduvdejleevieetgeffheekteektedvnecukfhppedutdeirdehuddrudeiuddrvdefkeenucevlhhushhtvghrufhiiigvpedtnecurfgrrhgrmhepihhnvghtpedutdeirdehuddrudeiuddrvdefkedpmhgrihhlfhhrohhmpegvmhhmrgdrphesrghpthgrihhnthgvlhhlrdgtohhmpdhnsggprhgtphhtthhopedupdhrtghpthhtohephhgvlhhlohessghiohhmrghgvgdrnhgvthdpmhhouggvpehsmhhtphhouhht\"\nX-Dedup-Identifier: 1680199237_32441_32264_pro-236-102\nReceived: from unknown (HELO Admin11PC) (email@domain.com@106.51.161.238)\n  by mailserver with ESMTPS (AES128-SHA encrypted); 30 Mar 2023 18:00:37 -0000\nFrom: \"Someone Real\" <email@domain.com>\nTo: <email@domain.com>\nReferences:\nIn-Reply-To:\nSubject: RE: Random Expo Expo 2023\nDate: Thu, 30 Mar 2023 14:00:24 -0400\nMessage-ID: <!&!AAAAAAAAAAAYAAAAAAAAANUTD+ZzPqlBtPyABIdBhSrCgAAAEAAAAMi/+RkFMYRAqRwphTQaczABAAAAAA==@aptaintell.com>\nMIME-Version: 1.0\nContent-Type: multipart/related;\n\tboundary=\"----=_NextPart_000_2349_01D9630F.FB2474F0\"\nX-Priority: 1 (Highest)\nX-MSMail-Priority: High\nX-Mailer: Microsoft Outlook 14.0\nThread-Index: AdliW8FmeqpbemC4S5KTxToUWPaJGgA1b4Gw\nImportance: High\nContent-Language: en-us\nX-Original-Sender: email@domain.com\nX-Original-Authentication-Results: mx.google.com;       dkim=pass\n header.i=@rediffmailpro.com header.s=epro header.b=EiT5JEqL;       spf=pass\n (google.com: domain of email@domain.com designates 119.252.152.31 as\n permitted sender) smtp.mailfrom=email@domain.com\nPrecedence: list\nMailing-list: list email@domain.com; contact email@domain.com\nList-ID: <hello.webpage.com>\nX-Spam-Checked-In-Group: email@domain.com\nX-Google-Group-Id: 253566248012\nList-Post: <https://groups.google.com/a/webpage.com/group/hello/post>, <mailto:email@domain.com>\nList-Help: <https://support.google.com/a/webpage.com/bin/topic.py?topic=25838>,\n <mailto:email@domain.com>\nList-Archive: <https://groups.google.com/a/webpage.com/group/hello/>\nList-Subscribe: <https://groups.google.com/a/webpage.com/group/hello/subscribe>,\n <mailto:email@domain.com>\nList-Unsubscribe: <mailto:email@domain.com>,\n <https://groups.google.com/a/webpage.com/group/hello/subscribe>",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "VDRT",
+        "ESMTP",
+        "ECDSA",
+        "Archived",
+        "Delivered",
+        "Received",
+        "ARC"
+      ],
+      "created_at": "2026-06-16T11:57:52.777722",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "08856464-0a2c-438a-9964-50e70bac99f4",
+      "type": "general",
+      "title": "This is a multipart message in MIME format.",
+      "content": "This is a multipart message in MIME format.",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "format"
+      ],
+      "created_at": "2026-06-16T11:57:52.777755",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "1221ef9a-e229-412d-ba1c-975e3733875e",
+      "type": "general",
+      "title": "------=_NextPart_000_2349_01D9630F.FB2474F0\nConten...",
+      "content": "------=_NextPart_000_2349_01D9630F.FB2474F0\nContent-Type: multipart/alternative;\n\tboundary=\"----=_NextPart_001_234A_01D9630F.FB2474F0\"",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content"
+      ],
+      "created_at": "2026-06-16T11:57:52.777787",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "de688012-c66e-4390-954c-78460277179e",
+      "type": "general",
+      "title": "------=_NextPart_001_234A_01D9630F.FB2474F0\nConten...",
+      "content": "------=_NextPart_001_234A_01D9630F.FB2474F0\nContent-Type: text/plain;\n\tcharset=\"iso-8859-1\"\nContent-Transfer-Encoding: quoted-printable",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:57:52.777825",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "395d78b2-ae42-4235-8b75-aa2019372738",
+      "type": "faq",
+      "title": "Did you get a chance to review my previous email?",
+      "content": "Did you get a chance to review my previous email?",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:52.777848",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "825efcec-08ac-4198-8276-b413deb0e49d",
+      "type": "general",
+      "title": "I appreciate if you could let me know your interes...",
+      "content": "I appreciate if you could let me know your interest in acquiring the\nAttendee list.",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "Attendee"
+      ],
+      "created_at": "2026-06-16T11:57:52.777878",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "0e029260-a467-471c-9f86-4005c6a1f63b",
+      "type": "general",
+      "title": "From: Someone Real [mailto:email@domain.com]=20\nSe...",
+      "content": "From: Someone Real [mailto:email@domain.com]=20\nSent: Wednesday, March 29, 2023 12:30 PM\nTo: 'email@domain.com'\nSubject: Random Expo Expo 2023\nImportance: High",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "Someone",
+        "Sent",
+        "Wednesday",
+        "Subject"
+      ],
+      "created_at": "2026-06-16T11:57:52.777927",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "98a3c05d-858c-4d4b-8dda-d459b30b1a6a",
+      "type": "general",
+      "title": "Wishing you all the best for Random Expo Conferenc...",
+      "content": "Wishing you all the best for Random Expo Conference & Expo2023.",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "Wishing"
+      ],
+      "created_at": "2026-06-16T11:57:52.777952",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "c99551f6-dccc-4503-b550-e581b5fe8640",
+      "type": "general",
+      "title": "Could you let me know if you want to receive Pre-S...",
+      "content": "Could you let me know if you want to receive Pre-Show Registered =\nAttendee\nlist  by emails?",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "Attendee"
+      ],
+      "created_at": "2026-06-16T11:57:52.777985",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "6d9700af-d571-4ae8-b658-702c9db6e7c0",
+      "type": "general",
+      "title": "You can send Pre-Show Invitation mailers using the...",
+      "content": "You can send Pre-Show Invitation mailers using these lists and increase =\nfoot\nfall at your booth.",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:52.778015",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "8a82edb0-bf0e-4d13-9588-9c31e66e66f7",
+      "type": "general",
+      "title": "Reply as  =93 Yes we=92re interested=94.",
+      "content": "Reply as  =93 Yes we=92re interested=94.",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "Reply"
+      ],
+      "created_at": "2026-06-16T11:57:52.778035",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "5ac7fb9c-a96f-42a4-9780-f9ff402a1fa4",
+      "type": "general",
+      "title": "If not reply \" we=B4re not interested\".",
+      "content": "If not reply \" we=B4re not interested\".",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:52.778057",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "022ecfb7-ba80-45d1-8cb9-6adc9e996036",
+      "type": "general",
+      "title": "Someone Real - (Events & Tradeshow Specialist)",
+      "content": "Someone Real - (Events & Tradeshow Specialist)",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "Someone"
+      ],
+      "created_at": "2026-06-16T11:57:52.778076",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "e9251011-09e3-4b7d-a0b6-a97837d3cf76",
+      "type": "general",
+      "title": "------=_NextPart_001_234A_01D9630F.FB2474F0\nConten...",
+      "content": "------=_NextPart_001_234A_01D9630F.FB2474F0\nContent-Type: text/html;\n\tcharset=\"iso-8859-1\"\nContent-Transfer-Encoding: quoted-printable",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:57:52.778109",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "f3037ce6-5a03-4167-962e-6c0c41636c4d",
+      "type": "general",
+      "title": "<META HTTP-EQUIV=3D\"Content-Type\" CONTENT=3D\"text/...",
+      "content": "<META HTTP-EQUIV=3D\"Content-Type\" CONTENT=3D\"text/html; =\ncharset=3Diso-8859-1\">\n<html xmlns:v=3D\"urn:schemas-microsoft-com:vml\" =\nxmlns:o=3D\"urn:schemas-microsoft-com:office:office\" =\nxmlns:w=3D\"urn:schemas-microsoft-com:office:word\" =\nxmlns:m=3D\"http://schemas.microsoft.com/office/2004/12/omml\" =\nxmlns=3D\"http://www.w3.org/TR/REC-html40\"><head><meta name=3DGenerator =\ncontent=3D\"Microsoft Word 14 (filtered medium)\"><!--[if =\n!mso]><style>v\\:* {behavior:url(#default#VML);}\no\\:* {behavior:url(#default#VML);}\nw\\:* {behavior:url(#default#VML);}\n.shape {behavior:url(#default#VML);}\n</style><![endif]--><style><!--\n/* Font Definitions */\n@font-face\n\t{font-family:Calibri;\n\tpanose-1:2 15 5 2 2 2 4 3 2 4;}\n@font-face\n\t{font-family:Tahoma;\n\tpanose-1:2 11 6 4 3 5 4 4 2 4;}\n/* Style Definitions */\np.MsoNormal, li.MsoNormal, div.MsoNormal\n\t{margin:0in;\n\tmargin-bottom:.0001pt;\n\tfont-size:11.0pt;\n\tfont-family:\"Calibri\",\"sans-serif\";}\na:link, span.MsoHyperlink\n\t{mso-style-priority:99;\n\tcolor:blue;\n\ttext-decoration:underline;}\na:visited, span.MsoHyperlinkFollowed\n\t{mso-style-priority:99;\n\tcolor:purple;\n\ttext-decoration:underline;}\np.MsoAcetate, li.MsoAcetate, div.MsoAcetate\n\t{mso-style-priority:99;\n\tmso-style-link:\"Balloon Text Char\";\n\tmargin:0in;\n\tmargin-bottom:.0001pt;\n\tfont-size:8.0pt;\n\tfont-family:\"Tahoma\",\"sans-serif\";}\np.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing\n\t{mso-style-priority:1;\n\tmargin:0in;\n\tmargin-bottom:.0001pt;\n\tfont-size:10.0pt;\n\tfont-family:\"Calibri\",\"sans-serif\";}\nspan.BalloonTextChar\n\t{mso-style-name:\"Balloon Text Char\";\n\tmso-style-priority:99;\n\tmso-style-link:\"Balloon Text\";\n\tfont-family:\"Tahoma\",\"sans-serif\";}\nspan.EmailStyle20\n\t{mso-style-type:personal;\n\tfont-family:\"Calibri\",\"sans-serif\";\n\tcolor:windowtext;\n\tfont-weight:normal;\n\tfont-style:normal;}\nspan.EmailStyle21\n\t{mso-style-type:personal-reply;\n\tfont-family:\"Calibri\",\"sans-serif\";\n\tcolor:#1F497D;\n\tfont-weight:normal;\n\tfont-style:normal;}\n.MsoChpDefault\n\t{mso-style-type:export-only;\n\tfont-size:10.0pt;}\n@page WordSection1\n\t{size:8.5in 11.0in;\n\tmargin:1.0in 1.0in 1.0in 1.0in;}\ndiv.WordSection1\n\t{page:WordSection1;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext=3D\"edit\" spidmax=3D\"1026\" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext=3D\"edit\">\n<o:idmap v:ext=3D\"edit\" data=3D\"1\" />\n</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =\nvlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =\nstyle=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =\nclass=3DMsoNormal><span =\nstyle=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><p =\nclass=3DMsoNormal><span =\nstyle=3D'font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";color:#1F497D'=\n>Hi,<o:p></o:p></span></p><p class=3DMsoNormal><span =\nstyle=3D'font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";color:#1F497D'=\n><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =\nstyle=3D'font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";color:#1F497D'=\n>Did you get a chance to review my previous =\nemail?<o:p></o:p></span></p><p class=3DMsoNormal><span =\nstyle=3D'font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";color:#1F497D'=\n><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =\nstyle=3D'font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";color:#1F497D'=\n>I appreciate if you could let me know your interest in acquiring the =\nAttendee list.<o:p></o:p></span></p><p class=3DMsoNormal><span =\nstyle=3D'font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";color:#1F497D'=\n><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =\nstyle=3D'font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";color:#1F497D'=\n>Regards,<o:p></o:p></span></p><p class=3DMsoNormal><b><span =\nstyle=3D'font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";color:#1F497D'=\n>Someone Real<o:p></o:p></span></b></p></div><p class=3DMsoNormal><span =\nstyle=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div =\nstyle=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =\n0in 0in'><p class=3DMsoNormal><b><span =\nstyle=3D'font-size:10.0pt;font-family:\"Tahoma\",\"sans-serif\"'>From:</span>=\n</b><span style=3D'font-size:10.0pt;font-family:\"Tahoma\",\"sans-serif\"'> =\nSomeone Real [mailto:email@domain.com] <br><b>Sent:</b> Wednesday, =\nMarch 29, 2023 12:30 PM<br><b>To:</b> =\n'email@domain.com'<br><b>Subject:</b> Random Expo Expo =\n2023<br><b>Importance:</b> High<o:p></o:p></span></p></div></div><p =\nclass=3DMsoNormal><o:p>&nbsp;</o:p></p><p =\nclass=3DMsoNormal><o:p>&nbsp;</o:p></p><p =\nclass=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Dear =\nExhibitor,<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =\nclass=3DMsoNormal>Wishing you all the best for <b>Random Expo =\nConference &amp; Expo2023.</b><o:p></o:p></p><p =\nclass=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Could you =\nlet me know if you want to receive Pre-Show Registered Attendee =\nlist&nbsp; by emails?<o:p></o:p></p><p =\nclass=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>You can send =\nPre-Show Invitation mailers using these lists and increase foot fall at =\nyour booth.<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =\nclass=3DMsoNormal>Reply as&nbsp; <b>&#8220;</b> <b>Yes we&#8217;re =\ninterested&#8221;.</b><o:p></o:p></p><p =\nclass=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>If not reply =\n<b>&quot;</b> <b>we=B4re not interested&quot;.<o:p></o:p></b></p><p =\nclass=3DMsoNormal><o:p>&nbsp;</o:p></p><p =\nclass=3DMsoNormal>Regards,<o:p></o:p></p><p class=3DMsoNormal><b>Emma =\nPearson</b> - (Events &amp; Tradeshow Specialist)<o:p></o:p></p><p =\nclass=3DMsoNormal><img width=3D253 height=3D45 id=3D\"Picture_x0020_2\" =\nsrc=3D\"cid:image001.jpg@01D9630F.F8692580\"><o:p></o:p></p><p =\nclass=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>\n------=_NextPart_001_234A_01D9630F.FB2474F0--",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "META",
+        "CONTENT",
+        "HTTP",
+        "EQUIV",
+        "Attendee",
+        "Someone",
+        "March",
+        "Exhibitor"
+      ],
+      "created_at": "2026-06-16T11:57:52.779305",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "81281847-a640-4787-9018-083ac14ca39a",
+      "type": "general",
+      "title": "------=_NextPart_000_2349_01D9630F.FB2474F0\nConten...",
+      "content": "------=_NextPart_000_2349_01D9630F.FB2474F0\nContent-Type: image/jpeg;\n\tname=\"image001.jpg\"\nContent-Transfer-Encoding: base64\nContent-ID: <image001.jpg@01D9630F.F8692580>",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content",
+        "image"
+      ],
+      "created_at": "2026-06-16T11:57:52.779348",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "ae0f633d-5306-49da-afb6-4e0c939f5e7f",
+      "type": "general",
+      "title": "/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCw...",
+      "content": "/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg\nIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09\nPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAtAP0DASIA\nAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA\nAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3\nODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm\np6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA\nAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx\nBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK\nU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3\nuLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDP8F+C\nB4ut7uQ3ptvs7qmBHu3ZGfWumPwYXHGstn/rgP8AGpfgx/x4at/12j/9BNSto/iRvii17b/aY9ME\nwZnaX92ybRkbc8/lWEYrlTserVrVPayipWSOTvfh1ead4lsNMubhTb3zlY7qNehAyQQe9V/Gngwe\nEWtALw3P2jd1Tbtxj3969E8b3UWoazomiW161veyXPm+bDgvCAp5/HNcn418J6mmp6TYjVbrVJ7t\nnWMXGAI8Yyfp6/SlKCV7IujXnJxc3bR/PfU8/or1SP4R6bGkdvd6y4vpFJVVCjOOuFPJArgvE3hy\n68MasbK6IcEb4pVGBIvr7H1FZuDWrOmniKdR8sWdPonwwXWPDlvqh1NovOiMnliIHGM8Zz7Vb074\n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",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "XSX",
+        "IyIoLTkwKCo",
+        "AhEBAxEB",
+        "AAF",
+        "ODk"
+      ],
+      "created_at": "2026-06-16T11:57:52.779989",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "4b59db62-898e-4cbc-9eb5-ed67a4680477",
+      "type": "general",
+      "title": "------=_NextPart_000_2349_01D9630F.FB2474F0--",
+      "content": "------=_NextPart_000_2349_01D9630F.FB2474F0--",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:52.780006",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "42c640da-d8af-4717-a5ba-c5f37a67d0f7",
+      "type": "general",
+      "title": "From 1746302718057899036@xxx Mon Oct 10 12:14:10 +...",
+      "content": "From 1746302718057899036@xxx Mon Oct 10 12:14:10 +0000 2022\nX-GM-THRID: 1746302718057899036",
+      "source_file": "email-replace-mime-encodings-error-2.eml",
+      "source_page": 0,
+      "keywords": [
+        "THRID"
+      ],
+      "created_at": "2026-06-16T11:57:52.780036",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    }
+  ]
+}

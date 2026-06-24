@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "source_file": "hebrew-text-base64-iso88598i.txt",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "65f14d0f-566a-4ac0-b9f9-261bc49c4e17",
+      "type": "general",
+      "title": "8uPr5e8gVGVzbGEgLSDw4/j5+iDn+unu5CDy7CDk4ff55CDs+O...",
+      "content": "8uPr5e8gVGVzbGEgLSDw4/j5+iDn+unu5CDy7CDk4ff55CDs+On55e0g",
+      "source_file": "hebrew-text-base64-iso88598i.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:53:30.993493",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    }
+  ]
+}

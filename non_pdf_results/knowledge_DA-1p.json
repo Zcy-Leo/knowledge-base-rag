@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "source_file": "DA-1p.png",
+  "total_entries": 9,
+  "entries": [
+    {
+      "id": "d3ce5e15-c96c-4618-bf0f-17e54c924edb",
+      "type": "general",
+      "title": "\"We arrived in the dead of night. We had been trac...",
+      "content": "\"We arrived in the dead of night. We had been tracking the maleficar for days, and\nfinally had him cornered... or so we thought.",
+      "source_file": "DA-1p.png",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:25.318184",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "9533e70c-7b83-4c6f-a2a1-c3057b82bbc4",
+      "type": "general",
+      "title": "‘As we approached, a home on the edge of the town ...",
+      "content": "‘As we approached, a home on the edge of the town exploded, sending splinters of wood\nland fist-sized chunks of rocks into our ranks, We had but moments to regroup before\nfire rained from the sky, the sounds of destruction wrapped in a hideous laughter from\nthe center ofthe village.",
+      "source_file": "DA-1p.png",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:25.318338",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "50ad0a9c-ff45-4d65-9665-5c4aa944a8aa",
+      "type": "general",
+      "title": "‘There, perched atop the spire ofthe village chant...",
+      "content": "‘There, perched atop the spire ofthe village chantry, stood the mage. But he was human\nno longer.",
+      "source_file": "DA-1p.png",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:25.318402",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "f6ce834c-c9b5-4a6c-978b-7f71e89a0ddb",
+      "type": "general",
+      "title": "‘We shouted prayers to the Maker and deflected wha...",
+      "content": "‘We shouted prayers to the Maker and deflected what magic we could, but as we fought,\nthe creature fought harder. I saw my comrades fall, burned by the flaming sky of\n‘rushed by debris. The monstrous creature, looking as if'a demon were wearing a man\nlike a twisted suit of skin, spotted me and grinned. We had forced it to this, I realized;\nthe mage had made this pact, given himself over to the demon to survive our assault",
+      "source_file": "DA-1p.png",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:25.318585",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "9e2dba44-ead2-4001-893e-8f6cb30300c6",
+      "type": "general",
+      "title": "—Transeribed from a tale told by a former templar ...",
+      "content": "—Transeribed from a tale told by a former templar in Cumberland, 8:84 Blessed.",
+      "source_file": "DA-1p.png",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:25.318636",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "3fdcf71b-3b0f-4e24-87c4-d4bf645087d4",
+      "type": "general",
+      "title": "It is known that mages are able to walk the Fade w...",
+      "content": "It is known that mages are able to walk the Fade while completely aware of their surroundings,\nunlike most others who may only enter the realm as dreamers and leave it scarcely aware of theit\nexperience. Demons are drawn to mages, though whether itis because of this awareness or simply\nby virtue oftheir magical power in our world is unknown,",
+      "source_file": "DA-1p.png",
+      "source_page": 0,
+      "keywords": [
+        "Demons"
+      ],
+      "created_at": "2026-06-22T11:56:25.318786",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "ce76b79e-2440-46d3-94be-4b84339ce0f8",
+      "type": "general",
+      "title": "Regardless of the reason, a demon always attempts ...",
+      "content": "Regardless of the reason, a demon always attempts to possess a mage when it encounters one—by\nforce or by making some kind of deal depending on the strength of the mage. Should the demon get\nthe upper hand, the result is an unholy union known as an abomination. Abominations have been\nresponsible for some of the worst cataclysm in history, and the notion that some mage in a remote\ntower could tum into such a creature unbeknownst to any was the driving force behind the creation\nof the Circle of Magi",
+      "source_file": "DA-1p.png",
+      "source_page": 0,
+      "keywords": [
+        "Regardless",
+        "Abominations"
+      ],
+      "created_at": "2026-06-22T11:56:25.318986",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "7e416d42-35a3-4d92-839f-e9f0e0c0d1c2",
+      "type": "general",
+      "title": "‘Thankfully, abominations are rare. The Circle has...",
+      "content": "‘Thankfully, abominations are rare. The Circle has methods for weeding out those who are too at risk\nfor demonic possession, and scant few mages would give up thei free will to submit to such a bond\nwith a demon. But once an abomination is created, it will do its best to ereate more. Considering\nthat entire squads of templars have been known to fall at the hands ofa single abomination, itis not\nsurprising thatthe Chantry takes the business ofthe Circle of Magi very seriously indeed.",
+      "source_file": "DA-1p.png",
+      "source_page": 0,
+      "keywords": [
+        "Considering"
+      ],
+      "created_at": "2026-06-22T11:56:25.319177",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "7764c652-9cdf-4988-90e8-3b96a64b0579",
+      "type": "general",
+      "title": "\"Upon ascending to the second floor of the tower, ...",
+      "content": "\"Upon ascending to the second floor of the tower, we were greeted by a gruesome sight:\n4 ragged collection of bones wearing the robes of one of the senior enchanters. had\nknown her for years, watched her raise countless apprentices, and now she was a mere\n‘puppet for some demon.”",
+      "source_file": "DA-1p.png",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:25.319322",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    }
+  ]
+}

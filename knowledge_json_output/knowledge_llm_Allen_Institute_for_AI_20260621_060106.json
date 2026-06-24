@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "source_file": "database",
+  "total_entries": 10,
+  "entries": [
+    {
+      "id": "b9f2f9ed-46eb-47e1-9e61-a09d7c41cedc",
+      "type": "general",
+      "title": "## Heading in Helvetica",
+      "content": "[Title] ## Heading in Helvetica\n[Content] ## Heading in Helvetica\n\nThis text uses an embedded CMap and should be extractable",
+      "source_file": "embedded-cmap-cidfont.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T06:00:46.354853",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "heading",
+          "helvetica",
+          "text extraction",
+          "CMap"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "44762813-a88b-404d-9118-6b94e90325bb",
+      "type": "manual_section",
+      "title": "**\"HANDS-FREE\" CARD: use (2/4)**",
+      "content": "[Title] **\"HANDS-FREE\" CARD: use (2/4)**\n[Content] ![](_page_0_Picture_1.jpeg)\n[Keywords] HANDS, CARD, FREE",
+      "source_file": "embedded-images.pdf",
+      "source_page": 1,
+      "keywords": "HANDS, CARD, FREE",
+      "created_at": "2026-06-21T06:00:46.354868",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "hands-free card",
+          "use",
+          "access",
+          "vehicle"
+        ],
+        "llm_confidence": 0.9
+      }
+    },
+    {
+      "id": "be2b8f4a-cee4-44fe-a71c-6f3648ae2af4",
+      "type": "manual_section",
+      "title": "**Hands-free unlocking, when approaching the vehicle;**",
+      "content": "[Title] **Hands-free unlocking, when approaching the vehicle;**\n[Content] With the card in access zone *3*, the vehicle will unlock. Unlocking is indicated by **one flash** of the hazard warning lights and the indicator lights.\n\nDepending on the vehicle, the door mirrors fold in/out automatically when the vehicle is locked/unlocked ➥ [1.90](#page--1-0)\n\n![](_page_0_Picture_5.jpeg)",
+      "source_file": "embedded-images.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T06:00:46.354874",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "hands-free unlocking",
+          "vehicle",
+          "access zone",
+          "indicator lights"
+        ],
+        "llm_confidence": 0.9
+      }
+    },
+    {
+      "id": "df88c978-50b4-48b0-8bc2-8757b453aefe",
+      "type": "manual_section",
+      "title": "**Hands-free locking when moving away from the vehicle**",
+      "content": "[Title] **Hands-free locking when moving away from the vehicle**\n[Content] With the card on you, doors and luggage compartment door closed, move away from the vehicle: it will lock automatically once you have left the access zone *3*.\n\n**Note:** the distance at which the vehicle locks depends on the surroundings.\n\nTo indicate that the vehicle has been locked, the hazard warning lights **flash twice** and then **light up** for approximately four seconds, and a beep sounds in confirmation.\n\n![](_page_0_Picture_10.jpeg)\n\nIf the card has been within the detection area *3* for approximately 15 minutes, remote locking is disabled. To lock the vehicle, press the *5* button on the card or, depending on the vehicle, the *2* button on the handle *1*.\n\nThe vehicle cannot be remotely locked if the card is within the area *4*.",
+      "source_file": "embedded-images.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T06:00:46.354878",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "hands-free locking",
+          "vehicle",
+          "access zone",
+          "automatic lock",
+          "distance"
+        ],
+        "llm_confidence": 0.9
+      }
+    },
+    {
+      "id": "a15e1c69-4d1f-4e2b-bb37-e9e7b2fdc72b",
+      "type": "general",
+      "title": "Fig. 4. Anodic and cathodic polarization curve of stainless steel in 0.5 M H<sub...",
+      "content": "[Title] Fig. 4. Anodic and cathodic polarization curve of stainless steel in 0.5 M H<sub...\n[Content] Fig. 4. Anodic and cathodic polarization curve of stainless steel in 0.5 M H<sub>2</sub>SO<sub>4</sub> solution in the presence and absence of ES.\n[Keywords] ES, SO",
+      "source_file": "embedded-images-tables.pdf",
+      "source_page": 1,
+      "keywords": "ES, SO",
+      "created_at": "2026-06-21T06:00:46.354882",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "polarization curve",
+          "stainless steel",
+          "H2SO4",
+          "anodic",
+          "cathodic"
+        ],
+        "llm_confidence": 0.98
+      }
+    },
+    {
+      "id": "feff5b01-f3b2-472b-89cc-737fc136e031",
+      "type": "general",
+      "title": "**Table 1**Potentiodynamic polarization data for stainless steel in the absence ...",
+      "content": "[Title] **Table 1**Potentiodynamic polarization data for stainless steel in the absence ...\n[Content] **Table 1**Potentiodynamic polarization data for stainless steel in the absence and presence of ES in 0.5 M H<sub>2</sub>SO<sub>4</sub> solution.\n[Keywords] ES, SO",
+      "source_file": "embedded-images-tables.pdf",
+      "source_page": 1,
+      "keywords": "ES, SO",
+      "created_at": "2026-06-21T06:00:46.354885",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "Potentiodynamic polarization",
+          "stainless steel",
+          "data",
+          "ES",
+          "H2SO4"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "819d2253-b1b5-4a72-ba82-6d2cd578174d",
+      "type": "general",
+      "title": "| Inhibitor<br>concentration (g) | bc (V/dec) | ba (V/dec) | Ecorr (V) | icorr (...",
+      "content": "[Title] | Inhibitor<br>concentration (g) | bc (V/dec) | ba (V/dec) | Ecorr (V) | icorr (...\n[Content] | Inhibitor<br>concentration (g) | bc (V/dec) | ba (V/dec) | Ecorr (V) | icorr (A/cm²) | Polarization resistance ( $\\Omega$ ) | Corrosion<br>rate (mm/year) |\n|--------------------------------|------------|------------|-----------|---------------|--------------------------------------|-----------------------------|\n| 0                              | 0.0335     | 0.0409     | -0.9393   | 0.0003        | 24.0910                              | 2.8163                      |\n| 2                              | 1.9460     | 0.0596     | -0.8276   | 0.0002        | 121.440                              | 1.5054                      |\n| 4                              | 0.0163     | 0.2369     | -0.8825   | 0.0001        | 42.121                               | 0.9476                      |\n| 6                              | 0.3233     | 0.0540     | -0.8027   | 5.39E-05      | 373.180                              | 0.4318                      |\n| 8                              | 0.1240     | 0.0556     | -0.5896   | 5.46E-05      | 305.650                              | 0.3772                      |\n| 10                             | 0.0382     | 0.0086     | -0.5356   | 1.24E-05      | 246.080                              | 0.0919                      |",
+      "source_file": "embedded-images-tables.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T06:00:46.354888",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "Inhibitor concentration",
+          "bc",
+          "ba",
+          "Ecorr",
+          "icorr",
+          "polarization resistance",
+          "corrosion rate"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "a522398c-229a-49e1-9ebe-52fd45229712",
+      "type": "general",
+      "title": "The plot of inhibitor concentration over degree of surface coverage versus inhib...",
+      "content": "[Title] The plot of inhibitor concentration over degree of surface coverage versus inhib...\n[Content] The plot of inhibitor concentration over degree of surface coverage versus inhibitor concentration gives a straight line as shown in Fig. 5. The strong correlation reveals that egg shell adsorption on stainless surface in 0.5 M H<sub>2</sub>SO<sub>4</sub> follow Langmuir adsorption isotherm. Figs. 6–8 show the SEM/EDX surface morphology analysis of stainless steel. Figs. 7 and 8 are the SEM/EDX images of the stainless steel specimens without and with inhibitor after weight loss experiment in sulphuric acid medium. The stainless steel surface corrosion product layer in the absence of inhibitor was porous and as a result gives no corrosion protection. With the presence of ES, corrosion damage was minimized, with an evidence of ES present on the metal surface as shown in Fig. 8.\n\n![](_page_0_Figure_7.jpeg)\n\nFig. 5. Langmuir adsorption isotherm of ES.\n[Keywords] EDX, ES, SEM, SO",
+      "source_file": "embedded-images-tables.pdf",
+      "source_page": 1,
+      "keywords": "EDX, ES, SEM, SO",
+      "created_at": "2026-06-21T06:00:46.354891",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "inhibitor concentration",
+          "surface coverage",
+          "plot",
+          "correlation",
+          "adsorption"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "0fc81a83-4b31-4430-ae3b-9c89ccd8ce53",
+      "type": "general",
+      "title": "This is the [link.](https://github.com/Unstructured-IO/unstructured) This is the...",
+      "content": "[Title] This is the [link.](https://github.com/Unstructured-IO/unstructured) This is the...\n[Content] This is the [link.](https://github.com/Unstructured-IO/unstructured) This is the [email](mailto:unstructuredai@earlygrowth.com). This is the [phone number.](tel:6505124019)\n[Keywords] IO",
+      "source_file": "embedded-link.pdf",
+      "source_page": 1,
+      "keywords": "IO",
+      "created_at": "2026-06-21T06:00:46.354894",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "link",
+          "email",
+          "phone number",
+          "contact",
+          "resources"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "62e252b8-57ef-4747-9b21-4946cb75879c",
+      "type": "general",
+      "title": "- 1. This is to test the index where the list item was not captured correctly an...",
+      "content": "[Title] - 1. This is to test the index where the list item was not captured correctly an...\n[Content] - 1. This is to test the index where the list item was not captured correctly and the new line got detected as separate element. We will need to run the index number again. Here is the link to the website.\n- 2. Now, what would happen if the embedded url is across two lines with [broken list item group](http://www.apple.com)  [capturing](http://www.apple.com)?",
+      "source_file": "embedded-link.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T06:00:46.354898",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "list item",
+          "index",
+          "test",
+          "new line",
+          "element"
+        ],
+        "llm_confidence": 0.9
+      }
+    }
+  ]
+}

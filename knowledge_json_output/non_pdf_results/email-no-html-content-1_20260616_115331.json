@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-no-html-content-1.eml",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "093f928f-7d6d-41a8-b2a5-d073a24a687e",
+      "type": "general",
+      "title": "X-Gmail-Labels: Archived,Category Updates,Unread\nD...",
+      "content": "X-Gmail-Labels: Archived,Category Updates,Unread\nDelivered-To: email@domain.com\nReceived: by 2002:a05:651c:98a:0:0:0:0 with SMTP id b10csp1857290ljq;\n        Mon, 10 Oct 2022 05:14:10 -0700 (PDT)\nX-Google-Smtp-Source: AMsMyM59wmLQXJ73eH+8nTYP0CP3MwUawP3ir019apX61OB0CVRaP92eFI9REGn5dNV33Tf9I/vw\nX-Received: by 2002:a6b:be86:0:b0:6b9:7a46:479f with SMTP id o128-20020a6bbe86000000b006b97a46479fmr8507790iof.130.1665404050586;\n        Mon, 10 Oct 2022 05:14:10 -0700 (PDT)\nARC-Seal: i=1; a=rsa-sha256; t=1665404050; cv=none;\n        d=google.com; s=arc-20160816;\n        b=EKi4xY7ACAVUDqLPuhCP59ecwcnpS+zY+pOcRCiUIiuvLfKwdZ39nuQKuXzhKMuaKR\n         NTfIJY7Y0tWtuPQGJ+2ZCtjqJyqqorZhB71CQXe9yLQxT1iu5Z39XBbFyfix+3ylRQH/\n         G4N7OXn/P1baycsYs15y3/uetDje+NvFrkkq2OYjcBhXEwZn531vEiEp2zcL+wBDvjVI\n         NtGaXkN7HuH6X38Siz0CMHj1YLHtjGnrCjXNHa9iXjIV4Uja4WzS9Jl65Nu5bTjZegtr\n         uIHB+q2XOiOU1GhZB4GCRLxrj4msCBgHqtJ0qBId9k1WhVku57ovMiiUvJDtF3gyMk/h\n         9gOw==\nARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;\n        h=content-transfer-encoding:mime-version:subject:message-id:to:from\n         :date:dkim-signature;\n        bh=Ub9henOpe5XmdF/KsWVEJ2CSvdKWuLqCTVvS2++iE6A=;\n        b=a3fGmj/w8651iTjLw887qBJS32RMpFKrxxvYoegQU9b6Gt2vqzvsB90dg67rUq4iV1\n         uqrSmPphkOCKu6C0kYf22t1xOmG745zxnnfIGwi79I03kQZ1HX0IQBecGooVOlROIyN8\n         Q00Y3256iXAXB2qEPc4cBCSFamO9XjWuCkP2PNLqxYZrdGjUYUVo5vmvdI3EP1hvxipq\n         nWxjNQ+lH2UiLnBzb4Gfe7acrvkhKz9gbfXIhMPsvDBIi3bxNXmi3ID2nHXJmpYHWMq8\n         UwsmAq/X3lxmhLfmkkOWTuujYVjDWOzbzfZbv7sWJgdgur4sOUgxGpRLaZJPO3gib2B7\n         F0dA==\nARC-Authentication-Results: i=1; mx.google.com;\n       dkim=pass header.i=@github.com header.s=pf2014 header.b=NcXDBg+m;\n       spf=pass (google.com: domain of email@domain.com designates 192.30.252.211 as permitted sender) smtp.mailfrom=email@domain.com;\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=github.com\nReturn-Path: <email@domain.com>\nReceived: from out-28.smtp.github.com (out-28.smtp.github.com. [192.30.252.211])\n        by mx.google.com with ESMTPS id s3-20020a056e0210c300b002f8e9246e7asi9145395ilj.14.2022.10.10.05.14.10\n        for <email@domain.com>\n        (version=TLS1_2 cipher=ECDHE-ECDSA-CHACHA20-POLY1305 bits=256/256);\n        Mon, 10 Oct 2022 05:14:10 -0700 (PDT)\nReceived-SPF: pass (google.com: domain of email@domain.com designates 192.30.252.211 as permitted sender) client-ip=192.30.252.211;\nAuthentication-Results: mx.google.com;\n       dkim=pass header.i=@github.com header.s=pf2014 header.b=NcXDBg+m;\n       spf=pass (google.com: domain of email@domain.com designates 192.30.252.211 as permitted sender) smtp.mailfrom=email@domain.com;\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=github.com\nReceived: from github-lowworker-bf9f1da.ash1-iad.github.net (github-lowworker-bf9f1da.ash1-iad.github.net [10.56.117.24])\n\tby smtp.github.com (Postfix) with ESMTP id 01F7390008F\n\tfor <email@domain.com>; Mon, 10 Oct 2022 05:14:10 -0700 (PDT)\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;\n\ts=pf2014; t=1665404050;\n\tbh=Ub9henOpe5XmdF/KsWVEJ2CSvdKWuLqCTVvS2++iE6A=;\n\th=Date:From:To:Subject:From;\n\tb=NcXDBg+mI5wZwGHJkZSkoax1lOe+r3MZEyz2E+47Ce1s/4a4EQoeSGyQroedLgUnA\n\t lVoA13APnvt/kYa8k5Y348gK4qEKfQwpcC1gQkZfgUjgjQ6tacnRsZDl96AGH9vclW\n\t Kj/tO7vx4xOGBUHqfzkdokHV0ms5rzrBJ0tv8lic=\nDate: Mon, 10 Oct 2022 05:14:09 -0700\nFrom: GitHub <email@domain.com>\nTo: email@domain.com\nMessage-ID: <email@domain.com>\nSubject: [GitHub] Subscribed to 63 nf-core repositories\nMime-Version: 1.0\nContent-Type: text/plain;\n charset=UTF-8\nContent-Transfer-Encoding: quoted-printable\nX-Auto-Response-Suppress: All",
+      "source_file": "email-no-html-content-1.eml",
+      "source_page": 0,
+      "keywords": [
+        "ECDHE",
+        "ARC",
+        "ESMTPS",
+        "SMTP",
+        "Archived",
+        "Delivered",
+        "Received",
+        "AMsMyM"
+      ],
+      "created_at": "2026-06-16T11:53:31.829002",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "76f12c5e-2001-4ef3-9c86-f212d4b9539c",
+      "type": "general",
+      "title": "Hey there, we=E2=80=99re just writing to let you k...",
+      "content": "Hey there, we=E2=80=99re just writing to let you know that you=E2=80=99ve=\n automatically started watching several repositories on GitHub.=0D\n=0D\nYou=E2=80=99ll receive notifications for all issues, pull requests, and c=\nomments that happen inside the repository. If you would like to stop watc=\nhing any of these repositories, you can manage your settings here:=0D\n=0D\n  https://github.com/nf-core/cookiecutter/subscription=0D\n  https://github.com/nf-core/tools/subscription=0D\n  https://github.com/nf-core/logos/subscription=0D\n  https://github.com/nf-core/methylseq/subscription=0D\n  https://github.com/nf-core/test-datasets/subscription=0D\n  https://github.com/nf-core/rnaseq/subscription=0D\n  https://github.com/nf-core/exoseq/subscription=0D\n  https://github.com/nf-core/nf-co.re/subscription=0D\n  https://github.com/nf-core/chipseq/subscription=0D\n  https://github.com/nf-core/vipr/subscription=0D\n  https://github.com/nf-core/mag/subscription=0D\n  https://github.com/nf-core/eager/subscription=0D\n  https://github.com/nf-core/hlatyping/subscription=0D\n  https://github.com/nf-core/smrnaseq/subscription=0D\n  https://github.com/nf-core/ampliseq/subscription=0D\n  https://github.com/nf-core/neutronstar/subscription=0D\n  https://github.com/nf-core/rnafusion/subscription=0D\n  https://github.com/nf-core/atacseq/subscription=0D\n  https://github.com/nf-core/nascent/subscription=0D\n  https://github.com/nf-core/configs/subscription=0D\n  https://github.com/nf-core/epitopeprediction/subscription=0D\n  https://github.com/nf-core/airrflow/subscription=0D\n  https://github.com/nf-core/bacass/subscription=0D\n  https://github.com/nf-core/scrnaseq/subscription=0D\n  https://github.com/nf-core/hic/subscription=0D\n  https://github.com/nf-core/proteomicslfq/subscription=0D\n  https://github.com/nf-core/sarek/subscription=0D\n  https://github.com/nf-core/cageseq/subscription=0D\n  https://github.com/nf-core/bactmap/subscription=0D\n  https://github.com/nf-core/mnaseseq/subscription=0D\n  https://github.com/nf-core/kmermaid/subscription=0D\n  https://github.com/nf-core/crisprvar/subscription=0D\n  https://github.com/nf-core/imcyto/subscription=0D\n  https://github.com/nf-core/modules/subscription=0D\n  https://github.com/nf-core/nanoseq/subscription=0D\n  https://github.com/nf-core/demultiplex/subscription=0D\n  https://github.com/nf-core/viralrecon/subscription=0D\n  https://github.com/nf-core/gwas/subscription=0D\n  https://github.com/nf-core/dualrnaseq/subscription=0D\n  https://github.com/nf-core/clipseq/subscription=0D\n  https://github.com/nf-core/cutandrun/subscription=0D\n  https://github.com/nf-core/circrna/subscription=0D\n  https://github.com/nf-core/vscode-extensionpack/subscription=0D\n  https://github.com/nf-core/rnavar/subscription=0D\n  https://github.com/nf-core/fetchngs/subscription=0D\n  https://github.com/nf-core/raredisease/subscription=0D\n  https://github.com/nf-core/hicar/subscription=0D\n  https://github.com/nf-core/circdna/subscription=0D\n  https://github.com/nf-core/funcscan/subscription=0D\n  https://github.com/nf-core/ssds/subscription=0D\n  https://github.com/nf-core/nanostring/subscription=0D\n  https://github.com/nf-core/genomeannotator/subscription=0D\n  https://github.com/nf-core/taxprofiler/subscription=0D\n  https://github.com/nf-core/spatialtranscriptomics/subscription=0D\n  https://github.com/nf-core/proteinfold/subscription=0D\n  https://github.com/nf-core/prettier-plugin-nextflow/subscription=0D\n  https://github.com/nf-core/genomeassembler/subscription=0D\n  https://github.com/nf-core/hgtseq/subscription=0D\n  https://github.com/nf-core/isoseq/subscription=0D\n  https://github.com/nf-core/rnadnavar/subscription=0D\n  https://github.com/nf-core/crisprseq/subscription=0D\n  https://github.com/nf-core/genomeskim/subscription=0D\n  https://github.com/nf-core/fastquorum/subscription=0D\n=0D\nYou automatically watched these repositories because you=E2=80=99ve been =\ngiven access to them.=0D\n=0D\nThanks!=0D",
+      "source_file": "email-no-html-content-1.eml",
+      "source_page": 0,
+      "keywords": [
+        "Hey",
+        "Thanks",
+        "settings"
+      ],
+      "created_at": "2026-06-16T11:53:31.829686",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "bf487ffc-cc30-4f04-8d10-131e6c59d69c",
+      "type": "general",
+      "title": "From 1751394755051884550@xxx Mon Dec 05 17:09:55 +...",
+      "content": "From 1751394755051884550@xxx Mon Dec 05 17:09:55 +0000 2022\nX-GM-THRID: 1751394755051884550",
+      "source_file": "email-no-html-content-1.eml",
+      "source_page": 0,
+      "keywords": [
+        "THRID"
+      ],
+      "created_at": "2026-06-16T11:53:31.829722",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    }
+  ]
+}

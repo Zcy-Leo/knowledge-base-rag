@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-no-subject.eml",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "21d3f7e2-6bd7-438c-ad7e-ea7bb91091f1",
+      "type": "general",
+      "title": "From: sender@example.com\nTo: recipient@example.com...",
+      "content": "From: sender@example.com\nTo: recipient@example.com\nMIME-Version: 1.0\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "mime-no-subject.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "MIME",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:15:59.914081",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "93342282-f2b9-4aee-80b2-cd07b96fd8b2",
+      "type": "general",
+      "title": "This is a simple email message without a subject.",
+      "content": "This is a simple email message without a subject.",
+      "source_file": "mime-no-subject.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:15:59.914113",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    }
+  ]
+}

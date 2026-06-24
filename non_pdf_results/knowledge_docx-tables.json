@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "source_file": "docx-tables.docx",
+  "total_entries": 6,
+  "entries": [
+    {
+      "id": "542122b0-efae-458b-b8ea-21d5bfa73728",
+      "type": "general",
+      "title": "Simple uniform table",
+      "content": "Simple uniform table",
+      "source_file": "docx-tables.docx",
+      "source_page": 0,
+      "keywords": [
+        "Simple",
+        "table"
+      ],
+      "created_at": "2026-06-22T11:57:38.392486",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "34accc8d-2f74-46e8-83c5-0cfd8ece389b",
+      "type": "general",
+      "title": "Nested Table",
+      "content": "Nested Table",
+      "source_file": "docx-tables.docx",
+      "source_page": 0,
+      "keywords": [
+        "Nested",
+        "table"
+      ],
+      "created_at": "2026-06-22T11:57:38.392917",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "585a599f-6961-43ec-819e-e030f6d0ba5d",
+      "type": "general",
+      "title": "Table with merged cells",
+      "content": "Table with merged cells",
+      "source_file": "docx-tables.docx",
+      "source_page": 0,
+      "keywords": [
+        "Table"
+      ],
+      "created_at": "2026-06-22T11:57:38.393098",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "910efaca-9f34-4e70-8d91-289491d900f5",
+      "type": "general",
+      "title": "Table Content",
+      "content": "Header Col 1 | Header Col 2\nLorem ipsum | A link example",
+      "source_file": "docx-tables.docx",
+      "source_page": 0,
+      "keywords": [
+        "Header",
+        "Lorem"
+      ],
+      "created_at": "2026-06-22T11:57:38.394073",
+      "metadata": {
+        "element_type": "table",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "23ed8f0a-dac2-430d-8132-57255b051d87",
+      "type": "general",
+      "title": "Table Content",
+      "content": "a | >b< | c\nd |  | i\nj | k | l",
+      "source_file": "docx-tables.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.394897",
+      "metadata": {
+        "element_type": "table",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "1803ed21-7d8b-4b5d-be01-7428e58a84de",
+      "type": "general",
+      "title": "Table Content",
+      "content": "a | b | b\na | c | d\ne | e | d",
+      "source_file": "docx-tables.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.395871",
+      "metadata": {
+        "element_type": "table",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-power-point-table.pptx",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "59bc5448-5c5e-427a-bc70-ec7e9fc81bf5",
+      "type": "general",
+      "title": "Slide {slide_idx + 1}",
+      "content": "A Slide with a Table",
+      "source_file": "fake-power-point-table.pptx",
+      "source_page": 1,
+      "keywords": [
+        "table"
+      ],
+      "created_at": "2026-06-22T11:56:56.902867",
+      "metadata": {
+        "element_type": "slide",
+        "parser": "python-pptx-enhanced"
+      }
+    }
+  ]
+}

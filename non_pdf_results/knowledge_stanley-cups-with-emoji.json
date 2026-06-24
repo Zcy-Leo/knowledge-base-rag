@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "source_file": "stanley-cups-with-emoji.tsv",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "d8cf27fd-32f4-4e0b-bfd9-e108bc1fb10c",
+      "type": "general",
+      "title": "CSV Table - {os.path.basename(file_path)}",
+      "content": "Columns: {', '.join(header)}\nTeam\tLocation\tStanley Cups\nBlues\tSTL\t1\nFlyers\tPHI\t2\nMaple Leafs\tTOR\t13\n👨\\U+1F3FB🔧\tTOR\t15",
+      "source_file": "stanley-cups-with-emoji.tsv",
+      "source_page": 0,
+      "keywords": [
+        "STL",
+        "TOR",
+        "PHI",
+        "Columns",
+        "Team",
+        "Blues",
+        "Flyers"
+      ],
+      "created_at": "2026-06-22T11:56:14.606033",
+      "metadata": {
+        "element_type": "csv_table",
+        "parser": "csv"
+      }
+    }
+  ]
+}

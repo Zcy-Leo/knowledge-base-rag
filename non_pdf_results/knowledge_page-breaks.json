@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "source_file": "page-breaks.docx",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "d288d872-d223-49fd-ab1b-6035f48eb15b",
+      "type": "general",
+      "title": "First page, tab here:\tfollowed by line-break here:...",
+      "content": "First page, tab here:\tfollowed by line-break here:\nhere:\nand here:\nno-break hyphen here:-and hard page-break here>>",
+      "source_file": "page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "First",
+        "page"
+      ],
+      "created_at": "2026-06-22T11:57:41.227479",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "a0adb784-b2b3-4803-bb48-f680561f3162",
+      "type": "general",
+      "title": "<<Text on second page. The font is big so it break...",
+      "content": "<<Text on second page. The font is big so it breaks onto third page--------------------here-->> <<but break falls inside link so text stays together.",
+      "source_file": "page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "page"
+      ],
+      "created_at": "2026-06-22T11:57:41.227761",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "2c57eedf-79d6-4154-9fc3-9bae5e2a0e5c",
+      "type": "manual_section",
+      "title": "Continuous section break here>>",
+      "content": "Continuous section break here>>",
+      "source_file": "page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "Continuous"
+      ],
+      "created_at": "2026-06-22T11:57:41.227980",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "d9412999-be01-46c3-8121-2debb04217b7",
+      "type": "general",
+      "title": "<<followed by text on same page",
+      "content": "<<followed by text on same page",
+      "source_file": "page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "page"
+      ],
+      "created_at": "2026-06-22T11:57:41.228123",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "a118a0c0-1fcd-4333-a647-64927c4e9386",
+      "type": "manual_section",
+      "title": "Odd-page section break here>>",
+      "content": "Odd-page section break here>>",
+      "source_file": "page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "Odd",
+        "page"
+      ],
+      "created_at": "2026-06-22T11:57:41.228269",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "4b005157-b901-4c2e-97ba-1dae44525103",
+      "type": "general",
+      "title": "<<producing two page-breaks to get from page-3 to ...",
+      "content": "<<producing two page-breaks to get from page-3 to page-5.",
+      "source_file": "page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "page"
+      ],
+      "created_at": "2026-06-22T11:57:41.228417",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "a01c744d-a858-407c-bf8c-0b66ce8f9ad9",
+      "type": "general",
+      "title": "Then text gets big again so a \"natural\" rendered p...",
+      "content": "Then text gets big again so a \"natural\" rendered page break happens again here>> <<and then more text proceeds.",
+      "source_file": "page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "Then",
+        "text",
+        "page"
+      ],
+      "created_at": "2026-06-22T11:57:41.228797",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

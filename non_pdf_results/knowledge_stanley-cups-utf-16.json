@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "stanley-cups-utf-16.csv",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "c9dacaf3-f919-4b88-8c25-422dcab2b5f7",
+      "type": "general",
+      "title": "CSV Table - {os.path.basename(file_path)}",
+      "content": "Columns: {', '.join(header)}\n\u0000T\u0000e\u0000a\u0000m\u0000 | \u0000L\u0000o\u0000c\u0000a\u0000t\u0000i\u0000o\u0000n\u0000 | \u0000S\u0000t\u0000a\u0000n\u0000l\u0000e\u0000y\u0000 \u0000C\u0000u\u0000p\u0000s\u0000\n\u0000B\u0000l\u0000u\u0000e\u0000s\u0000 | \u0000S\u0000T\u0000L\u0000 | \u00001\u0000\n\u0000F\u0000l\u0000y\u0000e\u0000r\u0000s\u0000 | \u0000P\u0000H\u0000I\u0000 | \u00002\u0000\n\u0000M\u0000a\u0000p\u0000l\u0000e\u0000 \u0000L\u0000e\u0000a\u0000f\u0000s\u0000 | \u0000T\u0000O\u0000R\u0000 | \u00001\u00003\u0000",
+      "source_file": "stanley-cups-utf-16.csv",
+      "source_page": 0,
+      "keywords": [
+        "Columns"
+      ],
+      "created_at": "2026-06-22T11:56:14.604831",
+      "metadata": {
+        "element_type": "csv_table",
+        "parser": "csv"
+      }
+    }
+  ]
+}

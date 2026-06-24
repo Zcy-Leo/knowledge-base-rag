@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "not-unstructured-payload.json",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "b11b99eb-2fae-45ba-92c7-40e69cb48234",
+      "type": "general",
+      "title": "JSON Data - {os.path.basename(file_path)}",
+      "content": "{\n  \"id\": \"Sample-1\",\n  \"name\": \"Sample 1\",\n  \"description\": \"This is sample data #1\"\n}",
+      "source_file": "not-unstructured-payload.json",
+      "source_page": 0,
+      "keywords": [
+        "data"
+      ],
+      "created_at": "2026-06-22T11:56:56.230599",
+      "metadata": {
+        "element_type": "json",
+        "parser": "json"
+      }
+    }
+  ]
+}

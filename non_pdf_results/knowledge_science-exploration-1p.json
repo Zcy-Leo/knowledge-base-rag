@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "source_file": "science-exploration-1p.pptx",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "16ceff4c-1b8b-4e07-b13a-fcfd0a1eb40b",
+      "type": "general",
+      "title": "Slide {slide_idx + 1}",
+      "content": "Code 600: Sciences and Exploration Directorate (SED)\nCode 610: Earth Sciences Division\nCode 660: Astrophysics Science Division\nCode 670: Heliophysics Science Division\nCode 690: Solar System Exploration Division\nSupport offices\nCode 603: Administration and Resources Management Office\nCode 605: Science Proposal Support Office\nCode 606: Computational and Information Sciences and Technology Office  ( The SEDVME project is managed out of 606).\nCode 700: Information Technology and Communication Directorate\nProject management help, CNE, Zoned Architecture, IT Security,  Production SEDVME Service Manager\nGSFC: Sciences and Exploration Directorate\nVirtual Machine Environment Scorecard",
+      "source_file": "science-exploration-1p.pptx",
+      "source_page": 1,
+      "keywords": [
+        "GSFC",
+        "SED",
+        "SEDVME",
+        "CNE",
+        "Code",
+        "Sciences",
+        "Earth",
+        "system"
+      ],
+      "created_at": "2026-06-22T11:56:57.321670",
+      "metadata": {
+        "element_type": "slide",
+        "parser": "python-pptx-enhanced"
+      }
+    }
+  ]
+}

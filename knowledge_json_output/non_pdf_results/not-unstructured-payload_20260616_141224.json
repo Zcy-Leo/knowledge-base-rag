@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "source_file": "not-unstructured-payload.json",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "96c3e482-9deb-47fd-84d6-af523a0dfd42",
+      "type": "general",
+      "title": "{\n    \"id\": \"Sample-1\",\n    \"name\": \"Sample 1\",\n  ...",
+      "content": "{\n    \"id\": \"Sample-1\",\n    \"name\": \"Sample 1\",\n    \"description\": \"This is sample data #1\"\n}",
+      "source_file": "not-unstructured-payload.json",
+      "source_page": 0,
+      "keywords": [
+        "data"
+      ],
+      "created_at": "2026-06-16T14:12:24.845789",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Data",
+        "source": "not-unstructured-payload.json"
+      }
+    }
+  ]
+}

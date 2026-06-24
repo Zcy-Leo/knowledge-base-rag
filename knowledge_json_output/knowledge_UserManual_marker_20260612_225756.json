@@ -1,0 +1,767 @@
+{
+  "schema_version": "1.0",
+  "source_file": "UserManual.pdf",
+  "total_entries": 46,
+  "entries": [
+    {
+      "id": "16ace8c2-6bd0-4de9-b7d5-36033f31ec18",
+      "type": "general",
+      "title": "USER MANUAL",
+      "content": "QN65Q9FNAF QN75Q9FNAF\n\n![](_page_0_Picture_5.jpeg)\n\nThank you for purchasing this Samsung product.\n\nTo receive more complete service, please register your product at www.samsung.com\n\nModel Serial No.\n\nIf you have any questions, please call us at 1-800-SAMSUNG (1-800-726-7864) for assistance.\n\n![](_page_1_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 1,
+      "keywords": [
+        "MANUAL",
+        "SAMSUNG",
+        "USER"
+      ],
+      "created_at": "2026-06-10T09:43:58.181262",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "562a4983-fd07-47cb-928a-da1d6f5dbe29",
+      "type": "general",
+      "title": "<span id=\"page-1-0\"></span>Before Reading This User Manual",
+      "content": "This TV comes with this user manual and an embedded e-Manual. Before reading this user manual, review the following:\n\n| User Manual | Read this provided user manual to see information<br>about product safety, installation, accessories, initial<br>configuration, and product specifications. |\n|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| e-Manual    | For more information about this TV, read the e-Manual<br>embedded in the product.<br>• To open the e-Manual,<br>><br>Settings > Support > Open e-Manual     |\n\n![](_page_1_Picture_4.jpeg)\n\nScan this QR code with your smart device to visit Samsung's online Customer Service Center. You can also visit the site - http//:www.samsung.com/us/support - on your PC. On the website, you can download the user manual and see its contents on your PC or mobile device.",
+      "source_file": "UserManual.pdf",
+      "source_page": 1,
+      "keywords": [
+        "QR",
+        "TV",
+        "PC"
+      ],
+      "created_at": "2026-06-10T09:43:58.181403",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "5520b8c7-3a16-4852-bf20-0a0fcab98b54",
+      "type": "general",
+      "title": "Learning the e-Manual's assistance functions",
+      "content": "| Search                    | Select an item from the search results to load the corresponding page. |\n|---------------------------|------------------------------------------------------------------------|\n| Index                     | Select a keyword to navigate to the relevant page.                     |\n| Recently Viewed<br>Topics | Select a topic from the list of recently viewed topics.                |\n\n• Some menu screens cannot be accessed from the e-Manual.",
+      "source_file": "UserManual.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-10T09:43:58.181471",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "73a35785-2027-4186-b99b-9634d5ccd7f1",
+      "type": "general",
+      "title": "Learning the functions of the buttons that appear on e-Manual topic pages",
+      "content": "| Try Now | Access the associated menu item and try out the feature directly.       |\n|---------|-------------------------------------------------------------------------|\n| Link    | Access an underlined topic referred to on an e-Manual page immediately. |\n\n![](_page_1_Picture_11.jpeg)\n\n![](_page_1_Picture_12.jpeg)\n\n![](_page_1_Picture_13.jpeg)\n\n![](_page_1_Picture_14.jpeg)\n\n![](_page_2_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-10T09:43:58.181522",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "1fd24bc8-c5aa-4dd8-ba9a-b6d351b93360",
+      "type": "sop_step",
+      "title": "<span id=\"page-2-0\"></span>Warning! Important Safety Instructions",
+      "content": "Please read the Safety Instructions before using your TV.\n\n| CAUTION<br>RISK OF ELECTRIC SHOCK. DO NOT OPEN.                                                                                                                                | Class II product: This symbol indicates that a<br>safety connection to electrical earth (ground) is<br>not required.                           |\n|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|\n| CAUTION: TO REDUCE THE RISK OF ELECTRIC SHOCK, DO<br>NOT REMOVE COVER (OR BACK). THERE ARE NO USER<br>SERVICEABLE PARTS INSIDE. REFER ALL SERVICING TO<br>QUALIFIED PERSONNEL. | AC voltage: Rated voltage marked with this<br>symbol is AC voltage.                                                                            |\n| This symbol indicates that high voltage is<br>present inside. It is dangerous to make any kind<br>of contact with any internal part of this product.                           | DC voltage: Rated voltage marked with this<br>symbol is DC voltage.                                                                            |\n| This symbol indicates that this product has<br>included important literature concerning<br>operation and maintenance.                                                          | Caution. Consult instructions for use: This<br>symbol instructs the user to consult the user<br>manual for further safety related information. |\n\n- The slots and openings in the cabinet and in the back or bottom are provided for necessary ventilation. To ensure reliable operation of this apparatus and to protect it from overheating, these slots and openings must never be blocked or covered.\n  - Do not place this apparatus in a confined space, such as a bookcase ",
+      "source_file": "UserManual.pdf",
+      "source_page": 1,
+      "keywords": [
+        "NO",
+        "ITEMS",
+        "THE",
+        "THERE"
+      ],
+      "created_at": "2026-06-10T09:43:58.182069",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "ada98d69-8d17-4127-8581-690633179598",
+      "type": "general",
+      "title": "Internet security",
+      "content": "Samsung takes a number of steps to protect its Internet-compatible Smart TVs against unauthorized incursions and hacking. For example, certain sensitive communications between the TV and the Internet servers are encrypted. In addition, the TV's operating system has adopted controls to prevent the installation of unauthorized applications. Although we take steps to protect your Smart TV and personal information, no Internet-connected device or transmission is completely secure. We therefore encourage you to take additional steps to safeguard your TV, secure your Internet connection, and minimize the risk of unauthorized access. These steps are listed below:\n\n- When Samsung releases software updates to improve the security of your TV, you should promptly install these updates. To automatically receive these updates, turn on Auto Update in the TV's menu ( > Settings > Support > Software Update > Auto Update). When an update is available, a popup message appears on the TV screen. Accept the software download and update by selecting YES when prompted. Take steps to secure your wireless router and network. Your router's manual should provide additional details about how to implement the following measures:\n  - Secure your wireless router's management settings with a unique password to prevent unauthorized changes to security related settings.\n  - Implement standard encryption (e.g., WPA2 encryption) on your wireless router to secure your wireless network signal.\n  - Secure access to your wireless network with a hard-to-guess password.\n  - Confirm your router's firewall setting is enabled (if so equipped).\n  - Make sure that all your Internet-connected devices are behind your network's firewall.\n  - If your router or modem has a standby mode button, use it to disconnect your home network from the Internet when it is not in use.\n- Use strong passwords for all your Internet accounts (Netflix, Facebook, etc.). If your TV has a camera, recess the camera into the TV's bezel whe",
+      "source_file": "UserManual.pdf",
+      "source_page": 4,
+      "keywords": [
+        "TV",
+        "NOT",
+        "YES"
+      ],
+      "created_at": "2026-06-10T09:43:58.182297",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "a2237d26-a4ab-41ff-98ee-69736f60c53f",
+      "type": "general",
+      "title": "Contents",
+      "content": "|    | Before Reading This User Manual                           | <br>2  |\n|----|-----------------------------------------------------------|--------|\n|    | Warning! Important Safety Instructions                    | <br>3  |\n| 01 | TV Installation                                           |        |\n|    | One Invisible Connection Guide                            | <br>7  |\n|    | Mounting the TV on a wall                                 | <br>8  |\n|    | Providing proper ventilation for your TV                  | <br>9  |\n|    | Safety Precaution: Securing the TV to the wall to prevent |        |\n|    | falling                                                   | <br>9  |\n|    | Detaching the Clean back stand cover from the TV          | 10     |\n| 02 | The Samsung Smart Remote                                  |        |\n|    | About the Buttons on the Samsung Smart Remote             | <br>11 |\n|    | Pairing the TV to the Samsung Smart Remote                | <br>12 |\n|    | Installing batteries into the Samsung Smart Remote        | <br>12 |\n|    |                                                           |        |\n| 03 | Initial Setup                                             |        |\n|    | Using the TV Control Stick                                | 13     |\n| 04 | Troubleshooting and Maintenance                           |        |\n|    | Troubleshooting                                           | 14     |\n|    | What is Remote Support?                                   | <br>15 |\n|    | Eco Sensor and screen brightness                          | 16     |\n|    | Caring for the TV                                         | 16     |\n|    |                                                           |        |\n| 05 | Specifications and Other Information                      |        |\n|    | Specifications                                            | <br>17 |\n|    | Environmental Considerations                              | <br>17 |\n|    | Decreasing power ",
+      "source_file": "UserManual.pdf",
+      "source_page": 5,
+      "keywords": [
+        "LIMITED",
+        "TV",
+        "TO",
+        "PURCHASER"
+      ],
+      "created_at": "2026-06-10T09:43:58.182464",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "3da43745-f1c8-41e5-8710-5ab9f6e9966e",
+      "type": "general",
+      "title": "<span id=\"page-6-0\"></span>01 TV Installation",
+      "content": "",
+      "source_file": "UserManual.pdf",
+      "source_page": 7,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.182490",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "6649da1f-83ce-49f8-a95a-28bde479a29c",
+      "type": "general",
+      "title": "One Invisible Connection Guide",
+      "content": "![](_page_6_Picture_3.jpeg)\n\nTo connect the One Invisible Connection to the One Connect and your TV, follow these steps:\n\n- 1. After the TV is completely set up and placed in its final position, connect the thicker connector of the One Invisible Connection to the TV, and then connect the thinner connector to the One Connect as shown in Steps 1 to 4 above. WARNING: Make sure that both connectors are fully and firmly connected. If either connecter is not connected properly, there is a danger of severe electric shock.\n- 2. Connect the One Connect AC power cord to the One Connect, and then connect the cord to a wall outlet as shown in Step 5 above.\n\nWARNING: Follow the directions exactly. Be sure to connect the power cord to the wall outlet as the last step. Always disconnect the power cord from the wall outlet before disconnecting the One Invisible Connection from the back of the TV or from the One Connect.\n\n– See the illustrated Quick Setup Guide for more information.\n\n![](_page_6_Picture_9.jpeg)\n\n- When connecting the One Invisible Connection, use a Bending Cover, which prevents the cable of the One Invisible Connection from being bent at a 90 degree angle, to bend the cable. Failure to do so may cause damage to the cable.\n- When connecting the One Invisible Connection, pay attention to the shapes and sizes of its connectors so that they are connected correctly. Failure to do so may cause product malfunction.\n- When connecting the One Invisible Connection, be careful not to twist the cable of the One Invisible Connection. Failure to do so may cause performance degradation of the TV or damage to the cable.\n- When arranging the remaining cable, refer to the figure above for the correct arrangement.\n- Take care not to subject the cable to any of the actions below. The One Invisible Connection contains a power circuit. You could damage the cable and subject yourself to an electric shock.\n- Handle the One Connect box carefully. It is heavy.\n\n![](_page_6_Picture_16.jpeg)\n\n",
+      "source_file": "UserManual.pdf",
+      "source_page": 7,
+      "keywords": [
+        "TV",
+        "WARNING",
+        "AC",
+        "Step 5"
+      ],
+      "created_at": "2026-06-10T09:43:58.182729",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "1127b2b1-5962-4402-a895-41c33b73e2bb",
+      "type": "general",
+      "title": "CLASS 1 LASER PRODUCT",
+      "content": "- Caution Invisible laser radiation when open. Do not stare into beam.\n  - Do not bend the One Invisible Connection cable excessively. Do not cut the cable.\n  - Do not place heavy objects on the cable.\n  - Do not disassemble either of the cable connectors.\n- Caution Use of controls, adjustments, or the performance of procedures other than those specified herein may result in hazardous radiation exposure.\n- 3. Connect your peripherals (antenna, cable box, Blu-ray player, etc.) to the One Connect box. See the Accessories Kit Guide for details.\n\n![](_page_6_Picture_32.jpeg)\n\n![](_page_6_Picture_33.jpeg)\n\n![](_page_7_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 8,
+      "keywords": [
+        "PRODUCT",
+        "LASER",
+        "CLASS"
+      ],
+      "created_at": "2026-06-10T09:43:58.182820",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "44de4165-16eb-4820-b397-8cd7358bb468",
+      "type": "general",
+      "title": "<span id=\"page-7-1\"></span><span id=\"page-7-0\"></span>Mounting the TV on a wall",
+      "content": "![](_page_7_Picture_2.jpeg)\n\nIf you mount this TV on a wall, follow the instructions exactly as set out by the manufacturer. Unless it is correctly mounted, the TV may slide or fall and cause serious injury to a child or adult and serious damage to the TV.\n\nFor models providing wall mount adapters, install them as shown in the figure below before installing the wall mount kit.\n\n• Refer to the installation manual included with the Samsung wall mount kit.\n\n![](_page_7_Picture_6.jpeg)\n\n![](_page_7_Picture_7.jpeg)\n\n- To order the wall mount kit, contact Samsung Customer Care at 1-800-SAMSUNG (1-800-726-7864).\n- You can install your wall mount on a solid wall perpendicular to the floor. Before attaching the wall mount to surfaces other than plaster board, contact your nearest dealer for additional information. If you install the TV on a ceiling or slanted wall, it may fall and result in severe personal injury.\n- When installing a wall mount kit, we recommend you fasten all four VESA screws.\n- If you want to install a wall mount kit that attaches to the wall using two top screws only, be sure to use a Samsung wall mount kit that supports this type of installation. (You may not be able to purchase this type of wall mount kit, depending on the geographical region.)\n- Standard dimensions for wall mount kits are shown in the table below.\n- If you are installing a third-party wall mount, note that the length of the screws you can use to attach the TV to the wall mount is shown in column C in the table below.\n\n| TV size in inches | VESA screw hole specs<br>(A * B) in millimeters | C (mm) | Standard<br>Screw | Pitch<br>(mm) | Quantity | B |\n|-------------------|-------------------------------------------------|--------|-------------------|---------------|----------|---|\n| 65-75             | 400 x 400                                       | 19-21  | M8                | 1.25          | 4        |   |\n\n![](_page_7_Picture_15.jpeg)\n\n![](_page_7_Picture_16.jpeg)\n\n![](_page_7_Picture",
+      "source_file": "UserManual.pdf",
+      "source_page": 8,
+      "keywords": [
+        "VESA",
+        "TV",
+        "SAMSUNG"
+      ],
+      "created_at": "2026-06-10T09:43:58.183168",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "6ec7548e-4ac8-4685-b2d0-65c665cf13e8",
+      "type": "general",
+      "title": "Providing proper ventilation for your TV",
+      "content": "When you install your TV and One Connect, maintain a distance of at least 4 inches between the TV and One Connect with other objects (walls, cabinet sides, etc.) to ensure proper ventilation. Failing to maintain proper ventilation may result in a fire or a problem with the product caused by an increase in its internal temperature.\n\nWhen you install your TV with a stand or a wall mount, we strongly recommend you use parts provided by Samsung Electronics only. Using parts provided by another manufacturer may cause difficulties with the product or result in injury caused by the product falling.",
+      "source_file": "UserManual.pdf",
+      "source_page": 10,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.183300",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "120131fb-3860-4afd-99d7-93c2433b2deb",
+      "type": "general",
+      "title": "Safety Precaution: Securing the TV to the wall to prevent falling",
+      "content": "![](_page_8_Picture_13.jpeg)\n\nCaution: Pulling, pushing, or climbing on the TV may cause the TV to fall. In particular, ensure your children do not hang on or destabilize the TV. This action may cause the TV to tip over, causing serious injuries or death. Follow all safety precautions provided in the Safety Flyer included with your TV. For added stability and safety, you can purchase and install the anti-fall device as described below.\n\n![](_page_8_Picture_15.jpeg)\n\nWARNING: Never place a television set in an unstable location. The television set may fall, causing serious personal injury or death. Many injuries, particularly to children, can be avoided by taking simple precautions such as\n\n- Using cabinets or stands recommended by the manufacturer of the television set.\n- Only using furniture that can safely support the television set.\n- Ensuring the television set is not overhanging the edge of the supporting furniture.\n- Not placing the television set on tall furniture (for example, cupboards or bookcases) without anchoring both the furniture and the television set to a suitable support.\n- Not placing the television set on cloth or other materials that may be located between the television set and supporting furniture.\n- Educating children about the dangers of climbing on furniture to reach the television set or its controls. If you are retaining and relocating the television set that you are replacing with this new set, you should apply the same precautions to the old set.\n\n![](_page_8_Picture_23.jpeg)\n\n![](_page_8_Picture_24.jpeg)\n\n![](_page_8_Picture_25.jpeg)\n\n![](_page_9_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 10,
+      "keywords": [
+        "TV",
+        "WARNING"
+      ],
+      "created_at": "2026-06-10T09:43:58.183459",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "ed1670e5-c2b2-4f3f-becf-9316c3f0dcba",
+      "type": "sop_step",
+      "title": "<span id=\"page-9-0\"></span>Preventing the TV from falling",
+      "content": "- 1. Using the appropriate screws, firmly fasten a set of brackets to the wall. Confirm that the screws are firmly attached to the wall.\n  - You may need additional material such as wall anchors depending on the type of wall.\n- 2. Using the appropriately sized screws, firmly fasten a set of brackets to the TV.\n  - For the screw specifications, refer to \"Standard Screw\" in the table on page [8](#page-7-1).\n- 3. Connect the brackets fixed to the TV and the brackets fixed to the wall with a durable, heavy-duty string, and then tie the string tightly.\n  - Install the TV near the wall so that it does not fall backwards.\n  - Connect the string so that the brackets fixed to the wall are at the same height as or lower than the brackets fixed to the TV.\n\n![](_page_9_Picture_9.jpeg)\n\n![](_page_9_Picture_10.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 11,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.183554",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "8596f14c-5e26-482e-85a1-0b37836e8ab4",
+      "type": "general",
+      "title": "Detaching the Clean back stand cover from the TV",
+      "content": "Refer to the following figure to detach the clean back stand cover:\n\n![](_page_9_Picture_13.jpeg)\n\n![](_page_9_Picture_14.jpeg)\n\n![](_page_9_Picture_15.jpeg)\n\n![](_page_10_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 11,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.183588",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "2dedc40d-1ae5-4763-bc58-444c8da57fe4",
+      "type": "general",
+      "title": "<span id=\"page-10-0\"></span>02 The Samsung Smart Remote",
+      "content": "",
+      "source_file": "UserManual.pdf",
+      "source_page": 11,
+      "keywords": [],
+      "created_at": "2026-06-10T09:43:58.183615",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "60f3ce27-2ca7-41d4-a0de-1a6bcb544dae",
+      "type": "general",
+      "title": "About the Buttons on the Samsung Smart Remote",
+      "content": "• The images, buttons, and functions of the Samsung Smart Remote may differ depending on the model.\n\n![](_page_10_Figure_4.jpeg)\n\n![](_page_10_Picture_5.jpeg)\n\n![](_page_10_Picture_6.jpeg)\n\n![](_page_10_Picture_7.jpeg)\n\n![](_page_11_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 11,
+      "keywords": [],
+      "created_at": "2026-06-10T09:43:58.183661",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "8486343d-a4ac-4dd4-a42b-bd2ce95d733d",
+      "type": "general",
+      "title": "<span id=\"page-11-0\"></span>Pairing the TV to the Samsung Smart Remote",
+      "content": "![](_page_11_Picture_2.jpeg)\n\nWhen you turn on the TV for the first time, the Samsung Smart Remote pairs to the TV automatically. If the Samsung Smart Remote does not pair to the TV automatically, point it at the remote control sensor of the TV, and then press and hold the buttons labeled and as shown in the figure on the left simultaneously for 3 seconds or more.",
+      "source_file": "UserManual.pdf",
+      "source_page": 11,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.183711",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "54478805-0989-4062-8b52-91ead663a9f3",
+      "type": "sop_step",
+      "title": "Installing batteries into the Samsung Smart Remote",
+      "content": "![](_page_11_Picture_5.jpeg)\n\n- 1. Press the button at the top rear of the Samsung Smart Remote. The body will pop out slightly from the body cover.\n- 2. Turn the remote over, and then slide the body of the remote upwards until the battery compartment is revealed.\n- 3. If there are batteries in the remote, press the r and l buttons on both sides of the battery compartment to remove the existing batteries.\n- 4. Insert two new batteries (1.5V AAA type) into the battery compartment making sure that the batteries' polarities (+, -) are oriented correctly. When done, slide the body of the remote until it is nearly in its original position.\n- 5. Turn the remote over, press and hold the button on the top rear, and then slide the body of the remote down into place.\n- Alkaline batteries are recommended for longer battery life.\n\n![](_page_11_Picture_12.jpeg)\n\n![](_page_11_Picture_13.jpeg)\n\n![](_page_12_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 12,
+      "keywords": [
+        "AAA"
+      ],
+      "created_at": "2026-06-10T09:43:58.183796",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "be2d5fab-7761-49da-abd7-32074db7afe0",
+      "type": "general",
+      "title": "<span id=\"page-12-0\"></span>03 Initial Setup",
+      "content": "When you turn on your TV for the first time, it immediately starts the Initial Setup. Follow the instructions displayed on the screen and configure the TV's basic settings to suit your viewing environment.\n\n- Noise may occur temporarily when the TV communicates with mobile devices.\n- The SmartThings app is available on mobile devices for Android 6.0 or higher and iOS 10 or higher.\n- To perform initialization by using the SmartThings app, the mobile device must have been connected via Wi-Fi.\n- When the pop-up for setup does not appear automatically on the SmartThings app of your mobile device, proceed with the process after manually adding the TV using Add Device on the dashboard of the SmartThings app.",
+      "source_file": "UserManual.pdf",
+      "source_page": 12,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.183866",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "b9fef8eb-f0b7-408c-a2a7-5b5a1a068020",
+      "type": "general",
+      "title": "Using the TV Control Stick",
+      "content": "You can use the Control Stick on the bottom of the TV instead of the remote control to control most of the functions of your TV. While watching TV, you can change the channel by pressing the up and down directional buttons on the Control Stick or adjust the volume by pressing the left and right directional buttons. Press the button on the Control Stick to display the Control menu.\n\nTo run an item on the menu, press the directional buttons on the Control Stick to move the focus to the item, and then press the button on the Control Stick.\n\n• The screen may dim if the protective film on the SAMSUNG logo or the bottom of the TV is not detached. Please remove the protective film.\n\n![](_page_12_Picture_11.jpeg)\n\n- Press button: Display the Control menu. / Select or run a\n- Press and hold button: The running function is terminated.\n- Left/Right button: Changes the volume.\n\nThe Control Stick is located on the bottom of the TV.\n\n![](_page_12_Picture_16.jpeg)\n\n![](_page_12_Picture_17.jpeg)\n\n![](_page_12_Picture_18.jpeg)\n\nEnglish - 13\n\n![](_page_13_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 12,
+      "keywords": [
+        "TV",
+        "SAMSUNG"
+      ],
+      "created_at": "2026-06-10T09:43:58.183995",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "76d00d8b-3045-4bee-aebc-a630d238c655",
+      "type": "general",
+      "title": "<span id=\"page-13-0\"></span>04 Troubleshooting and Maintenance",
+      "content": "",
+      "source_file": "UserManual.pdf",
+      "source_page": 13,
+      "keywords": [],
+      "created_at": "2026-06-10T09:43:58.184017",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "e5e77f22-88e8-4d6c-85bc-19983a2747fb",
+      "type": "general",
+      "title": "Troubleshooting",
+      "content": "If the TV seems to have a problem, first review this list of possible problems and solutions. Alternatively, review the Troubleshooting Section in the e-Manual. If none of the troubleshooting tips apply, visit www.samsung.com/support or call Samsung Customer Service at 1-800-SAMSUNG (1-800-726-7864).\n\n- For detailed information on troubleshooting, watch the troubleshooting videos at www.samsung.com/spsn.\n- This TFT LED panel is made up of sub pixels which require sophisticated technology to produce. There may be, however, a few bright or dark pixels on the screen. These pixels will have no impact on the performance of the product.\n- To keep your TV in optimum condition, upgrade to the latest software. Use the Update Now or Auto Update functions on the TV's menu ( > Settings > Support > Software Update > Update Now or Auto Update).",
+      "source_file": "UserManual.pdf",
+      "source_page": 13,
+      "keywords": [
+        "TV",
+        "LED",
+        "SAMSUNG",
+        "TFT"
+      ],
+      "created_at": "2026-06-10T09:43:58.184094",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "ceb818ee-8759-42ce-baa9-67abbaf9abbf",
+      "type": "general",
+      "title": "The TV won't turn on.",
+      "content": "- Make sure that the AC power cord is securely plugged in to the TV and the wall outlet.\n- Make sure that the wall outlet is working and the power indicator at the bottom of the TV is lit and glowing a solid red.\n- Try pressing the Power button on the TV to make sure that the problem is not with the remote control. If the TV turns on, refer to \"Remote control does not work\" below.",
+      "source_file": "UserManual.pdf",
+      "source_page": 13,
+      "keywords": [
+        "TV",
+        "AC"
+      ],
+      "created_at": "2026-06-10T09:43:58.184142",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "6aadee1c-6966-4007-951b-160e59dcdfba",
+      "type": "general",
+      "title": "There is no picture/video/sound, or a distorted picture/video/sound from an external device, or \"Weak or No Signal\" is displayed on the TV, or you cannot find a channel.",
+      "content": "- Make sure the connection to the device is correct and that all cables are fully inserted.\n- Remove and reconnect all cables connected to the TV and the external devices. Try new cables if possible.\n- Confirm that the correct input source has been selected ( > Source).\n- Perform a TV self diagnosis to determine if the problem is caused by the TV or the device ( > Settings > Support > Self Diagnosis > Start Picture Test or Start Sound Test).\n- If the test results are normal, reboot the connected devices by unplugging each device's power cord and then plugging it in again. If the issue persists, refer to the connection guide in the user manual of the connected device.\n- If you are not using a cable box or satellite box, and your TV is receiving TV signals from an antenna or a cable wall connector, run Auto Program to search for channels ( > Settings > Broadcasting > Auto Program).",
+      "source_file": "UserManual.pdf",
+      "source_page": 14,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.184251",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "45f1c1be-7032-435c-9d0d-e5289b6ebd1a",
+      "type": "general",
+      "title": "The remote control does not work.",
+      "content": "- Check if the power indicator at the bottom of the TV blinks when you press the remote's Power button. If it does not, replace the remote control's batteries.\n- Make sure that the batteries are installed with their poles (+/–) in the correct direction.\n- Try pointing the remote directly at the TV from 5 ft. to 6 ft. (1.5~1.8 m) away.\n- If your TV came with a Samsung Smart Remote (Bluetooth Remote), make sure to pair the remote to the TV.",
+      "source_file": "UserManual.pdf",
+      "source_page": 14,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.184321",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "dc83c238-d037-42ab-ba72-57031158af07",
+      "type": "general",
+      "title": "The cable box or satellite box remote control doesn't turn the TV on or off or adjust the volume.",
+      "content": "• Program the cable box or satellite box remote control to operate the TV. Refer to the cable box or satellite box user manual for the SAMSUNG TV code.\n\n![](_page_13_Picture_25.jpeg)\n\n![](_page_13_Picture_26.jpeg)\n\n![](_page_13_Picture_27.jpeg)\n\n![](_page_13_Picture_28.jpeg)\n\n![](_page_14_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 14,
+      "keywords": [
+        "TV",
+        "SAMSUNG"
+      ],
+      "created_at": "2026-06-10T09:43:58.184380",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "171729a4-2624-4c40-9d73-7faeb05d8dbc",
+      "type": "general",
+      "title": "<span id=\"page-14-0\"></span>The TV settings are lost after 5 minutes.",
+      "content": "• The TV is in the Retail Mode. Change the Usage Mode in the System Manager Menu to Home Mode ( > Settings > General > System Manager > Usage Mode > Home Mode).",
+      "source_file": "UserManual.pdf",
+      "source_page": 15,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.184421",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "defca5dc-45f6-467e-966a-854209226665",
+      "type": "general",
+      "title": "Intermittent Wi-Fi",
+      "content": "- Make sure the TV has a network connection ( > Settings > General > Network > Network Status).\n- Make sure the Wi-Fi password is entered correctly.\n- Check the distance between the TV and the Modem/Router. The distance should not exceed 50 ft (15.2 m).\n- Reduce interference by not using or turning off wireless devices. Also, verify that there are no obstacles between the TV and the Modem/Router. (The Wi-Fi strength can be decreased by appliances, cordless phones, stone walls/ fireplaces, etc.)\n\n![](_page_14_Picture_8.jpeg)\n\n• Contact your Internet Service Provider (ISP) and ask them to reset your network circuit to re-register the Mac addresses of your new Modem/Router and the TV.",
+      "source_file": "UserManual.pdf",
+      "source_page": 15,
+      "keywords": [
+        "TV",
+        "ISP"
+      ],
+      "created_at": "2026-06-10T09:43:58.184510",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "ae45ff0e-85f5-4df6-8275-5a4a7a6cfcb0",
+      "type": "general",
+      "title": "Video App problems (Youtube etc)",
+      "content": "- Change the DNS to 8.8.8.8. Select > Settings > General > Network > Network Status > IP Settings > DNS Setting > Enter manually > DNS Server > enter 8.8.8.8 > OK.\n- Reset by selecting > Settings > Support > Self Diagnosis > Reset Smart Hub.",
+      "source_file": "UserManual.pdf",
+      "source_page": 15,
+      "keywords": [
+        "DNS",
+        "OK",
+        "IP"
+      ],
+      "created_at": "2026-06-10T09:43:58.184549",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "9df80f45-242f-44a5-ace9-0eae47b50f32",
+      "type": "faq",
+      "title": "What is Remote Support?",
+      "content": "Samsung Remote Support service offers you one-on-one support with a Samsung Technician who can remotely:\n\n- Diagnose your TV\n- Adjust the TV settings for you\n- Perform a factory reset on your TV\n- Install recommended firmware updates",
+      "source_file": "UserManual.pdf",
+      "source_page": 15,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.184584",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "2adda62f-bd3e-4ad8-93bb-7c1075eac1f8",
+      "type": "sop_step",
+      "title": "How does Remote Support work?",
+      "content": "You can easily get Samsung Remote Support service for your TV.\n\n- 1. Call the Samsung Contact Center and ask for remote support.\n- 2. Open the menu on your TV, and then go to the Support section. ( > Settings > Support)\n- 3. Select Remote Management, then read and agree to the service agreements. When the PIN screen appears, provide the PIN number to the technician.\n- 4. The technician will then access your TV.\n\n![](_page_14_Picture_25.jpeg)\n\n![](_page_14_Picture_26.jpeg)\n\n![](_page_15_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 15,
+      "keywords": [
+        "TV",
+        "PIN"
+      ],
+      "created_at": "2026-06-10T09:43:58.184666",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "3ea9a3b0-882e-49cd-bdf6-da29cec83550",
+      "type": "general",
+      "title": "<span id=\"page-15-0\"></span>Eco Sensor and screen brightness",
+      "content": "![](_page_15_Picture_2.jpeg)\n\n![](_page_15_Picture_3.jpeg)\n\nEco Sensor adjusts the brightness of the TV automatically. This feature measures the light in your room and optimizes the brightness of the TV automatically to reduce power consumption. If you want to turn this off, go to > Settings > General > Eco Solution > Ambient Light Detection.\n\n- If the screen is too dark while you are watching TV in a dark environment, it may be due to the Ambient Light Detection function.\n- The eco sensor is located at the bottom of the TV. Do not block the sensor with any object. This can decrease picture brightness.",
+      "source_file": "UserManual.pdf",
+      "source_page": 16,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.184735",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "af7df8c8-d475-47eb-b427-f0568b5e36ae",
+      "type": "general",
+      "title": "Caring for the TV",
+      "content": "- If a sticker was attached to the TV screen, some debris can remain after you remove the sticker. Please clean the debris off before watching TV.\n- The exterior and screen of the TV can get scratched during cleaning. Be sure to wipe the exterior and screen carefully using a soft cloth to prevent scratches.\n- Do not spray water or any liquid directly onto the TV. Any liquid that goes into the product may cause a failure, fire, or electric shock.\n- To clean the screen, turn off the TV, then gently wipe away smudges and fingerprints on the panel with a micro-fiber cloth. Clean the body or panel of the TV with a micro-fiber cloth dampened with a small amount of water. After that, remove the moisture with a dry cloth. While cleaning, do not apply strong force to the surface of the panel because it can damage the panel. Never use flammable liquids (benzene, thinner, etc.) or a cleaning agent. For stubborn smudges, spray a small amount of screen cleaner on a micro-fiber cloth, and then use the cloth to wipe away the smudges.\n\n![](_page_15_Picture_12.jpeg)\n\n![](_page_15_Picture_13.jpeg)\n\n![](_page_15_Picture_14.jpeg)\n\n![](_page_16_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 16,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.184843",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "dc65c82e-04ed-45ec-93fd-8af79bf74743",
+      "type": "general",
+      "title": "<span id=\"page-16-0\"></span>05 Specifications and Other Information",
+      "content": "",
+      "source_file": "UserManual.pdf",
+      "source_page": 16,
+      "keywords": [],
+      "created_at": "2026-06-10T09:43:58.184866",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "d05ac73c-f61a-41d0-b94f-1501ffc34460",
+      "type": "general",
+      "title": "Specifications",
+      "content": "| Model Name             | QN65Q9FNAF                  | QN75Q9FNAF                  |\n|------------------------|-----------------------------|-----------------------------|\n| Display Resolution     | 3840 x 2160                 | 3840 x 2160                 |\n| Screen Size            |                             |                             |\n| Diagonal               | 65˝ Class                   | 75˝ Class                   |\n| Measured Diagonally    | 64.5 inches                 | 74.5 inches                 |\n| Sound (Output)         | 60 W                        | 60 W                        |\n| Dimensions (W x H x D) |                             |                             |\n| Body                   | 57.1 x 32.7 x 1.5 inches    | 66.0 x 37.9 x 1.6 inches    |\n|                        | (1450.1 x 830.4 x 38.9 mm)  | (1675.8 x 961.9 x 39.4 mm)  |\n| With stand             | 57.1 x 34.1 x 14.4 inches   | 66.0 x 39.2 x 14.4 inches   |\n|                        | (1450.1 x 865.4 x 366.5 mm) | (1675.8 x 996.7 x 366.5 mm) |\n| Weight                 |                             |                             |\n| Without Stand          | 58.9 lbs (26.7 kg)          | 86.6 lbs (39.3 kg)          |\n| With Stand             | 62.8 lbs (28.5 kg)          | 90.4 lbs (41.0 kg)          |",
+      "source_file": "UserManual.pdf",
+      "source_page": 16,
+      "keywords": [],
+      "created_at": "2026-06-10T09:43:58.185008",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "b7fcb440-ba71-4ce6-9334-358a4dbd672b",
+      "type": "general",
+      "title": "Environmental Considerations",
+      "content": "| Operating Temperature | 50°F to 104°F (10°C to 40°C)  |\n|-----------------------|-------------------------------|\n| Operating Humidity    | 10% to 80%, non-condensing    |\n| Storage Temperature   | -4°F to 113°F (-20°C to 45°C) |\n| Storage Humidity      | 5% to 95%, non-condensing     |\n\n![](_page_16_Picture_6.jpeg)\n\n![](_page_16_Picture_7.jpeg)\n\n![](_page_16_Picture_8.jpeg)\n\nEnglish - 17\n\n![](_page_17_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 17,
+      "keywords": [],
+      "created_at": "2026-06-10T09:43:58.185063",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "fcea2a99-5584-4416-b25b-f223c5f7ca43",
+      "type": "general",
+      "title": "<span id=\"page-17-0\"></span>Notes",
+      "content": "- Design and specifications are subject to change without prior notice.\n- This device is a Class B digital apparatus.\n- For information about the power supply, and more information about power consumption, refer to the information on the label attached to the product.\n  - On One Connect models, the label is attached to the bottom of the One Connect.\n  - On most models, the label is attached to the back of the TV. (On some models, the label is inside the cover terminal.)\n- Typical power consumption is measured according to Energy Star Program requirements for televisions.\n- Your TV and its accessories may look different than the product images presented in this manual, depending on the model.\n- All drawings are not necessarily to scale. Some dimensions are subject to change without prior notice. Refer to the dimensions before installing your TV. Not responsible for typographical or printed errors.\n- To connect a LAN cable, use a CAT 7 (\\*STP type) cable for the connection.\n  - \\* Shielded Twist Pair\n\n© 2018 Samsung Electronics America, Inc\n\nDispose unwanted electronics through an approved recycler.\n\nTo find the nearest recycling location, go to our website:\n\nwww.samsung.com/recyclingdirect or call, (877) 278 - 0799",
+      "source_file": "UserManual.pdf",
+      "source_page": 17,
+      "keywords": [
+        "LAN",
+        "TV",
+        "STP",
+        "CAT"
+      ],
+      "created_at": "2026-06-10T09:43:58.185191",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "c44ebc7f-dd59-4033-aad2-6b1b13acb769",
+      "type": "general",
+      "title": "Decreasing power consumption",
+      "content": "When you shut the TV off, it enters Standby mode. In Standby mode, it continues to draw a small amount of power. To decrease power consumption, unplug the power cord when you don't intend to use the TV for a long time.\n\n![](_page_17_Picture_18.jpeg)\n\n![](_page_17_Picture_19.jpeg)\n\n![](_page_18_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 18,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.185245",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "c6356bd9-ec78-4c16-9124-aeca372baf11",
+      "type": "general",
+      "title": "<span id=\"page-18-0\"></span>Dimensions",
+      "content": "Port panel detail / Rear view\n\n![](_page_18_Picture_3.jpeg)\n\n• The displayed image may differ from your TV, depending on the model.\n\n(Unit: inches)\n\n| Model name | 1   | 2    | 3    |\n|------------|-----|------|------|\n| QN65Q9FNAF | 4.1 | 20.6 | 12.5 |\n| QN75Q9FNAF | 9.6 | 25.0 | 12.3 |",
+      "source_file": "UserManual.pdf",
+      "source_page": 18,
+      "keywords": [
+        "TV"
+      ],
+      "created_at": "2026-06-10T09:43:58.185312",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "0b15b9a4-1334-4ae8-ae2f-600bbf6d2e3c",
+      "type": "general",
+      "title": "Licenses",
+      "content": "![](_page_18_Picture_8.jpeg)\n\n![](_page_18_Picture_9.jpeg)\n\n![](_page_18_Picture_10.jpeg)\n\n![](_page_18_Picture_11.jpeg)\n\nThe terms HDMI and HDMI High-Definition Multimedia Interface, and the HDMI Logo are trademarks or registered trademarks of HDMI Licensing LLC in the United States and other countries.\n\n![](_page_18_Picture_13.jpeg)\n\n![](_page_19_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 18,
+      "keywords": [
+        "LLC",
+        "HDMI"
+      ],
+      "created_at": "2026-06-10T09:43:58.185355",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "69f060d3-5f1c-4b33-a4b6-7940cbfbe022",
+      "type": "general",
+      "title": "<span id=\"page-19-0\"></span>FCC and Warranty Information",
+      "content": "",
+      "source_file": "UserManual.pdf",
+      "source_page": 18,
+      "keywords": [
+        "FCC"
+      ],
+      "created_at": "2026-06-10T09:43:58.185376",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "3ae348ea-fdd0-486e-ae88-f8cced14b68b",
+      "type": "general",
+      "title": "Federal Communication Commission Interference Statement",
+      "content": "This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications. However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, the user is encouraged to try to correct the interference by one of the following measures:\n\n- Reorienting or relocating the receiving antenna.\n- Increasing the separation between the equipment and receiver.\n- Connecting the radio or TV to an outlet that is on a different circuit than the equipment.\n- Consulting the dealer or an experienced radio/TV technician for help.\n\nFCC Caution: Any changes or modifications not expressly approved by the party responsible for compliance could void the user's authority to operate this equipment.\n\nThis device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) This device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation.\n\nFor products available in the US and Canadian markets, only channels 1~11 are available. You cannot select other channels.\n\nThis device and its antenna(s) must not be co-located or operated in conjunction with any other antenna or transmitter. FCC Radiation Exposure Statement:\n\nThis equipment complies with FCC radiation exposure limits set forth for an uncontrolled environment. This equipment should be installed and operated so there is at least 8 inches (20 cm) between the radiator and your ",
+      "source_file": "UserManual.pdf",
+      "source_page": 19,
+      "keywords": [
+        "TV",
+        "FCC",
+        "US"
+      ],
+      "created_at": "2026-06-10T09:43:58.185538",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "bf5b2863-ab0c-4558-96c5-482dde07600e",
+      "type": "general",
+      "title": "<span id=\"page-20-0\"></span>LIMITED WARRANTY TO ORIGINAL PURCHASER",
+      "content": "This SAMSUNG brand product, as supplied and distributed by SAMSUNG and delivered new, in the original carton to the original consumer purchaser, is warranted by SAMSUNG against manufacturing defects in materials and workmanship for period of:\n\n| Categories | Parts  | Labor  | Size            | Service             |\n|------------|--------|--------|-----------------|---------------------|\n|            |        |        | 42\" and Larger  | Carry-In or In Home |\n| LCD/LED TV | 1 Year | 1 Year | 40\" and Smaller | Carry-In            |\n\n• For commercial use, the warranty is 90 Days Parts and Labor.\n\nThis limited warranty begins on the original date of purchase, and is valid only on products purchased and used in the United States. To receive warranty service, the purchaser must contact SAMSUNG for problem determination and service procedures.\n\nWarranty service can only be performed by a SAMSUNG authorized service center. The original dated bill of sale must be presented upon request as proof of purchase to SAMSUNG or SAMSUNG's authorized service center. SAMSUNG will repair or replace this product, at our option and at no charge as stipulated herein, with new or reconditioned parts or products if found to be defective during the limited warranty period specified above. All replaced parts and products become the property of SAMSUNG and must be returned to SAMSUNG. Replacement parts and products assume the remaining original warranty, or ninety (90) days, whichever is longer.\n\nCertain products are eligible for In-home service at Samsung's discretion. To receive in-home service, the product must be unobstructed and accessible to service personnel. If during in-home service, repair cannot be completed, it may be necessary to remove, repair and return the product. If in-home service is unavailable, SAMSUNG may elect, at our option, to provide for transportation of our choice to and from a SAMSUNG authorized service center. Otherwise, transportation to and from the SAMSUNG autho",
+      "source_file": "UserManual.pdf",
+      "source_page": 20,
+      "keywords": [
+        "USE",
+        "EXCLUSIVE",
+        "REMEDY",
+        "ON"
+      ],
+      "created_at": "2026-06-10T09:43:58.186201",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "1c15172d-27ea-4c95-81a2-b7f40a0bb28f",
+      "type": "general",
+      "title": "This page is intentionally left blank.",
+      "content": "![](_page_22_Picture_2.jpeg)\n\n![](_page_22_Picture_3.jpeg)\n\n![](_page_22_Picture_4.jpeg)\n\n![](_page_23_Picture_0.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 22,
+      "keywords": [],
+      "created_at": "2026-06-10T09:43:58.186244",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    },
+    {
+      "id": "8c9c4d54-d413-4ef8-82c2-b9d5a124854c",
+      "type": "general",
+      "title": "Contact SAMSUNG WORLD WIDE",
+      "content": "If you have any questions or comments relating to Samsung products, please contact the SAMSUNG customer care center.\n\n| Country | Customer Care Center     | Web Site                                 | Address                                                 |\n|---------|--------------------------|------------------------------------------|---------------------------------------------------------|\n|         |                          | www.samsung.com/ca/<br>support (English) | Samsung Electronics Canada Inc.<br>2050 Derry Road West |\n| CANADA  | 1-800-SAMSUNG (726-7864) | www.samsung.com/ca_fr/                   | Mississauga, Ontario L5N 0B9                            |\n|         | support (French)         |                                          |                                                         |\n|         |                          |                                          | Canada                                                  |\n|         |                          |                                          | Samsung Electronics America, Inc.                       |\n| U.S.A   | 1-800-SAMSUNG (726-7864) | www.samsung.com/us/<br>support           | 85 Challenger Road                                      |\n\naccessibility contact information in U.S.A. : accessibility@sea.samsung.com\n\nScan the QR code to view our helpful how-to videos\n\n![](_page_23_Picture_7.jpeg)\n\nScan this QR code with your smart phone to see helpful videos.\n\nIf you experience issues, please do not take the TV back to the store.\n\nIn the United States of America, call us at 1-800-SAMSUNG (1-800-726-7864) or visit us at www.samsung. com or www.samsung.com/spsn for support and warranty service.\n\n![](_page_23_Picture_11.jpeg)\n\nFor more information, see \"Troubleshooting\" in this manual.\n\n![](_page_23_Picture_13.jpeg)\n\n![](_page_23_Picture_15.jpeg)\n\n![](_page_23_Picture_16.jpeg)\n\n![](_page_23_Picture_17.jpeg)",
+      "source_file": "UserManual.pdf",
+      "source_page": 23,
+      "keywords": [
+        "WIDE",
+        "TV",
+        "QR",
+        "CANADA"
+      ],
+      "created_at": "2026-06-10T09:43:58.186381",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu"
+      }
+    }
+  ]
+}

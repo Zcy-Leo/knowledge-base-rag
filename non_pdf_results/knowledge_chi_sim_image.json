@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "source_file": "chi_sim_image.jpeg",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "8a8b7f04-9517-4e72-9c19-1092194eb3ef",
+      "type": "general",
+      "title": "PAHS RMD, RARE “IEA” . Wisiaetiined\nA, POM RWSRSA ...",
+      "content": "PAHS RMD, RARE “IEA” . Wisiaetiined\nA, POM RWSRSA OMS, FR, TSHR, A\nBRWOAA, weet.",
+      "source_file": "chi_sim_image.jpeg",
+      "source_page": 0,
+      "keywords": [
+        "RWSRSA",
+        "TSHR",
+        "RARE",
+        "OMS",
+        "PAHS",
+        "Wisiaetiined",
+        "BRWOAA"
+      ],
+      "created_at": "2026-06-22T11:56:23.507977",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "156f01cb-bd12-4b15-9a76-bcfee9f64f61",
+      "type": "general",
+      "title": "SAR: IBSEHOAMK, TRISREIEA, HBAWLS, INHATF,\nREeSS, ...",
+      "content": "SAR: IBSEHOAMK, TRISREIEA, HBAWLS, INHATF,\nREeSS, , BRSOVRK |",
+      "source_file": "chi_sim_image.jpeg",
+      "source_page": 0,
+      "keywords": [
+        "TRISREIEA",
+        "SAR",
+        "HBAWLS",
+        "BRSOVRK",
+        "IBSEHOAMK",
+        "REeSS"
+      ],
+      "created_at": "2026-06-22T11:56:23.508033",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    }
+  ]
+}

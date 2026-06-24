@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "test-invalid-date.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "c950433e-4073-466c-ae0e-8081d97587c1",
+      "type": "general",
+      "title": "Email: {subject}",
+      "content": "From: {from_addr}\nTo: {to_addr}\nDate: {date}\nSubject: {subject}\n\n{body}",
+      "source_file": "test-invalid-date.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject"
+      ],
+      "created_at": "2026-06-22T11:56:15.816474",
+      "metadata": {
+        "element_type": "email",
+        "parser": "email"
+      }
+    }
+  ]
+}

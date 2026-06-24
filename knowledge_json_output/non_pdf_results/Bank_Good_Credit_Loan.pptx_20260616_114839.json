@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "source_file": "Bank Good Credit Loan.pptx.txt",
+  "total_entries": 6,
+  "entries": [
+    {
+      "id": "f8c443f1-efde-4b20-8727-aae41f971204",
+      "type": "general",
+      "title": "Bank Good Credit\nAccredited with IABACTM\n(Internat...",
+      "content": "Bank Good Credit\nAccredited with IABACTM\n(International Association of Business Analytics Certifications) \nIABAC International Association of \nBusiness Analytics Certification\nDataMitesTM. All Right Reserved",
+      "source_file": "Bank Good Credit Loan.pptx.txt",
+      "source_page": 0,
+      "keywords": [
+        "IABAC",
+        "IABACTM",
+        "Bank",
+        "Accredited",
+        "Business"
+      ],
+      "created_at": "2026-06-16T11:48:39.964137",
+      "metadata": {
+        "element_type": "text",
+        "company": "Bank Good Credit Loan.pptx"
+      }
+    },
+    {
+      "id": "80dc8d8e-eb7d-4234-bdec-9316ad28f56c",
+      "type": "general",
+      "title": "Objective & Background\nClassify credit card custom...",
+      "content": "Objective & Background\nClassify credit card customers as good / bad, based on information from internal and external sources. \nData provided\nDemographic: Base file of with credit card history details. Only one record for every customer.\nAccount: Contians data for various loans availed by the customer. Not related to credit card. Multiple records for every customer.\nEnquiries: Enquired made by customers for different loan purposes. Multiple records for every customer.\nDataMitesTM. All Right Reserved",
+      "source_file": "Bank Good Credit Loan.pptx.txt",
+      "source_page": 0,
+      "keywords": [
+        "Objective",
+        "Classify",
+        "Data",
+        "Demographic",
+        "file"
+      ],
+      "created_at": "2026-06-16T11:48:39.964249",
+      "metadata": {
+        "element_type": "text",
+        "company": "Bank Good Credit Loan.pptx"
+      }
+    },
+    {
+      "id": "cfe7f50b-7db8-4281-9cae-d5fa5931d612",
+      "type": "general",
+      "title": "Design\nData to be downloaded using SQL queries.\nRe...",
+      "content": "Design\nData to be downloaded using SQL queries.\nRequired information to be extracted from Account and Enquiry files and converted to one-to-one files.\nThe columns from the two files should be merged with Demographic file using Left Join with customer no as key column, to create a final file. The final file should contain all the records in demographic and additional columns/features from Account and Enquiry files will get added to Demographic file.\nThere will be many customers in account and enquiry file who will get left out. This is fine as we anyway dont know their good/bad label for training purpose. \nDataMitesTM. All Right Reserved",
+      "source_file": "Bank Good Credit Loan.pptx.txt",
+      "source_page": 0,
+      "keywords": [
+        "SQL",
+        "Design",
+        "Data",
+        "Required",
+        "There",
+        "file"
+      ],
+      "created_at": "2026-06-16T11:48:39.964392",
+      "metadata": {
+        "element_type": "text",
+        "company": "Bank Good Credit Loan.pptx"
+      }
+    },
+    {
+      "id": "cb749b94-e649-48c0-9bc6-5b2daa38e615",
+      "type": "general",
+      "title": "Analysis of Data\nShow using Excel File\nDataMitesTM...",
+      "content": "Analysis of Data\nShow using Excel File\nDataMitesTM. All Right Reserved",
+      "source_file": "Bank Good Credit Loan.pptx.txt",
+      "source_page": 0,
+      "keywords": [
+        "Analysis",
+        "Show",
+        "DataMitesTM",
+        "All",
+        "data",
+        "file"
+      ],
+      "created_at": "2026-06-16T11:48:39.964420",
+      "metadata": {
+        "element_type": "text",
+        "company": "Bank Good Credit Loan.pptx"
+      }
+    },
+    {
+      "id": "3f2b3eea-5dec-4cb1-91e3-fa64f162336b",
+      "type": "general",
+      "title": "Explain Coding / outcomes \nShow using Jupyter\nData...",
+      "content": "Explain Coding / outcomes \nShow using Jupyter\nDataMitesTM. All Right Reserved",
+      "source_file": "Bank Good Credit Loan.pptx.txt",
+      "source_page": 0,
+      "keywords": [
+        "Explain",
+        "Show",
+        "DataMitesTM",
+        "All"
+      ],
+      "created_at": "2026-06-16T11:48:39.964447",
+      "metadata": {
+        "element_type": "text",
+        "company": "Bank Good Credit Loan.pptx"
+      }
+    },
+    {
+      "id": "4d1b297f-5118-4cf0-8a31-1e4f3a09fa68",
+      "type": "general",
+      "title": "Thank You\nDataMitesTM. All Right Reserved",
+      "content": "Thank You\nDataMitesTM. All Right Reserved",
+      "source_file": "Bank Good Credit Loan.pptx.txt",
+      "source_page": 0,
+      "keywords": [
+        "Thank",
+        "DataMitesTM",
+        "All"
+      ],
+      "created_at": "2026-06-16T11:48:39.964466",
+      "metadata": {
+        "element_type": "text",
+        "company": "Bank Good Credit Loan.pptx"
+      }
+    }
+  ]
+}

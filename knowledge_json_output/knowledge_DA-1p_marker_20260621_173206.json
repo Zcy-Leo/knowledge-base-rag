@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "source_file": "DA-1p.pdf",
+  "total_entries": 4,
+  "entries": [
+    {
+      "id": "7295b0ab-20ba-44c8-a09e-a565492b6f57",
+      "type": "general",
+      "title": "**MAIN GAME**",
+      "content": "",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": [
+        "MAIN",
+        "GAME"
+      ],
+      "created_at": "2026-06-19T13:36:13.398426",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "d36130be-b742-4a2d-a3d0-cfdb4460e380",
+      "type": "general",
+      "title": "**CREATURES**",
+      "content": "",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": [
+        "CREATURES"
+      ],
+      "created_at": "2026-06-19T13:36:13.398489",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "59796890-f450-4800-9d41-8a57cc6c0630",
+      "type": "general",
+      "title": "**Abomination**",
+      "content": "\"We arrived in the dead of night. We had been tracking the maleficar for days, and finally had him cornered... or so we thought.\n\nAs we approached, a home on the edge of the town exploded, sending splinters of wood and fist-sized chunks of rocks into our ranks. We had but moments to regroup before fire rained from the sky, the sounds of destruction wrapped in a hideous laughter from the center of the village.\n\nThere, perched atop the spire of the village chantry, stood the mage. But he was human no longer.\n\nWe shouted prayers to the Maker and deflected what magic we could, but as we fought, the creature fought harder. I saw my comrades fall, burned by the flaming sky or crushed by debris. The monstrous creature, looking as if a demon were wearing a man like a twisted suit of skin, spotted me and grinned. We had forced it to this, I realized; the mage had made this pact, given himself over to the demon to survive our assault.\"\n\n*—Transcribed from a tale told by a former templar in Cumberland, 8:84 Blessed.*\n\nIt is known that mages are able to walk the Fade while completely aware of their surroundings, unlike most others who may only enter the realm as dreamers and leave it scarcely aware of their experience. Demons are drawn to mages, though whether it is because of this awareness or simply by virtue of their magical power in our world is unknown.\n\nRegardless of the reason, a demon always attempts to possess a mage when it encounters one—by force or by making some kind of deal depending on the strength of the mage. Should the demon get the upper hand, the result is an unholy union known as an abomination. Abominations have been responsible for some of the worst cataclysms in history, and the notion that some mage in a remote tower could turn into such a creature unbeknownst to any was the driving force behind the creation of the Circle of Magi.\n\nThankfully, abominations are rare. The Circle has methods for weeding out those who are too at risk for demonic possession,",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T13:36:13.398707",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "Books"
+      }
+    },
+    {
+      "id": "d674180b-86b1-428a-8391-99b01fdef03e",
+      "type": "general",
+      "title": "**Arcane Horror**",
+      "content": "\"Upon ascending to the second floor of the tower, we were greeted by a gruesome sight: a ragged collection of bones wearing the robes of one of the senior enchanters. I had known her for years, watched her raise countless apprentices, and now she was a mere puppet for some demon.\"",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T13:36:13.398746",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "NA",
+        "topic": "Books"
+      }
+    }
+  ]
+}

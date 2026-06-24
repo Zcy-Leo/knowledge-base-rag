@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-doc-emphasized-text.docx",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "3dbf62e2-bdb1-4dff-94a0-d150d8ab757c",
+      "type": "general",
+      "title": "I am a bold italic bold-italic text.",
+      "content": "I am a bold italic bold-italic text.",
+      "source_file": "fake-doc-emphasized-text.docx",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.542971",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "6853e7d5-b12a-410b-8ecc-f2a97bfc5a8e",
+      "type": "general",
+      "title": "I am a normal text.",
+      "content": "I am a normal text.",
+      "source_file": "fake-doc-emphasized-text.docx",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.543502",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "03b2405c-8b3e-46df-8b95-e59831ebd5d0",
+      "type": "general",
+      "title": "Table Content",
+      "content": "Header Col 1 | Header Col 2\nA bold italic bold-italic example | A Link example",
+      "source_file": "fake-doc-emphasized-text.docx",
+      "source_page": 0,
+      "keywords": [
+        "Header"
+      ],
+      "created_at": "2026-06-22T11:57:38.544143",
+      "metadata": {
+        "element_type": "table",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

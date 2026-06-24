@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-multipart-digest.eml",
+  "total_entries": 10,
+  "entries": [
+    {
+      "id": "382215d5-cbb8-41f6-8c41-b750283342e9",
+      "type": "general",
+      "title": "From: alice@example.com\nTo: bob@example.com\nCc: ca...",
+      "content": "From: alice@example.com\nTo: bob@example.com\nCc: carol@example.com\nBcc: dave@example.com\nSubject: Example Multipart Digest Email\nMessage-ID: <1234567890@example.com>\nMIME-Version: 1.0\nContent-Type: multipart/digest; boundary=\"boundary123\"",
+      "source_file": "mime-multipart-digest.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Bcc",
+        "Subject",
+        "Example",
+        "Message"
+      ],
+      "created_at": "2026-06-16T11:57:52.864492",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "4cf496b4-456e-4d1e-949f-1a0106a85d7f",
+      "type": "general",
+      "title": "--boundary123\nContent-Type: message/rfc822",
+      "content": "--boundary123\nContent-Type: message/rfc822",
+      "source_file": "mime-multipart-digest.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content"
+      ],
+      "created_at": "2026-06-16T11:57:52.864536",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "2cd96775-b651-43eb-a67f-f931d18a55ef",
+      "type": "general",
+      "title": "From: eve@example.com\nTo: alice@example.com\nSubjec...",
+      "content": "From: eve@example.com\nTo: alice@example.com\nSubject: First Message",
+      "source_file": "mime-multipart-digest.eml",
+      "source_page": 0,
+      "keywords": [
+        "Subject",
+        "First"
+      ],
+      "created_at": "2026-06-16T11:57:52.864582",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "da583ee2-033d-4c33-880c-f59aa1125298",
+      "type": "general",
+      "title": "This is the first message in the digest.",
+      "content": "This is the first message in the digest.",
+      "source_file": "mime-multipart-digest.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:52.864617",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "fee83744-9466-4c7e-ba07-3980b1bec3fe",
+      "type": "general",
+      "title": "--boundary123\nContent-Type: message/rfc822",
+      "content": "--boundary123\nContent-Type: message/rfc822",
+      "source_file": "mime-multipart-digest.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content"
+      ],
+      "created_at": "2026-06-16T11:57:52.864647",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "ad77aed2-b64b-42ff-b038-a05b1f7a7763",
+      "type": "general",
+      "title": "From: frank@example.com\nTo: bob@example.com\nSubjec...",
+      "content": "From: frank@example.com\nTo: bob@example.com\nSubject: Second Message",
+      "source_file": "mime-multipart-digest.eml",
+      "source_page": 0,
+      "keywords": [
+        "Subject",
+        "Second"
+      ],
+      "created_at": "2026-06-16T11:57:52.864688",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "01219e23-72a1-4af4-99f7-7398ed73cf9f",
+      "type": "general",
+      "title": "This is the second message in the digest.",
+      "content": "This is the second message in the digest.",
+      "source_file": "mime-multipart-digest.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:52.864793",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "ea0418a1-c9d3-41f8-a77e-6e89e8694ff5",
+      "type": "general",
+      "title": "--boundary123\nContent-Type: message/rfc822",
+      "content": "--boundary123\nContent-Type: message/rfc822",
+      "source_file": "mime-multipart-digest.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content"
+      ],
+      "created_at": "2026-06-16T11:57:52.864827",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "a7aabc6e-3a33-4c24-80b3-8310affc52c2",
+      "type": "general",
+      "title": "From: grace@example.com\nTo: carol@example.com\nSubj...",
+      "content": "From: grace@example.com\nTo: carol@example.com\nSubject: Third Message",
+      "source_file": "mime-multipart-digest.eml",
+      "source_page": 0,
+      "keywords": [
+        "Subject",
+        "Third"
+      ],
+      "created_at": "2026-06-16T11:57:52.864857",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "5d8b2fd3-6428-4399-9ae5-7747ab1be4bb",
+      "type": "general",
+      "title": "This is the third message in the digest.",
+      "content": "This is the third message in the digest.",
+      "source_file": "mime-multipart-digest.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:52.864879",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    }
+  ]
+}

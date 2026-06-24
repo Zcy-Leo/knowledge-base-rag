@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-different-plain-html.eml",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "c987e88f-6ff6-4e0b-a900-a55e0656b532",
+      "type": "general",
+      "title": "From: sender@example.com\nTo: recipient@example.com...",
+      "content": "From: sender@example.com\nTo: recipient@example.com\nDate: Tue, 01 Oct 2024 12:34:56 -0500\nSubject: Example MIME Email\nMIME-Version: 1.0\nContent-Type: multipart/alternative; boundary=\"boundary123\"",
+      "source_file": "mime-different-plain-html.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Date",
+        "Tue",
+        "Subject",
+        "Example"
+      ],
+      "created_at": "2026-06-16T11:48:39.238017",
+      "metadata": {
+        "element_type": "text",
+        "company": "mime different plain html"
+      }
+    },
+    {
+      "id": "d7e9b959-2466-499a-b256-9caa37703ac5",
+      "type": "general",
+      "title": "--boundary123\nContent-Type: text/plain; charset=\"U...",
+      "content": "--boundary123\nContent-Type: text/plain; charset=\"UTF-8\"\nContent-Transfer-Encoding: 7bit",
+      "source_file": "mime-different-plain-html.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.238059",
+      "metadata": {
+        "element_type": "text",
+        "company": "mime different plain html"
+      }
+    },
+    {
+      "id": "46189b2e-c21c-4efb-9343-3594bfcdbe29",
+      "type": "general",
+      "title": "This is the text/plain part.",
+      "content": "This is the text/plain part.",
+      "source_file": "mime-different-plain-html.eml",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.238080",
+      "metadata": {
+        "element_type": "text",
+        "company": "mime different plain html"
+      }
+    },
+    {
+      "id": "4864d9c7-baba-4828-b0d9-7f33fc9caa8f",
+      "type": "general",
+      "title": "Did you know that the first email was sent by Ray ...",
+      "content": "Did you know that the first email was sent by Ray Tomlinson in 1971? He used the \"@\" symbol to separate the user's name from the computer name, a practice that is still in use today.",
+      "source_file": "mime-different-plain-html.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.238135",
+      "metadata": {
+        "element_type": "text",
+        "company": "mime different plain html"
+      }
+    },
+    {
+      "id": "b7980e61-e05d-45e8-8220-765bbf4a0736",
+      "type": "general",
+      "title": "Another interesting fact is that the first known i...",
+      "content": "Another interesting fact is that the first known instance of email spam occurred in 1978. A marketing message was sent to 393 recipients on ARPANET, marking the beginning of what we now know as email spam.",
+      "source_file": "mime-different-plain-html.eml",
+      "source_page": 0,
+      "keywords": [
+        "ARPANET",
+        "Another"
+      ],
+      "created_at": "2026-06-16T11:48:39.238189",
+      "metadata": {
+        "element_type": "text",
+        "company": "mime different plain html"
+      }
+    },
+    {
+      "id": "02936002-8237-41eb-aad0-7046492bc749",
+      "type": "general",
+      "title": "--boundary123\nContent-Type: text/html; charset=\"UT...",
+      "content": "--boundary123\nContent-Type: text/html; charset=\"UTF-8\"\nContent-Transfer-Encoding: 7bit",
+      "source_file": "mime-different-plain-html.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.238219",
+      "metadata": {
+        "element_type": "text",
+        "company": "mime different plain html"
+      }
+    },
+    {
+      "id": "ea52ed0e-1dce-4f2f-9d2c-c8949143ecfa",
+      "type": "general",
+      "title": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Example M...",
+      "content": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Example MIME Email</title>\n</head>\n<body>\n    <p>This is the <code>text/html</code> part.</p>\n    <p>Did you know that the first <b>networked email</b> was sent by Ray Tomlinson in 1971? He used the \"@\" symbol to separate the user's name from the computer name, a practice that is still in use today.</p>\n    <p>Another interesting fact is that the first known instance of <i>email spam</i> occurred in 1978. A marketing message was sent to 393 recipients on ARPANET, marking the beginning of what we now know as email spam.</p>\n</body>\n</html>",
+      "source_file": "mime-different-plain-html.eml",
+      "source_page": 0,
+      "keywords": [
+        "DOCTYPE",
+        "MIME",
+        "ARPANET",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.238365",
+      "metadata": {
+        "element_type": "text",
+        "company": "mime different plain html"
+      }
+    }
+  ]
+}

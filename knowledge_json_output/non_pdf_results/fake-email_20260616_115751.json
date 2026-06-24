@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email.txt",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "dc358b10-7dc1-444c-a29a-29aa0a0c6db7",
+      "type": "general",
+      "title": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 ...",
+      "content": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 -0500\nMessage-ID: <CADc-_xaLB2FeVQ7mNsoX+NJb_7hAJhBKa_zet-rtgPGenj0uVw@mail.gmail.com>\nSubject: Test Email\nFrom: Matthew Robinson <mrobinson@unstructured.io>\nTo: Matthew Robinson <mrobinson@unstructured.io>\nContent-Type: multipart/alternative; boundary=\"00000000000095c9b205eff92630\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Date",
+        "Fri",
+        "Message"
+      ],
+      "created_at": "2026-06-16T11:57:51.768952",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "ceb9b958-33ea-481e-aff4-91b29938badd",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:57:51.768990",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "99c67725-555f-40cc-b872-f47f497e5ad9",
+      "type": "general",
+      "title": "This is a test email to use for unit tests.",
+      "content": "This is a test email to use for unit tests.",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.769014",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "d152a32d-f9ce-4664-ad5c-215733705b90",
+      "type": "general",
+      "title": "- Roses are red\n   - Violets are blue\n   -",
+      "content": "- Roses are red\n   - Violets are blue\n   -",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.769034",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "d10d228b-7c32-456c-8e17-2b5a1833d1ed",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/html; charset=\"UTF-8\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:57:51.769057",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "f6761fb7-b06f-4a20-949c-fb4ef990e568",
+      "type": "general",
+      "title": "<div dir=\"ltr\"><div>This is a test email to use fo...",
+      "content": "<div dir=\"ltr\"><div>This is a test email to use for unit tests.</div><div><br></div><div>Important points:</div><div><ul><li>Roses are red</li><li>Violets are blue</li></ul></div></div>",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.769125",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "895f6985-bacc-49a7-b4ad-bb5b8d97b34c",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630--",
+      "content": "--00000000000095c9b205eff92630--",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.769139",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    }
+  ]
+}

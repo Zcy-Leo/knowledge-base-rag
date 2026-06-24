@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "source_file": "simple-rfc-822.eml",
+  "total_entries": 4,
+  "entries": [
+    {
+      "id": "39ac9139-fd3f-4f73-9717-1b0b651f8507",
+      "type": "general",
+      "title": "From: sender@example.com\nTo: recipient@example.com...",
+      "content": "From: sender@example.com\nTo: recipient@example.com\nDate: Tue, 01 Oct 2024 12:34:56 -0500\nSubject: Example RFC 822 Email",
+      "source_file": "simple-rfc-822.eml",
+      "source_page": 0,
+      "keywords": [
+        "RFC",
+        "Date",
+        "Tue",
+        "Subject",
+        "Example"
+      ],
+      "created_at": "2026-06-16T11:57:52.879396",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "7042b861-fcaa-4aeb-b012-5e587628cc50",
+      "type": "general",
+      "title": "This is an RFC 822 email message.",
+      "content": "This is an RFC 822 email message.",
+      "source_file": "simple-rfc-822.eml",
+      "source_page": 0,
+      "keywords": [
+        "RFC"
+      ],
+      "created_at": "2026-06-16T11:57:52.879446",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "09e6445b-3cd4-4222-87bb-025f083ac9c9",
+      "type": "general",
+      "title": "An RFC 822 message is characterized by its simple,...",
+      "content": "An RFC 822 message is characterized by its simple, text-based format, which includes a header and a body. The header contains structured fields such as \"From\", \"To\", \"Date\", and \"Subject\", each followed by a colon and the corresponding information. The body follows the header, separated by a blank line, and contains the main content of the email.",
+      "source_file": "simple-rfc-822.eml",
+      "source_page": 0,
+      "keywords": [
+        "RFC",
+        "text",
+        "format"
+      ],
+      "created_at": "2026-06-16T11:57:52.879581",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "f0367733-d28f-473e-8ba3-b478f73392b3",
+      "type": "general",
+      "title": "The structure ensures compatibility and readabilit...",
+      "content": "The structure ensures compatibility and readability across different email systems and clients, adhering to the standards set by the Internet Engineering Task Force (IETF).",
+      "source_file": "simple-rfc-822.eml",
+      "source_page": 0,
+      "keywords": [
+        "IETF"
+      ],
+      "created_at": "2026-06-16T11:57:52.879651",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    }
+  ]
+}

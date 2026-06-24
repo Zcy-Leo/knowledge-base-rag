@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "source_file": "example-10k-1p.html",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "a8d616ac-e6ea-4a4f-9c6f-c53c6fbe2d40",
+      "type": "manual_section",
+      "title": "☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d...",
+      "content": "☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission file number: 000-30653 Galaxy Gaming, Inc. (Exact name of small business issuer as specified in its charter) Nevada 20-8143439 (State or other jurisdiction of incorporation or organization) (IRS Employer Identification No.) 6480 Cameron Street Ste. 305 – Las Vegas, NV 89118 (Address of principal executive offices) (702) 939-3254 (Registrant’s telephone number) Securities registered under Section 12(b) of the Act: Title of each class Trading symbol Name of exchange on which registered Common stock GLXZ OTCQB marketplace Indicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act. Yes ☐ No ☑ Indicate by check mark if the registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act. Yes ☐ No ☑ Indicate by checkmark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes ☑ No ☐ Indicate by check mark whether the issuer has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes ☑ No ☐ Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act. Large accelerated filer ☐ Accelerated filer ☐ Non-accelerated filer ☐ Smaller reporting company ☑ Emerging growth Company ☐ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standard provided pursuant to Section 13(a) of the Exchange Act. ☐ Indicate by check mark whether the registrant has filed a report on and attestation to its management’s assessment of the effectiveness of its internal control over financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public accounting firm that prepared or issued its audit report. ☐ Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No ☑ State the aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which the common equity was last sold, or the average bid and asked price of such common equity, as of the last business day of the registrant’s second fiscal quarter. $70,923,698. Indicate the number of shares outstanding of each of the registrant’s classes of common stock, as of the latest practicable date: 23,718,968 common shares as of March 28, 2022. GALAXY GAMING, INC. ANNUAL REPORT ON FORM 10-K FOR THE YEAR ENDED DECEMBER 31, 2021 TABLE OF CONTENTS PART I Item 1. Business 4 Item 1A. Risk Factors 9 Item 1B. Unresolved Staff Comments 9 Item 2. Properties 9 Item 3. Legal Proceedings 9 Item 4. Mine Safety Disclosures 9 PART II Item 5. Market for Registrant’s Common Equity and Related Stockholder Matters 10 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 12 Item 7A. Quantitative and Qualitative Disclosures about Market Risk 14 Item 8. Financial Statements and Supplementary Financial Information 15 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 35 Item 9A. Controls and Procedures 35 Item 9B. Other Information 35",
+      "source_file": "example-10k-1p.html",
+      "source_page": 0,
+      "keywords": [
+        "REPORT",
+        "SECURITIES",
+        "DECEMBER",
+        "IRS",
+        "Title",
+        "Yes",
+        "SECTION 13",
+        "Section 12"
+      ],
+      "created_at": "2026-06-22T11:56:17.005749",
+      "metadata": {
+        "element_type": "html",
+        "parser": "html"
+      }
+    }
+  ]
+}

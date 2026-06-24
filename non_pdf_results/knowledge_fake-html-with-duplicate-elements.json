@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-html-with-duplicate-elements.html",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "b3abdc0a-e98f-42bc-b709-967c088dc3ae",
+      "type": "general",
+      "title": "Simple Nested HTML Example heading. This is a span...",
+      "content": "Simple Nested HTML Example heading. This is a span. This is another span. Example heading. This is a span. This is another span.",
+      "source_file": "fake-html-with-duplicate-elements.html",
+      "source_page": 0,
+      "keywords": [
+        "HTML",
+        "Simple",
+        "Example"
+      ],
+      "created_at": "2026-06-22T11:56:22.696751",
+      "metadata": {
+        "element_type": "html",
+        "parser": "html"
+      }
+    }
+  ]
+}

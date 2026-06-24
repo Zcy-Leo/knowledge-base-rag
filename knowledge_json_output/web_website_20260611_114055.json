@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "source_file": "https://www.tp-link.com/us/support/faq/87/",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "3e750b12-87e4-49b7-bb4d-c8553003da66",
+      "type": "faq",
+      "title": "https://www.tp-link.com/us/support/faq/87/",
+      "content": "How to Log In to Your TP-Link Router\nThis guide covers how to access your TP-Link router's admin panel (also called the web management page) on any TP-Link router model. You can get there using tplinkwifi.net or the TP-Link router login IP address 192.168.0.1.\nKey Takeaways\n- The default login address for TP-Link routers is tplinkwifi.net, 192.168.0.1. Any of these will open the admin panel.\n- You must be connected to the router's network, either by Ethernet cable or Wi-Fi, before you can access the login page.\n- Use Chrome, Firefox, or Edge for the best compatibility with the web management page.\n- Newer TP-Link router models require you to create a custom admin password on first login, and older models use “admin” as both the default username and password.\n- If you prefer managing your router from a phone, the TP-Link Tether app is an alternative to the browser-based login.\nStep 1: Connect Your Device to the TP-Link Router\nBefore you can access the router's web management page, your device must be connected to the router. The management page does not require an Internet connection, but it does require a connection to the router itself.\nOption A: Wired connection\nConnect your computer to one of the router's LAN ports using an Ethernet cable. A wired connection is recommended when changing wireless settings or performing firmware updates.\nOption B: Wireless connection\nConnect your device to the router's Wi-Fi network. If this is your first time setting up the router, use the default Wi-Fi name and password printed on the router's label.\nStep 2: Access the Router Login Page in Your Browser\nOpen Chrome, Firefox, or Edge — these browsers work best with the TP-Link web management page. Older browsers may cause login failures or missing features.\nIn the address bar at the top of your browser window, type one of the following and press Enter:\n- tplinkwifi.net\n- 192.168.0.1\nNote: Type the address directly into the address bar (not the search bar). Using a search engine will not take you to the login page.\nStep 3 (Optional): Proceed Past the Privacy Warning\nIf your browser shows a \"Privacy Error\" or \"Your connection isn't private\" warning, this is expected behavior. The TP-Link web interface uses a self-signed certificate rather than one issued by a trusted authority. Your connection remains secure.\nTo continue, click Advanced, then select Proceed to tplinkwifi.net (unsafe) or Proceed to 192.168.0.1 (unsafe).\nIf no warning appears, skip ahead to Step 4.\nFor more details on why this warning appears, see Why the TP-Link HTTPS web interface is detected as unsecure by some web browsers.\nStep 4: Enter Your Password and Sign In\nWhat you see on the login screen depends on your situation:\n- First-time setup: You will be prompted to create a secure admin password. Some older models display a username and password field pre-filled with \"admin\" for both.\n- Returning users: Enter the local admin password you created during initial setup.\n- TP-Link ID account users: If you previously linked your router to a TP-Link ID, sign in using your TP-Link account credentials instead. You can toggle between local password and TP-Link ID login on the sign-in screen.\nIf you've forgotten your router login password, you will need to reset the router to factory defaults to regain access.\nTroubleshooting: Can't Reach the Login Page?\nIf you see an error like \"no internet\" or \"this site can't be reached\" when trying to access tplinkwifi.net or the IP address, try the following:\n- Try the IP address instead: If tplinkwifi.net doesn't load, enter 192.168.0.1 or 192.168.1.1 directly in the address bar.\n- Disable VPN or proxy: An active virtual private network (VPN) or proxy can prevent your browser from reaching the router's local address. Disable it and try again.\n- Use a wired connection: If you're connecting wirelessly and can't reach the page, try plugging directly into the router with an Ethernet cable.\n- Try different web browsers: Browser extensions may cause issues. Attempt access using an alternate browser (e.g., Chrome, Firefox, Edge).\n- Try different end devices: If you have another computer, smartphone, or tablet, attempt to log in from that device to isolate the problem.\n- Clear your browser cache: Cached data can sometimes interfere with loading the management page. Clear your cache and try again.\nFor more detailed help, see what to do if you can't log into the web-based interface of your TP-Link device.\nIs this faq useful?\nYour feedback helps improve this site.\nTP-Link Community\nStill need help? Search for answers, ask questions, and get help from TP-Link experts and other users around the world.",
+      "source_file": "",
+      "source_page": 1,
+      "keywords": [
+        "TP",
+        "VPN",
+        "ID",
+        "HTTPS",
+        "Step 1",
+        "Step 2",
+        "Privacy Error",
+        "Your connection isn't private"
+      ],
+      "created_at": "2026-06-11T11:40:54.593846",
+      "metadata": {
+        "has_table": false,
+        "heading_level": 2
+      }
+    }
+  ]
+}

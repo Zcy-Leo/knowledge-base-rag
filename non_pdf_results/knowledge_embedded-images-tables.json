@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "source_file": "embedded-images-tables.jpg",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "f801bd0a-2bd6-4f89-83e5-a8e74339b5d5",
+      "type": "general",
+      "title": "454 O. Sanni, A.P.I. Popoola / Data in Brief 22 (2...",
+      "content": "454 O. Sanni, A.P.I. Popoola / Data in Brief 22 (2019) 451-457",
+      "source_file": "embedded-images-tables.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Sanni",
+        "Popoola",
+        "data"
+      ],
+      "created_at": "2026-06-22T11:56:30.124067",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "3ee643c3-e9cc-4f46-a1f2-121d79195d70",
+      "type": "general",
+      "title": "Current Density (A/cm2)",
+      "content": "Current Density (A/cm2)",
+      "source_file": "embedded-images-tables.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Current"
+      ],
+      "created_at": "2026-06-22T11:56:30.124103",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "128f62c4-a635-4289-88ea-3f3fb4d246c6",
+      "type": "general",
+      "title": "Fig. 4. Anodic and cathodic polarization curve of ...",
+      "content": "Fig. 4. Anodic and cathodic polarization curve of stainless steel in 0.5 M H2SO, solution in the presence and absence of ES.",
+      "source_file": "embedded-images-tables.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Fig",
+        "Anodic",
+        "solution"
+      ],
+      "created_at": "2026-06-22T11:56:30.124151",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "dbd877fd-332d-47cf-a4ee-6b9eb7d8213f",
+      "type": "general",
+      "title": "Table 1\nPotentiodynamic polarization data for stai...",
+      "content": "Table 1\nPotentiodynamic polarization data for stainless steel in the absence and presence of ES in 0.5 M H2SO, solution.\nInhibitor be (V/dec) ba (V/dec) Ecorr (V) icorr (A/cm?) Polarization Corrosion\nconcentration (g) resistance (Q) rate (mm/year)\nit) 0.0335 0.0409 —0.9393 0.0003 24.0910 2.8163\n2 1.9460 0.0596 —0.8276 0.0002 121.440 1.5054\n4 0.0163 0.2369 —0.8825 0.0001 42.121 0.9476\n6 0.3233 0.0540 —0.8027 5.39E-05 373.180 0.4318\n8 0.1240 0.0556 —0.5896 5.46E-05 305.650 0.3772\n10 0.0382 0.0086 —0.5356 1,.24E-05 246.080 0.0919",
+      "source_file": "embedded-images-tables.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Table",
+        "Potentiodynamic",
+        "Inhibitor",
+        "data",
+        "solution"
+      ],
+      "created_at": "2026-06-22T11:56:30.124349",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "42e1d9d4-5a8c-4787-ac22-a9b1d84cf4b3",
+      "type": "general",
+      "title": "The plot of inhibitor concentration over degree of...",
+      "content": "The plot of inhibitor concentration over degree of surface coverage versus inhibitor concentration\ngives a straight line as shown in Fig. 5. The strong correlation reveals that egg shell adsorption on\nstainless surface in 0.5 M H2SO, follow Langmuir adsorption isotherm. Figs. 6-8 show the SEM/EDX\nsurface morphology analysis of stainless steel. Figs. 7 and 8 are the SEM/EDX images of the stainless\nsteel specimens without and with inhibitor after weight loss experiment in sulphuric acid medium.\nThe stainless steel surface corrosion product layer in the absence of inhibitor was porous and as a\nresult gives no corrosion protection. With the presence of ES, corrosion damage was minimized, with\nan evidence of ES present on the metal surface as shown in Fig. 8.",
+      "source_file": "embedded-images-tables.jpg",
+      "source_page": 0,
+      "keywords": [
+        "SEM",
+        "EDX",
+        "Figs"
+      ],
+      "created_at": "2026-06-22T11:56:30.124536",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "6b8ad02d-dd3b-484e-a51a-6bca60030c12",
+      "type": "general",
+      "title": "2 4 6 8 10\nConcentration (g)",
+      "content": "2 4 6 8 10\nConcentration (g)",
+      "source_file": "embedded-images-tables.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Concentration"
+      ],
+      "created_at": "2026-06-22T11:56:30.124559",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "e591aada-402a-49f2-81ee-361765570f2c",
+      "type": "general",
+      "title": "Fig. 5. Langmuir adsorption isotherm of ES.",
+      "content": "Fig. 5. Langmuir adsorption isotherm of ES.",
+      "source_file": "embedded-images-tables.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Fig",
+        "Langmuir"
+      ],
+      "created_at": "2026-06-22T11:56:30.124583",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-html-cp1252.html",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "4a9cb86a-a1b9-41b8-9ae3-c75820aa9f5f",
+      "type": "general",
+      "title": "<!DOCTYPE html>\n<html>\n<body>",
+      "content": "<!DOCTYPE html>\n<html>\n<body>",
+      "source_file": "fake-html-cp1252.html",
+      "source_page": 0,
+      "keywords": [
+        "DOCTYPE"
+      ],
+      "created_at": "2026-06-16T11:48:38.162653",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake html cp1252"
+      }
+    },
+    {
+      "id": "ab2dd5bf-c9ef-4963-9d46-4a4ff3880413",
+      "type": "general",
+      "title": "<h1>My First Heading</h1>\n<p>My first paragraph.</...",
+      "content": "<h1>My First Heading</h1>\n<p>My first paragraph.</p>\n<p>Some text with CP1252-specific characters:</p>",
+      "source_file": "fake-html-cp1252.html",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:38.162784",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake html cp1252"
+      }
+    },
+    {
+      "id": "366ac776-86d8-4d93-baf2-13bf61fa0eb3",
+      "type": "general",
+      "title": "<pre>\nDie schne Frau hat einen Kaffee mit Kuchen g...",
+      "content": "<pre>\nDie schne Frau hat einen Kaffee mit Kuchen gegessen. Sie sagte: \"Das war kstlich!\" und lchelte dabei. Der Preis betrug 15,50 .\nL't tait trs chaud cette anne. J'ai achet un caf au lait pour 3,50 . C'tait dlicieux ! L'homme a dit : \"C'est parfait !\"\nEl nio comi paella con oquis. La seora dijo: \"Qu rico!\" y pag 25,75 . El restaurante tena un men del da.\nKvinnan t kttbullar med lingonsylt. Hon sa: \"Det var fantastiskt!\" och betalade 45,90 . Mannen frgade: \"Vill du ha mer?\"\nO Joo comprou um caf por 2,50 . Ele disse: \"Est timo!\" e sorriu. A mulher perguntou: \"Quer mais alguma coisa?\"\nDe vrouw dronk koffie met koekjes. Ze zei: \"Het was heerlijk!\" en betaalde 4,25 . Het kind vroeg: \"Mag ik ook wat?\"\n</pre>",
+      "source_file": "fake-html-cp1252.html",
+      "source_page": 0,
+      "keywords": [
+        "Die",
+        "Sie",
+        "Der",
+        "Kvinnan"
+      ],
+      "created_at": "2026-06-16T11:48:38.163215",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake html cp1252"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "source_file": "table-multi-row-column-cells (1).pdf",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "d6adfaa6-bbe1-4c4c-a3b6-a462a94a6300",
+      "type": "table_data",
+      "title": "| Disability<br>Category | Participants | Ballots<br>Completed | Ballots<br>Inco...",
+      "content": "| Disability<br>Category | Participants | Ballots<br>Completed | Ballots<br>Incomplete/<br>Terminated | Results              |                  |\n|------------------------|--------------|----------------------|--------------------------------------|----------------------|------------------|\n|                        |              |                      |                                      | Accuracy             | Time to complete |\n| Blind                  | 5            | 1                    | 4                                    | 34.5%, n=1           | 1199 sec, n=1    |\n| Low Vision             | 5            | 2                    | 3                                    | 98.3% n=2            | 1716 sec, n=3    |\n|                        |              |                      |                                      | (97.7% <i>,</i> n=3) | (1934 sec, n=2)  |\n| Dexterity              | 5            | 4                    | 1                                    | 98.3%, n=4           | 1672.1 sec, n=4  |\n| Mobility               | 3            | 3                    | 0                                    | 95.4%, n=3           | 1416 sec, n=3    |",
+      "source_file": "table-multi-row-column-cells (1).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:59:52.236765",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    }
+  ]
+}

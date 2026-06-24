@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "filter_list.txt",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "2c89cd16-8226-466a-8f51-47af8a6665f2",
+      "type": "general",
+      "title": "Bank Good Credit Loan.pptx\nPerformance-Audit-Discu...",
+      "content": "Bank Good Credit Loan.pptx\nPerformance-Audit-Discussion.pdf",
+      "source_file": "filter_list.txt",
+      "source_page": 0,
+      "keywords": [
+        "Bank",
+        "Performance"
+      ],
+      "created_at": "2026-06-16T11:16:00.893690",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    }
+  ]
+}

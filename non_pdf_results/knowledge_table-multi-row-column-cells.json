@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "source_file": "table-multi-row-column-cells.png",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "406889c5-3410-446f-a7f0-c30ee7e0a632",
+      "type": "general",
+      "title": "soa Ballot:\netealeiliay Participants pallets incom...",
+      "content": "soa Ballot:\netealeiliay Participants pallets incom lete/\nCategory P Completed Ne Accuracy Time to\nTerminated\ncomplete",
+      "source_file": "table-multi-row-column-cells.png",
+      "source_page": 0,
+      "keywords": [
+        "Category",
+        "Terminated"
+      ],
+      "created_at": "2026-06-22T11:56:56.159459",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "e5080e84-1e82-4115-bf49-78641675a8ed",
+      "type": "general",
+      "title": "Blind 5 1 4 34.5%, n=1 1199 sec, n=1\nLow Vision 5 ...",
+      "content": "Blind 5 1 4 34.5%, n=1 1199 sec, n=1\nLow Vision 5 2 3 98.3% n=2 1716 sec, n=3",
+      "source_file": "table-multi-row-column-cells.png",
+      "source_page": 0,
+      "keywords": [
+        "Blind",
+        "Low"
+      ],
+      "created_at": "2026-06-22T11:56:56.159518",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    }
+  ]
+}

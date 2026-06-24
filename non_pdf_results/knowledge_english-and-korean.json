@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "source_file": "english-and-korean.png",
+  "total_entries": 6,
+  "entries": [
+    {
+      "id": "44a39f87-355d-45f3-ac42-1e4e38756b74",
+      "type": "sop_step",
+      "title": "RULES AND INSTRUCTIONS",
+      "content": "RULES AND INSTRUCTIONS",
+      "source_file": "english-and-korean.png",
+      "source_page": 0,
+      "keywords": [
+        "INSTRUCTIONS",
+        "RULES"
+      ],
+      "created_at": "2026-06-22T11:56:30.811775",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "2d64f072-da23-423b-b335-c9850f0d224a",
+      "type": "general",
+      "title": "1. Template for day 1 (korean) , for day 2\n(Englis...",
+      "content": "1. Template for day 1 (korean) , for day 2\n(English) for day 3 both English and korean.\n2. Use all your accounts. use different emails\nto send. Its better to have many email\naccounts.",
+      "source_file": "english-and-korean.png",
+      "source_page": 0,
+      "keywords": [
+        "Template",
+        "Use",
+        "Its"
+      ],
+      "created_at": "2026-06-22T11:56:30.811966",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "4534e21e-46ab-48b8-915e-bb77c6b665cc",
+      "type": "general",
+      "title": "Note: Remember to write your own \"OPENING\nMESSAGE\"...",
+      "content": "Note: Remember to write your own \"OPENING\nMESSAGE\" before you copy and paste the\ntemplate. please always include [TREASURE\nHARUTO] for example:",
+      "source_file": "english-and-korean.png",
+      "source_page": 0,
+      "keywords": [
+        "MESSAGE",
+        "TREASURE",
+        "OPENING",
+        "HARUTO",
+        "Note",
+        "Remember"
+      ],
+      "created_at": "2026-06-22T11:56:30.812096",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "eb6c08ca-1cf3-41ab-8bf8-75a6414ebae8",
+      "type": "general",
+      "title": "StS ofAl2, SIE YGEAS TB TREASUREWH\nHARUTOM|2] RHEU...",
+      "content": "StS ofAl2, SIE YGEAS TB TREASUREWH\nHARUTOM|2] RHEULICH. BHO AY, HARUTO M BE\n= WSO Hol Mat SSBsts LRU, O| Wil\nBS SH ASP] ASS AZOpO} HAS] TAI St a\nBat 4SAel SHS HS + U7/S LICH.",
+      "source_file": "english-and-korean.png",
+      "source_page": 0,
+      "keywords": [
+        "WSO",
+        "SHS",
+        "LRU",
+        "LICH",
+        "StS",
+        "HARUTOM",
+        "BHO",
+        "Bat"
+      ],
+      "created_at": "2026-06-22T11:56:30.812232",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "17ec9cb8-ba40-42e7-ba70-10a310494227",
+      "type": "general",
+      "title": "3. CC Harutonations@gmail.com so we can\nkeep track...",
+      "content": "3. CC Harutonations@gmail.com so we can\nkeep track of how many emails were\nsuccessfully sent",
+      "source_file": "english-and-korean.png",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:30.812283",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "ca7538a2-67cc-4f5e-968f-643779144e10",
+      "type": "general",
+      "title": "4. Use the hashtag of Haruto on your tweet to\nshow...",
+      "content": "4. Use the hashtag of Haruto on your tweet to\nshow that vou have sent vour email]",
+      "source_file": "english-and-korean.png",
+      "source_page": 0,
+      "keywords": [
+        "Use"
+      ],
+      "created_at": "2026-06-22T11:56:30.812449",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    }
+  ]
+}

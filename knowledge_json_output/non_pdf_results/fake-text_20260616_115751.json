@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-text.txt",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "8fc4fac8-3665-40ae-ba5e-f10c2b76cc24",
+      "type": "general",
+      "title": "This is a test document to use for unit tests.",
+      "content": "This is a test document to use for unit tests.",
+      "source_file": "fake-text.txt",
+      "source_page": 0,
+      "keywords": [
+        "document"
+      ],
+      "created_at": "2026-06-16T11:57:51.871230",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Demo"
+      }
+    },
+    {
+      "id": "398198a2-2e8d-4332-8ecd-212340cf76f7",
+      "type": "general",
+      "title": "- Hamburgers are delicious\n   - Dogs are the best\n...",
+      "content": "- Hamburgers are delicious\n   - Dogs are the best\n   - I love fuzzy blankets",
+      "source_file": "fake-text.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.871285",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Demo"
+      }
+    }
+  ]
+}

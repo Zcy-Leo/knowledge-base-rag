@@ -1,0 +1,1830 @@
+{
+  "schema_version": "1.0",
+  "source_file": "currency.csv.txt",
+  "total_entries": 107,
+  "entries": [
+    {
+      "id": "4263a3c8-2fc0-4e32-9125-9ea6ffaafd61",
+      "type": "general",
+      "title": "AED\nد.إ\nUnited Arab Emirates d",
+      "content": "AED\nد.إ\nUnited Arab Emirates d",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "AED",
+        "United"
+      ],
+      "created_at": "2026-06-16T11:16:01.071870",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "50a9caec-c6e1-4e4e-a853-b1948c5ab309",
+      "type": "general",
+      "title": "AMD\nAMD\nArmenian dram",
+      "content": "AMD\nAMD\nArmenian dram",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "AMD",
+        "Armenian"
+      ],
+      "created_at": "2026-06-16T11:16:01.071914",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "b6adaa6e-81c1-4caa-a448-e51b66ca993b",
+      "type": "general",
+      "title": "ANG\nƒ\nNetherlands Antillean gu",
+      "content": "ANG\nƒ\nNetherlands Antillean gu",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "ANG",
+        "Netherlands"
+      ],
+      "created_at": "2026-06-16T11:16:01.071950",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "95d40aea-227c-4fa7-a142-678bed002654",
+      "type": "general",
+      "title": "AOA\nKz\nAngolan kwanza",
+      "content": "AOA\nKz\nAngolan kwanza",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "AOA",
+        "Angolan"
+      ],
+      "created_at": "2026-06-16T11:16:01.071980",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "8c64e397-ceb1-4ded-b8d4-eb25ccfd2248",
+      "type": "general",
+      "title": "AUD\n$\nAustralian dollar",
+      "content": "AUD\n$\nAustralian dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "AUD",
+        "Australian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072006",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "0745d930-8968-478e-bbbd-6c52e1a9de0c",
+      "type": "general",
+      "title": "AWG\nAfl.\nAruban florin",
+      "content": "AWG\nAfl.\nAruban florin",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "AWG",
+        "Afl",
+        "Aruban"
+      ],
+      "created_at": "2026-06-16T11:16:01.072036",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "94c65a8c-7b4f-455a-8172-6a3bf83d6623",
+      "type": "general",
+      "title": "AZN\nAZN\nAzerbaijani manat",
+      "content": "AZN\nAZN\nAzerbaijani manat",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "AZN",
+        "Azerbaijani"
+      ],
+      "created_at": "2026-06-16T11:16:01.072065",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "bca50510-7c2f-401d-a9be-279dfa8476d2",
+      "type": "general",
+      "title": "BAM\nKM\nBosnia and Herzegovina",
+      "content": "BAM\nKM\nBosnia and Herzegovina",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BAM",
+        "Bosnia"
+      ],
+      "created_at": "2026-06-16T11:16:01.072093",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "9439053e-813f-4bdb-8caf-d393b7a956c7",
+      "type": "general",
+      "title": "BBD\n$\nBarbadian dollar",
+      "content": "BBD\n$\nBarbadian dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BBD",
+        "Barbadian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072118",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "42de22f9-20a9-45b9-adb8-ba589a1f0874",
+      "type": "general",
+      "title": "BDT\n৳\nBangladeshi taka",
+      "content": "BDT\n৳\nBangladeshi taka",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BDT",
+        "Bangladeshi"
+      ],
+      "created_at": "2026-06-16T11:16:01.072145",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "6b8d5dda-f010-441f-b889-617b6d3e79a3",
+      "type": "general",
+      "title": "BGN\nлв.\nBulgarian lev",
+      "content": "BGN\nлв.\nBulgarian lev",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BGN",
+        "Bulgarian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072172",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "8685af59-9030-471d-97f5-39a6d88fa809",
+      "type": "general",
+      "title": "BHD\n.د.ب\nBahraini dinar",
+      "content": "BHD\n.د.ب\nBahraini dinar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BHD",
+        "Bahraini"
+      ],
+      "created_at": "2026-06-16T11:16:01.072199",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "9531782b-8953-44ac-b871-44f8bb5f6a0a",
+      "type": "general",
+      "title": "BIF\nFr\nBurundian franc",
+      "content": "BIF\nFr\nBurundian franc",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BIF",
+        "Burundian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072225",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "94ef97ef-42b7-4b37-9f05-db018fdf5946",
+      "type": "general",
+      "title": "BMD\n$\nBermudian dollar",
+      "content": "BMD\n$\nBermudian dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BMD",
+        "Bermudian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072250",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "1c57b59c-3774-46ef-ad0c-07c02d055f7c",
+      "type": "general",
+      "title": "BOB\nBs.\nBolivian boliviano",
+      "content": "BOB\nBs.\nBolivian boliviano",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BOB",
+        "Bolivian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072276",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "87722db0-bff5-4244-b5df-4d21588093bc",
+      "type": "general",
+      "title": "BRL\nR$\nBrazilian real",
+      "content": "BRL\nR$\nBrazilian real",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BRL",
+        "Brazilian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072302",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "8f104e2e-e4aa-485e-a652-0056b9ae84d0",
+      "type": "general",
+      "title": "BSD\n$\nBahamian dollar",
+      "content": "BSD\n$\nBahamian dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BSD",
+        "Bahamian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072326",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "7b242232-8335-4f43-935b-55bfcc996804",
+      "type": "general",
+      "title": "BTN\nNu.\nBhutanese ngultrum",
+      "content": "BTN\nNu.\nBhutanese ngultrum",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BTN",
+        "Bhutanese"
+      ],
+      "created_at": "2026-06-16T11:16:01.072352",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "3a0f0799-aba7-45b8-96d5-9ca1c1c9ee7c",
+      "type": "general",
+      "title": "BYR\nBr\nBelarusian ruble (old)'",
+      "content": "BYR\nBr\nBelarusian ruble (old)'",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BYR",
+        "Belarusian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072379",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "8c45959c-259b-4484-bb8a-6f89727e575e",
+      "type": "general",
+      "title": "BYN\nBr\nBelarusian ruble",
+      "content": "BYN\nBr\nBelarusian ruble",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "BYN",
+        "Belarusian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072404",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "21892ab0-f830-4f65-80f4-a5db87e6eaac",
+      "type": "general",
+      "title": "CAD\n$\nCanadian dollar",
+      "content": "CAD\n$\nCanadian dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "CAD",
+        "Canadian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072427",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "64e02699-19ad-4b84-b362-e059a7d7fa05",
+      "type": "general",
+      "title": "CDF\nFr\nCongolese franc",
+      "content": "CDF\nFr\nCongolese franc",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "CDF",
+        "Congolese"
+      ],
+      "created_at": "2026-06-16T11:16:01.072452",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "7b8482d7-4b92-4d79-9a30-521ba4c59f68",
+      "type": "general",
+      "title": "CRC\n₡\nCosta Rican colón",
+      "content": "CRC\n₡\nCosta Rican colón",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "CRC",
+        "Costa"
+      ],
+      "created_at": "2026-06-16T11:16:01.072479",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "5e17f164-4892-45c5-a9ca-cba8c0e1a25f",
+      "type": "general",
+      "title": "CUC\n$\nCuban convertible peso')",
+      "content": "CUC\n$\nCuban convertible peso')",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "CUC",
+        "Cuban"
+      ],
+      "created_at": "2026-06-16T11:16:01.072506",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "9078e149-7fc1-4d5c-9667-5fc9a5f9038a",
+      "type": "general",
+      "title": "CVE\n$\nCape Verdean escudo",
+      "content": "CVE\n$\nCape Verdean escudo",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "CVE",
+        "Cape"
+      ],
+      "created_at": "2026-06-16T11:16:01.072531",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "f6820fcf-fbaa-46f4-b1b5-96e88bb1d1fd",
+      "type": "general",
+      "title": "DJF\nFr\nDjiboutian franc",
+      "content": "DJF\nFr\nDjiboutian franc",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "DJF",
+        "Djiboutian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072556",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "9d8e8987-32b9-43db-b0f5-d32d06524de9",
+      "type": "general",
+      "title": "DOP\nRD$\nDominican peso",
+      "content": "DOP\nRD$\nDominican peso",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "DOP",
+        "Dominican"
+      ],
+      "created_at": "2026-06-16T11:16:01.072580",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "cbc70f84-b275-4a71-853c-30422115be5b",
+      "type": "general",
+      "title": "DZD\nد.ج\nAlgerian dinar",
+      "content": "DZD\nد.ج\nAlgerian dinar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "DZD",
+        "Algerian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072607",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "1171239f-a32a-4ea5-b66b-0cff69fa2513",
+      "type": "general",
+      "title": "EGP\nEGP\nEgyptian pound",
+      "content": "EGP\nEGP\nEgyptian pound",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "EGP",
+        "Egyptian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072633",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "d156d3af-779f-4d4f-b59a-81fba2bfc180",
+      "type": "general",
+      "title": "ERN\nNfk\nEritrean nakfa",
+      "content": "ERN\nNfk\nEritrean nakfa",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "ERN",
+        "Nfk",
+        "Eritrean"
+      ],
+      "created_at": "2026-06-16T11:16:01.072659",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "5e35afd2-402b-402d-a1f8-2e0a38ea4963",
+      "type": "general",
+      "title": "ETB\nBr\nEthiopian birr",
+      "content": "ETB\nBr\nEthiopian birr",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "ETB",
+        "Ethiopian"
+      ],
+      "created_at": "2026-06-16T11:16:01.072684",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "3b931419-506b-401c-bed0-4df45c2cfb38",
+      "type": "general",
+      "title": "FKP\n£\nFalkland Islands pound')",
+      "content": "FKP\n£\nFalkland Islands pound')",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "FKP",
+        "Falkland"
+      ],
+      "created_at": "2026-06-16T11:16:01.072711",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "9c658d7c-9f53-49b6-a7ac-86722e1925d3",
+      "type": "general",
+      "title": "GIP\n£\nGibraltar pound",
+      "content": "GIP\n£\nGibraltar pound",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "GIP",
+        "Gibraltar"
+      ],
+      "created_at": "2026-06-16T11:16:01.072961",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "463590ee-6483-4956-bc2a-0310bc1dcfea",
+      "type": "general",
+      "title": "GTQ\nQ\nGuatemalan quetzal",
+      "content": "GTQ\nQ\nGuatemalan quetzal",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "GTQ",
+        "Guatemalan"
+      ],
+      "created_at": "2026-06-16T11:16:01.073144",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "6afe5a3d-dd96-4620-a059-89fd27980b37",
+      "type": "general",
+      "title": "GYD\n$\nGuyanese dollar",
+      "content": "GYD\n$\nGuyanese dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "GYD",
+        "Guyanese"
+      ],
+      "created_at": "2026-06-16T11:16:01.073196",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "f366a6d2-9d55-497d-91cb-8bc4a30e54e8",
+      "type": "general",
+      "title": "HKD\n$\nHong Kong dollar",
+      "content": "HKD\n$\nHong Kong dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "HKD",
+        "Hong"
+      ],
+      "created_at": "2026-06-16T11:16:01.073230",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "2491bbc0-24ac-4e58-9872-c875ea1a6e97",
+      "type": "general",
+      "title": "HNL\nL\nHonduran lempira",
+      "content": "HNL\nL\nHonduran lempira",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "HNL",
+        "Honduran"
+      ],
+      "created_at": "2026-06-16T11:16:01.073261",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "7a28d066-39e6-462a-b056-2dcf8c40ded0",
+      "type": "general",
+      "title": "HUF\nFt\nHungarian forint",
+      "content": "HUF\nFt\nHungarian forint",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "HUF",
+        "Hungarian"
+      ],
+      "created_at": "2026-06-16T11:16:01.073290",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "48857b29-b5de-423d-964a-5b4ead8b3688",
+      "type": "general",
+      "title": "IDR\nRp\nIndonesian rupiah",
+      "content": "IDR\nRp\nIndonesian rupiah",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "IDR",
+        "Indonesian"
+      ],
+      "created_at": "2026-06-16T11:16:01.073318",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "9483a174-7d6b-4672-a336-4458e53996e5",
+      "type": "general",
+      "title": "ILS\n₪\nIsraeli new shekel",
+      "content": "ILS\n₪\nIsraeli new shekel",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "ILS",
+        "Israeli"
+      ],
+      "created_at": "2026-06-16T11:16:01.073352",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "d4add698-b5eb-4731-82e2-1dd7021a2fec",
+      "type": "general",
+      "title": "IRT\nتومان\nIranian toman",
+      "content": "IRT\nتومان\nIranian toman",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "IRT",
+        "Iranian"
+      ],
+      "created_at": "2026-06-16T11:16:01.073381",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "edfee4e8-8c67-4302-828d-6f3fc4d76d9d",
+      "type": "general",
+      "title": "ISK\nkr.\nIcelandic króna",
+      "content": "ISK\nkr.\nIcelandic króna",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "ISK",
+        "Icelandic"
+      ],
+      "created_at": "2026-06-16T11:16:01.073410",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "b02eb162-f460-4c3e-a854-d019636c4e0e",
+      "type": "general",
+      "title": "JMD\n$\nJamaican dollar",
+      "content": "JMD\n$\nJamaican dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "JMD",
+        "Jamaican"
+      ],
+      "created_at": "2026-06-16T11:16:01.073436",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "8d681509-d8f2-4168-9f30-e4778f1998de",
+      "type": "general",
+      "title": "JOD\nد.ا\nJordanian dinar",
+      "content": "JOD\nد.ا\nJordanian dinar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "JOD",
+        "Jordanian"
+      ],
+      "created_at": "2026-06-16T11:16:01.073466",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "b7c8a5be-c373-45b9-ba68-8db7c5853e7e",
+      "type": "general",
+      "title": "KES\nKSh\nKenyan shilling",
+      "content": "KES\nKSh\nKenyan shilling",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "KES",
+        "KSh",
+        "Kenyan"
+      ],
+      "created_at": "2026-06-16T11:16:01.073493",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "dd744c64-a883-4c20-b160-9e78fb41fbf8",
+      "type": "general",
+      "title": "KGS\nсом\nKyrgyzstani som",
+      "content": "KGS\nсом\nKyrgyzstani som",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "KGS",
+        "Kyrgyzstani"
+      ],
+      "created_at": "2026-06-16T11:16:01.073521",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "2f6ec083-2621-4994-8d7f-b125c77190df",
+      "type": "general",
+      "title": "KMF\nFr\nComorian franc",
+      "content": "KMF\nFr\nComorian franc",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "KMF",
+        "Comorian"
+      ],
+      "created_at": "2026-06-16T11:16:01.073547",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "fdc86ea9-ce0a-46e9-bdf4-19053782e7d3",
+      "type": "general",
+      "title": "KPW\n₩\nNorth Korean won",
+      "content": "KPW\n₩\nNorth Korean won",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "KPW",
+        "North"
+      ],
+      "created_at": "2026-06-16T11:16:01.073575",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "109ad622-b06d-4806-aed4-32a10ac556ae",
+      "type": "general",
+      "title": "KRW\n₩\nSouth Korean won",
+      "content": "KRW\n₩\nSouth Korean won",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "KRW",
+        "South"
+      ],
+      "created_at": "2026-06-16T11:16:01.073600",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "52db5e1c-fc2b-4115-84da-a7936a58c4e9",
+      "type": "general",
+      "title": "KWD\nد.ك\nKuwaiti dinar",
+      "content": "KWD\nد.ك\nKuwaiti dinar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "KWD",
+        "Kuwaiti"
+      ],
+      "created_at": "2026-06-16T11:16:01.073629",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "61f348b4-e7fd-45a1-9941-3032f76ebd43",
+      "type": "general",
+      "title": "KYD\n$\nCayman Islands dollar",
+      "content": "KYD\n$\nCayman Islands dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "KYD",
+        "Cayman"
+      ],
+      "created_at": "2026-06-16T11:16:01.073656",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "fe7729c7-6965-4f4d-9f87-413dac1435f4",
+      "type": "general",
+      "title": "KZT\n₸\nKazakhstani tenge",
+      "content": "KZT\n₸\nKazakhstani tenge",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "KZT",
+        "Kazakhstani"
+      ],
+      "created_at": "2026-06-16T11:16:01.073680",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "bd28d55b-fdc8-45b0-99f7-87ba48cc40c9",
+      "type": "general",
+      "title": "LBP\nل.ل\nLebanese pound",
+      "content": "LBP\nل.ل\nLebanese pound",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "LBP",
+        "Lebanese"
+      ],
+      "created_at": "2026-06-16T11:16:01.073708",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "4b9303e7-a5c8-4315-b1b3-91d4e9f650b0",
+      "type": "general",
+      "title": "LKR\nරු\nSri Lankan rupee",
+      "content": "LKR\nරු\nSri Lankan rupee",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "LKR",
+        "Sri"
+      ],
+      "created_at": "2026-06-16T11:16:01.073736",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "5eedfd55-7486-4e14-8374-b0640cbe4e5a",
+      "type": "general",
+      "title": "LRD\n$\nLiberian dollar",
+      "content": "LRD\n$\nLiberian dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "LRD",
+        "Liberian"
+      ],
+      "created_at": "2026-06-16T11:16:01.073760",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "cbb9f9a5-6391-45a1-8866-f037e9f6ded9",
+      "type": "general",
+      "title": "MAD\nد.م.\nMoroccan dirham",
+      "content": "MAD\nد.م.\nMoroccan dirham",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "MAD",
+        "Moroccan"
+      ],
+      "created_at": "2026-06-16T11:16:01.073788",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "1de4142c-f80a-45c1-9ca4-08f0a2c6500a",
+      "type": "general",
+      "title": "MGA\nAr\nMalagasy ariary",
+      "content": "MGA\nAr\nMalagasy ariary",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "MGA",
+        "Malagasy"
+      ],
+      "created_at": "2026-06-16T11:16:01.073814",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "e571f4eb-41f7-4420-867b-334543501fef",
+      "type": "general",
+      "title": "MKD\nден\nMacedonian denar",
+      "content": "MKD\nден\nMacedonian denar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "MKD",
+        "Macedonian"
+      ],
+      "created_at": "2026-06-16T11:16:01.073841",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "56808e63-73e5-41bd-9676-c8b95bf8af63",
+      "type": "general",
+      "title": "MNT\n₮\nMongolian tögrög",
+      "content": "MNT\n₮\nMongolian tögrög",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "MNT",
+        "Mongolian"
+      ],
+      "created_at": "2026-06-16T11:16:01.073866",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "b2820499-652d-4551-b0a2-e06f8fda7c72",
+      "type": "general",
+      "title": "MOP\nP\nMacanese pataca",
+      "content": "MOP\nP\nMacanese pataca",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "MOP",
+        "Macanese"
+      ],
+      "created_at": "2026-06-16T11:16:01.073893",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "48c9a04f-255f-441b-bb16-c3eee176ca31",
+      "type": "general",
+      "title": "MRU\nUM\nMauritanian ouguiya",
+      "content": "MRU\nUM\nMauritanian ouguiya",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "MRU",
+        "Mauritanian"
+      ],
+      "created_at": "2026-06-16T11:16:01.073923",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "9ce4afc6-14ef-4ba6-ab8c-9adb58d2a758",
+      "type": "general",
+      "title": "MUR\n₨\nMauritian rupee",
+      "content": "MUR\n₨\nMauritian rupee",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "MUR",
+        "Mauritian"
+      ],
+      "created_at": "2026-06-16T11:16:01.073950",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "4514565d-9ad9-42c5-b07b-6fa82cfacc8c",
+      "type": "general",
+      "title": "MVR\n.ރ\nMaldivian rufiyaa",
+      "content": "MVR\n.ރ\nMaldivian rufiyaa",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "MVR",
+        "Maldivian"
+      ],
+      "created_at": "2026-06-16T11:16:01.073978",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "73ccdb49-391f-491f-ad43-e86a844ef765",
+      "type": "general",
+      "title": "MWK\nMK\nMalawian kwacha",
+      "content": "MWK\nMK\nMalawian kwacha",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "MWK",
+        "Malawian"
+      ],
+      "created_at": "2026-06-16T11:16:01.074004",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "ac1e0733-91d5-4af7-88ad-04afe33a4faf",
+      "type": "general",
+      "title": "MYR\nRM\nMalaysian ringgit",
+      "content": "MYR\nRM\nMalaysian ringgit",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "MYR",
+        "Malaysian"
+      ],
+      "created_at": "2026-06-16T11:16:01.074030",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "bd6a86f3-31cf-4219-aa7e-9209da25b854",
+      "type": "general",
+      "title": "MZN\nMT\nMozambican metical",
+      "content": "MZN\nMT\nMozambican metical",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "MZN",
+        "Mozambican"
+      ],
+      "created_at": "2026-06-16T11:16:01.074056",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "5aec8e70-23f8-4cee-ae71-02461aaf7796",
+      "type": "general",
+      "title": "NAD\nN$\nNamibian dollar",
+      "content": "NAD\nN$\nNamibian dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "NAD",
+        "Namibian"
+      ],
+      "created_at": "2026-06-16T11:16:01.074082",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "d04023d4-8a5f-45c1-8d83-41cf8e1f02cb",
+      "type": "general",
+      "title": "NIO\nC$\nNicaraguan córdoba",
+      "content": "NIO\nC$\nNicaraguan córdoba",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "NIO",
+        "Nicaraguan"
+      ],
+      "created_at": "2026-06-16T11:16:01.074109",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "8a34d9ac-6913-4bd1-a656-68f08390b245",
+      "type": "general",
+      "title": "NOK\nkr\nNorwegian krone",
+      "content": "NOK\nkr\nNorwegian krone",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "NOK",
+        "Norwegian"
+      ],
+      "created_at": "2026-06-16T11:16:01.074135",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "b5c70bb8-f78d-4960-ac63-63dea05ede9f",
+      "type": "general",
+      "title": "NZD\n$\nNew Zealand dollar",
+      "content": "NZD\n$\nNew Zealand dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "NZD",
+        "New"
+      ],
+      "created_at": "2026-06-16T11:16:01.074160",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "c11ab43d-6183-44d5-8e04-fb17dd6d2d49",
+      "type": "general",
+      "title": "PAB\nB/.\nPanamanian balboa",
+      "content": "PAB\nB/.\nPanamanian balboa",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "PAB",
+        "Panamanian"
+      ],
+      "created_at": "2026-06-16T11:16:01.074186",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "3223f1f4-8833-4711-a4f5-d2def73b44b6",
+      "type": "general",
+      "title": "PGK\nK\nPapua New Guinean kina')",
+      "content": "PGK\nK\nPapua New Guinean kina')",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "PGK",
+        "Papua"
+      ],
+      "created_at": "2026-06-16T11:16:01.074215",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "dcb7931a-2415-44ba-bc8b-7338569a541b",
+      "type": "general",
+      "title": "PHP\n₱\nPhilippine peso",
+      "content": "PHP\n₱\nPhilippine peso",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "PHP",
+        "Philippine"
+      ],
+      "created_at": "2026-06-16T11:16:01.074240",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "91afc337-5ae1-480b-9811-afe3126cf4b0",
+      "type": "general",
+      "title": "PKR\n₨\nPakistani rupee",
+      "content": "PKR\n₨\nPakistani rupee",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "PKR",
+        "Pakistani"
+      ],
+      "created_at": "2026-06-16T11:16:01.074265",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "c310bb5c-e4db-4636-b592-9238a4a52ea5",
+      "type": "general",
+      "title": "PRB\nр.\nTransnistrian ruble",
+      "content": "PRB\nр.\nTransnistrian ruble",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "PRB",
+        "Transnistrian"
+      ],
+      "created_at": "2026-06-16T11:16:01.074307",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "1335e89a-4ab3-47c2-8d0c-ac9dea25d9b4",
+      "type": "general",
+      "title": "PYG\n₲\nParaguayan guaraní",
+      "content": "PYG\n₲\nParaguayan guaraní",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "PYG",
+        "Paraguayan"
+      ],
+      "created_at": "2026-06-16T11:16:01.074332",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "3bf90772-d66c-43e3-a156-fe34af6d0048",
+      "type": "general",
+      "title": "RSD\nрсд\nSerbian dinar",
+      "content": "RSD\nрсд\nSerbian dinar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "RSD",
+        "Serbian"
+      ],
+      "created_at": "2026-06-16T11:16:01.074358",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "a0e01262-526e-48d6-9fa6-4cc9a75d4285",
+      "type": "general",
+      "title": "SBD\n$\nSolomon Islands dollar')",
+      "content": "SBD\n$\nSolomon Islands dollar')",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "SBD",
+        "Solomon"
+      ],
+      "created_at": "2026-06-16T11:16:01.074388",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "b93e9490-cc7e-4e12-9540-16cd85cbe236",
+      "type": "general",
+      "title": "SCR\n₨\nSeychellois rupee",
+      "content": "SCR\n₨\nSeychellois rupee",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "SCR",
+        "Seychellois"
+      ],
+      "created_at": "2026-06-16T11:16:01.074413",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "03e91bb9-257c-4547-b773-2119a9a5361d",
+      "type": "general",
+      "title": "SDG\nج.س.\nSudanese pound",
+      "content": "SDG\nج.س.\nSudanese pound",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "SDG",
+        "Sudanese"
+      ],
+      "created_at": "2026-06-16T11:16:01.074440",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "b91892d8-366f-4115-87a6-d6b187e75b23",
+      "type": "general",
+      "title": "SGD\n$\nSingapore dollar",
+      "content": "SGD\n$\nSingapore dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "SGD",
+        "Singapore"
+      ],
+      "created_at": "2026-06-16T11:16:01.074464",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "cfb3bb7a-a054-49d9-b65c-7747e49f3378",
+      "type": "general",
+      "title": "SHP\n£\nSaint Helena pound",
+      "content": "SHP\n£\nSaint Helena pound",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "SHP",
+        "Saint"
+      ],
+      "created_at": "2026-06-16T11:16:01.074491",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "a76f9c53-70bd-4285-b270-cb717827b40a",
+      "type": "general",
+      "title": "SLL\nLe\nSierra Leonean leone",
+      "content": "SLL\nLe\nSierra Leonean leone",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "SLL",
+        "Sierra"
+      ],
+      "created_at": "2026-06-16T11:16:01.074520",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "951457f8-db39-4c09-b18c-0fe741a296b7",
+      "type": "general",
+      "title": "SOS\nSh\nSomali shilling",
+      "content": "SOS\nSh\nSomali shilling",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "SOS",
+        "Somali"
+      ],
+      "created_at": "2026-06-16T11:16:01.074545",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "900bb6f9-7c7f-4823-925e-06ba3209ba6e",
+      "type": "general",
+      "title": "SRD\n$\nSurinamese dollar",
+      "content": "SRD\n$\nSurinamese dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "SRD",
+        "Surinamese"
+      ],
+      "created_at": "2026-06-16T11:16:01.074569",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "da7ddfb0-004d-4443-94b6-a72c1fb1a701",
+      "type": "general",
+      "title": "SSP\n£\nSouth Sudanese pound",
+      "content": "SSP\n£\nSouth Sudanese pound",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "SSP",
+        "South"
+      ],
+      "created_at": "2026-06-16T11:16:01.074597",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "6448b4f7-ac84-4949-89d7-7f0338bc76b7",
+      "type": "general",
+      "title": "STN\nDb\nSão Tomé and Príncipe d",
+      "content": "STN\nDb\nSão Tomé and Príncipe d",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "STN"
+      ],
+      "created_at": "2026-06-16T11:16:01.074627",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "f28157f0-0baa-46ec-ac15-e86687e97a9d",
+      "type": "general",
+      "title": "SZL\nL\nSwazi lilangeni",
+      "content": "SZL\nL\nSwazi lilangeni",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "SZL",
+        "Swazi"
+      ],
+      "created_at": "2026-06-16T11:16:01.074652",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "973c0c27-73ba-4a29-9be6-975c677035b8",
+      "type": "general",
+      "title": "TJS\nЅМ\nTajikistani somoni",
+      "content": "TJS\nЅМ\nTajikistani somoni",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "TJS",
+        "Tajikistani"
+      ],
+      "created_at": "2026-06-16T11:16:01.074679",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "970784db-9179-4efd-a06c-98ef247b63c2",
+      "type": "general",
+      "title": "TMT\nm\nTurkmenistan manat",
+      "content": "TMT\nm\nTurkmenistan manat",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "TMT",
+        "Turkmenistan"
+      ],
+      "created_at": "2026-06-16T11:16:01.074704",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "8f7f62eb-6ddc-4f8e-ae7d-d708b8a3ede2",
+      "type": "general",
+      "title": "TND\nد.ت\nTunisian dinar",
+      "content": "TND\nد.ت\nTunisian dinar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "TND",
+        "Tunisian"
+      ],
+      "created_at": "2026-06-16T11:16:01.074731",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "b707ea84-c22b-4150-b1f1-40141ce7721f",
+      "type": "general",
+      "title": "TOP\nT$\nTongan paʻanga",
+      "content": "TOP\nT$\nTongan paʻanga",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "TOP",
+        "Tongan"
+      ],
+      "created_at": "2026-06-16T11:16:01.074758",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "85935d30-720d-4917-9397-c2bf90183880",
+      "type": "general",
+      "title": "TTD\n$\nTrinidad and Tobago doll",
+      "content": "TTD\n$\nTrinidad and Tobago doll",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "TTD",
+        "Trinidad"
+      ],
+      "created_at": "2026-06-16T11:16:01.074786",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "421e1599-8ddc-4f94-9ca6-71073c9fe668",
+      "type": "general",
+      "title": "TWD\nNT$\nNew Taiwan dollar",
+      "content": "TWD\nNT$\nNew Taiwan dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "TWD",
+        "New"
+      ],
+      "created_at": "2026-06-16T11:16:01.074813",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "285bfb5f-e1e4-4a49-8d43-b43c5ac69dd7",
+      "type": "general",
+      "title": "TZS\nSh\nTanzanian shilling",
+      "content": "TZS\nSh\nTanzanian shilling",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "TZS",
+        "Tanzanian"
+      ],
+      "created_at": "2026-06-16T11:16:01.074839",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "9d77426e-cdf8-4b6c-9ad9-6e7c6c0499e3",
+      "type": "general",
+      "title": "UAH\n₴\nUkrainian hryvnia",
+      "content": "UAH\n₴\nUkrainian hryvnia",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "UAH",
+        "Ukrainian"
+      ],
+      "created_at": "2026-06-16T11:16:01.074863",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "9215be6b-d877-41e4-a426-2a8cb1f1f60d",
+      "type": "general",
+      "title": "UGX\nUGX\nUgandan shilling",
+      "content": "UGX\nUGX\nUgandan shilling",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "UGX",
+        "Ugandan"
+      ],
+      "created_at": "2026-06-16T11:16:01.074890",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "c981318a-05b5-4611-812f-2e2a33d8adaa",
+      "type": "general",
+      "title": "USD\n$\nUnited States (US) dolla",
+      "content": "USD\n$\nUnited States (US) dolla",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "USD",
+        "United"
+      ],
+      "created_at": "2026-06-16T11:16:01.074918",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "62efd15b-e193-4bb1-abb8-04f0748bd9a9",
+      "type": "general",
+      "title": "UZS\nUZS\nUzbekistani som",
+      "content": "UZS\nUZS\nUzbekistani som",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "UZS",
+        "Uzbekistani"
+      ],
+      "created_at": "2026-06-16T11:16:01.074943",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "a2ea5bb9-92fc-44e4-aa13-75e416469c26",
+      "type": "general",
+      "title": "VEF\nBs F\nVenezuelan bolívar",
+      "content": "VEF\nBs F\nVenezuelan bolívar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "VEF",
+        "Venezuelan"
+      ],
+      "created_at": "2026-06-16T11:16:01.074972",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "b43f5d57-89c3-4379-a16d-54e0b808ede6",
+      "type": "general",
+      "title": "VES\nBs.S\nBolívar soberano",
+      "content": "VES\nBs.S\nBolívar soberano",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "VES",
+        "Bol"
+      ],
+      "created_at": "2026-06-16T11:16:01.074999",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "c3114ddb-24ec-488b-be2a-16a0db26a491",
+      "type": "general",
+      "title": "VND\n₫\nVietnamese đồng",
+      "content": "VND\n₫\nVietnamese đồng",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "VND",
+        "Vietnamese"
+      ],
+      "created_at": "2026-06-16T11:16:01.075023",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "1b1a3481-e8bf-4ae8-a377-536381aceb9e",
+      "type": "general",
+      "title": "XAF\nCFA\nCentral African CFA fr",
+      "content": "XAF\nCFA\nCentral African CFA fr",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "XAF",
+        "CFA",
+        "Central"
+      ],
+      "created_at": "2026-06-16T11:16:01.075054",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "64740a85-a947-41ae-a3e2-d1bd65143ee2",
+      "type": "general",
+      "title": "XCD\n$\nEast Caribbean dollar",
+      "content": "XCD\n$\nEast Caribbean dollar",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "XCD",
+        "East"
+      ],
+      "created_at": "2026-06-16T11:16:01.075080",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "42d7ef18-30b2-4771-aca0-4917e0e85ed7",
+      "type": "general",
+      "title": "XOF\nCFA\nWest African CFA franc",
+      "content": "XOF\nCFA\nWest African CFA franc",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "XOF",
+        "CFA",
+        "West"
+      ],
+      "created_at": "2026-06-16T11:16:01.075109",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "1580d346-ec6d-4f95-9976-2cc9139e2f15",
+      "type": "general",
+      "title": "ZAR\nR\nSouth African rand",
+      "content": "ZAR\nR\nSouth African rand",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "ZAR",
+        "South"
+      ],
+      "created_at": "2026-06-16T11:16:01.075135",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "8a840f18-8424-454d-b19f-ec0d17d3a449",
+      "type": "general",
+      "title": "ZMW\nZK\nZambian kwacha",
+      "content": "ZMW\nZK\nZambian kwacha",
+      "source_file": "currency.csv.txt",
+      "source_page": 0,
+      "keywords": [
+        "ZMW",
+        "Zambian"
+      ],
+      "created_at": "2026-06-16T11:16:01.075159",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    }
+  ]
+}

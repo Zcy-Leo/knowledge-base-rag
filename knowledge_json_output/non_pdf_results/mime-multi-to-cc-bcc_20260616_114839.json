@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-multi-to-cc-bcc.eml",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "9b43b9b9-e61c-4dd6-96f9-980b6d63ff4c",
+      "type": "general",
+      "title": "From: sender@example.com\nTo: Bob <bob@example.com>...",
+      "content": "From: sender@example.com\nTo: Bob <bob@example.com>, Sue <sue@example.com>\nCc: Tom <tom@example.com>, Alice <alice@example.com>\nBcc: John <john@example.com>, Mary <mary@example.com>\nSubject: Example Plain-Text MIME Message\nMessage-ID: <2143658709@example.com>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "mime-multi-to-cc-bcc.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "MIME",
+        "Bob",
+        "Tom",
+        "Bcc",
+        "John",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.241583",
+      "metadata": {
+        "element_type": "text",
+        "company": "mime multi to cc bcc"
+      }
+    },
+    {
+      "id": "214d5c4f-08a4-414c-91fc-d90b11b85e11",
+      "type": "general",
+      "title": "This is a plain-text message.",
+      "content": "This is a plain-text message.",
+      "source_file": "mime-multi-to-cc-bcc.eml",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.241612",
+      "metadata": {
+        "element_type": "text",
+        "company": "mime multi to cc bcc"
+      }
+    }
+  ]
+}

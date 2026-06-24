@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+  "total_entries": 12,
+  "entries": [
+    {
+      "id": "8ab7916f-4b20-45fe-b8d9-ec3c61cabaff",
+      "type": "general",
+      "title": "Cybersecurity: Launching and Implementing the *National Cybersecurity Strategy*",
+      "content": "",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:09.859809",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    },
+    {
+      "id": "5061f20b-a65f-436c-9d46-d998936fc314",
+      "type": "general",
+      "title": "**Threats Highlight the Importance of Establishing Leadership in Cybersecurity**",
+      "content": "Federal agencies and our nation's critical infrastructure such as energy, communications, and financial services depend on technology systems to carry out fundamental operations and to process, maintain, and report vital information. However, malicious actors are becoming more capable of carrying out cyberattacks, threatening the continuity and integrity of these essential systems. We designated information security as a government-wide high-risk area in 1997 and subsequently expanded it to include the protection of cyber critical infrastructure and the privacy of personally identifiable information.\n\nCoordinating the federal government's efforts to address the nation's cybersecurity threats and challenges is urgent and necessary. In September 2020, we reported that the 2018 *National Cyber Strategy* and its 2019 *Implementation Plan* did not address all the desirable characteristics of national strategies (e.g., resources, investments, and risk management).1 It was also unclear which official was responsible for coordinating execution of the *Implementation Plan*. We recommended that the National Security Council update strategy documents to better reflect desirable characteristics of national strategies. We also recommended that Congress consider legislation to designate a leadership position in the White House to support the nation's cyber critical infrastructure, including implementing the *Cyber Strategy*.\n\nThe fiscal year 2021 national defense authorization act established the Office of the National Cyber Director (ONCD) within the Executive Office of the President.2 The Senate confirmed a National Cyber Director in June 2021 to serve as the principal advisor to the President on cybersecurity policy and strategy. However, this official resigned from the position in February 2023. In March 2023, the White House issued the *National Cybersecurity Strategy*, outlining how the administration will manage the nation's cybersecurity through five pillars.3 The pillars",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [
+        "ONCD"
+      ],
+      "created_at": "2026-06-19T14:14:09.859963",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    },
+    {
+      "id": "6e4a74d6-99e4-4f9b-ac41-634a20e80cc5",
+      "type": "general",
+      "title": "**The Administration Needs to Fully Develop and Implement the** *National Cybersecurity Strategy*",
+      "content": "In April 2023, we reported that the goals and strategic objectives included in the strategy provide a good foundation for establishing a more comprehensive\n\nIn March 2023, the White House issued the *National Cybersecurity Strategy* to coordinate efforts to secure the nation against cyber risks and threats. This product summarizes the federal government's efforts to implement the strategy.\n\nFigure 1. Five Pillars of the *National Cybersecurity Strategy*\n\n![](_page_0_Picture_11.jpeg)",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:09.860017",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    },
+    {
+      "id": "87e5c049-4c19-4708-bd21-3e9069d9823d",
+      "type": "sop_step",
+      "title": "**1 Defend critical infrastructure**",
+      "content": "- 1.1: Establish cybersecurity requirements to support national security and public safety\n- 1.2: Scale public-private collaboration\n- 1.3: Integrate federal cybersecurity centers\n- 1.4: Update federal incident response plans and processes\n- 1.5: Modernize federal defenses\n\n![](_page_0_Picture_18.jpeg)",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:09.860055",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    },
+    {
+      "id": "44f535aa-aa32-462c-886c-e7e9f52768ab",
+      "type": "sop_step",
+      "title": "**2 Disrupt and dismantle threat actors**",
+      "content": "- 2.1: Integrate federal disruption activities\n- 2.2: Enhance public-private operational collaboration to disrupt adversaries\n- 2.3: Increase the speed and scale of intelligence sharing and victim notification\n- 2.4: Prevent abuse of U.S.-based infrastructure\n- 2.5: Counter cybercrime; defeat ransomware\n\n![](_page_0_Picture_25.jpeg)",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:09.860092",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    },
+    {
+      "id": "52ae776c-045f-4563-9033-5790c97ff250",
+      "type": "sop_step",
+      "title": "**Shape market forces to drive 3 security and resilience**",
+      "content": "- 3.1: Hold the stewards of our data accountable\n- 3.2: Drive the development of secure Internet of Things devices\n- 3.3: Shift liability for insecure software products and services\n- 3.4: Use federal grants and other incentives to build in security\n- 3.5: Leverage federal procurement to improve accountability\n- 3.6: Explore a federal cyber insurance backstop\n\n![](_page_0_Picture_33.jpeg)",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:09.860141",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    },
+    {
+      "id": "f25648e0-f52c-4966-a97a-7437f473bcb4",
+      "type": "sop_step",
+      "title": "**4 Invest in a resilient future**",
+      "content": "- 4.1: Secure the technical foundation of the internet\n- 4.2: Reinvigorate federal research and development for cybersecurity\n- 4.3: Prepare for our post-quantum future\n- 4.4: Secure our clean energy future\n- 4.5: Support development of a digital identity ecosystem\n- 4.6: Develop a national strategy to strengthen our cyber workforce\n\n![](_page_0_Picture_41.jpeg)",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:09.860179",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    },
+    {
+      "id": "f56a8ecf-0656-416e-bd18-4354a5b9ef8e",
+      "type": "sop_step",
+      "title": "**5 Forge international partnerships**",
+      "content": "- 5.1: Build coalitions to counter threats to our digital ecosystem\n- 5.2: Strengthen international partner capacity\n- 5.3: Expand U.S. ability to assist allies and partners\n- 5.4: Build coalitions to reinforce global norms of responsible state behavior\n- 5.5: Secure global supply chains for information, communications, and operational technology products and services\n\nSources: GAO analysis of the *National Cybersecurity Strategy*; marinashevchenko/stock.adobe.com (icons). | GAO-23-106826\n\nGAO, *Cybersecurity: Clarity of Leadership Urgently Needed to Fully Implement the National Strategy*, [GAO-20-629](https://www.gao.gov/products/GAO-20-629) (Washington, D.C.: Sept. 22, 2020). 2 William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Pub. L. No. 116-283, § 1752(a), 134 Stat. 3388, 4144 (2021).\n\n<sup>3</sup> The White House, *National Cybersecurity Strategy*. (Washington, D.C.: Mar. 1, 2023).",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [
+        "GAO"
+      ],
+      "created_at": "2026-06-19T14:14:09.860265",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    },
+    {
+      "id": "d6306643-4654-4dc1-88c9-7ab9043e875d",
+      "type": "table_data",
+      "title": "U.S. Government Accountability Office",
+      "content": "strategy. However, not all of the desirable characteristics of national strategies were addressed.4\n\nFigure 2: Extent to Which the *National Cybersecurity Strategy* Addresses the Desirable Characteristics of a National Strategy\n\n*Fully addressed Fully addressed Fully addressed*\n\n![](_page_1_Picture_4.jpeg)\n\n**Problem definition and risk assessment** \n\n![](_page_1_Picture_7.jpeg)\n\n**Integration and implementation** \n\n![](_page_1_Picture_10.jpeg)\n\n**Goals, subordinate objectives, activities, and performance measures** \n\n![](_page_1_Picture_13.jpeg)\n\n**Resources, investments, and risk management** \n\n*Partially addressed Partially addressed Partially addressed*\n\n![](_page_1_Picture_16.jpeg)\n\n**Organizational roles, responsibilities, and coordination** \n\nSource: GAO (analysis and icons). | GAO-23-106826\n\n- **Goals, subordinate objectives, activities, and performance measures.** The strategy identifies strategic objectives and articulates priorities, such as establishing cybersecurity requirements for critical sectors. However, it does not include specific milestones or performance measures.\n- **Resources, investments, and risk management.** The strategy identifies investments for four of the five pillars. However, it does not address cost and does not identify where resources and investments should be targeted.\n- **Organizational roles, responsibilities, and coordination.** While the strategy identifies federal roles and responsibilities for many implementation activities, in other instances, defining the federal role is an ongoing activity. For example, in response to our recommendations, agencies are currently assessing the extent to which a federal role and insurance response is necessary in the event of a catastrophic cyber event.\n\nAccording to the strategy, ONCD will work with federal\n\nagencies to develop a plan specifying the lines of effort to implement the strategy and identify budget priorities, among other things. ONCD intends to issue the implementation plan s",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [
+        "ONCD",
+        "GAO"
+      ],
+      "created_at": "2026-06-19T14:14:09.860407",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    },
+    {
+      "id": "417fa6d5-c641-4bfd-83e5-665ef4569455",
+      "type": "general",
+      "title": "**Opportunities**",
+      "content": "A strategy and a future implementation plan can help the federal government address the four major cybersecurity challenges we previously identified:\n\n- **Establish and implement a comprehensive cybersecurity strategy and perform effective oversight.** The strategy articulates goals and strategic objectives for a more coordinated approach to address the nation's cybersecurity challenges.\n- **Secure federal systems and information.** The strategy identifies steps and priorities to mitigate cybersecurity risks in federal systems.\n- **Protect cyber critical infrastructure.** The strategy identifies investment priorities to defend critical infrastructure against cyber threats.\n- **Protect privacy and sensitive data.** The strategy identifies the need for increased investments in privacypreserving technology.",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:14:09.860479",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    },
+    {
+      "id": "3d247e61-4fe2-48d7-aea0-348923c535f8",
+      "type": "general",
+      "title": "**Challenges**",
+      "content": "- **Timely issuance of the implementation plan.** As previously mentioned, ONCD plans to specify details on the implementation of key activities (e.g., performance measures, needed resources, and roles and responsibilities). It is critical that these details be issued expeditiously so agencies can begin planning and allocating resources to properly execute the strategy.\n- **Vacant National Cyber Director position.** The National Cyber Director resigned in February 2023 and a replacement has not yet been named. As of June 2023, an acting official continues to carry out the duties. This vacancy leaves unfilled a key leadership role needed to coordinate the federal efforts to address cybersecurity threats and challenges. Further, sustained leadership in this position is essential to ensuring strategy execution and accountability.\n\n4GAO, *High-Risk Series: Efforts Made to Achieve Progress Need to Be Maintained and Expanded to Fully Address All Areas*, [GAO-23-106203](https://www.gao.gov/products/GAO-23-106203) (Washington, D.C.: Apr. 20, 2023).",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [
+        "ONCD",
+        "GAO"
+      ],
+      "created_at": "2026-06-19T14:14:09.860555",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    },
+    {
+      "id": "80944ea6-a5c5-43f7-a3cb-934d96327eef",
+      "type": "general",
+      "title": "**About GAO**",
+      "content": "The Government Accountability Office, the audit, evaluation, and investigative arm of Congress, supports the Congress in meeting its constitutional responsibilities and helps improve the performance and accountability of the federal government for the American people. This work of the United States may include copyrighted material, details at [https://www.gao.gov/copyright.](https://www.gao.gov/copyright)\n\n**Connect with GAO:** <https://www.gao.gov/about/contact-us/stay-connected>.\n\n[A. Nicole Clowers,](mailto:ClowersA@gao.gov) Managing Director, Congressional Relations, (202) 512-4400 [Chuck Young](mailto:YoungC1@gao.gov), Managing Director, Public Affairs, (202) 512-4800\n\nU.S. Government Accountability Office, 441 G Street NW, Washington, DC 20548\n\nWe conducted our work from May 2023 to June 2023 in accordance with all sections of GAO's Quality Assurance Framework that are relevant to our objectives. The framework requires that we plan and perform the engagement to obtain sufficient and appropriate evidence to meet our stated objectives and to discuss any limitations in our work. We believe that the information and data obtained, and the analysis conducted, provide a reasonable basis for any findings and conclusions.\n\n**For more information about this product, contact:** [Marisol Cruz Cain,](mailto:CruzCainM%40gao.gov?subject=) Director, Information Technology and Cybersecurity, (202) 512-5017\n\n**Staff acknowledgments:** Lee McCracken (Assistant Director), Keith Kim (Analyst-incharge), Destin Hinkel, Ashley Mattson, Lauri Barnes, and Chris Businsky.\n\n**Cover photo source:** KanawatTH/stock.adobe.com",
+      "source_file": "invalid-pdf-structure-pdfminer-one-page.pdf",
+      "source_page": 1,
+      "keywords": [
+        "DC",
+        "NW",
+        "GAO"
+      ],
+      "created_at": "2026-06-19T14:14:09.860664",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading",
+        "company": "GAO",
+        "topic": "Government"
+      }
+    }
+  ]
+}

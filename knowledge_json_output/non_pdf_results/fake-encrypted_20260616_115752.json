@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-encrypted.eml",
+  "total_entries": 5,
+  "entries": [
+    {
+      "id": "85572d25-b844-459c-8195-f919b40f5922",
+      "type": "general",
+      "title": "From: Michael Elkins <elkins@aero.org>\nTo: Michael...",
+      "content": "From: Michael Elkins <elkins@aero.org>\nTo: Michael Elkins <elkins@aero.org>\nMime-Version: 1.0\nContent-Type: multipart/encrypted; boundary=foo;\n\tprotocol=\"application/pgp-encrypted\"",
+      "source_file": "fake-encrypted.eml",
+      "source_page": 0,
+      "keywords": [
+        "Michael",
+        "Mime",
+        "Content"
+      ],
+      "created_at": "2026-06-16T11:57:52.847052",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "df7db334-8e38-4fe2-9cb8-e195e01622e6",
+      "type": "general",
+      "title": "--foo\nContent-Type: application/pgp-encrypted",
+      "content": "--foo\nContent-Type: application/pgp-encrypted",
+      "source_file": "fake-encrypted.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content"
+      ],
+      "created_at": "2026-06-16T11:57:52.847105",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "ff0c0170-983a-458e-aea5-3df6eb3e8091",
+      "type": "general",
+      "title": "--foo\nContent-Type: application/octet-stream",
+      "content": "--foo\nContent-Type: application/octet-stream",
+      "source_file": "fake-encrypted.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content"
+      ],
+      "created_at": "2026-06-16T11:57:52.847126",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "ceb71995-c034-4ca3-b49b-3ee315913d54",
+      "type": "general",
+      "title": "-----BEGIN PGP MESSAGE-----\nVersion: 2.6.2",
+      "content": "-----BEGIN PGP MESSAGE-----\nVersion: 2.6.2",
+      "source_file": "fake-encrypted.eml",
+      "source_page": 0,
+      "keywords": [
+        "PGP",
+        "BEGIN",
+        "MESSAGE",
+        "Version"
+      ],
+      "created_at": "2026-06-16T11:57:52.847149",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    },
+    {
+      "id": "3c9f0b57-0602-4ae2-851f-c86e7f81467d",
+      "type": "general",
+      "title": "hIwDY32hYGCE8MkBA/wOu7d45aUxF4Q0RKJprD3v5Z9K1YcRJ2...",
+      "content": "hIwDY32hYGCE8MkBA/wOu7d45aUxF4Q0RKJprD3v5Z9K1YcRJ2fve87lMlDlx4Oj\neW4GDdBfLbJE7VUpp13N19GL8e/AqbyyjHH4aS0YoTk10QQ9nnRvjY8nZL3MPXSZ\ng9VGQxFeGqzykzmykU6A26MSMexR4ApeeON6xzZWfo+0yOqAq6lb46wsvldZ96YA\nAABH78hyX7YX4uT1tNCWEIIBoqqvCeIMpp7UQ2IzBrXg6GtukS8NxbukLeamqVW3\n1yt21DYOjuLzcMNe/JNsD9vDVCvOOG3OCi8=\n=zzaA\n-----END PGP MESSAGE-----",
+      "source_file": "fake-encrypted.eml",
+      "source_page": 0,
+      "keywords": [
+        "END",
+        "PGP",
+        "MESSAGE",
+        "AABH"
+      ],
+      "created_at": "2026-06-16T11:57:52.847202",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Email"
+      }
+    }
+  ]
+}

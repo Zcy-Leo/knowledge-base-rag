@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-no-to.eml",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "76749b18-0ddd-4a08-803c-e1fbe98e2750",
+      "type": "general",
+      "title": "From: sender@example.com\nCc: Tom <tom@example.com>...",
+      "content": "From: sender@example.com\nCc: Tom <tom@example.com>, Alice <alice@example.com>\nBcc: John <john@example.com>, Mary <mary@example.com>\nSubject: Example Plain-Text MIME Message\nMIME-Version: 1.0\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "mime-no-to.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "MIME",
+        "Tom",
+        "Bcc",
+        "John",
+        "Subject",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.649484",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "mime-no-to.eml"
+      }
+    },
+    {
+      "id": "fa826558-2b97-4d22-9acf-23ce4dd5b62a",
+      "type": "general",
+      "title": "This is a plain-text message.",
+      "content": "This is a plain-text message.",
+      "source_file": "mime-no-to.eml",
+      "source_page": 0,
+      "keywords": [
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.649513",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "mime-no-to.eml"
+      }
+    }
+  ]
+}

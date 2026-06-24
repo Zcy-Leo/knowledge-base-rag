@@ -1,0 +1,302 @@
+{
+  "schema_version": "1.0",
+  "source_file": "a1977-backus-p21 (4).pdf",
+  "total_entries": 15,
+  "entries": [
+    {
+      "id": "34730ca9-05a3-48d3-a545-7bf5b50ca1e0",
+      "type": "general",
+      "title": "position is that it permits the definition of new functional forms, in effect, m...",
+      "content": "position is that it permits the definition of new functional forms, in effect, merely by defining new functions. It also permits one to write recursive functions without a definition.",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T11:06:22.341031",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "161579c0-9aef-40a5-9391-b9d2f677b0bd",
+      "type": "general",
+      "title": "We give one more example of a controlling function for a functional form: **Def*...",
+      "content": "We give one more example of a controlling function for a functional form: **Def** *pCONS -=* otapplyotlodistr. This definition results in *<CONS,fi .....* fn>--where the f~ are objects--representing the same function as *[pfl ..... pfn].* The following shows this.",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "CONS"
+      ],
+      "created_at": "2026-06-19T11:06:22.341115",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "75891c34-17e8-4720-b938-94148bcd7f9f",
+      "type": "general",
+      "title": "$$(\\rho < CONS, f_1, ..., f_n >):x$$",
+      "content": "$$(\\rho < CONS, f_1, ..., f_n >):x$$\n  \n=  $(\\rho CONS): << CONS, f_1, ..., f_n >, x >$   \nby metacomposition\n\n*= aapplyotlodistr:<<CONS,fi .....* fn>,X>\n\nby def of *pCONS*\n\n= \n$$\\alpha$$\napply: $\\langle f_1, x \\rangle$ , ...,  $\\langle f_n, x \\rangle \\rangle$\n\nby def of tl and distr and o\n\n$$= < apply: < f_1, x>, ..., apply: < f_n, x>>$$\n\nby def of a\n\n$$= \\langle (f_1:x), \\dots, (f_n:x) \\rangle$$\n by def of apply.",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "CONS"
+      ],
+      "created_at": "2026-06-19T11:06:22.341205",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "3199b3a9-3b6c-4dd7-93d2-14b4f3d74b35",
+      "type": "general",
+      "title": "In evaluating the last expression, the meaning function will produce the meaning...",
+      "content": "In evaluating the last expression, the meaning function will produce the meaning of each application, giving *pJ~:x* as the ith element.",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T11:06:22.341251",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "1f063496-ca0e-482a-8ac2-adbde44dfd3c",
+      "type": "general",
+      "title": "Usually, in describing the function represented by a sequence, we shall give its...",
+      "content": "Usually, in describing the function represented by a sequence, we shall give its overall effect rather than show how its controlling operator achieves that effect. Thus we would simply write\n\n$$(\\rho < CONS, f_1, ..., f_n >): x = <(f_1:x), ..., (f_n:x) >$$\n\ninstead of the more detailed account above.",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "CONS"
+      ],
+      "created_at": "2026-06-19T11:06:22.341314",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "e5be1962-bf38-4d96-9a0e-b07e9058aafd",
+      "type": "general",
+      "title": "We need a controlling operator, *COMP,* to give us sequences representing the fu...",
+      "content": "We need a controlling operator, *COMP,* to give us sequences representing the functional form composition. We take *pCOMP* to be a primitive function such that, for all objects x,\n\n$$(\\rho < COMP, f_1, ..., f_n >):x$$\n  \n=  $(f_1:(f_2:(...:(f_n:x)...)))$  for  $n \\ge 1$ .",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "COMP"
+      ],
+      "created_at": "2026-06-19T11:06:22.341372",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "aa587372-8248-46a8-87ab-cedbed76ad86",
+      "type": "general",
+      "title": "(I am indebted to Paul Me Jones for his observation that ordinary composition co...",
+      "content": "(I am indebted to Paul Me Jones for his observation that ordinary composition could be achieved by this primitive function rather than by using two composition rules in the basic semantics, as was done in an earlier paper [2].)",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T11:06:22.341422",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "0aa6366f-93ef-4994-b7d7-54b42500c4ab",
+      "type": "general",
+      "title": "Although FFP systems permit the definition and investigation of new functional f...",
+      "content": "Although FFP systems permit the definition and investigation of new functional forms, it is to be expected that most programming would use a fixed set of forms (whose controlling operators are primitives), as in FP, so *that* the algebraic laws for those forms could be employed, and so *that* a structured programming style could be used based on those forms.",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "FP",
+        "FFP"
+      ],
+      "created_at": "2026-06-19T11:06:22.341481",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "3287768f-d168-4bda-b0c9-7156bbb9e025",
+      "type": "general",
+      "title": "In addition to its use in defining functional forms, metacomposition can be used...",
+      "content": "In addition to its use in defining functional forms, metacomposition can be used to create recursive functions directly without the use of recursive definitions of the form Deff ~ E(f). For example, if *pMLAST*  nullotlo2 ~ lo2; applyo[1, tlo2], then *p<MLAST> -=*  last, where last:x m x = <xl ..... Xn> ~ X~; &. Thus the operator *<MLAST>* works as follows:\n\n$$\\mu(\\langle MLAST\\rangle:\\langle A,B\\rangle)$$\n\n$$= \\mu(\\rho MLAST: << MLAST>, >)$$\n\nby metacomposition",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "MLAST"
+      ],
+      "created_at": "2026-06-19T11:06:22.341552",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "f28ded55-c58f-4ef7-8bb2-7e6587c7b5c2",
+      "type": "general",
+      "title": "- = #(applyo[1, *tlo2]:<<MLAST>,<A,B>>)*",
+      "content": "- = μ(applyo[1, *tlo2]:<<MLAST>,<A,B>>)*\n- *= ~t(apply:<<MLAST>,<B>>)*\n- *= μ(<MLAST>:<B>)*\n- *= ix(pMLAST:<<MLAST>,<B>>)*\n- *= μ(lo2:<<MLAST>,<B>>)*\n- *=B.*",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "MLAST"
+      ],
+      "created_at": "2026-06-19T11:06:22.341608",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "490e6061-641f-4818-bcfb-99ad909bc20e",
+      "type": "general",
+      "title": "13.3.3 **Summary of the properties of p** and #. So far we have shown how p maps...",
+      "content": "13.3.3 **Summary of the properties of p** and #. So far we have shown how p maps atoms and sequences into functions and how those functions map objects into expressions. Actually, p and all FFP functions can be extended so that they are defmed for all expressions. With such extensions the properties of p and/~ can be summarized as follows:",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "FFP"
+      ],
+      "created_at": "2026-06-19T11:06:22.341670",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "6b47e649-c201-44d8-8eb2-cab35db6add3",
+      "type": "general",
+      "title": "- 1) # E [expressions -\\* objects].",
+      "content": "- 1) # E [expressions -\\* objects].\n- 2) If x is an object, μx = x.\n- **3) If e** is an expression and **e =** <el ..... en>, then **μe = <#el, ..., #en>.**\n- 4) p E [expressions ~ [expressions ~ expressions]].\n- 5) For any expression e, *pe = p~e).*\n- 6) If x is an object and e an expression, then *ox:e = px:(ge).*\n- 7) If x and y are objects, then μ(x:y) = *μ(Ox:y).* In words: the meaning of an FFP application (x:y) is found by applying *px,* the function represented by x, to y and then finding the meaning of the resulting expression (which is *usually* an object and is then its own meaning).\n- 13.3.4 Cells, **fetching, and** storing. For a number of reasons it is convenient to create functions which serve as names. In particular, we shall need this facility in describing the semantics of det'mitions in FFP systems. To introduce naming functions, that is, the ability to *fetch* the contents of a cell with a given name from a store (a sequence of cells) and to *store* a cell with given name and contents in such a sequence, we introduce objects called *cells* and two new functional forms, *fetch*  and *store.*\n\n## Cells",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "FFP"
+      ],
+      "created_at": "2026-06-19T11:06:22.341835",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "9ad0aff7-c7bd-4ff4-a8f9-d486cce9a3d1",
+      "type": "general",
+      "title": "*A cell* is a triple *<CELL, name, contents>.* We use this form instead of the p...",
+      "content": "*A cell* is a triple *<CELL, name, contents>.* We use this form instead of the pair *<name, contents>* so that cells can be distinguished from ordinary pairs.\n\n## **Fetch**",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "CELL"
+      ],
+      "created_at": "2026-06-19T11:06:22.341899",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "f0546962-f994-4a6c-94cb-c119c128f892",
+      "type": "general",
+      "title": "The functional form *fetch* takes an object n as its parameter (n is customarily...",
+      "content": "The functional form *fetch* takes an object n as its parameter (n is customarily an atom serving as a name); it is written l'n (read \"fetch *n\").* Its definition for objects n and x is\n\n$$\\uparrow n: x \\equiv x = \\phi \\rightarrow \\#; \\text{ atom}: x \\rightarrow \\bot;$$\n\n$$(1:x) = \\langle CELL, n, c \\rangle \\rightarrow c; \\uparrow n \\circ t \\mid x,$$",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "CELL"
+      ],
+      "created_at": "2026-06-19T11:06:22.341964",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "717f475e-f79b-44d8-995a-83dcad845bf9",
+      "type": "general",
+      "title": "where # is the atom \"default.\" Thus l'n (fetch n) applied to a sequence gives th...",
+      "content": "where # is the atom \"default.\" Thus l'n (fetch n) applied to a sequence gives the contents of the first cell in the sequence whose name is n; If there is no cell named n, the result is default, #. Thus l'n is the name function for the name n. (We assume that *pFETCH* is the primitive function such that *p<FETCH, n> ~ l\"n.* Note that ~n simply passes over elements in its operand that are not cells.)",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": [
+        "FETCH"
+      ],
+      "created_at": "2026-06-19T11:06:22.342030",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": true,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "TechDocs"
+      }
+    }
+  ]
+}

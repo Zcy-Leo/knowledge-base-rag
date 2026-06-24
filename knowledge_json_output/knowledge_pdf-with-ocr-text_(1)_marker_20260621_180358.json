@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "source_file": "pdf-with-ocr-text (1).pdf",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "f2b2915c-ac1f-4a84-9a4a-bb15b237b6cf",
+      "type": "general",
+      "title": "## SUGAR RESEARCH FOUNDATION. INC.",
+      "content": "## SUGAR RESEARCH FOUNDATION. INC.\n\n![](_page_0_Picture_1.jpeg)\n\nTO: MESSRS. ASEOTT, BOSTOCK, BUNKER, GREENE, KELLY, NADLER, and PLACE\n\nFROM: ODY H. LAMBORN",
+      "source_file": "pdf-with-ocr-text (1).pdf",
+      "source_page": 1,
+      "keywords": [
+        "MESSRS",
+        "NADLER",
+        "SUGAR",
+        "FROM"
+      ],
+      "created_at": "2026-06-19T14:58:16.383119",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "205b9ea7-5499-4a69-bc32-25842a549860",
+      "type": "general",
+      "title": "Desiring to keep you posted on the progress of the Foundation you will be intere...",
+      "content": "Desiring to keep you posted on the progress of the Foundation you will be interested to know that to date the Foundation has received the following:",
+      "source_file": "pdf-with-ocr-text (1).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:58:16.383169",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    },
+    {
+      "id": "351b6804-067a-4618-b7fb-68d9836f48fa",
+      "type": "general",
+      "title": "- (a) A letter from The Amalgamated Sugar Company accepting membership and enclo...",
+      "content": "- (a) A letter from The Amalgamated Sugar Company accepting membership and enclosing their check, and executed contracts.\n- (b) A letter from California and Hawaiian Sugar Refining Corporation, Ltd. accepting membership and enclosing their check and executed contracts.\n- (c) A letter from Central Aguirre Associates accepting membership and enclosing their check and executed contracts.\n- (d) A letter from Liquid Sugars, Inc. accepting membership and enclosing their check and executed contracts.\n- (e) A letter from The National Sugar Refining Company accepting membership and enclosing their executed contracts.\n- (f) A letter from the Savannah Euger Refining Corporation accepting membership and enclosing their executed contracts.",
+      "source_file": "pdf-with-ocr-text (1).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:58:16.383235",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "NA",
+        "topic": "TechDocs"
+      }
+    }
+  ]
+}

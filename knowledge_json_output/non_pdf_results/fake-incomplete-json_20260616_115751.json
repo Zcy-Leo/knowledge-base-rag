@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-incomplete-json.txt",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "204282ff-23d4-4029-8cec-04249257e5d6",
+      "type": "general",
+      "title": "{\n  \"name\": \"John Doe\",\n  \"age\": 30,\n  \"email\": \"j...",
+      "content": "{\n  \"name\": \"John Doe\",\n  \"age\": 30,\n  \"email\": \"johndoe@example.com\",\n  \"is_student\": true,\n  \"address\": {\n    \"city\": \"New York\",\n    \"zipcode\": \"10001\"\n  },\n  \"hobbies\": [\"reading\", \"running\", \"cooking\"]",
+      "source_file": "fake-incomplete-json.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.798079",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Data"
+      }
+    }
+  ]
+}

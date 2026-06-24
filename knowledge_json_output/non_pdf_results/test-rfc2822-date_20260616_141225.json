@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "source_file": "test-rfc2822-date.eml",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "59cf964a-e4e5-4592-ad59-900afe985e07",
+      "type": "general",
+      "title": "Date: Tue, 29 Jul 2025 12:42:06 +0000\nFrom: sender...",
+      "content": "Date: Tue, 29 Jul 2025 12:42:06 +0000\nFrom: sender@example.com\nTo: recipient@example.com\nSubject: Test a standard RFC-2822 date",
+      "source_file": "test-rfc2822-date.eml",
+      "source_page": 0,
+      "keywords": [
+        "RFC",
+        "Date",
+        "Tue",
+        "Subject",
+        "Test"
+      ],
+      "created_at": "2026-06-16T14:12:25.657301",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "test-rfc2822-date.eml"
+      }
+    },
+    {
+      "id": "d9225f3e-cb4a-4497-9bdf-4417fe603be8",
+      "type": "general",
+      "title": "This is a test-email.",
+      "content": "This is a test-email.",
+      "source_file": "test-rfc2822-date.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.657326",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "test-rfc2822-date.eml"
+      }
+    }
+  ]
+}

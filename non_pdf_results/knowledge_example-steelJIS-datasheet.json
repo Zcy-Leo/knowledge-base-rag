@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "source_file": "example-steelJIS-datasheet.html",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "4fa3291d-d5c5-4608-ab7c-0e24be3d9952",
+      "type": "general",
+      "title": "SNB22-3 - SteelJIS - Datasheet, Chemical compositi...",
+      "content": "SNB22-3 - SteelJIS - Datasheet, Chemical composition, Standards and Properties SteelJIS: Japanese Steels and Alloys Home Japanese steel grading Steel standards JIS G Search About us 日本語 NEW! Korean steels Japanese steel grading -> SNB Grades -> SNB22-3 SNB22-3 Chemical composition, standards and properties Grade : SNB22-3 Classification: Structural steel Chromium molybdenum steel Standards: JIS G 4108 : Alloy steel bars for special application bolting materials Applications: Rolled or forget alloy steel bars to be used for the manufacture of the bolts, stud bolts, washers, nuts and other for nuclear reactors and other special uses. Chemical composition 成分 % of grade SNB22-3 C Si Mn P S Cr Mo0.39 - 0.460.2 - 0.350.65 - 1.1max 0.025max 0.0250.75 - 1.20.15 - 0.25 Mechanical properties of grade SNB22-3 Assortment Yield point or Proof stress Tensile strength Elongation Reduction of area Charpy impact strength - N/mm 2 N/mm 2 % % J/cm 2 Bars 890 1000 12 40 Hardness of grade SNB22-3 -BrinellHBW / HBRockwell CHRCRockwell B HRBS / HRBVickersHV SNB22-3 293-375 Compare other grades with grade SNB22-3 SNB22-3 standards JIS G 4108 : Alloy steel bars for special application bolting materials / Compare steels Japanese steel grading -> SNB Grades -> SNB22-3 Is this information useful? Please share it. Tweet Share Mechanical properties Mechanische EigenschaftenCaracteristiques mecaniques • Minimum yield strength / Mindestwert der oberen Streckgrenze / Limite dТelasticite minimale • Tensile strength / Zugfestigkeit / Resistance a la traction • Minimum elongation / Mindestwert der Bruchdehnung / Allongement minimal SNB22-3 datasheet, SNB22-3 mechanical properties, SNB22-3 technical specifications. Chemical composition of Japanese steel SNB22-3. Standards of SNB22-3. Tensile Strength of SNB22-3. Elongation of SNB22-3. Density of SNB22-3. Brinell, Rockwell, Vickers hardness of SNB22-3 SteelJIS: Japanese Steels and Alloys free searchable database © 2018-2022 All rights reserved. The contents from this site may not be reproduced. The entire risk as to use of these content is assumed by you the user",
+      "source_file": "example-steelJIS-datasheet.html",
+      "source_page": 0,
+      "keywords": [
+        "HRBS",
+        "NEW",
+        "JIS",
+        "SNB",
+        "Japanese",
+        "Structural"
+      ],
+      "created_at": "2026-06-22T11:56:22.666747",
+      "metadata": {
+        "element_type": "html",
+        "parser": "html"
+      }
+    }
+  ]
+}

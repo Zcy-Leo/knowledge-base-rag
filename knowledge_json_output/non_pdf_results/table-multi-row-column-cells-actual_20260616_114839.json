@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "source_file": "table-multi-row-column-cells-actual.csv",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "95c43504-7149-46b3-bf9a-5186a9627c0d",
+      "type": "general",
+      "title": "Disability Category | Participants | Ballots Compl...",
+      "content": "Disability Category | Participants | Ballots Completed | Ballots Incomplete/Terminated | Results | \n |  |  |  | Accuracy | Time to complete\nBlind | 5 | 1 | 4 | 34.5%, n=1 | 1199 sec, n=1\nLow Vision | 5 | 2 | 3 | 98.3% n=2 (97.7%, n=3) | 1716 sec, n=3 (1934 sec, n=2)\nDexterity | 5 | 4 | 1 | 98.3%, n=4 | 1672.1 sec, n=4\nMobility | 3 | 3 | 0 | 95.4%, n=3 | 1416 sec, n=3",
+      "source_file": "table-multi-row-column-cells-actual.csv",
+      "source_page": 0,
+      "keywords": [
+        "Disability",
+        "Blind",
+        "Low",
+        "Dexterity"
+      ],
+      "created_at": "2026-06-16T11:48:39.060694",
+      "metadata": {
+        "element_type": "text",
+        "company": "table multi row column cells a"
+      }
+    }
+  ]
+}

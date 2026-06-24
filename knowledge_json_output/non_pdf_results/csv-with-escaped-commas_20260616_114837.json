@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "source_file": "csv-with-escaped-commas.csv",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "906b7623-035c-4a24-93da-76d5f478a563",
+      "type": "general",
+      "title": "A | A | A | A | A\nA | A | A | A,A | A\nA | A | A | ...",
+      "content": "A | A | A | A | A\nA | A | A | A,A | A\nA | A | A | A,A | A",
+      "source_file": "csv-with-escaped-commas.csv",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:37.849601",
+      "metadata": {
+        "element_type": "text",
+        "company": "csv with escaped commas"
+      }
+    }
+  ]
+}

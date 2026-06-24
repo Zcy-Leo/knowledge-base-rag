@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-html-lang-de.html",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "b912c561-d345-4e24-a927-b4a76ec6ac62",
+      "type": "general",
+      "title": "<h3 class=\"l_titel\">Jahresabschluss zum Geschäftsj...",
+      "content": "<h3 class=\"l_titel\">Jahresabschluss zum Geschäftsjahr vom 01.01.2020 bis zum 31.12.2020</h3>",
+      "source_file": "fake-html-lang-de.html",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:57:51.786003",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo",
+        "topic": "Demo"
+      }
+    }
+  ]
+}

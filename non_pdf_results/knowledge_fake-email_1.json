@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email_1.txt",
+  "total_entries": 8,
+  "entries": [
+    {
+      "id": "b3a925fb-ec1f-40a0-8814-3cdb367fb954",
+      "type": "general",
+      "title": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 ...",
+      "content": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 -0500\nMessage-ID: <CADc-_xaLB2FeVQ7mNsoX+NJb_7hAJhBKa_zet-rtgPGenj0uVw@mail.gmail.com>\nSubject: Test Email\nFrom: Matthew Robinson <mrobinson@unstructured.io>\nTo: Matthew Robinson <mrobinson@unstructured.io>\nContent-Type: multipart/alternative; boundary=\"00000000000095c9b205eff92630\"",
+      "source_file": "fake-email_1.txt",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Date",
+        "Fri",
+        "Message"
+      ],
+      "created_at": "2026-06-22T11:57:38.096936",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    },
+    {
+      "id": "bc1a1d76-b074-430e-aacf-03f73fd69f36",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "fake-email_1.txt",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.096971",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    },
+    {
+      "id": "3edd4e76-5a35-4ba4-b6a8-7fb6af2f30b0",
+      "type": "general",
+      "title": "This is a test email to use for unit tests.",
+      "content": "This is a test email to use for unit tests.",
+      "source_file": "fake-email_1.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.096995",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    },
+    {
+      "id": "810ff58a-2566-459c-8eb9-58c21504c087",
+      "type": "general",
+      "title": "Important points:",
+      "content": "Important points:",
+      "source_file": "fake-email_1.txt",
+      "source_page": 0,
+      "keywords": [
+        "Important"
+      ],
+      "created_at": "2026-06-22T11:57:38.097009",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    },
+    {
+      "id": "8b60a19b-9843-43d4-9f23-067e4f7b0650",
+      "type": "general",
+      "title": "- Roses are red\n   - Violets are blue",
+      "content": "- Roses are red\n   - Violets are blue",
+      "source_file": "fake-email_1.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.097046",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    },
+    {
+      "id": "bcb83f8f-9954-41e4-a6db-5363d36057d1",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/html; charset=\"UTF-8\"",
+      "source_file": "fake-email_1.txt",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-22T11:57:38.097136",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    },
+    {
+      "id": "6558cf7f-88f8-418f-909e-f74188755bc4",
+      "type": "general",
+      "title": "<div dir=\"ltr\"><div>This is a test email to use fo...",
+      "content": "<div dir=\"ltr\"><div>This is a test email to use for unit tests.</div><div><br></div><div>Important points:</div><div><ul><li>Roses are red</li><li>Violets are blue</li></ul></div></div>",
+      "source_file": "fake-email_1.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.097218",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    },
+    {
+      "id": "328462df-fcac-4919-9f93-a1cebbf57de8",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630--",
+      "content": "--00000000000095c9b205eff92630--",
+      "source_file": "fake-email_1.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.097238",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    }
+  ]
+}

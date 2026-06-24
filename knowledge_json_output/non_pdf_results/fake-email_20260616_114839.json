@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email.txt",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "55b23589-4fae-4917-ac2a-69beca4ebd02",
+      "type": "general",
+      "title": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 ...",
+      "content": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 -0500\nMessage-ID: <CADc-_xaLB2FeVQ7mNsoX+NJb_7hAJhBKa_zet-rtgPGenj0uVw@mail.gmail.com>\nSubject: Test Email\nFrom: Matthew Robinson <mrobinson@unstructured.io>\nTo: Matthew Robinson <mrobinson@unstructured.io>\nContent-Type: multipart/alternative; boundary=\"00000000000095c9b205eff92630\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Date",
+        "Fri",
+        "Message"
+      ],
+      "created_at": "2026-06-16T11:48:39.211626",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake email"
+      }
+    },
+    {
+      "id": "8b97e244-f9c1-4b5c-ad98-3af55f9ee418",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.211659",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake email"
+      }
+    },
+    {
+      "id": "1a37ed97-8c5b-4963-b44c-5640f7fb3857",
+      "type": "general",
+      "title": "This is a test email to use for unit tests.",
+      "content": "This is a test email to use for unit tests.",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.211684",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake email"
+      }
+    },
+    {
+      "id": "4a30e471-364f-4890-96ba-261ae22dc495",
+      "type": "general",
+      "title": "- Roses are red\n   - Violets are blue",
+      "content": "- Roses are red\n   - Violets are blue",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.211702",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake email"
+      }
+    },
+    {
+      "id": "69633373-d961-4cac-a230-5d493072dfce",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/html; charset=\"UTF-8\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.211726",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake email"
+      }
+    },
+    {
+      "id": "f0330f8e-65e6-4fc6-99b7-5b311e613326",
+      "type": "general",
+      "title": "<div dir=\"ltr\"><div>This is a test email to use fo...",
+      "content": "<div dir=\"ltr\"><div>This is a test email to use for unit tests.</div><div><br></div><div>Important points:</div><div><ul><li>Roses are red</li><li>Violets are blue</li></ul></div></div>",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.211783",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake email"
+      }
+    },
+    {
+      "id": "f3aeb18e-4387-44c3-972a-b12b3cd719be",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630--",
+      "content": "--00000000000095c9b205eff92630--",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.211797",
+      "metadata": {
+        "element_type": "text",
+        "company": "fake email"
+      }
+    }
+  ]
+}

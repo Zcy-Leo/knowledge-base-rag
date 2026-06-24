@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "source_file": "list-item-example.pdf",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "1d4f7b29-0dff-4c18-bb7c-1ea8bd9763eb",
+      "type": "manual_section",
+      "title": "**Module One - Introduction to Product Development and Quality Assurance**",
+      "content": "This module introduces the learner to the importance and principles of product development and quality assurance, explores what kinds of products might be developed and tested, considers potential challenges and provides guidance on ensuring standards and efficiency throughout the development process. It then introduces the four steps of successful development.\n\n- What are product types?\n- What challenges may arise in development?\n- What is product development and quality assurance, and who is involved?\n- The importance and benefits of product development and quality assurance\n- Which products should be developed and tested?\n- Ensuring standards and efficiency in development\n- Timescales and conduct of development",
+      "source_file": "list-item-example.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:22:18.604831",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "ed60b1bc-2cd7-4c4b-8826-6f81b5e9e845",
+      "type": "sop_step",
+      "title": "**Module Two: Initial Planning and Step 1: Concept Development**",
+      "content": "This module considers immediate actions following a product idea, including market research, defining requirements, and initial collaboration with stakeholders. It then looks at who should lead the development and what relevant information might need to be gathered as part of the process.\n\nMarket research and defining requirements Collaboration and initial planning Engaging stakeholders and recording information\n\n- Who should lead the development?\n- Step 1: Concept development\n- What is the product idea, target market, and objective?",
+      "source_file": "list-item-example.pdf",
+      "source_page": 1,
+      "keywords": [
+        "Step 1",
+        "Step 1"
+      ],
+      "created_at": "2026-06-19T14:22:18.604898",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "ed9c4007-7fd6-4eb7-8856-5204a3d9f63a",
+      "type": "sop_step",
+      "title": "**Module Three: Step 2: Design and Prototyping**",
+      "content": "This module looks at the role of the design team in detail and outlines an approach for creating and testing prototypes based on the concept developed in the previous step. It looks at potential root challenges that may arise during the design phase, as well as considering underlying considerations.\n\n- The role of the design team\n- Determining the immediate and underlying challenges of design\n- Underlying considerations: usability and user experience\n- Underlying considerations: materials and manufacturing processes\n- Underlying considerations: compliance and standards\n- Determining root challenges: organizational factors\n- The product development lifecycle\n- Collaboration, responsibilities, and training\n- Design thinking and innovation\n- Management of changes, feedback, and iterations\n- Determining root challenges: market factors\n\n- How will the product meet market needs?\n- Design considerations\n- Case study\n- Prototyping methodologies\n- Intellectual property considerations\n- Concept validation\n- Team collaboration and leadership\n- Budgeting and resource planning\n- Technology and tools selection",
+      "source_file": "list-item-example.pdf",
+      "source_page": 1,
+      "keywords": [
+        "Step 2"
+      ],
+      "created_at": "2026-06-19T14:22:18.604977",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    }
+  ]
+}

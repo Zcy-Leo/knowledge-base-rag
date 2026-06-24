@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email.txt",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "7d068390-5f3c-4a62-86c5-09a0f4e194e1",
+      "type": "general",
+      "title": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 ...",
+      "content": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 -0500\nMessage-ID: <CADc-_xaLB2FeVQ7mNsoX+NJb_7hAJhBKa_zet-rtgPGenj0uVw@mail.gmail.com>\nSubject: Test Email\nFrom: Matthew Robinson <mrobinson@unstructured.io>\nTo: Matthew Robinson <mrobinson@unstructured.io>\nContent-Type: multipart/alternative; boundary=\"00000000000095c9b205eff92630\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Date",
+        "Fri",
+        "Message"
+      ],
+      "created_at": "2026-06-16T11:15:58.695138",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "351620e8-820d-4441-aeb7-34a372a930c3",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:15:58.695195",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "9dc3f4b1-fb95-4bf2-af7e-51d113fc8004",
+      "type": "general",
+      "title": "This is a test email to use for unit tests.",
+      "content": "This is a test email to use for unit tests.",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:15:58.695234",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "d58d44c7-27f1-4ef7-96c8-82692486a42b",
+      "type": "general",
+      "title": "- Roses are red\n   - Violets are blue\n   -",
+      "content": "- Roses are red\n   - Violets are blue\n   -",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:15:58.695411",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "96eee12b-978b-4e85-a953-2fc58cb40bcf",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/html; charset=\"UTF-8\"",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:15:58.695538",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "731e2829-f5c0-4042-b4ff-5c55958a2aa8",
+      "type": "general",
+      "title": "<div dir=\"ltr\"><div>This is a test email to use fo...",
+      "content": "<div dir=\"ltr\"><div>This is a test email to use for unit tests.</div><div><br></div><div>Important points:</div><div><ul><li>Roses are red</li><li>Violets are blue</li></ul></div></div>",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:15:58.695780",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "e2beb92d-99f7-4efa-a350-f8ab602d0129",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630--",
+      "content": "--00000000000095c9b205eff92630--",
+      "source_file": "fake-email.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:15:58.695838",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    }
+  ]
+}

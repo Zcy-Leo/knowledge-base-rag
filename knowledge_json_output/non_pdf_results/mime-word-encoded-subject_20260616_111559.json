@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-word-encoded-subject.eml",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "adc9830e-e0fc-42a1-be17-c2bb83369bf5",
+      "type": "general",
+      "title": "From: sender@example.com\nTo: recipient@example.com...",
+      "content": "From: sender@example.com\nTo: recipient@example.com\nSubject: =?UTF-8?B?U2ltcGxlIGVtYWlsIHdpdGgg4pi44pi/IFVuaWNvZGUgc3ViamVjdA==?=\nMIME-Version: 1.0\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "mime-word-encoded-subject.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "MIME",
+        "Subject",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:15:59.918117",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    },
+    {
+      "id": "d20a6e02-8e2c-4d5c-970f-0463db8d14a4",
+      "type": "general",
+      "title": "This is a simple email message with Unicode charac...",
+      "content": "This is a simple email message with Unicode characters in the subject.",
+      "source_file": "mime-word-encoded-subject.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:15:59.918151",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    }
+  ]
+}

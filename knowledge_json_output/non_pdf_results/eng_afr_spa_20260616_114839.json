@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "source_file": "eng_afr_spa.txt",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "3f0be4e1-6bf3-4c1d-9bcb-fb250e0fbd11",
+      "type": "general",
+      "title": "All human beings are born free and equal in dignit...",
+      "content": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. Spanish: \"Todos los seres humanos nacen libres e iguales en dignidad y derechos y, dotados como están de razón y conciencia, deben comportarse fraternalmente los unos con los otros.\" Africaans: \"Alle menslike wesens word vry, met gelyke waardigheid en regte, gebore. Hulle het rede en gewete en behoort in die gees van broederskap teenoor mekaar op te tree.\" All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
+      "source_file": "eng_afr_spa.txt",
+      "source_page": 0,
+      "keywords": [
+        "All",
+        "They"
+      ],
+      "created_at": "2026-06-16T11:48:39.664327",
+      "metadata": {
+        "element_type": "text",
+        "company": "eng afr spa"
+      }
+    },
+    {
+      "id": "e9d1aefd-06b8-447a-a116-c5fe6d896aed",
+      "type": "general",
+      "title": "All human beings are born free and equal in dignit...",
+      "content": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
+      "source_file": "eng_afr_spa.txt",
+      "source_page": 0,
+      "keywords": [
+        "All",
+        "They"
+      ],
+      "created_at": "2026-06-16T11:48:39.664551",
+      "metadata": {
+        "element_type": "text",
+        "company": "eng afr spa"
+      }
+    },
+    {
+      "id": "2034956b-2060-4230-abda-0b06824da0e9",
+      "type": "general",
+      "title": "All human beings are born free and equal in dignit...",
+      "content": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
+      "source_file": "eng_afr_spa.txt",
+      "source_page": 0,
+      "keywords": [
+        "All",
+        "They"
+      ],
+      "created_at": "2026-06-16T11:48:39.664686",
+      "metadata": {
+        "element_type": "text",
+        "company": "eng afr spa"
+      }
+    }
+  ]
+}

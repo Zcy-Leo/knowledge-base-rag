@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email-attachment.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "affec145-c073-4556-ad59-f97d6469ad42",
+      "type": "general",
+      "title": "MIME-Version: 1.0\r\nDate: Fri, 23 Dec 2022 12:08:48...",
+      "content": "MIME-Version: 1.0\r\nDate: Fri, 23 Dec 2022 12:08:48 -0600\r\nMessage-ID: <CAPgNNXSzLVJ-d1OCX_TjFgJU7ugtQrjFybPtAMmmYZzphxNFYg@mail.gmail.com>\r\nSubject: Fake email with attachment\r\nFrom: Mallori Harrell <mallori@unstructured.io>\r\nTo: Mallori Harrell <mallori@unstructured.io>\r\nContent-Type: multipart/mixed; boundary=\"0000000000005d654405f082adb7\"\r\n\r\n--0000000000005d654405f082adb7\r\nContent-Type: multipart/alternative; boundary=\"0000000000005d654205f082adb5\"\r\n\r\n--0000000000005d654205f082adb5\r\nContent-Type: text/plain; charset=\"UTF-8\"\r\n\r\nHello!\r\n\r\nHere's the attachments!\r\n\r\nIt includes:\r\n\r\n   - Lots of whitespace\r\n   - Little to no content\r\n   - and is a quick read\r\n\r\nBest,\r\n\r\nMallori\r\n\r\n--0000000000005d654205f082adb5\r\nContent-Type: text/html; charset=\"UTF-8\"\r\nContent-Transfer-Encoding: quoted-printable\r\n\r\n<div dir=3D\"ltr\">Hello!=C2=A0<div><br></div><div>Here&#39;s the attachments=\r\n!</div><div><br></div><div>It includes:</div><div><ul><li style=3D\"margin-l=\r\neft:15px\">Lots of whitespace</li><li style=3D\"margin-left:15px\">Little=C2=\r\n=A0to no content</li><li style=3D\"margin-left:15px\">and is a quick read</li=\r\n></ul><div>Best,</div></div><div><br></div><div>Mallori</div><div dir=3D\"lt=\r\nr\" class=3D\"gmail_signature\" data-smartmail=3D\"gmail_signature\"><div dir=3D=\r\n\"ltr\"><div><div><br></div></div></div></div></div>\r\n\r\n--0000000000005d654205f082adb5--\r\n--0000000000005d654405f082adb7\r\nContent-Type: text/plain; charset=\"US-ASCII\"; name=\"fake-attachment.txt\"\r\nContent-Disposition: attachment; filename=\"fake-attachment.txt\"\r\nContent-Transfer-Encoding: base64\r\nX-Attachment-Id: f_lc0tto5j0\r\nContent-ID: <f_lc0tto5j0>\r\n\r\nSGV5IHRoaXMgaXMgYSBmYWtlIGF0dGFjaG1lbnQh\r\n--0000000000005d654405f082adb7--",
+      "source_file": "fake-email-attachment.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "ASCII",
+        "MIME",
+        "Date",
+        "Fri",
+        "Message",
+        "text",
+        "data"
+      ],
+      "created_at": "2026-06-16T14:12:25.598511",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email-attachment.eml"
+      }
+    }
+  ]
+}

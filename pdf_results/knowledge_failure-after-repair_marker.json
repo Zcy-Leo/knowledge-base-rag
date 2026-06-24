@@ -1,0 +1,2953 @@
+{
+  "schema_version": "1.0",
+  "source_file": "failure-after-repair.pdf",
+  "total_entries": 178,
+  "entries": [
+    {
+      "id": "3effe929-de5a-4921-b1be-a09539ab45de",
+      "type": "general",
+      "title": "Understanding Breast Cancer",
+      "content": "A guide for people with cancer, their families and friends\n\n> Cancer information\n\nFor information & support, call",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.788107",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "9c79cc01-b0b1-4294-b3d5-73189947574c",
+      "type": "general",
+      "title": "Understanding Breast Cancer",
+      "content": "A guide for people with cancer, their families and friends\n\nFirst published May 2006. This edition July 2016. © Cancer Council Australia 2016. ISBN 978 1 925136 98 2\n\nUnderstanding Breast Cancer is reviewed approximately every two years. Check the publication date above to ensure this copy is up to date.\n\nEditor: Cath Grove. Designer: Paula Marchant. Printer: SOS Print + Media Group.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 1,
+      "keywords": [
+        "SOS",
+        "ISBN"
+      ],
+      "created_at": "2026-06-19T13:55:11.788182",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "9adec55d-664a-4727-a01c-0b0e38e81adc",
+      "type": "general",
+      "title": "Acknowledgements",
+      "content": "This edition has been developed by Cancer Council NSW on behalf of all other state and territory Cancer Councils as part of a National Publications Working Group initiative.\n\nWe thank the reviewers of this booklet: A/Prof Meagan Brennan, Breast Physician, Westmead Breast Cancer Institute, NSW; Carole Andary, Cancer Council Nurse, Cancer Council SA; Tracey Bretag, Consumer; Terri-lee Cooper, McGrath Breast Care Nurse, Cancer Screening and Control Services, Tasmanian Health Service, TAS; Dr Richard de Boer, Medical Oncologist, Royal Melbourne and Epworth Hospitals, VIC; Miss Jane O'Brien, Specialist Breast and Oncoplastic Surgeon, Epworth Breast Service, VIC; Susan Schwabe, Breast Cancer Care: Clinical Nurse Consultant, W.P. Holman Clinic, Launceston General Hospital, TAS; Dr Anita Taylor, Deputy Director, The Wesley Breast Clinic, QLD.\n\nThe photos were supplied by Dr James French, Westmead Breast Cancer Institute.\n\nThis booklet is funded through the generosity of the people of Australia.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 1,
+      "keywords": [
+        "NSW",
+        "SA",
+        "TAS",
+        "QLD"
+      ],
+      "created_at": "2026-06-19T13:55:11.788274",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "026a482f-8ca9-45a4-abd1-af18135eb0aa",
+      "type": "general",
+      "title": "Note to reader",
+      "content": "Always consult your doctor about matters that affect your health. This booklet is intended as a general introduction to the topic and should not be seen as a substitute for medical, legal or financial advice. You should obtain independent advice relevant to your specific situation from appropriate professionals, and you may wish to discuss issues raised in this book with them.\n\nAll care is taken to ensure that the information in this booklet is accurate at the time of publication. Please note that information on cancer, including the diagnosis, treatment and prevention of cancer, is constantly being updated and revised by medical professionals and the research community. Cancer Council Australia and its members exclude all liability for any injury, loss or damage incurred by use of or reliance on the information provided in this booklet.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.788349",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "5051332a-1fda-4182-8842-8fd36123b08c",
+      "type": "general",
+      "title": "Cancer Council",
+      "content": "Cancer Council is Australia's peak non-government cancer control organisation. Through the eight state and territory Cancer Councils, we provide a broad range of programs and services to help improve the quality of life of people living with cancer, their families and friends. Cancer Councils also invest heavily in research and prevention. To make a donation and help us beat cancer, visit [cancer.org.au](http://cancer.org.au) or call your local Cancer Council.\n\n![](_page_1_Picture_15.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.788399",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "9ba7f795-3470-4af5-aeda-19765340fc51",
+      "type": "general",
+      "title": "Cancer Council Australia",
+      "content": "Level 14, 477 Pitt Street, Sydney NSW 2000 Telephone 02 8063 4100 Facsimile 02 8063 4101 Email [info@cancer.org.au](mailto:info@cancer.org.au) Website [cancer.org.au](http://cancer.org.au) ABN 91 130 793 725",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 1,
+      "keywords": [
+        "NSW",
+        "ABN"
+      ],
+      "created_at": "2026-06-19T13:55:11.788447",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "b6aa42a2-e281-48d4-b4c8-7bd1b62b9e7d",
+      "type": "manual_section",
+      "title": "Introduction",
+      "content": "This booklet has been prepared to help you understand more about early breast cancer.\n\nMany people feel shocked and upset when told they have breast cancer. We hope this booklet will help you, your family and friends understand how breast cancer is diagnosed and treated. We also include information about support services.\n\nWe cannot give advice about the best treatment for you. You need to discuss this with your doctors. However, we hope this information will answer some of your questions and help you think about other questions to ask your treatment team.\n\nThis booklet does not need to be read from cover to cover – just read the parts that are useful to you. Some medical terms that may be unfamiliar are explained in the glossary. You may also like to pass this booklet to your family and friends for their information.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 2,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.788549",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "242551b8-0c00-4b63-a9bd-3bd035cfc5ac",
+      "type": "general",
+      "title": "How this booklet was developed",
+      "content": "This information was developed with help from health professionals and people affected by breast cancer. It is based on international clinical practice guidelines for breast cancer1 , and Cancer Australia publications were used as source material.\n\nIf you or your family have any questions, call Cancer Council 13 11 20. We can send you more information and connect you with support services in your area. Turn to the last page of this book for more details.\n\n![](_page_2_Picture_8.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 2,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.788600",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "d22aa05c-3c70-41c4-9a5f-0f84ebc54f44",
+      "type": "table_data",
+      "title": "**Contents**",
+      "content": "| What is cancer?                        | 4  |\n|----------------------------------------|----|\n| The breasts                            | 6  |\n| Key questions                          | 8  |\n| What is breast cancer?                 | 8  |\n| What are the different types?          | 8  |\n| How common is breast cancer?           | 9  |\n| What are the symptoms?                 | 10 |\n| What are the risk factors?             | 11 |\n| Diagnosis                              | 13 |\n| Mammogram                              |    |\n| Ultrasound                             |    |\n| MRI                                    |    |\n| Biopsy                                 |    |\n| Hormone receptor, HER2 and gene tests  |    |\n| Further tests                          |    |\n| Staging and grading breast cancer      |    |\n| Prognosis                              |    |\n| Which health professionals will I see? |    |\n| which health professionals will I see? |    |\n| Making treatment decisions             | 25 |\n| Talking with doctors                   | 25 |\n| A second opinion                       | 26 |\n| Taking part in a clinical trial        | 26 |\n| Treatment                              | 97 |\n| Surgery                                |    |\n| Ourgory                                |    |\n\n| Chemotherapy                                                                                                                                                                       | 39                         |\n|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|\n| Radiotherapy                                                                                                                                                                       | 42                         |\n| Targeted therapy                                                 ",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 3,
+      "keywords": [
+        "MRI"
+      ],
+      "created_at": "2026-06-19T13:55:11.788954",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "4aea77f3-6a35-4d0e-a7aa-8f8c1db5aee9",
+      "type": "faq",
+      "title": "<span id=\"page-5-0\"></span>What is cancer?",
+      "content": "Cancer is a disease of the cells, which are the body's basic building blocks. The body constantly makes new cells to help us grow, replace worn-out tissue and heal injuries. Normally, cells multiply and die in an orderly way.\n\nSometimes cells don't grow, divide and die in the usual way. This may cause blood or lymph fluid in the body to become abnormal, or form a lump called a tumour. A tumour can be benign or malignant.\n\nBenign tumour – Cells are confined to one area and are not able to spread to other parts of the body. This is not cancer.\n\nMalignant tumour – This is made up of cancerous cells, which have the ability to spread by travelling through the bloodstream or lymphatic system (lymph fluid).",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 8,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.789049",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "864272d1-a06d-44a5-a4c5-54fa535af073",
+      "type": "general",
+      "title": "How cancer starts",
+      "content": "![](_page_5_Picture_6.jpeg)\n\nThe cancer that first develops in a tissue or organ is called the primary cancer. A malignant tumour is usually named after the organ or type of cell affected.\n\nA malignant tumour that has not spread to other parts of the body is called localised cancer. A tumour may invade deeper into surrounding tissue and can grow its own blood vessels in a process called angiogenesis.\n\nIf cancerous cells grow and form another tumour at a new site, it is called a secondary cancer or metastasis. A metastasis keeps the name of the original cancer. For example, breast cancer that has spread to the bones is called metastatic breast cancer, even though the person may be experiencing symptoms caused by problems in the bones.\n\n![](_page_6_Picture_3.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 8,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.789117",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "8548be63-8c91-488f-93ea-5fc9baa57e50",
+      "type": "general",
+      "title": "<span id=\"page-7-0\"></span>The breasts",
+      "content": "Women and men both have breast tissue.\n\nIn women, breasts are made up of milk glands. A milk gland consists of:\n\n- lobules where milk is produced\n- ducts tubes that carry milk to the nipples.\n\nIn men, the development of the lobules is suppressed at puberty by testosterone, the primary male sex hormone.\n\nBoth female and male breasts also contain supportive fibrous and fatty tissue. Some breast tissue extends into the armpit (axilla). This is known as the 'axillary tail' of the breast.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 9,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.789167",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "29387bf8-e859-4e74-90be-910c82dbb875",
+      "type": "general",
+      "title": "Breast cancer and the lymphatic system",
+      "content": "The lymphatic system is a key part of the immune system. It protects the body against disease and infection. It is made up of a network of thin tubes called lymph vessels that are found throughout the body. Lymph vessels connect to groups of small, bean-shaped structures called lymph nodes or glands.\n\nLymph nodes are found throughout the body, including in the armpits, breastbone (sternum), neck, abdomen and groin.\n\nThe lymph nodes in the armpit are often the first place cancer cells spread to outside the breast. During surgery for breast cancer (or, sometimes, in a separate operation), some or all of the lymph nodes will be removed and examined for cancer cells. See pages 32–33 for information about surgery to remove lymph nodes.\n\n![](_page_8_Picture_0.jpeg)\n\n<span id=\"page-9-0\"></span>![](_page_9_Picture_0.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 9,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.789261",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "6c0bfdb5-2e02-4f1c-886c-ae0cb1419222",
+      "type": "faq",
+      "title": "Q: What is breast cancer?",
+      "content": "A: Breast cancer is the abnormal growth of the cells lining the breast lobules or ducts. These cells grow uncontrollably and have the potential to spread to other parts of the body. Both women and men can develop breast cancer, although breast cancer is rare in men.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 9,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.789296",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "ff3e9119-5861-44b7-9fe3-a19deabbb454",
+      "type": "faq",
+      "title": "Q: What are the different types?",
+      "content": "A: There are several types of breast cancer.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 10,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.789315",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "c6deec8d-5cd8-4fda-bee9-4e814018aacc",
+      "type": "general",
+      "title": "Non-invasive breast cancer",
+      "content": "Ductal carcinoma in situ (DCIS) – Abnormal cells are contained within the ducts of the breast. Having DCIS can increase the risk of developing invasive breast cancer.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 10,
+      "keywords": [
+        "DCIS"
+      ],
+      "created_at": "2026-06-19T13:55:11.789350",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "5e4b222c-db30-4047-9654-970f6162c27e",
+      "type": "general",
+      "title": "Invasive breast cancer",
+      "content": "Early breast cancer – The cancer has spread from the breast ducts or lobules into surrounding breast tissue. It may also have spread to lymph nodes in the armpit. Most breast cancers are found when they are invasive. The most common types of early breast cancer are invasive ductal carcinoma (IDC) and invasive lobular carcinoma (ILC). IDC accounts for about 80% of breast cancers, and ILC makes up about 10% of breast cancer cases.\n\nOther types – Other types of invasive breast cancer include locally advanced breast cancer, secondary breast cancer, inflammatory breast cancer and Paget's disease of the nipple.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 10,
+      "keywords": [
+        "ILC",
+        "IDC"
+      ],
+      "created_at": "2026-06-19T13:55:11.789424",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "fb10e3e6-f41a-40e8-baa6-9b5018c8c142",
+      "type": "general",
+      "title": "<span id=\"page-10-0\"></span>Lobular carcinoma in situ",
+      "content": "Some women have abnormal cells that are contained within the lobules of the breast. This is called lobular carcinoma in situ (LCIS). This is not cancer. LCIS is very rare in men.\n\nWhile LCIS increases the risk of developing breast cancer, most women with this condition will not develop breast cancer.\n\nLCIS is usually detected during tests for other breast disorders. If you are diagnosed with LCIS, you will be monitored with regular screening mammograms (see page 13) or other types of breast imaging.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 10,
+      "keywords": [
+        "LCIS"
+      ],
+      "created_at": "2026-06-19T13:55:11.789491",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "e29170d3-fbb3-4a60-8c60-001b52c447cc",
+      "type": "faq",
+      "title": "Q: How common is breast cancer?",
+      "content": "A: Apart from non-melanoma skin cancer, breast cancer is the most common cancer diagnosed in Australian women – it represents 28% of all cancers diagnosed in women.2,3 About 15,000 women are diagnosed with breast cancer each year, and one in eight will be diagnosed by the age of 85.2\n\nAlthough breast cancer can occur at any age, it is more common in women over 40. Almost 70% of breast cancers are diagnosed in women aged 40–69, and 25% are diagnosed in women aged 70 and over.2\n\nAbout 120 men are diagnosed with breast cancer in Australia each year, and most of these men are over 50. Breast cancer in men makes up less than 1% of all breast cancers – only 1 in 838 men will be diagnosed before the age of 85.2",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 11,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.789576",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "20c82a5c-9a2c-46f7-8dd8-a6418eae7a47",
+      "type": "faq",
+      "title": "<span id=\"page-11-0\"></span>Q: What are the symptoms?",
+      "content": "A: Some people have no symptoms and the cancer is found during a screening mammogram (a low-dose x-ray of the breast) or a physical examination by a doctor.\n\nIf you do have symptoms, they could include:\n\n- a lump, lumpiness or thickening, especially if it is in only one breast\n- changes in the size or shape of the breast\n- changes to the nipple, such as a change in shape, crusting, sores or ulcers, redness, a clear or bloody discharge, or a nipple that turns in (inverted) when it used to stick out\n- changes in the skin of the breast, such as dimpling or indentation, a rash, a scaly appearance, unusual redness or other colour changes\n- swelling or discomfort in the armpit\n- persistent, unusual pain that is not related to your normal monthly menstrual cycle, remains after your period and occurs in one breast only.\n\nMost breast changes aren't caused by cancer. However, if you have symptoms, see your doctor without delay.\n\n![](_page_11_Picture_10.jpeg)\n\nThis booklet is about early breast cancer. For information about secondary breast cancer (also called metastatic or advanced breast cancer), visit the Breast Cancer Network Australia website at [bcna.org.au](http://www.bcna.org.au) or Cancer Australia's website at [canceraustralia.gov.au](http://www.canceraustralia.gov.au).",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 11,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.789679",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "92a29277-6dbb-4b88-8ad6-bb845b6e2fa1",
+      "type": "faq",
+      "title": "<span id=\"page-12-0\"></span>Q: What are the risk factors?",
+      "content": "A: In most people, the exact cause of breast cancer is unknown, but some factors can increase the risk. Most people diagnosed with breast cancer have no known risk factors, aside from getting older, which increases the risk in women and men.\n\nHaving risk factors does not necessarily mean that you will develop breast cancer.\n\nIn women, risk factors include:\n\n- having several first-degree relatives, such as a mother, father, sister or daughter, diagnosed with breast cancer and/or a particular type of ovarian cancer. However, most women diagnosed with breast cancer do not have a family history\n- having a family member who has had genetic testing and has been found to carry a mutation in the BRCA1 or BRCA2 genes (see page 12)\n- a previous diagnosis of breast cancer or ductal carcinoma in situ (DCIS)\n- a past history of particular non-cancerous breast conditions, such as lobular carcinoma in situ (LCIS) or atypical ductal hyperplasia (abnormal cells in the lining of the milk ducts)\n- long-term hormone replacement therapy (HRT) use.\n\nIn men, the risk is increased in those who have:\n\n- several first-degree relatives (male or female) who have had breast cancer\n- a relative diagnosed with breast cancer under the age of 40\n- several relatives with ovarian or colon cancer\n\n- a family member who has had genetic testing and has been found to carry a mutation in the BRCA1 or BRCA2 genes\n- a rare genetic syndrome called Klinefelter syndrome. Men with this syndrome have three sex chromosomes (XXY) instead of the usual two (XY).\n\nSome lifestyle factors, such as being overweight, smoking, drinking alcohol and a lack of physical activity, also slightly increase the risk of breast cancer in both women and men.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 12,
+      "keywords": [
+        "XY",
+        "HRT",
+        "XXY",
+        "LCIS"
+      ],
+      "created_at": "2026-06-19T13:55:11.789809",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "267e00db-c552-4cf9-a3fa-3f44fbac5ffc",
+      "type": "general",
+      "title": "Inherited breast cancer gene",
+      "content": "Most people diagnosed with breast cancer do not have a family history of the disease. However, a small number of people have inherited a gene fault that increases their breast cancer risk.\n\nEveryone inherits a set of genes from each parent, so they have two copies of each gene. Sometimes there is a fault in one copy of a gene. This fault is called a mutation.\n\nThe two most common gene mutations that are linked to breast cancer are on the\n\nBRCA1 and BRCA2 genes. Women in families with an inherited BRCA1 or BRCA2 change are at an increased risk of breast and ovarian cancers. Men in these families may be at an increased risk of breast and prostate cancers.\n\nPeople with a strong family history of breast cancer can attend a family cancer clinic for tests to see if they have inherited a gene mutation. For more information about genetic testing, talk to your doctor or breast care nurse, or call Cancer Council 13 11 20.\n\n<span id=\"page-14-0\"></span>![](_page_14_Picture_0.jpeg)\n\nIf you have symptoms of breast cancer, your general practitioner (GP) will take a full medical history, which will include your family history. They will also perform a physical examination, checking your breasts and the lymph nodes under your arms.\n\nYour GP may refer you to a specialist for further tests to find out if your breast change is due to cancer.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 13,
+      "keywords": [
+        "GP"
+      ],
+      "created_at": "2026-06-19T13:55:11.789920",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "a8ccd9b9-a665-468b-8be0-af68a1a1b927",
+      "type": "general",
+      "title": "Mammogram",
+      "content": "A mammogram is a low-dose x-ray of the breast tissue. This x-ray can find changes that are too small to be felt during a physical examination. Both breasts will be checked during a mammogram.\n\nDuring the mammogram, your breast is pressed between two x-ray plates, which spread the breast tissue out so clear pictures can be taken. This can be uncomfortable, but it takes only about 20 seconds.\n\nIf the lump that you or your GP could feel does not show up on a mammogram, other tests will need to be done.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 14,
+      "keywords": [
+        "GP"
+      ],
+      "created_at": "2026-06-19T13:55:11.789973",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "a65ae112-989d-4dd5-b23e-59fd18969360",
+      "type": "general",
+      "title": "Ultrasound",
+      "content": "An ultrasound is a painless scan that uses soundwaves to create a picture of your breast. A gel is spread on your breast, and a small device called a transducer is moved over the area. This sends out soundwaves that echo when they meet something dense, like an organ or a tumour. A computer creates a picture from these echoes. The scan is painless and takes about 15–20 minutes.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 14,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.790028",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "92e7472f-0a8d-4732-99d7-04c52b59841b",
+      "type": "general",
+      "title": "<span id=\"page-15-0\"></span>MRI",
+      "content": "A magnetic resonance imaging (MRI) scan uses a large magnet and radio waves to create pictures of the breast tissue on a computer. Breast MRI is commonly used to screen people who are at high risk of breast cancer, but it can also be used in people with very dense breast tissue.\n\nBefore the scan, you will have an injection of a contrast dye to make any cancerous breast tissue easier to see. You will lie face down on a table with cushioned openings for your breasts with your arms above your head. The table slides into the machine, which is large and shaped like a cylinder. The scan is painless and takes 30–60 minutes.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 15,
+      "keywords": [
+        "MRI"
+      ],
+      "created_at": "2026-06-19T13:55:11.790104",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "12c0edc9-0ddc-44cd-a7e6-596e592503d2",
+      "type": "general",
+      "title": "Biopsy",
+      "content": "During a biopsy, a small sample of cells or tissue is removed from your breast. A pathologist examines the sample and checks it for cancer cells under a microscope.\n\nThe results of the biopsy and further tests (see pages 18–19) will be outlined in a pathology report, which will include the size and location of the tumour, the grade of the cancer, whether there are cancer cells near the edge (margin) of the removed breast tissue, and whether there are cancer cells in your lymph nodes. The report will help your doctor decide what treatment is best for you.\n\nThere are a few ways of taking a biopsy, and you may need more than one. The biopsy may be done in a specialist's rooms, at a radiology practice, in hospital or at a breast clinic.\n\nFine needle aspiration (FNA) – A thin needle is used to take cells from the breast lump or abnormal area. Sometimes an ultrasound is used to help guide the needle. The test can feel similar to having blood taken and may be a bit uncomfortable. A local anaesthetic may be used to numb the area where the needle will be inserted.\n\nCore biopsy – A wider needle is used to remove a piece of tissue (a core) from the lump or abnormal area. It is usually done under local anaesthetic, so your breast is numb, although you may feel some pain or discomfort when the anaesthetic is given. During a core biopsy, a mammogram, ultrasound or MRI is used to guide the needle. You may have some bruising to your breast afterwards.\n\nVacuum-assisted stereotactic core biopsy – In this core biopsy, a number of small tissue samples are removed through one small cut (incision) in the skin using a needle and a suction-type instrument. It is done under a local anaesthetic. A mammogram, ultrasound or MRI may be used to guide the needle into place. You may feel some discomfort during the procedure.\n\nSurgical biopsy – If the abnormal area is too small to be biopsied using other methods or the biopsy result isn't clear, a surgical biopsy is done. Before the biopsy, a guide",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 15,
+      "keywords": [
+        "FNA",
+        "MRI"
+      ],
+      "created_at": "2026-06-19T13:55:11.790348",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "5cdb9d14-5a0c-4107-b66a-c88fc43d01df",
+      "type": "general",
+      "title": "<span id=\"page-17-0\"></span>Hormone receptor, HER2 and gene tests",
+      "content": "The breast tissue that is biopsied will be tested to check whether the tumour is sensitive to hormones (hormone receptor status) or has high levels of growth factors (HER2 status). It may also be tested to provide information about the risk of cancer recurrence and whether chemotherapy will be beneficial for you (genomic assays). The results help your doctors recommend the best treatment for you.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 17,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.790395",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "e6a165c0-684d-46e5-9996-8fabc1d8ec4e",
+      "type": "table_data",
+      "title": "Hormone receptor status",
+      "content": "Hormones are chemicals in the body that transfer information. The hormones oestrogen and progesterone (present in both men and women) cause some types of breast cancer to grow. These are called hormone receptor positive or hormone sensitive cancers.\n\nA hormone receptor is a protein in a cell. In breast cancer, the hormone receptors receive signals from oestrogen and progesterone to promote cancer cell growth. About three out of four breast cancers contain oestrogen or progesterone receptors (see table below).\n\n| Status             | Description                                                                               | Therapy response                                                                      |\n|--------------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|\n| ER+                | Cancer cells with oestrogen<br>receptors are called<br>oestrogen receptor positive.       | A cancer that is ER+<br>or PR+ is more likely                                         |\n| PR+                | Cancer cells with progesterone<br>receptors are called<br>progesterone receptor positive. | to respond to hormone<br>therapy (see pages<br>46–49)                                 |\n| ER− and/<br>or PR− | Cells without hormone<br>receptors are called<br>hormone receptor negative.               | Hormone receptor<br>negative breast cancer<br>does not respond to<br>hormone therapy. |",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 17,
+      "keywords": [
+        "PR",
+        "ER"
+      ],
+      "created_at": "2026-06-19T13:55:11.790560",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "e2664c8c-a0bf-45a9-8d7f-7809b6030797",
+      "type": "general",
+      "title": "HER2 status",
+      "content": "The HER2 (human epidermal growth factor receptor 2) test looks for a protein that is found on the surface of cells. This protein causes the cells to grow and divide in an uncontrolled way.\n\nTumours that have high levels of these receptors are called HER2 positive (HER2+). Tumours with low levels are called HER2 negative (HER2−).\n\nTreatment with targeted therapy, such as trastuzumab (Herceptin® – see pages 45–46), is usually recommended to treat HER2+ breast cancer.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 18,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.790626",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "8c09a9c2-93b9-4d9b-8cfa-9eac3c4a64bf",
+      "type": "general",
+      "title": "Genomic assays",
+      "content": "Genomic assays, or molecular assays, are tests that provide information about the risk of the cancer coming back after treatment. They can also predict whether you are likely to benefit from chemotherapy treatment.\n\nThe test is for people with hormone receptor positive or HER2 negative breast cancer.\n\nSeveral types of genomic assays are available. They include the Oncotype DX® Breast Cancer Assay (Oncotype DX test), EndoPredict® and Prosigna®.\n\nNone of the tests are currently covered by Medicare or private health funds. They cost between \\$2900 and \\$4500, and the results can take up to two weeks.\n\nThe available tests all have advantages and disadvantages.\n\nIf you and your oncologist decide that it is worth having a genomic assay, the test you choose will depend on a number of factors, including your doctor's experience. Your doctor can provide you with further information.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 18,
+      "keywords": [
+        "DX"
+      ],
+      "created_at": "2026-06-19T13:55:11.790713",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "f4071834-64b6-4190-b826-e909519e5c13",
+      "type": "general",
+      "title": "<span id=\"page-19-0\"></span>Further tests",
+      "content": "If the tests described on pages 13–15 show that you have breast cancer, one or more tests may be done to see if the cancer has spread to other parts of your body.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 19,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.790762",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "0593edbd-16d6-40ac-aec7-d0e47383b7f1",
+      "type": "general",
+      "title": "Blood tests",
+      "content": "Blood samples may be taken to check your general health and to look at your bone and liver function for signs of cancer.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 19,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.790785",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "35cbde69-9dea-4565-b567-e8e442e967a5",
+      "type": "general",
+      "title": "Chest x-ray",
+      "content": "Your doctor may take an x-ray of your chest to check your lungs for signs of cancer.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 19,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.790804",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "778bd82a-69aa-4853-87ad-6f2d4c1c2c60",
+      "type": "general",
+      "title": "Bone scan",
+      "content": "A bone scan may be done to see if the breast cancer has spread to your bones. A small amount of radioactive material is injected into a vein, usually in your arm. This material is attracted to areas of bone where there is cancer.\n\nAfter a few hours, the bones are viewed with a scanning machine, which sends pictures to a computer. This scan is painless and the radioactive material is not harmful. You should drink plenty of fluids on the day of the test and the day after.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 19,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.790846",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "0fed4367-761e-4e26-906e-e36aee332507",
+      "type": "general",
+      "title": "CT scan",
+      "content": "A CT (computerised tomography) scan uses x-rays and a computer to create detailed, cross-sectional pictures of the inside of the body. You may have to fast (not eat or drink) for a period of time beforehand to make the scan pictures clearer and easier to read.\n\n![](_page_20_Picture_0.jpeg)\n\nThe dye used in a CT scan usually contains iodine. If you have had an allergic reaction to iodine or dyes during previous scans, let the person performing the scan know in advance. You should also tell the doctor if you're diabetic, have kidney disease or are pregnant.\n\nBefore the scan, you will either drink a liquid dye or be given an injection of dye into a vein in your arm. This dye is known as the contrast and it makes the pictures clearer. If you have the injection, you may feel hot all over for a few minutes.\n\nYou will lie flat on a table while the CT scanner, which is large and round like a doughnut, takes pictures. This painless test takes 30–40 minutes.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 20,
+      "keywords": [
+        "CT"
+      ],
+      "created_at": "2026-06-19T13:55:11.790995",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "ab646b9f-7dbc-45c9-bf9e-404e3627c9f0",
+      "type": "general",
+      "title": "PET scan",
+      "content": "A PET (positron emission tomography) scan is a specialised test, which is rarely done for breast cancer. It is currently not funded by Medicare as a routine test for breast cancer. A PET scan uses low-dose radioactive glucose to measure cell activity in different parts of the body.\n\nIf you do have a PET scan, a small amount of the glucose will be injected into a vein, usually in your arm. You will need to wait for about an hour for the fluid to move around your body, and then you will lie on a table that moves through a scanning machine. The scan will show 'hot spots' where the fluid has accumulated – this happens where there are active cells, like cancer cells.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 20,
+      "keywords": [
+        "PET"
+      ],
+      "created_at": "2026-06-19T13:55:11.791076",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "d21f1295-a358-4720-86cc-02f3ea07b5c7",
+      "type": "table_data",
+      "title": "<span id=\"page-21-0\"></span>Staging and grading breast cancer",
+      "content": "The tests described on pages 18–19 show whether the cancer has spread to other parts of the body. Working out how far the cancer has spread is called staging. Stages are numbered from I to IV.\n\nThe grade describes how active the cancer cells are and how fast the cancer is likely to be growing.\n\n| Staging                                                                                                                                                                                                               |                                                                                                     |\n|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|\n| Stage I                                                                                                                                                                                                               | The tumour is less than 2 cm in diameter<br>and has not spread to the lymph nodes<br>in the armpit. |\n| Stage IIA                                                                                                                                                                                                             | The tumour is less than 2 cm in diameter<br>and has spread to the lymph nodes in<br>the armpit.     |\n|                                                                                                                                                                                                                       | The tumour is 2–5 cm in diameter and<br>has not spread to the lymph nodes in<br>the armpit.         |\n| Stage IIB                                                                                             ",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 21,
+      "keywords": [
+        "IV",
+        "IIA",
+        "IIB",
+        "III"
+      ],
+      "created_at": "2026-06-19T13:55:11.791347",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "ea519c53-ac98-42d2-ad4e-845ba454bba9",
+      "type": "general",
+      "title": "Prognosis",
+      "content": "Prognosis means the expected outcome of a disease. You may wish to discuss your prognosis with your doctor, but it is not possible for any doctor to predict the exact course of the disease.\n\nSurvival rates for people with breast cancer have increased significantly over time due to better diagnostic tests and scans, earlier detection, and improvements in treatment methods. Most people with early breast cancer can be treated successfully.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 23,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.791393",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "4635524c-8118-4421-91e5-0fe8a04138bd",
+      "type": "faq",
+      "title": "<span id=\"page-22-1\"></span>Which health professionals will I see?",
+      "content": "You will be cared for by a range of health professionals who specialise in different aspects of your treatment. Specialists and other health professionals will take a team-based approach to your care as part of a multidisciplinary team (MDT). The health professionals listed on the next two pages may be in your MDT.\n\n| MDT health professionals             |                                                                                                                                              |\n|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|\n| GP                                   | works in partnership with your specialist in providing your ongoing care                                                                     |\n| breast surgeon*                      | specialises in surgery and performs biopsies; some breast surgeons also perform breast reconstruction and specialised oncoplastic procedures |\n| oncoplastic breast<br>surgeon*       | specialises in using plastic surgery techniques to achieve a good cosmetic outcome after surgery                                             |\n| reconstructive (plastic)<br>surgeon* | performs breast reconstruction for women who have had a mastectomy                                                                           |\n| anaesthetist*                        | administers anaesthetic before surgery and monitors you during the operation                                                                 |\n| pathologist*                         | examines cells and tissue samples that are removed from the breast to determine the type and extent of the cancer                            |\n| breast care nurses                   | specialist nurses who are trained in breast cancer care and provide information and support through all stages of treatment and ongoing care |\n| nurses                  ",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 23,
+      "keywords": [
+        "MDT",
+        "GP"
+      ],
+      "created_at": "2026-06-19T13:55:11.791688",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "37918e27-dbd5-4128-82fa-e51bc1690c56",
+      "type": "general",
+      "title": "Key points",
+      "content": "- Several tests are used to diagnose breast cancer.\n- Your doctor will examine your breasts, and you will probably have an x-ray of the breast (mammogram) to check for any changes.\n- You may have an ultrasound, which is a painless scan that uses soundwaves to create a picture of your breast.\n- An MRI is used to assess dense breast tissue and involves an injection of dye to show up cancerous tissue.\n- A biopsy is when a sample of tissue is removed from your breast. Types of biopsy include fine needle aspiration, core biopsy, vacuum-assisted stereotactic core biopsy and surgical biopsy.\n- Some types of breast cancer are sensitive to hormones that can cause the cancer to grow.\n\n- Knowing if the cancer cells have hormone receptors helps your doctors recommend the best treatment.\n- You may have other tests, such as blood tests, a chest x-ray, a bone scan or a CT scan, to see if the cancer has spread to other parts of your body. In rare cases, a PET scan is done.\n- Staging the cancer helps your doctors plan treatment. The grade describes how fast the cancer cells are growing.\n- Prognosis is the expected outcome of the disease. Most people with early breast cancer can be treated successfully.\n- A range of health professionals will work together to care for you. This multidisciplinary team (MDT) may include a surgeon, breast care nurses, a radiation oncologist and a medical oncologist.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 26,
+      "keywords": [
+        "MRI",
+        "PET",
+        "MDT",
+        "CT"
+      ],
+      "created_at": "2026-06-19T13:55:11.791807",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "e7c4f3d5-decd-42bd-8ce1-a01be57d4464",
+      "type": "general",
+      "title": "<span id=\"page-26-0\"></span>Making treatment decisions",
+      "content": "Sometimes it is difficult to decide on the type of treatment to have. You may feel that everything is happening too fast. Check with your doctor how soon your treatment should start, and take as much time as you can before making a decision.\n\nUnderstanding the disease, the available treatments and possible side effects can help you weigh up the pros and cons of different treatments and make a well-informed decision that's based on your personal values. You may also want to discuss the options with your doctor, friends and family.\n\nYou have the right to accept or refuse any treatment offered. Some people with more advanced cancer choose treatment even if it offers only a small benefit for a short period of time. Others want to make sure the benefits outweigh the side effects so they have the best possible quality of life.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 27,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.791884",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "cde1293c-23a6-4dce-8e7e-5be094006e2e",
+      "type": "general",
+      "title": "Talking with doctors",
+      "content": "When your doctor first tells you that you have cancer, you may not remember the details about what you are told. Taking notes or recording the discussion may help. Many people like to have a family member or friend go with them to take part in the discussion, take notes or simply listen.\n\nIf you are confused or want clarification, you can ask for further explanation – see page 67 for a list of suggested questions. If you have several questions, you may want to talk to a nurse or ask the office manager if it is possible to book a longer appointment.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 28,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.791982",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "9042f30d-0047-4284-9134-3d0149e987ab",
+      "type": "general",
+      "title": "<span id=\"page-27-0\"></span>A second opinion",
+      "content": "You may want to get a second opinion from another specialist to confirm or clarify your doctor's recommendations or reassure you that you have explored all of your options. Specialists are used to people doing this.\n\nYour doctor can refer you to another specialist and send your initial results to that person. You can get a second opinion even if you have started treatment or still want to be treated by your first doctor. You might decide you would prefer to be treated by the doctor who provided the second opinion.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 28,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.792040",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "62281349-da70-490b-ba4a-e1bdca4b28e0",
+      "type": "general",
+      "title": "Taking part in a clinical trial",
+      "content": "Your doctor or nurse may suggest you take part in a clinical trial. Doctors run clinical trials to test new or modified treatments and ways of diagnosing disease to see if they are better than current methods. For example, if you join a randomised trial for a new treatment, you will be chosen at random to receive either the best existing treatment or the modified new treatment.\n\nOver the years, trials have improved treatments and led to better outcomes for people diagnosed with cancer.\n\nIt may be helpful to talk to your specialist or clinical trials nurse, or to get a second opinion. If you decide to take part, you can withdraw at any time. For more information, call Cancer Council 13 11 20 for a free copy of *Understanding Clinical Trials and Research,* or visit [australiancancertrials.gov.au.](http://www.australiancancertrials.gov.au/)\n\n<span id=\"page-28-0\"></span>![](_page_28_Picture_0.jpeg)\n\nTreatment for early breast cancer aims to remove the cancer and reduce the risk of the cancer spreading or coming back (recurring – see page 62).\n\nTreatment may include surgery (see pages 28–38), chemotherapy (pages 39–40), radiotherapy (pages 42–45), targeted therapy (pages 45–46) and hormone (endocrine) therapy (pages 46–49). Usually more than one treatment is used, and treatments can be given in different combinations.\n\nAs there are different types of breast cancer, treatment varies from person to person. Your doctors will consider several factors to recommend the most suitable treatment for you.\n\nThe choice of treatment will depend on:\n\n- your test results\n- where the cancer is in the breast\n- whether the cancer has spread\n- whether the cancer is hormone receptor or HER2 positive (see pages 16–17)\n- your age and general health\n- your preferences.\n\n![](_page_28_Picture_11.jpeg)\n\nMen diagnosed with early breast cancer have similar treatment options to women. Some men feel embarrassed that they have what is considered a woman's disease. Resources for men with breast cancer ",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 28,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.792268",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "ee3c2dd4-f110-4ad3-a373-3fe40a2d1da5",
+      "type": "general",
+      "title": "<span id=\"page-29-0\"></span>Surgery",
+      "content": "Surgery for breast cancer will involve either breast conserving surgery, where part of the breast is removed, or mastectomy, where the whole breast is removed. In most cases, breast surgery also involves removing one or more lymph nodes from the armpit (see pages 32–33).",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 30,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.792315",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "72a059d6-22f0-4cb1-a4f7-5c56fb5d5c26",
+      "type": "faq",
+      "title": "Which surgery should I have?",
+      "content": "Some women will be offered a choice between breast conserving surgery and a mastectomy. Men don't usually have breast conserving surgery.\n\nResearch has shown that breast conserving surgery with sentinel lymph node biopsy (see page 33), followed by radiotherapy (pages 42–45),\n\nis as effective as mastectomy for most women with early breast cancer. The chance of a recurrence is the same regardless of which surgery you have.\n\nThe operations have different benefits, side effects and risks. Talk to your doctor about the best option for you.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 30,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.792400",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "feae14fb-3a25-4ff6-abbb-23fc60cd23a8",
+      "type": "general",
+      "title": "Breast conserving surgery",
+      "content": "Surgery to remove the breast cancer and some surrounding healthy tissue is called breast conserving surgery. It is also called lumpectomy or wide local excision. Breast conserving surgery is recommended if the cancer is small compared to the size of your breast.\n\nThe surgeon removes the smallest amount of breast tissue possible. This will leave a scar and may change the size and, potentially, the shape of the breast, and it may affect the position of the nipple.\n\nOncoplastic breast conserving surgery combines oncological surgery (to remove the cancer) with plastic surgery (to reshape the breast and preserve its appearance as much as possible). This specialised surgical technique is performed by oncoplastic breast surgeons and some breast surgeons.\n\nThe removed breast and lymph node tissue is sent to a laboratory. A specialist called a pathologist checks it under a microscope to see if there is an area of healthy cells around the cancer – this is known as a clear margin. The pathologist will create a report, which will include information about the size and grade of the cancer, whether it has spread to any lymph nodes (the stage), whether the margins contain cancer cells, and whether the cells are hormone and/or HER2 receptor positive or negative.\n\nIf cancer cells are found at the edge of the removed tissue (an 'involved' or 'positive' margin), there is a greater chance of the cancer returning. You may need more tissue removed (re-excision or wider excision), or your doctor may recommend you have a mastectomy (see pages 30–31).\n\nAfter breast conserving surgery, radiotherapy to the whole breast is usually recommended to destroy any undetected cancer cells that may be left in the breast or armpit, and to keep the cancer from coming back (recurrence). For some women, radiotherapy may not be required.\n\nSome women also need chemotherapy, targeted therapy or hormone therapy.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 30,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.792621",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "3612588d-6cfb-4e8f-b186-d16e0cadcf06",
+      "type": "general",
+      "title": "Mastectomy",
+      "content": "Surgery to remove the whole breast is called a mastectomy. You may be offered a mastectomy if:\n\n- there is cancer in more than one area of the breast\n- the cancer is large compared to the size of the breast\n- you have had radiotherapy to the same breast before and so cannot have it again\n- clear margins cannot be obtained after one or two breast conserving procedures.\n\nYou may decide that you would prefer to have a mastectomy rather than breast conserving surgery, particularly if you are unable to have radiotherapy. Some women choose to have a mastectomy even if the cancer is very small.\n\nDuring a mastectomy, the nipple and some or all of the lymph nodes in the armpit closest to the affected breast are also usually removed. In some cases, the surgeon may be able to perform a skin-sparing or nipple-sparing mastectomy. This means that more of the normal skin – with or without the nipple – is kept. This allows the surgeon to do an immediate breast reconstruction. The reconstruction may be done with either a temporary implant (tissue expander) or a permanent implant, or it may use tissue from another part of your body.\n\nIf you don't have an immediate reconstruction, you can wear a soft breast form inside your bra while your surgical wound heals. After this time, you can be fitted for a permanent breast prosthesis (see pages 55–56).",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 32,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.792773",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "871a2186-8a21-40be-8b46-6ff2639c05c8",
+      "type": "general",
+      "title": "Types of breast surgery",
+      "content": "![](_page_32_Picture_2.jpeg)\n\nThis woman has had breast conserving surgery followed by radiotherapy. This is how the scar looks two years after surgery.\n\n![](_page_32_Picture_5.jpeg)\n\nThis woman has had her left breast removed and has not had a reconstruction.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 33,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.792810",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "80778933-4e18-40b6-a91b-c06c953cad7c",
+      "type": "general",
+      "title": "Breast conserving surgery Oncoplastic breast conserving surgery",
+      "content": "![](_page_32_Picture_8.jpeg)\n\nThis woman has had breast conserving surgery to her left breast. There is a scar around the areola. One year after surgery, the left breast is a slightly different size. Surgery was followed by radiotherapy.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 33,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.792847",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "12a41ea0-d53c-495f-adfa-bd1b94ed17a1",
+      "type": "general",
+      "title": "Mastectomy Mastectomy with an implant reconstruction",
+      "content": "![](_page_32_Picture_11.jpeg)\n\nThis woman has had a right mastectomy and a reconstruction using an implant. She has not had a nipple reconstruction.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 33,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.792877",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "06cb55d1-bb1b-4276-acbc-2665674093f6",
+      "type": "general",
+      "title": "Breast reconstruction",
+      "content": "A breast reconstruction is a type of surgery in which a breast shape is created using a silicone or saline implant, tissue from another part of your body, or a combination of both.\n\nSome women have a breast reconstruction at the same time as a mastectomy (immediate reconstruction). Others are advised or prefer to wait for several months or longer before having a reconstruction (delayed reconstruction). Some women choose not to have a reconstruction at any stage.\n\nIf you're not having an immediate reconstruction but you think you might consider it in the future, mention this to your surgeon before surgery, as it will help them to plan the mastectomy.\n\n![](_page_33_Picture_4.jpeg)\n\nFor more information about breast reconstruction, talk to your surgeon or call Cancer Council 13 11 20 and ask for a free copy of *Breast Prostheses and Reconstruction*. You can also download a digital version from your local Cancer Council website.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 33,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.792964",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "a4803c06-091f-41e6-8d2d-c43b301ab29b",
+      "type": "general",
+      "title": "Removing lymph nodes",
+      "content": "The lymph nodes in the armpit are often the first place breast cancer cells spread to outside the breast. To see whether the cancer has spread, some or all of the lymph nodes are removed and checked for cancerous cells. The operation is called axillary surgery. It is usually performed during breast surgery, but it may be done in a separate operation. There are different types of axillary surgery:\n\nSentinel node biopsy – The first lymph node that breast cancer cells may spread to outside the breast is the sentinel node. There can be more than one sentinel node. Usually it is in the armpit, but it can also be found near the breastbone (sternum).\n\nTo find the sentinel node, a small amount of radioactive material is injected into the breast around the nipple and areola before surgery. A scan is taken to show which node the substance flows to first. During surgery, a blue dye is injected around the areola or near the cancer. The dye moves into the lymphatic vessels. The nodes that are radioactive or become blue first are the sentinel lymph nodes. The surgeon will remove them for testing.\n\nIf the sentinel nodes are clear of cancer cells, no further surgery is needed. If one or more sentinel nodes contain cancer cells, axillary dissection or radiotherapy to the armpit may be considered.\n\nSentinel node biopsy can cause similar side effects to axillary dissection (see below), but they are usually less severe.\n\nAxillary dissection (clearance) – The surgeon will remove most or all of the lymph nodes (usually 10–20 nodes). If cancer cells are present, your doctor may recommend further treatment with chemotherapy, targeted therapy or hormone therapy. Possible side effects of axillary dissection include: arm or shoulder stiffness; numbness in the arm, shoulder, armpit and parts of the chest; lymphoedema (see pages 51–52); and seroma (fluid collecting near the surgical scar). Your surgeon will discuss these side effects with you before the operation.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 34,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793170",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "4421bbb6-c620-4ad7-a62a-f096bffe9fb4",
+      "type": "general",
+      "title": "What to expect after breast surgery",
+      "content": "The length of your hospital stay will depend on the type of breast surgery you have and how well you recover. Most people are able to walk around and shower the day after surgery. If you have any questions about your recovery, ask the doctors and nurses caring for you. Many people are referred to a breast care nurse for information and support.\n\nTubes and dressings – You may have one or more drainage tubes in place to remove fluid from the surgical site. These may remain for up to two weeks, depending on the type of surgery. A dressing will cover the wound to keep it clean, and it will usually be removed after about a week.\n\nSome people are discharged from hospital with drains still in place, but this will depend on your situation and your doctor's advice. Nursing staff will teach you how to manage the drains at home, or you may be referred to a community nurse or your GP.\n\nMovement – While you are in hospital, it's important to move your legs when you are in bed to help prevent blood clots. When you are able, get up and walk around. You may have to wear graduated compression stockings or use other devices to help prevent blood clots in the deep veins of your legs (deep vein thrombosis or DVT). Your doctor might also prescribe you medicine that lowers the risk of clots.\n\nPain – You will be given pain relief through an intravenous (IV) drip, via an injection, or as tablets, and you will be given pain\n\nmedicine when you go home. Any bruising and swelling at the surgery site will usually settle down in 2–3 weeks.\n\n**Sense of loss** – Breast surgery may change the appearance of your breast, and this can affect how you feel about yourself (self-image and self-esteem). You may feel a sense of loss if you've had a mastectomy. It is normal to grieve the loss of your breast.\n\nTalking to someone who has had breast surgery might be helpful. Cancer Connect may be able to link you to someone who has had a similar experience to you. Call Cancer Council 13 11 20 for details.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 35,
+      "keywords": [
+        "IV",
+        "DVT",
+        "GP"
+      ],
+      "created_at": "2026-06-19T13:55:11.793383",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "69532d81-a4d0-4cb8-ab7b-cf7b80a4454f",
+      "type": "general",
+      "title": "**Arm exercises**",
+      "content": "After surgery, you can slowly begin to exercise your arm on the advice of your treatment team. This will help it feel better and get back to normal more quickly. Arm exercises will also move any fluid that has collected near the surgical scar (seroma) and help to prevent lymphoedema (see pages 51–52).\n\n![](_page_36_Picture_5.jpeg)\n\nFor a guide to arm exercises you can do after breast surgery, see Cancer Council's *Exercises after surgery* poster. This booklet may include a copy or you can download it from your local Cancer Council website. You can also call Cancer Council 13 11 20 to check whether a printed copy is available.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 36,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793482",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "3af3eaf6-7650-446f-aefd-d58c5f50a3f8",
+      "type": "general",
+      "title": "What to expect when you get home",
+      "content": "Recovering from breast surgery will take time. If you need home nursing care, ask hospital staff about services that are available in your area.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 37,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793512",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "c6d7bc88-236b-4922-8b7b-29e3884399f5",
+      "type": "general",
+      "title": "Getting back on your feet",
+      "content": "![](_page_37_Picture_3.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 37,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793532",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "e94edb5f-f094-451d-ac1b-96b5e92bafa1",
+      "type": "general",
+      "title": "Recovery time",
+      "content": "The time it takes to recover from breast surgery varies between people. Most people start to feel better within about two weeks.\n\n![](_page_37_Picture_6.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 37,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793557",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "ec18c549-c02b-4a16-856e-b118222aa7ea",
+      "type": "general",
+      "title": "Get help",
+      "content": "Ask friends or family to help you out while you recover, e.g. with household chores.\n\n![](_page_37_Picture_9.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 37,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793579",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "a8e20c04-c0ed-452d-9100-a756a29fddd8",
+      "type": "general",
+      "title": "Rest up",
+      "content": "Get plenty of rest in the first few days after being discharged from hospital. Take it easy and only do what is comfortable.\n\n![](_page_37_Picture_12.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 37,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793605",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "458b7aa5-db06-45d8-b212-c27996094a96",
+      "type": "general",
+      "title": "Resuming activities",
+      "content": "Check with your surgeon and/ or breast care nurse about when you can start doing your regular activities. For example, some surgeons tell you to avoid driving until the stitches are removed or until your arm is more agile.\n\n![](_page_37_Picture_15.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 37,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793637",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "8de4ba7e-f883-496d-a3f9-883e9c0e16b3",
+      "type": "general",
+      "title": "Caring for the wound",
+      "content": "",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 37,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793654",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "53d705da-64a4-4128-993f-efc78598796e",
+      "type": "general",
+      "title": "Seek advice",
+      "content": "Talk to your surgeon and breast care nurse about the best way to look after the wound.\n\n![](_page_38_Picture_3.jpeg)\n\nIf you shave your armpits, use a mirror so you can see what you are doing to avoid cutting yourself.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 37,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793683",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "bd44b581-b982-481d-8401-6e1c8b46cc21",
+      "type": "general",
+      "title": "Bathe carefully",
+      "content": "Keep the wound clean, and gently pat it dry after showering.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 38,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793702",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "9006e233-3ab6-4d58-ab8a-69ede7769405",
+      "type": "general",
+      "title": "Comfort first",
+      "content": "Wear a bra or soft crop top when it is comfortable to do so.\n\n![](_page_38_Picture_10.jpeg)\n\nReport any redness, pain, swelling or wound discharge to your surgeon or breast care nurse.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 38,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793728",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "7520448d-bd8d-4018-9c74-cbb71af941b7",
+      "type": "general",
+      "title": "Moisturise",
+      "content": "Follow-up\n\nGently massage the area with moisturiser once the stitches have been removed and the wound has completely healed.\n\n![](_page_38_Picture_14.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 38,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793752",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "97fd387c-493d-43bd-a369-a63bada31ab1",
+      "type": "general",
+      "title": "Don't use deodorant",
+      "content": "If the wound is under your arm, avoid using deodorant until it has completely healed.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 38,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.793773",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "7a1cc15a-9e97-4e88-a7cc-63677060707e",
+      "type": "general",
+      "title": "Side effects of surgery",
+      "content": "Talk to your doctor or breast care nurse about ways to deal with the side effects of surgery. Most side effects can be managed. For more information, see the *Living with breast cancer* chapter (pages 51–57).\n\nFatigue – Feeling tired and having no energy is common. Cancer treatment and the emotional impact of the diagnosis can be tiring. Fatigue may continue for a few weeks or months.\n\nShoulder stiffness – Gentle exercises can help prevent or manage shoulder stiffness. Ask your breast care nurse, a physiotherapist or an occupational therapist about suitable exercises.\n\nNumbness and tingling – Surgery can cause bruising or injury to nerves, which may cause numbness and tingling in the chest and arm. This often improves within a few weeks, but it may take longer. For some people, it may not go away completely. A physiotherapist or occupational therapist can suggest exercises that may help.\n\nSeroma – Fluid may collect in or around the surgical scar. A breast care nurse, your specialist or GP or a radiologist can drain the fluid using a fine needle and a syringe. This procedure isn't painful, but it may need to be repeated over a few appointments.\n\nChange in breast, nipple or arm sensation – This is usually temporary, but it may be permanent for some people.\n\nLymphoedema – Fluid build-up may cause swelling after lymph node surgery. See pages 51–52 for ways to manage lymphoedema.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 38,
+      "keywords": [
+        "GP"
+      ],
+      "created_at": "2026-06-19T13:55:11.793927",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "33ca7edf-bc3e-4b57-9ba0-2afbcd122bcd",
+      "type": "general",
+      "title": "<span id=\"page-40-0\"></span>Chemotherapy",
+      "content": "Chemotherapy uses drugs to kill cancer cells or slow their growth. It is usually given before radiotherapy and may be used if:\n\n- the cancer needs to be shrunk or controlled before surgery (neoadjuvant chemotherapy)\n- the cancer is not sensitive to hormone therapy (see pages 46–49)\n- the risk of the cancer returning is high\n- the cancer returns after surgery or radiotherapy (to gain control of the cancer and relieve symptoms).\n\nMany different types of chemotherapy drugs are used to treat early breast cancer. The drug combination you are given will depend on the type of cancer, how far it has spread and what other treatments you are having. Common drugs include doxorubicin, cyclophosphamide, fluorouracil, docetaxel and paclitaxel. Your medical team may also refer to the drugs by their brand names.\n\nChemotherapy is given through a vein (intravenously). You will usually be treated as an outpatient, but occasionally you may have to stay in hospital overnight. The number of chemotherapy sessions varies depending on the combination of drugs prescribed by your oncologist.\n\nMost people will have chemotherapy for 3–6 months. Some drugs are given once every three weeks, some are given each week (e.g. once a week for 12 weeks), and some are given on an accelerated schedule (e.g. once every two weeks instead of once every three weeks). Not every person with early breast cancer will have the same chemotherapy treatment on the same schedule.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 39,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.794077",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "e32bac83-27eb-49c6-97b8-a55683563dba",
+      "type": "general",
+      "title": "Side effects of chemotherapy",
+      "content": "Chemotherapy kills healthy cells as well as cancer cells, which can cause side effects. The side effects caused by chemotherapy depend on the drugs used. Most side effects are temporary, and they can often be prevented or managed by your treatment team.\n\nSide effects may include tiredness, mouth ulcers, taste changes, nausea and vomiting, and constipation. Chemotherapy can also lower your immune system, increasing the risk of infection.\n\nHair loss − Most people who have chemotherapy for breast cancer lose their head and facial hair. Some treatment centres provide cold caps, which may prevent total head hair loss, but this depends on the drugs used. For information about cold caps, speak to your treatment team. See page 56 for information about wigs.\n\nInfertility − For some women, periods can become irregular or stop during chemotherapy. Periods may return to normal after treatment, or they may stop permanently (menopause – see pages 53–54), causing infertility. For men, chemotherapy can lower the number of sperm that are produced, which can cause temporary or permanent infertility. If you would like to have children in the future, ask your doctor for a referral to a fertility specialist before your treatment starts.\n\nFor more information about chemotherapy, call Cancer Council 13 11 20 and ask for a free copy of the *Understanding Chemotherapy* booklet, or download a digital version from your local Cancer Council website.\n\n![](_page_42_Picture_0.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 40,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.794222",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "2dd92101-ae40-4cd8-beee-694dda9db908",
+      "type": "general",
+      "title": "Vivien's story",
+      "content": "I was 31 when I was diagnosed with breast cancer. It was pure chance that I found a lump – I was putting on my bra and I felt it. I saw my GP, who examined me and sent me for tests.\n\nI had a mammogram, an ultrasound and a fine needle biopsy. The biopsy showed that it was cancer and that it was oestrogen receptor positive, and the ultrasound showed some spread.\n\nI wasn't happy with the treatment option recommended by the first specialist my GP referred me to, so I asked for a second opinion. I decided it was my life and my choice. The new specialist suggested I have a mastectomy followed by chemotherapy and radiotherapy.\n\nI had a reconstruction at the same time as the mastectomy. The surgeon used muscle and some skin from my back to create a pocket for an implant. Recovering from surgery was a slow process, but I felt a little better each day. Because the muscle was removed from my back, I'm still weaker on that side of my body. At one point, I couldn't stretch my arm properly and I panicked, but gradually I was able to move it again.\n\nI had chemo for eight months, and I worked during treatment because I wanted to maintain a normal life. I lost my hair and a lot of weight, and it felt like I was constantly nauseous. I was also very tired – I would go to bed really early.\n\nI chose not to have radiotherapy because my doctor told me there was a chance the scarring from the reconstruction might not heal as well if I did.\n\nIt's important to play an active role in your treatment, because it's your life and body. This is especially important when you're diagnosed young, like I was.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 41,
+      "keywords": [
+        "GP"
+      ],
+      "created_at": "2026-06-19T13:55:11.794393",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "717867f4-56c2-4f1d-931e-1c62d92909e8",
+      "type": "general",
+      "title": "<span id=\"page-43-0\"></span>Radiotherapy",
+      "content": "Radiotherapy uses radiation, such as x-rays, to kill cancer cells or injure them so they cannot grow and multiply. It is recommended:\n\n- after breast conserving surgery to help destroy any undetected cancer cells that may be in the breast and to reduce the risk of the cancer coming back (adjuvant treatment)\n- sometimes after a mastectomy, depending on the risk of the cancer coming back in the chest area\n- if lymph nodes from under the arm were removed and the risk of the cancer coming back in this area is considered to be high.\n\nYou will usually start radiotherapy about four weeks after surgery. If you're having chemotherapy after surgery, radiotherapy treatment will begin about four weeks after chemotherapy has finished.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 42,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.794461",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "2cf97681-3c97-4c67-a97e-c7970fe2b588",
+      "type": "general",
+      "title": "Getting to and from appointments",
+      "content": "If you live in a regional or rural area, you may need to travel for radiotherapy treatment.\n\nEvery state and territory has a scheme that provides financial help to people who need to travel long distances to access specialist medical treatment not available in their local area. Assistance with accommodation costs may also be given.\n\nPatient transport schemes are not usually full subsidy schemes – you are often required to contribute a certain amount towards the cost.\n\nFor details, talk to the hospital social worker or call Cancer Council 13 11 20. Also visit [ruralhealthaustralia.gov.au](http://www.ruralhealthaustralia.gov.au), search for 'PATS' and click on 'Patient Assisted Travel Schemes'.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 43,
+      "keywords": [
+        "PATS"
+      ],
+      "created_at": "2026-06-19T13:55:11.794538",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "99fe51e7-781b-4711-a56c-f9b51c745d42",
+      "type": "general",
+      "title": "Planning radiotherapy treatment",
+      "content": "Treatment is carefully planned to have the greatest effect on the cancer cells and to limit the damage to the surrounding healthy body tissues. Planning consists of several steps, which may occur over a few appointments.\n\nYou will have a planning session at the radiotherapy centre. During this appointment, you will have a CT scan to pinpoint the area to be treated, and marks will be put on your skin so the radiation therapists treat the same area each time. These marks are small dots (tattoos) and they may be temporary or permanent. Talk to your radiation therapists if you are uncomfortable having a permanent tattoo.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 43,
+      "keywords": [
+        "CT"
+      ],
+      "created_at": "2026-06-19T13:55:11.794591",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "849bf274-9c28-421c-949a-249b0d9ecc45",
+      "type": "general",
+      "title": "Having radiotherapy treatment",
+      "content": "You will probably have radiotherapy daily from Monday to Friday for 4–6 weeks. In some cases, you may have a larger dose each day for about three weeks. Usually you can have radiotherapy as an outpatient and go to the treatment centre each day.\n\nEach radiotherapy session will be in a treatment room. Although you will only get radiation for 1–5 minutes, you might be in the treatment room for 10–30 minutes. Most of the time is spent positioning you and the treatment machine.\n\nYou will lie on a table under the radiotherapy machine. The radiation therapists will leave the room and then switch on the machine, but you can talk to them through an intercom. Radiotherapy is not painful, but you need to lie still while the treatment is given.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 43,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.794671",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "188204e0-b08b-40e0-978e-77ae35bebc2f",
+      "type": "general",
+      "title": "Side effects of radiotherapy",
+      "content": "Radiotherapy may cause the following side effects:\n\nTiredness – You may feel tired or fatigued (lacking energy for day-to-day activities) 1–2 weeks after radiotherapy starts, and during treatment. This usually eases a few weeks after treatment finishes.\n\nRed and dry skin – The skin at the treatment site may become red and dry after a few weeks of treatment. It usually returns to normal 4–6 weeks after treatment ends. Radiotherapy nurses will show you how to care for your skin. Sorbolene cream applied twice a day can be helpful.\n\nInflammation and blistering – Less commonly, your skin may become itchy and/or very irritated. This will be closely monitored by the treatment team, who will recommend creams you can apply to the area.\n\nAches and swelling – You may feel minor aches or shooting pains that last for a few moments during treatment. Some people develop fluid in the breast (breast oedema).\n\nThese changes to the breast may be ongoing for up to 12 months, but, in some cases, they can last up to five years. Radiotherapy may also increase the chance of developing lymphoedema in the arm on the same side as the affected breast (see pages 51–52). Talk to your doctor about any changes you experience. You will have regular appointments with your radiation oncologist and radiotherapy nurse throughout your treatment.\n\n<span id=\"page-46-0\"></span>Radiotherapy to the breast does not cause you to lose hair from your head, although you may lose hair from the treated armpit. The radiation will not make you radioactive because the radiation does not stay in your body during or after treatment, and so it is safe for you to spend time with friends and family.\n\nFor more information about radiotherapy and ways to deal with side effects, call 13 11 20 and ask for a free copy of Cancer Council's *Understanding Radiotherapy* booklet, or download a digital version from your local Cancer Council website.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 44,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.794844",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "1845c0a8-e613-44e7-8b2c-90b61393deba",
+      "type": "general",
+      "title": "Targeted therapy",
+      "content": "The main targeted therapy for breast cancer stops the growth of cancer cells that have a higher than normal level of the HER2 protein, which stimulates cancer cells to grow (see page 17).",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 45,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.794870",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "f0745286-a89e-43cb-a280-4b093efdb949",
+      "type": "general",
+      "title": "Herceptin®",
+      "content": "Trastuzumab (Herceptin) is a type of targeted therapy for early breast cancer. It works by attaching itself to HER2 positive breast cancer cells, destroying the cells or reducing their ability to divide and grow. Herceptin also encourages the body's own immune cells to help destroy the cancer cells.\n\nHerceptin increases the effect of chemotherapy drugs on early breast cancer. Several trials have shown that Herceptin used in combination with chemotherapy for women with HER2 positive breast cancer works much better than chemotherapy alone. Some men also receive Herceptin for early breast cancer.\n\n<span id=\"page-47-0\"></span>Some people receive Herceptin as an injection, but most are given it via an infusion into a vein. You will usually have a dose every three weeks, although some people may have weekly doses. The first infusion may take up to 90 minutes. This is called the loading dose. The following infusions take 30–60 minutes each, and they will continue for up to 12 months. The first four doses are given while you are having chemotherapy treatment.\n\nYour medical team will monitor you for side effects. Although side effects are uncommon with this treatment, they can include fever, diarrhoea, headache and a rash.\n\nIn some people, Herceptin can affect the way the heart works. This is more common in older people and people with pre-existing heart problems. You will have tests to check your heart function before starting Herceptin, and at regular intervals during treatment. Ask your doctor for more information about these tests.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 45,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.795047",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "419f3dca-9de4-481c-ba23-fe31b96f137f",
+      "type": "general",
+      "title": "Hormone therapy",
+      "content": "Hormone therapy, also called endocrine therapy or hormoneblocking therapy, is used to treat hormone receptor positive cancers (see pages 16–17). The aim of hormone therapy is to slow or stop the growth of hormone receptor positive cancer cells.\n\nThere are different ways of reducing the level of female hormones in the body. This will depend on your age, the type of breast cancer and − for women − whether you have reached menopause. There are different types of hormone therapies to treat early breast cancer.\n\n![](_page_48_Picture_0.jpeg)\n\nA rare side effect of tamoxifen is an increased risk of uterine cancer in postmenopausal women. See your doctor if you notice any unusual bleeding. If you're taking tamoxifen for more than five years, you should have annual gynaecological examinations.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 46,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.795138",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "38e6e0ed-cd12-494e-8026-b01ba85bda42",
+      "type": "general",
+      "title": "Tamoxifen",
+      "content": "Tamoxifen is known as an anti-oestrogen drug. It works by stopping cancer cells responding to oestrogen. Tamoxifen is usually started after surgery, radiotherapy or chemotherapy. It is commonly taken as a daily tablet for 5–10 years. It can be given to women of any age, regardless of whether they have reached menopause, and to men.\n\nYour doctor will probably recommend that you use contraception while you are taking tamoxifen, as the drug may be harmful to a developing baby.\n\nTamoxifen does not cause menopause, but it causes similar symptoms to menopause. The most common side effects of tamoxifen include hot flushes and sweating, trouble sleeping (insomnia), vaginal dryness or discharge, muscle cramps, low mood, weight gain and irregular periods. In men, side effects can include low sex drive (libido) and erection problems.\n\nYou may also be at an increased risk of blood clots – see your doctor immediately if you have any swelling, soreness or warmth in your arm or leg. If you are having further surgery or travelling long distances, you may need to stop taking tamoxifen beforehand to lower the risk of blood clots. You can resume taking it when surgery or travel is completed.\n\nYou will probably not experience all of these side effects. Side effects usually improve as treatment continues and after it has finished. Your doctor and breast care nurse can give you information about ways to manage the side effects of tamoxifen.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 47,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.795278",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "d4e77db1-6e43-49cc-be45-7daca3ed17ea",
+      "type": "general",
+      "title": "Aromatase inhibitors",
+      "content": "Aromatase inhibitors help prevent the growth of oestrogendependent cancer cells by reducing the amount of oestrogen the body produces. They are recommended only for postmenopausal women, who are already producing smaller amounts of oestrogen.\n\nExamples of aromatase inhibitors include anastrozole, exemestane and letrozole. They are taken daily as a tablet, usually for five years. Clinical trials are researching whether the drugs should be taken for 10 years.\n\nSide effects of aromatase inhibitors may include joint and muscle pain, bone thinning and weakening (osteoporosis), vaginal dryness, low mood, hot flushes and weight gain. For women with arthritis, aromatase inhibitors may worsen joint stiffness and pain. Exercise or medication may help with this.\n\n![](_page_49_Picture_6.jpeg)\n\nBefore starting treatment with an aromatase inhibitor, you will have a bone density scan to check your bone health.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 48,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.795370",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "150e9a6c-132a-4f05-8598-43751c6e9b1b",
+      "type": "general",
+      "title": "Ovarian treatments",
+      "content": "For women who have not reached menopause, treatments that stop the ovaries from producing oestrogen, either temporarily or permanently, may be recommended.\n\nTemporary ovarian treatment – Also called ovarian suppression, this treatment includes the drug goserelin (Zoladex®), which stops oestrogen production. Zoladex is suitable for women who have breast cancer that is sensitive to oestrogen. The drug is given as an injection by a nurse or your GP once a month for 2–5 years to bring on a temporary menopause.\n\nYou may experience side effects such as low sex drive (libido), hot flushes, mood swings, trouble sleeping (insomnia), vaginal dryness and headaches. Ask your doctor or nurse for ways to manage these side effects.\n\nPermanent ovarian treatment – Ovarian ablation is treatment that permanently stops the ovaries from producing oestrogen. The treatment usually involves surgery to remove the ovaries (oophorectomy) or, occasionally, radiotherapy to the ovaries.\n\nOvarian ablation will bring on permanent menopause. This means you will no longer be able to become pregnant. You may have some menopausal symptoms, including hot flushes and vaginal dryness, and your risk of osteoporosis may increase. See pages 53−54 for more information about menopause. If you would like to become pregnant in the future, ask your doctor for a referral to a fertility specialist before treatment starts.\n\n![](_page_51_Picture_0.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 49,
+      "keywords": [
+        "GP"
+      ],
+      "created_at": "2026-06-19T13:55:11.795580",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "13186506-cd34-469f-8423-a4ad77ec5f46",
+      "type": "general",
+      "title": "Key points",
+      "content": "- Your choice of treatment will depend on many factors, such as your test results, whether the cancer is hormone sensitive, and your age.\n- There are two main types of surgery for breast cancer: breast conserving surgery and mastectomy. In breast conserving surgery, only the cancerous part of the breast is removed. In a mastectomy, the whole breast is removed.\n- During or after a mastectomy, you may have a breast reconstruction to re-create the shape of your breast. Some people choose not to have this surgery or to delay it.\n- The cancer may spread to the lymph nodes in the armpit. The doctor will remove some or all of the lymph nodes to check if they are cancerous. This can be done through a sentinel lymph node biopsy or axillary dissection (clearance).\n\n- The recovery time after surgery varies depending on the type of surgery you have.\n- You may also have other types of treatments. Radiotherapy and chemotherapy aim to kill or damage the cancer cells. They can cause side effects such as tiredness or hair loss.\n- Herceptin® is a type of targeted therapy for breast cancer. It works by attaching itself to certain receptors on breast cancer cells. Some people are given this drug intravenously for a year.\n- Hormone therapy (also known as endocrine or hormoneblocking therapy) is for people who have hormone receptors on the breast cancer cells. The treatment aims to stop the cancer cells from growing. Types of hormone therapies include tamoxifen, aromatase inhibitors and ovarian treatments.\n\n<span id=\"page-52-0\"></span>![](_page_52_Figure_0.jpeg)\n\nSide effects of treatment for early breast cancer can vary. Some people will experience a few side effects, while others will have more.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 50,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.795745",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "6ac07486-196c-4088-bdb9-ee35185bf639",
+      "type": "general",
+      "title": "Nerve pain",
+      "content": "Mastectomy and axillary dissection can cause nerve pain in the arm. This may feel like pins and needles. It usually settles within a few weeks. If pain is ongoing, ask your doctor about ways to manage it.\n\nSome chemotherapy drugs can cause nerve damage to the hands and feet. This is called peripheral neuropathy and it can cause numbness, pins and needles and, occasionally, pain. These symptoms are usually temporary, but in some cases they can be permanent.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 51,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.795795",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "9b61acb6-7cec-46bc-bf88-dcd3c056b5b4",
+      "type": "general",
+      "title": "Lymphoedema",
+      "content": "Lymphoedema is a swelling of part of the body, usually a limb such as the arm. When lymph nodes have been damaged or removed, lymph fluid may not be able to drain properly. The fluid builds up, causing swelling.\n\nSome breast cancer treatments, such as radiotherapy to the armpit or axillary surgery, can cause lymphoedema. People who have had surgery followed by radiotherapy to the armpit are more at risk.\n\nSymptoms of lymphoedema are easier to manage if the condition is diagnosed and treated early. Signs of lymphoedema include swelling, heaviness or fullness in the arm, redness and skin warmth. These signs may begin gradually and they may come and go. Some people experience pain or fever, which may mean an infection in the arm with lymphoedema called cellulitis. If you have swelling, see your doctor as soon as possible.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 51,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.795868",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "1baa74d8-4bc5-400d-956e-20809139a9cd",
+      "type": "general",
+      "title": "Preventing and managing lymphoedema",
+      "content": "Lymphoedema can develop months or years after treatment, although some people who are at risk never develop it.\n\nIn many hospitals, a lymphoedema practitioner will assess you before you have surgery. Some hospitals have specialist physiotherapists who can teach you simple exercises to reduce your risk of developing lymphoedema.\n\nIf you develop lymphoedema, the swelling can be reduced by wearing a professionally fitted elastic (compression) sleeve or by massage from a lymphoedema practitioner, physiotherapist, nurse or occupational therapist. You may also benefit from laser treatment by a lymphoedema practitioner.\n\nLong periods of physical inactivity, such as when travelling, may worsen lymphoedema symptoms. Talk to your doctor or lymphoedema practitioner about wearing a compression sleeve during air, rail or car travel.\n\nTo find out more about lymphoedema, read Cancer Australia's booklet *Lymphoedema – what you need to know*. Download a free copy from [canceraustralia.gov.au/resources](http://www.canceraustralia.gov.au/resources). The Australasian Lymphology Association website has a directory of lymphoedema practitioners. Visit [lymphoedema.org.au.](http://www.lymphoedema.org.au)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 52,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.796008",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "824cfccf-4316-471b-a544-03dbe7cb8661",
+      "type": "general",
+      "title": "<span id=\"page-54-0\"></span>Cording",
+      "content": "Cording, also known as axillary web syndrome, can happen weeks or months after breast conserving surgery, mastectomy or axillary surgery. It feels like a tight cord running from your armpit down the inner arm, sometimes to the palm of your hand, and is caused by hardened lymph vessels. Some people can see and feel raised cordlike structures across their arm, and these may restrict movement.\n\nThe condition usually improves over a few months. Gentle stretching during the first weeks after surgery can help. If there is no improvement or the cording is getting worse, try physiotherapy, massage, or laser treatment from a lymphoedema practitioner.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 52,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.796071",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "8151166a-c408-49db-89a0-4ab983639c0a",
+      "type": "general",
+      "title": "Menopause and fertility",
+      "content": "Chemotherapy for early breast cancer can cause your periods to stop and affect your ability to become pregnant. If your periods stop permanently, this is known as early menopause, and it means you will no longer be able to have children.\n\nSome of the symptoms of menopause include hot flushes and sweats, trouble sleeping, vaginal dryness, reduced sex drive (libido), tiredness, dry skin, aches and pains, mood swings, poor concentration, weight gain and osteoporosis. Symptoms can range from mild to severe. Talk to your doctor or breast care nurse about ways to manage symptoms.\n\nIf preserving your fertility is important to you, ask your doctor for a referral to a fertility clinic before treatment starts. <span id=\"page-55-0\"></span>Cancer Council's booklet *Fertility and Cancer* also provides information about fertility treatment options.\n\nIf you learn you may be permanently infertile, you may feel a great sense of loss. You might be devastated that you won't have your own children or additional children, and you might worry about the impact of this on your relationship. It's normal to feel this way even if your family is complete or you weren't planning on having children. Talking to a counsellor or someone in a similar situation may help − call Cancer Council 13 11 20 for information about counselling services and support groups in your area.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 53,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.796224",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "d39d557d-807f-46b7-be56-ef9657b90bfa",
+      "type": "general",
+      "title": "Sexuality and intimacy",
+      "content": "Cancer can affect your sexuality in physical and emotional ways. The impact of these changes depends on many factors, such as treatment and side effects, your self-confidence, and if you have a partner. Although sexual intercourse may not always be possible, closeness and sharing can still be part of your relationship. If you don't have a partner, you may worry about starting a new relationship after cancer treatment, especially if your body has changed. For more information, call 13 11 20 and ask for free copies of *Sexuality, Intimacy and Cancer* and *Emotions and Cancer*, or download them from your local Cancer Council website.\n\nIf you are able to have sex, you may be advised to use certain types of contraception (e.g. condoms) to protect your partner, or avoid pregnancy for a certain period of time. Your doctor or breast care nurse will talk to you about the precautions to take.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 54,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.796298",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "74258525-dd9e-4be7-92a0-efb34ce42be4",
+      "type": "general",
+      "title": "<span id=\"page-56-0\"></span>Body image",
+      "content": "Any change in your appearance after breast surgery may affect your self-esteem and feelings of femininity. The loss of a breast or breasts, or losing your hair, may cause a type of grief.\n\nHaving a breast reconstruction or wearing a prosthesis can help improve your self-confidence. Try to focus on yourself as a whole person and not just on the part of you that has changed.\n\nLook Good Feel Better is a free program that teaches techniques to help restore appearance and improve self-confidence. See page 59 for more information.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 54,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.796349",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "96d82283-e8c5-4ae5-af6d-ad0e68e9f7fe",
+      "type": "general",
+      "title": "Breast forms and prostheses",
+      "content": "Breast forms and prostheses are synthetic breasts or parts of a breast worn inside a bra or attached to the body with adhesive to give the appearance of a real breast. They can be used after a mastectomy or breast conserving surgery.\n\nBreast form − In the first couple of months after surgery, you may choose to wear a temporary soft breast form. This will be more comfortable next to your scar. A free bra and breast form (or forms) are available through Breast Cancer Network Australia as part of the My Care Kit. Ask your breast care nurse to order you a kit.\n\nBreast prosthesis − Your doctor or breast care nurse will discuss the best time for you to be fitted for a permanent breast prosthesis. This is usually once your scar has healed.\n\n<span id=\"page-57-0\"></span>A prosthesis is usually made from silicone and has the shape, feel and weight of a natural breast. It can help you to maintain good posture and prevent neck and back problems. It is recommended that you see a trained fitter who can help you choose the right prosthesis. To find out where you can get fitted for a prosthesis, call Cancer Council 13 11 20 or ask your breast care nurse. You can read about different types of prostheses in Cancer Council's *Breast Prostheses and Reconstruction* booklet.\n\nThe cost of a permanent prosthesis ranges from about \\$250 to \\$450. Financial assistance towards the cost is available from Medicare through the External Breast Prostheses Reimbursement Program. For details, visit [humanservices.gov.au](http://www.humanservices.gov.au) and search for 'prosthesis'. Women with private health insurance may be able to get a further rebate for a prosthesis depending on their cover.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 55,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.796530",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "6c6fa171-8c16-47d0-a9b3-7fdacb40ed93",
+      "type": "general",
+      "title": "Wigs",
+      "content": "If you lose your hair during chemotherapy treatment, you may want to wear a wig, scarf, turban or hat while it's growing back. Another option is to leave your head bare.\n\nYou can borrow a wig – some hospitals and cancer care units provide wigs for free or a small fee. Your local Cancer Council may also provide a wig service. You can also buy a wig, although some types can be expensive. Call Cancer Council 13 11 20 or ask your treatment team for more details about borrowing or buying wigs. Some private health funds cover part of the cost of wigs – check with your health fund.\n\n![](_page_58_Picture_0.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 56,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.796605",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "9e2105db-5c89-4e77-8a12-9c331a3a4254",
+      "type": "general",
+      "title": "Key points",
+      "content": "- Side effects of treatment vary depending on the treatment you have.\n- Lymphoedema is a swelling of part of the body, such as the arm. It can happen if the lymph nodes are damaged or removed and lymph fluid is unable to drain properly.\n- There are ways to prevent or treat lymphoedema. Exercises, massage, laser treatment or wearing a compression sleeve may reduce or prevent swelling.\n- Cording, also known as axillary web syndrome, feels like a tight cord running from the armpit to the palm of the hand. It usually gets better over several months. Gentle stretching can help.\n- Some treatments, such as chemotherapy, can cause a woman's periods to stop temporarily or permanently.\n\n- This can lead to symptoms of menopause such as hot flushes, vaginal dryness and tiredness. Talk to your doctor about managing symptoms.\n- If you would like to have children, talk to your doctor before treatment begins about ways to reduce the risk of infertility, and ask for a referral to a fertility clinic.\n- After a mastectomy, the breast can be replaced with a temporary soft breast form, or you can be fitted for a permanent breast prosthesis. Breast forms and prostheses have the shape and feel of a natural breast, and can help prevent back and neck pain.\n- If you lose your hair during chemotherapy treatment, you could wear a wig. Free or low-cost wigs are available from treatment centres or Cancer Council, or you can buy a wig.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 56,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.796714",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "64e1210c-54a3-41c5-b3ac-e1c1e1919121",
+      "type": "table_data",
+      "title": "<span id=\"page-59-0\"></span>Looking after yourself",
+      "content": "Cancer can cause physical and emotional strain. You may find coping with body image and sexuality issues particularly difficult, and this may affect your emotions and relationships. It's important to try to look after your wellbeing as much as possible.\n\nNutrition – Eating healthy food can help you cope with treatment and side effects. A dietitian can help you manage special dietary needs or eating problems, and choose the best foods for your situation. Call Cancer Council 13 11 20 for a free copy of the *Nutrition and Cancer* booklet, or download a digital version from your local Cancer Council website.\n\nStaying active – Physical activity may help to reduce tiredness, improve circulation and elevate mood. The amount and type of exercise you do depends on what you are used to, how you feel, and your doctor's advice. Cancer Council's *Exercise for People Living with Cancer* booklet provides more details about the benefits of exercise, and outlines simple exercises that you may want to try. Many Cancer Councils also run exercise programs for people with cancer or who have finished cancer treatment. Call 13 11 20 for details.\n\nComplementary therapies – These therapies are used with conventional medical treatments. You may have therapies such as massage, relaxation and acupuncture to increase your sense of control, decrease stress and anxiety, and improve your mood. Let your doctor know about any therapies you are using or thinking about trying, as some may not be safe or evidence-based. Alternative therapies are used instead of conventional medical\n\ntreatments. These therapies, such as coffee enemas and magnet therapy, can be harmful.\n\nFor more information, call 13 11 20 for a free copy of the *Understanding Complementary Therapies* booklet, or download a digital version from your local Cancer Council website.\n\n| Helpful resources                                                                                                                                             ",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 57,
+      "keywords": [
+        "YWCA"
+      ],
+      "created_at": "2026-06-19T13:55:11.797059",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "5bd66be1-d5c2-4759-a91f-262dbcf9d60c",
+      "type": "general",
+      "title": "<span id=\"page-61-0\"></span>Relationships with others",
+      "content": "Having cancer can affect your relationships with family, friends and colleagues. This may be because cancer is stressful, tiring and upsetting, or as a result of more positive changes to your values, priorities, or outlook on life.\n\nGive yourself time to adjust to what's happening, and do the same for others. People may deal with the cancer in different ways – for example, by being overly positive, playing down fears, or keeping a distance. It may be helpful to discuss your feelings with each other.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 60,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.797130",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "ef9783be-7f3c-4259-b2b3-104349de35ee",
+      "type": "general",
+      "title": "Life after treatment",
+      "content": "For most people, the cancer experience doesn't end when treatment ends. Life after cancer treatment can present its own challenges. You may have mixed feelings when treatment ends, and worry if every ache and pain means the cancer is coming back. Some people say that they feel pressure to return to 'normal life', but they don't want life to return to how it was before cancer. Take some time to adjust to the physical and emotional changes, and re-establish a new daily routine at your own pace.\n\nCancer Council 13 11 20 can help you connect with other people who have had cancer, and provide you with information about the emotional and practical aspects of living well after cancer.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 60,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.797192",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "d9f03c38-6228-4d59-9b17-dd3a086211d8",
+      "type": "general",
+      "title": "Dealing with feelings of sadness",
+      "content": "If you have continued feelings of sadness, have trouble getting up in the morning or have lost motivation to do things that\n\npreviously gave you pleasure, you may be experiencing depression. This is quite common among people who have had cancer.\n\nTalk to your GP, as counselling or medication – even for a short time – may help. Some people are able to get a Medicare rebate for sessions with a psychologist. Ask your doctor if you are eligible.\n\nThe organisation beyondblue has information about coping with depression and anxiety. See [beyondblue.org.au o](http://www.beyondblue.org.au/)r call 1300 22 46 36 to order a fact sheet.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 61,
+      "keywords": [
+        "GP"
+      ],
+      "created_at": "2026-06-19T13:55:11.797270",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "c1907ef2-3389-48ed-8e9f-834848cd025c",
+      "type": "general",
+      "title": "Follow-up appointments",
+      "content": "After your treatment, you will need regular check-ups with your GP or specialist to confirm that the cancer hasn't come back, to see how you are managing on hormone therapy if this is part of your treatment, and to review your overall wellbeing. Your doctor will examine you and ask about any symptoms you may have had.\n\nMost women will have a mammogram every year. Women who have had breast cancer cannot return to BreastScreen for five years after their diagnosis, so your doctor will organise diagnostic mammograms and ultrasounds.\n\nIf your doctor is concerned the cancer has come back, you may have a CT scan, chest x-ray or bone scan. If you have any health problems between follow-up appointments, let your doctor know immediately. You can also see your GP if you have any questions and for ongoing support. Check-ups will become less frequent over time if you have no further problems.\n\n![](_page_63_Figure_0.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 61,
+      "keywords": [
+        "CT",
+        "GP"
+      ],
+      "created_at": "2026-06-19T13:55:11.797349",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "23112df1-c45a-4637-a683-39ccbb28a9c3",
+      "type": "faq",
+      "title": "What if the cancer returns?",
+      "content": "For most people, early breast cancer will not come back after treatment. However, it is possible for the breast cancer to come back in the treated breast or in other parts of the body. This is called a recurrence. Factors that may make the cancer more likely to recur include:\n\n- a larger cancer at the first diagnosis\n- if the cancer was found in the lymph nodes\n- if the cancer was hormone receptor negative\n- if the grade of the cancer was high\n- if the surgical margin was not clear.\n\nHaving one or more of these factors doesn't necessarily mean the cancer will come back or spread.\n\nIt is important to be 'breast aware', which means you regularly look at your breasts and feel them to know what is normal for you. This can help detect cancer in the other breast. Being breast aware and having regular check-ups can also help find a recurrence early so it can be treated.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 62,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.797424",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "7c7cc9fc-23c2-4a27-96df-f4c1a4b008e7",
+      "type": "general",
+      "title": "<span id=\"page-64-0\"></span>Seeking support",
+      "content": "Cancer may cause you to experience a range of emotions, such as fear, sadness, anxiety, anger or frustration. It can also cause practical and financial problems.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 62,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.797461",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "55e15a87-179b-439e-812a-104b6fa70b0d",
+      "type": "general",
+      "title": "Practical and financial help",
+      "content": "There are many services that can help deal with practical or financial problems caused by the cancer. Benefits, pensions and programs can help pay for prescription medicines, transport costs or utility bills. Home care services, aids and appliances can also be arranged to help make life easier.\n\nAsk the hospital social worker which services are available in your local area and if you are eligible to receive them.\n\nIf you need legal or financial advice, you should talk to a qualified professional about your situation. Cancer Council offers free legal and financial services in some states and territories for people who can't afford to pay – call 13 11 20 to ask if you are eligible.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 62,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.797545",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "ad68fea2-1541-42b8-9df3-36d02bbcd2a8",
+      "type": "general",
+      "title": "Talk to someone who's been there",
+      "content": "Coming into contact with other people who have had similar experiences to you can be beneficial. You may feel supported and relieved to know that others understand what you are going through and that you are not alone.\n\nIn these support settings, people often feel they can speak openly and share tips with others who have gone through a similar experience.\n\nYou may find that you are comfortable talking about your diagnosis and treatment, relationships with friends and family, and hopes and fears for the future. Some people say they can be even more open and honest in these support settings because they aren't trying to protect their loved ones.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 63,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.797604",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "dbec5064-6b6a-441c-9314-807e3254ec5c",
+      "type": "general",
+      "title": "Types of support",
+      "content": "There are many ways to connect with others for mutual support and to share information. These include:\n\n- face-to-face support groups often held in community centres or hospitals\n- telephone support groups facilitated by trained counsellors\n- peer support programs match you with someone who has had a similar cancer experience, e.g. Cancer Connect\n- online forums such as [cancerconnections.com.au.](http://www.cancerconnections.com.au/)\n\nTalk to your nurse, social worker or Cancer Council 13 11 20 about what is available in your area.\n\nMy family members don't really understand what it's like to have cancer thrown at you, but in my support group, I don't feel like I have to explain. *Sam*",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 63,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.797665",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "ff0e6049-b3a0-4ee0-bb1b-5133bb2eda89",
+      "type": "general",
+      "title": "<span id=\"page-66-0\"></span>Caring for someone with cancer",
+      "content": "You may be reading this booklet because you are caring for someone with cancer. Being a carer can be stressful and cause you much anxiety. Try to look after yourself – give yourself some time out and share your concerns with somebody neutral, such as a counsellor or your doctor.\n\nMany cancer support groups and cancer education programs are open to carers. Support groups and programs can offer valuable opportunities to share experiences and ways of coping.\n\nSupport services such as Meals on Wheels, home help or visiting nurses can help you in your caring role. There are also many groups and organisations that can provide you with information and support, such as Carers Australia, the national body representing carers in Australia. Carers Australia works with the Carers Associations in each state and territory. Phone 1800 242 636 or visit [carersaustralia.com.au](http://www.carersaustralia.com.au) for more information and resources.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 64,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.797774",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "bfe4c24e-b9c1-44f4-bc91-7d81636294e4",
+      "type": "general",
+      "title": "Helpful resources",
+      "content": "The following booklets and digital resources can provide further information about being a carer:\n\n- Caring for Someone with Cancer − a booklet produced by Cancer Council. Call 13 11 20 or visit your local website\n- When the woman you love has early breast cancer − a series of podcasts and a CD produced by Cancer Australia. Call 1800 624 973 or visit [canceraustralia.gov.au](http://www.canceraustralia.gov.au)\n- CanTeen − a website for people aged 12−24 who have been affected by cancer, such as when a parent has been diagnosed. Visit [canteen.org.au](http://www.canteen.org.au).",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 64,
+      "keywords": [
+        "CD"
+      ],
+      "created_at": "2026-06-19T13:55:11.797849",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "d1b70279-164b-4920-b84a-e50928a3fcc6",
+      "type": "general",
+      "title": "<span id=\"page-67-0\"></span>Useful websites",
+      "content": "The internet has many useful resources, although not all websites are reliable. The websites listed below are good sources of support and information.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 65,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.797878",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "53a4e64a-b358-443d-9891-286d7cff1e60",
+      "type": "table_data",
+      "title": "Australian",
+      "content": "| Cancer Council Australiacancer.org.au                 |                          |\n|-------------------------------------------------------|--------------------------|\n| Cancer Australia<br>                                  | canceraustralia.gov.au   |\n| Carers Australia<br>carersaustralia.com.au            |                          |\n| Department of Health                                  | health.gov.au            |\n| Department of Human Serviceshumanservices.gov.au      |                          |\n| healthdirect Australia                                | healthdirect.gov.au      |\n| beyondblue                                            | beyondblue.org.au        |\n| Australasian Lymphology Associationlymphoedema.org.au |                          |\n| Breast Cancer Network Australiabcna.org.au            |                          |\n| Camp Quality Kids' Guide to Cancer app                | campquality.org.au       |\n| CanTeen<br>                                           | canteen.org.au           |\n| McGrath Foundation                                    | mcgrathfoundation.com.au |\n| My Parents Cancermyparentscancer.com.au               |                          |\n| National Breast Cancer Foundation                     | nbcf.org.au              |",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 65,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.797963",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "89f0181e-35c7-4d73-b1b2-b5dea5732223",
+      "type": "table_data",
+      "title": "International",
+      "content": "| American Cancer Societycancer.org            |                      |\n|----------------------------------------------|----------------------|\n| Cancer Research UK                           | cancerresearchuk.org |\n| Macmillan Cancer Support (UK)                | macmillan.org.uk     |\n| National Cancer Institute (US)               | cancer.gov           |\n| American Breast Cancer Foundationabcf.org    |                      |\n| Breast Cancer Care UKbreastcancercare.org.uk |                      |",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 66,
+      "keywords": [
+        "US",
+        "UK"
+      ],
+      "created_at": "2026-06-19T13:55:11.798006",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "efbf4bf2-40f0-4403-b69a-f4aa3de5da0e",
+      "type": "general",
+      "title": "<span id=\"page-68-0\"></span>Question checklist",
+      "content": "You may find this checklist helpful when thinking about the questions you want to ask your doctor about your disease and treatment. If your doctor gives you answers that you don't understand, ask for clarification.\n\n- What type of breast cancer do I have?\n- Has the cancer spread? If so, how far? How fast is it growing?\n- What treatment do you recommend and why?\n- Are there other treatment choices for me? If not, why not?\n- What are the risks and possible side effects of each treatment?\n- How long will treatment take? Will I have to stay in hospital?\n- How much will treatment cost?\n- Will I have a lot of pain with the treatment? What will be done about this?\n- Are the latest tests and treatments for this type of cancer available in this hospital?\n- Are there any clinical trials or research studies I could join?\n- How frequently will I need check-ups after treatment?\n- Who should I see for my check-up appointments?\n- Are there any complementary therapies that might help me?\n- Should I change my diet during or after treatment?\n- If the cancer comes back, how will I know?\n\n<span id=\"page-69-0\"></span>![](_page_69_Picture_0.jpeg)",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 66,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798100",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "2245b53b-03c9-4921-8f34-e5d896ab28b0",
+      "type": "general",
+      "title": "ablation",
+      "content": "See ovarian ablation.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 67,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798118",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "52483d67-bb00-4f4e-9222-429a8af5360c",
+      "type": "general",
+      "title": "adjuvant therapy",
+      "content": "A treatment given with or shortly after another treatment to enhance its effectiveness.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 67,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798139",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "7fca2b30-96a1-4ef6-82aa-6e3b155272a4",
+      "type": "general",
+      "title": "advanced cancer",
+      "content": "Cancer that is unlikely to be cured. It may be limited to its original site (primary cancer) or may have spread to other parts of the body (secondary or metastatic cancer).",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 67,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798169",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "4267d8a1-211b-4a6a-bdf5-6b51cf495859",
+      "type": "general",
+      "title": "anti-oestrogens",
+      "content": "Drugs used to treat cancers that depend on the female hormone oestrogen to grow.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 67,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798189",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "e489bfb9-5c04-4fc8-81ed-3fe3e05b3155",
+      "type": "general",
+      "title": "areola",
+      "content": "The brownish or pink rim of tissue around the nipple of the breast.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 67,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798208",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "a4515b17-04ee-45c0-af6d-64b1f99907f7",
+      "type": "general",
+      "title": "aromatase inhibitors",
+      "content": "Drugs that help prevent the growth of oestrogen-dependent cancer cells by reducing the amount of oestrogen in a postmenopausal woman's body.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 67,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798231",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "bbff77bd-c7ff-4a1c-8bc9-63656024af7f",
+      "type": "general",
+      "title": "atypical ductal hyperplasia",
+      "content": "An abnormal but non-cancerous condition of the cells in the lining of the milk ducts in the breast.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 67,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798252",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "3cf0712a-13cc-48f2-ab2c-307f831156d0",
+      "type": "general",
+      "title": "axilla",
+      "content": "The armpit.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798265",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "72f3af38-0dcd-4ed7-9c55-5d877ec81a52",
+      "type": "general",
+      "title": "axillary lymph nodes",
+      "content": "Lymph nodes in and around the armpit. axillary surgery\n\nThe removal of some lymph nodes in the armpit to check whether the cancer has spread.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798289",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "14c7c4c0-dcf1-4ef7-8d30-df4987fce129",
+      "type": "general",
+      "title": "axillary tail",
+      "content": "Breast tissue that extends into the armpit.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798305",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "d0cb79e3-832c-4c26-82e7-09969cb4e00a",
+      "type": "general",
+      "title": "axillary web syndrome",
+      "content": "See cording.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798320",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "0e4ac29e-7a1c-4e6e-a53c-cc9fca9e5fb8",
+      "type": "general",
+      "title": "benign",
+      "content": "Not cancerous or malignant.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798335",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "12438b89-2e18-4e7b-9211-dd88aa32dac3",
+      "type": "general",
+      "title": "biopsy",
+      "content": "The removal of a sample of tissue for examination under a microscope.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798352",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "9a272e82-3362-4a38-aedd-5205e7c365c5",
+      "type": "general",
+      "title": "BRCA1 and BRCA2 genes",
+      "content": "Changes on these genes increase the risk of breast or ovarian cancer.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798370",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "55150faf-1bbc-4ec0-b9f5-da55037aa649",
+      "type": "general",
+      "title": "breast conserving surgery",
+      "content": "Surgery that removes a breast lump without removing the entire breast. Also called a lumpectomy or wide local excision.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798392",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "133c97d7-7f65-4995-8771-5bf85f0db6c7",
+      "type": "general",
+      "title": "breast form/prosthesis",
+      "content": "An artificial breast worn inside a bra or attached to the body with adhesive to re-create the shape of a natural breast. It can be temporary (breast form) or permanent (breast prosthesis).",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798418",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "955bbd51-0ffc-49fd-b11d-e4b8d70310ad",
+      "type": "general",
+      "title": "breast oedema",
+      "content": "Swelling caused by too much fluid in the breast tissue.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798446",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "259c66b5-e440-4beb-895e-5c315363b028",
+      "type": "general",
+      "title": "breast reconstruction",
+      "content": "The surgical rebuilding of a breast after a mastectomy.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798465",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "67afb31e-bd8e-43a1-9e62-930ff21aab36",
+      "type": "general",
+      "title": "cellulitis",
+      "content": "An infection of the skin that can occur after lymph glands have been removed. chemotherapy\n\nThe use of drugs to treat cancer by killing cancer cells or slowing their growth.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798489",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "7657003b-7690-4823-b318-27eb7ff02fcb",
+      "type": "general",
+      "title": "clear margin",
+      "content": "When the surrounding tissue removed during surgery for cancer does not contain any cancer cells.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798509",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "5b9e9ec8-ae71-4cd4-bb96-346eea8c71d3",
+      "type": "general",
+      "title": "cold cap",
+      "content": "A cap that is connected to a cooling system and worn on the head to help prevent hair loss.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798529",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "5804ad27-1ece-4a17-8ee6-16892059f4b2",
+      "type": "general",
+      "title": "cording",
+      "content": "Tight cords of tissue running down the inner arm. Cording can occur weeks or months after breast or axillary surgery. Also known as axillary web syndrome.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 68,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798552",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "544b7520-60c9-4d99-b138-c1d57b99a5f0",
+      "type": "general",
+      "title": "ductal carcinoma in situ (DCIS)",
+      "content": "Abnormal cells in the breast ducts that may increase the risk of developing invasive breast cancer.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 69,
+      "keywords": [
+        "DCIS"
+      ],
+      "created_at": "2026-06-19T13:55:11.798573",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "44ef9022-ad31-4b7c-99e5-be69de5df182",
+      "type": "general",
+      "title": "ducts",
+      "content": "The canals within the breast that pass milk from the lobules to the nipple.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 69,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798590",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "e6047704-9904-4e43-a2a7-58792ff0f4ea",
+      "type": "general",
+      "title": "genes",
+      "content": "The microscopic units that determine how the body's cells grow and behave. Genes are found in every cell of the body and are inherited from both parents.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 69,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798613",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "6298d6f1-7480-464e-9179-795ca4bc1db8",
+      "type": "general",
+      "title": "genomic assay",
+      "content": "A test that provides information about the risk of the cancer coming back and whether chemotherapy will be of benefit. Also called a molecular assay. grade\n\nA score that describes how quickly a tumour is likely to grow.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 69,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798641",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "b8162832-9a3e-47ed-b049-9747f625480d",
+      "type": "general",
+      "title": "HER2",
+      "content": "Human epidermal growth factor receptor 2. A type of protein found on most cells in the human body.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 69,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798661",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "8d8343a6-a415-4e93-ac7f-ee738b56e8e9",
+      "type": "general",
+      "title": "hormone receptors",
+      "content": "Proteins in a cell that bind to specific hormones.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 69,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798678",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "9e08cb97-f1fb-48a1-a9f2-9f17987042a4",
+      "type": "general",
+      "title": "hormones",
+      "content": "Chemicals in the body that send information between cells to bring about changes in the body.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 69,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798696",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "bff074c0-bac3-4665-b18c-590ddbb9536c",
+      "type": "general",
+      "title": "hormone therapy",
+      "content": "A treatment that blocks the body's natural hormones, which sometimes help cancer cells grow. It is used when the cancer is growing in response to hormones. Also called endocrine therapy or hormone-blocking therapy.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 69,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798723",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "60b8b850-af6c-4d96-ba13-d1f5c0165173",
+      "type": "general",
+      "title": "inflammatory breast cancer",
+      "content": "Cancer that develops in the lymphatic vessels in the skin of the breast. Rather than forming a lump, it causes the breast to become red and swollen.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 69,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798747",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "2751d4cf-c387-450d-a0ad-b09e4402a235",
+      "type": "general",
+      "title": "invasive breast cancer",
+      "content": "Cancer that has spread from the lining of the breast ducts or lobules into the surrounding breast tissue.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798767",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "15944949-4800-47b2-9c9e-de540f28cb37",
+      "type": "general",
+      "title": "invasive ductal carcinoma",
+      "content": "Cancer that started in the milk ducts but has spread into the tissue around them. invasive lobular carcinoma\n\nCancer that began in the milk lobules but has spread into the breast tissue around them.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798794",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "28d3fa14-2fd3-48b1-9138-b39e3085a1a1",
+      "type": "general",
+      "title": "Klinefelter syndrome",
+      "content": "A genetic disorder where a man has three sex chromosomes (XXY) instead of the normal two (XY).",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [
+        "XXY",
+        "XY"
+      ],
+      "created_at": "2026-06-19T13:55:11.798815",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "842934de-0616-4fe4-b1ba-0f3a149832d5",
+      "type": "general",
+      "title": "lobular carcinoma in situ (LCIS)",
+      "content": "Abnormal cells in the breast lobules. lobules\n\nThe milk-producing glands in the breast.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [
+        "LCIS"
+      ],
+      "created_at": "2026-06-19T13:55:11.798836",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "c5de6b5b-a015-4226-8155-da9c38435aba",
+      "type": "general",
+      "title": "locally advanced breast cancer",
+      "content": "Cancer that has spread outside the breast, e.g. to the chest or lymph nodes in the armpit.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798856",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "87db32c8-6d72-42ec-ac96-9bdb4edeab06",
+      "type": "general",
+      "title": "lumpectomy",
+      "content": "See breast conserving surgery.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798871",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "c1710f9b-61d4-4e3c-9f57-5c8ea42efd34",
+      "type": "general",
+      "title": "lymphatic system",
+      "content": "A network of tissues, capillaries, vessels, ducts and nodes that removes excess fluid from tissues, absorbs fatty acids, transports fat, and produces immune cells.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798895",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "6f4d2703-8793-4dbe-8279-9aa7c0c2dc3e",
+      "type": "general",
+      "title": "lymph nodes",
+      "content": "Small, bean-shaped structures that form part of the lymphatic system. Also called lymph glands.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798919",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "33464203-2121-4f5c-9355-763d56b3128e",
+      "type": "general",
+      "title": "lymphoedema",
+      "content": "Swelling caused by a build-up of lymph fluid.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798935",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "14578512-d9c2-4672-bb1b-a0f2db5be801",
+      "type": "general",
+      "title": "lymph vessels",
+      "content": "Thin tubes that carry the body's tissue fluid (lymph) all over the body.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798954",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "13333dc7-18bc-453b-af6a-b52f529d5b68",
+      "type": "general",
+      "title": "malignant",
+      "content": "Cancer.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798967",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "5520941c-ad42-4c89-b044-b13314f7dc9d",
+      "type": "general",
+      "title": "mammogram",
+      "content": "An x-ray of the breast to detect cancer. mastectomy\n\nSurgical removal of the whole breast.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.798985",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "67102c3d-f53e-4694-aab6-e04c789c768a",
+      "type": "general",
+      "title": "menopause",
+      "content": "When a woman stops having periods (menstruating).",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799001",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "fe1d1245-95a7-4f48-b298-01979eb7f4ab",
+      "type": "general",
+      "title": "metastasis",
+      "content": "A cancer that has spread from a primary cancer in another part of the body.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 70,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799019",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "d1433b85-f165-42da-938c-5330efa3e5fc",
+      "type": "general",
+      "title": "non-invasive breast cancer",
+      "content": "Cancer that is confined to the ducts or lobules of the breast.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 71,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799037",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "e40edfbd-89ed-4b15-a677-809cd4a79e3d",
+      "type": "general",
+      "title": "oestrogen",
+      "content": "The primary female sex hormone that helps regulate the reproductive cycle. Oestrogen is also present in men.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 71,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799056",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "09b50b94-47d4-4d50-a54f-2d8eb55a1be7",
+      "type": "general",
+      "title": "oncoplastic breast conserving surgery",
+      "content": "An operation in which the cancer is removed and plastic surgery techniques are used to preserve the appearance of the breast as much as possible.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 71,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799080",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "75897b9c-5467-4288-b341-1e33bf8e7b5d",
+      "type": "general",
+      "title": "osteoporosis",
+      "content": "Thinning and weakening of the bones that can lead to bone pain and fractures.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 71,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799098",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "577f4b44-5266-4b16-8b09-b36672b557c8",
+      "type": "general",
+      "title": "ovarian ablation",
+      "content": "Stopping the ovaries from producing oestrogen by surgically removing the ovaries (oophorectomy) or giving a dose of radiotherapy to the ovaries.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 71,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799120",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "0b57f8b6-c43e-47a9-b115-a18b13e9cdba",
+      "type": "general",
+      "title": "Paget's disease of the nipple",
+      "content": "Cancer cells develop in the breast ducts and spread to the skin of the nipple and the areola.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 71,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799141",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "90674914-acec-433c-9ba6-6cbffa7af410",
+      "type": "general",
+      "title": "pathologist",
+      "content": "A specialist doctor who interprets the results of tests.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 71,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799157",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "08f76e1f-0f54-4a81-b963-c5b427f5bdce",
+      "type": "general",
+      "title": "pathology report",
+      "content": "A document that provides information about the cancerous tissue, including its size and location, its hormonal status, how far it has spread, how fast it is growing, and surgical margins.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 71,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799182",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "9bb5d0af-c97e-4245-acc2-ede27cc8fd85",
+      "type": "general",
+      "title": "plastic surgeon",
+      "content": "A medical practitioner who has had advanced surgical training in the restoration of skin and tissue to near-normal appearance and function. Also known as reconstructive surgeon.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 71,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799206",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "999ec4f8-7669-4b3b-895f-043c4e89c334",
+      "type": "general",
+      "title": "primary cancer",
+      "content": "The original cancer. Cells from the primary cancer may break away and be carried to other parts of the body, where secondary cancers may form.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 71,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799228",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "2de87ba3-7585-4f26-b131-cfe46ee26cbd",
+      "type": "general",
+      "title": "progesterone",
+      "content": "A hormone produced by the ovaries that prepares the lining of the uterus (endometrium) for pregnancy. Progesterone is also present in men.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799250",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "ac119b87-83cd-459c-9d14-8205decfbad0",
+      "type": "general",
+      "title": "radiotherapy",
+      "content": "The use of radiation, such as x-rays, gamma rays, electron beams or protons, to kill cancer cells or injure them so they cannot grow and multiply. Also called radiation therapy.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799292",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "64e5fa78-5abc-4cd4-97ca-e182ed4b906b",
+      "type": "general",
+      "title": "recurrent cancer",
+      "content": "Cancer that has returned after treatment of the primary cancer.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799311",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "61f659ee-195f-46ac-90e5-be8125cd4cda",
+      "type": "general",
+      "title": "sentinel node",
+      "content": "The first lymph node that breast cancer cells may spread to outside the breast.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799330",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "48abdc3f-46c4-4294-a7f2-537040efcac9",
+      "type": "general",
+      "title": "seroma",
+      "content": "A collection of fluid under a wound after surgery.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799347",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "a617d5e6-426a-4672-811f-036c455162bb",
+      "type": "general",
+      "title": "staging",
+      "content": "Performing tests to determine how far a cancer has spread.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799364",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "d0386935-fcc8-4e85-bad3-67a9f126df0f",
+      "type": "general",
+      "title": "targeted therapy",
+      "content": "Treatment that attacks specific particles (molecules) within cells that allow cancer to grow and spread.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799385",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "26191bbd-f4df-4de2-ba06-d1b3d8557acb",
+      "type": "general",
+      "title": "tissue expander",
+      "content": "A balloon-like bag placed under the skin and muscle of the chest and filled with saline to create a temporary breast implant.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799407",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "a7880307-0257-40c3-a6a7-20b17a98252c",
+      "type": "general",
+      "title": "tumour",
+      "content": "A new or abnormal growth of tissue on or in the body. A tumour may be benign (not cancer) or malignant (cancer).",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799428",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "f8b0adb0-5c97-4272-908c-2957218588ce",
+      "type": "general",
+      "title": "ultrasound",
+      "content": "A non-invasive scan that uses soundwaves to create a picture of part of the body.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799456",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "68c7a2a9-d35f-465d-8fea-49a5e04add7c",
+      "type": "faq",
+      "title": "Can't find a word here?",
+      "content": "*For more cancer-related words, visit:* \n\n- *• [cancercouncil.com.au/words](http://www.cancercouncil.com.au/words)*\n- *• [cancervic.org.au/glossary](http://www.cancervic.org.au/glossary)*\n- *• [cancersa.org.au/glossary.](http://www.cancersa.org.au/glossary)*",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799502",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "59a9d867-79d8-4982-9fa2-60e00f61a5bf",
+      "type": "sop_step",
+      "title": "References",
+      "content": "- 1. E Senkus et al., 'Primary breast cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up', *Annals of Oncology*, vol. 26 (suppl. 5), 2015, pp. v8–v30.\n- 2. Australian Institute of Health and Welfare (AIHW), *Australian Cancer Incidence and Mortality (ACIM) books: Breast cancer*, AIHW, Canberra, 2016.\n- 3. Australian Institute of Health and Welfare (AIHW), *Australian Cancer Incidence and Mortality (ACIM) books: All cancers combined*, AIHW, Canberra, 2016.",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 72,
+      "keywords": [
+        "ESMO",
+        "AIHW",
+        "ACIM"
+      ],
+      "created_at": "2026-06-19T13:55:11.799570",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "9ef4b692-2109-46c4-814f-9ad39c444ec7",
+      "type": "general",
+      "title": "<span id=\"page-73-0\"></span>How you can help",
+      "content": "At Cancer Council, we're dedicated to improving cancer control. As well as funding millions of dollars in cancer research every year, we advocate for the highest quality care for cancer patients and their families. We create cancer-smart communities by educating people about cancer, its prevention and early detection. We offer a range of practical and support services for people and families affected by cancer. All these programs would not be possible without community support, great and small.\n\nJoin a Cancer Council event: Join one of our community fundraising events such as Daffodil Day, Australia's Biggest Morning Tea, Relay For Life, Girls' Night In and Pink Ribbon Day, or hold your own fundraiser or become a volunteer.\n\nMake a donation: Any gift, large or small, makes a meaningful contribution to our work in supporting people with cancer and their families now and in the future.\n\nBuy Cancer Council sun protection products: Every purchase helps you prevent cancer and contribute financially to our goals.\n\nHelp us speak out for a cancer-smart community: We are a leading advocate for cancer prevention and improved patient services. You can help us speak out on important cancer issues and help us improve cancer awareness by living and promoting a cancer-smart lifestyle.\n\nJoin a research study: Cancer Council funds and carries out research investigating the causes, management, outcomes and impacts of different cancers. You may be able to join a study.\n\nTo find out more about how you, your family and friends can help, please call your local Cancer Council.\n\n![](_page_74_Figure_0.jpeg)\n\nBeing diagnosed with cancer can be overwhelming. At Cancer Council, we understand it isn't just about the treatment or prognosis. Having cancer affects the way you live, work and think. It can also affect our most important relationships.\n\nWhen disruption and change happen in our lives, talking to someone who understands can make a big difference. Cancer Council has been providing infor",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 73,
+      "keywords": [],
+      "created_at": "2026-06-19T13:55:11.799809",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    },
+    {
+      "id": "a1293d7d-c5cd-4f5c-84b8-f74df226ec23",
+      "type": "general",
+      "title": "Visit your local Cancer Council website",
+      "content": "Cancer Council ACT [actcancer.org](http://actcancer.org)\n\nCancer Council NSW [cancercouncil.com.au](http://cancercouncil.com.au)\n\nCancer Council NT [nt.cancer.org.au](http://nt.cancer.org.au)\n\nCancer Council Queensland [cancerqld.org.au](http://cancerqld.org.au)\n\nCancer Council SA [cancersa.org.au](http://cancersa.org.au)\n\nCancer Council Tasmania [cancertas.org.au](http://cancertas.org.au)\n\nCancer Council Victoria [cancervic.org.au](http://cancervic.org.au)\n\nCancer Council WA [cancerwa.asn.au](http://cancerwa.asn.au)\n\nCancer Council Australia [cancer.org.au](http://cancer.org.au)\n\n*This booklet is funded through the generosity of the people of Australia. To support Cancer Council, call your local Cancer Council or visit your local website.*",
+      "source_file": "failure-after-repair.pdf",
+      "source_page": 75,
+      "keywords": [
+        "NSW",
+        "SA",
+        "WA",
+        "ACT"
+      ],
+      "created_at": "2026-06-19T13:55:11.799880",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "heading"
+      }
+    }
+  ]
+}

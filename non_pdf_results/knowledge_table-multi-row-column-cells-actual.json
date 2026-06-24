@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "source_file": "table-multi-row-column-cells-actual.csv",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "43f62cd7-41d7-4910-83f9-8fa4a9b98015",
+      "type": "general",
+      "title": "CSV Table - {os.path.basename(file_path)}",
+      "content": "Columns: {', '.join(header)}\n |  |  |  | Accuracy | Time to complete\nBlind | 5 | 1 | 4 | 34.5%, n=1 | 1199 sec, n=1\nLow Vision | 5 | 2 | 3 | 98.3% n=2 (97.7%, n=3) | 1716 sec, n=3 (1934 sec, n=2)\nDexterity | 5 | 4 | 1 | 98.3%, n=4 | 1672.1 sec, n=4\nMobility | 3 | 3 | 0 | 95.4%, n=3 | 1416 sec, n=3",
+      "source_file": "table-multi-row-column-cells-actual.csv",
+      "source_page": 0,
+      "keywords": [
+        "Columns",
+        "Blind",
+        "Low",
+        "Dexterity"
+      ],
+      "created_at": "2026-06-22T11:56:14.634659",
+      "metadata": {
+        "element_type": "csv_table",
+        "parser": "csv"
+      }
+    }
+  ]
+}

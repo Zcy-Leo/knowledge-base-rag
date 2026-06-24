@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "source_file": "2023-half-year-analyses-by-segment.xlsx",
+  "total_entries": 5,
+  "entries": [
+    {
+      "id": "5e909d49-3b5b-491b-8b75-18184ee94a68",
+      "type": "general",
+      "title": "Excel Table - {sheet_name}",
+      "content": "Sheet: {sheet_name}\nColumns: {', '.join(header_row)}\n3.1 Operating segments |  |  |  |  |  |  |  |  |  |  |  |  |  | \nRevenue and results |  |  |  |  |  |  |  |  |  |  |  |  |  | \nIn millions of CHF |  |  |  |  |  |  |  |  | January–June\n2023 |  |  |  |  | \n | Sales (a) | Underlying Trading\noperating profit (b) | Trading\noperating profit |  | Net other trading \nincome/(expenses) (c) | of which\nimpairment \nof property, plant \nand equipment | of which\nrestructuring costs |  | Depreciation \nand amortization |  |  |  |  | \nZone NA | 12553 | 2713 | 2632 |  | -81 | -29 | -44 |  | -337 |  |  |  |  | \nZone EUR | 9467 | 1570 | 1373 |  | -197 | -5 | -140 |  | -414 |  |  |  |  | \nZone AOA | 9060 | 2068 | 1985 |  | -83 | -49 | -16 |  | -259 |  |  |  |  | \nZone LATAM | 6082 | 1202 | 1101 |  | -101 | -4 | -21 |  | -192 |  |  |  |  | \nZone GC | 2548 | 422 | 418 |  | -4 | -2 | -2 |  | -83 |  |  |  |  | \nNestlé Health Science | 3318 | 432 | 372 |  | -60 | -11 | -31 |  | -152 |  |  |  |  | \nNespresso | 3128 | 678 | 672 |  | -6 | -9 | -1 |  | -135 |  |  |  |  | \nOther businesses (d) | 137 | -17 | -17 |  |  | -1 |  |  | -19 |  |  |  |  | \nUnallocated items (e) |  | -1164 | -1185 |  | -21 |  | -7 |  | -131 |  |  |  |  | \nTotal | 46293 | 7904 | 7351 |  | -553 | -110 | -262 |  | -1722 |  |  |  |  | \nIn millions of CHF |  |  |  |  |  |  |  |  | January–June\n2022 |  |  |  |  | \n | Sales (a) | Underlying Trading\noperating profit (b) | Trading\noperating profit |  | Net other trading \nincome/(expenses) (c) | of which\nimpairment \nof property, plant \nand equipment | of which\nrestructuring costs |  | Depreciation \nand amortization |  |  |  |  | \nZone NA | 12138 | 2284 | 1829 |  | -455 | -33 | -41 |  | -348 |  |  |  |  | \nZone EUR | 9283 | 1606 | 1494 |  | -112 | -85 | -14 |  | -411 |  |  |  |  | \nZone AOA | 9335 | 2198 | 2170 |  | -28 | -5 | -10 |  | -290 |  |  |  |  | \nZone LATAM | 5659 | 1196 | 1160 |  | -36 | -6 | -4 |  | -178 |  |  |  |  | \nZone GC | 2677 | 400 | 403 |  | 3 | 2 | -6 |  | -93 |  |  |  |  | \nNestlé Health Science | 3167 | 435 | 101 |  | -334 | -6 | -8 |  | -144 |  |  |  |  | \nNespresso | 3190 | 777 | 757 |  | -20 | -8 | — |  | -143 |  |  |  |  | \nOther businesses (d) | 131 | -5 | -3 |  | 2 | — | — |  | -20 |  |  |  |  | \nUnallocated items (e) | — | -1208 | -1227 |  | -19 | -1 | -4 |  | -129 |  |  |  |  | \nTotal | 45580 | 7683 | 6684 |  | -999 | -142 | -87 |  | -1756 |  |  |  |  | \n(a) Inter-segment sales are not significant. |  |  |  |  |  |  |  |  |  |  |  |  |  | \n(b) Trading operating profit before Net other trading income/(expenses). |  |  |  |  |  |  |  |  |  |  |  |  |  | \n(c) Included in Trading operating profit. |  |  |  |  |  |  |  |  |  |  |  |  |  | \n(d) Composed of businesses not under the direct control of the Zones or GMBs and Group procurement activities. |  |  |  |  |  |  |  |  |  |  |  |  |  | \n(e) Mainly corporate expenses as well as research and development costs. |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "source_file": "2023-half-year-analyses-by-segment.xlsx",
+      "source_page": 0,
+      "keywords": [
+        "AOA",
+        "CHF",
+        "LATAM",
+        "EUR",
+        "Sheet",
+        "Columns",
+        "Revenue",
+        "Zone"
+      ],
+      "created_at": "2026-06-22T11:56:16.269853",
+      "metadata": {
+        "element_type": "excel_table",
+        "sheet": "OS-Rev.and results 30 06 2023",
+        "parser": "openpyxl"
+      }
+    },
+    {
+      "id": "2e84d4bb-2ca2-4063-8d53-4b4e0b44f60f",
+      "type": "general",
+      "title": "Excel Table - {sheet_name}",
+      "content": "Sheet: {sheet_name}\nColumns: {', '.join(header_row)}\nOther information |  |  |  |  |  |  |  | \nIn millions of CHF |  | January–June\n2023 |  |  | January–June\n2022 |  |  | \n | Impairment of \ngoodwill and\nnon-commercialized\nintangible assets (c) | Impairment of\nintangible assets (d) |  | Impairment of \ngoodwill and\nnon-commercialized\nintangible assets (c) | Impairment of\nintangible assets (d) |  |  | \nZone NA |  | -9 |  | — | -285 |  |  | \nZone EUR |  | -23 |  | — | — |  |  | \nZone AOA |  | -6 |  | — | — |  |  | \nZone LATAM |  | -14 |  | — | — |  |  | \nZone GC |  |  |  | — | — |  |  | \nNestlé Health Science | -16 | -3 |  | — | -314 |  |  | \nNespresso |  |  |  | — | — |  |  | \nOther businesses (a) |  |  |  | — | — |  |  | \nUnallocated items (b) |  |  |  | — | — |  |  | \nTotal | -16 | -55 |  |  | -599 |  |  | \n(a) Composed of businesses not under the direct control of the Zones or GMBs and Group procurement activities. |  |  |  |  |  |  |  | \n(b) Mainly corporate and research and development assets. |  |  |  |  |  |  |  | \n(c) Included in Operating profit. |  |  |  |  |  |  |  | \n(d) Included in Trading operating profit. |  |  |  |  |  |  |  | ",
+      "source_file": "2023-half-year-analyses-by-segment.xlsx",
+      "source_page": 0,
+      "keywords": [
+        "AOA",
+        "CHF",
+        "LATAM",
+        "EUR",
+        "Sheet",
+        "Columns",
+        "Other",
+        "Zone"
+      ],
+      "created_at": "2026-06-22T11:56:16.270242",
+      "metadata": {
+        "element_type": "excel_table",
+        "sheet": "OS-Other information 30 06 2023",
+        "parser": "openpyxl"
+      }
+    },
+    {
+      "id": "94f81695-b7e6-4e0f-b513-7136d4204000",
+      "type": "general",
+      "title": "Excel Table - {sheet_name}",
+      "content": "Sheet: {sheet_name}\nColumns: {', '.join(header_row)}\n3.2 Products |  |  |  |  |  |  |  |  |  |  | \nRevenue and results |  |  |  |  |  |  |  |  |  |  | \nIn millions of CHF |  |  |  |  |  |  | January–June\n2023 |  |  |  | \n | Sales | Underlying Trading\noperating profit  (a) | Trading\noperating profit |  | Net other trading\nincome/(expenses) (b) | of which\nimpairment\nof property, plant \nand equipment | of which\nrestructuring costs |  |  |  | \nPowdered and Liquid Beverages | 12339 | 2607 | 2506 |  | -101 | -50 | -32 |  |  |  | \nWater | 1706 | 187 | 57 |  | -130 | -6 | -94 |  |  |  | \nMilk products and Ice cream | 5418 | 1261 | 1227 |  | -34 | -10 | -15 |  |  |  | \nNutrition and Health Science | 7832 | 1529 | 1416 |  | -113 | -34 | -40 |  |  |  | \nPrepared dishes and cooking aids | 5931 | 989 | 924 |  | -65 | -3 | -52 |  |  |  | \nConfectionery | 3694 | 536 | 467 |  | -69 | -3 | -11 |  |  |  | \nPetCare | 9373 | 1959 | 1939 |  | -20 | -4 | -11 |  |  |  | \nUnallocated items (c) |  | -1164 | -1185 |  | -21 |  | -7 |  |  |  | \nTotal | 46293 | 7904 | 7351 |  | -553 | -110 | -262 |  |  |  | \nIn millions of CHF |  |  |  |  |  |  | January–June\n2022 |  |  |  | \n | Sales | Underlying Trading\noperating profit  (a) | Trading\noperating profit |  | Net other trading\nincome/(expenses) (b) | of which\nimpairment\nof property, plant \nand equipment | of which\nrestructuring costs |  |  |  | \nPowdered and Liquid Beverages | 12335 | 2915 | 2873 |  | -42 | -14 | -7 |  |  |  | \nWater | 1792 | 175 | 176 |  | 1 | 1 | -2 |  |  |  | \nMilk products and Ice cream | 5443 | 1192 | 1174 |  | -18 | -2 | -2 |  |  |  | \nNutrition and Health Science | 7689 | 1502 | 1106 |  | -396 | -9 | -18 |  |  |  | \nPrepared dishes and cooking aids | 6137 | 974 | 599 |  | -375 | -52 | -10 |  |  |  | \nConfectionery | 3595 | 498 | 464 |  | -34 | -11 | -6 |  |  |  | \nPetCare | 8589 | 1635 | 1519 |  | -116 | -54 | -38 |  |  |  | \nUnallocated items (c) | — | -1208 | -1227 |  | -19 | -1 | -4 |  |  |  | \nTotal | 45580 | 7683 | 6684 |  | -999 | -142 | -87 |  |  |  | \n(a) Trading operating profit before Net other trading income/(expenses). |  |  |  |  |  |  |  |  |  |  | \n(b) Included in Trading operating profit. |  |  |  |  |  |  |  |  |  |  | \n(c) Mainly corporate expenses as well as research and development costs. |  |  |  |  |  |  |  |  |  |  | ",
+      "source_file": "2023-half-year-analyses-by-segment.xlsx",
+      "source_page": 0,
+      "keywords": [
+        "CHF",
+        "Sheet",
+        "Columns",
+        "Revenue",
+        "Powdered"
+      ],
+      "created_at": "2026-06-22T11:56:16.270966",
+      "metadata": {
+        "element_type": "excel_table",
+        "sheet": "Prod.Rev.and results 30 06 2023",
+        "parser": "openpyxl"
+      }
+    },
+    {
+      "id": "35739ee6-7a8d-4d61-b8fc-b2686d7b0376",
+      "type": "general",
+      "title": "Excel Table - {sheet_name}",
+      "content": "Sheet: {sheet_name}\nColumns: {', '.join(header_row)}\nOther information |  |  |  |  |  |  |  | \nIn millions of CHF |  | January–June\n2023 |  |  | January–June\n2022 |  |  | \n | Impairment of \ngoodwill and\nnon-commercialized\nintangible assets (b) | Impairment of\nintangible assets (c) |  | Impairment of \ngoodwill and\nnon-commercialized\nintangible assets (b) | Impairment of\nintangible assets (c) |  |  | \nPowdered and Liquid Beverages |  | -2 |  | — | — |  |  | \nWater |  | -21 |  | — | — |  |  | \nMilk products and Ice cream |  |  |  | — | — |  |  | \nNutrition and Health Science | -16 | -5 |  | — | -314 |  |  | \nPrepared dishes and cooking aids |  |  |  | — | -285 |  |  | \nConfectionery |  | -12 |  | — | — |  |  | \nPetCare |  | -15 |  | — | — |  |  | \nUnallocated items (a) |  |  |  | — | — |  |  | \nTotal | -16 | -55 |  |  | -599 |  |  | \n(a) Mainly corporate and research and development assets. |  |  |  |  |  |  |  | \n(b) Included in Operating profit. |  |  |  |  |  |  |  | \n(c) Included in Trading operating profit. |  |  |  |  |  |  |  | ",
+      "source_file": "2023-half-year-analyses-by-segment.xlsx",
+      "source_page": 0,
+      "keywords": [
+        "CHF",
+        "Sheet",
+        "Columns",
+        "Other",
+        "Powdered"
+      ],
+      "created_at": "2026-06-22T11:56:16.271318",
+      "metadata": {
+        "element_type": "excel_table",
+        "sheet": "Prod.-Other inform. 30 06 23",
+        "parser": "openpyxl"
+      }
+    },
+    {
+      "id": "693e6eb8-fa3d-4a3d-a28f-fc9eb78c52a2",
+      "type": "general",
+      "title": "Excel Table - {sheet_name}",
+      "content": "Sheet: {sheet_name}\nColumns: {', '.join(header_row)}\n3.4 Reconciliation from Underlying Trading operating profit to profit before taxes, \nassociates and joint ventures |  |  |  |  |  |  | \nIn millions of CHF | January–June\n2023 | January–June\n2022 |  |  |  |  | \nUnderlying trading operating profit (a) as per Note 3.1 | 7904 | 7683 |  |  |  |  | \nNet other trading income/(expenses) as per Note 5.1 | -553 | -999 |  |  |  |  | \nTrading operating profit as per Note 3.1 | 7351 | 6684 |  |  |  |  | \nImpairment of goodwill and non-commercialized intangible assets | -16 |  |  |  |  |  | \nNet other operating income/(expenses) | -73 | -65 |  |  |  |  | \nOperating profit | 7262 | 6619 |  |  |  |  | \nNet financial income/(expense) | -697 | -434 |  |  |  |  | \nProfit before taxes, associates and joint ventures | 6565 | 6185 |  |  |  |  | \n(a) Trading operating profit before Net other trading income/(expenses). |  |  |  |  |  |  | ",
+      "source_file": "2023-half-year-analyses-by-segment.xlsx",
+      "source_page": 0,
+      "keywords": [
+        "CHF",
+        "Sheet",
+        "Columns",
+        "Underlying",
+        "Net",
+        "note"
+      ],
+      "created_at": "2026-06-22T11:56:16.271577",
+      "metadata": {
+        "element_type": "excel_table",
+        "sheet": "Reconciliation 30 06 2023",
+        "parser": "openpyxl"
+      }
+    }
+  ]
+}

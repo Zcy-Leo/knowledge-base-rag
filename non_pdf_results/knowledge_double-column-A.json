@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0",
+  "source_file": "double-column-A.jpg",
+  "total_entries": 22,
+  "entries": [
+    {
+      "id": "eb77dd9b-4256-46c4-b8d6-5ec47ec027e7",
+      "type": "manual_section",
+      "title": "SUBCHAPTER A—CIVIL SERVICE RULES",
+      "content": "SUBCHAPTER A—CIVIL SERVICE RULES",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [
+        "SUBCHAPTER",
+        "CIVIL",
+        "SERVICE",
+        "RULES"
+      ],
+      "created_at": "2026-06-22T11:56:27.102605",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "5704c50d-b50c-421c-a9c3-7894016685b5",
+      "type": "general",
+      "title": "PART 1—COVERAGE AND\nDEFINITIONS (RULE 1)",
+      "content": "PART 1—COVERAGE AND\nDEFINITIONS (RULE 1)",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [
+        "DEFINITIONS",
+        "RULE",
+        "COVERAGE",
+        "PART"
+      ],
+      "created_at": "2026-06-22T11:56:27.102648",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "7af85bf5-6857-4f2f-b3fa-320d6b64cc47",
+      "type": "general",
+      "title": "1.1 Positions and employees affected by the\nrules ...",
+      "content": "1.1 Positions and employees affected by the\nrules in this subchapter.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.102685",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "54f1ea06-7140-4d9f-b9f6-5e4b732a692e",
+      "type": "general",
+      "title": "1.2 Extent of the competitive service.",
+      "content": "1.2 Extent of the competitive service.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.102708",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "8819f53d-1feb-4cd3-b732-84dacb0c28f6",
+      "type": "general",
+      "title": "1.3 Definitions.",
+      "content": "1.3 Definitions.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.102745",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "bb007923-0447-4993-a7af-2b7e2a3c2b27",
+      "type": "general",
+      "title": "1.4 Extent of the excepted service.",
+      "content": "1.4 Extent of the excepted service.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.102768",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "e39fc0ef-2f88-4acf-a96f-b9d73c8561e5",
+      "type": "general",
+      "title": "AUTHORITY: 5 U.S.C. 3301, 3302.",
+      "content": "AUTHORITY: 5 U.S.C. 3301, 3302.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [
+        "AUTHORITY"
+      ],
+      "created_at": "2026-06-22T11:56:27.102792",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "77c15962-9a45-431e-a703-6e6d4eca9b72",
+      "type": "general",
+      "title": "SOURCE: 28 FR 10022, Sept. 14, 1963, unless\notherw...",
+      "content": "SOURCE: 28 FR 10022, Sept. 14, 1963, unless\notherwise noted.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [
+        "SOURCE"
+      ],
+      "created_at": "2026-06-22T11:56:27.102821",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "24a5dd66-3ac2-43bb-aa7f-2c16ffd6a163",
+      "type": "general",
+      "title": "§1.1 Positions and employees affected\nby the rules...",
+      "content": "§1.1 Positions and employees affected\nby the rules in this subchapter.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.102852",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "f89dd45e-8c24-4efb-a660-e8e6bb6964c9",
+      "type": "manual_section",
+      "title": "The rules in this subchapter shall\napply to all po...",
+      "content": "The rules in this subchapter shall\napply to all positions in the competi-\ntive service and to all incumbents of\nsuch positions. Except as expressly pro-\nvided in the rule concerned, the rules\nin this subchapter shall not apply to\npositions and employees in the ex-\ncepted service.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Except"
+      ],
+      "created_at": "2026-06-22T11:56:27.102931",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "117c2a80-7843-4e06-b34d-397cdedb29aa",
+      "type": "general",
+      "title": "§1.2 Extent of the competitive service.",
+      "content": "§1.2 Extent of the competitive service.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.102952",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "56f80c17-36d6-4582-b0f7-3d9f3feca06c",
+      "type": "general",
+      "title": "The competitive service shall in-\nclude: (a) All c...",
+      "content": "The competitive service shall in-\nclude: (a) All civilian positions in the\nexecutive branch of the Government\nunless specifically excepted therefrom\nby or pursuant to statute or by the Of-\nfice of Personnel Management (here-\nafter referred to in this subchapter as\nOPM) under §6.1 of this subchapter;\nand (b) all positions in the legislative\nand judicial branches of the Federal\nGovernment and in the Government of\nthe District of Columbia which are spe-\ncifically made subject to the civil serv-\nice laws by statute. OPM is authorized\nand directed to determine finally\nwhether a position is in the competi-\ntive service.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [
+        "OPM",
+        "Government"
+      ],
+      "created_at": "2026-06-22T11:56:27.103111",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "b1b6c6e2-94cb-4626-917a-85ff93b208c3",
+      "type": "general",
+      "title": "$1.3 Definitions.",
+      "content": "$1.3 Definitions.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.103126",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "7e8712e8-ee13-455c-98cb-a448e0ec1d61",
+      "type": "manual_section",
+      "title": "As used in the rules in this sub-\nchapter:",
+      "content": "As used in the rules in this sub-\nchapter:",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.103150",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "ae830a99-4fc8-481a-a04c-4862a138006c",
+      "type": "general",
+      "title": "(a) Competitive service shall have the\nsame meanin...",
+      "content": "(a) Competitive service shall have the\nsame meaning as the words “classified\nservice’, or “classified (competitive)\nservice’’, or “classified civil service” as\ndefined in existing statutes and execu-\ntive orders.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.103213",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "2dcc7481-fd6b-4c3f-bb71-0767fbb64215",
+      "type": "general",
+      "title": "(b) Competitive position shall mean a\nposition in ...",
+      "content": "(b) Competitive position shall mean a\nposition in the competitive service.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.103242",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "aae79d45-5f79-4ba9-95d1-bd059699f2b5",
+      "type": "general",
+      "title": "(c) Competitive status shall mean basic\neligibilit...",
+      "content": "(c) Competitive status shall mean basic\neligibility to be noncompetitively se-\nlected to fill a vacancy in a competi-\ntive position. A competitive status\nshall be acquired by career-conditional\nor career appointment through open\ncompetitive examination upon satis-\nfactory completion of a probationary\nperiod, or may be granted by statute,\nexecutive order, or the Civil Service\nRules without competitive examina-\ntion. A person with competitive status\nmay be promoted, transferred, reas-\nsigned, reinstated, or demoted without\ntaking an open competitive examina-\ntion, subject to the conditions pre-\nscribed by the Civil Service Rules and\nRegulations.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Rules",
+        "Regulations"
+      ],
+      "created_at": "2026-06-22T11:56:27.103395",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "cdcded25-ba38-4666-8ec9-0a6094fc915e",
+      "type": "general",
+      "title": "(d) An employee shall be considered\nas being in th...",
+      "content": "(d) An employee shall be considered\nas being in the competitive service\nwhen he has a competitive status and\noccupies a competitive position unless\nhe is serving under a temporary ap-\npointment: Provided, that an employee\nwho is in the competitive service at the\ntime his position is first listed under\nSchedule A, B, or C shall be considered\nas continuing in the competitive serv-\nice as long as he continues to occupy\nsuch position.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Provided",
+        "Schedule"
+      ],
+      "created_at": "2026-06-22T11:56:27.103505",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "d4d4ab15-1980-44eb-a681-03b554857845",
+      "type": "general",
+      "title": "(e) Tenure shall mean the period of\ntime an employ...",
+      "content": "(e) Tenure shall mean the period of\ntime an employee may reasonably ex-\npect to serve under his current ap-\npointment. Tenure shall be granted and\ngoverned by the type of appointment\nunder which an employee is currently\nserving without regard to whether he\nhas a competitive status or whether his\nappointment is to a competitive posi-\ntion or an excepted position.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Tenure"
+      ],
+      "created_at": "2026-06-22T11:56:27.103600",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "b93bd022-3f9d-471a-bc8e-aea9bb00b2a7",
+      "type": "general",
+      "title": "§1.4 Extent of the excepted service.",
+      "content": "§1.4 Extent of the excepted service.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.103621",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "924a34ae-c3e3-4579-a303-b98fec0ae26b",
+      "type": "general",
+      "title": "(a) The excepted service shall include\nall civilia...",
+      "content": "(a) The excepted service shall include\nall civilian positions in the executive\nbranch of the Government which are\nspecifically excepted from the require-\nments of the Civil Service Act or from\nthe competitive service by or pursuant\nto statute or by OPM under §6.1 of this\nsubchapter.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [
+        "OPM"
+      ],
+      "created_at": "2026-06-22T11:56:27.103698",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "356f51d3-cc58-4ee6-808b-a65545fa52d0",
+      "type": "general",
+      "title": "(b) Excepted service shall have the\nsame meaning a...",
+      "content": "(b) Excepted service shall have the\nsame meaning as the words “‘unclassi-\nfied service’, or “unclassified civil\nservice’, or ‘‘positions outside the\ncompetitive civil service’ as used in\nexisting statutes and executive orders.",
+      "source_file": "double-column-A.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:27.103764",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    }
+  ]
+}

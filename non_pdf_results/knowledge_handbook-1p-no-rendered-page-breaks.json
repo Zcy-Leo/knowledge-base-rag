@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0",
+  "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+  "total_entries": 13,
+  "entries": [
+    {
+      "id": "78ace5fe-88bf-4a1a-b0dd-d2da10110dc6",
+      "type": "general",
+      "title": "Header: US Trustee Handbook",
+      "content": "US Trustee Handbook",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.688642",
+      "metadata": {
+        "element_type": "header",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "ee1a530e-c370-4464-8105-05c999b8860a",
+      "type": "manual_section",
+      "title": "INTRODUCTION",
+      "content": "INTRODUCTION",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "INTRODUCTION"
+      ],
+      "created_at": "2026-06-22T11:57:38.689111",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "0f8b0dcd-b361-4d19-b43a-c40ee9feaba2",
+      "type": "manual_section",
+      "title": "CHAPTER 1 – INTRODUCTION",
+      "content": "CHAPTER 1 – INTRODUCTION",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "CHAPTER",
+        "INTRODUCTION",
+        "CHAPTER 1"
+      ],
+      "created_at": "2026-06-22T11:57:38.689341",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "649332ed-4222-448e-b97f-75b7faa52b9d",
+      "type": "general",
+      "title": "A.\tPURPOSE",
+      "content": "A.\tPURPOSE",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "PURPOSE"
+      ],
+      "created_at": "2026-06-22T11:57:38.689502",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "f855eaeb-c295-447b-b984-9e418d73b7db",
+      "type": "general",
+      "title": "The United States Trustee appoints and supervises ...",
+      "content": "The United States Trustee appoints and supervises standing trustees and monitors and supervises cases under chapter 13 of title 11 of the United States Code.  28 U.S.C. § 586(b).  The Handbook, issued as part of our duties under 28 U.S.C. § 586, establishes or clarifies the position of the United States Trustee Program (Program) on the duties owed by a standing trustee to the debtors, creditors, other parties in interest, and the United States Trustee.  The Handbook does not present a full and complete statement of the law; it should not be used as a substitute for legal research and analysis.  The standing trustee must be familiar with relevant provisions of the Bankruptcy Code, Federal Rules of Bankruptcy Procedure (Rules), any local bankruptcy rules, and case law.  11 U.S.C. § 321, 28 U.S.C. § 586, 28 C.F.R. § 58.6(a)(3).  Standing trustees are encouraged to follow Practice Tips identified in this Handbook but these are not considered mandatory.",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "chapter 13"
+      ],
+      "created_at": "2026-06-22T11:57:38.689942",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "bbdc6113-24e9-4f32-b43a-79ea2260bf40",
+      "type": "general",
+      "title": "Nothing in this Handbook should be construed to ex...",
+      "content": "Nothing in this Handbook should be construed to excuse the standing trustee from complying with all duties imposed by the Bankruptcy Code and Rules, local rules, and orders of the court.  The standing trustee should notify the United States Trustee whenever the provision of the Handbook conflicts with the local rules or orders of the court.  The standing trustee is accountable for all duties set forth in this Handbook, but need not personally perform any duty unless otherwise indicated.  All statutory references in this Handbook refer to the Bankruptcy Code, 11 U.S.C. § 101 et seq., unless otherwise indicated.",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "Nothing"
+      ],
+      "created_at": "2026-06-22T11:57:38.690257",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "6c761017-8c5f-4d2c-b53c-b9f1a1e80092",
+      "type": "general",
+      "title": "This Handbook does not create additional rights ag...",
+      "content": "This Handbook does not create additional rights against the standing trustee or United States Trustee in favor of other parties.",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.690449",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "cf57dd1d-f575-4bfa-9d92-ab9478f971f8",
+      "type": "general",
+      "title": "B.\tROLE OF THE UNITED STATES TRUSTEE",
+      "content": "B.\tROLE OF THE UNITED STATES TRUSTEE",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "UNITED",
+        "ROLE",
+        "STATES"
+      ],
+      "created_at": "2026-06-22T11:57:38.690733",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "5832662c-b2aa-4f1d-839d-c75005e3a7bc",
+      "type": "general",
+      "title": "The Bankruptcy Reform Act of 1978 removed the bank...",
+      "content": "The Bankruptcy Reform Act of 1978 removed the bankruptcy judge from the responsibilities for daytoday administration of cases.  Debtors, creditors, and third parties with adverse interests to the trustee were concerned that the court, which previously appointed and supervised the trustee, would not impartially adjudicate their rights as adversaries of that trustee. To address these concerns, judicial and administrative functions within the bankruptcy system were bifurcated.",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "system"
+      ],
+      "created_at": "2026-06-22T11:57:38.691008",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "6747cf47-4700-4146-bd44-ca003590bc14",
+      "type": "general",
+      "title": "Many administrative functions formerly performed b...",
+      "content": "Many administrative functions formerly performed by the court were placed within the Department of Justice through the creation of the Program.  Among the administrative functions assigned to the United States Trustee were the appointment and supervision of chapter 13 trustees./  This Handbook is issued under the authority of the Program’s enabling statutes.",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "Many",
+        "chapter 13"
+      ],
+      "created_at": "2026-06-22T11:57:38.691333",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "908e641d-dc12-486f-bdeb-7985309fc33f",
+      "type": "general",
+      "title": "C.\tSTATUTORY DUTIES OF A STANDING TRUSTEE",
+      "content": "C.\tSTATUTORY DUTIES OF A STANDING TRUSTEE",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "DUTIES",
+        "STATUTORY",
+        "TRUSTEE",
+        "STANDING"
+      ],
+      "created_at": "2026-06-22T11:57:38.691527",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "8c6dcd2a-05b0-4aa1-adf1-1d106fede4e2",
+      "type": "general",
+      "title": "The standing trustee has a fiduciary responsibilit...",
+      "content": "The standing trustee has a fiduciary responsibility to the bankruptcy estate.  The standing trustee is more than a mere disbursing agent.  The standing trustee must be personally involved in the trustee operation.  If the standing trustee is or becomes unable to perform the duties and responsibilities of a standing trustee, the standing trustee must immediately advise the United States Trustee.  28 U.S.C. § 586(b), 28 C.F.R. § 58.4(b) referencing 28 C.F.R. § 58.3(b).",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:38.691816",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "53d1ed25-a49f-4aeb-97bb-675735b42be2",
+      "type": "general",
+      "title": "Although this Handbook is not intended to be a com...",
+      "content": "Although this Handbook is not intended to be a complete statutory reference, the standing trustee’s primary statutory duties are set forth in 11 U.S.C. § 1302, which incorporates by reference some of the duties of chapter 7 trustees found in 11 U.S.C. § 704.  These duties include, but are not limited to, the following:",
+      "source_file": "handbook-1p-no-rendered-page-breaks.docx",
+      "source_page": 0,
+      "keywords": [
+        "chapter 7"
+      ],
+      "created_at": "2026-06-22T11:57:38.692102",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "normal",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

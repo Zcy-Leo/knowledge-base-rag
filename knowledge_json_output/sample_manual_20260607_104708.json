@@ -1,0 +1,780 @@
+{
+  "schema_version": "1.0",
+  "source_file": "sample_manual.pdf",
+  "total_entries": 60,
+  "entries": [
+    {
+      "id": "85005999-a445-4cfc-84f1-ff7daefae247",
+      "type": "general",
+      "title": "**Top and Front Panels**",
+      "content": "The router includes status LEDs on top and a USB 3.0-Storage port on the front.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 1,
+      "keywords": [
+        "USB"
+      ],
+      "created_at": "2026-06-07T10:47:08.419842",
+      "metadata": {}
+    },
+    {
+      "id": "47e468fe-62d2-4978-8ecb-368fed200c53",
+      "type": "general",
+      "title": "**Top and Front Panels** (续1)",
+      "content": "![](_page_0_Picture_3.jpeg)",
+      "source_file": "sample_manual.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.419871",
+      "metadata": {}
+    },
+    {
+      "id": "8b483e01-212e-4d6a-aad1-e6b67dfbb841",
+      "type": "general",
+      "title": "**Top and Front Panels** (续2)",
+      "content": "**Figure 2. Router top and front view**",
+      "source_file": "sample_manual.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.419884",
+      "metadata": {}
+    },
+    {
+      "id": "d811c238-164a-4310-abe7-49e1877c60d8",
+      "type": "general",
+      "title": "**Top and Front Panels** (续3)",
+      "content": "**Table 1. LED and button descriptions**",
+      "source_file": "sample_manual.pdf",
+      "source_page": 1,
+      "keywords": [
+        "LED"
+      ],
+      "created_at": "2026-06-07T10:47:08.419896",
+      "metadata": {}
+    },
+    {
+      "id": "6d951f8b-e892-4848-b6f6-39bc7f442f65",
+      "type": "general",
+      "title": "**Top and Front Panels** (续4)",
+      "content": "| LED                         | Description                                                                                                                                                                                                                                                                              |\n|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Power                       | •<br>Solid amber. The router is starting.<br>•<br>Blinking amber. The firmware is upgrading, or the Reset button was pressed.<br>•<br>Solid white. The router is ready.<br>•<br>Blinking white. The firmware is corrupted.<br>•<br>Off. Power is not supplied to the router.             |\n| Internet                    | •<br>Solid white. The Internet connection is ready.<br>•<br>Solid amber. The router detected an Ethernet cable connection to the modem.<br>•<br>Off. No Ethernet cable is connected between the router and the modem.                                                                    |\n| 2.4 GHz WiFi                | •<br>Solid white. The 2.4 GHz WiFi radio is operating.<br>•<br>Blinking. The router is sending or receiving WiFi traffic.<br>•<br>Off. The 2.4 GHz WiFi radio is off.                                                                                                                    |\n| 5 GHz WiFi                  | •<br>Solid white. The 5 GHz WiFi radio is operating.<br>•<br>Blinking. The router is sending or receiving WiFi traffic.<br>•<br>Off. The 5 GHz WiFi radio is off.                                                                                                                        |\n| USB<br>3.0-Storage<br>port) | •<br>Solid white. A USB device is connected and is ready.<br>•<br>Blinking. A USB device is plugged in and is trying to connect.<br>•<br>Off. No USB device is connected, or someone clicked the Safely Remove Hardware<br>button, and it is now safe to remove the attached USB device. |",
+      "source_file": "sample_manual.pdf",
+      "source_page": 1,
+      "keywords": [
+        "USB",
+        "LED"
+      ],
+      "created_at": "2026-06-07T10:47:08.419993",
+      "metadata": {}
+    },
+    {
+      "id": "b5de4706-534e-4028-b595-044d5f77a70a",
+      "type": "general",
+      "title": "**Top and Front Panels** (续5)",
+      "content": "**Table 1. LED and button descriptions (continued)**",
+      "source_file": "sample_manual.pdf",
+      "source_page": 1,
+      "keywords": [
+        "LED"
+      ],
+      "created_at": "2026-06-07T10:47:08.420002",
+      "metadata": {}
+    },
+    {
+      "id": "458140b1-ff7d-4f8d-b51d-f23068467767",
+      "type": "general",
+      "title": "**Top and Front Panels** (续6)",
+      "content": "| LED                            | Description                                                                                                                                                                                                                                                                                                                       |\n|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| USB 2.0-Printer<br>port        | •<br>Solid white. A USB device is connected and is ready.<br>•<br>Blinking. A USB device is plugged in and is trying to connect.<br>•<br>Off. No USB device is connected or someone clicked the Safely Remove Hardware<br>button and it is now safe to remove the attached USB device.                                            |\n| Ethernet ports<br>1–4          | The LED color indicates the speed: white for Gigabit Ethernet connections and amber for 100<br>Mbps or 10 Mbps Ethernet connections.<br>•<br>Solid. A powered-on device is connected to the Ethernet port.<br>•<br>Blinking. The port is sending or receiving traffic.<br>•<br>Off. No device is connected to this Ethernet port. |\n| WiFi On/Off<br>button with LED | Pressing this button for two seconds turns the 2.4 GHz and 5 GHz WiFi radios on and off.<br>If this LED is lit, the WiFi radios are on. If this LED is off, the WiFi radios are turned off and you<br>cannot use WiFi to connect to the router.                                                                                   |\n| WPS button with<br>LED         | This button lets you use WPS to join the WiFi network without typing the WiFi password. The<br>WPS LED blinks white during this process and then lights solid white.                                                                                                                                                              |",
+      "source_file": "sample_manual.pdf",
+      "source_page": 1,
+      "keywords": [
+        "WPS",
+        "USB",
+        "LED"
+      ],
+      "created_at": "2026-06-07T10:47:08.420107",
+      "metadata": {}
+    },
+    {
+      "id": "4b4ee40b-5e04-4a6b-b09b-cc5ec0214996",
+      "type": "general",
+      "title": "**Top and Front Panels** (续7)",
+      "content": "You can disable LED blinking or turn off all LEDs except the Power LED. For information about how to do this, see *Disable LED Blinking or Turn Off LEDs* on page 107.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 1,
+      "keywords": [
+        "LED"
+      ],
+      "created_at": "2026-06-07T10:47:08.420124",
+      "metadata": {}
+    },
+    {
+      "id": "f427c7bc-8aae-4f1f-b83b-cf650729c7a3",
+      "type": "general",
+      "title": "**Rear Panel**",
+      "content": "The rear panel includes the connections and buttons shown in the following figure.\n\n![](_page_1_Picture_6.jpeg)\n\n**Figure 3. Router rear panel**\n\nPressing the **Reset** button restores the factory settings. See *Factory Settings* on page 178.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 8,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420155",
+      "metadata": {
+        "heading_level": 1
+      }
+    },
+    {
+      "id": "95cc0ca4-2949-46da-a72e-69d92d152844",
+      "type": "general",
+      "title": "**Position Your Router**",
+      "content": "The router lets you access your network anywhere within the operating range of your wireless network. However, the operating distance or range of your wireless connection can",
+      "source_file": "sample_manual.pdf",
+      "source_page": 8,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420209",
+      "metadata": {}
+    },
+    {
+      "id": "4a4fc5b5-165f-4be9-9ab4-ec890f69d6ba",
+      "type": "general",
+      "title": "**Position Your Router** (续1)",
+      "content": "#### **AC1750 Smart WiFi Router**",
+      "source_file": "sample_manual.pdf",
+      "source_page": 8,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420220",
+      "metadata": {}
+    },
+    {
+      "id": "c1b22d61-02b9-4264-a2c0-e626f9dfbf37",
+      "type": "general",
+      "title": "**Position Your Router** (续2)",
+      "content": "vary significantly depending on the physical placement of your router. For example, the thickness and number of walls the wireless signal passes through can limit the range.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 8,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420233",
+      "metadata": {}
+    },
+    {
+      "id": "3c2f8d0c-4582-49a1-8e52-20b92387dfb2",
+      "type": "general",
+      "title": "**Position Your Router** (续3)",
+      "content": "Additionally, other wireless access points in and around your home might affect your router's signal. Wireless access points are routers, repeaters, WiFi range extenders, or any other device that emits a wireless signal for network access.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 8,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420251",
+      "metadata": {}
+    },
+    {
+      "id": "bced2f28-a1d5-43ec-934f-e2326cb79e00",
+      "type": "general",
+      "title": "**Position Your Router** (续4)",
+      "content": "Position your router according to the following guidelines:",
+      "source_file": "sample_manual.pdf",
+      "source_page": 8,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420260",
+      "metadata": {}
+    },
+    {
+      "id": "bd92e3c6-7891-44b1-8175-575b9079f0a4",
+      "type": "general",
+      "title": "**Position Your Router** (续5)",
+      "content": "- **•** Place your router near the center of the area where your computers and other devices operate, and within line of sight to your wireless devices.\n- **•** Make sure that the router is within reach of an AC power outlet and near Ethernet cables for wired computers.\n- **•** Place the router in an elevated location, minimizing the number walls and ceilings between the router and your other devices.\n- **•** Place the router away from electrical devices such as these:\n  - **-** Ceiling fans\n  - **-** Home security systems\n  - **-** Microwaves\n  - **-** Computers\n  - **-** Base of a cordless phone\n  - **-** 2.4 GHz cordless phone\n- **•** Place the router away from large metal surfaces, large glass surfaces, and insulated walls such as these:\n  - **-** Solid metal door\n  - **-** Aluminum studs\n  - **-** Fish tanks\n  - **-** Mirrors\n  - **-** Brick\n  - **-** Concrete",
+      "source_file": "sample_manual.pdf",
+      "source_page": 8,
+      "keywords": [
+        "AC"
+      ],
+      "created_at": "2026-06-07T10:47:08.420313",
+      "metadata": {}
+    },
+    {
+      "id": "10e651da-b5f8-421e-b4d7-df2105d2a70a",
+      "type": "general",
+      "title": "**Position Your Router** (续6)",
+      "content": "If your network includes adjacent access points, use different radio frequency channels to reduce interference.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 8,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420326",
+      "metadata": {}
+    },
+    {
+      "id": "76b04c12-9947-4ca2-9a7d-15ead4d35f95",
+      "type": "faq",
+      "title": "**Cable Your Router**",
+      "content": "The following image shows how to cable your router:\n\n![](_page_3_Picture_3.jpeg)\n\n**Figure 4. Router cabling**\n\n#### **To cable your router:**\n\n**1.** Unplug your modem's power, leaving the modem connected to the wall jack for your Internet service.\n\nIf your modem uses a battery backup, remove the battery.\n\n- **2.** Plug in and turn on your modem.\n  - If your modem uses a battery backup, replace the battery.\n- **3.** Connect your modem to the Internet port of your router with the yellow Ethernet cable that came with your router.\n- **4.** Connect the power adapter to your router and plug the power adapter into an outlet.\n- **5.** Press the **Power On/Off** button on the rear panel of the router.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 11,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420372",
+      "metadata": {
+        "heading_level": 1
+      }
+    },
+    {
+      "id": "e2bacf9f-9624-4e13-9557-40b28424129b",
+      "type": "general",
+      "title": "**2** 2. **Connect to the Network and Access the Router**",
+      "content": "This chapter contains the following sections:\n\n- **•** *Connect to the Network*\n- **•** *Types of Logins*\n- **•** *Use an Internet Browser to Access the Router*\n- **•** *Change the Language*\n- **•** *Access the Router with the NETGEAR genie App*",
+      "source_file": "sample_manual.pdf",
+      "source_page": 13,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.420408",
+      "metadata": {
+        "heading_level": 1
+      }
+    },
+    {
+      "id": "8c16d24c-293c-462e-87b3-8a1c63852aed",
+      "type": "general",
+      "title": "**Connect to the Network**",
+      "content": "You can connect to the router's network through a wired or WiFi connection. If you set up your computer to use a static IP address, change the settings so that it uses Dynamic Host Configuration Protocol (DHCP).",
+      "source_file": "sample_manual.pdf",
+      "source_page": 13,
+      "keywords": [
+        "IP",
+        "DHCP"
+      ],
+      "created_at": "2026-06-07T10:47:08.420429",
+      "metadata": {
+        "heading_level": 1
+      }
+    },
+    {
+      "id": "d52f6e94-bd9d-48e3-acd8-afe6685166a8",
+      "type": "general",
+      "title": "**Wired Connection**",
+      "content": "You can connect your computer to the router using an Ethernet cable and join the router's local area network (LAN).",
+      "source_file": "sample_manual.pdf",
+      "source_page": 14,
+      "keywords": [
+        "LAN"
+      ],
+      "created_at": "2026-06-07T10:47:08.420446",
+      "metadata": {
+        "heading_level": 2
+      }
+    },
+    {
+      "id": "2c86e025-c12b-486e-8d43-beda51e859f9",
+      "type": "general",
+      "title": "**To connect your computer to the router with an Ethernet cable:**",
+      "content": "- **1.** Make sure that the router is receiving power (its Power LED is lit).\n- **2.** Connect an Ethernet cable to an Ethernet port on your computer.\n- **3.** Connect the other end of the Ethernet cable to one of the numbered Ethernet ports.\n\nYour computer connects to the local area network (LAN). A message might display on your computer screen to notify you that an Ethernet cable is connected.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 14,
+      "keywords": [
+        "LAN",
+        "LED"
+      ],
+      "created_at": "2026-06-07T10:47:08.420477",
+      "metadata": {
+        "heading_level": 2
+      }
+    },
+    {
+      "id": "43d7eb33-6918-4d73-b561-3072a85f7fa0",
+      "type": "general",
+      "title": "**WiFi Connection**",
+      "content": "You can connect to the router's WiFi network with Wi-Fi Protected Setup (WPS) or you can find and select the WiFi network.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 15,
+      "keywords": [
+        "WPS"
+      ],
+      "created_at": "2026-06-07T10:47:08.420503",
+      "metadata": {}
+    },
+    {
+      "id": "8a66dcc2-5f61-448a-9b2b-71c230181df7",
+      "type": "general",
+      "title": "**WiFi Connection** (续1)",
+      "content": "#### **To use WPS to connect to the WiFi network:**",
+      "source_file": "sample_manual.pdf",
+      "source_page": 15,
+      "keywords": [
+        "WPS"
+      ],
+      "created_at": "2026-06-07T10:47:08.420511",
+      "metadata": {}
+    },
+    {
+      "id": "87df73dd-60c4-4b70-8cfb-beb1f61da70c",
+      "type": "general",
+      "title": "**WiFi Connection** (续2)",
+      "content": "- **1.** Make sure that the router is receiving power (its Power LED is lit).\n- **2.** Check the WPS instructions for your computer or wireless device.\n- **3.** Press the **WPS** button on the router.\n- **4.** Within two minutes, on your computer or WiFi device, press its **WPS** button or follow its instructions for WPS connections.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 15,
+      "keywords": [
+        "WPS",
+        "LED"
+      ],
+      "created_at": "2026-06-07T10:47:08.420534",
+      "metadata": {}
+    },
+    {
+      "id": "e2f4540f-e00b-4fc5-a9a5-c2c9f62524b3",
+      "type": "general",
+      "title": "**WiFi Connection** (续3)",
+      "content": "Your computer or wireless device connects to the WiFi network.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 15,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420543",
+      "metadata": {}
+    },
+    {
+      "id": "d3cb76a9-86c1-4abb-939a-84b3fb52213f",
+      "type": "general",
+      "title": "**WiFi Connection** (续4)",
+      "content": "#### **To find and select the WiFi network:**",
+      "source_file": "sample_manual.pdf",
+      "source_page": 15,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420552",
+      "metadata": {}
+    },
+    {
+      "id": "95e12a4f-70e1-490e-8536-acb13e48efa8",
+      "type": "general",
+      "title": "**WiFi Connection** (续5)",
+      "content": "- **1.** Make sure that the router is receiving power (its Power LED is lit).\n- **2.** On your computer or wireless device, find and select the WiFi network.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 15,
+      "keywords": [
+        "LED"
+      ],
+      "created_at": "2026-06-07T10:47:08.420570",
+      "metadata": {}
+    },
+    {
+      "id": "5ca6c83b-8db8-4c9e-9915-730f26470e1f",
+      "type": "general",
+      "title": "**WiFi Connection** (续6)",
+      "content": "The WiFi network name is on the router's label.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 15,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420579",
+      "metadata": {}
+    },
+    {
+      "id": "d04490ef-d752-4e24-8907-33fd924455f1",
+      "type": "general",
+      "title": "**WiFi Connection** (续7)",
+      "content": "**3.** Join the WiFi network and enter the WiFi password.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 15,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420589",
+      "metadata": {}
+    },
+    {
+      "id": "349897cf-8778-484f-809f-9501c00e4b4c",
+      "type": "general",
+      "title": "**WiFi Connection** (续8)",
+      "content": "The password is on the router's label.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 15,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420597",
+      "metadata": {}
+    },
+    {
+      "id": "3b82fe81-a34b-46e0-86c4-31862b8cefd6",
+      "type": "general",
+      "title": "**WiFi Connection** (续9)",
+      "content": "Your wireless device connects to the WiFi network.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 15,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420607",
+      "metadata": {}
+    },
+    {
+      "id": "00c7e3e4-f983-4fb7-a065-ef05546d021b",
+      "type": "general",
+      "title": "**Label**",
+      "content": "The label on the router shows the login information, MAC address, and serial number.\n\n![](_page_6_Figure_3.jpeg)\n\n**Figure 5. Router label**",
+      "source_file": "sample_manual.pdf",
+      "source_page": 16,
+      "keywords": [
+        "MAC"
+      ],
+      "created_at": "2026-06-07T10:47:08.420629",
+      "metadata": {
+        "heading_level": 2
+      }
+    },
+    {
+      "id": "0157475d-bc0d-476b-94a3-b6072e8526c8",
+      "type": "general",
+      "title": "**Types of Logins**",
+      "content": "Separate types of logins serve different purposes. It is important that you understand the difference so that you know which login to use when.\n\nTypes of logins:\n\n- **• ISP login**. The login that your ISP gave you logs you in to your Internet service. Your service provider gave you this login information in a letter or some other way. If you cannot find this login information, contact your service provider.\n- **• WiFi network key or password**. Your router is preset with a unique wireless network name (SSID) and password for wireless access. This information is on the router label.\n- **• Router login**. This logs you in to the router interface as admin from an Internet browser.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 17,
+      "keywords": [
+        "ISP",
+        "SSID"
+      ],
+      "created_at": "2026-06-07T10:47:08.420684",
+      "metadata": {
+        "heading_level": 1
+      }
+    },
+    {
+      "id": "baf0f168-5b83-4ac4-9ccf-3722fbc0d428",
+      "type": "faq",
+      "title": "**Use an Internet Browser to Access the Router**",
+      "content": "When you connect to the network (either with WiFi or with an Ethernet cable), you can use an Internet browser to access the router to view or change its settings. The first time you access the router, NETGEAR genie automatically checks to see if your router can connect to your Internet service.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 18,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.420711",
+      "metadata": {
+        "heading_level": 1
+      }
+    },
+    {
+      "id": "4a10f902-baa3-414c-8a78-56a20d661b8b",
+      "type": "general",
+      "title": "**NETGEAR genie Automatic Internet Setup**",
+      "content": "You can set up your router with the NETGEAR genie automatically, or you can use the genie menus and pages to set up your router manually. Before you start the setup process, get your ISP information and make sure that the computers and devices in the network use the settings described here.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 18,
+      "keywords": [
+        "NETGEAR",
+        "ISP"
+      ],
+      "created_at": "2026-06-07T10:47:08.420753",
+      "metadata": {}
+    },
+    {
+      "id": "5f0a0eff-9d5d-47ab-b0fc-92639cadb14d",
+      "type": "general",
+      "title": "**NETGEAR genie Automatic Internet Setup** (续1)",
+      "content": "When your Internet service starts, your Internet service provider (ISP) typically gives you all the information needed to connect to the Internet. For DSL service, you might need the following information to set up your router:",
+      "source_file": "sample_manual.pdf",
+      "source_page": 18,
+      "keywords": [
+        "DSL",
+        "ISP"
+      ],
+      "created_at": "2026-06-07T10:47:08.420771",
+      "metadata": {}
+    },
+    {
+      "id": "3a0fe77f-030a-4251-9988-ca633083072d",
+      "type": "general",
+      "title": "**NETGEAR genie Automatic Internet Setup** (续2)",
+      "content": "- **•** The ISP configuration information for your DSL account\n- **•** ISP login name and password\n- **•** Fixed or static IP address settings (special deployment by ISP; this setting is rare)",
+      "source_file": "sample_manual.pdf",
+      "source_page": 18,
+      "keywords": [
+        "DSL",
+        "IP",
+        "ISP"
+      ],
+      "created_at": "2026-06-07T10:47:08.420787",
+      "metadata": {}
+    },
+    {
+      "id": "17554746-5c12-42ad-98e9-a5f98a63ed84",
+      "type": "general",
+      "title": "**NETGEAR genie Automatic Internet Setup** (续3)",
+      "content": "If you cannot locate this information, ask your ISP to provide it. When your Internet connection is working, you no longer need to launch the ISP login program on your computer to access the Internet. When you start an Internet application, your router automatically logs you in.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 18,
+      "keywords": [
+        "ISP"
+      ],
+      "created_at": "2026-06-07T10:47:08.420808",
+      "metadata": {}
+    },
+    {
+      "id": "f9783de7-a285-441e-bd2f-6a9a4be897de",
+      "type": "general",
+      "title": "**NETGEAR genie Automatic Internet Setup** (续4)",
+      "content": "NETGEAR genie runs on any device with a web browser. Installation and basic setup takes about 15 minutes to complete.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 18,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.420819",
+      "metadata": {}
+    },
+    {
+      "id": "c4ef777a-d029-4095-89e3-1b110788950f",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:**",
+      "content": "- **1.** Turn the router on by pressing the **On/Off** button.\n- **2.** Make sure that your computer or wireless device is connected to the router with an Ethernet cable (wired) or wirelessly with the preset security settings listed on the label.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420880",
+      "metadata": {}
+    },
+    {
+      "id": "824675dc-6b06-4d6b-8fd6-f33f2ea26825",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续1)",
+      "content": "**Note:** If you want to change the router's WiFi settings, use a wired connection to avoid being disconnected when the new WiFi settings take effect.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420893",
+      "metadata": {}
+    },
+    {
+      "id": "61a7748f-24f2-4c44-9287-7b07e876a805",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续2)",
+      "content": "**3.** Launch an Internet browser.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420900",
+      "metadata": {}
+    },
+    {
+      "id": "dd425e49-6443-47a4-90f7-e5f85a569cb1",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续3)",
+      "content": "The page that displays depends on whether you accessed the router before or if NETGEAR genie detects that the router is connected to another router or gateway:",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.420912",
+      "metadata": {}
+    },
+    {
+      "id": "bec9bbbc-400e-4771-9193-3ad4a98c9bb2",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续4)",
+      "content": "**•** The first time that you set up the Internet connection for your router, the browser goes to http://www.routerlogin.net, and the NETGEAR genie page displays.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.420926",
+      "metadata": {}
+    },
+    {
+      "id": "7ca225a9-4428-4560-a9b1-6828f5fbb03c",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续5)",
+      "content": "![](_page_7_Picture_14.jpeg)",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420935",
+      "metadata": {}
+    },
+    {
+      "id": "c1e59ff5-4099-46ff-af51-b1c38fbc156b",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续6)",
+      "content": "**•** If NETGEAR genie detects that the router is connected to another router or gateway, NETGEAR genie prompts you to set up the router in router mode or access point mode:",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.420948",
+      "metadata": {}
+    },
+    {
+      "id": "cb2aead3-bad6-4d16-bcac-b69498e87113",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续7)",
+      "content": "![](_page_8_Figure_2.jpeg)",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420955",
+      "metadata": {}
+    },
+    {
+      "id": "d30df490-135f-4b25-8a23-9334437ea1ce",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续8)",
+      "content": "Select the **Help Me Choose** radio button or **Let Me Choose** radio button:",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.420965",
+      "metadata": {}
+    },
+    {
+      "id": "0c9778d5-0a91-4af8-838e-30c8deb3cc1d",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续9)",
+      "content": "- **- Help Me Choose**. If you select the **Help Me Choose** radio button, NETGEAR genie asks you a few questions to determine if you should set the router in router mode or access point mode. NETGEAR recommends that you select the **Help Me Choose** radio button.\n- **- Let Me Choose**. If you select the **Let Me Choose** radio button, you must select the **Router Mode** radio button or the **Access Point Mode** radio button. You can change the mode by running the Setup Wizard again. For more information, see *Use the Internet Setup Wizard* on page 22.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.420995",
+      "metadata": {}
+    },
+    {
+      "id": "645e23cc-a7ca-435b-aa05-df694ba6c73e",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续10)",
+      "content": "For more information about how to set up your router with an existing router or gateway, see *Set Up the Router with an Existing Router or Gateway* on page 126.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.421010",
+      "metadata": {}
+    },
+    {
+      "id": "cd1135e7-c10a-4ec3-91bf-2cf137b5c20c",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续11)",
+      "content": "- **•** If you already used the NETGEAR genie, type **http://www.routerlogin.net** in the address field for your browser to display the NETGEAR genie page.\n- **4.** Follow the onscreen instructions.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.421029",
+      "metadata": {}
+    },
+    {
+      "id": "62a2f7db-7a8a-4f75-a60e-6e01518f254f",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续12)",
+      "content": "NETGEAR genie guides you through connecting the router to the Internet.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.421040",
+      "metadata": {}
+    },
+    {
+      "id": "06fd3c36-3b26-4634-8310-a73966dd637f",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续13)",
+      "content": "- **5.** If the browser cannot display the web page, do the following:\n  - **•** Make sure that the computer is connected to one of the four LAN Ethernet ports or wirelessly to the router.\n  - **•** Make sure that the router is receiving full power, and that its Power LED is lit white.\n  - **•** Close and reopen the browser or clear the browser cache.\n  - **•** Browse to **http://www.routerlogin.net***.*\n  - **•** If the computer is set to a static or fixed IP address (this setting is uncommon), change it to obtain an IP address automatically from the router.\n- **6.** If the router does not connect to the Internet, do the following:\n  - **a.** Review your settings.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [
+        "LAN",
+        "IP",
+        "LED"
+      ],
+      "created_at": "2026-06-07T10:47:08.421079",
+      "metadata": {}
+    },
+    {
+      "id": "e8cdcb3c-e5bc-40f6-b76c-135eb759eeb1",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续14)",
+      "content": "Make sure that you selected the correct options and typed everything correctly.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [],
+      "created_at": "2026-06-07T10:47:08.421090",
+      "metadata": {}
+    },
+    {
+      "id": "104dfa54-e4a8-4929-8ca0-fb009b2c3a24",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续15)",
+      "content": "- **b.** Contact your ISP to verify the correct configuration information.\n- **c.** Read *Chapter 14, Troubleshooting*.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [
+        "ISP",
+        "Chapter 14"
+      ],
+      "created_at": "2026-06-07T10:47:08.421106",
+      "metadata": {}
+    },
+    {
+      "id": "7ccaedce-01be-439b-b857-f048e12f766e",
+      "type": "general",
+      "title": "**To use NETGEAR genie to set up your router:** (续16)",
+      "content": "If problems persist, register your NETGEAR product and contact NETGEAR technical support.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 20,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.421117",
+      "metadata": {}
+    },
+    {
+      "id": "7cba73a1-eac8-4e93-99bb-71b2ca879975",
+      "type": "faq",
+      "title": "**Log In to the Router**",
+      "content": "When you first set up your router, NETGEAR genie automatically starts when you launch an Internet browser on a computer that is connected to the router. If you want to view or change settings for the router, you can use genie again.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 26,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.421144",
+      "metadata": {
+        "heading_level": 2
+      }
+    },
+    {
+      "id": "8410ce03-5016-40ea-8bb5-6508eeed8733",
+      "type": "general",
+      "title": "**To log in to the router:**",
+      "content": "- **1.** Launch an Internet browser from a computer or wireless device that is connected to the network.\n- **2.** Type **http://www.routerlogin.net** or **http://www.routerlogin.com**.\n\nA login window opens.\n\n**3.** Enter the router user name and password.\n\nThe user name is **admin**. The default password is **password**. The user name and password are case-sensitive.\n\nThe BASIC Home page displays.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 26,
+      "keywords": [
+        "BASIC"
+      ],
+      "created_at": "2026-06-07T10:47:08.421176",
+      "metadata": {
+        "heading_level": 2
+      }
+    },
+    {
+      "id": "553bcb09-83f9-466c-a815-5a42318d175f",
+      "type": "general",
+      "title": "**Change the Language**",
+      "content": "By default, the language is set as Auto.\n\n#### **To change the language:**\n\n- **1.** Launch an Internet browser from a computer or wireless device that is connected to the network.\n- **2.** Type **http://www.routerlogin.net** or **http://www.routerlogin.com**.\n\nA login window opens.\n\n**3.** Enter the router user name and password.\n\nThe user name is **admin**. The default password is **password**. The user name and password are case-sensitive.\n\nThe BASIC Home page displays.\n\n- **4.** In the upper right corner, select a language from the menu.\n- **5.** When prompted, click the **OK** button to confirm this change.\n\nThe page refreshes with the language that you selected.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 27,
+      "keywords": [
+        "OK",
+        "BASIC"
+      ],
+      "created_at": "2026-06-07T10:47:08.421222",
+      "metadata": {
+        "heading_level": 1
+      }
+    },
+    {
+      "id": "8940ccf8-312b-4c60-b21d-c87fe8540dbf",
+      "type": "general",
+      "title": "**Access the Router with the NETGEAR genie App**",
+      "content": "The genie app is the easy dashboard for managing, monitoring, and repairing your home network. The genie app can help you with the following:\n\n- **•** Automatically repair common wireless network problems.\n- **•** Easily manage router features like Parental Controls, guest access, Internet traffic meter, speed test, and more.\n\n#### **To use the genie app to access the router:**\n\n- **1.** Visit the NETGEAR genie web page at *www.NETGEAR.com/genie*.\n- **2.** Follow the onscreen instructions to install the app on your smartphone, tablet, or computer.\n- **3.** Launch the genie app.\n\nThe genie app dashboard page displays.",
+      "source_file": "sample_manual.pdf",
+      "source_page": 28,
+      "keywords": [
+        "NETGEAR"
+      ],
+      "created_at": "2026-06-07T10:47:08.421267",
+      "metadata": {
+        "heading_level": 2
+      }
+    }
+  ]
+}

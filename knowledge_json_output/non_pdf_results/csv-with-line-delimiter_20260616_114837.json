@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "source_file": "csv-with-line-delimiter.csv",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "35df29e8-aa83-4d27-8b45-8e5aab9106cc",
+      "type": "general",
+      "title": "col1|col2|col3\na|b|c\nd|e|f\ng|h|i",
+      "content": "col1|col2|col3\na|b|c\nd|e|f\ng|h|i",
+      "source_file": "csv-with-line-delimiter.csv",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:37.850891",
+      "metadata": {
+        "element_type": "text",
+        "company": "csv with line delimiter"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "source_file": "table-semicolon-delimiter.csv",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "951180d9-a2e8-4ecb-9e69-c9d90815c4e6",
+      "type": "general",
+      "title": "Year;Month;Revenue;Costs;\n2022;1;123;-123;\n2023;2;...",
+      "content": "Year;Month;Revenue;Costs;\n2022;1;123;-123;\n2023;2;143 | 1;-814 | 38;\n2024;3;215 | 32;-11 | 08;",
+      "source_file": "table-semicolon-delimiter.csv",
+      "source_page": 0,
+      "keywords": [
+        "Year"
+      ],
+      "created_at": "2026-06-16T14:12:25.469132",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Data",
+        "source": "table-semicolon-delimiter.csv"
+      }
+    }
+  ]
+}

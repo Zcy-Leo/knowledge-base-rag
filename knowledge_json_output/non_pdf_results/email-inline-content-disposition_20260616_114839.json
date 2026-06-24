@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-inline-content-disposition.eml",
+  "total_entries": 5,
+  "entries": [
+    {
+      "id": "28431116-0dfc-4db1-b5bc-5771a31ecb9c",
+      "type": "general",
+      "title": "From: Test User <testuser@example.com>\nTo: recipie...",
+      "content": "From: Test User <testuser@example.com>\nTo: recipient@example.com\nSubject: Testing Inline\nMessage-ID: <CAPgCCDEzLVJ-d1OCX_TjFgJU7ugtQrjFybPtAMmmYZzphxNFYg@mail.example.com>\nX-Mailer: Claws Mail 4.1.1 (GTK 3.24.34; x86_64-pc-linux-gnu)\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=\"MP_/pqqQE0ldE7RYQcFW3Kd0aQV\"",
+      "source_file": "email-inline-content-disposition.eml",
+      "source_page": 0,
+      "keywords": [
+        "GTK",
+        "MIME",
+        "Test",
+        "Subject",
+        "Testing",
+        "Message"
+      ],
+      "created_at": "2026-06-16T11:48:39.117256",
+      "metadata": {
+        "element_type": "text",
+        "company": "email inline content dispositi"
+      }
+    },
+    {
+      "id": "b57ea734-9b19-4457-9709-7c7a36854373",
+      "type": "general",
+      "title": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV\nContent-Type: text/p...",
+      "content": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV\nContent-Type: text/plain; charset=US-ASCII\nContent-Transfer-Encoding: 7bit\nContent-Disposition: inline",
+      "source_file": "email-inline-content-disposition.eml",
+      "source_page": 0,
+      "keywords": [
+        "ASCII",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.117300",
+      "metadata": {
+        "element_type": "text",
+        "company": "email inline content dispositi"
+      }
+    },
+    {
+      "id": "077ae995-6c6d-4fab-9f85-88d3f7bb7ea3",
+      "type": "general",
+      "title": "This is a test of inline",
+      "content": "This is a test of inline",
+      "source_file": "email-inline-content-disposition.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.117320",
+      "metadata": {
+        "element_type": "text",
+        "company": "email inline content dispositi"
+      }
+    },
+    {
+      "id": "5fb26f05-c8ba-49e0-9d89-f2f113b38071",
+      "type": "general",
+      "title": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV\nContent-Type: text/p...",
+      "content": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV\nContent-Type: text/plain\nContent-Transfer-Encoding: 7bit\nContent-Disposition: attachment; filename=t.txt",
+      "source_file": "email-inline-content-disposition.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.117353",
+      "metadata": {
+        "element_type": "text",
+        "company": "email inline content dispositi"
+      }
+    },
+    {
+      "id": "644e9ec2-55b0-4990-8746-9ff6a51e8b03",
+      "type": "general",
+      "title": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV--",
+      "content": "--MP_/pqqQE0ldE7RYQcFW3Kd0aQV--",
+      "source_file": "email-inline-content-disposition.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.117368",
+      "metadata": {
+        "element_type": "text",
+        "company": "email inline content dispositi"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "source_file": "simple.yaml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "9c0419d5-55b6-4f62-84a8-9c9d0d79526e",
+      "type": "general",
+      "title": "---\n doe: \"a deer, a female deer\"\n ray: \"a drop of...",
+      "content": "---\n doe: \"a deer, a female deer\"\n ray: \"a drop of golden sun\"\n pi: 3.14159\n xmas: true\n french-hens: 3\n calling-birds:\n   - huey\n   - dewey\n   - louie\n   - fred\n xmas-fifth-day:\n   calling-birds: four\n   french-hens: 3\n   golden-rings: 5\n   partridges:\n     count: 1\n     location: \"a pear tree\"\n   turtle-doves: two",
+      "source_file": "simple.yaml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:57:41.425355",
+      "metadata": {
+        "element_type": "text",
+        "parser": "fallback"
+      }
+    }
+  ]
+}

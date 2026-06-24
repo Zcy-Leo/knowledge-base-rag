@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "source_file": "group-shapes-nested.pptx",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "0c236699-85fa-4940-b0c5-1179aabc2e41",
+      "type": "general",
+      "title": "Slide {slide_idx + 1}",
+      "content": "H\nC\nE\n\nF\nG",
+      "source_file": "group-shapes-nested.pptx",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:56.965993",
+      "metadata": {
+        "element_type": "slide",
+        "parser": "python-pptx-enhanced"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-no-body.eml",
+  "total_entries": 3,
+  "entries": [
+    {
+      "id": "46741293-3b5c-4738-ba67-88045726f22d",
+      "type": "general",
+      "title": "From: sender@example.com\nTo: recipient@example.com...",
+      "content": "From: sender@example.com\nTo: recipient@example.com\nDate: Tue, 01 Oct 2024 12:34:56 -0500\nSubject: Image Only Email\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=\"boundary123\"",
+      "source_file": "mime-no-body.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Date",
+        "Tue",
+        "Subject",
+        "Image"
+      ],
+      "created_at": "2026-06-16T11:53:31.943662",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "1fd9a2b4-1745-4888-8fcd-30452c625980",
+      "type": "general",
+      "title": "--boundary123\nContent-Type: image/jpeg\nContent-Dis...",
+      "content": "--boundary123\nContent-Type: image/jpeg\nContent-Disposition: attachment; filename=\"image.jpg\"\nContent-Transfer-Encoding: base64",
+      "source_file": "mime-no-body.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content",
+        "image"
+      ],
+      "created_at": "2026-06-16T11:53:31.943728",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    },
+    {
+      "id": "84b0a9c2-be90-4c05-a0f5-c8552f3a2249",
+      "type": "general",
+      "title": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBAQEhISEB...",
+      "content": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBAQEhISEBAWFRUVFhUVFRUWFRUWFhUWFhUV\nFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0fHx8rLS0rLS0rLS0t\nLS0rLS0rLS0rLS0rLS0rLS0rLS0rLS0rLS0tLS0rLS0rLS0rLS0rLf/AABEIAMgAyAMBIgACEQED\nEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUCAwYBB//EAD0QAAIBAwMBBgQEBgIDCQAAAAECAwAE\nERIhBTFBBhMiUWFxgZEykaGxFCNCUrHB0fAUM2JygpLwFySTwsL/xAAYAQEBAQEBAAAAAAAAAAAA\nAAAABQEDBP/EAB8RAQEBAQEBAQEBAQEAAAAAAAABEQIhEjEEQVFhcf/aAAwDAQACEQMRAD8A+6qK\nCiiggqCiiCooIKgqCiiCooIKgqCiiCooIKgqCiiCooIKgqCiiCooIKgqCiiCooIKgqCiiCooIKgq\nCiiCooIKgqCiiCooIKgqCiiCooIKgqCiiCooIKgqCiiCooIKgqCiiCooIKgqCiiCooIKgqCiiCo\n[Base64 encoded image data continues]\n--boundary123--",
+      "source_file": "mime-no-body.eml",
+      "source_page": 0,
+      "keywords": [
+        "AAAABQEDBP",
+        "EQH",
+        "FRUYHSggGBolGxUVITEhJSkrLi",
+        "ERIhBTFBBhMiUWFxgZEykaGxFCNCUrHB",
+        "image",
+        "data"
+      ],
+      "created_at": "2026-06-16T11:53:31.943944",
+      "metadata": {
+        "element_type": "text",
+        "company": "Email"
+      }
+    }
+  ]
+}

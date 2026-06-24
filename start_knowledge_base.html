@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Base System Launcher</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 500px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 14px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            border: none;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.5);
+        }
+        .btn-secondary {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        .info {
+            margin-top: 40px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .info h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        .info p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.8;
+            margin: 5px 0;
+        }
+        .status {
+            margin-top: 30px;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+        .status.loading {
+            background: #fff3cd;
+            color: #856404;
+        }
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Knowledge Base Automation System</h1>
+        <p class="subtitle">Document ingestion, classification, and retrieval</p>
+
+        <button class="btn" onclick="startApp()">
+            Start System
+        </button>
+
+        <button class="btn btn-secondary" onclick="openDirect()">
+            Open Direct
+        </button>
+
+        <div id="status" class="status" style="display: none;"></div>
+
+        <div class="info">
+            <h3>Usage Instructions</h3>
+            <p>• <strong>Start System</strong> - Launch Streamlit server and open browser</p>
+            <p>• <strong>Open Direct</strong> - Open browser if server is already running</p>
+            <p>• <strong>Port</strong> - http://localhost:8501</p>
+        </div>
+    </div>
+
+    <script>
+        function showStatus(message, type) {
+            const status = document.getElementById('status');
+            status.style.display = 'block';
+            status.className = 'status ' + type;
+            status.innerHTML = message;
+        }
+
+        function startApp() {
+            showStatus('Starting server...', 'loading');
+
+            fetch('start_knowledge_base.bat')
+                .then(() => {
+                    showStatus('Server starting...<br>If browser does not open automatically, click "Open Direct"', 'loading');
+                    setTimeout(() => {
+                        window.open('http://localhost:8501', '_blank');
+                    }, 3000);
+                })
+                .catch(() => {
+                    window.open('http://localhost:8501', '_blank');
+                    showStatus('Opening browser...', 'loading');
+                });
+        }
+
+        function openDirect() {
+            window.open('http://localhost:8501', '_blank');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "source_file": "database",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "8e10e98d-2261-482c-8392-04903a0c42d2",
+      "type": "general",
+      "title": "We're investing to grow in the Eastern Mediterranean, offshore Israel and Egypt....",
+      "content": "[Title] We're investing to grow in the Eastern Mediterranean, offshore Israel and Egypt....\n[Content] We're investing to grow in the Eastern Mediterranean, offshore Israel and Egypt. Natural gas production in the region is helping to reduce Israel's greenhouse gas emissions and improve air quality. In addition to supplying Israel, Chevron-operated Tamar and Leviathan fields are exporting natural gas to neighboring Jordan and Egypt.\n\n**2.5**\n\n**kilograms CO₂e/boe**\n\ncarbon intensity from our Eastern Mediterranean operations in 2022\n\n**1st**\n\n**woman**\n\noffshore platform engineer in Israel was employed by our operations in 2020\n\n**~70%**\n\n**electricity**\n\nproduction in Israel is powered by Tamar and Leviathan fields as of 2022",
+      "source_file": "chevron-page.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:55:21.142840",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "source_file": "single-column.csv",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "748ca299-79f5-49ac-9d50-74bdd1d14f07",
+      "type": "general",
+      "title": "Lorem |  ipsum\ndolor sit\namet consectetur\nadipisci...",
+      "content": "Lorem |  ipsum\ndolor sit\namet consectetur\nadipiscing |  elit\nsed |  do eiusmod\ntempor incididunt\nut labore et\ndolore; magna aliqua\nUt enim |  ad minim |  veniam",
+      "source_file": "single-column.csv",
+      "source_page": 0,
+      "keywords": [
+        "Lorem"
+      ],
+      "created_at": "2026-06-16T14:12:25.397081",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Data",
+        "source": "single-column.csv"
+      }
+    }
+  ]
+}

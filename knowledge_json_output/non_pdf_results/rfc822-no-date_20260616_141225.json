@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "source_file": "rfc822-no-date.eml",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "e1b16ad0-63b9-4b31-b0f6-ee8158725e8d",
+      "type": "general",
+      "title": "From: sender@example.com\nTo: recipient@example.com...",
+      "content": "From: sender@example.com\nTo: recipient@example.com\nSubject: Example Email Without Date Header",
+      "source_file": "rfc822-no-date.eml",
+      "source_page": 0,
+      "keywords": [
+        "Subject",
+        "Example"
+      ],
+      "created_at": "2026-06-16T14:12:25.652731",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "rfc822-no-date.eml"
+      }
+    },
+    {
+      "id": "187a38d1-097b-4906-9879-b025126162c9",
+      "type": "general",
+      "title": "This is an example email message without a Date he...",
+      "content": "This is an example email message without a Date header. Note that this is non-standard and may be flagged or corrected by email servers.",
+      "source_file": "rfc822-no-date.eml",
+      "source_page": 0,
+      "keywords": [
+        "Note"
+      ],
+      "created_at": "2026-06-16T14:12:25.652777",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "rfc822-no-date.eml"
+      }
+    }
+  ]
+}

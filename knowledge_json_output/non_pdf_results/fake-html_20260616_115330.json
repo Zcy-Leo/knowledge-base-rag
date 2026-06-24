@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-html.html",
+  "total_entries": 4,
+  "entries": [
+    {
+      "id": "b722d8de-0cd7-455a-a469-ebdcf4ac059b",
+      "type": "general",
+      "title": "<!DOCTYPE html>\n<html>\n<body>",
+      "content": "<!DOCTYPE html>\n<html>\n<body>",
+      "source_file": "fake-html.html",
+      "source_page": 0,
+      "keywords": [
+        "DOCTYPE"
+      ],
+      "created_at": "2026-06-16T11:53:30.786195",
+      "metadata": {
+        "element_type": "text",
+        "company": "Demo"
+      }
+    },
+    {
+      "id": "8173b5d2-b656-40cb-82e6-a42f24fbbb90",
+      "type": "general",
+      "title": "<h1>My First Heading</h1>\n<h2>My Second Heading</h...",
+      "content": "<h1>My First Heading</h1>\n<h2>My Second Heading</h2>\n<p>My first paragraph. lorem ipsum dolor set amet. if the cow comes home under the sun how do you fault the cow for it's worn hooves?</p>",
+      "source_file": "fake-html.html",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:53:30.786354",
+      "metadata": {
+        "element_type": "text",
+        "company": "Demo"
+      }
+    },
+    {
+      "id": "500ffff9-7106-462c-8291-9b4f73b9c7ad",
+      "type": "general",
+      "title": "<ul>\n    <li>A test list</li>\n    <ul>\n        <li...",
+      "content": "<ul>\n    <li>A test list</li>\n    <ul>\n        <li>With sub-bullets!</li>\n        <li>And another</li>\n    </ul>\n    <li>Back at the root</li>\n</ul>",
+      "source_file": "fake-html.html",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:53:30.786457",
+      "metadata": {
+        "element_type": "text",
+        "company": "Demo"
+      }
+    },
+    {
+      "id": "202e6c37-1498-4705-b510-cd5d98bbc5ed",
+      "type": "general",
+      "title": "<h3>A Third Heading</h3>\n<table>\n    <tr>\n        ...",
+      "content": "<h3>A Third Heading</h3>\n<table>\n    <tr>\n        <th>Column 1</th>\n        <th>Column 2</th>\n    </tr>\n    <tr>\n        <td>Row 1, Cell 1</td>\n        <td>Row 1, Cell 2</td>\n    </tr>\n    <tr>\n        <td>Row 2, Cell 1</td>\n        <td>Row 2, Cell 2</td>\n    </tr>\n</table>",
+      "source_file": "fake-html.html",
+      "source_page": 0,
+      "keywords": [
+        "table"
+      ],
+      "created_at": "2026-06-16T11:53:30.786610",
+      "metadata": {
+        "element_type": "text",
+        "company": "Demo"
+      }
+    }
+  ]
+}

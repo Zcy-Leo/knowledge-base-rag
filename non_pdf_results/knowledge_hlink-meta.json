@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "source_file": "hlink-meta.docx",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "c75a29fd-beab-4a15-bac2-b42e78bcdb9f",
+      "type": "general",
+      "title": "Two with link to bookmark.",
+      "content": "Two with link to bookmark.",
+      "source_file": "hlink-meta.docx",
+      "source_page": 0,
+      "keywords": [
+        "Two"
+      ],
+      "created_at": "2026-06-22T11:57:41.219035",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "b5ad34fe-c282-4d3c-abd6-3f7bbbe5e669",
+      "type": "general",
+      "title": "Three with link to foo.com.",
+      "content": "Three with link to foo.com.",
+      "source_file": "hlink-meta.docx",
+      "source_page": 0,
+      "keywords": [
+        "Three"
+      ],
+      "created_at": "2026-06-22T11:57:41.219225",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "32435901-8375-4f65-9040-a864e95ac30f",
+      "type": "general",
+      "title": "Four with link to foo.com searching for bar.",
+      "content": "Four with link to foo.com searching for bar.",
+      "source_file": "hlink-meta.docx",
+      "source_page": 0,
+      "keywords": [
+        "Four"
+      ],
+      "created_at": "2026-06-22T11:57:41.219404",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "9585f476-a1fa-43a3-bba8-8186a24c49fd",
+      "type": "manual_section",
+      "title": "Five with link to foo.com introduction section.",
+      "content": "Five with link to foo.com introduction section.",
+      "source_file": "hlink-meta.docx",
+      "source_page": 0,
+      "keywords": [
+        "Five"
+      ],
+      "created_at": "2026-06-22T11:57:41.219584",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "bb078d7b-fc49-4c12-b7f2-34c7258e0daf",
+      "type": "faq",
+      "title": "Six with link to https://foo.com?q=bar#the-bar.",
+      "content": "Six with link to https://foo.com?q=bar#the-bar.",
+      "source_file": "hlink-meta.docx",
+      "source_page": 0,
+      "keywords": [
+        "Six"
+      ],
+      "created_at": "2026-06-22T11:57:41.219760",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "1b44f9f8-393a-470a-a79e-77192e59733d",
+      "type": "general",
+      "title": "Seven with bookmark referred to by prior link.",
+      "content": "Seven with bookmark referred to by prior link.",
+      "source_file": "hlink-meta.docx",
+      "source_page": 0,
+      "keywords": [
+        "Seven"
+      ],
+      "created_at": "2026-06-22T11:57:41.219919",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    },
+    {
+      "id": "755efe41-2fac-405f-b726-331a4886fa61",
+      "type": "general",
+      "title": "Eight with link to file.",
+      "content": "Eight with link to file.",
+      "source_file": "hlink-meta.docx",
+      "source_page": 0,
+      "keywords": [
+        "Eight",
+        "file"
+      ],
+      "created_at": "2026-06-22T11:57:41.220085",
+      "metadata": {
+        "element_type": "paragraph",
+        "style": "Normal",
+        "parser": "python-docx"
+      }
+    }
+  ]
+}

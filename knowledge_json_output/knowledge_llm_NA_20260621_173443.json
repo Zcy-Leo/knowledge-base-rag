@@ -1,0 +1,362 @@
+{
+  "schema_version": "1.0",
+  "source_file": "database",
+  "total_entries": 20,
+  "entries": [
+    {
+      "id": "e9637e30-8ce7-468f-84e4-4720e0748fda",
+      "type": "general",
+      "title": "position is that it permits the definition of new functional forms, in effect, m...",
+      "content": "[Title] position is that it permits the definition of new functional forms, in effect, m...\n[Content] position is that it permits the definition of new functional forms, in effect, merely by defining new functions. It also permits one to write recursive functions without a definition.",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:34:23.650921",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "functional forms",
+          "recursive functions",
+          "new functions",
+          "definition"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "b1003aeb-79ce-497d-a017-8542007cc761",
+      "type": "general",
+      "title": "We give one more example of a controlling function for a functional form: **Def*...",
+      "content": "[Title] We give one more example of a controlling function for a functional form: **Def*...\n[Content] We give one more example of a controlling function for a functional form: **Def** *pCONS -=* otapplyotlodistr. This definition results in *<CONS,fi .....* fn>--where the f~ are objects--representing the same function as *[pfl ..... pfn].* The following shows this.\n[Keywords] CONS",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "CONS",
+      "created_at": "2026-06-21T17:34:23.650990",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "controlling function",
+          "functional form",
+          "example",
+          "definition",
+          "pCONS"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "ff087cde-e6af-459c-894b-536f59508166",
+      "type": "sop_step",
+      "title": "$$(\\rho < CONS, f_1, ..., f_n >):x$$",
+      "content": "[Title] $$(\\rho < CONS, f_1, ..., f_n >):x$$\n[Content] $$(\\rho < CONS, f_1, ..., f_n >):x$$\n  \n=  $(\\rho CONS): << CONS, f_1, ..., f_n >, x >$   \nby metacomposition\n\n*= aapplyotlodistr:<<CONS,fi .....* fn>,X>\n\nby def of *pCONS*\n\n= \n$$\\alpha$$\napply: $\\langle f_1, x \\rangle$ , ...,  $\\langle f_n, x \\rangle \\rangle$\n\nby def of tl and distr and o\n\n$$= < apply: < f_1, x>, ..., apply: < f_n, x>>$$\n\nby def of a\n\n$$= \\langle (f_1:x), \\dots, (f_n:x) \\rangle$$\n by def of apply.\n[Keywords] CONS",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "CONS",
+      "created_at": "2026-06-21T17:34:23.651002",
+      "metadata": {
+        "llm_type": "sop_step",
+        "llm_keywords": [
+          "evaluation",
+          "metacomposition",
+          "pCONS",
+          "derivation",
+          "apply"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "524755ba-3bac-4b49-8272-5cc2813290eb",
+      "type": "general",
+      "title": "In evaluating the last expression, the meaning function will produce the meaning...",
+      "content": "[Title] In evaluating the last expression, the meaning function will produce the meaning...\n[Content] In evaluating the last expression, the meaning function will produce the meaning of each application, giving *pJ~:x* as the ith element.",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:34:23.651008",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "meaning function",
+          "evaluation",
+          "expression",
+          "application",
+          "pJ~:x"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "61f91746-b652-42d4-bc60-bdeaf63fe986",
+      "type": "general",
+      "title": "Usually, in describing the function represented by a sequence, we shall give its...",
+      "content": "[Title] Usually, in describing the function represented by a sequence, we shall give its...\n[Content] Usually, in describing the function represented by a sequence, we shall give its overall effect rather than show how its controlling operator achieves that effect. Thus we would simply write\n\n$$(\\rho < CONS, f_1, ..., f_n >): x = <(f_1:x), ..., (f_n:x) >$$\n\ninstead of the more detailed account above.\n[Keywords] CONS",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "CONS",
+      "created_at": "2026-06-21T17:34:23.651013",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "function description",
+          "sequence",
+          "overall effect",
+          "controlling operator",
+          "convention"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "077b1204-4605-4257-b932-4e38d8bd66f3",
+      "type": "general",
+      "title": "We need a controlling operator, *COMP,* to give us sequences representing the fu...",
+      "content": "[Title] We need a controlling operator, *COMP,* to give us sequences representing the fu...\n[Content] We need a controlling operator, *COMP,* to give us sequences representing the functional form composition. We take *pCOMP* to be a primitive function such that, for all objects x,\n\n$$(\\rho < COMP, f_1, ..., f_n >):x$$\n  \n=  $(f_1:(f_2:(...:(f_n:x)...)))$  for  $n \\ge 1$ .\n[Keywords] COMP",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "COMP",
+      "created_at": "2026-06-21T17:34:23.651019",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "controlling operator",
+          "COMP",
+          "functional form composition",
+          "primitive function"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "9290f322-af65-45df-acea-7abbc37687f1",
+      "type": "general",
+      "title": "(I am indebted to Paul Me Jones for his observation that ordinary composition co...",
+      "content": "[Title] (I am indebted to Paul Me Jones for his observation that ordinary composition co...\n[Content] (I am indebted to Paul Me Jones for his observation that ordinary composition could be achieved by this primitive function rather than by using two composition rules in the basic semantics, as was done in an earlier paper [2].)",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:34:23.651023",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "ordinary composition",
+          "primitive function",
+          "composition rules",
+          "basic semantics"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "56390609-3c33-4bbd-9bb8-dad39be9764d",
+      "type": "general",
+      "title": "Although FFP systems permit the definition and investigation of new functional f...",
+      "content": "[Title] Although FFP systems permit the definition and investigation of new functional f...\n[Content] Although FFP systems permit the definition and investigation of new functional forms, it is to be expected that most programming would use a fixed set of forms (whose controlling operators are primitives), as in FP, so *that* the algebraic laws for those forms could be employed, and so *that* a structured programming style could be used based on those forms.\n[Keywords] FP, FFP",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "FP, FFP",
+      "created_at": "2026-06-21T17:34:23.651028",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "FFP systems",
+          "functional forms",
+          "programming",
+          "controlling operators"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "66c8850c-5697-4a1d-8d39-833d6f2a6755",
+      "type": "general",
+      "title": "In addition to its use in defining functional forms, metacomposition can be used...",
+      "content": "[Title] In addition to its use in defining functional forms, metacomposition can be used...\n[Content] In addition to its use in defining functional forms, metacomposition can be used to create recursive functions directly without the use of recursive definitions of the form Deff ~ E(f). For example, if *pMLAST*  nullotlo2 ~ lo2; applyo[1, tlo2], then *p<MLAST> -=*  last, where last:x m x = <xl ..... Xn> ~ X~; &. Thus the operator *<MLAST>* works as follows:\n\n$$\\mu(\\langle MLAST\\rangle:\\langle A,B\\rangle)$$\n\n$$= \\mu(\\rho MLAST: << MLAST>, >)$$\n\nby metacomposition\n[Keywords] MLAST",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "MLAST",
+      "created_at": "2026-06-21T17:34:23.651032",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "metacomposition",
+          "functional forms",
+          "recursive functions",
+          "recursive definitions"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "0b330527-aa1a-4c56-a9d8-f28bcc2f1d65",
+      "type": "sop_step",
+      "title": "- = #(applyo[1, *tlo2]:<<MLAST>,<A,B>>)*",
+      "content": "[Title] - = #(applyo[1, *tlo2]:<<MLAST>,<A,B>>)*\n[Content] - = μ(applyo[1, *tlo2]:<<MLAST>,<A,B>>)*\n- *= ~t(apply:<<MLAST>,<B>>)*\n- *= μ(<MLAST>:<B>)*\n- *= ix(pMLAST:<<MLAST>,<B>>)*\n- *= μ(lo2:<<MLAST>,<B>>)*\n- *=B.*\n[Keywords] MLAST",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "MLAST",
+      "created_at": "2026-06-21T17:34:23.651037",
+      "metadata": {
+        "llm_type": "sop_step",
+        "llm_keywords": [
+          "MLAST",
+          "applyo",
+          "tlo2",
+          "transformation",
+          "evaluation"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "2f122585-4075-4a36-9fbd-4a26bfa4d188",
+      "type": "general",
+      "title": "13.3.3 **Summary of the properties of p** and #. So far we have shown how p maps...",
+      "content": "[Title] 13.3.3 **Summary of the properties of p** and #. So far we have shown how p maps...\n[Content] 13.3.3 **Summary of the properties of p** and #. So far we have shown how p maps atoms and sequences into functions and how those functions map objects into expressions. Actually, p and all FFP functions can be extended so that they are defmed for all expressions. With such extensions the properties of p and/~ can be summarized as follows:\n[Keywords] FFP",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "FFP",
+      "created_at": "2026-06-21T17:34:23.651041",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "6f6b2d40-7c12-48c7-8e5d-54764ef426ee",
+      "type": "general",
+      "title": "- 1) # E [expressions -\\* objects].",
+      "content": "[Title] - 1) # E [expressions -\\* objects].\n[Content] - 1) # E [expressions -\\* objects].\n- 2) If x is an object, μx = x.\n- **3) If e** is an expression and **e =** <el ..... en>, then **μe = <#el, ..., #en>.**\n- 4) p E [expressions ~ [expressions ~ expressions]].\n- 5) For any expression e, *pe = p~e).*\n- 6) If x is an object and e an expression, then *ox:e = px:(ge).*\n- 7) If x and y are objects, then μ(x:y) = *μ(Ox:y).* In words: the meaning of an FFP application (x:y) is found by applying *px,* the function represented by x, to y and then finding the meaning of the resulting expression (which is *usually* an object and is then its own meaning).\n- 13.3.4 Cells, **fetching, and** storing. For a number of reasons it is convenient to create functions which serve as names. In particular, we shall need this facility in describing the semantics of det'mitions in FFP systems. To introduce naming functions, that is, the ability to *fetch* the contents of a cell with a given name from a store (a sequence of cells) and to *store* a cell with given name and contents in such a sequence, we introduce objects called *cells* and two new functional forms, *fetch*  and *store.*\n\n## Cells\n[Keywords] FFP",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "FFP",
+      "created_at": "2026-06-21T17:34:23.651045",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "5e62c54a-72f3-478f-9a14-187ca64053c7",
+      "type": "general",
+      "title": "*A cell* is a triple *<CELL, name, contents>.* We use this form instead of the p...",
+      "content": "[Title] *A cell* is a triple *<CELL, name, contents>.* We use this form instead of the p...\n[Content] *A cell* is a triple *<CELL, name, contents>.* We use this form instead of the pair *<name, contents>* so that cells can be distinguished from ordinary pairs.\n\n## **Fetch**\n[Keywords] CELL",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "CELL",
+      "created_at": "2026-06-21T17:34:23.651049",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "9c6498b1-4878-458b-a986-1a3643ba214c",
+      "type": "general",
+      "title": "The functional form *fetch* takes an object n as its parameter (n is customarily...",
+      "content": "[Title] The functional form *fetch* takes an object n as its parameter (n is customarily...\n[Content] The functional form *fetch* takes an object n as its parameter (n is customarily an atom serving as a name); it is written l'n (read \"fetch *n\").* Its definition for objects n and x is\n\n$$\\uparrow n: x \\equiv x = \\phi \\rightarrow \\#; \\text{ atom}: x \\rightarrow \\bot;$$\n\n$$(1:x) = \\langle CELL, n, c \\rangle \\rightarrow c; \\uparrow n \\circ t \\mid x,$$\n[Keywords] CELL",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "CELL",
+      "created_at": "2026-06-21T17:34:23.651053",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "fd74cb1e-5b9e-4279-92eb-a54311a36ddf",
+      "type": "general",
+      "title": "where # is the atom \"default.\" Thus l'n (fetch n) applied to a sequence gives th...",
+      "content": "[Title] where # is the atom \"default.\" Thus l'n (fetch n) applied to a sequence gives th...\n[Content] where # is the atom \"default.\" Thus l'n (fetch n) applied to a sequence gives the contents of the first cell in the sequence whose name is n; If there is no cell named n, the result is default, #. Thus l'n is the name function for the name n. (We assume that *pFETCH* is the primitive function such that *p<FETCH, n> ~ l\"n.* Note that ~n simply passes over elements in its operand that are not cells.)\n[Keywords] FETCH",
+      "source_file": "a1977-backus-p21 (4).pdf",
+      "source_page": 1,
+      "keywords": "FETCH",
+      "created_at": "2026-06-21T17:34:23.651058",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "630821fa-62e2-443e-a371-acc81715c13e",
+      "type": "general",
+      "title": "| 200.01  | 1  |",
+      "content": "[Title] | 200.01  | 1  |\n[Content] | 200.01  | 1  |\n|---------|----|\n| 400.01  | 3  |\n| 600.01  | 5  |\n| 800.01  | 7  |\n| 1000.01 | 9  |\n| 1200.01 | 11 |\n| 1400.01 | 13 |\n| 1600.01 | 15 |\n|         |    |",
+      "source_file": "all-number-table (4).pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:34:23.651081",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "0edef967-9b52-4e83-bd46-20fac7bcd78a",
+      "type": "general",
+      "title": "**MAIN GAME**",
+      "content": "[Title] **MAIN GAME**\n[Keywords] MAIN, GAME",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": "MAIN, GAME",
+      "created_at": "2026-06-21T17:34:23.651093",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "7e8ed36a-bf2b-4d53-acea-0a9e6ebb25bb",
+      "type": "general",
+      "title": "**CREATURES**",
+      "content": "[Title] **CREATURES**\n[Keywords] CREATURES",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": "CREATURES",
+      "created_at": "2026-06-21T17:34:23.651099",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "55de7103-05b3-4365-975c-4e06c3241fb6",
+      "type": "general",
+      "title": "**Abomination**",
+      "content": "[Title] **Abomination**\n[Content] \"We arrived in the dead of night. We had been tracking the maleficar for days, and finally had him cornered... or so we thought.\n\nAs we approached, a home on the edge of the town exploded, sending splinters of wood and fist-sized chunks of rocks into our ranks. We had but moments to regroup before fire rained from the sky, the sounds of destruction wrapped in a hideous laughter from the center of the village.\n\nThere, perched atop the spire of the village chantry, stood the mage. But he was human no longer.\n\nWe shouted prayers to the Maker and deflected what magic we could, but as we fought, the creature fought harder. I saw my comrades fall, burned by the flaming sky or crushed by debris. The monstrous creature, looking as if a demon were wearing a man like a twisted suit of skin, spotted me and grinned. We had forced it to this, I realized; the mage had made this pact, given himself over to the demon to survive our assault.\"\n\n*—Transcribed from a tale told by a former templar in Cumberland, 8:84 Blessed.*\n\nIt is known that mages are able to walk the Fade while completely aware of their surroundings, unlike most others who may only enter the realm as dreamers and leave it scarcely aware of their experience. Demons are drawn to mages, though whether it is because of this awareness or simply by virtue of their magical power in our world is unknown.\n\nRegardless of the reason, a demon always attempts to possess a mage when it encounters one—by force or by making some kind of deal depending on the strength of the mage. Should the demon get the upper hand, the result is an unholy union known as an abomination. Abominations have been responsible for some of the worst cataclysms in history, and the notion that some mage in a remote tower could turn into such a creature unbeknownst to any was the driving force behind the creation of the Circle of Magi.\n\nThankfully, abominations are rare. The Circle has methods for weeding out those who are too at risk for demonic possession,",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:34:23.651105",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    },
+    {
+      "id": "154bf5c2-cfdf-42b8-95b9-0af66297eb18",
+      "type": "general",
+      "title": "**Arcane Horror**",
+      "content": "[Title] **Arcane Horror**\n[Content] \"Upon ascending to the second floor of the tower, we were greeted by a gruesome sight: a ragged collection of bones wearing the robes of one of the senior enchanters. I had known her for years, watched her raise countless apprentices, and now she was a mere puppet for some demon.\"",
+      "source_file": "DA-1p.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T17:34:23.651110",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [],
+        "llm_confidence": 0.3
+      }
+    }
+  ]
+}

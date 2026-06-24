@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email-header.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "72f02477-3f8b-49c5-b661-3696356dffec",
+      "type": "general",
+      "title": "Email: {subject}",
+      "content": "From: {from_addr}\nTo: {to_addr}\nDate: {date}\nSubject: {subject}\n\n{body}",
+      "source_file": "fake-email-header.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject"
+      ],
+      "created_at": "2026-06-22T11:56:15.758535",
+      "metadata": {
+        "element_type": "email",
+        "parser": "email"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "semicolon-delimited.csv",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "5787902d-dbe5-4683-99f9-ea8fb9748848",
+      "type": "general",
+      "title": "Lorem |  ipsum; dolor sit; amet\nconsectetur; adipi...",
+      "content": "Lorem |  ipsum; dolor sit; amet\nconsectetur; adipiscing; elit\nsed |  do; eiusmod; tempor incididunt\nut labore; et |  dolore; magna aliqua\nUt enim; ad minim; veniam |  quis",
+      "source_file": "semicolon-delimited.csv",
+      "source_page": 0,
+      "keywords": [
+        "Lorem"
+      ],
+      "created_at": "2026-06-16T11:48:38.568138",
+      "metadata": {
+        "element_type": "text",
+        "company": "semicolon delimited"
+      }
+    }
+  ]
+}

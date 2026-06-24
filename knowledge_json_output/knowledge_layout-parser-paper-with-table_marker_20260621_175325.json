@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "source_file": "layout-parser-paper-with-table.pdf",
+  "total_entries": 7,
+  "entries": [
+    {
+      "id": "3b1bcb53-0fe2-4310-afff-846f093d96cf",
+      "type": "table_data",
+      "title": "|                | v              |             |                               ...",
+      "content": "|                | v              |             |                                                            |\n|----------------|----------------|-------------|------------------------------------------------------------|\n| Dataset        | Base $Model^1$ | Large Model | Notes                                                      |\n| PubLayNet [38] | F / M          | M           | Layouts of modern scientific documents                     |\n| PRImA [3]      | M              | -           | Layouts of scanned modern magazines and scientific reports |\n| Newspaper [17] | F              | -           | Layouts of scanned US newspapers from the 20th century     |\n| TableBank [18] | F              | F           | Table region on modern scientific and business document    |\n| HJDataset [31] | F / M          | -           | Layouts of history Japanese documents                      |",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": [
+        "US"
+      ],
+      "created_at": "2026-06-19T14:22:13.366451",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "62fed974-9f1f-434b-82a0-bd7d5b3ddd29",
+      "type": "general",
+      "title": "Table 1: Current layout detection models in the LayoutParser model zoo",
+      "content": "Table 1: Current layout detection models in the LayoutParser model zoo",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:22:13.366495",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "ec6fc015-1a09-4ad6-af33-15affa856f75",
+      "type": "general",
+      "title": "<sup>1</sup> For each dataset, we train several models of different sizes for di...",
+      "content": "<sup>1</sup> For each dataset, we train several models of different sizes for different needs (the trade-off between accuracy vs. computational cost). For \"base model\" and \"large model\", we refer to using the ResNet 50 or ResNet 101 backbones [13], respectively. One can train models of different architectures, like Faster R-CNN [28] (F) and Mask R-CNN [12] (M). For example, an F in the Large Model column indicates it has a Faster R-CNN model trained using the ResNet 101 backbone. The platform is maintained and a number of additions will be made to the model zoo in coming months.",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": [
+        "CNN"
+      ],
+      "created_at": "2026-06-19T14:22:13.366560",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "587d8765-77e1-49f5-8df9-61cc1768270d",
+      "type": "general",
+      "title": "layout data structures, which are optimized for efficiency and versatility. 3) W...",
+      "content": "layout data structures, which are optimized for efficiency and versatility. 3) When necessary, users can employ existing or customized OCR models via the unified API provided in the OCR module. 4) LayoutParser comes with a set of utility functions for the visualization and storage of the layout data. 5) LayoutParser is also highly customizable, via its integration with functions for layout data annotation and model training. We now provide detailed descriptions for each component.\n\n## 3.1 Layout Detection Models",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": [
+        "API",
+        "OCR"
+      ],
+      "created_at": "2026-06-19T14:22:13.366616",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "12857035-ce7a-4371-97c9-188411a71edf",
+      "type": "general",
+      "title": "In LayoutParser, a layout model takes a document image as an input and generates...",
+      "content": "In LayoutParser, a layout model takes a document image as an input and generates a list of rectangular boxes for the target content regions. Different from traditional methods, it relies on deep convolutional neural networks rather than manually curated rules to identify content regions. It is formulated as an object detection problem and state-of-the-art models like Faster R-CNN [28] and Mask R-CNN [12] are used. This yields prediction results of high accuracy and makes it possible to build a concise, generalized interface for layout detection. LayoutParser, built upon Detectron2 [35], provides a minimal API that can perform layout detection with only four lines of code in Python:",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": [
+        "API",
+        "CNN"
+      ],
+      "created_at": "2026-06-19T14:22:13.366679",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "dcfb669e-3f20-45aa-8930-5cab3fec4458",
+      "type": "general",
+      "title": "```",
+      "content": "```\nimport layoutparser as lp\\nimage = cv2.imread(\"image_file\") # load images\nmodel = lp.Detectron2LayoutModel(\n        \"lp://PubLayNet/faster_rcnn_R_50_FPN_3x/config\")\nlayout = model.detect(image)\n```",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:22:13.366710",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "942e9bbf-8e3c-48a8-b1ad-9e130228ff7b",
+      "type": "general",
+      "title": "LayoutParser provides a wealth of pre-trained model weights using various datase...",
+      "content": "LayoutParser provides a wealth of pre-trained model weights using various datasets covering different languages, time periods, and document types. Due to domain shift [7], the prediction performance can notably drop when models are applied to target samples that are significantly different from the training dataset. As document structures and layouts vary greatly in different domains, it is important to select models trained on a dataset similar to the test samples. A semantic syntax is used for initializing the model weights in LayoutParser, using both the dataset name and model name lp://<dataset-name>/<model-architecture-name>.",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:22:13.366766",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    }
+  ]
+}

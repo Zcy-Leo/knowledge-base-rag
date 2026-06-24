@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-equals-attachment-filename.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "50770b4d-0b7c-40a4-a5f9-c50c6655343d",
+      "type": "general",
+      "title": "Email: {subject}",
+      "content": "From: {from_addr}\nTo: {to_addr}\nDate: {date}\nSubject: {subject}\n\n{body}",
+      "source_file": "email-equals-attachment-filename.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject"
+      ],
+      "created_at": "2026-06-22T11:56:15.007863",
+      "metadata": {
+        "element_type": "email",
+        "parser": "email"
+      }
+    }
+  ]
+}

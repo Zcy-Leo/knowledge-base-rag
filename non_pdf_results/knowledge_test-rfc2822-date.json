@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "test-rfc2822-date.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "c69f4de7-b0c5-4e65-88bf-eac095a3f867",
+      "type": "general",
+      "title": "Email: {subject}",
+      "content": "From: {from_addr}\nTo: {to_addr}\nDate: {date}\nSubject: {subject}\n\n{body}",
+      "source_file": "test-rfc2822-date.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject"
+      ],
+      "created_at": "2026-06-22T11:56:15.818898",
+      "metadata": {
+        "element_type": "email",
+        "parser": "email"
+      }
+    }
+  ]
+}

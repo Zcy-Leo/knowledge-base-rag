@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "source_file": "all-number-table (4).pdf",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "bd9f67c7-e850-423b-8dbb-bbc319305dc6",
+      "type": "table_data",
+      "title": "| 200.01  | 1  |",
+      "content": "| 200.01  | 1  |\n|---------|----|\n| 400.01  | 3  |\n| 600.01  | 5  |\n| 800.01  | 7  |\n| 1000.01 | 9  |\n| 1200.01 | 11 |\n| 1400.01 | 13 |\n| 1600.01 | 15 |\n|         |    |",
+      "source_file": "all-number-table (4).pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T11:06:25.410136",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Unassigned",
+        "topic": "Data"
+      }
+    }
+  ]
+}

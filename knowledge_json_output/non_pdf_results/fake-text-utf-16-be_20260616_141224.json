@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-text-utf-16-be.txt",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "58a74955-d732-41ac-be39-48f1053d5695",
+      "type": "general",
+      "title": "\u0000T\u0000h\u0000i\u0000s\u0000 \u0000i\u0000s\u0000 \u0000a\u0000 \u0000t\u0000e\u0000s\u0000t\u0000 \u0000d\u0000o\u0000c\u0000u\u0000m\u0000e\u0000n\u0000t\u0000 \u0000t...",
+      "content": "\u0000T\u0000h\u0000i\u0000s\u0000 \u0000i\u0000s\u0000 \u0000a\u0000 \u0000t\u0000e\u0000s\u0000t\u0000 \u0000d\u0000o\u0000c\u0000u\u0000m\u0000e\u0000n\u0000t\u0000 \u0000t\u0000o\u0000 \u0000u\u0000s\u0000e\u0000 \u0000f\u0000o\u0000r\u0000 \u0000u\u0000n\u0000i\u0000t\u0000 \u0000t\u0000e\u0000s\u0000t\u0000s\u0000.\u0000\n\u0000\n\u0000D\u0000o\u0000y\u0000l\u0000e\u0000s\u0000t\u0000o\u0000w\u0000n\u0000,\u0000 \u0000P\u0000A\u0000 \u00001\u00008\u00009\u00000\u00001\u0000\n\u0000\n\u0000I\u0000m\u0000p\u0000o\u0000r\u0000t\u0000a\u0000n\u0000t\u0000 \u0000p\u0000o\u0000i\u0000n\u0000t\u0000s\u0000:\u0000\n\u0000\n\u0000 \u0000 \u0000 \u0000-\u0000 \u0000H\u0000a\u0000m\u0000b\u0000u\u0000r\u0000g\u0000e\u0000r\u0000s\u0000 \u0000a\u0000r\u0000e\u0000 \u0000d\u0000e\u0000l\u0000i\u0000c\u0000i\u0000o\u0000u\u0000s\u0000\n\u0000 \u0000 \u0000 \u0000-\u0000 \u0000D\u0000o\u0000g\u0000s\u0000 \u0000a\u0000r\u0000e\u0000 \u0000t\u0000h\u0000e\u0000 \u0000b\u0000e\u0000s\u0000t\u0000\n\u0000 \u0000 \u0000 \u0000-\u0000 \u0000I\u0000 \u0000l\u0000o\u0000v\u0000e\u0000 \u0000f\u0000u\u0000z\u0000z\u0000y\u0000 \u0000b\u0000l\u0000a\u0000n\u0000k\u0000e\u0000t\u0000s\u0000",
+      "source_file": "fake-text-utf-16-be.txt",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:24.713235",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Demo",
+        "source": "fake-text-utf-16-be.txt"
+      }
+    }
+  ]
+}

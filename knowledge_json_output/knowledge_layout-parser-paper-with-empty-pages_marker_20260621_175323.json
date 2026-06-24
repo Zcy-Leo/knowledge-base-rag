@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "source_file": "layout-parser-paper-with-empty-pages.pdf",
+  "total_entries": 12,
+  "entries": [
+    {
+      "id": "89e82336-2ac5-477c-ae49-28f1351de3f6",
+      "type": "general",
+      "title": "## LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analys...",
+      "content": "## LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analysis",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:21:41.509786",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "08dfe67c-d5f7-4cbd-ba00-7be0209d299a",
+      "type": "general",
+      "title": "Zejiang Shen¹ (⋈), Ruochen Zhang², Melissa Dell³, Benjamin Charles Germain Lee⁴,...",
+      "content": "Zejiang Shen¹ (⋈), Ruochen Zhang², Melissa Dell³, Benjamin Charles Germain Lee⁴, Jacob Carlson³, and Weining Li⁵",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:21:41.509847",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "1e17bd73-7e6e-445e-af2d-4eccf4f74c9e",
+      "type": "general",
+      "title": "1 Allen Institute for AI",
+      "content": "1 Allen Institute for AI\nshannons@allenai.org\n2 Brown University\nruochen\\_zhang@brown.edu\n3 Harvard University\n{melissadell,jacob\\_carlson}@fas.harvard.edu\n4 University of Washington\nbcgl@cs.washington.edu\n5 University of Waterloo\nw4221i@uwaterloo.ca",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": [
+        "AI"
+      ],
+      "created_at": "2026-06-19T14:21:41.509894",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "aa9ff06b-8685-4252-9b3d-ded27078124e",
+      "type": "general",
+      "title": "**Abstract.** Recent advances in document image analysis (DIA) have been primari...",
+      "content": "**Abstract.** Recent advances in document image analysis (DIA) have been primarily driven by the application of neural networks. Ideally, research outcomes could be easily deployed in production and extended for further investigation. However, various factors like loosely organized codebases and sophisticated model configurations complicate the easy reuse of important innovations by a wide audience. Though there have been on-going efforts to improve reusability and simplify deep learning (DL) model development in disciplines like natural language processing and computer vision, none of them are optimized for challenges in the domain of DIA. This represents a major gap in the existing toolkit, as DIA is central to academic research across a wide range of disciplines in the social sciences and humanities. This paper introduces LayoutParser, an open-source library for streamlining the usage of DL in DIA research and applications. The core LayoutParser library comes with a set of simple and intuitive interfaces for applying and customizing DL models for layout detection, character recognition, and many other document processing tasks. To promote extensibility, LayoutParser also incorporates a community platform for sharing both pre-trained models and full document digitization pipelines. We demonstrate that LayoutParser is helpful for both lightweight and large-scale digitization pipelines in real-word use cases. The library is publicly available at https://layout-parser.github.io",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": [
+        "DL",
+        "DIA"
+      ],
+      "created_at": "2026-06-19T14:21:41.510023",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "3d9632e7-1ec0-491d-a8d1-b2f0cb0dc757",
+      "type": "general",
+      "title": "**Keywords:** Document Image Analysis · Deep Learning · Layout Analysis · Charac...",
+      "content": "**Keywords:** Document Image Analysis · Deep Learning · Layout Analysis · Character Recognition · Open Source library · Toolkit.\n\n## 1 Introduction",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": [],
+      "created_at": "2026-06-19T14:21:41.510068",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "d2895329-17cc-4ff8-a2ae-7b235207d907",
+      "type": "general",
+      "title": "Deep Learning(DL)-based approaches are the state-of-the-art for a wide range of ...",
+      "content": "Deep Learning(DL)-based approaches are the state-of-the-art for a wide range of document image analysis (DIA) tasks including document image classification [11].\n\n![](_page_2_Picture_0.jpeg)",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": [
+        "DL",
+        "DIA"
+      ],
+      "created_at": "2026-06-19T14:21:41.510108",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "8ac80be9-bb00-4de2-8cec-f8ef3f945b9e",
+      "type": "general",
+      "title": "37], layout detection [38, 22], table detection [26], and scene text detection [...",
+      "content": "37], layout detection [38, 22], table detection [26], and scene text detection [4]. A generalized learning-based framework dramatically reduces the need for the manual specification of complicated rules, which is the status quo with traditional methods. DL has the potential to transform DIA pipelines and benefit a broad spectrum of large-scale document digitization projects.",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 2,
+      "keywords": [
+        "DL",
+        "DIA"
+      ],
+      "created_at": "2026-06-19T14:21:41.510158",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "9d0e49dc-d679-467c-802a-4396752944ce",
+      "type": "general",
+      "title": "However, there are several practical diculties for taking advantages of recent a...",
+      "content": "However, there are several practical diculties for taking advantages of recent advances in DL-based methods: 1) DL models are notoriously convoluted for reuse and extension. Existing models are developed using distinct frameworks like TensorFlow [1] or PyTorch [24], and the high-level parameters can be obfuscated by implementation details [8]. It can be a time-consuming and frustrating experience to debug, reproduce, and adapt existing models for DIA, and *many researchers who would benefit the most from using these methods lack the technical background to implement them from scratch.* 2) Document images contain diverse and disparate patterns across domains, and customized training is often required to achieve a desirable detection accuracy. Currently *there is no full-fledged infrastructure for easily curating the target document image datasets and fine-tuning or re-training the models.* 3) DIA usually requires a sequence of models and other processing to obtain the final outputs. Often research teams use DL models and then perform further document analyses in separate processes, and these pipelines are not documented in any central location (and often not documented at all). This makes it *dicult for research teams to learn about how full pipelines are implemented* and *leads them to invest significant resources in reinventing the DIA wheel*.",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 2,
+      "keywords": [
+        "DL",
+        "DIA"
+      ],
+      "created_at": "2026-06-19T14:21:41.510267",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "72c36ad4-e79c-46cd-b7f5-476e23b21c8e",
+      "type": "general",
+      "title": "LayoutParser provides a unified toolkit to support DL-based document image analy...",
+      "content": "LayoutParser provides a unified toolkit to support DL-based document image analysis and processing. To address the aforementioned challenges, LayoutParser is built with the following components:",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 2,
+      "keywords": [
+        "DL"
+      ],
+      "created_at": "2026-06-19T14:21:41.510304",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "709b766d-4aab-499a-a039-61dbbe34feb3",
+      "type": "sop_step",
+      "title": "- 1. An o↵-the-shelf toolkit for applying DL models for layout detection, charac...",
+      "content": "- 1. An o↵-the-shelf toolkit for applying DL models for layout detection, character recognition, and other DIA tasks (Section 3)\n- 2. A rich repository of pre-trained neural network models (Model Zoo) that underlies the o↵-the-shelf usage\n- 3. Comprehensive tools for ecient document image data annotation and model tuning to support di↵erent levels of customization\n- 4. A DL model hub and community platform for the easy sharing, distribution, and discussion of DIA models and pipelines, to promote reusability, reproducibility, and extensibility (Section 4)",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 3,
+      "keywords": [
+        "DL",
+        "DIA"
+      ],
+      "created_at": "2026-06-19T14:21:41.510387",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "abc9d29e-fe42-4421-b841-095ad1ad4fb4",
+      "type": "general",
+      "title": "The library implements simple and intuitive Python APIs without sacrificing gene...",
+      "content": "The library implements simple and intuitive Python APIs without sacrificing generalizability and versatility, and can be easily installed via pip. Its convenient functions for handling document image data can be seamlessly integrated with existing DIA pipelines. With detailed documentations and carefully curated tutorials, we hope this tool will benefit a variety of end-users, and will lead to advances in applications in both industry and academic research.",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 3,
+      "keywords": [
+        "DIA"
+      ],
+      "created_at": "2026-06-19T14:21:41.510452",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    },
+    {
+      "id": "eb1ec46d-bc90-4638-9e14-08f37da279d1",
+      "type": "general",
+      "title": "LayoutParser is well aligned with recent e↵orts for improving DL model reusabili...",
+      "content": "LayoutParser is well aligned with recent e↵orts for improving DL model reusability in other disciplines like natural language processing [8, 34] and computer vision [35], but with a focus on unique challenges in DIA. We show LayoutParser can be applied in sophisticated and large-scale digitization projects",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 3,
+      "keywords": [
+        "DL",
+        "DIA"
+      ],
+      "created_at": "2026-06-19T14:21:41.510514",
+      "metadata": {
+        "parser": "marker",
+        "runtime": "colab-t4-gpu",
+        "is_academic": false,
+        "split_method": "paragraph",
+        "company": "Allen Institute for AI",
+        "topic": "Academic"
+      }
+    }
+  ]
+}

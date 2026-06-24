@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "source_file": "mime-simple.eml",
+  "total_entries": 5,
+  "entries": [
+    {
+      "id": "b3f439e7-17d9-43cd-a8a6-5dbb9b227e00",
+      "type": "general",
+      "title": "From: sender@example.com\nTo: recipient@example.com...",
+      "content": "From: sender@example.com\nTo: recipient@example.com\nSubject: Example Multipart/Alternative Email\nMessage-ID: <1234567890@example.com>\nMIME-Version: 1.0\nContent-Type: multipart/alternative; boundary=\"boundary123\"",
+      "source_file": "mime-simple.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Subject",
+        "Example",
+        "Message"
+      ],
+      "created_at": "2026-06-16T14:12:25.650599",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "mime-simple.eml"
+      }
+    },
+    {
+      "id": "c7462f3e-af91-496b-863e-44ea3bc77e33",
+      "type": "general",
+      "title": "--boundary123\nContent-Type: text/plain; charset=\"U...",
+      "content": "--boundary123\nContent-Type: text/plain; charset=\"UTF-8\"",
+      "source_file": "mime-simple.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.650632",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "mime-simple.eml"
+      }
+    },
+    {
+      "id": "b999c60b-45fa-40a2-9e67-ec33d4befca3",
+      "type": "general",
+      "title": "This is a simple email message.",
+      "content": "This is a simple email message.",
+      "source_file": "mime-simple.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.650654",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "mime-simple.eml"
+      }
+    },
+    {
+      "id": "53075d22-4493-4344-954f-572ca5edca09",
+      "type": "general",
+      "title": "--boundary123\nContent-Type: text/html; charset=\"UT...",
+      "content": "--boundary123\nContent-Type: text/html; charset=\"UTF-8\"",
+      "source_file": "mime-simple.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.650677",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "mime-simple.eml"
+      }
+    },
+    {
+      "id": "6b8af213-7e84-4801-aadd-f4d917092897",
+      "type": "general",
+      "title": "<html>\n  <body>\n    <p>This is a simple email mess...",
+      "content": "<html>\n  <body>\n    <p>This is a simple email message.</p>\n  </body>\n</html>",
+      "source_file": "mime-simple.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.650706",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "mime-simple.eml"
+      }
+    }
+  ]
+}

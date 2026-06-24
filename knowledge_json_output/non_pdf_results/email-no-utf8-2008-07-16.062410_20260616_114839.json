@@ -1,0 +1,879 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-no-utf8-2008-07-16.062410.eml",
+  "total_entries": 51,
+  "entries": [
+    {
+      "id": "488ca5a8-a568-4968-817a-f2adda762080",
+      "type": "general",
+      "title": "From 1275267068816858875@xxx Wed Jul 16 06:24:10 +...",
+      "content": "From 1275267068816858875@xxx Wed Jul 16 06:24:10 +0000 2008\nX-GM-THRID: 1274781836420152463\nX-Gmail-Labels: Inbox\nDelivered-To: slatest@gmail.com\nReceived: by 10.142.99.12 with SMTP id w12cs56852wfb;\n        Tue, 15 Jul 2008 23:24:12 -0700 (PDT)\nReceived: by 10.103.170.6 with SMTP id x6mr561161muo.42.1216189450080;\n        Tue, 15 Jul 2008 23:24:10 -0700 (PDT)\nReturn-Path: <eryzxx@post.tau.ac.il>\nReceived: from post.tau.ac.il (post1.tau.ac.il [132.66.3.220])\n        by mx.google.com with ESMTP id u26si1613471mug.4.2008.07.15.23.24.08;\n        Tue, 15 Jul 2008 23:24:10 -0700 (PDT)\nReceived-SPF: pass (google.com: domain of eryzxx@post.tau.ac.il designates 132.66.3.220 as permitted sender) client-ip=132.66.3.220;\nAuthentication-Results: mx.google.com; spf=pass (google.com: domain of eryzxx@post.tau.ac.il designates 132.66.3.220 as permitted sender) smtp.mail=eryzxx@post.tau.ac.il\nReceived: from localhost (unknown [127.0.0.1])\n\tby post.tau.ac.il (Postfix) with ESMTP id 3171ABCC08B\n\tfor <slatest@gmail.com>; Wed, 16 Jul 2008 06:24:08 +0000 (UTC)\nX-Virus-Scanned: amavisd-new at tau.ac.il\nReceived: from post.tau.ac.il ([127.0.0.1])\n\tby localhost (post1.tau.ac.il [127.0.0.1]) (amavisd-new, port 10024)\n\twith ESMTP id wNu8HQZi+0bm for <slatest@gmail.com>;\n\tWed, 16 Jul 2008 09:24:08 +0300 (IDT)\nReceived: from tamire (adsl-eryzxx.tau.ac.il [132.66.235.18])\n\tby post.tau.ac.il (Postfix) with ESMTP id 5B7D3BCC084\n\tfor <slatest@gmail.com>; Wed, 16 Jul 2008 09:24:06 +0300 (IDT)\nFrom: \"Tamir Erez\" <eryzxx@post.tau.ac.il>\nTo: \"'Slava'\" <slatest@gmail.com>\nSubject: =?windows-1255?B?UkU6IPns5e0=?=\nDate: Wed, 16 Jul 2008 09:24:06 +0300\nMessage-ID: <013801c8e70c$8cf13160$0501a8c0@tamire>\nMIME-Version: 1.0\nContent-Type: multipart/alternative;\n\tboundary=\"----=_NextPart_000_0139_01C8E725.B23E6960\"\nX-Mailer: Microsoft Office Outlook 11\nThread-Index: Acjmq3b6g8uybUUDTeiErnFfkRX2RAAYIoyA\nX-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3198\nIn-Reply-To: <4eb5b62c0807151149h95c65b2y759240a4eb577770@mail.gmail.com>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "ESMTP",
+        "THRID",
+        "UTC",
+        "Inbox",
+        "Delivered",
+        "Received"
+      ],
+      "created_at": "2026-06-16T11:48:39.126429",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "518ea071-2160-4a3b-8bbf-d45c8093a3ef",
+      "type": "general",
+      "title": "This is a multi-part message in MIME format.",
+      "content": "This is a multi-part message in MIME format.",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "format"
+      ],
+      "created_at": "2026-06-16T11:48:39.126479",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "e7ee4ddf-37ac-4e82-b8a4-f237efe5254a",
+      "type": "general",
+      "title": "------=_NextPart_000_0139_01C8E725.B23E6960\nConten...",
+      "content": "------=_NextPart_000_0139_01C8E725.B23E6960\nContent-Type: text/plain;\n\tcharset=\"windows-1255\"\nContent-Transfer-Encoding: base64",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.126518",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "07dc1935-d491-40c6-8758-346847c75f17",
+      "type": "general",
+      "title": "8ezh5CDk6ff4LA0KDQogDQoNCuDw6SDn5fnhIPnm5CDs4CDp5O...",
+      "content": "8ezh5CDk6ff4LA0KDQogDQoNCuDw6SDn5fnhIPnm5CDs4CDp5OnkIO739uXy6SDl5OXi7yD54PDp\nIOD44OQg7Oog5Onr7yDw9OzkIOjy5fog4eHj6ffkIPnsDQrk4efp8OQgKPnw8vjr5CDh6ePpIOfh\n+OQg5e7u5fDkIPLs6ekpLg0KDQru8uH4IOzr6iwg4O0g4PrkIOfl+eEg+fDy+eQg7Oog8uXl7CDh\n4ePp9+QsIODmIODp7yDm5SDj+On55CDu5fT45vog7u7qDQrs5Pbh6fIg8uwg5PTy+OntIOXk6PLl\n6eX6Lg0KDQrm6+X4IPnh8Oni5eMg7OHn6fDkLCDr8vosIOvsIOTn5e746e0g9Pjl8entIOH08Onq\nLSDr6iD54OnvIPfl+ekg7unl5+Mg7OHj5fcNCuD6IOTh5efvLg0KDQrg7SDg5evsIOzy5uX4IOzq\nIOH54Ozl+iDu9/bl8unl+iDi+Onj4Cwg4Pnu5yDs8enp8i4NCg0K4eT27OfkLA0KDQr67un4DQoN\nCiANCg0KICAgX19fX18gIA0KDQpGcm9tOiBTbGF2YSBbbWFpbHRvOnNsYXZhZ29AZ21haWwuY29t\nXSANClNlbnQ6IFR1ZXNkYXksIEp1bHkgMTUsIDIwMDggOTo0OSBQTQ0KVG86IFRhbWlyIEVyZXoN\nClN1YmplY3Q6IFJlOiD57OXtDQoNCiANCg0K+u7p+CD57OXtDQrj4fj66SDy7SDl+OPkIOXk5u7w\n+ukg4Pog5Ofl4fj6LiDh+OLyIPng8Okg4Pfh7CDg5frkIPDl6+wg7Pns5ecg7Oog4OX68A0K4ePl\n4CLsIOz34ewg4Pog5+Xl+iDj8vrqID8g7PTw6SD54PDpIO7i6fkg8vjy5fggDQoNCvrl4+QuDQoN\nCiANCg0KMjAwOC83LzExIFRhbWlyIEVyZXogPEhZUEVSTElOSw0KIm1haWx0bzplcmV6dG1AcG9z\ndC50YXUuYWMuaWwiZXJlenRtQHBvc3QudGF1LmFjLmlsPjoNCg0K8ezh5CD57OXtLA0KDQogDQoN\nCuDw6SD55frzIOz28vjqIPLsIOT26eXvIOHh5+nw5C4g4PDpIOnl4/Ig+eT59/L6IPjh5fog4ezp\n7uXjIOT35fjxIOXh5Ovw+g0K5OHn6fDkLCDu5CD55OX06iDg+iDk+vHr5ewg7PjhIPLl4yDp5fr4\nLg0KDQrg8Okg7vHr6e0g8u7qIPnr4+DpIOzk5u7p7yDg+iDk4efp8OQg5ezh5+XvIOD6IOTy+OX6\nIOXk5PHh+OntIOHu9+Xu5fog+eTl9Of6DQrk9unl7y4g5eHk+uDtIOzr6iwg7Pn35ewg5OL5+iDy\n+PLl+C4NCg0K4evsIODl9O8g6fkg9Pjl9uPl+OQg7vHl4/j6IPnsIOTm7vD6IOTh5+nw5C4g4PDp\nIOz28vjpIOzgIOnl4/Ig7uTpLCDg6iD65evsDQrs5Prp6fL1IPLsIOvqIPLtIOX44+QsIPjr5vog\n5Pfl+PEuDQoNCvDk6eQg4ff5+CwNCg0K+u7p+A0KDQogDQoNCiANCg0KICAgX19fX18gIA0KDQpG\ncm9tOiBTbGF2YSBbbWFpbHRvOkhZUEVSTElOSyAibWFpbHRvOnNsYXZhZ29AZ21haWwuY29tIg0K\nXG5zbGF2YWdvQGdtYWlsLmNvbV0gDQpTZW50OiBGcmlkYXksIEp1bHkgMTEsIDIwMDggMTI6NTIg\nQU0NClRvOiBUYW1pciBFcmV6DQpTdWJqZWN0OiD57OXtDQoNCiANCg0K+u7p+CD57OXtLg0KDQog\n5Onl7SD34ez66SD26eXvIPnsIOTu4efp7yDl4PDpIO7g5iDh5OztLiDk9unl7yDk5eAgNTMuIOT5\n9/rpIPnh5fLp7Q0K4ezp7uXj6e0g4PDo8PHp4enp7SDl6ePy+ukgIOzy8OX6IPLsIOvsIPng6ezk\nIOXh6+XsIObg+iDk9unl7yDk5eAgNTMuIA0KDQr54OzkLCDk4O0g6fkg4/jqIOz34ewg7vnl4SDy\n7CDk7uHn7yDl4OzpIOzw8eX6IOzy+PL4IPLsIOT26eXvLCD35fjxIObkIOP4+Q0K7u7w6SDk+ffy\n5CDk4+n45CDlIOz55+b4IOvm4Pog5Pn38uQg6eTpIOzpIPf55CDu4OXjLiDg5/jpIOTu4efvIOTp\n6frkIOzpDQrk+OL55CD55Onp+ukg7uXr7yDl8Pji+frpIPny+frpIOjl4SD57Ovn+ukg5+X0+SD5\n4eXy6entIO7y4eXj5CDl7O7j+uksIODh7A0K8uXh4yD58Ov57PrpIOHi7OwgNyDw9+Xj5fog5eDw\n6SDu4O7p7yD59/j65CDg6ebkIOjy5fog5eDl7Okg4u0g7OAg5Pbs6eflDQrs9/jl4CDg+iDk6/rh\nIPns6SDg5SDn7OQg4Onm5SDg6S3k4fDkIC4g5ODtIPfp6e76IODp5uUg+eTp4CDg9Pn45fog7Pfh\n7CDu+eXhDQru7uog8uwg5OHn6fDkIOXg5iAg7Pjg5fog5ODtIOn5IO735e0g7OTi6fkg8vjy5fgu\nDQoNCvrl4+Qg7vjg+S4NCvHs4eQuDQoNCiANCg0KTm8gdmlydXMgZm91bmQgaW4gdGhpcyBpbmNv\nbWluZyBtZXNzYWdlLg0KQ2hlY2tlZCBieSBBVkcuDQpWZXJzaW9uOiA3LjUuNTI0IC8gVmlydXMg\nRGF0YWJhc2U6IDI3MC40LjcvMTU0MiAtIFJlbGVhc2UgRGF0ZTogMDkvMDcvMjAwOA0KMDY6NTAN\nCg0KIA0KDQpObyB2aXJ1cyBmb3VuZCBpbiB0aGlzIG91dGdvaW5nIG1lc3NhZ2UuDQpDaGVja2Vk\nIGJ5IEFWRy4NClZlcnNpb246IDcuNS41MjQgLyBWaXJ1cyBEYXRhYmFzZTogMjcwLjQuNy8xNTQ1\nIC0gUmVsZWFzZSBEYXRlOiAxMC8wNy8yMDA4DQoxODo0Mw0KDQogDQoNCk5vIHZpcnVzIGZvdW5k\nIGluIHRoaXMgaW5jb21pbmcgbWVzc2FnZS4NCkNoZWNrZWQgYnkgQVZHLg0KVmVyc2lvbjogNy41\nLjUyNCAvIFZpcnVzIERhdGFiYXNlOiAyNzAuNC4xMC8xNTUyIC0gUmVsZWFzZSBEYXRlOiAxNC8w\nNy8yMDA4DQoxODoyOA0KDQoNCk5vIHZpcnVzIGZvdW5kIGluIHRoaXMgb3V0Z29pbmcgbWVzc2Fn\nZS4NCkNoZWNrZWQgYnkgQVZHLiANClZlcnNpb246IDcuNS41MjQgLyBWaXJ1cyBEYXRhYmFzZTog\nMjcwLjQuMTEvMTU1NCAtIFJlbGVhc2UgRGF0ZTogMTUvMDcvMjAwOA0KMTg6MDMNCiANCg==",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "IOD",
+        "LSDr",
+        "IOH",
+        "CiANCg"
+      ],
+      "created_at": "2026-06-16T11:48:39.126862",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "9cb54eee-6fcf-4a9d-97c2-f69c1b59f441",
+      "type": "general",
+      "title": "------=_NextPart_000_0139_01C8E725.B23E6960\nConten...",
+      "content": "------=_NextPart_000_0139_01C8E725.B23E6960\nContent-Type: text/html;\n\tcharset=\"windows-1255\"\nContent-Transfer-Encoding: quoted-printable",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.126902",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "de965da9-7b82-4f6a-ac09-7e33b284df42",
+      "type": "general",
+      "title": "<html xmlns:v=3D\"urn:schemas-microsoft-com:vml\" =\n...",
+      "content": "<html xmlns:v=3D\"urn:schemas-microsoft-com:vml\" =\nxmlns:o=3D\"urn:schemas-microsoft-com:office:office\" =\nxmlns:w=3D\"urn:schemas-microsoft-com:office:word\" =\nxmlns=3D\"http://www.w3.org/TR/REC-html40\">",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "REC"
+      ],
+      "created_at": "2026-06-16T11:48:39.126961",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "3d59a187-e929-4b37-b2e4-d34eef4bb3a6",
+      "type": "general",
+      "title": "<head>\n<META HTTP-EQUIV=3D\"Content-Type\" CONTENT=3...",
+      "content": "<head>\n<META HTTP-EQUIV=3D\"Content-Type\" CONTENT=3D\"text/html; =\ncharset=3Dwindows-1255\">",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "META",
+        "CONTENT",
+        "HTTP",
+        "EQUIV",
+        "text"
+      ],
+      "created_at": "2026-06-16T11:48:39.126996",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "f13b9ed4-47e1-456a-b6c3-364312f71c7d",
+      "type": "general",
+      "title": "<meta name=3DGenerator content=3D\"Microsoft Word 1...",
+      "content": "<meta name=3DGenerator content=3D\"Microsoft Word 11 (filtered medium)\">\n<!--[if !mso]>\n<style>\nv\\:* {behavior:url(#default#VML);}\no\\:* {behavior:url(#default#VML);}\nw\\:* {behavior:url(#default#VML);}\n.shape {behavior:url(#default#VML);}\n</style>\n<![endif]-->\n<style>\n<!--\n /* Font Definitions */\n @font-face\n\t{font-family:\"MS Mincho\";\n\tpanose-1:2 2 6 9 4 2 5 8 3 4;}\n@font-face\n\t{font-family:David;\n\tpanose-1:0 0 0 0 0 0 0 0 0 0;}\n@font-face\n\t{font-family:Tahoma;\n\tpanose-1:2 11 6 4 3 5 4 4 2 4;}\n@font-face\n\t{font-family:\"\\@MS Mincho\";\n\tpanose-1:0 0 0 0 0 0 0 0 0 0;}\n /* Style Definitions */\n p.MsoNormal, li.MsoNormal, div.MsoNormal\n\t{margin:0cm;\n\tmargin-bottom:.0001pt;\n\tfont-size:12.0pt;\n\tfont-family:\"Times New Roman\";}\nh1\n\t{margin-top:12.0pt;\n\tmargin-right:0cm;\n\tmargin-bottom:36.0pt;\n\tmargin-left:0cm;\n\ttext-align:justify;\n\tpage-break-before:always;\n\tpage-break-after:avoid;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:18.0pt;\n\tfont-family:\"Times New Roman\";\n\tfont-weight:bold;}\nh2\n\t{margin-top:12.0pt;\n\tmargin-right:0cm;\n\tmargin-bottom:12.0pt;\n\tmargin-left:0cm;\n\ttext-align:justify;\n\tline-height:200%;\n\tpage-break-after:avoid;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:14.0pt;\n\tfont-family:\"Times New Roman\";\n\tfont-weight:bold;}\nh3\n\t{margin:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tline-height:200%;\n\tpage-break-after:avoid;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:14.0pt;\n\tfont-family:\"Times New Roman\";\n\tfont-weight:bold;}\nh4\n\t{mso-margin-top-alt:auto;\n\tmargin-right:0cm;\n\tmso-margin-bottom-alt:auto;\n\tmargin-left:0cm;\n\ttext-align:justify;\n\tpage-break-after:avoid;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:13.0pt;\n\tfont-family:\"Times New Roman\";\n\tfont-weight:bold;\n\ttext-decoration:underline;}\np.MsoIndex1, li.MsoIndex1, div.MsoIndex1\n\t{margin-top:0cm;\n\tmargin-right:12.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\ttext-indent:-12.0pt;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoIndex2, li.MsoIndex2, div.MsoIndex2\n\t{margin-top:0cm;\n\tmargin-right:24.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\ttext-indent:-12.0pt;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoIndex3, li.MsoIndex3, div.MsoIndex3\n\t{margin-top:0cm;\n\tmargin-right:36.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\ttext-indent:-12.0pt;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoIndex4, li.MsoIndex4, div.MsoIndex4\n\t{margin-top:0cm;\n\tmargin-right:48.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\ttext-indent:-12.0pt;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoIndex5, li.MsoIndex5, div.MsoIndex5\n\t{margin-top:0cm;\n\tmargin-right:60.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\ttext-indent:-12.0pt;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoIndex6, li.MsoIndex6, div.MsoIndex6\n\t{margin-top:0cm;\n\tmargin-right:72.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\ttext-indent:-12.0pt;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoIndex7, li.MsoIndex7, div.MsoIndex7\n\t{margin-top:0cm;\n\tmargin-right:84.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\ttext-indent:-12.0pt;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoIndex8, li.MsoIndex8, div.MsoIndex8\n\t{margin-top:0cm;\n\tmargin-right:96.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\ttext-indent:-12.0pt;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoIndex9, li.MsoIndex9, div.MsoIndex9\n\t{margin-top:0cm;\n\tmargin-right:108.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\ttext-indent:-12.0pt;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoToc1, li.MsoToc1, div.MsoToc1\n\t{margin-top:18.0pt;\n\tmargin-right:0cm;\n\tmargin-bottom:18.0pt;\n\tmargin-left:0cm;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:10.0pt;\n\tfont-family:\"Times New Roman\";\n\ttext-transform:uppercase;\n\tfont-weight:bold;}\np.MsoToc2, li.MsoToc2, div.MsoToc2\n\t{margin-top:12.0pt;\n\tmargin-right:11.9pt;\n\tmargin-bottom:3.0pt;\n\tmargin-left:0cm;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:14.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoToc3, li.MsoToc3, div.MsoToc3\n\t{margin-top:0cm;\n\tmargin-right:24.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:13.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoToc4, li.MsoToc4, div.MsoToc4\n\t{margin-top:0cm;\n\tmargin-right:36.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:12.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoToc5, li.MsoToc5, div.MsoToc5\n\t{margin-top:0cm;\n\tmargin-right:48.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoToc6, li.MsoToc6, div.MsoToc6\n\t{margin-top:0cm;\n\tmargin-right:60.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoToc7, li.MsoToc7, div.MsoToc7\n\t{margin-top:0cm;\n\tmargin-right:72.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoToc8, li.MsoToc8, div.MsoToc8\n\t{margin-top:0cm;\n\tmargin-right:84.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoToc9, li.MsoToc9, div.MsoToc9\n\t{margin-top:0cm;\n\tmargin-right:96.0pt;\n\tmargin-bottom:0cm;\n\tmargin-left:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:9.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText\n\t{margin-top:0cm;\n\tmargin-right:0cm;\n\tmargin-bottom:4.0pt;\n\tmargin-left:0cm;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:10.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoCommentText, li.MsoCommentText, div.MsoCommentText\n\t{mso-margin-top-alt:auto;\n\tmargin-right:0cm;\n\tmso-margin-bottom-alt:auto;\n\tmargin-left:0cm;\n\ttext-align:justify;\n\tline-height:150%;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:10.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoHeader, li.MsoHeader, div.MsoHeader\n\t{margin:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:12.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoFooter, li.MsoFooter, div.MsoFooter\n\t{margin:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:12.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoIndexHeading, li.MsoIndexHeading, div.MsoIndexHeading\n\t{margin-top:12.0pt;\n\tmargin-right:0cm;\n\tmargin-bottom:6.0pt;\n\tmargin-left:0cm;\n\ttext-align:center;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:13.0pt;\n\tfont-family:\"Times New Roman\";\n\tfont-weight:bold;}\nspan.MsoFootnoteReference\n\t{font-family:\"Times New Roman\";\n\tvertical-align:super;}\nspan.MsoCommentReference\n\t{font-family:\"Times New Roman\";}\nspan.MsoPageNumber\n\t{font-family:\"Times New Roman\";}\np.MsoBodyText, li.MsoBodyText, div.MsoBodyText\n\t{mso-margin-top-alt:auto;\n\tmargin-right:0cm;\n\tmso-margin-bottom-alt:auto;\n\tmargin-left:0cm;\n\ttext-align:justify;\n\ttext-indent:39.7pt;\n\tline-height:200%;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:12.0pt;\n\tfont-family:\"Times New Roman\";}\na:link, span.MsoHyperlink\n\t{color:blue;\n\ttext-decoration:underline;}\na:visited, span.MsoHyperlinkFollowed\n\t{color:blue;\n\ttext-decoration:underline;}\np.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap\n\t{margin:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tbackground:navy;\n\tfont-size:10.0pt;\n\tfont-family:Tahoma;}\np.MsoPlainText, li.MsoPlainText, div.MsoPlainText\n\t{margin:0cm;\n\tmargin-bottom:.0001pt;\n\tfont-size:10.0pt;\n\tfont-family:\"Courier New\";}\np\n\t{mso-margin-top-alt:auto;\n\tmargin-right:0cm;\n\tmso-margin-bottom-alt:auto;\n\tmargin-left:0cm;\n\tfont-size:12.0pt;\n\tfont-family:\"Times New Roman\";}\np.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject\n\t{margin:0cm;\n\tmargin-bottom:.0001pt;\n\tfont-size:10.0pt;\n\tfont-family:\"Times New Roman\";\n\tfont-weight:bold;}\np.MsoAcetate, li.MsoAcetate, div.MsoAcetate\n\t{mso-margin-top-alt:auto;\n\tmargin-right:0cm;\n\tmso-margin-bottom-alt:auto;\n\tmargin-left:0cm;\n\ttext-align:justify;\n\tline-height:150%;\n\tfont-size:8.0pt;\n\tfont-family:Tahoma;}\np.Bibliography, li.Bibliography, div.Bibliography\n\t{mso-margin-top-alt:auto;\n\tmargin-right:0cm;\n\tmso-margin-bottom-alt:auto;\n\tmargin-left:36.0pt;\n\ttext-align:justify;\n\ttext-indent:-36.0pt;\n\tline-height:150%;\n\tfont-size:12.0pt;\n\tfont-family:\"Times New Roman\";}\np.BibliographyEnglish, li.BibliographyEnglish, div.BibliographyEnglish\n\t{mso-margin-top-alt:auto;\n\tmargin-right:0cm;\n\tmargin-bottom:6.0pt;\n\tmargin-left:36.0pt;\n\ttext-align:justify;\n\ttext-indent:-36.0pt;\n\tfont-size:12.0pt;\n\tfont-family:\"Times New Roman\";}\np.BodyTextTitle, li.BodyTextTitle, div.BodyTextTitle\n\t{mso-margin-top-alt:auto;\n\tmargin-right:0cm;\n\tmso-margin-bottom-alt:auto;\n\tmargin-left:0cm;\n\ttext-align:justify;\n\ttext-indent:39.7pt;\n\tline-height:200%;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:12.0pt;\n\tfont-family:\"Times New Roman\";\n\ttext-decoration:underline;}\np.BookQuotation, li.BookQuotation, div.BookQuotation\n\t{margin-top:0cm;\n\tmargin-right:1.0cm;\n\tmargin-bottom:0cm;\n\tmargin-left:1.0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tline-height:150%;\n\ttext-autospace:none;\n\tfont-size:11.0pt;\n\tfont-family:\"Times New Roman\";\n\tfont-style:italic;}\np.FieldnoteQuotation, li.FieldnoteQuotation, div.FieldnoteQuotation\n\t{mso-margin-top-alt:auto;\n\tmargin-right:1.0cm;\n\tmso-margin-bottom-alt:auto;\n\tmargin-left:1.0cm;\n\ttext-align:justify;\n\tline-height:150%;\n\ttext-autospace:none;\n\tfont-size:11.0pt;\n\tfont-family:\"Times New Roman\";\n\tfont-style:italic;}\np.Normal1, li.Normal1, div.Normal1\n\t{margin:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tline-height:150%;\n\tfont-size:12.0pt;\n\tfont-family:\"Times New Roman\";}\np.TitleforTableofContents, li.TitleforTableofContents, =\ndiv.TitleforTableofContents\n\t{mso-margin-top-alt:auto;\n\tmargin-right:0cm;\n\tmso-margin-bottom-alt:auto;\n\tmargin-left:0cm;\n\ttext-align:center;\n\tline-height:150%;\n\tpage-break-before:always;\n\tpage-break-after:avoid;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:18.0pt;\n\tfont-family:\"Times New Roman\";\n\tletter-spacing:1.0pt;\n\tfont-weight:bold;}\np.3, li.3, div.3\n\t{margin:0cm;\n\tmargin-bottom:.0001pt;\n\ttext-align:justify;\n\tline-height:200%;\n\tpage-break-after:avoid;\n\tdirection:rtl;\n\tunicode-bidi:embed;\n\tfont-size:14.0pt;\n\tfont-family:\"Times New Roman\";\n\tfont-weight:bold;}\np.a, li.a, div.a\n\t{margin-top:12.0pt;\n\tmargin-right:0cm;\n\tmargin-bottom:12.0pt;\n\tmargin-left:1.0cm;\n\ttext-indent:36.0pt;\n\tline-height:200%;\n\tfont-size:10.0pt;\n\tfont-family:\"Courier New\";}\np.chc, li.chc, div.chc\n\t{mso-margin-top-alt:auto;\n\tmargin-right:0cm;\n\tmso-margin-bottom-alt:auto;\n\tmargin-left:0cm;\n\tfont-size:12.0pt;\n\tfont-family:\"Times New Roman\";}\nspan.EmailStyle60\n\t{mso-style-type:personal-reply;\n\tfont-family:Arial;\n\tcolor:navy;}\n@page Section1\n\t{size:21.0cm 842.0pt;\n\tmargin:72.0pt 89.85pt 72.0pt 89.85pt;}\ndiv.Section1\n\t{page:Section1;}\n-->\n</style>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "VML",
+        "size",
+        "text",
+        "page"
+      ],
+      "created_at": "2026-06-16T11:48:39.129431",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "ddf291c2-5a65-401a-8a7d-b6d9e715ee55",
+      "type": "general",
+      "title": "<body lang=3DEN-US link=3Dblue vlink=3Dblue>",
+      "content": "<body lang=3DEN-US link=3Dblue vlink=3Dblue>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.129464",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "d1e983ab-a11e-4890-bbca-ee38f2225751",
+      "type": "manual_section",
+      "title": "<div class=3DSection1 dir=3DRTL>",
+      "content": "<div class=3DSection1 dir=3DRTL>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.129484",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "31cb8e2e-cf78-4099-8bb0-b110959700c7",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-ali...",
+      "content": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:\nembed'><font size=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;\nfont-family:Arial;color:navy'>=F1=EC=E1=E4 =\n=E4=E9=F7=F8,<o:p></o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.129564",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "918cc6cd-74b5-4011-9c54-d410a76a93f9",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-ali...",
+      "content": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:\nembed'><font size=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;\nfont-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.129633",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "212bdf40-1746-4018-8582-ced7572f6c6d",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-ali...",
+      "content": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:\nembed'><font size=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;\nfont-family:Arial;color:navy'>=E0=F0=E9 =E7=E5=F9=E1 =F9=E6=E4 =EC=E0 =\n=E9=E4=E9=E4 =EE=F7=F6=E5=F2=E9 =E5=E4=E5=E2=EF =F9=E0=F0=E9 =\n=E0=F8=E0=E4 =EC=EA\n=E4=E9=EB=EF =F0=F4=EC=E4 =E8=F2=E5=FA =E1=E1=E3=E9=F7=E4 =F9=EC =\n=E4=E1=E7=E9=F0=E4 (=F9=F0=F2=F8=EB=E4 =E1=E9=E3=E9 =E7=E1=F8=E4 =\n=E5=EE=EE=E5=F0=E4 =F2=EC=E9=E9).<o:p></o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.130048",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "058a20e3-75cd-40bd-9a66-b83625a04104",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-ali...",
+      "content": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:\nembed'><font size=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;\nfont-family:Arial;color:navy'>=EE=F2=E1=F8 =EC=EB=EA, =E0=ED =E0=FA=E4 =\n=E7=E5=F9=E1 =F9=F0=F2=F9=E4 =EC=EA =F2=E5=E5=EC =E1=E1=E3=E9=F7=E4, =\n=E0=E6 =E0=E9=EF\n=E6=E5 =E3=F8=E9=F9=E4 =EE=E5=F4=F8=E6=FA =EE=EE=EA =EC=E4=F6=E1=E9=F2 =\n=F2=EC =E4=F4=F2=F8=E9=ED =\n=E5=E4=E8=F2=E5=E9=E5=FA.<o:p></o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.130295",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "6fc40806-e51e-4c1f-9c5a-8e312b84abc0",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-ali...",
+      "content": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:\nembed'><font size=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;\nfont-family:Arial;color:navy'>=E6=EB=E5=F8 =F9=E1=F0=E9=E2=E5=E3 =\n=EC=E1=E7=E9=F0=E4, =EB=F2=FA, =EB=EC =E4=E7=E5=EE=F8=E9=ED =\n=F4=F8=E5=F1=E9=ED\n=E1=F4=F0=E9=EA- =EB=EA =F9=E0=E9=EF =F7=E5=F9=E9 =EE=E9=E5=E7=E3 =\n=EC=E1=E3=E5=F7 =E0=FA =E4=E1=E5=E7=EF.<o:p></o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.130532",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "dd538fab-50da-4cd4-ad41-fd91456e56b0",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-ali...",
+      "content": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:\nembed'><font size=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;\nfont-family:Arial;color:navy'>=E0=ED =E0=E5=EB=EC =EC=F2=E6=E5=F8 =EC=EA =\n=E1=F9=E0=EC=E5=FA =EE=F7=F6=E5=F2=E9=E5=FA =E2=F8=E9=E3=E0, =\n=E0=F9=EE=E7 =EC=F1=E9=E9=F2.<o:p></o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.130704",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "1f308915-f8e4-4866-84ea-1eb08f923421",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-ali...",
+      "content": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:\nembed'><font size=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;\nfont-family:Arial;color:navy'>=E1=E4=F6=EC=E7=E4,<o:p></o:p></span></font=\n></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.130816",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "8aa77071-9cd4-4539-996c-d240e81bc293",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-ali...",
+      "content": "<p class=3DMsoNormal dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:\nembed'><font size=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;\nfont-family:Arial;color:navy'>=FA=EE=E9=F8</span></font><font size=3D2 =\ncolor=3Dnavy\nface=3DArial><span dir=3DLTR =\nstyle=3D'font-size:10.0pt;font-family:Arial;color:navy'><o:p></o:p></span=\n></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.130969",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "bf68786e-e4b4-4f96-a8ca-d8a1a83b85e6",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DLTR><font size=3D2 colo...",
+      "content": "<p class=3DMsoNormal dir=3DLTR><font size=3D2 color=3Dnavy =\nface=3DArial><span\nstyle=3D'font-size:10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p>=\n</span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.131252",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "389d3eaa-9807-4f91-b6c7-1f69b25658c4",
+      "type": "general",
+      "title": "<div class=3DMsoNormal align=3Dcenter dir=3DLTR =\n...",
+      "content": "<div class=3DMsoNormal align=3Dcenter dir=3DLTR =\nstyle=3D'text-align:center'><font\nsize=3D3 face=3D\"Times New Roman\"><span style=3D'font-size:12.0pt'>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.131344",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "5ecd1171-0216-4058-a0a1-e658fc8376db",
+      "type": "general",
+      "title": "<hr size=3D2 width=3D\"100%\" align=3Dcenter tabinde...",
+      "content": "<hr size=3D2 width=3D\"100%\" align=3Dcenter tabindex=3D-1>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.131390",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "5e3a1772-7b25-4229-8301-4e10fc38107b",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DLTR><b><font size=3D2 f...",
+      "content": "<p class=3DMsoNormal dir=3DLTR><b><font size=3D2 face=3DTahoma><span =\nstyle=3D'font-size:\n10.0pt;font-family:Tahoma;font-weight:bold'>From:</span></font></b><font\nsize=3D2 face=3DTahoma><span =\nstyle=3D'font-size:10.0pt;font-family:Tahoma'> Slava\n[mailto:slatest@gmail.com] <br>\n<b><span style=3D'font-weight:bold'>Sent:</span></b> Tuesday, July 15, =\n2008 9:49\nPM<br>\n<b><span style=3D'font-weight:bold'>To:</span></b> Tamir Erez<br>\n<b><span style=3D'font-weight:bold'>Subject:</span></b> Re: =\n</span></font><font\nsize=3D2 face=3DTahoma><span lang=3DHE dir=3DRTL =\nstyle=3D'font-size:10.0pt;font-family:\nTahoma'>=F9=EC=E5=ED</span></font><o:p></o:p></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Tahoma",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.131667",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "6a15a198-b092-451d-8dd0-4a756493f68d",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DLTR><font size=3D3 face...",
+      "content": "<p class=3DMsoNormal dir=3DLTR><font size=3D3 face=3D\"Times New =\nRoman\"><span\nstyle=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Roman",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.131743",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "22b77a3a-4983-4eec-8fb5-d5f593cebe8b",
+      "type": "general",
+      "title": "<p class=3DMsoNormal align=3Dright dir=3DLTR =\nsty...",
+      "content": "<p class=3DMsoNormal align=3Dright dir=3DLTR =\nstyle=3D'text-align:right'><font size=3D3\nface=3D\"Times New Roman\"><span lang=3DHE dir=3DRTL =\nstyle=3D'font-size:12.0pt'>=FA=EE=E9=F8 =F9=EC=E5=ED</span><br>\n</font><span lang=3DHE dir=3DRTL>=E3=E1=F8=FA=E9 =F2=ED =E5=F8=E3=E4 =\n=E5=E4=E6=EE=F0=FA=E9 =E0=FA =E4=E7=E5=E1=F8=FA. =E1=F8=E2=F2 =\n=F9=E0=F0=E9 =E0=F7=E1=EC\n=E0=E5=FA=E4 =F0=E5=EB=EC =EC=F9=EC=E5=E7 =EC=EA =E0=E5=FA=F0 =\n=E1=E3=E5=E0</span><span dir=3DLTR></span><span =\ndir=3DLTR></span>&quot;<span\nlang=3DHE dir=3DRTL>=EC =EC=F7=E1=EC =E0=FA =E7=E5=E5=FA =E3=F2=FA=EA ? =\n=EC=F4=F0=E9 =F9=E0=F0=E9 =EE=E2=E9=F9 =F2=F8=F2=E5=F8</span><span =\ndir=3DLTR></span><span\ndir=3DLTR></span> <br>\n<br>\n<span lang=3DHE dir=3DRTL>=FA=E5=E3=E4</span><span =\ndir=3DLTR></span><span dir=3DLTR></span>.<o:p></o:p></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.132085",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "a68e51fa-fb05-4501-9431-fc58d985c1ee",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DLTR><font size=3D3 face...",
+      "content": "<p class=3DMsoNormal dir=3DLTR><font size=3D3 face=3D\"Times New =\nRoman\"><span\nstyle=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Roman",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.132173",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "06c97684-fa96-4204-8bcc-4cfb47906352",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DLTR><font size=3D3 face...",
+      "content": "<p class=3DMsoNormal dir=3DLTR><font size=3D3 face=3D\"Times New =\nRoman\"><span\nstyle=3D'font-size:12.0pt'>2008/7/11 Tamir Erez &lt;<a\nhref=3D\"mailto:eryzxx@post.tau.ac.il\">eryzxx@post.tau.ac.il</a>&gt;:<o:p>=\n</o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Roman",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.132286",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "02a620cb-c086-4a92-84b8-c81f11a5b216",
+      "type": "general",
+      "title": "<div link=3Dblue vlink=3Dpurple>",
+      "content": "<div link=3Dblue vlink=3Dpurple>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.132318",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "63d0bd0e-c4f5-4c14-bcb7-54966e49471a",
+      "type": "general",
+      "title": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction...",
+      "content": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:embed'><font\nsize=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;font-family:\nArial;color:navy'>=F1=EC=E1=E4 =F9=EC=E5=ED,</span></font><span =\ndir=3DLTR><o:p></o:p></span></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Arial",
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.132439",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "851db74c-4e71-4273-975e-a6b1c0c28edf",
+      "type": "general",
+      "title": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction...",
+      "content": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:embed'><span\ndir=3DRTL></span><font size=3D2 color=3Dnavy face=3DArial><span =\nlang=3DHE\nstyle=3D'font-size:10.0pt;font-family:Arial;color:navy'><span =\ndir=3DRTL></span>&nbsp;</span></font><span\nlang=3DHE><o:p></o:p></span></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.132593",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "d29ef587-cd51-49f8-a980-73c160b3c682",
+      "type": "general",
+      "title": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction...",
+      "content": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:embed'><font\nsize=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;font-family:\nArial;color:navy'>=E0=F0=E9 =F9=E5=FA=F3 =EC=F6=F2=F8=EA =F2=EC =\n=E4=F6=E9=E5=EF =E1=E1=E7=E9=F0=E4. =E0=F0=E9 =E9=E5=E3=F2 =\n=F9=E4=F9=F7=F2=FA =F8=E1=E5=FA =E1=EC=E9=EE=E5=E3\n=E4=F7=E5=F8=F1 =E5=E1=E4=EB=F0=FA =E4=E1=E7=E9=F0=E4, =EE=E4 =\n=F9=E4=E5=F4=EA =E0=FA =E4=FA=F1=EB=E5=EC =EC=F8=E1 =F2=E5=E3 =\n=E9=E5=FA=F8.</span></font><span\nlang=3DHE><o:p></o:p></span></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Arial",
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.132765",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "8dba337d-6dc4-40af-964d-e265425e7a21",
+      "type": "general",
+      "title": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction...",
+      "content": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:embed'><font\nsize=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;font-family:\nArial;color:navy'>=E0=F0=E9 =EE=F1=EB=E9=ED =F2=EE=EA =F9=EB=E3=E0=E9 =\n=EC=E4=E6=EE=E9=EF =E0=FA =E4=E1=E7=E9=F0=E4 =E5=EC=E1=E7=E5=EF =E0=FA =\n=E4=F2=F8=E5=FA =E5=E4=E4=F1=E1=F8=E9=ED\n=E1=EE=F7=E5=EE=E5=FA =F9=E4=E5=F4=E7=FA =E4=F6=E9=E5=EF. =\n=E5=E1=E4=FA=E0=ED =EC=EB=EA, =EC=F9=F7=E5=EC =E4=E2=F9=FA =\n=F2=F8=F2=E5=F8.</span></font><span lang=3DHE><o:p></o:p></span></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Arial",
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.132928",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "d14271d9-463f-4395-b0b4-171f494a5342",
+      "type": "general",
+      "title": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction...",
+      "content": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:embed'><font\nsize=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;font-family:\nArial;color:navy'>=E1=EB=EC =E0=E5=F4=EF =E9=F9 =F4=F8=E5=F6=E3=E5=F8=E4 =\n=EE=F1=E5=E3=F8=FA =F9=EC =E4=E6=EE=F0=FA =E4=E1=E7=E9=F0=E4. =E0=F0=E9 =\n=EC=F6=F2=F8=E9 =EC=E0\n=E9=E5=E3=F2 =EE=E4=E9, =E0=EA =FA=E5=EB=EC =EC=E4=FA=E9=E9=F2=F5 =F2=EC =\n=EB=EA =F2=ED =E5=F8=E3=E4, =F8=EB=E6=FA =\n=E4=F7=E5=F8=F1.</span></font><span\nlang=3DHE><o:p></o:p></span></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Arial",
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.133134",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "ed83163f-2a1f-4471-b31f-4fcf2b52f10c",
+      "type": "general",
+      "title": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction...",
+      "content": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:embed'><font\nsize=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;font-family:\nArial;color:navy'>=F0=E4=E9=E4 =E1=F7=F9=F8,</span></font><span =\nlang=3DHE><o:p></o:p></span></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Arial",
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.133233",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "d531a458-eda9-491f-8156-545583ec3bd6",
+      "type": "general",
+      "title": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction...",
+      "content": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:embed'><font\nsize=3D2 color=3Dnavy face=3DArial><span lang=3DHE =\nstyle=3D'font-size:10.0pt;font-family:\nArial;color:navy'>=FA=EE=E9=F8</span></font><span =\nlang=3DHE><o:p></o:p></span></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Arial",
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.133311",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "ecc078fb-3140-4fbb-9340-541a730f1bb2",
+      "type": "general",
+      "title": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction...",
+      "content": "<p dir=3DRTL =\nstyle=3D'text-align:right;direction:rtl;unicode-bidi:embed'><span\ndir=3DLTR></span><font size=3D2 color=3Dnavy face=3DArial><span =\ndir=3DLTR\nstyle=3D'font-size:10.0pt;font-family:Arial;color:navy'><span =\ndir=3DLTR></span>&nbsp;</span></font><span\nlang=3DHE><o:p></o:p></span></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.133396",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "3d9f140a-9326-4336-b441-bb417c53d7ef",
+      "type": "general",
+      "title": "<p dir=3DLTR><span dir=3DLTR></span><font size=3D2...",
+      "content": "<p dir=3DLTR><span dir=3DLTR></span><font size=3D2 color=3Dnavy =\nface=3DArial><span\nstyle=3D'font-size:10.0pt;font-family:Arial;color:navy'><span =\ndir=3DLTR></span>&nbsp;</span></font><span\nlang=3DHE dir=3DRTL><o:p></o:p></span></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.133463",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "d9c64006-4599-4bcf-9189-3aa30db64c18",
+      "type": "general",
+      "title": "<div class=3DMsoNormal align=3Dcenter dir=3DLTR =\n...",
+      "content": "<div class=3DMsoNormal align=3Dcenter dir=3DLTR =\nstyle=3D'text-align:center'><font\nsize=3D3 face=3D\"Times New Roman\"><span style=3D'font-size:12.0pt'>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.133511",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "a546d2bf-43fc-4483-af55-8914a56fa331",
+      "type": "general",
+      "title": "<hr size=3D2 width=3D\"100%\" align=3Dcenter>",
+      "content": "<hr size=3D2 width=3D\"100%\" align=3Dcenter>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.133534",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "306e082f-810d-421f-b893-8c246b220dd0",
+      "type": "general",
+      "title": "<p dir=3DLTR><b><font size=3D2 face=3DTahoma><span...",
+      "content": "<p dir=3DLTR><b><font size=3D2 face=3DTahoma><span =\nstyle=3D'font-size:10.0pt;\nfont-family:Tahoma;font-weight:bold'>From:</span></font></b><font =\nsize=3D2\nface=3DTahoma><span style=3D'font-size:10.0pt;font-family:Tahoma'> Slava =\n[mailto:<a\nhref=3D\"mailto:slatest@gmail.com\" =\ntarget=3D\"_blank\">slatest@gmail.com</a>] <br>\n<b><span style=3D'font-weight:bold'>Sent:</span></b> Friday, July 11, =\n2008 12:52\nAM<br>\n<b><span style=3D'font-weight:bold'>To:</span></b> Tamir Erez<br>\n<b><span style=3D'font-weight:bold'>Subject:</span></b> =\n</span></font><font\nsize=3D2 face=3DTahoma><span lang=3DHE dir=3DRTL =\nstyle=3D'font-size:10.0pt;font-family:\nTahoma'>=F9=EC=E5=ED</span></font><o:p></o:p></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Tahoma",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.133711",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "80b94821-ffc2-427c-8a15-05aacac34c7e",
+      "type": "general",
+      "title": "<p dir=3DLTR><font size=3D3 face=3D\"Times New Roma...",
+      "content": "<p dir=3DLTR><font size=3D3 face=3D\"Times New Roman\"><span =\nstyle=3D'font-size:12.0pt'>&nbsp;<o:p></o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.133757",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "8d9e4642-a64b-41c0-bf0a-b2e7a05ecbfe",
+      "type": "general",
+      "title": "<div style=3D'margin-left:30.0pt'>",
+      "content": "<div style=3D'margin-left:30.0pt'>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.133778",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "28db7202-4c61-4bbf-a6d0-0e0643c8996e",
+      "type": "general",
+      "title": "<p align=3Dright dir=3DLTR =\nstyle=3D'margin-botto...",
+      "content": "<p align=3Dright dir=3DLTR =\nstyle=3D'margin-bottom:12.0pt;text-align:right'><font\nsize=3D3 face=3D\"Times New Roman\"><span lang=3DHE dir=3DRTL =\nstyle=3D'font-size:12.0pt'>=FA=EE=E9=F8\n=F9=EC=E5=ED</span><span dir=3DLTR></span><span =\ndir=3DLTR></span>.<o:p></o:p></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.133859",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "cbbfc881-b552-44d1-a164-ec66fc98073e",
+      "type": "general",
+      "title": "<p align=3Dright dir=3DLTR style=3D'text-align:rig...",
+      "content": "<p align=3Dright dir=3DLTR style=3D'text-align:right'><font size=3D3\nface=3D\"Times New Roman\"><span =\nstyle=3D'font-size:12.0pt'>&nbsp;</span></font><span\nlang=3DHE dir=3DRTL>=E4=E9=E5=ED =F7=E1=EC=FA=E9 =F6=E9=E5=EF =F9=EC =\n=E4=EE=E1=E7=E9=EF =E5=E0=F0=E9 =EE=E0=E6 =E1=E4=EC=ED. =E4=F6=E9=E5=EF =\n=E4=E5=E0 53. =E4=F9=F7=FA=E9\n=F9=E1=E5=F2=E9=ED =E1=EC=E9=EE=E5=E3=E9=ED =\n=E0=F0=E8=F0=F1=E9=E1=E9=E9=ED =E5=E9=E3=F2=FA=E9</span><span =\ndir=3DLTR></span><span dir=3DLTR></span>&nbsp;\n<span lang=3DHE dir=3DRTL>=EC=F2=F0=E5=FA =F2=EC =EB=EC =F9=E0=E9=EC=E4 =\n=E5=E1=EB=E5=EC =E6=E0=FA =E4=F6=E9=E5=EF =E4=E5=E0 53</span><span\ndir=3DLTR></span><span dir=3DLTR></span>. <br>\n<br>\n<span lang=3DHE dir=3DRTL>=F9=E0=EC=E4, =E4=E0=ED =E9=F9 =E3=F8=EA =\n=EC=F7=E1=EC =EE=F9=E5=E1 =F2=EC =E4=EE=E1=E7=EF =E5=E0=EC=E9 =\n=EC=F0=F1=E5=FA =EC=F2=F8=F2=F8 =F2=EC\n=E4=F6=E9=E5=EF, =F7=E5=F8=F1 =E6=E4 =E3=F8=F9 =EE=EE=F0=E9 =\n=E4=F9=F7=F2=E4 =E4=E3=E9=F8=E4 =E5 =EC=F9=E7=E6=F8 =EB=E6=E0=FA =\n=E4=F9=F7=F2=E4 =E9=E4=E9 =EC=E9 =F7=F9=E4 =EE=E0=E5=E3. =E0=E7=F8=E9\n=E4=EE=E1=E7=EF =E4=E9=E9=FA=E4 =EC=E9 =E4=F8=E2=F9=E4 =\n=F9=E4=E9=E9=FA=E9 =EE=E5=EB=EF =E5=F0=F8=E2=F9=FA=E9 =F9=F2=F9=FA=E9 =\n=E8=E5=E1 =F9=EC=EB=E7=FA=E9 =E7=E5=F4=F9 =F9=E1=E5=F2=E9=E9=ED =\n=EE=F2=E1=E5=E3=E4 =E5=EC=EE=E3=FA=E9,\n=E0=E1=EC =F2=E5=E1=E3 =F9=F0=EB=F9=EC=FA=E9 =E1=E2=EC=EC 7 =\n=F0=F7=E5=E3=E5=FA =E5=E0=F0=E9 =EE=E0=EE=E9=EF =F9=F7=F8=FA=E4 =\n=E0=E9=E6=E4 =E8=F2=E5=FA =E5=E0=E5=EC=E9 =E2=ED =EC=E0 =\n=E4=F6=EC=E9=E7=E5\n=EC=F7=F8=E5=E0 =E0=FA =E4=EB=FA=E1 =F9=EC=E9 =E0=E5 =E7=EC=E4 =\n=E0=E9=E6=E5 =E0=E9-=E4=E1=F0=E4 . =E4=E0=ED =F7=E9=E9=EE=FA =\n=E0=E9=E6=E5 =F9=E4=E9=E0 =E0=F4=F9=F8=E5=FA =EC=F7=E1=EC =EE=F9=E5=E1\n=EE=EE=EA =F2=EC =E4=E1=E7=E9=F0=E4 =E5=E0=E6</span><span =\ndir=3DLTR></span><span dir=3DLTR></span>&nbsp; <span\nlang=3DHE dir=3DRTL>=EC=F8=E0=E5=FA =E4=E0=ED =E9=F9 =EE=F7=E5=ED =\n=EC=E4=E2=E9=F9 =F2=F8=F2=E5=F8</span><span dir=3DLTR></span><span\ndir=3DLTR></span>.<br>\n<br>\n<span lang=3DHE dir=3DRTL>=FA=E5=E3=E4 =EE=F8=E0=F9</span><span =\ndir=3DLTR></span><span dir=3DLTR></span>.<br>\n<span lang=3DHE dir=3DRTL>=F1=EC=E1=E4</span><span =\ndir=3DLTR></span><span dir=3DLTR></span>.<o:p></o:p></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "text",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.134488",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "0c4a0d05-d630-488d-b158-1ec63017f33c",
+      "type": "general",
+      "title": "<p dir=3DLTR style=3D'margin-bottom:12.0pt'><font ...",
+      "content": "<p dir=3DLTR style=3D'margin-bottom:12.0pt'><font size=3D3 face=3D\"Times =\nNew Roman\"><span\nstyle=3D'font-size:12.0pt'>&nbsp;<o:p></o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "New",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.134545",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "d216472c-fbb0-4f0a-9bd4-56f166132913",
+      "type": "general",
+      "title": "<p dir=3DLTR><font size=3D2 face=3D\"Times New Roma...",
+      "content": "<p dir=3DLTR><font size=3D2 face=3D\"Times New Roman\"><span =\nstyle=3D'font-size:10.0pt'>No\nvirus found in this incoming message.<br>\nChecked by AVG.<br>\nVersion: 7.5.524 / Virus Database: 270.4.7/1542 - Release Date: =\n09/07/2008\n06:50</span></font><o:p></o:p></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "AVG",
+        "Checked",
+        "Version",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.134632",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "e5453679-d9d6-48c9-9b49-33b3920b8ba8",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DLTR><font size=3D3 face...",
+      "content": "<p class=3DMsoNormal dir=3DLTR><font size=3D3 face=3D\"Times New =\nRoman\"><span\nstyle=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Roman",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.134684",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "2ddcaee9-eda8-4c0f-9913-d4f278dd0d87",
+      "type": "general",
+      "title": "<p dir=3DLTR><font size=3D2 face=3D\"Times New Roma...",
+      "content": "<p dir=3DLTR><font size=3D2 face=3D\"Times New Roman\"><span =\nstyle=3D'font-size:10.0pt'>No\nvirus found in this outgoing message.<br>\nChecked by AVG.<br>\nVersion: 7.5.524 / Virus Database: 270.4.7/1545 - Release Date: =\n10/07/2008\n18:43</span></font><o:p></o:p></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "AVG",
+        "Checked",
+        "Version",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.134765",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "1047ead7-f14d-4202-8dc0-7b2072c5214c",
+      "type": "general",
+      "title": "<p class=3DMsoNormal dir=3DLTR style=3D'margin-bot...",
+      "content": "<p class=3DMsoNormal dir=3DLTR style=3D'margin-bottom:12.0pt'><font =\nsize=3D3\nface=3D\"Times New Roman\"><span =\nstyle=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.134867",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "48e08f3a-c087-4fc4-a59b-4fc5cba82bb3",
+      "type": "general",
+      "title": "<p dir=3DLTR><font size=3D2 face=3D\"Times New Roma...",
+      "content": "<p dir=3DLTR><font size=3D2 face=3D\"Times New Roman\"><span =\nstyle=3D'font-size:10.0pt'>No\nvirus found in this incoming message.<br>\nChecked by AVG.<br>\nVersion: 7.5.524 / Virus Database: 270.4.10/1552 - Release Date: =\n14/07/2008\n18:28</span></font><o:p></o:p></p>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "AVG",
+        "Checked",
+        "Version",
+        "size"
+      ],
+      "created_at": "2026-06-16T11:48:39.135015",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "0cae6278-20eb-4eb3-8d79-68155a1ebc2b",
+      "type": "general",
+      "title": "<P><FONT SIZE=3D2>No virus found in this outgoing ...",
+      "content": "<P><FONT SIZE=3D2>No virus found in this outgoing message.<BR>\nChecked by AVG.<BR>\nVersion: 7.5.524 / Virus Database: 270.4.11/1554 - Release Date: =\n15/07/2008 18:03<BR>\n</FONT> </P>",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "AVG",
+        "SIZE",
+        "FONT",
+        "Checked",
+        "Version"
+      ],
+      "created_at": "2026-06-16T11:48:39.135131",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    },
+    {
+      "id": "66ffc4ff-7b6c-4263-990a-f9e7a7c057e5",
+      "type": "general",
+      "title": "------=_NextPart_000_0139_01C8E725.B23E6960--",
+      "content": "------=_NextPart_000_0139_01C8E725.B23E6960--",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T11:48:39.135164",
+      "metadata": {
+        "element_type": "text",
+        "company": "email no utf8 2008 07 16.06241"
+      }
+    }
+  ]
+}

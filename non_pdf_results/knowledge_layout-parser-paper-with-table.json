@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "source_file": "layout-parser-paper-with-table.jpg",
+  "total_entries": 12,
+  "entries": [
+    {
+      "id": "d5a00d08-3372-4c87-9d12-6f70805ffbd4",
+      "type": "general",
+      "title": "LayoutParser: A Unified Toolkit for DL-Based DIA 5...",
+      "content": "LayoutParser: A Unified Toolkit for DL-Based DIA 5.",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [
+        "DIA",
+        "LayoutParser"
+      ],
+      "created_at": "2026-06-22T11:56:55.695429",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "bfab083d-5557-40ae-a27c-e51032676204",
+      "type": "general",
+      "title": "‘Table 1: Current layout detection models in the L...",
+      "content": "‘Table 1: Current layout detection models in the LayoutParser model 200\nDataset | Bare Model! Large Mode! | Noter",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Current",
+        "Dataset",
+        "table"
+      ],
+      "created_at": "2026-06-22T11:56:55.695496",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "4baff08a-6d17-4957-9c4c-3ca3ec14e5cf",
+      "type": "general",
+      "title": "Pablayie [8] | F/M BM | Eagouts of modern acientie...",
+      "content": "Pablayie [8] | F/M BM | Eagouts of modern acientie documents",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [
+        "Pablayie"
+      ],
+      "created_at": "2026-06-22T11:56:55.695531",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "98d3e6d6-7810-400e-9450-676858d5f2b9",
+      "type": "general",
+      "title": "PRA () x =| tagout of scanned modern magains and c...",
+      "content": "PRA () x =| tagout of scanned modern magains and cet reports\nNewspaper [IT]| {Layout of ranned US nemapapers fom the 2h cenary\n‘Tabtebenk (is) | > | Table epon on modern acietife and business document\napace 1) | _P/M =| tagout of itary Inpanere documents",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [
+        "PRA",
+        "Newspaper",
+        "table",
+        "document"
+      ],
+      "created_at": "2026-06-22T11:56:55.695634",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "574c6299-051d-4fc2-beb6-d46c0b455c84",
+      "type": "general",
+      "title": "\"Reach datancy we tenn cer models of dierent ce fo...",
+      "content": "\"Reach datancy we tenn cer models of dierent ce for diferent ade (the dof ehwoon soar\ncomputation! nt) For ase toda!” and arg toda”; we ter to ung the net 50 or Net 101\nTbetbones (1, penta. One ca tenn model of eieestaritctres lle Por RONW (8! (F) aad Mase\nLCN (i) Foran an he Large Mee cnn he ater RLCNN ded",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [
+        "LCN",
+        "RONW",
+        "RLCNN",
+        "Tbetbones",
+        "One"
+      ],
+      "created_at": "2026-06-22T11:56:55.695772",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "46a797fe-2952-4a4e-8605-41835fcf6cb1",
+      "type": "general",
+      "title": "layout data structures, which are optimized for ef...",
+      "content": "layout data structures, which are optimized for efficiency and versatility. 3) When\nnecessary, users can employ existing or customized OCR models via the unified\nAPI provided in the OCR module. 4) LayoutParser comes with a set of utility\nfanctions for the visualization and storage of the layout data. 5) LayoutParser\nis also highly customizable, via its integration with functions for layout data\nannotation and model training. We now provide detailed descriptions for each\ncomponent.",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [
+        "API",
+        "OCR",
+        "data",
+        "storage"
+      ],
+      "created_at": "2026-06-22T11:56:55.695902",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "2260218a-eb3b-4618-a527-17cdc74069ca",
+      "type": "general",
+      "title": "3.1 Layout Detection Models",
+      "content": "3.1 Layout Detection Models",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:55.695926",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "8782d9b5-9947-4c73-8bb6-5b02aec04822",
+      "type": "general",
+      "title": "In LayoutParser, a layout model takes a document i...",
+      "content": "In LayoutParser, a layout model takes a document image as an input and\ngenerates a list of rectangular boxes for the target content regions. Different\nfrom traditional methods, it relies on deep convolutional neural networks rather\nthan manually curated rules to identify content regions. It is formulated as an\nobject detection problem and state-of-the-art’ models like Faster R-CNNY [28] and.\nMask R-CNN [12] are used. This yields prediction results of high accuracy and\nmakes it possible to build a concise, generalized interface for layout detection.\nLayoutParser, built upon Detectron? [38], provides a minimal API that can\nperform layout detection with only four lines of code in Python:\nimport layoutparser as 1p\nimage = cv2.imread(\"inage_file\") # load images\nnodel = 1p.Detectron2LayoutModel (",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [
+        "CNNY",
+        "API",
+        "CNN",
+        "Different",
+        "Mask",
+        "LayoutParser",
+        "document",
+        "image"
+      ],
+      "created_at": "2026-06-22T11:56:55.696143",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "473d1b64-146a-4de1-b5cc-727d2cf090cd",
+      "type": "general",
+      "title": "\"1p: //PubLayliet /2:",
+      "content": "\"1p: //PubLayliet /2:",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:55.696160",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "f101e8fa-835a-44ce-aebc-a0de2803ecef",
+      "type": "general",
+      "title": "|-50_FPI_3x/config\")",
+      "content": "|-50_FPI_3x/config\")",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-22T11:56:55.696177",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "a0b34b20-880f-4ee8-a56b-47ff579133cb",
+      "type": "general",
+      "title": "+ layout = model. detect (image)",
+      "content": "+ layout = model. detect (image)",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [
+        "image"
+      ],
+      "created_at": "2026-06-22T11:56:55.696196",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    },
+    {
+      "id": "05b789cb-c0d7-4693-8e11-bcbc0c10aace",
+      "type": "general",
+      "title": "LayoutParser provides a wealth of pre-trained mode...",
+      "content": "LayoutParser provides a wealth of pre-trained model weights using various\ndatasets covering different languages, time periods, and document types. Due to\ndomain shift [7], the prediction performance can notably drop when models are ap-\nplied to target samples that are significantly different from the training dataset. As\ndocument structures and layouts vary greatly in different domains, itis important,\nto select models trained on dataset similar to the test samples. A semantic syntax\nis used for initializing the model weights in LayoutParser, using both the dataset,\nname and model name 1p://<dataset-nane>/<nodel-archi tecture-nane>.",
+      "source_file": "layout-parser-paper-with-table.jpg",
+      "source_page": 0,
+      "keywords": [
+        "LayoutParser",
+        "Due",
+        "document",
+        "performance"
+      ],
+      "created_at": "2026-06-22T11:56:55.696353",
+      "metadata": {
+        "element_type": "image_ocr",
+        "ocr_engine": "tesseract"
+      }
+    }
+  ]
+}

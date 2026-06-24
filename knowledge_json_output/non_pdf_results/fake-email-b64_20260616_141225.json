@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email-b64.eml",
+  "total_entries": 6,
+  "entries": [
+    {
+      "id": "50c9cec8-7d0e-4621-8b9f-d65ebd59b7a6",
+      "type": "general",
+      "title": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 ...",
+      "content": "MIME-Version: 1.0\nDate: Fri, 16 Dec 2022 17:04:16 -0500\nMessage-ID: \n <CADc-_xaLB2FeVQ7mNsoX+NJb_7hAJhBKa_zet-rtgPGenj0uVw@mail.gmail.com>\nSubject: Test Email\nFrom: Matthew Robinson <mrobinson@unstructured.io>\nTo: NotMatthew <NotMatthew@notunstructured.com>\nContent-Type: multipart/alternative; boundary=\"00000000000095c9b205eff92630\"",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [
+        "MIME",
+        "Date",
+        "Fri",
+        "Message"
+      ],
+      "created_at": "2026-06-16T14:12:25.599553",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email-b64.eml"
+      }
+    },
+    {
+      "id": "cc30f8e7-7c57-40be-b0c9-3216f062efa9",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/plain; charset=\"UTF-8\"\nContent-Transfer-Encoding: base64",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.599593",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email-b64.eml"
+      }
+    },
+    {
+      "id": "eace4d5f-59f7-4078-ab5d-4c92b2e25f08",
+      "type": "general",
+      "title": "VGhpcyBpcyBhIHRlc3QgZW1haWwgdG8gdXNlIGZvciB1bml0IH...",
+      "content": "VGhpcyBpcyBhIHRlc3QgZW1haWwgdG8gdXNlIGZvciB1bml0IHRlc3RzLgoKSW1wb3J0YW50IHBv\naW50czoKCiAgIC0gUm9zZXMgYXJlIHJlZAogICAtIFZpb2xldHMgYXJlIGJsdWUK",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [
+        "VGhpcyBpcyBhIHRlc"
+      ],
+      "created_at": "2026-06-16T14:12:25.599617",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email-b64.eml"
+      }
+    },
+    {
+      "id": "0bf20749-85de-4152-b948-e386a183b389",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630\nContent-Type: text/...",
+      "content": "--00000000000095c9b205eff92630\nContent-Type: text/html; charset=\"UTF-8\"\nContent-Transfer-Encoding: base64",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [
+        "UTF",
+        "Content",
+        "text"
+      ],
+      "created_at": "2026-06-16T14:12:25.599646",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email-b64.eml"
+      }
+    },
+    {
+      "id": "7950bbc3-39fd-4613-9c0a-fe6c54f8c366",
+      "type": "general",
+      "title": "PGRpdiBkaXI9Imx0ciI+PGRpdj5UaGlzIGlzIGEgdGVzdCBlbW...",
+      "content": "PGRpdiBkaXI9Imx0ciI+PGRpdj5UaGlzIGlzIGEgdGVzdCBlbWFpbCB0byB1c2UgZm9yIHVuaXQg\ndGVzdHMuPC9kaXY+PGRpdj48YnI+PC9kaXY+PGRpdj5JbXBvcnRhbnQgcG9pbnRzOjwvZGl2Pjxk\naXY+PHVsPjxsaT5Sb3NlcyBhcmUgcmVkPC9saT48bGk+VmlvbGV0cyBhcmUgYmx1ZTwvbGk+PC91\nbD48L2Rpdj48L2Rpdj4K",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [
+        "PGRpdiBkaXI"
+      ],
+      "created_at": "2026-06-16T14:12:25.599682",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email-b64.eml"
+      }
+    },
+    {
+      "id": "64c8ad0e-6165-43c5-ba22-9d7656509b6f",
+      "type": "general",
+      "title": "--00000000000095c9b205eff92630--",
+      "content": "--00000000000095c9b205eff92630--",
+      "source_file": "fake-email-b64.eml",
+      "source_page": 0,
+      "keywords": [],
+      "created_at": "2026-06-16T14:12:25.599696",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unassigned",
+        "topic": "Email",
+        "source": "fake-email-b64.eml"
+      }
+    }
+  ]
+}

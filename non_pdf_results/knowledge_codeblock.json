@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "source_file": "codeblock.md",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "f6dca5bd-3824-4007-b7e2-9475dd27e44d",
+      "type": "general",
+      "title": "## HTML Example",
+      "content": "## HTML Example",
+      "source_file": "codeblock.md",
+      "source_page": 0,
+      "keywords": [
+        "HTML"
+      ],
+      "created_at": "2026-06-22T11:56:56.336937",
+      "metadata": {
+        "element_type": "md",
+        "parser": "markup"
+      }
+    },
+    {
+      "id": "3a729dcb-3cfb-4321-b4de-190dc009299c",
+      "type": "general",
+      "title": "```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  ...",
+      "content": "```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Sample HTML</title>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n    <p>This is a simple HTML example.</p>\n</body>\n</html>\n```\n## XML Example\n```xml\n<note>\n    <to>Tove</to>\n    <from>Jani</from>\n    <heading>Reminder</heading>\n    <body>Don't forget me this weekend!</body>\n</note>\n```\n```xml\n<note>\n    <to>Tove</to>\n    <from>Jani</from>\n    <heading>Reminder</heading>\n    <body>Don't forget me this weekend!</body>\n</note>\n```",
+      "source_file": "codeblock.md",
+      "source_page": 0,
+      "keywords": [
+        "DOCTYPE",
+        "UTF",
+        "HTML",
+        "XML",
+        "device",
+        "note"
+      ],
+      "created_at": "2026-06-22T11:56:56.337196",
+      "metadata": {
+        "element_type": "md",
+        "parser": "markup"
+      }
+    }
+  ]
+}

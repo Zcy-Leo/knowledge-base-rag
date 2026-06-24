@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "email-no-utf8-2008-07-16.062410.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "a9e1042d-4c9c-4def-8fa8-9215c5c5b215",
+      "type": "general",
+      "title": "Email: {subject}",
+      "content": "From: {from_addr}\nTo: {to_addr}\nDate: {date}\nSubject: {subject}\n\n{body}",
+      "source_file": "email-no-utf8-2008-07-16.062410.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject"
+      ],
+      "created_at": "2026-06-22T11:56:15.011151",
+      "metadata": {
+        "element_type": "email",
+        "parser": "email"
+      }
+    }
+  ]
+}

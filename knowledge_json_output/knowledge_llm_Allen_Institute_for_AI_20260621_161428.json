@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "source_file": "database",
+  "total_entries": 19,
+  "entries": [
+    {
+      "id": "5bc52779-8d0f-4174-91fa-3e205dd97e05",
+      "type": "general",
+      "title": "## LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analys...",
+      "content": "[Title] ## LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analys...\n[Content] ## LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analysis",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T16:13:30.903510",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "LayoutParser",
+          "Document Image Analysis",
+          "Deep Learning",
+          "Toolkit"
+        ],
+        "llm_confidence": 0.9
+      }
+    },
+    {
+      "id": "5e672166-7fba-40a8-b2db-42891a527acd",
+      "type": "general",
+      "title": "Zejiang Shen¹ (⋈), Ruochen Zhang², Melissa Dell³, Benjamin Charles Germain Lee⁴,...",
+      "content": "[Title] Zejiang Shen¹ (⋈), Ruochen Zhang², Melissa Dell³, Benjamin Charles Germain Lee⁴,...\n[Content] Zejiang Shen¹ (⋈), Ruochen Zhang², Melissa Dell³, Benjamin Charles Germain Lee⁴, Jacob Carlson³, and Weining Li⁵",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T16:13:30.903526",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "Authors",
+          "Researchers",
+          "Zejiang Shen",
+          "Ruochen Zhang",
+          "Melissa Dell"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "f7f0b77c-4fea-4e58-a4c5-817bdebf4f0c",
+      "type": "general",
+      "title": "1 Allen Institute for AI",
+      "content": "[Title] 1 Allen Institute for AI\n[Content] 1 Allen Institute for AI\nshannons@allenai.org\n2 Brown University\nruochen\\_zhang@brown.edu\n3 Harvard University\n{melissadell,jacob\\_carlson}@fas.harvard.edu\n4 University of Washington\nbcgl@cs.washington.edu\n5 University of Waterloo\nw4221i@uwaterloo.ca\n[Keywords] AI",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": "AI",
+      "created_at": "2026-06-21T16:13:30.903532",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "Affiliations",
+          "Institutes",
+          "Universities",
+          "Contact information",
+          "Emails"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "f1c5af2e-15d0-449f-86ea-43d536e4c1e4",
+      "type": "general",
+      "title": "**Abstract.** Recent advances in document image analysis (DIA) have been primari...",
+      "content": "[Title] **Abstract.** Recent advances in document image analysis (DIA) have been primari...\n[Content] **Abstract.** Recent advances in document image analysis (DIA) have been primarily driven by the application of neural networks. Ideally, research outcomes could be easily deployed in production and extended for further investigation. However, various factors like loosely organized codebases and sophisticated model configurations complicate the easy reuse of important innovations by a wide audience. Though there have been on-going efforts to improve reusability and simplify deep learning (DL) model development in disciplines like natural language processing and computer vision, none of them are optimized for challenges in the domain of DIA. This represents a major gap in the existing toolkit, as DIA is central to academic research across a wide range of disciplines in the social sciences and humanities. This paper introduces LayoutParser, an open-source library for streamlining the usage of DL in DIA research and applications. The core LayoutParser library comes with a set of simple and intuitive interfaces for applying and customizing DL models for layout detection, character recognition, and many other document processing tasks. To promote extensibility, LayoutParser also incorporates a community platform for sharing both pre-trained models and full document digitization pipelines. We demonstrate that LayoutParser is helpful for both lightweight and large-scale digitization pipelines in real-word use cases. The library is publicly available at https://layout-parser.github.io\n[Keywords] DL, DIA",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-21T16:13:30.903535",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "Abstract",
+          "Document Image Analysis",
+          "Neural Networks",
+          "Research",
+          "Summary"
+        ],
+        "llm_confidence": 0.98
+      }
+    },
+    {
+      "id": "56c310bc-28d3-4c59-b435-9f6a3fd77e77",
+      "type": "manual_section",
+      "title": "**Keywords:** Document Image Analysis · Deep Learning · Layout Analysis · Charac...",
+      "content": "[Title] **Keywords:** Document Image Analysis · Deep Learning · Layout Analysis · Charac...\n[Content] **Keywords:** Document Image Analysis · Deep Learning · Layout Analysis · Character Recognition · Open Source library · Toolkit.\n\n## 1 Introduction",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T16:13:30.903539",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "Introduction",
+          "Keywords",
+          "Document Image Analysis",
+          "Deep Learning",
+          "Layout Analysis"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "5919e060-7c97-4048-ace9-fd9ae81dc010",
+      "type": "general",
+      "title": "Deep Learning(DL)-based approaches are the state-of-the-art for a wide range of ...",
+      "content": "[Title] Deep Learning(DL)-based approaches are the state-of-the-art for a wide range of ...\n[Content] Deep Learning(DL)-based approaches are the state-of-the-art for a wide range of document image analysis (DIA) tasks including document image classification [11].\n\n![](_page_2_Picture_0.jpeg)\n[Keywords] DL, DIA",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 1,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-21T16:13:30.903542",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "Deep Learning",
+          "DL",
+          "document image analysis",
+          "DIA",
+          "state-of-the-art"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "763bed44-7cff-4ec4-930d-6ece5b885b2d",
+      "type": "general",
+      "title": "37], layout detection [38, 22], table detection [26], and scene text detection [...",
+      "content": "[Title] 37], layout detection [38, 22], table detection [26], and scene text detection [...\n[Content] 37], layout detection [38, 22], table detection [26], and scene text detection [4]. A generalized learning-based framework dramatically reduces the need for the manual specification of complicated rules, which is the status quo with traditional methods. DL has the potential to transform DIA pipelines and benefit a broad spectrum of large-scale document digitization projects.\n[Keywords] DL, DIA",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 2,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-21T16:13:30.903545",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "layout detection",
+          "table detection",
+          "scene text detection",
+          "learning-based framework",
+          "manual specification"
+        ],
+        "llm_confidence": 0.9
+      }
+    },
+    {
+      "id": "7168ac86-3d62-4e74-a8a7-4e9c4d95ed79",
+      "type": "general",
+      "title": "However, there are several practical diculties for taking advantages of recent a...",
+      "content": "[Title] However, there are several practical diculties for taking advantages of recent a...\n[Content] However, there are several practical diculties for taking advantages of recent advances in DL-based methods: 1) DL models are notoriously convoluted for reuse and extension. Existing models are developed using distinct frameworks like TensorFlow [1] or PyTorch [24], and the high-level parameters can be obfuscated by implementation details [8]. It can be a time-consuming and frustrating experience to debug, reproduce, and adapt existing models for DIA, and *many researchers who would benefit the most from using these methods lack the technical background to implement them from scratch.* 2) Document images contain diverse and disparate patterns across domains, and customized training is often required to achieve a desirable detection accuracy. Currently *there is no full-fledged infrastructure for easily curating the target document image datasets and fine-tuning or re-training the models.* 3) DIA usually requires a sequence of models and other processing to obtain the final outputs. Often research teams use DL models and then perform further document analyses in separate processes, and these pipelines are not documented in any central location (and often not documented at all). This makes it *dicult for research teams to learn about how full pipelines are implemented* and *leads them to invest significant resources in reinventing the DIA wheel*.\n[Keywords] DL, DIA",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 2,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-21T16:13:30.903548",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "practical difficulties",
+          "DL-based methods",
+          "DL models",
+          "reuse",
+          "extension"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "de6810d6-bfe0-431f-b926-cbe73506eccf",
+      "type": "manual_section",
+      "title": "LayoutParser provides a unified toolkit to support DL-based document image analy...",
+      "content": "[Title] LayoutParser provides a unified toolkit to support DL-based document image analy...\n[Content] LayoutParser provides a unified toolkit to support DL-based document image analysis and processing. To address the aforementioned challenges, LayoutParser is built with the following components:\n[Keywords] DL",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 2,
+      "keywords": "DL",
+      "created_at": "2026-06-21T16:13:30.903551",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "LayoutParser",
+          "unified toolkit",
+          "DL-based",
+          "document image analysis",
+          "components"
+        ],
+        "llm_confidence": 0.85
+      }
+    },
+    {
+      "id": "cfa8293e-2bd6-4ddc-b75a-55b7aefaf6c2",
+      "type": "general",
+      "title": "- 1. An o↵-the-shelf toolkit for applying DL models for layout detection, charac...",
+      "content": "[Title] - 1. An o↵-the-shelf toolkit for applying DL models for layout detection, charac...\n[Content] - 1. An o↵-the-shelf toolkit for applying DL models for layout detection, character recognition, and other DIA tasks (Section 3)\n- 2. A rich repository of pre-trained neural network models (Model Zoo) that underlies the o↵-the-shelf usage\n- 3. Comprehensive tools for ecient document image data annotation and model tuning to support di↵erent levels of customization\n- 4. A DL model hub and community platform for the easy sharing, distribution, and discussion of DIA models and pipelines, to promote reusability, reproducibility, and extensibility (Section 4)\n[Keywords] DL, DIA",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 3,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-21T16:13:30.903554",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "toolkit",
+          "DL models",
+          "layout detection",
+          "character recognition",
+          "pre-trained models"
+        ],
+        "llm_confidence": 0.9
+      }
+    },
+    {
+      "id": "03ef93f5-ad11-45bc-9fcf-1ff8662411d4",
+      "type": "general",
+      "title": "The library implements simple and intuitive Python APIs without sacrificing gene...",
+      "content": "[Title] The library implements simple and intuitive Python APIs without sacrificing gene...\n[Content] The library implements simple and intuitive Python APIs without sacrificing generalizability and versatility, and can be easily installed via pip. Its convenient functions for handling document image data can be seamlessly integrated with existing DIA pipelines. With detailed documentations and carefully curated tutorials, we hope this tool will benefit a variety of end-users, and will lead to advances in applications in both industry and academic research.\n[Keywords] DIA",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 3,
+      "keywords": "DIA",
+      "created_at": "2026-06-21T16:13:30.903557",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "Python APIs",
+          "library",
+          "pip installation",
+          "document image handling",
+          "versatility"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "37161be7-3aab-4f5e-9a8f-b5d84f270215",
+      "type": "general",
+      "title": "LayoutParser is well aligned with recent e↵orts for improving DL model reusabili...",
+      "content": "[Title] LayoutParser is well aligned with recent e↵orts for improving DL model reusabili...\n[Content] LayoutParser is well aligned with recent e↵orts for improving DL model reusability in other disciplines like natural language processing [8, 34] and computer vision [35], but with a focus on unique challenges in DIA. We show LayoutParser can be applied in sophisticated and large-scale digitization projects\n[Keywords] DL, DIA",
+      "source_file": "layout-parser-paper-with-empty-pages.pdf",
+      "source_page": 3,
+      "keywords": "DL, DIA",
+      "created_at": "2026-06-21T16:13:30.903560",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "LayoutParser",
+          "DL model reusability",
+          "NLP",
+          "computer vision"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "532b8efc-0e44-44bb-a524-6b936e994267",
+      "type": "general",
+      "title": "|                | v              |             |                               ...",
+      "content": "[Title] |                | v              |             |                               ...\n[Content] |                | v              |             |                                                            |\n|----------------|----------------|-------------|------------------------------------------------------------|\n| Dataset        | Base $Model^1$ | Large Model | Notes                                                      |\n| PubLayNet [38] | F / M          | M           | Layouts of modern scientific documents                     |\n| PRImA [3]      | M              | -           | Layouts of scanned modern magazines and scientific reports |\n| Newspaper [17] | F              | -           | Layouts of scanned US newspapers from the 20th century     |\n| TableBank [18] | F              | F           | Table region on modern scientific and business document    |\n| HJDataset [31] | F / M          | -           | Layouts of history Japanese documents                      |\n[Keywords] US",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": "US",
+      "created_at": "2026-06-21T16:13:30.903562",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "table structure",
+          "data presentation",
+          "markdown format"
+        ],
+        "llm_confidence": 0.85
+      }
+    },
+    {
+      "id": "ea77895b-7803-47c2-984c-4d3e89d23929",
+      "type": "manual_section",
+      "title": "Table 1: Current layout detection models in the LayoutParser model zoo",
+      "content": "[Title] Table 1: Current layout detection models in the LayoutParser model zoo\n[Content] Table 1: Current layout detection models in the LayoutParser model zoo",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T16:13:30.903565",
+      "metadata": {
+        "llm_type": "manual_section",
+        "llm_keywords": [
+          "Table 1",
+          "layout detection models",
+          "LayoutParser model zoo"
+        ],
+        "llm_confidence": 0.98
+      }
+    },
+    {
+      "id": "3d6e83cb-f19d-4252-99af-227d0049b33b",
+      "type": "general",
+      "title": "<sup>1</sup> For each dataset, we train several models of different sizes for di...",
+      "content": "[Title] <sup>1</sup> For each dataset, we train several models of different sizes for di...\n[Content] <sup>1</sup> For each dataset, we train several models of different sizes for different needs (the trade-off between accuracy vs. computational cost). For \"base model\" and \"large model\", we refer to using the ResNet 50 or ResNet 101 backbones [13], respectively. One can train models of different architectures, like Faster R-CNN [28] (F) and Mask R-CNN [12] (M). For example, an F in the Large Model column indicates it has a Faster R-CNN model trained using the ResNet 101 backbone. The platform is maintained and a number of additions will be made to the model zoo in coming months.\n[Keywords] CNN",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": "CNN",
+      "created_at": "2026-06-21T16:13:30.903567",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "model training",
+          "datasets",
+          "model sizes",
+          "accuracy",
+          "computational cost"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "48bc02e4-dbb0-4ffa-ab3f-1da7eaf0ea96",
+      "type": "sop_step",
+      "title": "layout data structures, which are optimized for efficiency and versatility. 3) W...",
+      "content": "[Title] layout data structures, which are optimized for efficiency and versatility. 3) W...\n[Content] layout data structures, which are optimized for efficiency and versatility. 3) When necessary, users can employ existing or customized OCR models via the unified API provided in the OCR module. 4) LayoutParser comes with a set of utility functions for the visualization and storage of the layout data. 5) LayoutParser is also highly customizable, via its integration with functions for layout data annotation and model training. We now provide detailed descriptions for each component.\n\n## 3.1 Layout Detection Models\n[Keywords] API, OCR",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": "API, OCR",
+      "created_at": "2026-06-21T16:13:30.903570",
+      "metadata": {
+        "llm_type": "sop_step",
+        "llm_keywords": [
+          "layout data structures",
+          "OCR models",
+          "unified API",
+          "efficiency",
+          "versatility"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "3b2e8290-1bf3-44f2-8342-f2c539f42c3f",
+      "type": "general",
+      "title": "In LayoutParser, a layout model takes a document image as an input and generates...",
+      "content": "[Title] In LayoutParser, a layout model takes a document image as an input and generates...\n[Content] In LayoutParser, a layout model takes a document image as an input and generates a list of rectangular boxes for the target content regions. Different from traditional methods, it relies on deep convolutional neural networks rather than manually curated rules to identify content regions. It is formulated as an object detection problem and state-of-the-art models like Faster R-CNN [28] and Mask R-CNN [12] are used. This yields prediction results of high accuracy and makes it possible to build a concise, generalized interface for layout detection. LayoutParser, built upon Detectron2 [35], provides a minimal API that can perform layout detection with only four lines of code in Python:\n[Keywords] API, CNN",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": "API, CNN",
+      "created_at": "2026-06-21T16:13:30.903572",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "LayoutParser",
+          "layout model",
+          "document image",
+          "content regions",
+          "deep convolution"
+        ],
+        "llm_confidence": 0.9
+      }
+    },
+    {
+      "id": "b08ad816-1a40-4ac3-a4f2-c3023e33eba9",
+      "type": "sop_step",
+      "title": "```",
+      "content": "[Title] ```\n[Content] ```\nimport layoutparser as lp\\nimage = cv2.imread(\"image_file\") # load images\nmodel = lp.Detectron2LayoutModel(\n        \"lp://PubLayNet/faster_rcnn_R_50_FPN_3x/config\")\nlayout = model.detect(image)\n```",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T16:13:30.903575",
+      "metadata": {
+        "llm_type": "sop_step",
+        "llm_keywords": [
+          "layoutparser",
+          "code example",
+          "Detectron2LayoutModel",
+          "layout detection",
+          "image processing"
+        ],
+        "llm_confidence": 0.95
+      }
+    },
+    {
+      "id": "7f5ff86f-8ce9-4e90-94f5-1eefef03909f",
+      "type": "general",
+      "title": "LayoutParser provides a wealth of pre-trained model weights using various datase...",
+      "content": "[Title] LayoutParser provides a wealth of pre-trained model weights using various datase...\n[Content] LayoutParser provides a wealth of pre-trained model weights using various datasets covering different languages, time periods, and document types. Due to domain shift [7], the prediction performance can notably drop when models are applied to target samples that are significantly different from the training dataset. As document structures and layouts vary greatly in different domains, it is important to select models trained on a dataset similar to the test samples. A semantic syntax is used for initializing the model weights in LayoutParser, using both the dataset name and model name lp://<dataset-name>/<model-architecture-name>.",
+      "source_file": "layout-parser-paper-with-table.pdf",
+      "source_page": 1,
+      "keywords": "",
+      "created_at": "2026-06-21T16:13:30.903578",
+      "metadata": {
+        "llm_type": "general",
+        "llm_keywords": [
+          "LayoutParser",
+          "pre-trained models",
+          "model weights",
+          "datasets",
+          "domain shift"
+        ],
+        "llm_confidence": 0.9
+      }
+    }
+  ]
+}

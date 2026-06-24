@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_file": "fake-email-utf-16-be.eml",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "cc4db279-b0e3-414b-b23f-7705a7a890a9",
+      "type": "general",
+      "title": "Email: {subject}",
+      "content": "From: {from_addr}\nTo: {to_addr}\nDate: {date}\nSubject: {subject}\n\n{body}",
+      "source_file": "fake-email-utf-16-be.eml",
+      "source_page": 0,
+      "keywords": [
+        "Date",
+        "Subject"
+      ],
+      "created_at": "2026-06-22T11:56:15.780358",
+      "metadata": {
+        "element_type": "email",
+        "parser": "email"
+      }
+    }
+  ]
+}

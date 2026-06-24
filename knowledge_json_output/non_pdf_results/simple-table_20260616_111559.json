@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "source_file": "simple-table.md",
+  "total_entries": 1,
+  "entries": [
+    {
+      "id": "7e6821c8-8950-4e30-abc1-ba3b8de50866",
+      "type": "general",
+      "title": "Item | Price | # In stock\n---|---|---\nJuicy Apples...",
+      "content": "Item | Price | # In stock\n---|---|---\nJuicy Apples | 1.99 | 739\nBananas | 1.89 | 6",
+      "source_file": "simple-table.md",
+      "source_page": 0,
+      "keywords": [
+        "Item",
+        "Juicy",
+        "Bananas"
+      ],
+      "created_at": "2026-06-16T11:15:59.141201",
+      "metadata": {
+        "element_type": "text",
+        "company": "Unstructured_Demo"
+      }
+    }
+  ]
+}
