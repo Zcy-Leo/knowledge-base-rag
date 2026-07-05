@@ -11,7 +11,12 @@ Unified document extraction pipeline combining:
 import os
 import re
 from knowledge_schema import KnowledgeEntry, KnowledgeBase, classify_knowledge_type
+from logger import setup_logger
 
+logger = setup_logger(__name__)
+
+MAX_FILENAME_LENGTH = 200
+MAX_FILE_SIZE_MB = 1000
 
 MARKER_EXTENSIONS = {'.pdf'}
 SUPPORTED_EXTENSIONS = {
@@ -21,6 +26,77 @@ SUPPORTED_EXTENSIONS = {
     '.eml', '.msg', '.epub', '.yaml', '.yml',
     '.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.heic'
 }
+
+
+class IngestionException(Exception):
+    """Custom exception for file ingestion errors."""
+    def __init__(self, message: str, file_path: str = "", error_type: str = "ingestion_error"):
+        super().__init__(message)
+        self.file_path = file_path
+        self.error_type = error_type
+
+
+FILE_MAGIC_NUMBERS = {
+    '.pdf': b'%PDF-',
+    '.docx': b'PK\x03\x04',
+    '.xlsx': b'PK\x03\x04',
+    '.pptx': b'PK\x03\x04',
+    '.zip': b'PK\x03\x04',
+    '.rar': b'Rar!\x1a\x07',
+    '.png': b'\x89PNG\r\n\x1a\n',
+    '.jpg': b'\xff\xd8\xff',
+    '.jpeg': b'\xff\xd8\xff',
+    '.gif': b'GIF8',
+    '.bmp': b'BM',
+    '.txt': None,
+    '.md': None,
+    '.json': None,
+}
+
+
+def validate_file(file_path: str) -> tuple[bool, str]:
+    """
+    Validate file before processing.
+    
+    Args:
+        file_path: Path to file
+    
+    Returns:
+        (is_valid, error_message)
+    """
+    if not os.path.exists(file_path):
+        return False, f"File not found: {file_path}"
+    
+    if not os.path.isfile(file_path):
+        return False, f"Not a file: {file_path}"
+    
+    file_size = os.path.getsize(file_path)
+    if file_size == 0:
+        return False, f"Empty file: {file_path}"
+    
+    if file_size > MAX_FILE_SIZE_MB * 1024 * 1024:
+        return False, f"File size exceeds {MAX_FILE_SIZE_MB}MB: {file_path}"
+    
+    file_name = os.path.basename(file_path)
+    if len(file_name) > MAX_FILENAME_LENGTH:
+        return False, f"Filename too long (max {MAX_FILENAME_LENGTH} chars): {file_name}"
+    
+    invalid_chars = r'[\\/:*?"<>|]'
+    if re.search(invalid_chars, file_name):
+        return False, f"Filename contains invalid characters: {file_name}"
+    
+    _, ext = os.path.splitext(file_path.lower())
+    magic = FILE_MAGIC_NUMBERS.get(ext)
+    if magic is not None:
+        try:
+            with open(file_path, 'rb') as f:
+                header = f.read(len(magic))
+            if not header.startswith(magic):
+                return False, f"File content mismatch: expected {ext} but got different content"
+        except Exception as e:
+            return False, f"Failed to verify file content: {e}"
+    
+    return True, ""
 
 
 def is_pdf_encrypted(file_path: str) -> bool:
@@ -39,22 +115,29 @@ def is_pdf_encrypted(file_path: str) -> bool:
 
 
 def extract_knowledge_from_file(file_path: str, company: str = "") -> KnowledgeBase:
+    valid, message = validate_file(file_path)
+    if not valid:
+        logger.warning(f"Skipping invalid file: {message}")
+        kb = KnowledgeBase(source_file=os.path.basename(file_path))
+        kb.add_error(message)
+        return kb
+    
     _, ext = os.path.splitext(file_path.lower())
     
     if ext in MARKER_EXTENSIONS:
         if is_pdf_encrypted(file_path):
-            print("[Extractor] Skipping encrypted PDF: {file_path}")
+            logger.warning(f"Skipping encrypted PDF: {file_path}")
             kb = KnowledgeBase(source_file=os.path.basename(file_path))
-            kb.metadata["encrypted"] = True
+            kb.add_error("Encrypted PDF cannot be processed")
             return kb
         
-        print("[Extractor] Using Marker for PDF: {file_path}")
+        logger.info(f"Processing PDF with Marker: {file_path}")
         kb = _extract_with_marker(file_path)
     elif ext in SUPPORTED_EXTENSIONS:
-        print("[Extractor] Processing {ext}: {file_path}")
+        logger.info(f"Processing {ext}: {file_path}")
         kb = _extract_with_best_parser(file_path, ext)
     else:
-        print("[Extractor] Unknown format {ext}, trying Unstructured fallback: {file_path}")
+        logger.info(f"Unknown format {ext}, trying Unstructured fallback: {file_path}")
         kb = _extract_with_unstructured_fallback(file_path)
     
     if company:

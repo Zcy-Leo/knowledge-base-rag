@@ -9,7 +9,7 @@ import os
 import requests
 
 # --- Configuration ---
-GEMINI_API_KEY = "AQ.Ab8RN6LdeTlqPRAtoV1mQuUHrTR7vOLGcLZ3LJ5-Yc8LuXX_9Q"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL_NAME = "gemini-2.5-flash"  # Updated model name
 INPUT_FILE = "knowledge_180_marker.json"
 OUTPUT_FILE = "knowledge_180_marker_llm.json"
@@ -18,6 +18,7 @@ RATE_LIMIT_DELAY = 4.5  # seconds between batches (15 req/min = 1 per 4s)
 
 # --- Setup requests session ---
 session = requests.Session()
+session.trust_env = False
 
 def call_gemini_api(prompt, timeout=30):
     """Call Gemini API directly using requests with retry."""

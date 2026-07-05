@@ -15,13 +15,39 @@ Architecture: All embedding and storage runs locally (CPU).
 
 import streamlit as st
 import os
+import sys
 import json
 import shutil
 import tempfile
 from datetime import datetime
 
-# --- Company Auto-Detection ---
-from company_manager import get_companies, add_company, remove_company, has_company
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_DIRECTORY = os.path.join(BASE_DIR, "my_local_database")
+JSON_OUTPUT_DIR = os.path.join(BASE_DIR, "knowledge_json_output")
+
+
+@st.cache_resource(show_spinner="Initializing search engine...", ttl=0)
+def init_faiss_search():
+    try:
+        from faiss_search import FAISSSearch
+        return FAISSSearch()
+    except Exception as e:
+        print(f"Failed to initialize FAISSSearch: {e}")
+        return None
+
+
+def get_reranker_models_cache():
+    if "reranker_models" not in st.session_state:
+        try:
+            from reranker import get_available_models
+            models = get_available_models(language="english")
+            st.session_state.reranker_models = [m for m in models if m["type"] == "crossencoder"]
+        except Exception as e:
+            print(f"Failed to load reranker models: {e}")
+            st.session_state.reranker_models = []
+    return st.session_state.reranker_models
 KNOWN_COMPANIES = [
     "HP", "Hewlett Packard", "Cisco", "Reliance", "Google", "Microsoft", "Apple", 
     "Samsung", "HSBC", "IBM", "Intel", "NVIDIA", "AMD", "Dell", "Lenovo", 
@@ -113,7 +139,13 @@ Do not include any explanation, just the company name."""
 def get_all_companies(db=None):
     """Get all companies from all sources (company_manager + database)."""
     default_companies = ["NA", "HP", "Generic"]
-    stored_companies = get_companies()
+    
+    stored_companies = []
+    try:
+        from company_manager import get_companies
+        stored_companies = get_companies()
+    except:
+        pass
     
     db_companies = []
     if db is not None:
@@ -352,21 +384,56 @@ st.set_page_config(
 
 # --- Shared utilities ---
 
-DB_DIRECTORY = "./my_local_database"
-JSON_OUTPUT_DIR = "./knowledge_json_output"
+# 使用绝对路径确保数据库始终指向正确位置
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_DIRECTORY = os.path.join(BASE_DIR, "my_local_database")
+JSON_OUTPUT_DIR = os.path.join(BASE_DIR, "knowledge_json_output")
 
 
 @st.cache_resource(show_spinner="Loading embedding model (bge-small-en-v1.5)...")
 def load_embeddings():
     from langchain_huggingface import HuggingFaceEmbeddings
-    return HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
+    model_path = os.path.join(os.environ.get("USERPROFILE", "~"), ".cache", "huggingface", "hub", "models--BAAI--bge-small-en-v1.5", "snapshots")
+    if os.path.exists(model_path):
+        import glob
+        snapshots = glob.glob(os.path.join(model_path, "*"))
+        if snapshots:
+            model_path = snapshots[0]
+    else:
+        model_path = "BAAI/bge-small-en-v1.5"
+    
+    return HuggingFaceEmbeddings(
+        model_name=model_path,
+        model_kwargs={"device": "cpu"},
+        encode_kwargs={"normalize_embeddings": True}
+    )
 
 
+@st.cache_resource(show_spinner=False)
 def get_db(embeddings):
     """Get or create Chroma database connection."""
     from langchain_chroma import Chroma
     if os.path.exists(DB_DIRECTORY):
         return Chroma(persist_directory=DB_DIRECTORY, embedding_function=embeddings)
+    return None
+
+
+@st.cache_resource(show_spinner=False)
+def load_bm25_retriever():
+    from bm25_retriever import get_bm25_retriever, sync_bm25_with_chroma
+    persist_dir = os.path.join(BASE_DIR, "bm25_index")
+    retriever = get_bm25_retriever(persist_dir)
+    
+    if retriever.get_index_size() == 0:
+        embeddings = load_embeddings()
+        db = get_db(embeddings)
+        if db:
+            retriever = sync_bm25_with_chroma(db, persist_dir)
+    
+    return retriever
+
+
+def load_reranker():
     return None
 
 
@@ -378,17 +445,23 @@ def ingest_entries_to_db(entries, embeddings, source_label=""):
     metas = [e.to_chroma_metadata() for e in entries]
 
     if os.path.exists(DB_DIRECTORY):
-        # Append to existing database
         db = Chroma(persist_directory=DB_DIRECTORY, embedding_function=embeddings)
         db.add_texts(texts=texts, metadatas=metas)
     else:
-        # Create new database
         db = Chroma.from_texts(
             texts=texts,
             embedding=embeddings,
             metadatas=metas,
             persist_directory=DB_DIRECTORY
         )
+    
+    try:
+        bm25_retriever = load_bm25_retriever()
+        if bm25_retriever:
+            bm25_retriever.add_documents(texts, metadata=metas)
+    except Exception as bm25_ex:
+        print(f"Warning: Failed to update BM25 index: {bm25_ex}")
+    
     return db, len(texts)
 
 
@@ -417,10 +490,14 @@ with st.sidebar:
     # Show database stats (no model load needed, read SQLite directly)
     if os.path.exists(DB_DIRECTORY):
         try:
-            import chromadb
-            client = chromadb.PersistentClient(path=DB_DIRECTORY)
-            cols = client.list_collections()
-            count = sum(c.count() for c in cols) if cols else 0
+            @st.cache_data(ttl=60, show_spinner=False)
+            def get_db_count():
+                import chromadb
+                client = chromadb.PersistentClient(path=DB_DIRECTORY)
+                cols = client.list_collections()
+                return sum(c.count() for c in cols) if cols else 0
+            
+            count = get_db_count()
             st.metric("Total entries in DB", count)
         except Exception:
             st.caption("DB exists")
@@ -439,11 +516,13 @@ st.markdown("Ingest documents from multiple sources, vectorize, and search.")
 st.markdown("---")
 
 # Initialize database connection for unified company/topic retrieval
-try:
-    embeddings = load_embeddings()
-    db = get_db(embeddings)
-except:
-    db = None
+with st.spinner("Connecting to database..."):
+    try:
+        embeddings = load_embeddings()
+        db = get_db(embeddings)
+    except Exception as e:
+        db = None
+        st.warning(f"Database connection warning: {e}")
 
 tab1, tab2, tab3, tab4 = st.tabs(["Ingest", "Database", "Browse", "Search"])
 
@@ -554,12 +633,16 @@ with tab1:
         with col_btn1:
             if st.button("Confirm Add", key="btn_confirm_add"):
                 if new_company.strip():
-                    if add_company(new_company.strip()):
-                        st.success(f"✅ Company '{new_company}' added successfully!")
-                        st.session_state.companies_cache = []
-                        st.session_state.pending_company_select = new_company.strip()
-                    else:
-                        st.warning("⚠️ Already exists or invalid")
+                    try:
+                        from company_manager import add_company
+                        if add_company(new_company.strip()):
+                            st.success(f"✅ Company '{new_company}' added successfully!")
+                            st.session_state.companies_cache = []
+                            st.session_state.pending_company_select = new_company.strip()
+                        else:
+                            st.warning("⚠️ Already exists or invalid")
+                    except Exception as e:
+                        st.error(f"Failed to add company: {e}")
                 else:
                     st.warning("Please enter a company name")
         with col_btn2:
@@ -1196,19 +1279,27 @@ with tab2:
                     new_company = st.text_input("Company name", key="new_company")
                     if st.button("Add Company", key="btn_add_company"):
                         if new_company.strip():
-                            if add_company(new_company.strip()):
-                                st.success(f"✅ Added: {new_company}")
-                                st.rerun()
-                            else:
-                                st.warning("⚠️ Already exists or invalid")
+                            try:
+                                from company_manager import add_company
+                                if add_company(new_company.strip()):
+                                    st.success(f"✅ Added: {new_company}")
+                                    st.rerun()
+                                else:
+                                    st.warning("⚠️ Already exists or invalid")
+                            except Exception as e:
+                                st.error(f"Failed to add company: {e}")
                 
                 if companies:
                     st.markdown("**Remove Company:**")
                     remove_company_name = st.selectbox("Select company to remove", companies, key="remove_company_select")
                     if st.button("Remove Company", type="secondary", key="btn_remove_company"):
-                        if remove_company(remove_company_name):
-                            st.success(f"✅ Removed: {remove_company_name}")
-                            st.rerun()
+                        try:
+                            from company_manager import remove_company
+                            if remove_company(remove_company_name):
+                                st.success(f"✅ Removed: {remove_company_name}")
+                                st.rerun()
+                        except Exception as e:
+                            st.error(f"Failed to remove company: {e}")
 
                 st.markdown("---")
 
@@ -1562,30 +1653,28 @@ with tab3:
                     col_f1, col_f2, col_f3, col_f4, col_f5, col_f6 = st.columns([1, 1, 1, 1, 1, 2])
 
                     with col_f1:
-                        filter_type = st.selectbox("Filter by type", ["All"] + all_types, key="browse_type_select")
+                        filter_type = st.selectbox("Type", ["All"] + all_types, key="browse_type_select")
                     with col_f2:
-                        # Company dropdown with counts
                         company_options_browse = ["All"]
                         for c in all_companies:
                             count = browse_company_counts.get(c, 0)
                             company_options_browse.append(f"{c} ({count})")
-                        filter_company_raw = st.selectbox("Filter by company", company_options_browse, key="browse_company_select")
+                        filter_company_raw = st.selectbox("Company", company_options_browse, key="browse_company_select")
                         filter_company = "All" if filter_company_raw == "All" else filter_company_raw.split(" (")[0]
                     with col_f3:
-                        # Topic dropdown with counts
                         topic_options_browse = ["All"]
                         for t in all_topics:
                             count = browse_topic_counts.get(t, 0)
                             topic_options_browse.append(f"{t} ({count})")
-                        filter_topic_raw = st.selectbox("Filter by topic", topic_options_browse, key="browse_topic_select")
+                        filter_topic_raw = st.selectbox("Topic", topic_options_browse, key="browse_topic_select")
                         filter_topic = "All" if filter_topic_raw == "All" else filter_topic_raw.split(" (")[0]
                     with col_f4:
                         source_options = ["All"] + [s[:40] for s in all_sources]
-                        filter_source = st.selectbox("Filter by source", source_options, key="browse_source_select")
+                        filter_source = st.selectbox("Source", source_options, key="browse_source_select")
                     with col_f5:
                         filter_llm = st.selectbox("LLM Classified", ["All", "Yes", "No"], key="browse_llm_select")
                     with col_f6:
-                        search_kw = st.text_input("Keyword filter", placeholder="Enter keyword...")
+                        search_kw = st.text_input("Keyword", placeholder="Enter keyword...")
 
                     # Apply filters
                     filtered_indices = list(range(total))
@@ -1707,67 +1796,100 @@ with tab4:
     if not os.path.exists(DB_DIRECTORY):
         st.info("No data yet. Ingest documents first.")
     else:
-        try:
-            embeddings = load_embeddings()
-            db = get_db(embeddings)
+        faiss_searcher = init_faiss_search()
+        
+        if faiss_searcher:
+            all_companies = ["HP", "Cisco", "Other"]
+            search_company_counts = {}
+            for c in all_companies:
+                search_company_counts[c] = 0
 
-            if db:
-                # Get all companies from unified source
-                all_companies = get_all_companies(db)
-                
-                # Get counts for display
-                search_company_counts, _ = get_metadata_counts(db)
-
-                col_q, col_k, col_c = st.columns([3, 1, 1])
+            with st.form(key="search_form"):
+                col_q, col_k, col_c, col_m = st.columns([3, 1, 1, 2])
                 with col_q:
                     query = st.text_input("Enter your question", placeholder="e.g. How to reset the device?")
                 with col_k:
                     top_k = st.slider("Results", 1, 10, 3)
                 with col_c:
-                    # Company dropdown with counts
                     search_company_options = ["All"]
                     for c in all_companies:
                         count = search_company_counts.get(c, 0)
                         search_company_options.append(f"{c} ({count})")
                     filter_company_raw = st.selectbox("Company filter", search_company_options, key="search_company_select")
                     filter_company = "All" if filter_company_raw == "All" else filter_company_raw.split(" (")[0]
+                with col_m:
+                    search_mode = st.selectbox("Search Mode", 
+                        ["Pure Vector", "Hybrid (Vector+BM25)", "Hybrid + CrossEncoder", "Hybrid + Gemini"],
+                        index=2,
+                        key="search_mode_select"
+                    )
+                    
+                    reranker_model = None
+                    if search_mode == "Hybrid + CrossEncoder":
+                        crossencoder_models = get_reranker_models_cache()
+                        if crossencoder_models:
+                            model_options = [f"{m['name']} ({m['description']})" for m in crossencoder_models]
+                            selected_model_str = st.selectbox("Reranker Model", model_options, key="reranker_model_select")
+                            reranker_model = crossencoder_models[model_options.index(selected_model_str)]["id"]
 
-                if query:
-                    with st.spinner("Searching..."):
-                        # Build filter if company is selected
-                        filter_dict = {}
-                        if filter_company != "All":
-                            filter_dict["company"] = filter_company
+                submit_button = st.form_submit_button("Search", use_container_width=True)
 
-                        if filter_dict:
-                            results = db.similarity_search(query, k=top_k, filter=filter_dict)
-                        else:
-                            results = db.similarity_search(query, k=top_k)
+            if submit_button and query:
+                with st.spinner("Searching..."):
+                    filter_dict = {}
+                    if filter_company != "All":
+                        filter_dict["company"] = filter_company
 
-                    st.markdown(f"**Query:** `{query}` | **Results:** {len(results)}")
-                    st.markdown("---")
+                    if search_mode == "Pure Vector":
+                        results = faiss_searcher.search(query, k=top_k, filter_dict=filter_dict)
+                    elif search_mode == "Hybrid (Vector+BM25)":
+                        results = faiss_searcher.hybrid_search(query, k=top_k, filter_dict=filter_dict, use_bm25=True, reranker_type=None)
+                    elif search_mode == "Hybrid + CrossEncoder":
+                        results = faiss_searcher.hybrid_search(query, k=top_k, filter_dict=filter_dict, use_bm25=True, reranker_type='crossencoder', reranker_model=reranker_model)
+                    else:
+                        results = faiss_searcher.hybrid_search(query, k=top_k, filter_dict=filter_dict, use_bm25=True, reranker_type='gemini')
 
-                    for i, res in enumerate(results):
-                        meta = res.metadata
-                        with st.container():
-                            st.markdown(
-                                f"**#{i+1}** | Type: `{meta.get('type', 'general')}` | "
-                                f"Source: `{meta.get('source_file', '?')[:40]}` | Page {meta.get('source_page', 0)}"
-                            )
-                            st.markdown(f"**{meta.get('title', 'Untitled')}**")
+                    st.session_state["last_search_results"] = results
+                    st.session_state["last_search_query"] = query
+                    st.session_state["last_search_mode"] = search_mode
+                    st.session_state["last_search_top_k"] = top_k
+                    st.session_state["last_search_company"] = filter_company
+            
+            results = st.session_state.get("last_search_results", [])
+            if results:
+                st.markdown(f"**Query:** `{st.session_state.get('last_search_query', '')}` | **Mode:** `{st.session_state.get('last_search_mode', '')}` | **Results:** {len(results)}")
+                st.markdown("---")
 
-                            # Clean display: strip [Title]/[Content]/[Keywords] tags
-                            raw = res.page_content
-                            display_text = raw
-                            if "[Content] " in raw:
-                                display_text = raw.split("[Content] ", 1)[1]
-                                if "[Keywords]" in display_text:
-                                    display_text = display_text.split("[Keywords]")[0].strip()
-                            elif "[Title] " in raw:
-                                display_text = raw.split("\n", 1)[1] if "\n" in raw else raw
+                for i, res in enumerate(results):
+                    meta = res.get('metadata', {})
+                    raw = res.get('content', '')
 
-                            st.info(display_text[:500])
-                            st.markdown("---")
+                    score_info = ""
+                    if 'similarity' in res:
+                        score_info = f" | Similarity: {res['similarity']:.4f}"
+                    elif 'rrf_score' in res:
+                        score_info = f" | RRF: {res['rrf_score']:.4f}"
+                    if 'rerank_score' in res:
+                        score_info += f" | Rerank: {res['rerank_score']:.4f}"
 
-        except Exception as ex:
-            st.error(f"Error: {ex}")
+                    with st.container():
+                        st.markdown(
+                            f"**#{i+1}** | Type: `{meta.get('type', 'general')}` | "
+                            f"Source: `{meta.get('source_file', '?')[:40]}` | Page {meta.get('source_page', 0)}{score_info}"
+                        )
+
+                        display_text = raw
+                        if "[Content] " in raw:
+                            display_text = raw.split("[Content] ", 1)[1]
+                            if "[Keywords]" in display_text:
+                                display_text = display_text.split("[Keywords]")[0].strip()
+                        elif "[Title] " in raw:
+                            lines = raw.split("\n")
+                            content_lines = []
+                            for line in lines:
+                                if not line.startswith("["):
+                                    content_lines.append(line)
+                            display_text = "\n".join(content_lines).strip()
+
+                        st.info(display_text[:500])
+                        st.markdown("---")

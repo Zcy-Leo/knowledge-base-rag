@@ -202,9 +202,24 @@ class KnowledgeBase:
     def __init__(self, source_file: str = ""):
         self.source_file = source_file
         self.entries: list[KnowledgeEntry] = []
+        self.metadata: dict = {
+            'errors': [],
+            'warnings': [],
+            'processing_time': 0.0,
+            'file_valid': True
+        }
 
     def add(self, entry: KnowledgeEntry):
         self.entries.append(entry)
+
+    def add_error(self, error_message: str):
+        """Add an error message to metadata."""
+        self.metadata['errors'].append(error_message)
+        self.metadata['file_valid'] = False
+
+    def add_warning(self, warning_message: str):
+        """Add a warning message to metadata."""
+        self.metadata['warnings'].append(warning_message)
 
     def to_dict_list(self) -> list[dict]:
         return [e.to_dict() for e in self.entries]

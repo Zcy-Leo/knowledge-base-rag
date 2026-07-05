@@ -1,0 +1,4 @@
+Test with special chars: éñçüäö
+Emoji: 😊🎉🚀
+Chinese: 你好世界
+Japanese: こんにちは

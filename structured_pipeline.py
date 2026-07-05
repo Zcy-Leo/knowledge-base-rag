@@ -24,8 +24,9 @@ from langchain_chroma import Chroma
 
 # Configuration
 DEFAULT_PDF      = "sample_manual.pdf"
-DB_DIRECTORY     = "./my_local_database"
-OUTPUT_JSON_DIR  = "./knowledge_json_output"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_DIRECTORY     = os.path.join(BASE_DIR, "my_local_database")
+OUTPUT_JSON_DIR  = os.path.join(BASE_DIR, "knowledge_json_output")
 EMBED_MODEL      = "BAAI/bge-small-en-v1.5"
 
 
