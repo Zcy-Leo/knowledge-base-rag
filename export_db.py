@@ -4,11 +4,15 @@ import json
 import os
 from datetime import datetime
 
+# 使用绝对路径
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_DIRECTORY = os.path.join(BASE_DIR, "my_local_database")
+
 def export_database(output_file=None):
     print("Connecting to local database...")
     
     embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
-    db = Chroma(persist_directory="./my_local_database", embedding_function=embeddings)
+    db = Chroma(persist_directory=DB_DIRECTORY, embedding_function=embeddings)
     
     all_data = db.get(include=["documents", "metadatas"])
     
@@ -32,8 +36,9 @@ def export_database(output_file=None):
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         output_file = f"db_export_{ts}.json"
     
-    os.makedirs("exports", exist_ok=True)
-    output_path = os.path.join("exports", output_file)
+    EXPORTS_DIR = os.path.join(BASE_DIR, "exports")
+    os.makedirs(EXPORTS_DIR, exist_ok=True)
+    output_path = os.path.join(EXPORTS_DIR, output_file)
     
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(export_data, f, ensure_ascii=False, indent=2)

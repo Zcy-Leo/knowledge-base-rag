@@ -1,11 +1,16 @@
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 import json
+import os
+
+# 使用绝对路径
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_DIRECTORY = os.path.join(BASE_DIR, "my_local_database")
 
 print("=== Database Analysis Report ===\n")
 
 embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
-db = Chroma(persist_directory="./my_local_database", embedding_function=embeddings)
+db = Chroma(persist_directory=DB_DIRECTORY, embedding_function=embeddings)
 
 all_data = db.get(include=["documents", "metadatas"])
 

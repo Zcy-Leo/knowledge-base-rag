@@ -1,8 +1,12 @@
 import json
 import os
 
+# 使用绝对路径
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_DIRECTORY = os.path.join(BASE_DIR, "my_local_database")
+
 def ingest_hp_data():
-    json_file = "knowledge_json_output/knowledge_llm_HP_restored.json"
+    json_file = os.path.join(BASE_DIR, "knowledge_json_output", "knowledge_llm_HP_restored.json")
     
     if not os.path.exists(json_file):
         print(f"File not found: {json_file}")
@@ -19,13 +23,13 @@ def ingest_hp_data():
     
     embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
     
-    if os.path.exists("./my_local_database"):
-        db = Chroma(persist_directory="./my_local_database", embedding_function=embeddings)
+    if os.path.exists(DB_DIRECTORY):
+        db = Chroma(persist_directory=DB_DIRECTORY, embedding_function=embeddings)
     else:
         db = Chroma.from_texts(
             texts=[],
             embedding=embeddings,
-            persist_directory="./my_local_database"
+            persist_directory=DB_DIRECTORY
         )
     
     from knowledge_schema import KnowledgeEntry

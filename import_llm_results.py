@@ -10,7 +10,7 @@ def import_llm_results_from_json(json_path):
     print(f"Loaded {len(kb.entries)} entries")
     
     embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
-    db = Chroma(persist_directory="./my_local_database", embedding_function=embeddings)
+    db = Chroma(persist_directory=DB_DIRECTORY, embedding_function=embeddings)
     
     all_db_data = db.get(include=["documents", "metadatas"])
     print(f"Database has {len(all_db_data['ids'])} entries")
@@ -45,8 +45,8 @@ def import_llm_results_from_json(json_path):
 
 if __name__ == "__main__":
     json_files = [
-        "knowledge_json_output/knowledge_llm_HP_20260615_164026.json",
-        "knowledge_json_output/knowledge_llm_HKSB_20260614_151758.json"
+        os.path.join(BASE_DIR, "knowledge_json_output", "knowledge_llm_HP_20260615_164026.json"),
+        os.path.join(BASE_DIR, "knowledge_json_output", "knowledge_llm_HKSB_20260614_151758.json")
     ]
     
     total_updated = 0

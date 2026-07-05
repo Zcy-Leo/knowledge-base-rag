@@ -37,8 +37,7 @@ print("   Model loaded.\n")
 # ==========================================
 print("[Step 4/4] Storing vectors in local Chroma database...")
 # persist_directory specifies where the database files are saved locally
-db_directory = "./my_local_database"
-db = Chroma.from_documents(chunks, embeddings, persist_directory=db_directory)
+db = Chroma.from_documents(chunks, embeddings, persist_directory=DB_DIRECTORY)
 print("   Data stored successfully.\n")
 
 print("Pipeline complete. Check the 'my_local_database' folder in the project directory.")

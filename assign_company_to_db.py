@@ -11,7 +11,8 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
 # Configuration
-DB_DIRECTORY = "./my_local_database"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_DIRECTORY = os.path.join(BASE_DIR, "my_local_database")
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 
 # Company mapping based on source file patterns

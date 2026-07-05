@@ -1,5 +1,10 @@
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
+import os
+
+# 使用绝对路径
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_DIRECTORY = os.path.join(BASE_DIR, "my_local_database")
 
 print("Connecting to local knowledge base...\n")
 
@@ -7,11 +12,8 @@ print("Connecting to local knowledge base...\n")
 # Must match the model used when storing data, otherwise vectors won't align
 embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
 
-# 2. Specify the database directory path
-db_directory = "./my_local_database"
-
-# 3. Connect to database (no need to reload the PDF here)
-db = Chroma(persist_directory=db_directory, embedding_function=embeddings)
+# 2. Connect to database (no need to reload the PDF here)
+db = Chroma(persist_directory=DB_DIRECTORY, embedding_function=embeddings)
 print("Database connected. Ready to query.\n")
 
 # ==========================================
