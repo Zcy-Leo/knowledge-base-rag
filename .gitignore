@@ -40,3 +40,10 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+
+# Generated output (large files)
+non_pdf_results/
+knowledge_json_output/
+unstructured_extracted/
+organized_by_topic/
+organized_documents/
