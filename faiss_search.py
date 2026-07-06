@@ -92,6 +92,22 @@ class FAISSSearch:
         mem_mb = process.memory_info().rss / (1024 * 1024)
         return f"Current memory usage: {mem_mb:.2f} MB"
     
+    def _get_metadata_from_db(self, doc_id):
+        try:
+            conn = sqlite3.connect(DB_PATH)
+            cursor = conn.cursor()
+            cursor.execute("SELECT key, string_value FROM embedding_metadata WHERE id = ?", (doc_id,))
+            rows = cursor.fetchall()
+            conn.close()
+            
+            metadata = {}
+            for key, value in rows:
+                if value is not None:
+                    metadata[key] = value
+            return metadata
+        except:
+            return {}
+
     def search(self, query, k=10, filter_dict=None):
         query_embedding = self.embeddings.embed_query(query)
         query_np = np.array([query_embedding]).astype(np.float32)
@@ -102,7 +118,9 @@ class FAISSSearch:
         for i, idx in enumerate(indices[0]):
             doc_id = self.doc_ids[idx]
             content = self.docs.get(doc_id, "")
-            metadata = self._parse_metadata(content)
+            metadata = self._get_metadata_from_db(doc_id)
+            content_metadata = self._parse_metadata(content)
+            metadata.update(content_metadata)
             
             if filter_dict:
                 match = True

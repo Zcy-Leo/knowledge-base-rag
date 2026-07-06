@@ -1819,23 +1819,28 @@ with tab4:
                     filter_company = "All" if filter_company_raw == "All" else filter_company_raw.split(" (")[0]
                 with col_m:
                     search_mode = st.selectbox("Search Mode", 
-                        ["Pure Vector", "Hybrid (Vector+BM25)", "Hybrid + CrossEncoder", "Hybrid + Gemini"],
+                        ["Pure Vector", "Hybrid (Vector+BM25)", "Hybrid + CrossEncoder", "Hybrid + Gemini", "CrossEncoder + AI Assistant"],
                         index=2,
                         key="search_mode_select"
                     )
                     
                     reranker_model = None
-                    if search_mode == "Hybrid + CrossEncoder":
-                        crossencoder_models = get_reranker_models_cache()
+                    crossencoder_models = get_reranker_models_cache()
+                    if search_mode == "Hybrid + CrossEncoder" or search_mode == "CrossEncoder + AI Assistant":
                         if crossencoder_models:
                             model_options = [f"{m['name']} ({m['description']})" for m in crossencoder_models]
                             selected_model_str = st.selectbox("Reranker Model", model_options, key="reranker_model_select")
                             reranker_model = crossencoder_models[model_options.index(selected_model_str)]["id"]
 
-                submit_button = st.form_submit_button("Search", use_container_width=True)
+                submit_button = st.form_submit_button("Search" if search_mode != "CrossEncoder + AI Assistant" else "Ask AI", use_container_width=True)
+
+            cached_mode = st.session_state.get("last_search_mode", "")
+            if cached_mode != search_mode:
+                st.session_state["last_search_results"] = []
+                st.session_state["last_llm_answer"] = ""
 
             if submit_button and query:
-                with st.spinner("Searching..."):
+                with st.spinner("Searching..." if search_mode != "CrossEncoder + AI Assistant" else "Thinking..."):
                     filter_dict = {}
                     if filter_company != "All":
                         filter_dict["company"] = filter_company
@@ -1846,8 +1851,16 @@ with tab4:
                         results = faiss_searcher.hybrid_search(query, k=top_k, filter_dict=filter_dict, use_bm25=True, reranker_type=None)
                     elif search_mode == "Hybrid + CrossEncoder":
                         results = faiss_searcher.hybrid_search(query, k=top_k, filter_dict=filter_dict, use_bm25=True, reranker_type='crossencoder', reranker_model=reranker_model)
-                    else:
+                    elif search_mode == "Hybrid + Gemini":
                         results = faiss_searcher.hybrid_search(query, k=top_k, filter_dict=filter_dict, use_bm25=True, reranker_type='gemini')
+                    elif search_mode == "CrossEncoder + AI Assistant":
+                        results = faiss_searcher.hybrid_search(query, k=top_k, filter_dict=filter_dict, use_bm25=True, reranker_type='crossencoder', reranker_model=reranker_model)
+                        try:
+                            from llm_qa import generate_answer
+                            llm_result = generate_answer(query, results)
+                            st.session_state["last_llm_answer"] = llm_result.get('answer', '')
+                        except Exception as llm_ex:
+                            st.session_state["last_llm_answer"] = f"LLM error: {str(llm_ex)}"
 
                     st.session_state["last_search_results"] = results
                     st.session_state["last_search_query"] = query
@@ -1859,6 +1872,15 @@ with tab4:
             if results:
                 st.markdown(f"**Query:** `{st.session_state.get('last_search_query', '')}` | **Mode:** `{st.session_state.get('last_search_mode', '')}` | **Results:** {len(results)}")
                 st.markdown("---")
+
+                current_mode = st.session_state.get("last_search_mode", "")
+                if current_mode == "CrossEncoder + AI Assistant":
+                    llm_answer = st.session_state.get("last_llm_answer", "")
+                    if llm_answer:
+                        st.markdown("### 🤖 AI Answer")
+                        st.markdown(f"> {llm_answer}")
+                        st.markdown("---")
+                        st.markdown("### 📚 Sources")
 
                 for i, res in enumerate(results):
                     meta = res.get('metadata', {})

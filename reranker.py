@@ -4,6 +4,9 @@ import json
 import time
 import requests
 from typing import List, Dict, Optional, Union
+from dotenv import load_dotenv
+
+load_dotenv()
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL_NAME = "gemini-2.5-flash"
