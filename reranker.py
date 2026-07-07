@@ -103,31 +103,40 @@ class CrossEncoderReranker(BaseReranker):
                 load_time = time.time() - start_time
                 print(f"Model loaded in {load_time:.2f}s")
                 self._initialized = True
+            except ImportError:
+                raise RuntimeError("sentence_transformers is not installed. Install with: pip install sentence-transformers")
             except Exception as e:
-                raise Exception(f"Failed to load CrossEncoder model: {e}")
+                raise RuntimeError(f"Failed to load CrossEncoder model '{self._model_name}': {str(e)}. Make sure the model name is correct.")
         return self.model
     
     def rerank(self, query: str, documents: List[Dict], top_k: int = 10) -> List[Dict]:
         if not documents:
             return []
         
+        if not query or not query.strip():
+            return documents[:top_k]
+        
         if not self._initialized:
             self.initialize()
         
         start_time = time.time()
         
-        pairs = [(query, doc.get('content', '')) for doc in documents]
-        scores = self.model.predict(pairs)
-        
-        for i, doc in enumerate(documents):
-            doc['rerank_score'] = float(scores[i])
-        
-        ranked = sorted(documents, key=lambda x: x.get('rerank_score', 0), reverse=True)
-        
-        rerank_time = time.time() - start_time
-        print(f"Reranked {len(documents)} documents in {rerank_time:.2f}s")
-        
-        return ranked[:top_k]
+        try:
+            pairs = [(query, doc.get('content', '')) for doc in documents]
+            scores = self.model.predict(pairs)
+            
+            for i, doc in enumerate(documents):
+                doc['rerank_score'] = float(scores[i])
+            
+            ranked = sorted(documents, key=lambda x: x.get('rerank_score', 0), reverse=True)
+            
+            rerank_time = time.time() - start_time
+            print(f"Reranked {len(documents)} documents in {rerank_time:.2f}s")
+            
+            return ranked[:top_k]
+        except Exception as e:
+            print(f"CrossEncoder rerank error: {str(e)}. Returning original order.")
+            return documents[:top_k]
     
     def predict_scores(self, query: str, documents: List[Dict]) -> List[float]:
         if not self._initialized:

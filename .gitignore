@@ -47,3 +47,6 @@ knowledge_json_output/
 unstructured_extracted/
 organized_by_topic/
 organized_documents/
+pdf_results/
+bm25_index/
+temp_test_db/

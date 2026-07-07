@@ -14,36 +14,63 @@ FAISS_INDEX_PQ_PATH = os.path.join(BASE_DIR, "my_local_database", "faiss_index_p
 class FAISSSearch:
     def __init__(self, use_compression=True, nlist=100, nprobe=10):
         os.environ["CUDA_VISIBLE_DEVICES"] = ""
-        model_path = "C:/Users/HP/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a"
-        self.embeddings = HuggingFaceEmbeddings(model_name=model_path, model_kwargs={"device": "cpu"})
+        self.embeddings = None
         self.index = None
         self.doc_ids = []
         self.docs = {}
         self.use_compression = use_compression
         self.nlist = nlist
         self.nprobe = nprobe
-        self._load_or_build_index()
         self._rerankers = {}
         self._bm25_retriever = None
+        self._initialized = False
+    
+    def _lazy_load_embeddings(self):
+        if self.embeddings is None:
+            try:
+                model_path = "C:/Users/HP/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a"
+                if os.path.exists(model_path):
+                    self.embeddings = HuggingFaceEmbeddings(model_name=model_path, model_kwargs={"device": "cpu"})
+                else:
+                    self.embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5", model_kwargs={"device": "cpu"})
+                print("Embedding model loaded successfully")
+            except Exception as e:
+                raise RuntimeError(f"Failed to load embedding model: {str(e)}")
+        return self.embeddings
+    
+    def initialize(self):
+        if self._initialized:
+            return
+        
+        try:
+            self._load_or_build_index()
+            self._initialized = True
+            print("FAISSSearch initialized successfully")
+        except Exception as e:
+            raise RuntimeError(f"Failed to initialize FAISSSearch: {str(e)}")
     
     def _load_or_build_index(self):
         pq_index_path = FAISS_INDEX_PQ_PATH if self.use_compression else FAISS_INDEX_PATH
         
         if os.path.exists(pq_index_path):
             print("Loading FAISS index from disk...")
-            self.index = faiss.read_index(pq_index_path)
-            
-            if self.use_compression and hasattr(self.index, 'nprobe'):
-                self.index.nprobe = self.nprobe
-            
-            with open(pq_index_path + ".ids", "r", encoding="utf-8") as f:
-                self.doc_ids = json.load(f)
-            
-            with open(pq_index_path + ".docs", "r", encoding="utf-8") as f:
-                docs_list = json.load(f)
-                self.docs = {doc_id: content for doc_id, content in docs_list}
-            
-            print(f"Loaded {len(self.doc_ids)} documents")
+            try:
+                self.index = faiss.read_index(pq_index_path)
+                
+                if self.use_compression and hasattr(self.index, 'nprobe'):
+                    self.index.nprobe = self.nprobe
+                
+                with open(pq_index_path + ".ids", "r", encoding="utf-8") as f:
+                    self.doc_ids = json.load(f)
+                
+                with open(pq_index_path + ".docs", "r", encoding="utf-8") as f:
+                    docs_list = json.load(f)
+                    self.docs = {doc_id: content for doc_id, content in docs_list}
+                
+                print(f"Loaded {len(self.doc_ids)} documents")
+            except Exception as e:
+                print(f"Failed to load index from disk: {e}. Building from SQLite...")
+                self._build_from_sqlite()
         else:
             print("Building FAISS index from SQLite...")
             self._build_from_sqlite()
