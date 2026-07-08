@@ -40,6 +40,8 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+~$*
+*.tmp.docx
 
 # Generated output (large files)
 non_pdf_results/
