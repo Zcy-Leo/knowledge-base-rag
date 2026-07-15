@@ -61,6 +61,10 @@ class KnowledgeEntry:
             parts.append(f"[Title] {self.title}")
         if self.content:
             parts.append(f"[Content] {self.content}")
+        if self.source_file:
+            parts.append(f"[Source] {self.source_file}")
+        if self.source_page:
+            parts.append(f"[Page] {self.source_page}")
         if self.keywords:
             parts.append(f"[Keywords] {', '.join(self.keywords)}")
         return "\n".join(parts)

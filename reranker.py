@@ -1,12 +1,18 @@
 import os
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
+os.environ["HF_DATASETS_OFFLINE"] = "1"
+os.environ["HF_HUB_OFFLINE"] = "1"
+
 import pickle
 import json
 import time
 import requests
 from typing import List, Dict, Optional, Union
 from dotenv import load_dotenv
+from llm_provider import LLMProvider, call_llm
 
-load_dotenv()
+env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+load_dotenv(env_path, override=True)
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL_NAME = "gemini-2.5-flash"
@@ -42,11 +48,38 @@ MODEL_REGISTRY = {
         "language": "english",
         "description": "Cloud LLM reranker, requires internet",
         "model_class": "GeminiReranker"
+    },
+    "deepseek": {
+        "name": "DeepSeek",
+        "type": "llm",
+        "language": "english",
+        "description": "Domestic LLM reranker, free tier available",
+        "model_class": "LLMReranker"
+    },
+    "zhipu": {
+        "name": "ZhiPu GLM",
+        "type": "llm",
+        "language": "english",
+        "description": "Domestic LLM reranker, free tier available",
+        "model_class": "LLMReranker"
+    },
+    "qianwen": {
+        "name": "Aliyun Qianwen",
+        "type": "llm",
+        "language": "english",
+        "description": "Domestic LLM reranker, free tier available",
+        "model_class": "LLMReranker"
+    },
+    "doubao": {
+        "name": "ByteDance Doubao",
+        "type": "llm",
+        "language": "english",
+        "description": "Domestic LLM reranker, free tier available",
+        "model_class": "LLMReranker"
     }
 }
 
 MODEL_CACHE = {}
-
 
 def get_available_models(language: str = None) -> List[Dict]:
     models = []
@@ -60,7 +93,6 @@ def get_available_models(language: str = None) -> List[Dict]:
                 "description": info["description"]
             })
     return models
-
 
 class BaseReranker:
     def __init__(self, model_id: str):
@@ -85,7 +117,6 @@ class BaseReranker:
     def language(self) -> str:
         return self.model_info.get("language", "english")
 
-
 class CrossEncoderReranker(BaseReranker):
     def __init__(self, model_id: str = "cross-encoder/ms-marco-MiniLM-L-6-v2", device: str = "cpu"):
         super().__init__(model_id)
@@ -96,6 +127,10 @@ class CrossEncoderReranker(BaseReranker):
     def initialize(self):
         if not self._initialized:
             try:
+                import os
+                os.environ["TRANSFORMERS_OFFLINE"] = "1"
+                os.environ["HF_DATASETS_OFFLINE"] = "1"
+                os.environ["HF_HUB_OFFLINE"] = "1"
                 from sentence_transformers import CrossEncoder
                 print(f"Loading CrossEncoder model: {self._model_name} (device: {self.device})")
                 start_time = time.time()
@@ -146,49 +181,16 @@ class CrossEncoderReranker(BaseReranker):
         scores = self.model.predict(pairs)
         return [float(s) for s in scores]
 
-
-class GeminiReranker(BaseReranker):
-    def __init__(self, model_id: str = "gemini", api_key: Optional[str] = None, model_name: Optional[str] = None):
-        super().__init__(model_id)
-        self.api_key = api_key or GEMINI_API_KEY
-        self.model_name = model_name or MODEL_NAME
+class LLMReranker(BaseReranker):
+    def __init__(self, model_id: str = None):
+        from llm_config import get_current_provider
+        super().__init__(model_id or get_current_provider())
+        self.provider = model_id or get_current_provider()
         self._initialized = True
+        self.last_call_time = 0
     
     def initialize(self):
         return self
-    
-    def _call_gemini(self, prompt: str, timeout: int = 30) -> Optional[Dict]:
-        url = f"https://generativelanguage.googleapis.com/v1/models/{self.model_name}:generateContent?key={self.api_key}"
-        headers = {'Content-Type': 'application/json'}
-        data = {
-            "contents": [{
-                "parts": [{
-                    "text": prompt
-                }]
-            }]
-        }
-        max_retries = 5
-        for attempt in range(max_retries):
-            try:
-                response = session.post(url, headers=headers, json=data, timeout=timeout, proxies=None)
-                response.raise_for_status()
-                return response.json()
-            except requests.exceptions.Timeout:
-                if attempt < max_retries - 1:
-                    time.sleep(2)
-                else:
-                    raise Exception(f"API timeout after {max_retries} attempts")
-            except requests.exceptions.ConnectionError:
-                if attempt < max_retries - 1:
-                    time.sleep(2)
-                else:
-                    raise Exception(f"Connection error after {max_retries} attempts")
-            except requests.exceptions.SSLError:
-                if attempt < max_retries - 1:
-                    time.sleep(2)
-                else:
-                    raise Exception(f"SSL error after {max_retries} attempts")
-        return None
     
     def rerank(self, query: str, documents: List[Dict], top_k: int = 10) -> List[Dict]:
         if not documents:
@@ -210,9 +212,9 @@ Documents:{docs_text}
 Return: [most_relevant_doc_num, next_doc_num, ...]"""
         
         try:
-            result = self._call_gemini(prompt)
-            if result and 'candidates' in result:
-                text = result['candidates'][0]['content']['parts'][0]['text']
+            text = call_llm(prompt, max_tokens=512, response_format="json")
+            
+            if text:
                 text = text.strip()
                 if text.startswith('```json'):
                     text = text.replace('```json', '').replace('```', '')
@@ -229,11 +231,11 @@ Return: [most_relevant_doc_num, next_doc_num, ...]"""
                         reranked_docs.append(doc)
                 
                 rerank_time = time.time() - start_time
-                print(f"Gemini reranked {len(documents)} documents in {rerank_time:.2f}s")
+                print(f"{self.provider.upper()} reranked {len(documents)} documents in {rerank_time:.2f}s")
                 
                 return reranked_docs[:top_k]
         except Exception as e:
-            print(f"Gemini rerank error: {e}")
+            print(f"{self.provider.upper()} rerank error: {e}")
         
         return sorted(documents, key=lambda x: x.get('rrf_score', 0), reverse=True)[:top_k]
     
@@ -242,6 +244,9 @@ Return: [most_relevant_doc_num, next_doc_num, ...]"""
         scores = [doc.get('rerank_score', 0.0) for doc in documents]
         return scores
 
+class GeminiReranker(LLMReranker):
+    def __init__(self, model_id: str = "gemini", api_key: Optional[str] = None, model_name: Optional[str] = None):
+        super().__init__(model_id="gemini")
 
 def get_reranker(model_id: str = "cross-encoder/ms-marco-MiniLM-L-6-v2", use_gemini: bool = False, device: str = "cpu") -> BaseReranker:
     if use_gemini:
@@ -260,12 +265,13 @@ def get_reranker(model_id: str = "cross-encoder/ms-marco-MiniLM-L-6-v2", use_gem
         reranker = CrossEncoderReranker(model_id=model_id, device=device)
     elif model_class == "GeminiReranker":
         reranker = GeminiReranker(model_id=model_id)
+    elif model_class == "LLMReranker":
+        reranker = LLMReranker(model_id=model_id)
     else:
         raise ValueError(f"Unknown model class: {model_class}")
     
     MODEL_CACHE[model_id] = reranker
     return reranker
-
 
 def rrf_fusion(vector_results: List[Dict], bm25_results: List[Dict], k: int = 60) -> List[Dict]:
     score_map = {}
@@ -302,7 +308,6 @@ def rrf_fusion(vector_results: List[Dict], bm25_results: List[Dict], k: int = 60
     
     results.sort(key=lambda x: x['rrf_score'], reverse=True)
     return results
-
 
 def hybrid_search(db, bm25_retriever, query: str, top_k: int = 10, filter_dict: Optional[Dict] = None, 
                   use_rerank: bool = False, reranker: Optional[BaseReranker] = None) -> List[Dict]:

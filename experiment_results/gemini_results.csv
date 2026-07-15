@@ -1,0 +1,1 @@
+mode,query,query_type,difficulty,latency,num_results,ndcg@5,ndcg@10,mrr,result_0_id,result_1_id,result_2_id,result_3_id,result_4_id,result_0_score,result_1_score,result_2_score,result_3_score,result_4_score

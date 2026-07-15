@@ -1,0 +1,359 @@
+{
+  "how to reset the device": {
+    "relevant_ids": [
+      "1812",
+      "1775",
+      "2785",
+      "21",
+      "29"
+    ],
+    "type": "semantic",
+    "difficulty": "easy",
+    "num_relevant": 5
+  },
+  "scan to email": {
+    "relevant_ids": [
+      "79",
+      "1570",
+      "1812",
+      "1816",
+      "2282"
+    ],
+    "type": "keyword",
+    "difficulty": "easy",
+    "num_relevant": 5
+  },
+  "print from mobile phone": {
+    "relevant_ids": [
+      "68",
+      "66",
+      "67",
+      "76",
+      "77"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "connect printer to wifi network": {
+    "relevant_ids": [
+      "21",
+      "24",
+      "29",
+      "31",
+      "32"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "replace toner cartridge": {
+    "relevant_ids": [
+      "194",
+      "22",
+      "189",
+      "191",
+      "193"
+    ],
+    "type": "keyword",
+    "difficulty": "easy",
+    "num_relevant": 5
+  },
+  "clean the printhead": {
+    "relevant_ids": [
+      "191",
+      "250",
+      "260",
+      "262",
+      "263"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "paper jam solution": {
+    "relevant_ids": [
+      "200",
+      "202",
+      "204",
+      "205",
+      "206"
+    ],
+    "type": "keyword",
+    "difficulty": "easy",
+    "num_relevant": 5
+  },
+  "send fax to multiple recipients": {
+    "relevant_ids": [
+      "96",
+      "87",
+      "88",
+      "91",
+      "92"
+    ],
+    "type": "semantic",
+    "difficulty": "hard",
+    "num_relevant": 5
+  },
+  "factory reset printer": {
+    "relevant_ids": [
+      "208",
+      "2785",
+      "7",
+      "15",
+      "18"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "software update for printer": {
+    "relevant_ids": [
+      "20",
+      "62",
+      "63",
+      "64",
+      "356"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "configure network settings": {
+    "relevant_ids": [
+      "58",
+      "113",
+      "120",
+      "246",
+      "266"
+    ],
+    "type": "semantic",
+    "difficulty": "hard",
+    "num_relevant": 5
+  },
+  "check ink level": {
+    "relevant_ids": [
+      "192",
+      "26",
+      "72",
+      "215",
+      "216"
+    ],
+    "type": "keyword",
+    "difficulty": "easy",
+    "num_relevant": 5
+  },
+  "duplex printing setup": {
+    "relevant_ids": [
+      "71",
+      "120",
+      "127",
+      "150",
+      "151"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "scan document to USB drive": {
+    "relevant_ids": [
+      "79",
+      "35",
+      "36",
+      "724",
+      "732"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "setup email notification": {
+    "relevant_ids": [
+      "119",
+      "150",
+      "151",
+      "188",
+      "698"
+    ],
+    "type": "semantic",
+    "difficulty": "hard",
+    "num_relevant": 5
+  },
+  "how to install printer driver": {
+    "relevant_ids": [
+      "21",
+      "79",
+      "209",
+      "214",
+      "215"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "wireless connection setup": {
+    "relevant_ids": [
+      "34",
+      "150",
+      "151",
+      "188",
+      "215"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "maintenance schedule": {
+    "relevant_ids": [
+      "93",
+      "259",
+      "285",
+      "1449",
+      "1453"
+    ],
+    "type": "keyword",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "troubleshoot print quality": {
+    "relevant_ids": [
+      "222",
+      "223",
+      "255",
+      "7",
+      "9"
+    ],
+    "type": "semantic",
+    "difficulty": "hard",
+    "num_relevant": 5
+  },
+  "energy saving mode": {
+    "relevant_ids": [
+      "61",
+      "116",
+      "123",
+      "163",
+      "164"
+    ],
+    "type": "keyword",
+    "difficulty": "easy",
+    "num_relevant": 5
+  },
+  "how to scan multiple pages": {
+    "relevant_ids": [
+      "79",
+      "96",
+      "209",
+      "213",
+      "1775"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "change paper size": {
+    "relevant_ids": [
+      "49",
+      "295",
+      "15",
+      "34",
+      "38"
+    ],
+    "type": "keyword",
+    "difficulty": "easy",
+    "num_relevant": 5
+  },
+  "set up scan to network folder": {
+    "relevant_ids": [
+      "246",
+      "266",
+      "24",
+      "29",
+      "31"
+    ],
+    "type": "semantic",
+    "difficulty": "hard",
+    "num_relevant": 5
+  },
+  "firmware upgrade instructions": {
+    "relevant_ids": [
+      "310",
+      "2794"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 2
+  },
+  "default settings": {
+    "relevant_ids": [
+      "49",
+      "15",
+      "58",
+      "61",
+      "112"
+    ],
+    "type": "keyword",
+    "difficulty": "easy",
+    "num_relevant": 5
+  },
+  "how to use automatic document feeder": {
+    "relevant_ids": [
+      "48",
+      "197",
+      "206",
+      "209",
+      "263"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "adjust print density": {
+    "relevant_ids": [
+      "7",
+      "9",
+      "15",
+      "18",
+      "19"
+    ],
+    "type": "semantic",
+    "difficulty": "medium",
+    "num_relevant": 5
+  },
+  "cancel print job": {
+    "relevant_ids": [
+      "7",
+      "9",
+      "15",
+      "18",
+      "19"
+    ],
+    "type": "keyword",
+    "difficulty": "easy",
+    "num_relevant": 5
+  },
+  "network troubleshooting guide": {
+    "relevant_ids": [
+      "24",
+      "29",
+      "31",
+      "32",
+      "58"
+    ],
+    "type": "semantic",
+    "difficulty": "hard",
+    "num_relevant": 5
+  },
+  "recommended paper types": {
+    "relevant_ids": [
+      "38",
+      "40",
+      "44",
+      "49",
+      "50"
+    ],
+    "type": "keyword",
+    "difficulty": "easy",
+    "num_relevant": 5
+  }
+}

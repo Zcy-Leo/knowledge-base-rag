@@ -1,0 +1,24 @@
+{
+  "test_results": {
+    "full_ingest_time": 0.20528388023376465,
+    "incremental_ingest_time": 0.18132972717285156,
+    "time_savings_percent": 11.668793981113163,
+    "versions_tracked": 1,
+    "active_chunks": 5,
+    "temporal_query_results": 1,
+    "rebuild_time": 0.6504921913146973,
+    "system_stats": {
+      "active_chunks": 5,
+      "total_versions": 5,
+      "unique_documents": 1,
+      "tracked_documents": 1
+    }
+  },
+  "livevectorlake_features": {
+    "sha256_chunk_cdc": true,
+    "dual_tier_storage": true,
+    "temporal_query": true,
+    "incremental_update": true,
+    "version_control": true
+  }
+}

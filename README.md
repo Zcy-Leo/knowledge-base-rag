@@ -87,14 +87,31 @@ knowledge-base-rag/
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `GEMINI_API_KEY` | Yes | Google Gemini API key |
+| `LLM_PROVIDER` | No | LLM provider: `gemini`, `deepseek`, `zhipu`, `qianwen`, `doubao` (default: `gemini`) |
+| `GEMINI_API_KEY` | Conditional | Google Gemini API key (required if `LLM_PROVIDER=gemini`) |
+| `DEEPSEEK_API_KEY` | Conditional | DeepSeek API key (required if `LLM_PROVIDER=deepseek`) |
+| `ZHIPU_API_KEY` | Conditional | ZhiPu GLM API key (required if `LLM_PROVIDER=zhipu`) |
+| `QIANWEN_API_KEY` | Conditional | Aliyun Qianwen API key (required if `LLM_PROVIDER=qianwen`) |
+| `DOUBAO_API_KEY` | Conditional | ByteDance Doubao API key (required if `LLM_PROVIDER=doubao`) |
+
+### LLM Providers
+
+The system supports multiple LLM providers, including domestic options for China users:
+
+| Provider | Model | Free Tier | API Format | Website |
+|----------|-------|-----------|------------|---------|
+| **Gemini** | gemini-2.5-flash | Yes | Custom | https://aistudio.google.com/ |
+| **DeepSeek** | deepseek-chat | Yes | OpenAI-compatible | https://platform.deepseek.com/ |
+| **ZhiPu GLM** | glm-4-flash | Yes | OpenAI-compatible | https://open.bigmodel.cn/ |
+| **Aliyun Qianwen** | qwen-turbo | Yes | OpenAI-compatible | https://dashscope.console.aliyun.com/ |
+| **ByteDance Doubao** | doubao-pro | Yes | OpenAI-compatible | https://www.volcengine.com/product/doubao |
 
 ### Model Configuration
 
 The system uses the following models (auto-downloaded on first run):
 - **Embedding**: `bge-small-en-v1.5` (SentenceTransformers)
 - **CrossEncoder**: `ms-marco-MiniLM-L-6-v2` (SentenceTransformers)
-- **LLM**: `gemini-1.5-flash` (Google Gemini)
+- **LLM**: Configurable via `LLM_PROVIDER`
 
 ## Usage
 

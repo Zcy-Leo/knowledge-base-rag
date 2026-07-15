@@ -2,15 +2,25 @@ import os
 import pickle
 import re
 import uuid
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
+
+try:
+    import nltk
+    from nltk.tokenize import word_tokenize
+    from nltk.corpus import stopwords
+    
+    try:
+        STOPWORDS = set(stopwords.words('english'))
+    except LookupError:
+        nltk.download('stopwords', quiet=True)
+        STOPWORDS = set(stopwords.words('english'))
+except Exception:
+    import re
+    STOPWORDS = set(['the', 'a', 'an', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could', 'should', 'may', 'might', 'must', 'shall', 'can', 'need', 'dare', 'ought', 'used', 'to', 'of', 'in', 'for', 'on', 'with', 'at', 'by', 'from', 'as', 'into', 'through', 'during', 'before', 'after', 'above', 'below', 'between', 'under', 'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than', 'too', 'very', 'just', 'but', 'and', 'if', 'or', 'because', 'until', 'while', 'this', 'that', 'these', 'those', 'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', 'your', 'yours', 'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers', 'herself', 'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves'])
+    
+    def word_tokenize(text):
+        return re.findall(r'\w+', text.lower())
+
 from rank_bm25 import BM25Okapi
-
-nltk.download('punkt', quiet=True)
-nltk.download('stopwords', quiet=True)
-
-STOPWORDS = set(stopwords.words('english'))
 
 class BM25Retriever:
     def __init__(self, persist_dir=None):
@@ -126,30 +136,39 @@ def get_bm25_retriever(persist_dir=None):
     return retriever
 
 
-def sync_bm25_with_chroma(db, persist_dir=None):
+def sync_bm25_with_chroma(db_or_reader, persist_dir=None):
     try:
-        all_docs = db.get()
-        if not all_docs or len(all_docs['documents']) == 0:
+        if hasattr(db_or_reader, 'get_documents_with_metadatas'):
+            all_docs_dict = db_or_reader.get_documents_with_metadatas()
+            all_data = {
+                'ids': list(all_docs_dict.keys()),
+                'documents': [all_docs_dict[id].get('content', '') for id in all_docs_dict.keys()],
+                'metadatas': [all_docs_dict[id].get('metadata', {}) for id in all_docs_dict.keys()]
+            }
+        else:
+            all_data = db_or_reader.get()
+        
+        if not all_data or len(all_data['documents']) == 0:
             return None
         
         retriever = get_bm25_retriever(persist_dir)
         
-        chroma_ids = set(all_docs['ids'])
+        chroma_ids = set(all_data['ids'])
         if retriever.get_index_size() > 0:
             existing_ids = set(retriever.doc_ids)
             new_ids = chroma_ids - existing_ids
             
             if new_ids:
-                new_idx = [i for i, doc_id in enumerate(all_docs['ids']) if doc_id in new_ids]
-                new_docs = [all_docs['documents'][i] for i in new_idx]
-                new_ids_list = [all_docs['ids'][i] for i in new_idx]
-                new_meta = [all_docs['metadatas'][i] for i in new_idx]
+                new_idx = [i for i, doc_id in enumerate(all_data['ids']) if doc_id in new_ids]
+                new_docs = [all_data['documents'][i] for i in new_idx]
+                new_ids_list = [all_data['ids'][i] for i in new_idx]
+                new_meta = [all_data['metadatas'][i] for i in new_idx]
                 retriever.add_documents(new_docs, new_ids_list, new_meta)
         else:
             retriever.build_index(
-                documents=all_docs['documents'],
-                doc_ids=all_docs['ids'],
-                metadata=all_docs['metadatas']
+                documents=all_data['documents'],
+                doc_ids=all_data['ids'],
+                metadata=all_data['metadatas']
             )
         
         return retriever

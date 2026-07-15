@@ -1,70 +1,28 @@
 """
 llm_classify.py
-Use Google Gemini to auto-classify knowledge entries and extract keywords.
-Compares LLM classification with rule-based classification.
+Auto-classify knowledge entries and extract keywords using configurable LLM provider.
+Supports multiple providers including Gemini, DeepSeek, ZhiPu GLM, Aliyun Qianwen, and Doubao.
 """
 import json
 import time
 import os
-import requests
 from dotenv import load_dotenv
+from llm_provider import LLMProvider, call_llm
 
-load_dotenv()
+env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+load_dotenv(env_path, override=True)
 
-# --- Configuration ---
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL_NAME = "gemini-2.5-flash"  # Updated model name
 INPUT_FILE = "knowledge_180_marker.json"
 OUTPUT_FILE = "knowledge_180_marker_llm.json"
-BATCH_SIZE = 5  # entries per API call (to save quota)
-RATE_LIMIT_DELAY = 4.5  # seconds between batches (15 req/min = 1 per 4s)
-
-# --- Setup requests session ---
-session = requests.Session()
-session.trust_env = False
-
-def call_gemini_api(prompt, timeout=30):
-    """Call Gemini API directly using requests with retry."""
-    url = f"https://generativelanguage.googleapis.com/v1/models/{MODEL_NAME}:generateContent?key={GEMINI_API_KEY}"
-    headers = {'Content-Type': 'application/json'}
-    data = {
-        "contents": [{
-            "parts": [{
-                "text": prompt
-            }]
-        }]
-    }
-    max_retries = 2
-    for attempt in range(max_retries):
-        try:
-            response = session.post(url, headers=headers, json=data, timeout=timeout)
-            if response.status_code == 401:
-                error_info = response.json()
-                reason = error_info.get('error', {}).get('details', [{}])[0].get('metadata', {}).get('reason', 'Unknown')
-                raise Exception(f"API Authentication Failed (Code: {response.status_code}, Reason: {reason})")
-            response.raise_for_status()
-            return response.json()
-        except requests.exceptions.Timeout:
-            if attempt < max_retries - 1:
-                print(f"API timeout, retrying ({attempt + 1}/{max_retries})...")
-                time.sleep(2)
-            else:
-                raise Exception(f"API timeout after {max_retries} attempts")
-        except requests.exceptions.ConnectionError:
-            if attempt < max_retries - 1:
-                print(f"API connection error, retrying ({attempt + 1}/{max_retries})...")
-                time.sleep(2)
-            else:
-                raise Exception(f"API connection failed after {max_retries} attempts")
+BATCH_SIZE = 5
+RATE_LIMIT_DELAY = 4.5
 
 def load_and_process():
-    """Main processing function (only when run directly)."""
     global data, entries
     data = json.load(open(INPUT_FILE, 'r', encoding='utf-8'))
     entries = data['entries']
     print(f"Loaded {len(entries)} entries from {INPUT_FILE}")
 
-# --- Classification prompt template ---
 PROMPT_TEMPLATE_HEADER = """You are a document classification assistant. For each entry below, determine:
 1. type: one of [sop_step, faq, manual_section, general]
    - sop_step: step-by-step instructions or procedures
@@ -82,9 +40,7 @@ Here are the entries:
 
 PROMPT_TEMPLATE_FOOTER = "\n\nRespond ONLY with the JSON array, no other text."
 
-
 def build_entries_text(batch):
-    """Format a batch of entries for the prompt."""
     lines = []
     for i, entry in enumerate(batch):
         title = entry.get('title', '')[:100]
@@ -92,9 +48,9 @@ def build_entries_text(batch):
         lines.append(f"Entry {i}:\n  Title: {title}\n  Content: {content}\n")
     return "\n".join(lines)
 
-
 def parse_llm_response(text):
-    """Parse LLM JSON response, handling markdown code blocks."""
+    if text is None:
+        return None
     text = text.strip()
     if text.startswith("```"):
         text = text.split("\n", 1)[1] if "\n" in text else text[3:]
@@ -108,9 +64,7 @@ def parse_llm_response(text):
     except json.JSONDecodeError:
         return None
 
-
 def process_entries_from_file():
-    """Main processing function when run directly from command line."""
     data = json.load(open(INPUT_FILE, 'r', encoding='utf-8'))
     entries = data['entries']
     print(f"Loaded {len(entries)} entries from {INPUT_FILE}")
@@ -119,8 +73,10 @@ def process_entries_from_file():
     processed = 0
     failed = 0
     changes = 0
+    from llm_config import get_current_provider, get_current_provider_name
+    provider = get_current_provider()
     
-    print(f"\nProcessing {total} entries in batches of {BATCH_SIZE}...")
+    print(f"\nProcessing {total} entries in batches of {BATCH_SIZE} using {get_current_provider_name()}...")
     print(f"Estimated time: ~{(total / BATCH_SIZE) * RATE_LIMIT_DELAY / 60:.1f} minutes\n")
     
     for batch_start in range(0, total, BATCH_SIZE):
@@ -131,8 +87,7 @@ def process_entries_from_file():
         prompt = PROMPT_TEMPLATE_HEADER + entries_text + PROMPT_TEMPLATE_FOOTER
         
         try:
-            result = call_gemini_api(prompt)
-            text = result['candidates'][0]['content']['parts'][0]['text']
+            text = call_llm(prompt, provider=provider, max_tokens=4096, response_format="json")
             results = parse_llm_response(text)
             
             if results:
@@ -162,7 +117,7 @@ def process_entries_from_file():
     
     data['entries'] = entries
     data['llm_classification'] = {
-        "model": MODEL_NAME,
+        "model": provider,
         "total_processed": processed,
         "total_failed": failed,
         "type_changes": changes,
@@ -190,20 +145,9 @@ def process_entries_from_file():
     for t in sorted(set(list(rule_tc.keys()) + list(llm_tc.keys()))):
         print(f"  {t:<20} {rule_tc.get(t, 0):<12} {llm_tc.get(t, 0):<12}")
 
-
-# --- UI Interface Function ---
-def classify_with_gemini(title, content):
-    """Classify a single entry with Gemini API.
-    
-    Args:
-        title: Entry title
-        content: Entry content
-        
-    Returns:
-        Dictionary with 'type', 'keywords', and 'confidence'
-    """
+def classify_with_llm(title, content, provider=None):
     prompt = f"""You are a document classification assistant. Analyze the following entry:
-    
+
 Title: {title[:100]}
 Content: {content[:300]}
 
@@ -220,8 +164,7 @@ Respond ONLY with a JSON object like:
 """
     
     try:
-        result = call_gemini_api(prompt)
-        text = result['candidates'][0]['content']['parts'][0]['text']
+        text = call_llm(prompt, max_tokens=1024, response_format="json")
         parsed = parse_llm_response(text)
         
         if parsed and isinstance(parsed, dict):
@@ -247,16 +190,10 @@ Respond ONLY with a JSON object like:
         print(f"LLM classification error: {e}")
         return {'type': 'general', 'keywords': [], 'confidence': 0.3}
 
+def classify_with_gemini(title, content):
+    return classify_with_llm(title, content, provider="gemini")
 
-def classify_batch_with_gemini(entries):
-    """Classify multiple entries in a single API call (much faster).
-    
-    Args:
-        entries: List of dictionaries with 'title' and 'content'
-        
-    Returns:
-        List of dictionaries with 'type', 'keywords', 'confidence' for each entry
-    """
+def classify_batch_with_llm(entries):
     if not entries:
         return []
     
@@ -289,8 +226,7 @@ Respond ONLY with a JSON array like:
 """
     
     try:
-        result = call_gemini_api(prompt)
-        text = result['candidates'][0]['content']['parts'][0]['text']
+        text = call_llm(prompt, max_tokens=4096, response_format="json")
         parsed = parse_llm_response(text)
         
         if parsed and isinstance(parsed, list):
@@ -308,12 +244,14 @@ Respond ONLY with a JSON array like:
                     results[i] = {'type': 'general', 'keywords': [], 'confidence': 0.5}
             return results
         else:
-            return [classify_with_gemini(e.get('title', ''), e.get('content', '')) for e in entries]
+            return [classify_with_llm(e.get('title', ''), e.get('content', '')) for e in entries]
             
     except Exception as e:
         print(f"LLM batch classification error: {e}")
-        return [classify_with_gemini(e.get('title', ''), e.get('content', '')) for e in entries]
+        return [classify_with_llm(e.get('title', ''), e.get('content', '')) for e in entries]
 
+def classify_batch_with_gemini(entries):
+    return classify_batch_with_llm(entries)
 
 if __name__ == "__main__":
     process_entries_from_file()

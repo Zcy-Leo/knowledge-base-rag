@@ -1,22 +1,17 @@
 import os
 import time
-import requests
+import re
 from typing import List, Dict, Optional, Generator
 from dotenv import load_dotenv
 
-load_dotenv()
+env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+load_dotenv(env_path, override=True)
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL_NAME = "gemini-2.5-flash"
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent?key={GEMINI_API_KEY}"
-
-session = requests.Session()
-session.verify = False
+from llm_provider import LLMProvider, call_llm
 
 DEFAULT_MAX_TOKENS = 2048
 DEFAULT_TEMPERATURE = 0.1
 DEFAULT_TOP_K = 5
-
 
 def _clean_content(content: str) -> str:
     if "[Content] " in content:
@@ -58,11 +53,11 @@ Answer:"""
     
     return prompt
 
-
 def generate_answer(query: str, search_results: List[Dict], 
                     max_tokens: int = DEFAULT_MAX_TOKENS, 
                     temperature: float = DEFAULT_TEMPERATURE,
-                    top_k: int = DEFAULT_TOP_K) -> Dict:
+                    top_k: int = DEFAULT_TOP_K,
+                    provider: str = None) -> Dict:
     if not search_results:
         return {
             'answer': "No relevant documents found.",
@@ -71,37 +66,21 @@ def generate_answer(query: str, search_results: List[Dict],
             'success': True
         }
     
-    if not GEMINI_API_KEY:
-        return {
-            'answer': "Gemini API key not configured. Please set GEMINI_API_KEY environment variable.",
-            'sources': [],
-            'latency': 0,
-            'success': False
-        }
-    
     prompt = build_rag_prompt(query, search_results, top_k)
-    
-    payload = {
-        "contents": [{
-            "parts": [{
-                "text": prompt
-            }]
-        }],
-        "generationConfig": {
-            "maxOutputTokens": max_tokens,
-            "temperature": temperature,
-            "topP": 0.9
-        }
-    }
     
     start_time = time.time()
     
     try:
-        response = session.post(API_URL, json=payload, timeout=60)
-        response.raise_for_status()
-        data = response.json()
+        answer = call_llm(prompt, max_tokens=max_tokens, temperature=temperature)
         
-        answer = data['candidates'][0]['content']['parts'][0]['text']
+        if answer is None:
+            latency = time.time() - start_time
+            return {
+                'answer': "LLM API key not configured.",
+                'sources': [],
+                'latency': round(latency, 2),
+                'success': False
+            }
         
         latency = time.time() - start_time
         
@@ -121,7 +100,7 @@ def generate_answer(query: str, search_results: List[Dict],
             'success': True
         }
     
-    except requests.exceptions.RequestException as e:
+    except Exception as e:
         latency = time.time() - start_time
         return {
             'answer': f"LLM API error: {str(e)}",
@@ -130,69 +109,40 @@ def generate_answer(query: str, search_results: List[Dict],
             'success': False
         }
 
-
 def generate_answer_streaming(query: str, search_results: List[Dict],
                               max_tokens: int = DEFAULT_MAX_TOKENS,
                               temperature: float = DEFAULT_TEMPERATURE,
-                              top_k: int = DEFAULT_TOP_K) -> Generator[str, None, None]:
+                              top_k: int = DEFAULT_TOP_K,
+                              provider: str = None) -> Generator[str, None, None]:
     if not search_results:
         yield "No relevant documents found."
         return
     
-    if not GEMINI_API_KEY:
-        yield "Gemini API key not configured."
-        return
-    
     prompt = build_rag_prompt(query, search_results, top_k)
     
-    payload = {
-        "contents": [{
-            "parts": [{
-                "text": prompt
-            }]
-        }],
-        "generationConfig": {
-            "maxOutputTokens": max_tokens,
-            "temperature": temperature,
-            "topP": 0.9
-        },
-        "stream": True
-    }
-    
     try:
-        response = session.post(API_URL, json=payload, timeout=120, stream=True)
-        response.raise_for_status()
+        answer = call_llm(prompt, max_tokens=max_tokens, temperature=temperature)
+        
+        if answer is None:
+            yield "LLM API key not configured."
+            return
         
         buffer = ""
-        for line in response.iter_lines():
-            if line:
-                try:
-                    import json
-                    data = json.loads(line.decode('utf-8').replace('data: ', ''))
-                    if 'candidates' in data and data['candidates']:
-                        parts = data['candidates'][0].get('content', {}).get('parts', [])
-                        if parts:
-                            text = parts[0].get('text', '')
-                            if text:
-                                buffer += text
-                                if len(buffer) >= 50 or any(p in buffer for p in ['.', '!', '?', '\n']):
-                                    yield buffer
-                                    buffer = ""
-                except (json.JSONDecodeError, KeyError):
-                    continue
+        for char in answer:
+            buffer += char
+            if len(buffer) >= 50 or char in ['.', '!', '?', '\n']:
+                yield buffer
+                buffer = ""
         
         if buffer:
             yield buffer
     
-    except requests.exceptions.RequestException as e:
+    except Exception as e:
         yield f"LLM API error: {str(e)}"
 
-
 def extract_citations(answer: str) -> List[str]:
-    import re
     citations = re.findall(r'\[(\d+)\]', answer)
     return sorted(set(citations))
-
 
 if __name__ == "__main__":
     test_results = [

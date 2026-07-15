@@ -337,18 +337,22 @@ def _extract_with_tesseract(file_path: str) -> KnowledgeBase:
         custom_config = r'--oem 3 --psm 3 -l eng'
         full_text = pytesseract.image_to_string(img, config=custom_config)
         
-        if not full_text or len(full_text.strip()) < 10:
-            print("[Tesseract] No meaningful text extracted from {file_path}")
+        if not full_text or len(full_text.strip()) < 3:
+            print(f"[Tesseract] No meaningful text extracted from {file_path}")
             return kb
         
         full_text = _clean_garbled_text(full_text)
-        if not full_text or len(full_text.strip()) < 10:
+        if not full_text or len(full_text.strip()) < 3:
             return kb
-        
-        paragraphs = [p.strip() for p in re.split(r'\n{2,}', full_text) if p.strip() and len(p.strip()) >= 15]
+
+        full_text = _post_process_ocr_text(full_text)
+        if not full_text or len(full_text.strip()) < 3:
+            return kb
+
+        paragraphs = [p.strip() for p in re.split(r'\n{2,}', full_text) if p.strip() and len(p.strip()) >= 5]
         
         if not paragraphs:
-            paragraphs = [p.strip() for p in full_text.split('\n') if p.strip() and len(p.strip()) >= 15]
+            paragraphs = [p.strip() for p in full_text.split('\n') if p.strip() and len(p.strip()) >= 3]
         
         for para in paragraphs:
             alpha_ratio = sum(1 for c in para if c.isalpha()) / max(len(para), 1)
@@ -370,16 +374,52 @@ def _extract_with_tesseract(file_path: str) -> KnowledgeBase:
             )
             kb.add(entry)
         
-        print("[Tesseract] Extracted {len(kb.entries)} entries from image")
+        print(f"[Tesseract] Extracted {len(kb.entries)} entries from image")
     
     except pytesseract.TesseractNotFoundError:
         print("[ERROR] Tesseract executable not found.")
         return _fallback_text_extraction(file_path)
     except Exception as e:
-        print("[ERROR] Tesseract OCR failed: {e}")
+        print(f"[ERROR] Tesseract OCR failed: {e}")
         return _fallback_text_extraction(file_path)
     
     return kb
+
+
+def _post_process_ocr_text(text: str) -> str:
+    """Post-process OCR text to fix common recognition errors."""
+    if not text:
+        return ""
+
+    # 1. Fix § symbol misrecognition: $1.3 → §1.3, $6.1 → §6.1
+    text = re.sub(r'\$(\d+\.\d+)', r'§\1', text)
+
+    # 2. Join hyphenated words at line breaks: "competi-\ntive" → "competitive"
+    text = re.sub(r'-\n(\w)', r'\1', text)
+
+    # 3. Normalize smart/curly quotes to straight quotes
+    text = text.replace('\u201c', '"').replace('\u201d', '"')
+    text = text.replace('\u2018', "'").replace('\u2019', "'")
+    text = text.replace('\u201a', "'").replace('\u201b', "'")
+    text = text.replace('\u201e', '"').replace('\u201f', '"')
+
+    # 4. Remove leading short noise lines (e.g. "cro," at the start)
+    lines = text.split('\n')
+    while lines:
+        first = lines[0].strip()
+        if not first:
+            lines.pop(0)
+            continue
+        if len(first) <= 4 and not first.isupper():
+            lines.pop(0)
+            continue
+        break
+    text = '\n'.join(lines)
+
+    # 5. Collapse multiple spaces
+    text = re.sub(r'[ \t]{2,}', ' ', text)
+
+    return text
 
 
 def _clean_garbled_text(text: str) -> str:
@@ -1179,30 +1219,55 @@ def _extract_with_epub_parser(file_path: str) -> KnowledgeBase:
 def _extract_keywords(text: str, max_kw: int = 8) -> list:
     keywords = []
     clean_text = re.sub(r'[<>{}[\]\\|]', ' ', text)
-    
+
+    stop_words = {'the', 'and', 'for', 'are', 'you', 'your', 'this', 'that', 'with', 'from',
+                  'into', 'onto', 'over', 'under', 'through', 'between', 'among', 'without',
+                  'within', 'upon', 'than', 'but', 'or', 'so', 'yet', 'because', 'while', 'if',
+                  'when', 'though', 'although', 'unless', 'until', 'since', 'as', 'than', 'that',
+                  'which', 'who', 'whom', 'whose', 'what', 'where', 'why', 'how', 'is', 'are',
+                  'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'do', 'does', 'did',
+                  'will', 'would', 'could', 'should', 'may', 'might', 'must', 'shall', 'can',
+                  'not', 'all', 'any', 'such', 'same', 'other', 'some', 'each', 'every', 'both',
+                  'few', 'more', 'most', 'less', 'least', 'own', 'one', 'two', 'his', 'her',
+                  'its', 'their', 'our', 'we', 'they', 'he', 'she', 'it', 'an', 'no', 'nor'}
+
+    # 1. ALL CAPS words (acronyms like OPM, NASA)
     upper_words = re.findall(r'\b[A-Z]{3,}\b', clean_text)
     keywords.extend(list(set(upper_words))[:4])
-    
-    title_words = re.findall(r'(?:^|\n|\.\s|\:\s)([A-Z][a-zA-Z]{2,})', clean_text)
-    stop_words = {'the', 'and', 'for', 'are', 'you', 'your', 'this', 'that', 'with', 'from', 
-                  'into', 'onto', 'over', 'under', 'through', 'between', 'among', 'without', 
-                  'within', 'upon', 'than', 'but', 'or', 'so', 'yet', 'because', 'while', 'if', 
-                  'when', 'though', 'although', 'unless', 'until', 'since', 'as', 'than', 'that', 
-                  'which', 'who', 'whom', 'whose', 'what', 'where', 'why', 'how', 'is', 'are', 
-                  'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'do', 'does', 'did', 
-                  'will', 'would', 'could', 'should', 'may', 'might', 'must', 'shall', 'can'}
+
+    # 2. Section references: §1.1, §6.1
+    section_refs = re.findall(r'§\d+\.\d+', clean_text)
+    keywords.extend(section_refs[:2])
+
+    # 3. Title-case words at sentence/line beginnings (including after section numbers like "1.1 ")
+    title_words = re.findall(r'(?:^|\n|\.\s|\:\s|\(\w\)\s|§?\d+\.\d+\s)([A-Z][a-zA-Z]{2,})', clean_text)
     keywords.extend([w for w in title_words if w.lower() not in stop_words][:4])
-    
+
+    # 4. Step/Phase/Chapter/Section patterns
     step_patterns = re.findall(r'\b(Step\s+\d+|Phase\s+\d+|Chapter\s+\d+|Section\s+\d+)\b', clean_text, re.IGNORECASE)
     keywords.extend(step_patterns[:2])
-    
+
+    # 5. Tech terms
     tech_terms = re.findall(r'\b(printer|scanner|document|network|wireless|USB|Wi-Fi|Ethernet|software|driver|settings|paper|cartridge|ink|toner|control|panel|display|button|menu|option|feature|function|system|device|installation|setup|configuration|connection|interface|memory|storage|data|file|folder|image|text|table|page|format|size|quality|speed|performance|support|help|guide|manual|troubleshoot|error|problem|solution|warning|caution|note)\b', clean_text, re.IGNORECASE)
     keywords.extend([w.lower() for w in tech_terms][:3])
+
+    # 6. Domain terms (legal/government/policy)
+    domain_terms = re.findall(r'\b(competitive\s+service|excepted\s+service|competitive\s+status|competitive\s+position|civil\s+service|career\s+appointment|probationary\s+period|executive\s+branch|legislative\s+branch|judicial\s+branch|personnel\s+management|statute|regulation|appointment|tenure|incumbent|position|employee|status|schedule|authority|service|rule)\b', clean_text, re.IGNORECASE)
+    keywords.extend([w.lower() for w in domain_terms][:3])
+
+    # 7. Frequent meaningful words (appears 2+ times, length 5+)
+    words = re.findall(r'\b[a-z]{5,}\b', clean_text.lower())
+    word_freq = {}
+    for w in words:
+        if w not in stop_words:
+            word_freq[w] = word_freq.get(w, 0) + 1
+    freq_words = sorted([w for w, c in word_freq.items() if c >= 2], key=lambda x: -word_freq[x])
+    keywords.extend(freq_words[:3])
     
     seen = set()
     result = []
     for kw in keywords:
-        kw_clean = kw.strip()
+        kw_clean = re.sub(r'\s+', ' ', kw.strip())
         if len(kw_clean) >= 3 and kw_clean.lower() not in stop_words:
             kw_normalized = kw_clean.lower()
             if kw_normalized not in seen:
